@@ -1,6 +1,8 @@
 {{!< default}}
 
+<div class="de-posts-list">
 {{#foreach posts}}
+
   <div class="de-post-box {{post_class}}" id="de-post-{{@index}}">
     <a href="{{url}}">
 
@@ -11,4 +13,6 @@
       <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY" timeago="true"}}</time>
     </a>
   </div>
+
 {{/foreach}}
+</div>

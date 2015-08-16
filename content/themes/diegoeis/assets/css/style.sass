@@ -5,28 +5,36 @@
   padding: 0
   box-sizing: border-box
 
-html, body
-  height: 100%
-  min-height: 100%
-  overflow: auto
-
 .home-template
   background: #F4F4F4
 
 body
-  border-left: 20px solid $yellow
   font: 100% Lato, Times New Roman, Georgia
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
+  &:before
+    content: ""
+    height: 100%
+    width: 10px
+    background: $yellow
+    position: fixed
+    top: 0
+    left: 0
+
+
 .de-header
-  padding: 2% 8%
+  padding: 3% 8%
+
+  &:after
+    content: ""
+    display: block
+    clear: both
 
   .de-logo
     font-size: 1rem
     font-weight: 400
-    display: inline-block
-    vertical-align: middle
+    float: left
 
     a
       color: #000
@@ -36,8 +44,7 @@ body
       font-weight: 300
 
   .nav
-    display: inline-block
-    vertical-align: middle
+    float: right
     list-style: none
     padding: 0 30px
 
@@ -45,7 +52,7 @@ body
       display: inline-block
 
     a
-      padding: 10px 20px
+      padding: 10px
       color: #000
       font-size: 1rem
       text-decoration: none
@@ -57,13 +64,14 @@ p
   color: #333
   text-align: left
   font-weight: 400
-  font-size: 1.2rem
+  font-size: .9rem
   line-height: 1.7
   margin-bottom: 30px
 
 .de-wrapper
-  padding: 8%
-  max-width: 1000px
+  padding: 5% 8%
+  padding-bottom: 0
+  max-width: 1100px
 
   .home-template &
     max-width: 1700px
@@ -73,25 +81,32 @@ time
   display: inline-block
   padding-top: 30px
 
+.de-posts-list
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-wrap: wrap
+  flex-wrap: wrap
+
 .de-post-box
-  width: 30%
-  min-width: 300px
+  -webkit-flex: 1 0 300px
+  flex: 1 0 300px
   background: #fff
-  display: inline-block
-  vertical-align: top
   margin-right: 3%
   margin-bottom: 3%
+  position: relative
+  transition: background .10s linear
+
+  &:hover
+    background: $yellow
+
+    h2:after
+      border-color: #fff
 
   a
     text-decoration: none
     padding: 15%
     display: block
 
-    &:hover
-      background: $yellow
-
-      h2:after
-        border-color: #fff
 
   h2
     display: block
@@ -118,17 +133,35 @@ time
 .de-post-title
   color: #333
   font-weight: 700
-  font-size: 3.5rem
+  font-size: 2rem
 
 article
   h2
-    font-size: 2.8rem
+    font-size: 2rem
 
   h3
-    font-size: 2rem
+    font-size: 1.5rem
 
   h2, h3, h4, h5, h6
     margin: 30px 0 15px
+
+  p > code
+    padding: 2px 4px
+    color: #c7254e
+    background-color: #f9f2f4
+    white-space: wrap
+    border-radius: 4px
+    font-size: 17px
+
+  pre code
+    white-space: wrap
+    overflow: auto
+    display: block
+    background: #f4f4f4
+    border: 1px solid #ccc
+    border-radius: 5px
+    margin-bottom: 15px
+    padding: 20px
 
   header
     margin-bottom: 10%
@@ -153,9 +186,12 @@ article
     color: #333
     text-align: left
     font-weight: 400
-    font-size: 1.2rem
+    font-size: 1rem
     line-height: 1.7
     margin-bottom: 30px
+
+  img
+    max-width: 100%
 
   li
     list-style-position: inside
@@ -163,8 +199,26 @@ article
     padding-bottom: 10px
     color: #333
 
+@media screen and (min-width: 1180px)
+  body:before
+    width: 20px
 
-@media screen and (max-width: 790px)
+  .de-header .nav
+    float: left
+
   .de-post-box
-    width: 100%
-    margin-right: 0
+    -webkit-flex: 0 0 390px
+    flex: 0 0 390px
+
+  .de-post-title
+    font-size: 3.5rem
+
+  article
+    h2
+      font-size: 2rem
+
+    h3
+      font-size: 1.5rem
+
+    > p
+      font-size: 1.2rem
