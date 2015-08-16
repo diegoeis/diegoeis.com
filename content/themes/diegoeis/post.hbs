@@ -1,0 +1,16 @@
+{{!< default}}
+
+{{#post}}
+<article class="de-post {{post_class}}">
+
+  <header>
+    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY" timeago="true"}}</time>
+
+    <h1 class="de-post-title">{{title}}</h1>
+
+  </header>
+
+  {{content}}
+
+</article>
+{{/post}}

@@ -1,0 +1,165 @@
+@import "helpers"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html, body
+  height: 100%
+  min-height: 100%
+  overflow: auto
+
+.home-template
+  background: #F4F4F4
+
+body
+  border-left: 20px solid $yellow
+  font: 100% Lato, Times New Roman, Georgia
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.de-header
+  padding: 2% 8%
+
+  .de-logo
+    font-size: 1rem
+    font-weight: 400
+    display: inline-block
+    vertical-align: middle
+
+    a
+      color: #000
+      text-decoration: none
+
+    span
+      font-weight: 300
+
+  .nav
+    display: inline-block
+    vertical-align: middle
+    list-style: none
+    padding: 0 30px
+
+    li
+      display: inline-block
+
+    a
+      padding: 10px 20px
+      color: #000
+      font-size: 1rem
+      text-decoration: none
+
+      &:hover
+        background: $yellow
+
+p
+  color: #333
+  text-align: left
+  font-weight: 400
+  font-size: 1.2rem
+  line-height: 1.7
+  margin-bottom: 30px
+
+.de-wrapper
+  padding: 8%
+  max-width: 1000px
+
+  .home-template &
+    max-width: 1300px
+
+time
+  color: #000
+  display: inline-block
+  padding-top: 30px
+
+.de-post-box
+  width: 45%
+  background: #fff
+  display: inline-block
+  vertical-align: top
+  margin-left: 5%
+
+  &:first-child
+    margin-left: 0
+
+  a
+    text-decoration: none
+    padding: 15%
+    display: block
+
+    &:hover
+      background: $yellow
+
+      h2:after
+        border-color: #fff
+
+  h2
+    display: block
+    color: #333
+    line-height: 1.5
+    font-size: 1.7rem
+
+    &:after
+      content: ""
+      display: block
+      height: 1px
+      border-top: 2px solid #DDD
+      width: 100px
+      margin: 15% 0
+
+  p
+    font-size: 1rem
+    line-height: 1.7
+    margin-bottom: 0
+
+////
+// POST
+////
+.de-post-title
+  color: #333
+  font-weight: 700
+  font-size: 3.5rem
+
+article
+  h2
+    font-size: 2.8rem
+
+  h3
+    font-size: 2rem
+
+  h2, h3, h4, h5, h6
+    margin: 30px 0 15px
+
+  header
+    margin-bottom: 10%
+
+    &:after
+      content: ""
+      display: block
+      height: 1px
+      border-top: 1px solid #DDD
+      width: 100px
+      margin-top: 10%
+
+    time
+      display: block
+      padding-bottom: 50px
+
+  .de-excerpt
+    font-size: 1.4rem
+    font-weight: 400
+
+  > p
+    color: #333
+    text-align: left
+    font-weight: 400
+    font-size: 1.2rem
+    line-height: 1.7
+    margin-bottom: 30px
+
+  li
+    list-style-position: inside
+    font-size: 1.1rem
+    padding-bottom: 10px
+    color: #333

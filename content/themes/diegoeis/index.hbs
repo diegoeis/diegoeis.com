@@ -1,0 +1,14 @@
+{{!< default}}
+
+{{#foreach posts}}
+  <div class="de-post-box {{post_class}}" id="de-post-{{@index}}">
+    <a href="{{url}}">
+
+      <h2>{{title}}</h2>
+      <p>
+        {{excerpt words="30"}}
+      </p>
+      <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY" timeago="true"}}</time>
+    </a>
+  </div>
+{{/foreach}}
