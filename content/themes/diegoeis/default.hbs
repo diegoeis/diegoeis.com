@@ -9,9 +9,13 @@
   <title>{{meta_title}}</title>
   <meta name="description" content="{{meta_description}}">
 
+  <meta name="msapplication-TileColor" content="#FFD204">
+  <meta name="msapplication-square150x150logo" content="square.png">
+
   <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="prefetch" href="{{#foreach posts}}{{#if @first}}{{url}}{{/if}}{{/foreach}}">
+  <link rel="prerender" href="{{#foreach posts}}{{#if @first}}{{url}}{{/if}}{{/foreach}}">
   {{! Styles'n'Scripts }}
   <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
   <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>

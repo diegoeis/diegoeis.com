@@ -3,12 +3,17 @@
 *
   margin: 0
   padding: 0
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  -ms-box-sizing: border-box
+  -o-box-sizing: border-box
   box-sizing: border-box
 
 .home-template
   background: #F4F4F4
 
 body
+  touch-action: auto
   font: 100% Lato, Times New Roman, Georgia
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
@@ -101,6 +106,10 @@ time
   margin-right: 2%
   margin-bottom: 3%
   position: relative
+  -webkit-transition: background .10s linear
+  -ms-transition: background .10s linear
+  -moz-transition: background .10s linear
+  -o-transition: background .10s linear
   transition: background .10s linear
 
   &:hover
