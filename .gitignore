@@ -6,5 +6,6 @@ readme.html
 .DS_Store
 .htaccess
 node_modules
+ghost-dev.db
 ghost.db
 npm-debug.log
