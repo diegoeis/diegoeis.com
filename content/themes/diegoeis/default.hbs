@@ -26,8 +26,11 @@
 <body>
 
 <header class="de-header">
+  <span class="de-sandwich">☰ Menu</span>
   <h1 class="de-logo"><a href="/">diegoeis<span>.com</span></a></h1>
-  {{navigation}}
+  <nav class="de-menu">
+    {{navigation}}
+  </nav>
 </header>
 
 <div class="de-wrapper">
@@ -41,7 +44,7 @@
 {{ghost_foot}}
 
 {{! The main JavaScript file for Casper }}
-<!-- <script type="text/javascript" src="{{asset "js/index.js"}}"></script> -->
+<script type="text/javascript" src="{{asset "js/scripts.js"}}"></script>
 
 </body>
 </html>

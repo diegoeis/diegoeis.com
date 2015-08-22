@@ -13,19 +13,11 @@
   background: #F4F4F4
 
 body
-  touch-action: auto
   font: 100% Lato, Times New Roman, Georgia
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-
-  &:before
-    content: ""
-    height: 100%
-    width: 10px
-    background: $yellow
-    position: fixed
-    top: 0
-    left: 0
+  border-left: 10px solid $yellow
+  transition: transform .20s ease-in
 
 .de-header
   padding: 3% 8%
@@ -47,25 +39,60 @@ body
     span
       font-weight: 300
 
+.de-sandwich
+  padding: 15px 20px
+  transition: background .18s linear
+  cursor: pointer
+  font-size: .9rem
+  border: 1px solid rgba(0, 0, 0, .05)
+
+  &.de-sidebar-visible
+    border-radius: 3px 3px 0 0
+    border-color: transparent
+    position: relative
+    z-index: 11
+    background: $yellow
+    border-bottom: 0
+
+
+.de-menu
+  position: relative
+
+  &.de-sidebar-visible .nav
+    z-index: 11
+    opacity: 1
+
   .nav
-    float: left
+    transition: all .20s linear
+    opacity: 0
+    position: absolute
+    top: 14px
+    z-index: -1
+    padding: 10px
+    width: $sidebar-width
+    border-radius: 0 3px 3px 3px
+    background: $yellow
+
+  li
     list-style: none
-    padding: 0
+    border-bottom: 1px solid rgba(0, 0, 0, .1)
 
-    li
-      display: inline-block
+    &:last-child
+      border-bottom: none
 
-    a
-      padding: 7px
-      color: #000
-      font-size: .8rem
-      text-decoration: none
+  .nav-current a
+    background: rgba(255, 255, 255, 1)
 
-      &:hover
-        background: $yellow
+  a
+    padding: 10px 20px
+    display: block
+    color: #000
+    font-size: 1rem
+    text-decoration: none
 
-    .nav-current a
-      background: $yellow
+    &:hover,
+    li.nav-current a:hover
+      background: rgba(255, 255, 255, .8)
 
 .de-hr
   border: none
@@ -144,6 +171,8 @@ time
   font-size: 2rem
 
 article
+  max-width: 700px
+
   h2
     font-size: 2rem
 
@@ -208,16 +237,8 @@ article
     color: #333
 
 @media (min-width: 1000px)
-  body:before
-    width: 20px
-
-  .de-header .nav
-    float: left
-    padding-left: 0
-
-    a
-      padding: 10px 20px
-      font-size: 1rem
+  body
+    border-left-width: 20px
 
   .de-post-box
     flex: 0 0 32%
