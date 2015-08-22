@@ -38,7 +38,7 @@ body
   .de-logo
     font-size: 1rem
     font-weight: 400
-    float: left
+    float: right
 
     a
       color: #000
@@ -48,17 +48,17 @@ body
       font-weight: 300
 
   .nav
-    float: right
+    float: left
     list-style: none
-    padding: 0 30px
+    padding: 0
 
     li
       display: inline-block
 
     a
-      padding: 10px
+      padding: 7px
       color: #000
-      font-size: 1rem
+      font-size: .8rem
       text-decoration: none
 
       &:hover
@@ -94,22 +94,15 @@ time
   padding-top: 30px
 
 .de-posts-list
-  display: -webkit-flex
   display: flex
-  -webkit-flex-wrap: wrap
   flex-wrap: wrap
 
 .de-post-box
-  -webkit-flex: 1 0 300px
   flex: 1 0 300px
   background: #fff
   margin-right: 2%
-  margin-bottom: 3%
+  margin-bottom: 2%
   position: relative
-  -webkit-transition: background .10s linear
-  -ms-transition: background .10s linear
-  -moz-transition: background .10s linear
-  -o-transition: background .10s linear
   transition: background .10s linear
 
   &:hover
@@ -120,9 +113,8 @@ time
 
   a
     text-decoration: none
-    padding: 15%
+    padding: 10%
     display: block
-
 
   h2
     display: block
@@ -215,19 +207,26 @@ article
     padding-bottom: 10px
     color: #333
 
-@media screen and (min-width: 1180px)
+@media (min-width: 1000px)
   body:before
     width: 20px
 
   .de-header .nav
     float: left
+    padding-left: 0
 
     a
       padding: 10px 20px
+      font-size: 1rem
 
   .de-post-box
-    -webkit-flex: 0 0 31%
-    flex: 0 0 31%
+    flex: 0 0 32%
+
+    &:nth-child(3n)
+      margin-right: 0
+
+    a
+      padding: 15%
 
   .de-post-title
     font-size: 3.5rem
