@@ -7,3 +7,5 @@ readme.html
 .htaccess
 node_modules
 npm-debug.log
+ghost-dev.db
+ghost.db
