@@ -45,6 +45,8 @@ body
   cursor: pointer
   font-size: .9rem
   border: 1px solid rgba(0, 0, 0, .05)
+  position: relative
+  top: 10px
 
   &.de-sidebar-visible
     border-radius: 3px 3px 0 0
@@ -53,7 +55,6 @@ body
     z-index: 11
     background: $yellow
     border-bottom: 0
-
 
 .de-menu
   position: relative
@@ -121,10 +122,13 @@ time
   padding-top: 30px
 
 .de-posts-list
+  display: -webkit-flex
   display: flex
+  -webkit-flex-wrap: wrap
   flex-wrap: wrap
 
 .de-post-box
+  -webkit-flex: 1 0 300px
   flex: 1 0 300px
   background: #fff
   margin-right: 2%
@@ -240,7 +244,11 @@ article
   body
     border-left-width: 20px
 
+  .de-sandwich
+    position: static
+
   .de-post-box
+    -webkit-flex: 0 0 32%
     flex: 0 0 32%
 
     &:nth-child(3n)
