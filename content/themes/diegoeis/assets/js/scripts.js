@@ -7,7 +7,7 @@ var deTheme = (function(){
 
   function sandwichMenu() {
     var sandwich = document.getElementsByClassName('de-sandwich')[0];
-    var menu = document.getElementsByClassName('de-menu')[0];
+    var menu = document.getElementsByClassName('nav')[0];
     sandwich.addEventListener('click', function(){
       menu.classList.toggle('de-sidebar-visible');
       sandwich.classList.toggle('de-sidebar-visible');

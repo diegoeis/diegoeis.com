@@ -9,15 +9,24 @@
   -o-box-sizing: border-box
   box-sizing: border-box
 
-.home-template
-  background: #F4F4F4
-
 body
+  background: #F4F4F4
   font: 100% Lato, Times New Roman, Georgia
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  border-left: 10px solid $yellow
   transition: transform .20s ease-in
+
+  .post-template &
+    background: #fff
+
+  &:before
+    content: ""
+    width: 20px
+    height: 100%
+    position: fixed
+    top: 0
+    left: 0
+    background: $yellow
 
 .de-header
   padding: 3% 8%
@@ -39,6 +48,9 @@ body
     span
       font-weight: 300
 
+.de-menu
+  position: relative
+
 .de-sandwich
   padding: 15px 20px
   transition: background .18s linear
@@ -56,23 +68,20 @@ body
     background: $yellow
     border-bottom: 0
 
-.de-menu
-  position: relative
+.nav
+  transition: all .20s linear
+  opacity: 0
+  position: absolute
+  top: 34px
+  z-index: -1
+  padding: 10px
+  width: $sidebar-width
+  border-radius: 0 3px 3px 3px
+  background: $yellow
 
-  &.de-sidebar-visible .nav
+  &.de-sidebar-visible
     z-index: 11
     opacity: 1
-
-  .nav
-    transition: all .20s linear
-    opacity: 0
-    position: absolute
-    top: 14px
-    z-index: -1
-    padding: 10px
-    width: $sidebar-width
-    border-radius: 0 3px 3px 3px
-    background: $yellow
 
   li
     list-style: none
@@ -111,10 +120,11 @@ p
 
 .de-wrapper
   padding: 5% 8%
-  max-width: 1100px
+  max-width: 1700px
+  height: 100%
 
-  .home-template &
-    max-width: 1700px
+  .post-template &
+    max-width: 1100px
 
 time
   color: #000
@@ -240,12 +250,40 @@ article
     padding-bottom: 10px
     color: #333
 
+.de-pagination
+  clear: both
+  display: block
+  text-align: center
+  border-top: 1px solid rgba(0, 0, 0, .1)
+  padding: 20px
+
+  a
+    display: inline-block
+    vertical-align: middle
+    padding: 10px 15px
+    border: 1px solid rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .5)
+    margin: 0 20px
+    text-decoration: none
+
+    &:hover
+      background: $yellow
+      color: black
+
+.de-tags
+  display: block
+  padding: 20px 0
+
+  a
+    color: #000
+
 @media (min-width: 1000px)
   body
     border-left-width: 20px
 
   .de-sandwich
-    position: static
+    position: relative
+    top: 0
 
   .de-post-box
     -webkit-flex: 0 0 32%
