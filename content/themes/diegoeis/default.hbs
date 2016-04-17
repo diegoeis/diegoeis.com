@@ -26,11 +26,13 @@
 <body>
 
 <header class="de-header">
-  <h1 class="de-logo"><a href="/">diegoeis<span>.com</span></a></h1>
   <div class="de-menu">
     <span class="de-sandwich">☰ Menu</span>
     {{navigation}}
   </div>
+  <h1 class="de-logo"><a href="/"><strong>diegoeis</strong>.com</a></h1>
+  <a href="/rss" class="de-ico-rss">RSS</a>
+  <a href="http://twitter.com/diegoeis" class="de-ico-twitter">@diegoeis</a>
 </header>
 
 <div class="de-wrapper">
@@ -45,6 +47,7 @@
 
 {{! The main JavaScript file for Casper }}
 <script type="text/javascript" src="{{asset "js/scripts.js"}}"></script>
+<script id="dsq-count-scr" src="//diegoeis.disqus.com/count.js" async></script>
 
 </body>
 </html>
