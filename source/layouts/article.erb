@@ -6,7 +6,7 @@
   <% page_articles.each_with_index do |article, i| %>
     <header>
       <!-- <span class="de-tags">{{tags}}</span> -->
-      <time datetime="<%= article.date.strftime('%b %e') %>"><%= article.date.strftime('%b %e') %></time>
+      <time datetime="<%= article.date.strftime('%b %e, %Y') %>"><%= article.date.strftime('%b %e, %Y') %></time>
       <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
 
       <h1 class="de-post-title"><%= article.title %></h1>

@@ -16,7 +16,7 @@ per_page: 10
       <% link_to article do %>
         <h1><%= article.title %></h1>
         <%= article.summary(250) %>
-        <time datetime="<%= article.date.strftime('%b %e') %>"><%= article.date.strftime('%b %e') %></time>
+        <time datetime="<%= article.date.strftime('%b %e %Y') %>"><%= article.date.strftime('%b %e, %Y') %></time>
       <% end %>
     </div>
   <% end %>
