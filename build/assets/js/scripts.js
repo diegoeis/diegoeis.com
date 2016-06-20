@@ -1,1 +1,0 @@
-var deTheme=function(){"use strict";function e(){i()}function i(){var e=document.getElementsByClassName("de-sandwich")[0],i=document.getElementsByClassName("nav")[0];e.addEventListener("click",function(){i.classList.toggle("de-sidebar-visible"),e.classList.toggle("de-sidebar-visible")})}return{init:e}}();window.onload=deTheme.init();
