@@ -21,7 +21,7 @@ activate :blog do |blog|
   blog.default_extension = ".md"
 
   blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
+  blog.calendar_template = "calendar.html"
 
   # Enable pagination
   blog.paginate = true
