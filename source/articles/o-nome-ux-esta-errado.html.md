@@ -4,8 +4,6 @@ date: 2015-05-09 00:00 UTC
 tags: ux, design
 ---
 
-!(https://d262ilb51hltx0.cloudfront.net/freeze/max/30/0*YlUsOPzzr-ABBPVB.jpg?q=20)
-
 O que é um profissional de UX? Se você for responder rápido, você vai dizer: “É o mano (ou a mana) que faz o Wireframe do projeto.” Essa resposta é no mínimo incompleta. O profissional de UX é responsável por muito mais que isso. O Wireframe é na verdade uma resposta representativa de todo um trabalho prévio de pesquisa, organização e garimpo de informação junto com usuários e clientes. Há uma preocupação muito forte com fluxo de conteúdo e principalmente fluxo de navegação, além de juntar especificar a função e comportamento do sistema. Por isso, meça suas palavras, parça. UX não é o cara que **só** faz os wireframes.
 
 Na verdade, esse texto é mais um desaforismo. A sigla UX é formada pelas palavras **U**ser e**X**perience. É muita prepotência dizer que apenas um profissional cuida da experiência do usuário, ainda mais quando ele faz parte apenas de uma parte do processo de desenvolvimento do projeto. Todo mundo do projeto cuida da experiência do usuário. Esse zelo começa desde o cara que faz o primeiro atendimento ao cliente/usuário, passa por todo o time que você já conhece e só vai terminar Deus sabe onde. Até o cara de infra, que cuida dos servidores, o mano que cuida do banco de dados, os back-ends, editores etc etc etc são profissionais de UX.

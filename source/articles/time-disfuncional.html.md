@@ -4,9 +4,9 @@ date: 2016-02-02 00:00 UTC
 tags: article, agile, management
 ---
 
-> "Pense no seu trabalho. Quanto tempo é desperdiçado enquanto você espera alguém concluir uma tarefa, ou receber alguma informação, ou porque está tentando fazer um monte de coisas ao mesmo tempo? Talvez você prefira trabalhar o dia todo - quanto a mim, eu prefiro surfar. " **Jeff Sutherland**, _Scrum: A Arte de fazer o dobro do trabalho na metade do tempo_.
-
 O Scrum e qualquer outro método/framework agile é feito para que a equipe consiga se organizar e ter autonomia para tomar todas as decisões importantes, definindo como irão agir para entregar suas tarefas e conseguir completar os objetivos do projeto. Um dos pontos chave para isso tudo dar certo é a comunicação entre os integrantes do time.
+
+> "Pense no seu trabalho. Quanto tempo é desperdiçado enquanto você espera alguém concluir uma tarefa, ou receber alguma informação, ou porque está tentando fazer um monte de coisas ao mesmo tempo? Talvez você prefira trabalhar o dia todo - quanto a mim, eu prefiro surfar. " **Jeff Sutherland**, _Scrum: A Arte de fazer o dobro do trabalho na metade do tempo_.
 
 Um time Agile, geralmente, deve ser multifuncional, possuindo todas as habilidades necessárias para entregar o produto, dependendo o mínimo de terceiros. Não dá para ter **meio** time multifuncional. Ou ele tem todo o poder, ou não tem. Ou ele tem todas as especialidades trabalhando em conjunto, ou não tem. Eu fazia parte de um time onde o UX trabalhava todos os dias focado no nosso projeto. Para as pessoas de fora, ele era o responsável pelo UX daquele produto. Mas para o time (desenvolvedores, coordenador, P.O.) ele era alguém de passagem, que estava ali para executar um trabalho temporário. Ele também se sentia assim, tanto que nem sentava com o time do produto. Ali não era a sua tribo e ele considerava que o silo de UX era o verdadeiro time dele.
 

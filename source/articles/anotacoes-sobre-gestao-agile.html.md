@@ -4,7 +4,7 @@ date: 2016-05-05 00:00 UTC
 tags: notes, agile
 ---
 
-Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile e outros assuntos. Curso dado pelo [@manoelp](https://twitter.com/manoelp).
+Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile e outros assuntos.
 
 *   Competência é a junção do **conhecimento (teoria), habilidade (pratica) e atitude (disciplina)** - CHA
 *   Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências
@@ -97,3 +97,5 @@ Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile 
     14.  Considere o ambiente
     15.  você tem restrições externas. Tanto fora ou dentro da empresa
     16.  as restrições não inviabilizam, mas precisam ser considerados
+
+Curso dado pelo [@manoelp](https://twitter.com/manoelp).

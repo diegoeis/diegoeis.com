@@ -4,8 +4,6 @@ date: 2016-05-04 00:00 UTC
 tags: development, web
 ---
 
-![Sobre Aaron Swartz](http://diegoeis.com/content/images/2016/05/aaron-swartz.jpg)
-
 Você conhece Aaron Swartz? Não? Ele está mais presente na sua vida do que você imagina. Duvida? Talvez você conheça RSS. RSS é um subset do XML e sua principal função é facilitar a agregação e distribuição de conteúdo. A especificação 1.0 do RSS foi lançada em 06/12/2000\. Aaron Swartz foi um dos co-autores do RSS. Ele só tinha 14 anos. Eu sei que você se sente orgulhoso quando consegue implementar algum framework JS nos seus projetos. Eu também me sinto. Mas existem algumas pessoas que estão em outro patamar. Um patamar muito distante do mundo dos normais. Aaron Swartz é um destes caras.
 
 Alguns de nós (eu) se orgulham por que viveram numa época de transição, onde os browsers brigavam, onde os padrões web se popularizaram e etc. O cara viveu em uma época onde o direito autoral ficou totalmente obsoleto com a chegada da internet. Essa colisão entre a maneira antiga de fazer as coisas com as novidades que a Internet trouxe, foi uma época de ebulição tecnológica e política. Tudo era novo para todo mundo. Ninguém sabia lidar com situações que hoje em dia são totalmente comuns para nós. Aaron era do tipo que saia da sua cidade (Chicago) e ia para Washington acompanhar a suprema corte e um bando de advogados decidirem sobre direitos autorais e outras coisas. Pensa no nível de curiosidade desse menino. Com 15 anos, ele estava ajudando a escrever as especificações do Creative Commons.

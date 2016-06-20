@@ -4,9 +4,9 @@ date: 2015-01-28 00:00 UTC
 tags:
 ---
 
-> Eu já falei muito mal do Internet Explorer na minha vida. Mesmo. Acredite. Eu já fui obrigado a fazer websites inteiros funcionarem no IE4, IE5, IE5.5, IE5.5 para Mac e finalmente o IE6\. Mas eu não acho que o Internet Explorer foi a pior coisa que aconteceu para web. De jeito nenhum.
-
 Você se lembra da guerra dos browsers? Muitos devs hoje não tiveram o prazer e o terror de ter presenciado essa época. Infelizmente eu não vivi essa época desde o início, mas peguei do meio pro fim, o suficiente para saber o contexto geral do mercado naquela fase horrível da web. O W3C tinha uma crise de identidade, nós não tínhamos um browser decente para usar e os desenvolvedores, meus amigos, ahhh os desenvolvedores… Você já parou para pensar que no início quase NINGUÉM era desenvolvedor web? O que aconteceu foi uma imigração de profissionais de outras áreas para a web. Isso aconteceu com desenvolvedores, designers, gestores, empresas, todo mundo. Logo, nesse contexto maluco, ninguém sabia para onde ir, nem browsers, nem devs, nem W3C. Ninguém sabia direito o que era web.
+
+> Eu já falei muito mal do Internet Explorer na minha vida. Mesmo. Acredite. Eu já fui obrigado a fazer websites inteiros funcionarem no IE4, IE5, IE5.5, IE5.5 para Mac e finalmente o IE6\. Mas eu não acho que o Internet Explorer foi a pior coisa que aconteceu para web. De jeito nenhum.
 
 O Internet Explorer e o Netscape eram browsers horríveis se comparados para os browsers que temos hoje. Mas se você reclama de ter feito websites para o IE6, pense dessa forma: você nunca teve que fazer websites para o IE4\. Chegou um momento naquela época, que a única coisa que os desenvolvedores desejavam (mesmo sabendo que era um desejo ruim) era que qualquer browser ganhasse logo essa guerra besta. Se fosse para ser o IE (como foi), ótimo. Pelo menos ninguém teria que cuidar da compatibilidade dos websites nos dois únicos browsers que existiam. E era isso que tirava o sono de TODOS os devs.
 

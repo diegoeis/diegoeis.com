@@ -3,7 +3,7 @@ title: Anotações - Palestra da Vania Ferrari - Gestão e liderança
 date: 2015-12-09 00:00 UTC
 tags: notes
 ---
-Essas são as minhas anotações da palestra que a [Vania Ferrari](http://www.vaniaferrari.com.br) fez na Locaweb sobre gestão, liderança, tecnologia e mudanças de paradigmas na empresa.
+Essas são as minhas anotações da palestra que a Vania Ferrari fez na Locaweb sobre gestão, liderança, tecnologia e mudanças de paradigmas na empresa.
 
 *   você tem o poder de transformar as pessoas
 *   Você não tem uma equipe de 50 pessoas, na verdade são as 50 pessoas que tem você
