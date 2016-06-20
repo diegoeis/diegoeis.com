@@ -1,0 +1,29 @@
+---
+pageable: true
+per_page: 10
+---
+<!-- <% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %> -->
+
+<div class="de-posts-list">
+  <div class="de-post-box">
+    <% page_articles.each_with_index do |article, i| %>
+      <% link_to article do %>
+        <h2><%= article.title %></h2>
+        <%= article.summary(250) %>
+        <time datetime="<%= article.date.strftime('%b %e') %>"><%= article.date.strftime('%b %e') %></time>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>

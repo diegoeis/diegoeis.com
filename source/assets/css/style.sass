@@ -1,0 +1,371 @@
+@import "helpers"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background: #F4F4F4
+  font: 100% Lato, Times New Roman, Georgia
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  transition: transform .20s ease-in
+
+  .post-template &
+    background: #fff
+
+  &:before
+    content: ""
+    width: 20px
+    height: 100%
+    position: fixed
+    top: 0
+    left: 0
+    background: $yellow
+
+.de-header
+  padding: 3% 8%
+
+  &:after
+    content: ""
+    display: block
+    clear: both
+
+  .de-logo
+    font-size: 1.5rem
+    font-weight: 400
+    margin: 23px 15px 0
+    display: inline-block
+    vertical-align: middle
+    border-bottom: 5px solid transparent
+
+    &:hover
+      border-bottom-color: black
+
+    a
+      color: #000
+      text-decoration: none
+
+    span
+      font-weight: 300
+
+.de-ico-rss
+  background: url(../images/rss-icon.png) no-repeat center
+
+.de-ico-twitter
+  background: url(../images/twitter-icon.png) no-repeat center
+
+.de-ico-rss,
+.de-ico-twitter
+  display: inline-block
+  vertical-align: middle
+  background-size: 100%
+  width: 20px
+  height: 20px
+  text-indent: -9999px
+  overflow: hidden
+  margin-left: 10px
+  margin-top: 20px
+
+.de-menu
+  position: relative
+  vertical-align: middle
+  display: inline-block
+
+.de-sandwich
+  padding: 15px 20px
+  transition: background .18s linear
+  cursor: pointer
+  font-size: .9rem
+  border: 1px solid rgba(0, 0, 0, .05)
+  position: relative
+  top: 10px
+
+  &.de-sidebar-visible
+    border-radius: 3px 3px 0 0
+    border-color: transparent
+    position: relative
+    z-index: 11
+    background: $yellow
+    border-bottom: 0
+
+.nav
+  transition: all .20s linear
+  opacity: 0
+  position: absolute
+  top: 34px
+  z-index: -1
+  padding: 10px
+  width: $sidebar-width
+  border-radius: 0 3px 3px 3px
+  background: $yellow
+
+  &.de-sidebar-visible
+    z-index: 11
+    opacity: 1
+
+  li
+    list-style: none
+    border-bottom: 1px solid rgba(0, 0, 0, .1)
+
+    &:last-child
+      border-bottom: none
+
+  .nav-current a
+    background: rgba(255, 255, 255, 1)
+
+  a
+    padding: 10px 20px
+    display: block
+    color: #000
+    font-size: 1rem
+    text-decoration: none
+
+    &:hover,
+    li.nav-current a:hover
+      background: rgba(255, 255, 255, .8)
+
+.de-post-image
+  margin-bottom: 40px
+  display: block
+
+.de-hr
+  border: none
+  border-top: 1px solid #F6F6F6
+  background: none
+  margin: 20px 0
+
+p
+  color: #333
+  text-align: left
+  font-weight: 400
+  font-size: .9rem
+  line-height: 1.7
+  margin-bottom: 30px
+
+.de-wrapper
+  padding: 5% 8%
+  max-width: 1700px
+  height: 100%
+
+  .post-template &
+    max-width: 1100px
+
+time
+  color: #000
+  display: inline-block
+  vertical-align: middle
+  padding-top: 30px
+
+.de-posts-list
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-wrap: wrap
+  flex-wrap: wrap
+
+.de-post-box
+  flex: 1 0 300px
+  background: #fff
+  margin-right: 2%
+  margin-bottom: 2%
+  position: relative
+  transition: background .10s linear
+
+  &:hover
+    background: $yellow
+
+    h2:after
+      border-color: #fff
+
+  a
+    text-decoration: none
+    padding: 10%
+    display: block
+
+  h2
+    display: block
+    color: #333
+    line-height: 1.5
+    font-size: 1.7rem
+
+    &:after
+      content: ""
+      display: block
+      height: 1px
+      border-top: 2px solid #DDD
+      width: 100px
+      margin: 15% 0
+
+  p
+    font-size: 1rem
+    line-height: 1.7
+    margin-bottom: 0
+
+blockquote
+  position: relative
+  // border-top: 5px solid $yellow
+  // border-bottom: 5px solid $yellow
+  p
+    background: rgba(0,0,0,.04)
+    border: 1px solid rgba(0,0,0,.08)
+    border-left: 15px solid rgba(0,0,0,1)
+    padding: 40px 50px
+    font-size: 20px
+    font-style: italic
+    color: black
+
+    // &:before
+    //   content: ' " '
+    //   position: absolute
+    //   color: rgba(0,0,0,.07)
+    //   font-size: 300px
+    //   font-family: Serif
+    //   top: -140px
+    //   left: -55px
+
+////
+// POST
+////
+.de-post-title
+  color: #333
+  font-weight: 700
+  font-size: 2rem
+  padding-top: 50px
+
+article
+  max-width: 700px
+
+  h2
+    font-size: 2rem
+
+  h3
+    font-size: 1.5rem
+
+  h2, h3, h4, h5, h6
+    margin: 30px 0 15px
+
+  p > code
+    padding: 2px 4px
+    color: #c7254e
+    background-color: #f9f2f4
+    white-space: wrap
+    border-radius: 4px
+    font-size: 17px
+
+  pre code
+    white-space: wrap
+    overflow: auto
+    display: block
+    background: #f4f4f4
+    border: 1px solid #ccc
+    border-radius: 5px
+    margin-bottom: 15px
+    padding: 20px
+
+  header
+    margin-bottom: 10%
+
+    &:after
+      content: ""
+      display: block
+      height: 1px
+      border-top: 1px solid #DDD
+      width: 100px
+      margin-top: 10%
+
+    time
+      display: inline-block
+      vertical-align: middle
+      padding-top: 0
+      margin: 0 25px 0 0
+
+    .de-comment-count
+      vertical-align: middle
+      display: inline-block
+
+  .de-excerpt
+    font-size: 1.4rem
+    font-weight: 400
+
+  > p
+    color: #333
+    text-align: left
+    font-weight: 400
+    font-size: 1rem
+    line-height: 1.7
+    margin-bottom: 30px
+
+  img
+    max-width: 100%
+
+  li
+    list-style-position: inside
+    font-size: 1.1rem
+    padding-bottom: 10px
+    color: #333
+
+.de-pagination
+  clear: both
+  display: block
+  text-align: center
+  border-top: 1px solid rgba(0, 0, 0, .1)
+  padding: 20px
+
+  a
+    display: inline-block
+    vertical-align: middle
+    padding: 10px 15px
+    border: 1px solid rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .5)
+    margin: 0 20px
+    text-decoration: none
+
+    &:hover
+      background: $yellow
+      color: black
+
+.de-tags
+  display: block
+  padding: 20px 0 25px
+
+  a
+    color: #000
+
+@media (min-width: 1000px)
+  body
+    border-left-width: 20px
+
+  .de-sandwich
+    position: relative
+    top: 0
+
+  .de-post-box
+    -webkit-flex: 0 0 32%
+    flex: 0 0 32%
+
+    &:nth-child(3n)
+      margin-right: 0
+
+    a
+      padding: 15%
+
+  .de-post-title
+    font-size: 3.5rem
+
+  article
+    h2
+      font-size: 2rem
+
+    h3
+      font-size: 1.5rem
+
+    > p
+      font-size: 1.2rem
+
+  .de-logo
+    margin: 0 25px 0 0 !important
+
+  .de-ico-rss,
+  .de-ico-twitter
+    margin-top: 0
