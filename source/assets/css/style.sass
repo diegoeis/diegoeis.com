@@ -168,14 +168,17 @@ time
   flex: 1 0 300px
   background: #fff
   margin-right: 2%
-  margin-bottom: 2%
+  margin-bottom: 30px
   position: relative
   transition: background .10s linear
+
+  h2, h3, h4, h5, h6, blockquote
+    display: none
 
   &:hover
     background: $yellow
 
-    h2:after
+    h1:after
       border-color: #fff
 
   a
@@ -183,7 +186,7 @@ time
     padding: 10%
     display: block
 
-  h2
+  h1
     display: block
     color: #333
     line-height: 1.5
