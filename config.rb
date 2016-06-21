@@ -102,13 +102,3 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
-activate :deploy do |deploy|
-  deploy.deploy_method = :rsync
-  deploy.host          = 'diegoeis.com'
-  deploy.path          = '/var/www/diegoeis.com'
-  # Optional Settings
-  # deploy.user  = 'tvaughan' # no default
-  # deploy.port  = 5309 # ssh port, default: 22
-  # deploy.clean = true # remove orphaned files on remote host, default: false
-  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
-end
