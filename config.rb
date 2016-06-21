@@ -102,3 +102,17 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :deploy do |deploy|
+  deploy.method = :sftp
+  # host, user, passwword and path *must* be set
+  deploy.host = "diegoeis.com"
+  deploy.port = 22
+  deploy.path = "/var/www/diegoeis.com"
+  # user is optional (no default)
+  # deploy.user = "tvaughan"
+  # password is optional (no default)
+  # deploy.password = "secret"
+end
+
+
