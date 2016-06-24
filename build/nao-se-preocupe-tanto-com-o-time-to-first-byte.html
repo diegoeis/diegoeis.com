@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="nao-se-preocupe-tanto-com-o-time-to-first-byte">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+  <title>Diego Eis  - Não se preocupe tanto com o Time To First Byte</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="de-header">
+  <!-- <div class="de-menu">
+    <span class="de-sandwich">☰ Menu</span>
+
+  </div> -->
+  <h1 class="de-logo"><a href="/"><strong>diegoeis</strong>.com</a></h1>
+  <a href="http://feeds.feedburner.com/diegoeisfeed" class="de-ico-rss">RSS</a>
+  <a href="http://twitter.com/diegoeis" class="de-ico-twitter">@diegoeis</a>
+</header>
+
+
+<div class="de-wrapper">
+
+  <article class="de-post">
+      <header>
+        <!-- <span class="de-tags">{{tags}}</span> -->
+        <time datetime="Apr 11, 2016">Apr 11, 2016</time>
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
+
+        <h1 class="de-post-title">Não se preocupe tanto com o Time To First Byte</h1>
+      </header>
+
+      <p>O pessoal da <a href="https://blog.cloudflare.com/ttfb-time-to-first-byte-considered-meaningles/">CloudFlare fez um teste muito interessante</a>, provando que a medida TTFB (Time To First Byte) não é tão precisa para provarmos que a resposta do servidor de um site é rápida.</p>
+
+<p>O que eles fizeram: em um servidor de teste eles criaram um delay de resposta HTTP para entender o que realmente é medido. A resposta foi que o TTFB não é uma medida tão útil assim. Quando um browser faz o request de uma página no servidor, ele envia alguns headers para especificar algumas coisas como os formatos de respostas aceitos. O servidor responde dizendo que a página está disponível e envia mais alguns headers contendo informações sobre a página, depois, finalmente, envia o conteúdo da página.</p>
+
+<p>No teste da CloudFlare o servidor se comportou um pouco diferente. Quando ele recebe o request, ele enviou a primeira letra do termo <strong>HTTP/1.1 200 OK</strong> (ou seja, a letra H) e depois esperou por 10 segundos antes de enviar o resto dos headers e a página em si. O <a href="https://github.com/jgrahamc/ttfb">código que eles usaram foi escrito em GO</a>.</p>
+
+<p>Se você fizer um teste no <a href="http://webpagetest.org">WebPageTest</a> com a página do servidor de teste do TTFB, o WebPageTest vai reportar o tempo do TTFB que o <strong>H</strong> legou para chegar no servidor e não o tempo que a página em si foi enviada.</p>
+
+<p>Medir o TTFB (Time To First Byte) remotamente, significa que você também está medindo a latência, o que obscurece o que o TTFB realmente tenta medir: quão rápido é o servidor para responder a um request.</p>
+
+<p>No artigo deles há uma descrição bem completa sobre toda essa história. O que me tira um pouco do peso, porque o WebPageTest avisou que o TTFB do Tableless é de 6 segundos. Nenhuma desculpa para não diminuir isso, mas vale pensar no que é mais importante. <img alt="😉" src="https://s.w.org/images/core/emoji/72x72/1f609.png" /></p>
+
+<p><a href="https://blog.cloudflare.com/ttfb-time-to-first-byte-considered-meaningles/">Confira o artigo na íntegra</a>.</p>
+
+
+
+      <hr class="de-hr">
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'diegoeis';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+
+  </article>
+
+
+
+</div>
+
+<script src="assets/js/scripts.js"></script>
+<script id="dsq-count-scr" src="//diegoeis.disqus.com/count.js" async></script>
+
+</body>
+</html>
+
