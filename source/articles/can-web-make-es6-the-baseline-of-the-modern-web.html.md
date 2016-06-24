@@ -4,7 +4,6 @@ date: 2015-07-21 00:00 UTC
 tags: notes, development, braziljs
 ---
 
-
 Minhas anotações sobre a palestra que Chris Heilmann fez no BrazilJS de 2014.
 
 - Os devs esperam muito que a inovação venha de empresas como Mozilla, Apple, Microsoft.

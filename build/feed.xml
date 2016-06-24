@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2016-06-21T21:00:00-03:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Otimização Prematura - a raíz de Todo o Mal</title>
+    <link rel="alternate" href="http://blog.url.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html"/>
+    <id>http://blog.url.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html</id>
+    <published>2016-06-21T21:00:00-03:00</published>
+    <updated>2016-06-24T02:17:55-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;por que criar um site SPA?&lt;/li&gt;
+  &lt;li&gt;Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA&lt;/li&gt;
+  &lt;li&gt;Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA.&lt;/li&gt;
+  &lt;li&gt;Esse é o problema da otimização prematura. O que você quer otimizar com SPA? Mostrar texto?&lt;/li&gt;
+  &lt;li&gt;A maioria dessas tecnologias, arquiteturas e etc, otimiza muito bem alguns tipos de ambientes e isso não significa que o seu ambiente (contexto) pode ser otimizado&lt;/li&gt;
+  &lt;li&gt;Tem casos e casos para usar Microserviços. Se você está sozinho ou se o grupo de devs é pequeno, não tem por que fazer um microserviço,&lt;/li&gt;
+  &lt;li&gt;Entenda o seu contexto. Existem empresas que gastam mais de USD$100.000,00 em infra. Mas elas faturam quase 1 Bilhão.&lt;/li&gt;
+  &lt;li&gt;Custo mínimo de TI:
+    &lt;ul&gt;
+      &lt;li&gt;USD 1000 - Cloud&lt;/li&gt;
+      &lt;li&gt;USD 3000 - 1 Developer&lt;/li&gt;
+      &lt;li&gt;USD 4000 - 1 Responsável (manager, marketing, etc)&lt;/li&gt;
+      &lt;li&gt;Você tem que estar preparado para gastar por volta de USD96.000. Este é o mínimo.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Você precisa ganhar algo em torno de 2 milhões de dólares no ano para o custo de TI precisa ficar por volta de 5%.&lt;/li&gt;
+  &lt;li&gt;Não tente diminuir custo, tente aumentar a receita.&lt;/li&gt;
+  &lt;li&gt;Tente conseguir mais pessoas comprando seu produto, aumentando sua receita.&lt;/li&gt;
+  &lt;li&gt;Isso acontece quando você tira os bugs do sistema e o usuário consegue finalizar a compra. É quando sue site fica no ar em dias de pico e as pessoas conseguem finalizar as compras. É aí que você ganha dinheiro&lt;/li&gt;
+  &lt;li&gt;Não se atenha a um stack. Se você usa .NET, não precisa ser tudo Microsoft. Best of Breed&lt;/li&gt;
+  &lt;li&gt;Escolha as melhores tecnologias que te trazem os maiores retornos.&lt;/li&gt;
+  &lt;li&gt;Não faz sentido uma empresa ter máquinas, racks e servidores na própria empresa.&lt;/li&gt;
+  &lt;li&gt;A menos que você senha uma empresa de comunicação e que seu core business seja mensageria, NodeJS é uma tecnologia a se considerar.&lt;/li&gt;
+  &lt;li&gt;Pusher, PubNub&lt;/li&gt;
+  &lt;li&gt;O Pusher custa USD$ 49 para 500 conexões simultâneas. Você não vai conseguir melhor que isso. Só de cloud você vai gastar USD$30.&lt;/li&gt;
+  &lt;li&gt;Todo mundo fala de SEO, e ainda continua falando hoje. É a mesma coisa o tempo todo, é tudo astrologia.&lt;/li&gt;
+  &lt;li&gt;Acredite sempre no básico:
+    &lt;ul&gt;
+      &lt;li&gt;Você tem URLs amigáveis&lt;/li&gt;
+      &lt;li&gt;usa sitemap.xml?&lt;/li&gt;
+      &lt;li&gt;Redireciona HTTP301&lt;/li&gt;
+      &lt;li&gt;Usa botões de redes sociais?&lt;/li&gt;
+      &lt;li&gt;Tem conteúdo original relevante? Se seu conteúdo é irrelevante, não adianta…&lt;/li&gt;
+      &lt;li&gt;Não copie conteúdo dos outros.&lt;/li&gt;
+      &lt;li&gt;Pronto, voce não precisa saber mais nada de SEO&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://12factor.net/"&gt;The Twelve-Factor App&lt;/a&gt;
+&lt;strong&gt;I. Codebase&lt;/strong&gt;
+One codebase tracked in revision control, many deploys
+&lt;strong&gt;II. Dependencies&lt;/strong&gt;
+Explicitly declare and isolate dependencies
+&lt;strong&gt;III. Config&lt;/strong&gt;
+Store config in the environment
+&lt;strong&gt;IV. Backing services&lt;/strong&gt;
+Treat backing services as attached resources
+&lt;strong&gt;V. Build, release, run&lt;/strong&gt;
+Strictly separate build and run stages
+&lt;strong&gt;VI. Processes&lt;/strong&gt;
+Execute the app as one or more stateless processes
+&lt;strong&gt;VII. Port binding&lt;/strong&gt;
+Export services via port binding
+&lt;strong&gt;VIII. Concurrency&lt;/strong&gt;
+Scale out via the process model
+&lt;strong&gt;IX. Disposability&lt;/strong&gt;
+Maximize robustness with fast startup and graceful shutdown
+&lt;strong&gt;X. Dev/prod parity&lt;/strong&gt;
+Keep development, staging, and production as similar as possible
+&lt;strong&gt;XI. Logs&lt;/strong&gt;
+Treat logs as event streams
+&lt;strong&gt;XII. Admin processes&lt;/strong&gt;
+Run admin/management tasks as one-off processes&lt;/li&gt;
+  &lt;li&gt;Quando falamos em código, não precisamos estar preocupados em ganhar tempo. O que é ruim e não faça:
+    &lt;ul&gt;
+      &lt;li&gt;Seu sistema não tem pelo menos 70% de cobertura de testes&lt;/li&gt;
+      &lt;li&gt;Não tem analise estática de código. É um programa lendo seu programa para dar uma nota. (Sugestão: CodeClimate)&lt;/li&gt;
+      &lt;li&gt;Nenhum código fonte pode ter centenas de linhas por arquivo&lt;/li&gt;
+      &lt;li&gt;Não deve ter Copy Paste em todo o lugar do código.&lt;/li&gt;
+      &lt;li&gt;Não pode haver funções com o tamanho de mais de um page down&lt;/li&gt;
+      &lt;li&gt;Banco de dados com vários campos inúteis&lt;/li&gt;
+      &lt;li&gt;Se você faz um clone no projeto, você precisa rodar na máquina em minutos, não horas.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Spree: 68k de linhas de código. 40k dessas linhas são testes.&lt;/li&gt;
+  &lt;li&gt;Magento: 300k de linhas 127k são testes. Poucos testes, 10 vezes mais problemas.&lt;/li&gt;
+  &lt;li&gt;Sua preocupação não pode ser só com performance, é preocupação com manutenabilidade.&lt;/li&gt;
+  &lt;li&gt;Programadores são ruins para priorizar coisas.&lt;/li&gt;
+  &lt;li&gt;Instale New Relic. Não importa sua linguagem. Ele vai coletar seus dados de produção e vai te dar um monte de números para você conhecer seu produto. #ficadica&lt;/li&gt;
+  &lt;li&gt;Teoria das Correntes: como você determina a força de uma corrente, pelo elo mais fraco. Como você resolve? você troca o elo mais fraco. Quando você fizer, um outro elo será mais fraco.&lt;/li&gt;
+  &lt;li&gt;Sem métricas, sem otimização. Voce tem número?  Se não, você está chutando.&lt;/li&gt;
+  &lt;li&gt;Primeiro você faça funcionar, depois você corrige, depois você pensa em tornar rápido e finalmente, você pensa me tornar barato - Alan Kay&lt;/li&gt;
+  &lt;li&gt;Essa é a ordem, você não pode mudá-la!&lt;/li&gt;
+  &lt;li&gt;O facebook precisa do React? O Google precisa do Angular? Eles não precisam dessas tecnologias para sobreviver.&lt;/li&gt;
+  &lt;li&gt;Você precisa usar tecnologias de empresas que realmente precisam das suas próprias tecnologias, que realmente ganham dinheiro com elas.&lt;/li&gt;
+  &lt;li&gt;Não se preocupe em reduzir custos, se preocupe em fazer funcionar, para você ganhar dinheiro e sobreviver.&lt;/li&gt;
+  &lt;li&gt;Best of Breed Open Source&lt;/li&gt;
+  &lt;li&gt;Na dúvida, não faz do zero. Use SAAS.&lt;/li&gt;
+  &lt;li&gt;SEO = Astrologia&lt;/li&gt;
+  &lt;li&gt;Manutenção &amp;gt; Performance&lt;/li&gt;
+  &lt;li&gt;Prioridades. Não otimize sem métricas.&lt;/li&gt;
+  &lt;li&gt;O maior problema dos programadores é a Otimização Prematura.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>O básico sobre Expressões Regulares</title>
+    <link rel="alternate" href="http://blog.url.com/o-basico-sobre-expressoes-regulares.html"/>
+    <id>http://blog.url.com/o-basico-sobre-expressoes-regulares.html</id>
+    <published>2016-06-15T21:00:00-03:00</published>
+    <updated>2016-06-20T21:25:20-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Expressão Regular é uma das ferramentas mais úteis que você pode ter. Vira e mexe as Expressões Regulares (RegExp) resolvem desde problemas de Find &amp;amp; Replace no editor até validação de dados em diversos níveis do seu projeto. Mas geralmente a gente só lê sobre Expressões Regulares quando precisamos decifrar aquela linha maluca e ainda assim de um jeito meio descuidado, tateando e tentando fazer dar certo uma combinação de caracteres sem sentido.&lt;/p&gt;
+
+&lt;h2 id="entendendo-as-expresses"&gt;Entendendo as Expressões&lt;/h2&gt;
+
+&lt;p&gt;Uma Expressão Regular é uma representação para que você encontre padrões em um texto. Esse texto pode ser qualquer coisa, desde o valor de um campo de formulário ou simplesmente um search no seu editor de código predileto… Não importa… O objetivo é filtrar padrões em um punhado de informação textual.&lt;/p&gt;
+
+&lt;p&gt;Se você entender que uma Expressão Regular é apenas uma representação formada por símbolos, você não vai ter dificuldades. Cada símbolo representa um tipo de informação. Por exemplo: o &lt;code&gt;.&lt;/code&gt; (ponto) é um curinga. Ele significa que você pode selecionar qualquer caractere, ou seja, qualquer letra, caractere especial ou número. Exceto a quebra de linha, que é representado pelo símbolo &lt;code&gt;\n&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id="classe-de-caracteres"&gt;Classe de caracteres&lt;/h3&gt;
+
+&lt;p&gt;Vamos começar pelo mais fácil: quando você faz uma busca, você pode buscar uma combinação de caracteres específica, por exemplo: no seu editor de código, se você fizer uma busca por &lt;strong&gt;a&lt;/strong&gt;, ele vai te mostrar todas as letras &lt;strong&gt;a&lt;/strong&gt; do documento. Mas e se você quiser procurar todas as letras &lt;strong&gt;a&lt;/strong&gt; e as letras &lt;strong&gt;e&lt;/strong&gt;? Simples, você faz um agrupamento utilizando os colchetes &lt;code&gt;[]&lt;/code&gt;. Essa expressão irá encontrar todos os caracteres que estiverem dentro dos colchetes. &lt;a href="http://rubular.com/r/i7apRSchRh"&gt;Veja esse exemplo, onde ele filtra as letras &lt;code&gt;[ue]&lt;/code&gt;&lt;/a&gt;. Isso se chama &lt;strong&gt;classe de caracteres&lt;/strong&gt;, onde você encontra vários caracteres diferentes ao mesmo tempo.&lt;/p&gt;
+
+&lt;p&gt;Bom, se você quiser selecionar TODAS as letras do texto, você não precisa escrever o alfabeto inteiro dentro dos colchetes, basta só usar a representação &lt;code&gt;[A-z]&lt;/code&gt;. Isso quer dizer que ele pega as letras de A até Z, maiúsculas ou minúsculas.&lt;/p&gt;
+
+&lt;p&gt;Se você quiser pegar os números, por exemplo, use &lt;code&gt;[0-9]&lt;/code&gt;. Se quiser todas as letras e todos números: &lt;code&gt;[A-z0-9]&lt;/code&gt;. Pra facilitar a expressão, você pode usar &lt;code&gt;\w&lt;/code&gt;, que vai dar no mesmo.&lt;/p&gt;
+
+&lt;p&gt;Para você fazer uma negação da Classe criada, basta adicionar um &lt;code&gt;^&lt;/code&gt; dentro da classe. Por exemplo, você quer pegar todas as combinações que não sejam formadas pela sequência &lt;code&gt;es&lt;/code&gt;: &lt;code&gt;[^es]&lt;/code&gt;. &lt;a href="http://rubular.com/r/v5TNAzCQKa"&gt;Veja esse exemplo aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Exemplos de classes de caracteres:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A expressão &lt;code&gt;[a-z]&lt;/code&gt; reconhece todas as letras minúsculas.&lt;/li&gt;
+  &lt;li&gt;A expressão &lt;code&gt;[A-Z]&lt;/code&gt; reconhece todas as letras maiúsculas.&lt;/li&gt;
+  &lt;li&gt;A expressão &lt;code&gt;[A-z]&lt;/code&gt; reconhece todas as letras maiúsculas e minúsculas.&lt;/li&gt;
+  &lt;li&gt;A expressão &lt;code&gt;[A-Z0-9]&lt;/code&gt; reconhece todas as letras maiúsculas e números.&lt;/li&gt;
+  &lt;li&gt;A expressão &lt;code&gt;[a-e]&lt;/code&gt; reconhece as letras &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Atalhos para as classes mais comuns:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A classe &lt;code&gt;\w&lt;/code&gt; recupera todos os caracteres alpha numericos, ou seja, letras e números, mas não acentos ou caracteres especiais. É o equivalente a &lt;code&gt;[a-zA-Z_0-9]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;A classe &lt;code&gt;\W&lt;/code&gt; pega TODOS os caracteres que não seja alpha numericos, ou seja, pontuações e espaços.&lt;/li&gt;
+  &lt;li&gt;A classe &lt;code&gt;\s&lt;/code&gt; é o equivalente &lt;code&gt;[ \t\n\x0B\f\r]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;A classe &lt;code&gt;\d&lt;/code&gt; é o equivalente &lt;code&gt;[0-9]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E as classses de negação. Lembrando que basta colocar o sinal de &lt;code&gt;^&lt;/code&gt; logo depois do colchete inicial &lt;code&gt;[&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A expressão de classe &lt;code&gt;[^y]&lt;/code&gt; reconhece qualquer caractere, exceto y.&lt;/li&gt;
+  &lt;li&gt;A expressão de classe &lt;code&gt;[^a-e]&lt;/code&gt; reconhece qualquer caractere, exceto &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;A expressão de classe &lt;code&gt;[^\d]&lt;/code&gt; reconhece qualquer caractere, exceto 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="mltiplos-padres"&gt;Múltiplos padrões&lt;/h3&gt;
+
+&lt;p&gt;Imagine agora que você queira encontrar dois padrões diferentes de caracteres, por exemplo, duas palavras. Bastando usar o símbolo &lt;code&gt;|&lt;/code&gt; (pipe), que vai significar &lt;strong&gt;OU&lt;/strong&gt;. Nesse caso a expressão irá reconhecer um ou o outro padrão. &lt;a href="http://rubular.com/r/QScUEY0F1D"&gt;Veja esse exemplo&lt;/a&gt; onde recuperamos o retorno das palavras &lt;strong&gt;dolor&lt;/strong&gt; ou &lt;strong&gt;labore&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id="ncoras"&gt;Âncoras&lt;/h3&gt;
+
+&lt;p&gt;As âncoras recuperam a posição &lt;strong&gt;entre os caracteres, mas não os caracteres em si&lt;/strong&gt;. Por exemplo, a expressão &lt;code&gt;^dolor&lt;/code&gt;, vai recuperar as palavras &lt;strong&gt;dolor&lt;/strong&gt; que estiverem no início da linha (&lt;a href="http://rubular.com/r/xLTGYJY1fz"&gt;veja o exemplo&lt;/a&gt;). A expressão &lt;code&gt;dolor$&lt;/code&gt; vai recuperar o termo que estiver no final da linha (&lt;a href="http://rubular.com/r/FdBuPNAeWE"&gt;veja o exemplo&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id="modos"&gt;Modos&lt;/h3&gt;
+
+&lt;p&gt;Agora, suponha que você queira pegar uma sequência que contenha um termo parecido, mas que possa estar com algumas letras maiúsculas ou minúsculas. Por exemplo os termos &lt;strong&gt;Lorem&lt;/strong&gt;, &lt;strong&gt;lorem&lt;/strong&gt;, &lt;strong&gt;loRem&lt;/strong&gt;, &lt;strong&gt;lOrEm&lt;/strong&gt; etc, bastaria usar a representação &lt;code&gt;(?i)&lt;/code&gt; antes do termo a ser buscada. A expressão ficaria assim &lt;code&gt;(?i)lorem&lt;/code&gt;. &lt;a href="http://rubular.com/r/oEesGNpNcZ"&gt;Veja este exemplo aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="brincando-de-validar-um-email"&gt;Brincando de validar um email&lt;/h3&gt;
+
+&lt;p&gt;Uma tarefa muito corriqueira é a validação de campos de e-mail. Sem entrar nas polêmicas (validar essas coisas sempre é chato), mas é legal para treinar o que você acabou de ler. A expressão para fazer a validação é essa:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+^\w*(\.\w*)?@\w*\.[a-z]+(\.[a-z]+)?$
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Explicando:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A expressão &lt;code&gt;^&lt;/code&gt; indica o começo da string/linha.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;\w*&lt;/code&gt; pega qualquer caracteres alpha numericos, é o equivalente a &lt;code&gt;[a-zA-Z0-9_]&lt;/code&gt;. O asterísco é quantitativo, detectando qualquer quantidade desses caracteres, iniciando no 0 e indo até o infinito.&lt;/li&gt;
+  &lt;li&gt;A expressão &lt;code&gt;(\.\w*)?&lt;/code&gt; significa: parenteses inicia um agrupamento. A expressão &lt;code&gt;\.&lt;/code&gt; detecta literamente um ponto &lt;strong&gt;.&lt;/strong&gt;. A expressão &lt;code&gt;\w*&lt;/code&gt; qualquer quantidade de caracteres alpha numéricos.&lt;/li&gt;
+  &lt;li&gt;O ponto de interrogação (&lt;code&gt;?&lt;/code&gt;) é quantitativo: determina que o que vier imediatamente antes dele aparecer na expressão 0 ou 1 vez. Nessa expressão ele aparece duas vezes.&lt;/li&gt;
+  &lt;li&gt;O arroba seria o arroba do email mesmo…&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;\w*&lt;/code&gt; que aparece depois do arroba já falamos várias vezes logo acima.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;\.[a-z]&lt;/code&gt; pega um ponto seguido de letras minúsculas. vai detectar algo como &lt;strong&gt;.com&lt;/strong&gt;, &lt;strong&gt;.net&lt;/strong&gt;, etc…&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;+&lt;/code&gt; significa que o que estiver imediatamente antes dele precisa aparecer 1 ou mais vezes no termo.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;(\.[a-z]+)&lt;/code&gt;: abrimos novamente um agrupamento com o parenteses. &lt;code&gt;\.&lt;/code&gt; pega o ponto. A classe &lt;code&gt;[a-z]&lt;/code&gt; seleciona qualquer letra minúscula. E o mais aparece novamente, dizendo que tudo aquilo que estiver antes dele deve aparecer pelo menos 1 vez&lt;/li&gt;
+  &lt;li&gt;E a expressão &lt;code&gt;$&lt;/code&gt; pra finalizar significa final da string.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Veja funcionando abaixo:&lt;/p&gt;
+
+&lt;iframe src="//jsfiddle.net/borrcmd4/7/embedded/result,js,html,css/" allowfullscreen="allowfullscreen" frameborder="0" height="500" width="100%"&gt;&lt;/iframe&gt;
+
+&lt;h4 id="para-voc-testar-e-aprender"&gt;Para você testar e aprender&lt;/h4&gt;
+
+&lt;p&gt;Existem alguns sites pra facilitar a criação e o debug das expressões regulares, veja abaixo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://regex101.com/r/vS7vZ3/224#javascript"&gt;https://regex101.com/r/vS7vZ3/224#javascript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="http://rubular.com"&gt;http://rubular.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://aprenda.vidageek.net/aprenda/regex"&gt;http://aprenda.vidageek.net/aprenda/regex&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://turing.com.br/material/regex/introducao.html#"&gt;http://turing.com.br/material/regex/introducao.html#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx"&gt;https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Anotações sobre gestão agile</title>
+    <link rel="alternate" href="http://blog.url.com/anotacoes-sobre-gestao-agile.html"/>
+    <id>http://blog.url.com/anotacoes-sobre-gestao-agile.html</id>
+    <published>2016-05-04T21:00:00-03:00</published>
+    <updated>2016-06-20T21:13:12-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile e outros assuntos.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Competência é a junção do &lt;strong&gt;conhecimento (teoria), habilidade (pratica) e atitude (disciplina)&lt;/strong&gt; - CHA&lt;/li&gt;
+  &lt;li&gt;Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências&lt;/li&gt;
+  &lt;li&gt;qual o papel de um gestor num ambiente que melhora o desenvolvimento de competências? O gestor precisa criar um ambiente onde as pessoas desenvolvam o CHA de maneira contínua&lt;/li&gt;
+  &lt;li&gt;Tem certos aprendizados que foram gerados por erros.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mistake&lt;/strong&gt; Quando o erro gera uma falha, seu aprendizado não é tão grande&lt;/li&gt;
+  &lt;li&gt;Os experimentos podem ter como resultados o sucesso ou falha&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;experiments&lt;/strong&gt; Mas quando você faz de maneira intencional, você aprende com o erro ou com o sucesso&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;practices&lt;/strong&gt; você consegue determinar a causa e efeito e consegue ter uma taxa de sucesso maior, mas também tem uma chance pequena de fracasso&lt;/li&gt;
+  &lt;li&gt;A grande pergunta é: como o gestor consegue construir um ambiente onde há mais sucessos e poucos erros, mas que você também aprenda&lt;/li&gt;
+  &lt;li&gt;como você aprende em um ambiente complexo? Experimentos, falhas, observando… mas principalmente &lt;strong&gt;através das interações&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;O Learning 1.0 é baseado em efeitos simplificações.
+    &lt;ol&gt;
+      &lt;li&gt;Aprendizado prescritivo. Você consegue prescrever a solução dos problemas&lt;/li&gt;
+      &lt;li&gt;Aprendizado push - empurra o aprendizado, mesmo não sabendo se vai ser útil pra pessoa&lt;/li&gt;
+      &lt;li&gt;Aprendizado 1-N - você tem um expert que passa o conhecimento pra muitos&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Uma sala de aula funciona assim: tem um professor que decide &lt;strong&gt;o que&lt;/strong&gt; e &lt;strong&gt;como&lt;/strong&gt; você vai aprender&lt;/li&gt;
+  &lt;li&gt;As pessoas esperam que o gestor seja esse professor.&lt;/li&gt;
+  &lt;li&gt;Como nossa empresa gera conhecimento em um ambiente complexo?&lt;/li&gt;
+  &lt;li&gt;Learning 3.0 -
+    &lt;ol&gt;
+      &lt;li&gt;Aprendizado emergente - aprendizado fruto das interações. O que acontece das interações das partes do sistema&lt;/li&gt;
+      &lt;li&gt;Aprendizado “Pull” - você absorve o conhecimento gerado pelo ambiente&lt;/li&gt;
+      &lt;li&gt;Aprendizado N-N - todos aprendem com todos. Muitos ensinam pra muitos.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;na complexidade, as verdades são muito efêmeras. O ciclo de vida do que é verdade é muito curto.&lt;/li&gt;
+  &lt;li&gt;as regras evoluem mais rápido em sistemas complexos&lt;/li&gt;
+  &lt;li&gt;O quanto nosso aprendizado é desperdício?&lt;/li&gt;
+  &lt;li&gt;Learning 1.0: Focus on being Taught - expert define como e o que aprende&lt;/li&gt;
+  &lt;li&gt;Learning 2.0: Focus on Asking - o expert não define o que é verdadeiro ou falso, mais flexível&lt;/li&gt;
+  &lt;li&gt;Learning 3.0: Focus on Sharing - você ano tem claramente quem é o expert. Todos têm condições de aprender com todos&lt;/li&gt;
+  &lt;li&gt;Nos sistemas complexa você pode ter vários experts como deferentes perspectivas&lt;/li&gt;
+  &lt;li&gt;O Learning 1.0 não vai sumir. Na verdade existem momentos em que ele se encaixa. Logo, cada momento vai pedir um tipo de Learning&lt;/li&gt;
+  &lt;li&gt;Às vezes em uma sala de aula, o Learning 1.0 é melhor, mas para expor um problema no sistema ou no processo da empresa, k Learning 3.0 é o ideal&lt;/li&gt;
+  &lt;li&gt;feedback canvas&lt;/li&gt;
+  &lt;li&gt;Feedback wrap
+    &lt;ol&gt;
+      &lt;li&gt;Describe your context / situation “iniciamos o projeto há 6 meses, alguns clientes já estão usando…”&lt;/li&gt;
+      &lt;li&gt;List your observations (as facts) “temos X bugs em produção afetando algumas coisas…"&lt;/li&gt;
+      &lt;li&gt;Express your emotions / feelings "Eu estou ficando preocupado com o isso, o PO já está ficando apreensivo"&lt;/li&gt;
+      &lt;li&gt;Sprite by value created for you "o que você acha disso, o que podemos fazer diferente daqui pra frente?”&lt;/li&gt;
+      &lt;li&gt;End with suggestions / offer help "Eu como gestor, o que posso te ajudar?”&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Feedback Sandwich. Uma camada de feedback positivo, outra negativa…&lt;/li&gt;
+  &lt;li&gt;Você não come sandwich todos os dias… comer Sandwich todos os dias é pesado… O Wrap é mais leve, mais simples, palatável&lt;/li&gt;
+  &lt;li&gt;Você não tem controle se um feedback é positivo ou negativo. Depende da maneira que o indivíduo vai absorve&lt;/li&gt;
+  &lt;li&gt;no Wrap não existe positivo ou negativo, só existe Feedback&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="grow-structure"&gt;grow structure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Qual o maior exemplo de escala do mundo? O vírus&lt;/li&gt;
+  &lt;li&gt;Por que o vírus consegue se espalhar de forma eficiente?&lt;/li&gt;
+  &lt;li&gt;Cada vírus é auto-suficiente. Tudo o que ele precisa pra atacar um organismo, está dentro do vírus&lt;/li&gt;
+  &lt;li&gt;Você consegue crescer, clonar e se manter ágil&lt;/li&gt;
+  &lt;li&gt;esse conceito se chama estruturas fractais&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;fractal organization&lt;/strong&gt; - Times multidisciplinares. Um time fractal. Tenha todas as competências necessárias pra gerar valor dentro de um time.&lt;/li&gt;
+  &lt;li&gt;Se ocorrer uma invasão zumbi e só sobrou um time. Esse time precisa ser auto-suficiente.&lt;/li&gt;
+  &lt;li&gt;Women's global leadership initiative&lt;/li&gt;
+  &lt;li&gt;em algum momento da sua empresa que não é possível descentralizar. São as estruturas de serviços que servem pra suprir as unidades de valor&lt;/li&gt;
+  &lt;li&gt;Modelo Pêssego.&lt;/li&gt;
+  &lt;li&gt;O time que está na margem está em contato com o cliente, o negócio em si&lt;/li&gt;
+  &lt;li&gt;O time de serviço está mais perto do centro, no core da empresa&lt;/li&gt;
+  &lt;li&gt;O centro não é um centro de controle, é um centro de serviço&lt;/li&gt;
+  &lt;li&gt;Cada time de negócio é uma unidade de negócio.&lt;/li&gt;
+  &lt;li&gt;procurar: “coragem para empoderar” Agile Brasil&lt;/li&gt;
+  &lt;li&gt;a desvantagem de ter times independentes é o isolamento. Para minimizar isso, a gestão 3.0 incentiva grupos chamados de &lt;strong&gt;COP: community of practice&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;o COP é um grupo de profissionais de vários times que trocam figurinhas, que ajudam a compartilhar conhecimento e soluções&lt;/li&gt;
+  &lt;li&gt;o Chapter é um pouco mais formal que a comunidade pratica. Você pega os especialistas em um determinado assunto pra decidirem sobre os padrões globais da empresa sobre daquele assunto&lt;/li&gt;
+  &lt;li&gt;conway's law - "any organization that designs a system will inevitably produce a design whose structure is a copy of the organizations communication structure" Melvin E. Conway 1967&lt;/li&gt;
+  &lt;li&gt;Perfil T-Shaped - &lt;a href="http://diegoeis.com/tshaped-fullstack-dev/"&gt;http://diegoeis.com/tshaped-fullstack-dev/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;O camarada é um generalista em alguns assuntos, mas é especialista em um determinado assunto&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="improve-everything"&gt;improve Everything&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;"MEU MODELO ESTÁ ERRADO!" Jurgen Apello&lt;/li&gt;
+  &lt;li&gt;pra todo problema complexo, sempre há uma resposta clara, simples e errada&lt;/li&gt;
+  &lt;li&gt;Você não tem como garantir a situação de causa e efeito&lt;/li&gt;
+  &lt;li&gt;todo esse esquema de gestão 3.0 é uma especulação porque você está em um modelo complexo&lt;/li&gt;
+  &lt;li&gt;o ciclo de adaptação é feito pouco a pouco&lt;/li&gt;
+  &lt;li&gt;Como você influência um sistema social para que mudanças aconteçam?&lt;/li&gt;
+  &lt;li&gt;As 4 faces da mudança social
+    &lt;ol&gt;
+      &lt;li&gt;Considere o sistema&lt;/li&gt;
+      &lt;li&gt;Considere o comportamento complexo que você tem no seu sistema.&lt;/li&gt;
+      &lt;li&gt;você consegue simplificar a estrutura do sistema, mas não seu comportamento&lt;/li&gt;
+      &lt;li&gt;A complexidade é o cavalheiro numa dança de salão e você é a dama. Você nunca vai estar no controle do sistema&lt;/li&gt;
+      &lt;li&gt;A ferramenta para lidar com a complexidade: PDCA - Plan, Do, Check, Act&lt;/li&gt;
+      &lt;li&gt;Considere os indivíduos&lt;/li&gt;
+      &lt;li&gt;você tem uma ideia e quer que as pessoas absorvam aquela ideia, mostre o porque essa ideia é importante pra elas&lt;/li&gt;
+      &lt;li&gt;Entenda como cada ideia vai afetar a vida de cada integrante da empresa&lt;/li&gt;
+      &lt;li&gt;Considere as interações&lt;/li&gt;
+      &lt;li&gt;Considere as interações tanto pra o bem, quanto pra o mal&lt;/li&gt;
+      &lt;li&gt;as pessoas podem não absorver as ideias, não por que ela não gosta, mas porque a interação dela com as outras pessoas é ruim&lt;/li&gt;
+      &lt;li&gt;exemplo do Motorista, pedestre e faixa&lt;/li&gt;
+      &lt;li&gt;Considere o fluxo de propagação das ideias, onde você precisa identificar os inovadores, influenciadores… Eles ajudarão a propagar a mudança no sistema&lt;/li&gt;
+      &lt;li&gt;Considere o ambiente&lt;/li&gt;
+      &lt;li&gt;você tem restrições externas. Tanto fora ou dentro da empresa&lt;/li&gt;
+      &lt;li&gt;as restrições não inviabilizam, mas precisam ser considerados&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Curso dado pelo &lt;a href="https://twitter.com/manoelp"&gt;@manoelp&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sobre Aaron Swartz</title>
+    <link rel="alternate" href="http://blog.url.com/sobre-aaron-swartz.html"/>
+    <id>http://blog.url.com/sobre-aaron-swartz.html</id>
+    <published>2016-05-03T21:00:00-03:00</published>
+    <updated>2016-06-20T21:13:12-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Você conhece Aaron Swartz? Não? Ele está mais presente na sua vida do que você imagina. Duvida? Talvez você conheça RSS. RSS é um subset do XML e sua principal função é facilitar a agregação e distribuição de conteúdo. A especificação 1.0 do RSS foi lançada em 06/12/2000. Aaron Swartz foi um dos co-autores do RSS. Ele só tinha 14 anos. Eu sei que você se sente orgulhoso quando consegue implementar algum framework JS nos seus projetos. Eu também me sinto. Mas existem algumas pessoas que estão em outro patamar. Um patamar muito distante do mundo dos normais. Aaron Swartz é um destes caras.&lt;/p&gt;
+
+&lt;p&gt;Alguns de nós (eu) se orgulham por que viveram numa época de transição, onde os browsers brigavam, onde os padrões web se popularizaram e etc. O cara viveu em uma época onde o direito autoral ficou totalmente obsoleto com a chegada da internet. Essa colisão entre a maneira antiga de fazer as coisas com as novidades que a Internet trouxe, foi uma época de ebulição tecnológica e política. Tudo era novo para todo mundo. Ninguém sabia lidar com situações que hoje em dia são totalmente comuns para nós. Aaron era do tipo que saia da sua cidade (Chicago) e ia para Washington acompanhar a suprema corte e um bando de advogados decidirem sobre direitos autorais e outras coisas. Pensa no nível de curiosidade desse menino. Com 15 anos, ele estava ajudando a escrever as especificações do Creative Commons.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"Except for education and entertainment, I’m not going to waste my time with things that won’t have an impact." - Aaron Swartz&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mas você certamente deve saber que ele foi um dos co-fundadores do Reddit. O site foi vendido em Outubro de 2006 para a Condé Nast (dona da Wired). A Condé Nast tinha uma cultura empresarial que ele nunca havia visto e certamente nunca iria se acostumar. Ele até &lt;a href="http://www.aaronsw.com/weblog/officespace"&gt;escreveu um post sobre o ambiente de trabalho&lt;/a&gt;. Aaron Swartz foi despedido em Janeiro de 2007 porque simplesmente deixou de ir ao trabalho.&lt;/p&gt;
+
+&lt;p&gt;Mas o que Aaron sabia mais do que ninguém, era que principal característica da internet é a liberdade de comunicação. Ele sabia que a internet permite que todos possuam uma licença para falar e expor opiniões, mas que o mais importante é quem será ouvido.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"I don’t hold grudges (it’s not productive) but I learn from my experience." - Aaron Swartz&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Eu não quero contar a história do Aaron aqui e toda a revolução que ele causou lutando a favor da liberdade de acesso à informação. Você pode ver toda sua história no Netflix, em um documentário chamado The Internet’s Own Boy: The Story of Aaron Swartz.&lt;/p&gt;
+
+&lt;p&gt;O importante para mim é que você conheça um pouco da história da internet e tudo o que ela pode representar. Na verdade essa é uma história como várias outras, perdidas por aí e que só aparecem quando algo trágico acontece, nesse caso a morte do Aaron em 2013 (suposto suicídio).&lt;/p&gt;
+
+&lt;p&gt;A história da internet é fascinante. Mas as histórias de iniciativas e pessoas como Aaron, &lt;a href="http://tableless.com.br/porque-voce-deve-sua-vida-dave-winer/"&gt;Dave Winer&lt;/a&gt; (&lt;a href="http://www.aaronsw.com/weblog/000988"&gt;eles até se estranhavam&lt;/a&gt; de vez em quando) e vários outros (até mesmo o gênio Tim Berners-Lee), são mais fascinantes ainda. São histórias de caras que simplesmente trabalharam em prol da web, do livre acesso à informação e de tecnologias que permitem a internet ser totalmente aberta e livre.&lt;/p&gt;
+
+&lt;p&gt;As tecnologias que usamos hoje para desenvolver nosso produtos e que permitem facilitar a vida de milhões de pessoas, não são fruto do acaso, mas de pessoas realmente engajadas, que nem sempre se preocupam com o dinheiro, mas principalmente com os efeitos positivos que suas iniciativas podem ter.&lt;/p&gt;
+
+&lt;p&gt;Você deve parte da sua vida online ao Aaron Swartz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="http://feeds.feedburner.com/~r/diegoeisfeed/~4/ozx0sropAVY" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Review de Livro - Andróides Sonham com Ovelhas Elétricas</title>
+    <link rel="alternate" href="http://blog.url.com/review-de-livro-androides-sonham-com-ovelhas-eletricas.html"/>
+    <id>http://blog.url.com/review-de-livro-androides-sonham-com-ovelhas-eletricas.html</id>
+    <published>2016-04-26T21:00:00-03:00</published>
+    <updated>2016-06-20T21:13:12-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;O começo do livro já mostra o quão longe um autor de ficção científica pode ir. Imagina você criar uma ovelha. Agora imagina você criar uma ovelha elétrica. Imagina você ter um sintetizador que controla seu humor, onde você  sintoniza o canal de um humor específico e aquilo te influência de forma direta, te fazendo sentir feliz, ou realizado com o trabalho, ou com vontade de obedecer as ordens da esposa, etc etc etc… esse é o início do Andróides Sonham com Ovelhas Elétricas?.&lt;/p&gt;
+
+&lt;p&gt;O livro é bastante simples de acompanhar. Não tem tantos personagens para prestar atenção e a história é bem interessante. Senti falta de descrições da cidade e de alguns ambientes. Mas isso dá pra resolver procurando por imagens do trabalho de arte conceitual de &lt;a href="https://www.google.com.br/search?q=blade+runner+artwork"&gt;Blade Runner&lt;/a&gt;. Gostei bastante de como a Terra é descrita como bagunçada e vazia, mas ao mesmo tempo cheio de tecnologias avançadas como hovercar e vidfones… A forma como os "bagulhos" são multiplicados, fazendo analogia a como lugares desorganizados e a sujeira consegue se proliferar rapidamente, me lembrou da história da Janela Quebrada.&lt;/p&gt;
+
+&lt;p&gt;O enredo é bem diferente de Isaac Asimov, por exemplo, onde os robôs são vistos como coisas inofencivas e direcionados a seguir as 3 leis do cérebro positronico. No mundo de Philip, os robôs mais avançados podem ser perigosos, embora robôs com inteligência mais limitada executem tarefas triviais para ajudar os seres humanos. Contudo, há uma similaridade entre os tipos de andróides, onde tanto na série Robôs de Asimov, quanto no livro de Philip, os andróides mais avançados se parecem demais com seres humanos. Ainda mais em Ovelhas, onde os Nexus-6 são praticamente se confundem com seres humanos ao falar e todo o resto. O que faz surgir a pergunta: o que nos torna humanos? A aparência pode ser perfeita, tanto que o Deckard até se sente atraído por uma Androide. Mas o que realmente vai diferenciar um andróide de um ser humano? Ter órgãos é um simples detalhe se a aparência, forma de falar e trejeitos pessoais forem imitados pelos Andróides. Essa é uma questão tão legal de discutir quanto o teste Voigt-Vampff (tipo um detector de mentiras), usado para descobrir se alguém é um humano ou um andróide, medindo o nível de empatia das respostas a perguntas que evocam determinadas emoções. E aí vem a diferença entre um humano é um andróide: emoção e empatia pelas coisas a sua volta. O que o livro expõe com muita sutileza durante toda a história.&lt;/p&gt;
+
+&lt;p&gt;Recomendo demais.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://diegoeis.com/review-do-livro-androides-sonham-com-ovelhas-eletricas/https ://www.goodreads.com/book/show/26595931"&gt;Link do GoodReads&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>O básico sobre Sprints no Scrum</title>
+    <link rel="alternate" href="http://blog.url.com/o-basico-sobre-sprint-do-scrum.html"/>
+    <id>http://blog.url.com/o-basico-sobre-sprint-do-scrum.html</id>
+    <published>2016-04-17T14:54:00-03:00</published>
+    <updated>2016-06-20T21:13:12-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;O Sprint é um dos eventos do Scrum. Na verdade ele é a essência do Scrum e é o que o diferencia de outras metodologias como o Kanban, que tem um um fluxo de tarefas mais puxado e contínuo. O Sprint é um time-boxed determinado, de até um mês, onde o time vai executar suas tarefas, que no final será um incremento para o produto, entregando valor para o usuário.&lt;/p&gt;
+
+&lt;p&gt;Um novo Sprint é iniciado logo imediatamente a conclusão do Sprint anterior. Logo, não há um gap de tempo entre um Sprint e outro.&lt;/p&gt;
+
+&lt;p&gt;Cada uma das Sprints são compostas por alguns eventos: sprint planning, dailies, sprint review e retrospectiva da Sprint. Cada Sprint tem um objetivo específico, claro e que precisa ser acordado com o time de desenvolvimento. Durante o Sprint, não é permitido que alguma mudança possa colocar em perigo o objetivo do Sprint. Isso é feito para que o time não perca o foco no objetivo. O objetivo vai levar valor para o cliente e se desviar dele quer dizer que o usuário, muito possivelmente, não receberá um valor perceptível no produto.&lt;/p&gt;
+
+&lt;p&gt;O Objetivo do Sprint é tão importante, que o escopo pode ser renegociado com o Product Owner e o Time de Desenvolvimento conforme eles aprendem sobre as histórias que estão sendo desenvolvidas, para se adequarem melhor com o objetivo proposto pelo P.O.&lt;/p&gt;
+
+&lt;h3 id="o-sprint-pode-ser-cancelado"&gt;O sprint pode ser cancelado?&lt;/h3&gt;
+
+&lt;p&gt;Essa é uma dúvida muito, mas muito recorrente. Muitos acham que o Sprint é sagrado, que ele não pode ter alterações e principalmente não ser cancelado. Isso é mito. Já vimos que o escopo das tarefas do Sprint podem ser renegociadas com o P.O., e &lt;strong&gt;somente o Product Owner tem o direito de cancelar o Sprint&lt;/strong&gt;. Por isso, se o objetivo decidido não tiver mais sentido, se surgir uma nova tecnologia que poderá ser aplicada no produto, se o mercado der uma reviravolta ou for descoberto um novo perfil de usuário etc etc etc… ele poderá descartar esse objetivo e definir outro. É por isso faz bastante sentido fazer Sprints de curta duração, para diminuir o risco de mudanças de planos repentinos.&lt;/p&gt;
+
+&lt;p&gt;É comum por aí ter Sprints de uma ou duas semanas. Acho que duas semanas é um tempo interessante.&lt;/p&gt;
+
+&lt;h3 id="reunies-do-sprint"&gt;Reuniões do Sprint&lt;/h3&gt;
+
+&lt;p&gt;Como o Scrum é um processo empírico, ou seja, você precisa analisar o passado e as experiências vividas para tentar concertar os problemas e fazer melhor, num ciclo contínuo, existem uma série de reuniões de análise e descobertas, para que o time consiga entender o que fizeram de errado e quais as oportunidades de melhora.&lt;/p&gt;
+
+&lt;p&gt;As reuniões tradicionais, que estão descritas no manual são as seguintes, e devem acontecer nessa exata ordem:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Revisão da Sprint passada&lt;/li&gt;
+  &lt;li&gt;Retrospectiva da Sprint da Sprint passada&lt;/li&gt;
+  &lt;li&gt;Reunião de Planejamento da próxima Sprint&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Você não precisa fazer todas as três reuniões separadas, por que você vai perceber que elas podem representar momentos de uma mesma reunião. Nosso time aqui na firma faz a revisão e a retrospectiva da Sprint antes do Planejamento. Separamos uma hora para esses dois momentos, sobrando mais tempo para o Sprint Planning, que é o grande momento e o mais difícil dessas reuniões.&lt;/p&gt;
+
+&lt;p&gt;O pior entrave é a capacidade do time de estimar e quebrar tarefas grandes em tarefas menores, que caibam no tempo da Sprint. Talvez esse seja o maior exemplo de processo empírico que o Scrum pode trazer. Estimar tarefas nunca foi o forte dos desenvolvedores. Até mesmo desenvolvedores experientes tem dificuldades em dizer quanto tempo, mesmo que aproximado, quanto e qual o tamanho de uma determinada tarefa.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimar é opinar a respeito de algo de que não se tem certeza.&lt;/strong&gt; O time não precisa saber exatamente o dia que determinada tarefa estará pronta, mas precisa saber aproximadamente, baseado na sua experiência passada. Quando alguém pergunta o prazo, não é a hora de agradar ninguém, é hora de dar uma data confortável para o projeto que talvez seja suficiente para execução da tarefa. É opinar sobre os problemas e tentar identificar as armadilhas daquela tarefa. O time não precisa ter certeza de quanto tempo uma tarefa custará se eles nunca a executaram nada parecido. A ideia de estimar é realmente esta: opinar uma data mais próxima possível da realidade. O time vai errar a maioria das vezes, pelo simples de que eles não tem uma bola de cristal.&lt;/p&gt;
+
+&lt;p&gt;Mas depois de algumas dessas reuniões, o time precisa saber quando uma tarefa está grande demais e precisa ser quebrada em partes menores.&lt;/p&gt;
+
+&lt;p&gt;O importante dessas reuniões, lembrando, é o processo empírico da evolução do time e do produto. Você precisa não cometer os erros do passado para que haja uma evolução do time, e que os incrementos do produto levem realmente valor para o usuário. O que é valor para o usuário? Só é valor se o usuário perceber esses incrementos? Aí é outra história, outro estudo, outro artigo.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

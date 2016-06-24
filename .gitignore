@@ -8,13 +8,12 @@ node_modules
 npm-debug.log
 ghost-dev.db
 ghost.db
-build
 
 # Ignore bundler config
 /.bundle
 
 # Ignore the build directory
-/build
+# /build
 
 # Ignore cache
 /.sass-cache

@@ -4,6 +4,8 @@ date: 2016-06-22 00:00 UTC
 tags: notes, development
 ---
 
+Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.
+
 - por que criar um site SPA?
 - Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA
 - Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA.

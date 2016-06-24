@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="email-marketing-a-tortura-parte-2">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+  <title>Diego Eis  - Email Marketing a tortura - Parte 2</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="de-header">
+  <!-- <div class="de-menu">
+    <span class="de-sandwich">☰ Menu</span>
+
+  </div> -->
+  <h1 class="de-logo"><a href="/"><strong>diegoeis</strong>.com</a></h1>
+  <a href="http://feeds.feedburner.com/diegoeisfeed" class="de-ico-rss">RSS</a>
+  <a href="http://twitter.com/diegoeis" class="de-ico-twitter">@diegoeis</a>
+</header>
+
+
+<div class="de-wrapper">
+
+  <article class="de-post">
+      <header>
+        <!-- <span class="de-tags">{{tags}}</span> -->
+        <time datetime="Apr  7, 2015">Apr  7, 2015</time>
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
+
+        <h1 class="de-post-title">Email Marketing a tortura - Parte 2</h1>
+      </header>
+
+      <p>Não é só porque você precisa fazer seus emails utilizando tabelas, você vai desdenhar das boas práticas que você aprendeu na escola. O código final de uma Newsletter vai ficar muito maior e tão complexo quanto o código de um site institucional simples. Outro ponto importante, é que você vai fazer muitas e muitas alterações até esse email ser publicado e muito provavelmente vai precisar duplicá-lo quando alguém ter a necessidade de enviar novos emails.</p>
+
+<p>A estratégia que eu uso aqui é usar as tabelas como usamos os divs. As tabelas são necessárias e não tem por onde fugir. Isso já é um desconforto muito grande, por causa da quantidade de código gerada. Abaixo, seguem duas maneiras que uso aqui na Locaweb e nos projetos do Tableless.</p>
+
+<h2 id="css-inliner">CSS Inliner</h2>
+<p>Alguns clientes de email (estou olhando pra você, Gmail) simplesmente ignoram a tag style no HEAD ou no BODY. Eu não os culpo: como você mostraria um layout dentro do seu próprio layout, sem que o CSS e o código desse layout pirata não quebrasse o layout do seu sistema? Esse é um desafio para galera dos clientes de email baseados em web, como é o caso do Yahoo! Mail e do Gmail. Por isso, para acabar com o problema pela raiz, eles simplesmente estripam a tag style do HTML do email marketing, aceitando apenas o atributo style diretamente nos elementos.</p>
+
+<p>O problema é que o seu trabalho é fazer newsletters ou você faz muitas newsletters por semana, a necessidade de reutilizar código é importante. Por isso o fluxo de desenvolvimento de emails precisa ser muito parecido com o desenvolvimento em ambientes normais, usando um CSS externo, provavelmente dividido por módulos e etc. Embora o HTML fique um horror de fazer manutenção por causa das tabelas, o CSS é a parte onde você vai passar mais tempo, por isso precisa ser o lugar mais organizado.</p>
+
+<p>Para resolver esse problema, existem serviços online que pegam seu código CSS externo e colocam diretamente nas tags do seu HTML. Dependendo do seu layout o HTML final vai ficar um horror, mas isso não importa aqui. O HTML final você não vai se preocupar, porque a utilidade dele é simplesmente ser bem renderizado nos clientes.</p>
+
+<p>Existem três serviços que fazem a mesma coisa: o <a href="https://putsmail.com/inliner">Inliner do PutsMail</a>, o <a href="http://templates.mailchimp.com/resources/inline-css/">CSS Inliner Tool do MailChimp</a> e o <a href="http://inliner.cm/">Inliner do Campaing Monitor</a>.</p>
+
+<p>Estas ferramentas já te ajudam um bocado. Mas ainda não é o fluxo ideal. Se você tem 10 emails para fazer, sua produtividade já fica prejudicada com estes serviços. Por isso eu passei a usar um plugin de Gulp no build local dos emails para fazer esse trabalho: é o <a href="https://www.npmjs.com/package/gulp-inline-css">Gulp Inline CSS</a>.</p>
+
+<p>Se você prefere Grunt, tem um plugin que faz a mesma coisa, chamado <a href="https://www.npmjs.com/package/grunt-inline-css">Grunt Inline CSS</a>. O problema é que até a escrita deste artigo, esse plugin dependia de outro chamado <a href="https://www.npmjs.com/package/juice">Juice</a>, que faz a mágica por baixo dos panos, mas que estava dando uns paus loucos no Mac. Se você tiver paciência para testar, existem vários outros lá no NPM.</p>
+
+<p>Como usamos o Middleman aqui, coloquei pra chamar a task do Gulp para ser executada depois do build do Middleman e pronto! O Build já me devolve os emails com o código direto no atributo style dos emails. Para comparar, o código de desenvolvimento fica assim:</p>
+
+<p>&lt;pre class=“lang-html”&gt;
+&lt;table cellpadding="10"&gt;
+  &lt;tr&gt;
+    &lt;td class="lw-text"&gt;</p>
+
+<pre><code>  &amp;lt;h3&amp;gt;&amp;lt;strong&amp;gt;O per&amp;amp;iacute;odo de teste est&amp;amp;aacute; chegando ao fim!&amp;lt;/strong&amp;gt;&amp;lt;/h3&amp;gt;
+
+  &amp;lt;p&amp;gt;Ol&amp;amp;aacute; &amp;lt;/p&amp;gt;
+
+  &amp;lt;p&amp;gt;N&amp;amp;atilde;o perca tempo e mantenha o seu site no ar agora mesmo com 10% de desconto no primeiro m&amp;amp;ecirc;s. &amp;lt;/p&amp;gt;
+
+  &amp;lt;br&amp;gt;
+    &amp;lt;center&amp;gt;
+      &amp;lt;a href=&amp;quot;###&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;Quero manter meu site&amp;quot; src=&amp;quot;2014-11-21-c.png&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/center&amp;gt;
+
+&amp;lt;/td&amp;gt;   &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
+</code></pre>
+<p>&lt;/pre&gt;</p>
+
+<p>E o código buildado fica assim:</p>
+
+<p>&lt;pre class=“lang-html”&gt;
+&lt;table class="lw-wrapper" bgcolor="#e7e2dc" style="background-color: #e7e2dc; font-family: arial, helvetica, sans-serif; padding: 20px; width: 100%;"&gt;
+&lt;tr&gt;
+  &lt;td&gt;</p>
+
+<pre><code>&amp;lt;table align=&amp;quot;center&amp;quot; class=&amp;quot;lw-container&amp;quot; style=&amp;quot;background-color: #fff; border: none; border-collapse: collapse; margin: 0 auto; width: 630px;&amp;quot; bgcolor=&amp;quot;#ffffff&amp;quot;&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td class=&amp;quot;lw-content&amp;quot; style=&amp;quot;background-color: #fff; margin: 0 auto; width: 630px;&amp;quot;&amp;gt;
+        &amp;lt;img src=&amp;quot;2014-11-21-5.jpg&amp;quot; style=&amp;quot;border: none; text-decoration: none;&amp;quot; width=&amp;quot;630&amp;quot;&amp;gt;
+
+        &amp;lt;table cellpadding=&amp;quot;10&amp;quot;&amp;gt;   &amp;lt;tr&amp;gt;
+&amp;lt;td class=&amp;quot;lw-text&amp;quot; style=&amp;quot;margin: 0 20px;&amp;quot;&amp;gt;
+
+  &amp;lt;h3&amp;gt;&amp;lt;strong&amp;gt;O per&amp;amp;#xED;odo de teste est&amp;amp;#xE1; chegando ao fim!&amp;lt;/strong&amp;gt;&amp;lt;/h3&amp;gt;
+
+  &amp;lt;p style=&amp;quot;font-family: arial, helvetica, sans-serif; font-size: 14px;&amp;quot;&amp;gt;Ol&amp;amp;#xE1; &amp;lt;/p&amp;gt;
+
+  &amp;lt;p style=&amp;quot;font-family: arial, helvetica, sans-serif; font-size: 14px;&amp;quot;&amp;gt;N&amp;amp;#xE3;o perca tempo e mantenha o seu site no ar agora mesmo com 10% de desconto no primeiro m&amp;amp;#xEA;s. &amp;lt;/p&amp;gt;
+
+  &amp;lt;br&amp;gt;
+    &amp;amp;lt;center&amp;amp;gt;
+      &amp;amp;lt;a href=&amp;amp;quot;###&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;img alt=&amp;amp;quot;Quero manter meu site&amp;amp;quot; src=&amp;amp;quot;2014-11-21-c.png&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/a&amp;amp;gt;
+    &amp;amp;lt;/center&amp;amp;gt;
+
+&amp;amp;lt;/td&amp;amp;gt;   &amp;amp;lt;/tr&amp;amp;gt; &amp;amp;lt;/table&amp;amp;gt;
+</code></pre>
+<p>&lt;/pre&gt;</p>
+
+<p>Além disso tudo, nós usamos SASS para escrever o CSS. Lembre-se: a ideia é tentar ganhar velocidade no desenvolvimento, aproximando o ambiente que você está acostumado para a criação de emails. O problema é que embora você consiga produzir código rapidamente, você vai precisar testar esse layout e você não poderá fazer isso o tempo inteiro olhando para seu browser comum. Os usuários verão isso em diversos clientes de email e você precisa testar nesses clientes. É aí que entra outra ferramenta: Litmus.</p>
+
+<h2 id="testando-com-o-litmus">Testando com o Litmus</h2>
+<p>O <a href="http://litmus.com/">Litmus</a> é um ambiente de testes e análise de email marketing que surgiu em 2005. Além de testar seus emails, você consegue ter uma série de informações sobre taxa de abertura, forwards, deleções e outras análises. Basicamente o que os outros caras do mercado fazem, ele faz também. O grande diferencial dele é que você consegue submeter o código do seu email e ele mostra como o layout fica em praticamente todos os clientes de email do mercado, inclusive nos clientes mobile.</p>
+
+<p>Além disso, você consegue criar ou modificar o código do seu email diretamente pelo sistema deles, facilitando MUITO a adequação do código, principalmente porque eles tem um syntax checker que verifica se você está usando alguma regra que não funciona nos clientes de email do mercado.</p>
+
+<p>Há uma feature deles chamada Interactive Testing. Esse negócio conecta em uma máquina virtual para você, com o seu layout aberto no cliente de email e um lugar para você modificar seu código. Quando você muda alguma coisa no código, ele muda no cliente de email! Pensa na utilidade desse negócio.</p>
+
+<h3 id="putsmail">PutsMail</h3>
+<p>O <a href="https://PutsMail.com/">PutsMail</a> é um sisteminha de testes avulso. Ele é muito fácil de usar e nem precisa de cadastro. Basta jogar seu código no campo e mandar testar. Ele foi desenvolvido por um cara chamado Pablo Cantero, aí o Litmus comprou o sistema dele em 2014 e continuou o desenvolvimento.</p>
+
+<h2 id="concluindo">Concluindo</h2>
+<p>Email bom é email em Plain Text. Não escondo isso de ninguém. Quando fazemos emails, voltar a trabalhar como nos tempos antigos e isso não é bom. Você precis alinhar muito bem as expectativas do designer, precisa testar muito bem cada cliente de email importante, precisa escrever código ruim para que funcione em todo lugar. Mas não é impossível. Com a experiência e as ferramentas que surgiram nos últimos anos, conseguimos passar pelo vale da sombra e da morte mais facilmente. Mas ainda assim nos machucamos bastante. (ó, fiz até um final filosófico! ;-D )</p>
+
+
+      <hr class="de-hr">
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'diegoeis';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+
+  </article>
+
+
+
+</div>
+
+<script src="assets/js/scripts.js"></script>
+<script id="dsq-count-scr" src="//diegoeis.disqus.com/count.js" async></script>
+
+</body>
+</html>
+

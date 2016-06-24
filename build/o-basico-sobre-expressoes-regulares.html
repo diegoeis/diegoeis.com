@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="o-basico-sobre-expressoes-regulares">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+  <title>Diego Eis  - O básico sobre Expressões Regulares</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="de-header">
+  <!-- <div class="de-menu">
+    <span class="de-sandwich">☰ Menu</span>
+
+  </div> -->
+  <h1 class="de-logo"><a href="/"><strong>diegoeis</strong>.com</a></h1>
+  <a href="http://feeds.feedburner.com/diegoeisfeed" class="de-ico-rss">RSS</a>
+  <a href="http://twitter.com/diegoeis" class="de-ico-twitter">@diegoeis</a>
+</header>
+
+
+<div class="de-wrapper">
+
+  <article class="de-post">
+      <header>
+        <!-- <span class="de-tags">{{tags}}</span> -->
+        <time datetime="Jun 16, 2016">Jun 16, 2016</time>
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
+
+        <h1 class="de-post-title">O básico sobre Expressões Regulares</h1>
+      </header>
+
+      <p>Expressão Regular é uma das ferramentas mais úteis que você pode ter. Vira e mexe as Expressões Regulares (RegExp) resolvem desde problemas de Find &amp; Replace no editor até validação de dados em diversos níveis do seu projeto. Mas geralmente a gente só lê sobre Expressões Regulares quando precisamos decifrar aquela linha maluca e ainda assim de um jeito meio descuidado, tateando e tentando fazer dar certo uma combinação de caracteres sem sentido.</p>
+
+<h2 id="entendendo-as-expresses">Entendendo as Expressões</h2>
+
+<p>Uma Expressão Regular é uma representação para que você encontre padrões em um texto. Esse texto pode ser qualquer coisa, desde o valor de um campo de formulário ou simplesmente um search no seu editor de código predileto… Não importa… O objetivo é filtrar padrões em um punhado de informação textual.</p>
+
+<p>Se você entender que uma Expressão Regular é apenas uma representação formada por símbolos, você não vai ter dificuldades. Cada símbolo representa um tipo de informação. Por exemplo: o <code>.</code> (ponto) é um curinga. Ele significa que você pode selecionar qualquer caractere, ou seja, qualquer letra, caractere especial ou número. Exceto a quebra de linha, que é representado pelo símbolo <code>\n</code>.</p>
+
+<h3 id="classe-de-caracteres">Classe de caracteres</h3>
+
+<p>Vamos começar pelo mais fácil: quando você faz uma busca, você pode buscar uma combinação de caracteres específica, por exemplo: no seu editor de código, se você fizer uma busca por <strong>a</strong>, ele vai te mostrar todas as letras <strong>a</strong> do documento. Mas e se você quiser procurar todas as letras <strong>a</strong> e as letras <strong>e</strong>? Simples, você faz um agrupamento utilizando os colchetes <code>[]</code>. Essa expressão irá encontrar todos os caracteres que estiverem dentro dos colchetes. <a href="http://rubular.com/r/i7apRSchRh">Veja esse exemplo, onde ele filtra as letras <code>[ue]</code></a>. Isso se chama <strong>classe de caracteres</strong>, onde você encontra vários caracteres diferentes ao mesmo tempo.</p>
+
+<p>Bom, se você quiser selecionar TODAS as letras do texto, você não precisa escrever o alfabeto inteiro dentro dos colchetes, basta só usar a representação <code>[A-z]</code>. Isso quer dizer que ele pega as letras de A até Z, maiúsculas ou minúsculas.</p>
+
+<p>Se você quiser pegar os números, por exemplo, use <code>[0-9]</code>. Se quiser todas as letras e todos números: <code>[A-z0-9]</code>. Pra facilitar a expressão, você pode usar <code>\w</code>, que vai dar no mesmo.</p>
+
+<p>Para você fazer uma negação da Classe criada, basta adicionar um <code>^</code> dentro da classe. Por exemplo, você quer pegar todas as combinações que não sejam formadas pela sequência <code>es</code>: <code>[^es]</code>. <a href="http://rubular.com/r/v5TNAzCQKa">Veja esse exemplo aqui</a>.</p>
+
+<p>Exemplos de classes de caracteres:</p>
+
+<ul>
+  <li>A expressão <code>[a-z]</code> reconhece todas as letras minúsculas.</li>
+  <li>A expressão <code>[A-Z]</code> reconhece todas as letras maiúsculas.</li>
+  <li>A expressão <code>[A-z]</code> reconhece todas as letras maiúsculas e minúsculas.</li>
+  <li>A expressão <code>[A-Z0-9]</code> reconhece todas as letras maiúsculas e números.</li>
+  <li>A expressão <code>[a-e]</code> reconhece as letras <strong>a</strong>, <strong>b</strong>, <strong>c</strong>, <strong>d</strong> e <strong>e</strong>.</li>
+</ul>
+
+<p>Atalhos para as classes mais comuns:</p>
+
+<ul>
+  <li>A classe <code>\w</code> recupera todos os caracteres alpha numericos, ou seja, letras e números, mas não acentos ou caracteres especiais. É o equivalente a <code>[a-zA-Z_0-9]</code></li>
+  <li>A classe <code>\W</code> pega TODOS os caracteres que não seja alpha numericos, ou seja, pontuações e espaços.</li>
+  <li>A classe <code>\s</code> é o equivalente <code>[ \t\n\x0B\f\r]</code></li>
+  <li>A classe <code>\d</code> é o equivalente <code>[0-9]</code></li>
+</ul>
+
+<p>E as classses de negação. Lembrando que basta colocar o sinal de <code>^</code> logo depois do colchete inicial <code>[</code>:</p>
+
+<ul>
+  <li>A expressão de classe <code>[^y]</code> reconhece qualquer caractere, exceto y.</li>
+  <li>A expressão de classe <code>[^a-e]</code> reconhece qualquer caractere, exceto <strong>a</strong>, <strong>b</strong>, <strong>c</strong>, <strong>d</strong> e <strong>e</strong>.</li>
+  <li>A expressão de classe <code>[^\d]</code> reconhece qualquer caractere, exceto 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.</li>
+</ul>
+
+<h3 id="mltiplos-padres">Múltiplos padrões</h3>
+
+<p>Imagine agora que você queira encontrar dois padrões diferentes de caracteres, por exemplo, duas palavras. Bastando usar o símbolo <code>|</code> (pipe), que vai significar <strong>OU</strong>. Nesse caso a expressão irá reconhecer um ou o outro padrão. <a href="http://rubular.com/r/QScUEY0F1D">Veja esse exemplo</a> onde recuperamos o retorno das palavras <strong>dolor</strong> ou <strong>labore</strong>.</p>
+
+<h3 id="ncoras">Âncoras</h3>
+
+<p>As âncoras recuperam a posição <strong>entre os caracteres, mas não os caracteres em si</strong>. Por exemplo, a expressão <code>^dolor</code>, vai recuperar as palavras <strong>dolor</strong> que estiverem no início da linha (<a href="http://rubular.com/r/xLTGYJY1fz">veja o exemplo</a>). A expressão <code>dolor$</code> vai recuperar o termo que estiver no final da linha (<a href="http://rubular.com/r/FdBuPNAeWE">veja o exemplo</a>).</p>
+
+<h3 id="modos">Modos</h3>
+
+<p>Agora, suponha que você queira pegar uma sequência que contenha um termo parecido, mas que possa estar com algumas letras maiúsculas ou minúsculas. Por exemplo os termos <strong>Lorem</strong>, <strong>lorem</strong>, <strong>loRem</strong>, <strong>lOrEm</strong> etc, bastaria usar a representação <code>(?i)</code> antes do termo a ser buscada. A expressão ficaria assim <code>(?i)lorem</code>. <a href="http://rubular.com/r/oEesGNpNcZ">Veja este exemplo aqui</a>.</p>
+
+<h3 id="brincando-de-validar-um-email">Brincando de validar um email</h3>
+
+<p>Uma tarefa muito corriqueira é a validação de campos de e-mail. Sem entrar nas polêmicas (validar essas coisas sempre é chato), mas é legal para treinar o que você acabou de ler. A expressão para fazer a validação é essa:</p>
+
+<p><code>
+^\w*(\.\w*)?@\w*\.[a-z]+(\.[a-z]+)?$
+</code></p>
+
+<p>Explicando:</p>
+
+<ul>
+  <li>A expressão <code>^</code> indica o começo da string/linha.</li>
+  <li><code>\w*</code> pega qualquer caracteres alpha numericos, é o equivalente a <code>[a-zA-Z0-9_]</code>. O asterísco é quantitativo, detectando qualquer quantidade desses caracteres, iniciando no 0 e indo até o infinito.</li>
+  <li>A expressão <code>(\.\w*)?</code> significa: parenteses inicia um agrupamento. A expressão <code>\.</code> detecta literamente um ponto <strong>.</strong>. A expressão <code>\w*</code> qualquer quantidade de caracteres alpha numéricos.</li>
+  <li>O ponto de interrogação (<code>?</code>) é quantitativo: determina que o que vier imediatamente antes dele aparecer na expressão 0 ou 1 vez. Nessa expressão ele aparece duas vezes.</li>
+  <li>O arroba seria o arroba do email mesmo…</li>
+  <li><code>\w*</code> que aparece depois do arroba já falamos várias vezes logo acima.</li>
+  <li><code>\.[a-z]</code> pega um ponto seguido de letras minúsculas. vai detectar algo como <strong>.com</strong>, <strong>.net</strong>, etc…</li>
+  <li><code>+</code> significa que o que estiver imediatamente antes dele precisa aparecer 1 ou mais vezes no termo.</li>
+  <li><code>(\.[a-z]+)</code>: abrimos novamente um agrupamento com o parenteses. <code>\.</code> pega o ponto. A classe <code>[a-z]</code> seleciona qualquer letra minúscula. E o mais aparece novamente, dizendo que tudo aquilo que estiver antes dele deve aparecer pelo menos 1 vez</li>
+  <li>E a expressão <code>$</code> pra finalizar significa final da string.</li>
+</ul>
+
+<p>Veja funcionando abaixo:</p>
+
+<iframe src="//jsfiddle.net/borrcmd4/7/embedded/result,js,html,css/" allowfullscreen="allowfullscreen" frameborder="0" height="500" width="100%"></iframe>
+
+<h4 id="para-voc-testar-e-aprender">Para você testar e aprender</h4>
+
+<p>Existem alguns sites pra facilitar a criação e o debug das expressões regulares, veja abaixo:</p>
+
+<ul>
+  <li><a href="https://regex101.com/r/vS7vZ3/224#javascript">https://regex101.com/r/vS7vZ3/224#javascript</a></li>
+  <li>
+    <p><a href="http://rubular.com">http://rubular.com</a></p>
+  </li>
+  <li><a href="http://aprenda.vidageek.net/aprenda/regex">http://aprenda.vidageek.net/aprenda/regex</a></li>
+  <li><a href="http://turing.com.br/material/regex/introducao.html#">http://turing.com.br/material/regex/introducao.html#</a></li>
+  <li><a href="https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx">https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx</a></li>
+</ul>
+
+
+
+      <hr class="de-hr">
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'diegoeis';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+
+  </article>
+
+
+
+</div>
+
+<script src="assets/js/scripts.js"></script>
+<script id="dsq-count-scr" src="//diegoeis.disqus.com/count.js" async></script>
+
+</body>
+</html>
+

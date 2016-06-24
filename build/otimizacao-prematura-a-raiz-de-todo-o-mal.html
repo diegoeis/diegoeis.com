@@ -1,0 +1,159 @@
+<!doctype html>
+<html class="otimizacao-prematura-a-raiz-de-todo-o-mal">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+  <title>Diego Eis  - Otimização Prematura - a raíz de Todo o Mal</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<header class="de-header">
+  <!-- <div class="de-menu">
+    <span class="de-sandwich">☰ Menu</span>
+
+  </div> -->
+  <h1 class="de-logo"><a href="/"><strong>diegoeis</strong>.com</a></h1>
+  <a href="http://feeds.feedburner.com/diegoeisfeed" class="de-ico-rss">RSS</a>
+  <a href="http://twitter.com/diegoeis" class="de-ico-twitter">@diegoeis</a>
+</header>
+
+
+<div class="de-wrapper">
+
+  <article class="de-post">
+      <header>
+        <!-- <span class="de-tags">{{tags}}</span> -->
+        <time datetime="Jun 22, 2016">Jun 22, 2016</time>
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
+
+        <h1 class="de-post-title">Otimização Prematura - a raíz de Todo o Mal</h1>
+      </header>
+
+      <p>Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.</p>
+
+<ul>
+  <li>por que criar um site SPA?</li>
+  <li>Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA</li>
+  <li>Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA.</li>
+  <li>Esse é o problema da otimização prematura. O que você quer otimizar com SPA? Mostrar texto?</li>
+  <li>A maioria dessas tecnologias, arquiteturas e etc, otimiza muito bem alguns tipos de ambientes e isso não significa que o seu ambiente (contexto) pode ser otimizado</li>
+  <li>Tem casos e casos para usar Microserviços. Se você está sozinho ou se o grupo de devs é pequeno, não tem por que fazer um microserviço,</li>
+  <li>Entenda o seu contexto. Existem empresas que gastam mais de USD$100.000,00 em infra. Mas elas faturam quase 1 Bilhão.</li>
+  <li>Custo mínimo de TI:
+    <ul>
+      <li>USD 1000 - Cloud</li>
+      <li>USD 3000 - 1 Developer</li>
+      <li>USD 4000 - 1 Responsável (manager, marketing, etc)</li>
+      <li>Você tem que estar preparado para gastar por volta de USD96.000. Este é o mínimo.</li>
+    </ul>
+  </li>
+  <li>Você precisa ganhar algo em torno de 2 milhões de dólares no ano para o custo de TI precisa ficar por volta de 5%.</li>
+  <li>Não tente diminuir custo, tente aumentar a receita.</li>
+  <li>Tente conseguir mais pessoas comprando seu produto, aumentando sua receita.</li>
+  <li>Isso acontece quando você tira os bugs do sistema e o usuário consegue finalizar a compra. É quando sue site fica no ar em dias de pico e as pessoas conseguem finalizar as compras. É aí que você ganha dinheiro</li>
+  <li>Não se atenha a um stack. Se você usa .NET, não precisa ser tudo Microsoft. Best of Breed</li>
+  <li>Escolha as melhores tecnologias que te trazem os maiores retornos.</li>
+  <li>Não faz sentido uma empresa ter máquinas, racks e servidores na própria empresa.</li>
+  <li>A menos que você senha uma empresa de comunicação e que seu core business seja mensageria, NodeJS é uma tecnologia a se considerar.</li>
+  <li>Pusher, PubNub</li>
+  <li>O Pusher custa USD$ 49 para 500 conexões simultâneas. Você não vai conseguir melhor que isso. Só de cloud você vai gastar USD$30.</li>
+  <li>Todo mundo fala de SEO, e ainda continua falando hoje. É a mesma coisa o tempo todo, é tudo astrologia.</li>
+  <li>Acredite sempre no básico:
+    <ul>
+      <li>Você tem URLs amigáveis</li>
+      <li>usa sitemap.xml?</li>
+      <li>Redireciona HTTP301</li>
+      <li>Usa botões de redes sociais?</li>
+      <li>Tem conteúdo original relevante? Se seu conteúdo é irrelevante, não adianta…</li>
+      <li>Não copie conteúdo dos outros.</li>
+      <li>Pronto, voce não precisa saber mais nada de SEO</li>
+    </ul>
+  </li>
+  <li><a href="http://12factor.net/">The Twelve-Factor App</a>
+<strong>I. Codebase</strong>
+One codebase tracked in revision control, many deploys
+<strong>II. Dependencies</strong>
+Explicitly declare and isolate dependencies
+<strong>III. Config</strong>
+Store config in the environment
+<strong>IV. Backing services</strong>
+Treat backing services as attached resources
+<strong>V. Build, release, run</strong>
+Strictly separate build and run stages
+<strong>VI. Processes</strong>
+Execute the app as one or more stateless processes
+<strong>VII. Port binding</strong>
+Export services via port binding
+<strong>VIII. Concurrency</strong>
+Scale out via the process model
+<strong>IX. Disposability</strong>
+Maximize robustness with fast startup and graceful shutdown
+<strong>X. Dev/prod parity</strong>
+Keep development, staging, and production as similar as possible
+<strong>XI. Logs</strong>
+Treat logs as event streams
+<strong>XII. Admin processes</strong>
+Run admin/management tasks as one-off processes</li>
+  <li>Quando falamos em código, não precisamos estar preocupados em ganhar tempo. O que é ruim e não faça:
+    <ul>
+      <li>Seu sistema não tem pelo menos 70% de cobertura de testes</li>
+      <li>Não tem analise estática de código. É um programa lendo seu programa para dar uma nota. (Sugestão: CodeClimate)</li>
+      <li>Nenhum código fonte pode ter centenas de linhas por arquivo</li>
+      <li>Não deve ter Copy Paste em todo o lugar do código.</li>
+      <li>Não pode haver funções com o tamanho de mais de um page down</li>
+      <li>Banco de dados com vários campos inúteis</li>
+      <li>Se você faz um clone no projeto, você precisa rodar na máquina em minutos, não horas.</li>
+    </ul>
+  </li>
+  <li>Spree: 68k de linhas de código. 40k dessas linhas são testes.</li>
+  <li>Magento: 300k de linhas 127k são testes. Poucos testes, 10 vezes mais problemas.</li>
+  <li>Sua preocupação não pode ser só com performance, é preocupação com manutenabilidade.</li>
+  <li>Programadores são ruins para priorizar coisas.</li>
+  <li>Instale New Relic. Não importa sua linguagem. Ele vai coletar seus dados de produção e vai te dar um monte de números para você conhecer seu produto. #ficadica</li>
+  <li>Teoria das Correntes: como você determina a força de uma corrente, pelo elo mais fraco. Como você resolve? você troca o elo mais fraco. Quando você fizer, um outro elo será mais fraco.</li>
+  <li>Sem métricas, sem otimização. Voce tem número?  Se não, você está chutando.</li>
+  <li>Primeiro você faça funcionar, depois você corrige, depois você pensa em tornar rápido e finalmente, você pensa me tornar barato - Alan Kay</li>
+  <li>Essa é a ordem, você não pode mudá-la!</li>
+  <li>O facebook precisa do React? O Google precisa do Angular? Eles não precisam dessas tecnologias para sobreviver.</li>
+  <li>Você precisa usar tecnologias de empresas que realmente precisam das suas próprias tecnologias, que realmente ganham dinheiro com elas.</li>
+  <li>Não se preocupe em reduzir custos, se preocupe em fazer funcionar, para você ganhar dinheiro e sobreviver.</li>
+  <li>Best of Breed Open Source</li>
+  <li>Na dúvida, não faz do zero. Use SAAS.</li>
+  <li>SEO = Astrologia</li>
+  <li>Manutenção &gt; Performance</li>
+  <li>Prioridades. Não otimize sem métricas.</li>
+  <li>O maior problema dos programadores é a Otimização Prematura.</li>
+</ul>
+
+
+      <hr class="de-hr">
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'diegoeis';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+
+  </article>
+
+
+
+</div>
+
+<script src="assets/js/scripts.js"></script>
+<script id="dsq-count-scr" src="//diegoeis.disqus.com/count.js" async></script>
+
+</body>
+</html>
+
