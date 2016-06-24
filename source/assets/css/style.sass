@@ -156,19 +156,17 @@ time
   color: #000
   display: inline-block
   vertical-align: middle
-  padding-top: 30px
+  padding: 10%
 
 .de-posts-list
-  display: -webkit-flex
   display: flex
-  -webkit-flex-wrap: wrap
   flex-wrap: wrap
 
 .de-post-box
-  flex: 1 0 300px
+  width: 100%
   background: #fff
-  margin-right: 2%
   margin-bottom: 30px
+  margin-right: 2%
   position: relative
   transition: background .10s linear
 
@@ -180,16 +178,24 @@ time
 
     h1:after
       border-color: #fff
-  a
+  > a
     text-decoration: none
-    padding: 10%
-    display: block
+    color: inherit
+    padding: 0
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    text-indent: -9999px
+    overflow: hidden
 
   h1
     display: block
     color: #333
     line-height: 1.5
     font-size: 1.7rem
+    padding: 10% 10% 0
 
     &:after
       content: ""
@@ -200,9 +206,15 @@ time
       margin: 15% 0
 
   p
+    padding: 0 10%
     font-size: 1rem
     line-height: 1.7
     margin-bottom: 0
+
+    a
+      text-decoration: none
+      color: inherit
+
 
 blockquote
   position: relative
@@ -216,15 +228,6 @@ blockquote
     font-size: 20px
     font-style: italic
     color: black
-
-    // &:before
-    //   content: ' " '
-    //   position: absolute
-    //   color: rgba(0,0,0,.07)
-    //   font-size: 300px
-    //   font-family: Serif
-    //   top: -140px
-    //   left: -55px
 
 ////
 // POST
@@ -343,14 +346,7 @@ article
     top: 0
 
   .de-post-box
-    flex: 0 0 32%
-
-    &:nth-child(3n)
-      margin-right: 0
-
-    a
-      padding: 15%
-
+    flex: 1 0 30%
   .de-post-title
     font-size: 3.5rem
 
