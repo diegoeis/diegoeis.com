@@ -1,8 +1,8 @@
-—
-title: Otimização Prematura: a Raíz de Todo o Mal
+---
+title: Otimização Prematura - a raíz de Todo o Mal
 date: 2016-06-22 00:00 UTC
 tags: notes, development
-—
+---
 
 - por que criar um site SPA?
 - Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA
