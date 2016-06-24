@@ -6,7 +6,6 @@ tags: notes, development
 
 Minhas anotações sobre a palestra do Nando Vieira no 16ELW.
 
-
 - seu site está seguro? Você se pergunta isso quando coloca seu produto no ar?
 - 75% dos ataques estão na camada da aplicação.
 - brechas de segurança acabam com sua credibilidade. 
