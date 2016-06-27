@@ -5,10 +5,78 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-06-21T21:00:00-03:00</updated>
+  <updated>2016-06-25T21:00:00-03:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Performance Web - Rail</title>
+    <link rel="alternate" href="http://blog.url.com/performance-web-rail.html"/>
+    <id>http://blog.url.com/performance-web-rail.html</id>
+    <published>2016-06-25T21:00:00-03:00</published>
+    <updated>2016-06-26T21:09:01-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Otimização de web se resume em mitificar css/js, comprimir HTML, gzip, concatenar CSS/JS, sprites, cache/expires, otimizar imagens, colocar scripts no fim da página e CSS no topo, trabalhar com assíncrono, lazy load, usar CDN, diminuir cookies, coisas desse tipo. Quem já usou alguma dessas práticas?&lt;/li&gt;
+  &lt;li&gt;O que é performance exatamente? Qual é o tempo ideal para um site carregar? O que é carregar um site? Carregar o netflix é carregar o video inteiro do filme? Quem te fala que seu site está rápido?&lt;/li&gt;
+  &lt;li&gt;Medir se o site que está rápido ou não, ou seja, pelo Onload, é uma péssima ideia.&lt;/li&gt;
+  &lt;li&gt;SPA já quebra essa métrica, porque carrega uma vez e não dispara o onload de novo.&lt;/li&gt;
+  &lt;li&gt;Nós temos vários tipos de performance:
+    &lt;ol&gt;
+      &lt;li&gt;Performance de carregamento. Quando clica e o browser faz alguma coisa.&lt;/li&gt;
+      &lt;li&gt;Interação. O cara clica num botão e aí abre uma modal. isso é uma interação. É a interação dos usuários com os eventos da página.&lt;/li&gt;
+      &lt;li&gt;Animação. Quanto tempo demora para a animação rodar. Dá umas travadas?&lt;/li&gt;
+      &lt;li&gt;Memória. O browser da crash por causa da falta de memória.&lt;/li&gt;
+      &lt;li&gt;Bateria. Sua aplicação mata a bateria do usuário porque fica consumindo os recursos da máquina (celular) o tempo inteiro?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Quais são os limites da percepção de performance do usuário? A pesquisa chegou em 3 números: 100ms, 1s e 10s.&lt;/li&gt;
+  &lt;li&gt;quando algo acontece algo em 100ms, nosso cérebro acha que aquilo é instantâneo.&lt;/li&gt;
+  &lt;li&gt;Quando demora até 1s, seu cérebro já sabe que existe uma diferença, que há uma certa lentidão. O cérebro repara que algo aconteceu. Mas seu cérebro consegue dizer que ainda estamos numa mesma tarefa, embora exista um delay.&lt;/li&gt;
+  &lt;li&gt;Depois de 10s, seu cérebro entende que acabou a tarefa. Não há uma ação e reação. Se o site demora pra carregar, ele abre uma aba do facebook para esperar e pronto, esqueceu seu site.&lt;/li&gt;
+  &lt;li&gt;RAIL: Response Animation Idle Load, é um modelo de performance que quebra o modelo de performance em 4 pontos.&lt;/li&gt;
+  &lt;li&gt;a ideia é quebrar cada uma das ações na sua página nessas quatro categorias.
+## Load&lt;/li&gt;
+  &lt;li&gt;Quando o cara dá enter na URL, dá para carregar instantaneamente? Difícil… Mas talvez dá carregar tudo em 1s. Dado aqueles limites de tempo psicológicos que vimos acima.&lt;/li&gt;
+  &lt;li&gt;http://webpagetest.org&lt;/li&gt;
+  &lt;li&gt;O que realmente importa nesses números que as páginas de métricas de performance trazem?&lt;/li&gt;
+  &lt;li&gt;meça a sensação do usuário de que há alguma coisa na tela. First Minimum Paint.&lt;/li&gt;
+  &lt;li&gt;Preste atenção no tempo de Start Render. Isso significa quando o browser começou a renderizar alguma coisa. Tente manter esse número perto do 1s.&lt;/li&gt;
+  &lt;li&gt;O SpeedIndex é o número que vocÊ realmente quer diminuir. Ele mostra quando a página mostrada para o usuário (o topo, antes da dobra, antes do primeiro scroll), para de carregar coisas&lt;/li&gt;
+  &lt;li&gt;Critical Rendering Path&lt;/li&gt;
+  &lt;li&gt;tira o JS da primeira renderização. Fácil; basta chamar os JS no final da página. O grande bloqueador é o CSS.&lt;/li&gt;
+  &lt;li&gt;Entregue tudo que esteja acima da dobra até um segundo.&lt;/li&gt;
+  &lt;li&gt;Use um CSS inline acima da dobra.&lt;/li&gt;
+  &lt;li&gt;&amp;lt; 14Kb é um RTT (Road Trip) do servidor.&lt;/li&gt;
+  &lt;li&gt;Ao invés do inline, dá para usar server push http/2
+## Animation&lt;/li&gt;
+  &lt;li&gt;O ideal do animation é que ele seja de 60fps&lt;/li&gt;
+  &lt;li&gt;os monitores hoje redesenham a tela mais ou menos 60 vezes por segundo. Isso dá a sensação de que um vídeo é um video e não um monte de foto parada tentando se mover.&lt;/li&gt;
+  &lt;li&gt;Pelo menos no Chrome e Safari, animações do CSS e etc, é feito na GPU. Isso quer dizer que o browser consegue encaixar os elementos certos na GPU, para que a placa gráfica consiga fazer seu trabalho direito&lt;/li&gt;
+  &lt;li&gt;Quando você muda alguma coisa de CSS via JavaScript, o browser precisa recalcular a posição e os outros elementos que podem estar relacionados com esse elemento modificado&lt;/li&gt;
+  &lt;li&gt;use a propriedade will-change para avisar o browser de que ele vai precisar animar algum elemento na GPU
+## Responsive&lt;/li&gt;
+  &lt;li&gt;Todas as ações do usuário precisa ser executado a 100ms.&lt;/li&gt;
+  &lt;li&gt;O usuário precisa saber que sua interação foi executada. na verdade, o usuário só ter uma resposta de que sua ação foi entendida pelo sistema.&lt;/li&gt;
+  &lt;li&gt;Mostra um loading maneiro, mostra qualquer feedback que faça o usuário entender que sua ação foi executada
+## Idle&lt;/li&gt;
+  &lt;li&gt;Você executa coisas na página, mas tem alguma hora que a animação já acabou de executar, sua página já foi carregada e o usuário não está executando nenhuma ação. Logo, você pod usar esse momento de ócio para disparar alguma coisa não essencial para as ações do usuário.&lt;/li&gt;
+  &lt;li&gt;O browser é single thread, tudo rola numa thread só. tanto as ações do usuário, quanto seus scripts.&lt;/li&gt;
+  &lt;li&gt;Quebre as tarefas em tardinhas: setTimeout, setImmediate, requestAnimationFrame, requestIdleCallback&lt;/li&gt;
+  &lt;li&gt;Use WebWorkers para coisas pesadas em background&lt;/li&gt;
+  &lt;li&gt;Performance é UX. O modelo de performance é focada nas ações e na experiência do usuário.&lt;/li&gt;
+  &lt;li&gt;Response em 100ms&lt;/li&gt;
+  &lt;li&gt;Animation em 16ms&lt;/li&gt;
+  &lt;li&gt;Idle em 50 ms&lt;/li&gt;
+  &lt;li&gt;Load em 1s&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Otimização Prematura - a raíz de Todo o Mal</title>
     <link rel="alternate" href="http://blog.url.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html"/>
@@ -404,52 +472,6 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
 &lt;p&gt;Recomendo demais.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://diegoeis.com/review-do-livro-androides-sonham-com-ovelhas-eletricas/https ://www.goodreads.com/book/show/26595931"&gt;Link do GoodReads&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>O básico sobre Sprints no Scrum</title>
-    <link rel="alternate" href="http://blog.url.com/o-basico-sobre-sprint-do-scrum.html"/>
-    <id>http://blog.url.com/o-basico-sobre-sprint-do-scrum.html</id>
-    <published>2016-04-17T14:54:00-03:00</published>
-    <updated>2016-06-20T21:13:12-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;O Sprint é um dos eventos do Scrum. Na verdade ele é a essência do Scrum e é o que o diferencia de outras metodologias como o Kanban, que tem um um fluxo de tarefas mais puxado e contínuo. O Sprint é um time-boxed determinado, de até um mês, onde o time vai executar suas tarefas, que no final será um incremento para o produto, entregando valor para o usuário.&lt;/p&gt;
-
-&lt;p&gt;Um novo Sprint é iniciado logo imediatamente a conclusão do Sprint anterior. Logo, não há um gap de tempo entre um Sprint e outro.&lt;/p&gt;
-
-&lt;p&gt;Cada uma das Sprints são compostas por alguns eventos: sprint planning, dailies, sprint review e retrospectiva da Sprint. Cada Sprint tem um objetivo específico, claro e que precisa ser acordado com o time de desenvolvimento. Durante o Sprint, não é permitido que alguma mudança possa colocar em perigo o objetivo do Sprint. Isso é feito para que o time não perca o foco no objetivo. O objetivo vai levar valor para o cliente e se desviar dele quer dizer que o usuário, muito possivelmente, não receberá um valor perceptível no produto.&lt;/p&gt;
-
-&lt;p&gt;O Objetivo do Sprint é tão importante, que o escopo pode ser renegociado com o Product Owner e o Time de Desenvolvimento conforme eles aprendem sobre as histórias que estão sendo desenvolvidas, para se adequarem melhor com o objetivo proposto pelo P.O.&lt;/p&gt;
-
-&lt;h3 id="o-sprint-pode-ser-cancelado"&gt;O sprint pode ser cancelado?&lt;/h3&gt;
-
-&lt;p&gt;Essa é uma dúvida muito, mas muito recorrente. Muitos acham que o Sprint é sagrado, que ele não pode ter alterações e principalmente não ser cancelado. Isso é mito. Já vimos que o escopo das tarefas do Sprint podem ser renegociadas com o P.O., e &lt;strong&gt;somente o Product Owner tem o direito de cancelar o Sprint&lt;/strong&gt;. Por isso, se o objetivo decidido não tiver mais sentido, se surgir uma nova tecnologia que poderá ser aplicada no produto, se o mercado der uma reviravolta ou for descoberto um novo perfil de usuário etc etc etc… ele poderá descartar esse objetivo e definir outro. É por isso faz bastante sentido fazer Sprints de curta duração, para diminuir o risco de mudanças de planos repentinos.&lt;/p&gt;
-
-&lt;p&gt;É comum por aí ter Sprints de uma ou duas semanas. Acho que duas semanas é um tempo interessante.&lt;/p&gt;
-
-&lt;h3 id="reunies-do-sprint"&gt;Reuniões do Sprint&lt;/h3&gt;
-
-&lt;p&gt;Como o Scrum é um processo empírico, ou seja, você precisa analisar o passado e as experiências vividas para tentar concertar os problemas e fazer melhor, num ciclo contínuo, existem uma série de reuniões de análise e descobertas, para que o time consiga entender o que fizeram de errado e quais as oportunidades de melhora.&lt;/p&gt;
-
-&lt;p&gt;As reuniões tradicionais, que estão descritas no manual são as seguintes, e devem acontecer nessa exata ordem:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Revisão da Sprint passada&lt;/li&gt;
-  &lt;li&gt;Retrospectiva da Sprint da Sprint passada&lt;/li&gt;
-  &lt;li&gt;Reunião de Planejamento da próxima Sprint&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Você não precisa fazer todas as três reuniões separadas, por que você vai perceber que elas podem representar momentos de uma mesma reunião. Nosso time aqui na firma faz a revisão e a retrospectiva da Sprint antes do Planejamento. Separamos uma hora para esses dois momentos, sobrando mais tempo para o Sprint Planning, que é o grande momento e o mais difícil dessas reuniões.&lt;/p&gt;
-
-&lt;p&gt;O pior entrave é a capacidade do time de estimar e quebrar tarefas grandes em tarefas menores, que caibam no tempo da Sprint. Talvez esse seja o maior exemplo de processo empírico que o Scrum pode trazer. Estimar tarefas nunca foi o forte dos desenvolvedores. Até mesmo desenvolvedores experientes tem dificuldades em dizer quanto tempo, mesmo que aproximado, quanto e qual o tamanho de uma determinada tarefa.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Estimar é opinar a respeito de algo de que não se tem certeza.&lt;/strong&gt; O time não precisa saber exatamente o dia que determinada tarefa estará pronta, mas precisa saber aproximadamente, baseado na sua experiência passada. Quando alguém pergunta o prazo, não é a hora de agradar ninguém, é hora de dar uma data confortável para o projeto que talvez seja suficiente para execução da tarefa. É opinar sobre os problemas e tentar identificar as armadilhas daquela tarefa. O time não precisa ter certeza de quanto tempo uma tarefa custará se eles nunca a executaram nada parecido. A ideia de estimar é realmente esta: opinar uma data mais próxima possível da realidade. O time vai errar a maioria das vezes, pelo simples de que eles não tem uma bola de cristal.&lt;/p&gt;
-
-&lt;p&gt;Mas depois de algumas dessas reuniões, o time precisa saber quando uma tarefa está grande demais e precisa ser quebrada em partes menores.&lt;/p&gt;
-
-&lt;p&gt;O importante dessas reuniões, lembrando, é o processo empírico da evolução do time e do produto. Você precisa não cometer os erros do passado para que haja uma evolução do time, e que os incrementos do produto levem realmente valor para o usuário. O que é valor para o usuário? Só é valor se o usuário perceber esses incrementos? Aí é outra história, outro estudo, outro artigo.&lt;/p&gt;
 </content>
   </entry>
 </feed>
