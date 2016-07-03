@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html"/>
     <id>http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html</id>
     <published>2016-07-02T21:00:00-03:00</published>
-    <updated>2016-07-03T19:44:42-03:00</updated>
+    <updated>2016-07-03T20:28:41-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -75,7 +75,7 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
 &lt;h2 id="okay-mas-eu-posso-usar-o-que"&gt;Okay, mas eu posso usar o que?&lt;/h2&gt;
 &lt;p&gt;Você usa o que você quiser. Quer usar SVG para ícones, facilitando a visualização em aparelhos que tem tela retina e de alta qualidade? Vai fundo. Quer usar PNG em vez de GIF por que acha que é mais fácil de manter, sem problemas. Quer usar JPG em vez de WebP, por que sim? Beleza, não tem problema. O negócio é sempre utilizar o que é melhor para cada necessidade de imagem. Eu ainda salvo imagens, quando são fotos, em JPG. Não usei WebP de verdade ainda por causa do suporte no Safari e na indecisão do Mozilla. Mas uso PNG o tempo inteiro em vez de usar GIF.&lt;/p&gt;
 
-&lt;p&gt;Essa guerra ainda está longe de acabar e ninguém ainda tem uma resposta certa.&lt;/p&gt;
+&lt;p&gt;Esse ainda da muito pano para manga e está longe de acabar…&lt;/p&gt;
 </content>
   </entry>
   <entry>

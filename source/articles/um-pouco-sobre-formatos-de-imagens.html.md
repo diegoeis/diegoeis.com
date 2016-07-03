@@ -59,4 +59,4 @@ O Google explica <a href="https://developers.google.com/speed/webp/docs/compress
 ## Okay, mas eu posso usar o que?
 Você usa o que você quiser. Quer usar SVG para ícones, facilitando a visualização em aparelhos que tem tela retina e de alta qualidade? Vai fundo. Quer usar PNG em vez de GIF por que acha que é mais fácil de manter, sem problemas. Quer usar JPG em vez de WebP, por que sim? Beleza, não tem problema. O negócio é sempre utilizar o que é melhor para cada necessidade de imagem. Eu ainda salvo imagens, quando são fotos, em JPG. Não usei WebP de verdade ainda por causa do suporte no Safari e na indecisão do Mozilla. Mas uso PNG o tempo inteiro em vez de usar GIF.
 
-Essa guerra ainda está longe de acabar e ninguém ainda tem uma resposta certa. 
+Esse ainda da muito pano para manga e está longe de acabar...
