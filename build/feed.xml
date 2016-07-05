@@ -5,10 +5,99 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-07-02T21:00:00-03:00</updated>
+  <updated>2016-07-03T21:00:00-03:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Deploy usando Hook do Git</title>
+    <link rel="alternate" href="http://blog.url.com/deploy-usando-hook-do-git.html"/>
+    <id>http://blog.url.com/deploy-usando-hook-do-git.html</id>
+    <published>2016-07-03T21:00:00-03:00</published>
+    <updated>2016-07-04T22:12:44-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o &lt;strong&gt;git hooks&lt;/strong&gt; pra fazer isso.&lt;/p&gt;
+
+&lt;p&gt;Vou mostrar mais ou menos como é o meu processo para atualizar meu &lt;a href="http://diegoeis.com"&gt;blog pessoal&lt;/a&gt;. A ideia é que você crie um repositório utilizando a flag &lt;code&gt;—bare&lt;/code&gt;. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um &lt;code&gt;git init&lt;/code&gt; na sua máquina. O git cria uma pasta &lt;code&gt;.git&lt;/code&gt; dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+git remote add origin git@github.com:diegoeis/diegoeis.com.git
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Esse repositório remoto não é um repositório de trabalho, ele é um repositório que contém apenas as referências de mudanças do seu código e nada mais. Isso quer dizer que ele não tem os arquivos do seu projeto. Esse é um repositório apenas para compartilhamento, nada mais. É com esse link que todos os outros membros do seu time irão adicionar o projeto em suas máquinas.&lt;/p&gt;
+
+&lt;p&gt;Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando &lt;code&gt;git init —bare&lt;/code&gt; no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+mkdir public/diegoeis.com.git
+cd public/diegoeis.com.git
+git init —bare
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Pronto, isso foi o suficiente para criar um repositório bare vazio. Ele vai ser o nosso &lt;code&gt;origin&lt;/code&gt; no nosso repositório local. Para tanto, fazemos assim na máquina local, dentro do seu projeto:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+cd diegoeis.com
+git remote add origin meu_usuario_do_servidor@meu_dominio.com:/public/diegoeis.com.git
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Pronto, agora eu adicionei um repositório remoto ao meu projeto. Se você entender bem, você faz a mesma coisa quando vai clonar um projeto usando GitHub ou qualquer outro sistema de gerenciamento de Git como GitLab, Bitbucket etc. Só que eles criam o repositório bare para você.&lt;/p&gt;
+
+&lt;p&gt;Feito isso, vamos voltar para o seu servidor, lá você vai clonar o seu projeto. Isso vai criar uma pasta normal, que você já conhece.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+git clone public/diegoeis.com.git /var/www/diegoeis.com
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id="git-hooks"&gt;Git Hooks&lt;/h3&gt;
+&lt;p&gt;Com esse “setup” feito, agora eu posso ir para o que importa, que é configurar meu hook. Lá no seu servidor, dentro do repositório bare que foi criado, encontre a pasta &lt;code&gt;hooks&lt;/code&gt;, e dentro dela tem um arquivo chamado &lt;code&gt;post-receive&lt;/code&gt;. Esse cara é o hook que vai detectar algo depois do recebimento de uma mudança. Você vai colocar esse código:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+#!/bin/bash
+cd /public/diegoeis.com
+env -i git reset —hard
+env -i git pull origin master
+exit
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Bom, são comandos bash, simples: entra na pasta do meu site, reseta o repositório e faz um pull com as últimas alterações. Esse &lt;code&gt;env -i&lt;/code&gt; é um truque que faz os comandos serem executados na pasta que você entrou ali no seu comando bash. Se não houver esse &lt;code&gt;env -i&lt;/code&gt;, todos os comandos git que você rodar, vão tentar rodar na pasta fora do seu repositório. Colocando essa flag, isso não vai acontecer. O Felix Geisendörfer &lt;a href="http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3"&gt;sofreu com isso e falou como funciona aqui nesse artigo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Por último, você precisa tornar o &lt;strong&gt;post-receive&lt;/strong&gt; um arquivo executável rodando:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+chmod +x /public/diegoeis.com.git/hooks/post-receive
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora, toda vez que você fizer um git push para o seu repositório remoto, ele vai atualizar e mostrar algo mais ou menos assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 1.99 KiB | 0 bytes/s, done.
+Total 19 (delta 14), reused 0 (delta 0)
+remote: HEAD is now at 9c1acad build
+remote: From /public/diegoeis.com
+remote:  * branch            master     -&amp;gt; FETCH_HEAD
+remote:    9c1adac..c1bc7ed  master     -&amp;gt; origin/master
+remote: Updating 9c1adac..c1bc7ed
+remote: Fast-forward
+remote:  build/assets/css/style.css                       |  2 +-
+remote:  build/feed.xml                                   | 12 ++++++———
+remote:  build/index.html                                 |  2 +-
+remote:  source/articles/organizando-a-informacao.html.md | 12 ++++++———
+remote:  6 files changed, 21 insertions(+), 19 deletions(-)
+To user@diegoeis.com:/public/diegoeis.com.git/
+   9c1acad..c5bb7ed  master -&amp;gt; master
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;E quase que instantaneamente seu repositório em prod vai estar atualizado.&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push"&gt;Akita fez uma artigo em 2010&lt;/a&gt; (!) falando sobre o mesmo assunto e você tem uma série de outros artigos pela internet explicando a mesma coisa. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Um pouco sobre formatos de imagens</title>
     <link rel="alternate" href="http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html"/>
@@ -483,44 +572,6 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Curso dado pelo &lt;a href="https://twitter.com/manoelp"&gt;@manoelp&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Sobre Aaron Swartz</title>
-    <link rel="alternate" href="http://blog.url.com/sobre-aaron-swartz.html"/>
-    <id>http://blog.url.com/sobre-aaron-swartz.html</id>
-    <published>2016-05-03T21:00:00-03:00</published>
-    <updated>2016-06-20T16:50:51-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Você conhece Aaron Swartz? Não? Ele está mais presente na sua vida do que você imagina. Duvida? Talvez você conheça RSS. RSS é um subset do XML e sua principal função é facilitar a agregação e distribuição de conteúdo. A especificação 1.0 do RSS foi lançada em 06/12/2000. Aaron Swartz foi um dos co-autores do RSS. Ele só tinha 14 anos. Eu sei que você se sente orgulhoso quando consegue implementar algum framework JS nos seus projetos. Eu também me sinto. Mas existem algumas pessoas que estão em outro patamar. Um patamar muito distante do mundo dos normais. Aaron Swartz é um destes caras.&lt;/p&gt;
-
-&lt;p&gt;Alguns de nós (eu) se orgulham por que viveram numa época de transição, onde os browsers brigavam, onde os padrões web se popularizaram e etc. O cara viveu em uma época onde o direito autoral ficou totalmente obsoleto com a chegada da internet. Essa colisão entre a maneira antiga de fazer as coisas com as novidades que a Internet trouxe, foi uma época de ebulição tecnológica e política. Tudo era novo para todo mundo. Ninguém sabia lidar com situações que hoje em dia são totalmente comuns para nós. Aaron era do tipo que saia da sua cidade (Chicago) e ia para Washington acompanhar a suprema corte e um bando de advogados decidirem sobre direitos autorais e outras coisas. Pensa no nível de curiosidade desse menino. Com 15 anos, ele estava ajudando a escrever as especificações do Creative Commons.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"Except for education and entertainment, I’m not going to waste my time with things that won’t have an impact." - Aaron Swartz&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Mas você certamente deve saber que ele foi um dos co-fundadores do Reddit. O site foi vendido em Outubro de 2006 para a Condé Nast (dona da Wired). A Condé Nast tinha uma cultura empresarial que ele nunca havia visto e certamente nunca iria se acostumar. Ele até &lt;a href="http://www.aaronsw.com/weblog/officespace"&gt;escreveu um post sobre o ambiente de trabalho&lt;/a&gt;. Aaron Swartz foi despedido em Janeiro de 2007 porque simplesmente deixou de ir ao trabalho.&lt;/p&gt;
-
-&lt;p&gt;Mas o que Aaron sabia mais do que ninguém, era que principal característica da internet é a liberdade de comunicação. Ele sabia que a internet permite que todos possuam uma licença para falar e expor opiniões, mas que o mais importante é quem será ouvido.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"I don’t hold grudges (it’s not productive) but I learn from my experience." - Aaron Swartz&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Eu não quero contar a história do Aaron aqui e toda a revolução que ele causou lutando a favor da liberdade de acesso à informação. Você pode ver toda sua história no Netflix, em um documentário chamado The Internet’s Own Boy: The Story of Aaron Swartz.&lt;/p&gt;
-
-&lt;p&gt;O importante para mim é que você conheça um pouco da história da internet e tudo o que ela pode representar. Na verdade essa é uma história como várias outras, perdidas por aí e que só aparecem quando algo trágico acontece, nesse caso a morte do Aaron em 2013 (suposto suicídio).&lt;/p&gt;
-
-&lt;p&gt;A história da internet é fascinante. Mas as histórias de iniciativas e pessoas como Aaron, &lt;a href="http://tableless.com.br/porque-voce-deve-sua-vida-dave-winer/"&gt;Dave Winer&lt;/a&gt; (&lt;a href="http://www.aaronsw.com/weblog/000988"&gt;eles até se estranhavam&lt;/a&gt; de vez em quando) e vários outros (até mesmo o gênio Tim Berners-Lee), são mais fascinantes ainda. São histórias de caras que simplesmente trabalharam em prol da web, do livre acesso à informação e de tecnologias que permitem a internet ser totalmente aberta e livre.&lt;/p&gt;
-
-&lt;p&gt;As tecnologias que usamos hoje para desenvolver nosso produtos e que permitem facilitar a vida de milhões de pessoas, não são fruto do acaso, mas de pessoas realmente engajadas, que nem sempre se preocupam com o dinheiro, mas principalmente com os efeitos positivos que suas iniciativas podem ter.&lt;/p&gt;
-
-&lt;p&gt;Você deve parte da sua vida online ao Aaron Swartz.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="" src="http://feeds.feedburner.com/~r/diegoeisfeed/~4/ozx0sropAVY" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

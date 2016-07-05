@@ -1,0 +1,157 @@
+<!doctype html>
+<html class="deploy-usando-hook-do-git">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+  <title>Diego Eis  - Deploy usando Hook do Git</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66389393-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<header class="de-header">
+  <!-- <div class="de-menu">
+    <span class="de-sandwich">☰ Menu</span>
+
+  </div> -->
+  <h1 class="de-logo"><a href="/"><strong>diegoeis</strong>.com</a></h1>
+  <ul class="de-menu">
+    <li><a href="sobre.html">Sobre</a></li>
+  </ul>
+  <a href="http://feeds.feedburner.com/diegoeisfeed" class="de-ico-rss">RSS</a>
+  <a href="http://twitter.com/diegoeis" class="de-ico-twitter">@diegoeis</a>
+</header>
+
+
+<div class="de-wrapper">
+
+  <article class="de-post">
+      <header>
+        <!-- <span class="de-tags">{{tags}}</span> -->
+        <time datetime="Jul  4, 2016">Jul  4, 2016</time>
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
+
+        <h1 class="de-post-title">Deploy usando Hook do Git</h1>
+      </header>
+
+      <p>Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o <strong>git hooks</strong> pra fazer isso.</p>
+
+<p>Vou mostrar mais ou menos como é o meu processo para atualizar meu <a href="http://diegoeis.com">blog pessoal</a>. A ideia é que você crie um repositório utilizando a flag <code>—bare</code>. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um <code>git init</code> na sua máquina. O git cria uma pasta <code>.git</code> dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:</p>
+
+<p><code>bash
+git remote add origin git@github.com:diegoeis/diegoeis.com.git
+</code></p>
+
+<p>Esse repositório remoto não é um repositório de trabalho, ele é um repositório que contém apenas as referências de mudanças do seu código e nada mais. Isso quer dizer que ele não tem os arquivos do seu projeto. Esse é um repositório apenas para compartilhamento, nada mais. É com esse link que todos os outros membros do seu time irão adicionar o projeto em suas máquinas.</p>
+
+<p>Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando <code>git init —bare</code> no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:</p>
+
+<p><code>bash
+mkdir public/diegoeis.com.git
+cd public/diegoeis.com.git
+git init —bare
+</code></p>
+
+<p>Pronto, isso foi o suficiente para criar um repositório bare vazio. Ele vai ser o nosso <code>origin</code> no nosso repositório local. Para tanto, fazemos assim na máquina local, dentro do seu projeto:</p>
+
+<p><code>bash
+cd diegoeis.com
+git remote add origin meu_usuario_do_servidor@meu_dominio.com:/public/diegoeis.com.git
+</code></p>
+
+<p>Pronto, agora eu adicionei um repositório remoto ao meu projeto. Se você entender bem, você faz a mesma coisa quando vai clonar um projeto usando GitHub ou qualquer outro sistema de gerenciamento de Git como GitLab, Bitbucket etc. Só que eles criam o repositório bare para você.</p>
+
+<p>Feito isso, vamos voltar para o seu servidor, lá você vai clonar o seu projeto. Isso vai criar uma pasta normal, que você já conhece.</p>
+
+<p><code>bash
+git clone public/diegoeis.com.git /var/www/diegoeis.com
+</code></p>
+
+<h3 id="git-hooks">Git Hooks</h3>
+<p>Com esse “setup” feito, agora eu posso ir para o que importa, que é configurar meu hook. Lá no seu servidor, dentro do repositório bare que foi criado, encontre a pasta <code>hooks</code>, e dentro dela tem um arquivo chamado <code>post-receive</code>. Esse cara é o hook que vai detectar algo depois do recebimento de uma mudança. Você vai colocar esse código:</p>
+
+<p><code>
+#!/bin/bash
+cd /public/diegoeis.com
+env -i git reset —hard
+env -i git pull origin master
+exit
+</code></p>
+
+<p>Bom, são comandos bash, simples: entra na pasta do meu site, reseta o repositório e faz um pull com as últimas alterações. Esse <code>env -i</code> é um truque que faz os comandos serem executados na pasta que você entrou ali no seu comando bash. Se não houver esse <code>env -i</code>, todos os comandos git que você rodar, vão tentar rodar na pasta fora do seu repositório. Colocando essa flag, isso não vai acontecer. O Felix Geisendörfer <a href="http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3">sofreu com isso e falou como funciona aqui nesse artigo</a>.</p>
+
+<p>Por último, você precisa tornar o <strong>post-receive</strong> um arquivo executável rodando:</p>
+
+<p><code>bash
+chmod +x /public/diegoeis.com.git/hooks/post-receive
+</code></p>
+
+<p>Agora, toda vez que você fizer um git push para o seu repositório remoto, ele vai atualizar e mostrar algo mais ou menos assim:</p>
+
+<p><code>bash
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 1.99 KiB | 0 bytes/s, done.
+Total 19 (delta 14), reused 0 (delta 0)
+remote: HEAD is now at 9c1acad build
+remote: From /public/diegoeis.com
+remote:  * branch            master     -&gt; FETCH_HEAD
+remote:    9c1adac..c1bc7ed  master     -&gt; origin/master
+remote: Updating 9c1adac..c1bc7ed
+remote: Fast-forward
+remote:  build/assets/css/style.css                       |  2 +-
+remote:  build/feed.xml                                   | 12 ++++++———
+remote:  build/index.html                                 |  2 +-
+remote:  source/articles/organizando-a-informacao.html.md | 12 ++++++———
+remote:  6 files changed, 21 insertions(+), 19 deletions(-)
+To user@diegoeis.com:/public/diegoeis.com.git/
+   9c1acad..c5bb7ed  master -&gt; master
+</code></p>
+
+<p>E quase que instantaneamente seu repositório em prod vai estar atualizado.</p>
+
+<p>O <a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push">Akita fez uma artigo em 2010</a> (!) falando sobre o mesmo assunto e você tem uma série de outros artigos pela internet explicando a mesma coisa. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D</p>
+
+
+      <hr class="de-hr">
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'diegoeis';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+
+  </article>
+
+
+
+</div>
+
+<script src="assets/js/scripts.js"></script>
+<script id="dsq-count-scr" src="//diegoeis.disqus.com/count.js" async></script>
+
+</body>
+</html>
+
