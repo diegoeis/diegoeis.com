@@ -52,7 +52,8 @@
 
 <p>A estratégia que eu uso aqui é usar as tabelas como usamos os divs. As tabelas são necessárias e não tem por onde fugir. Isso já é um desconforto muito grande, por causa da quantidade de código gerada. Abaixo, seguem duas maneiras que uso aqui na Locaweb e nos projetos do Tableless.</p>
 
-<h2 id="css-inliner">CSS Inliner</h2>
+<h2>CSS Inliner</h2>
+
 <p>Alguns clientes de email (estou olhando pra você, Gmail) simplesmente ignoram a tag style no HEAD ou no BODY. Eu não os culpo: como você mostraria um layout dentro do seu próprio layout, sem que o CSS e o código desse layout pirata não quebrasse o layout do seu sistema? Esse é um desafio para galera dos clientes de email baseados em web, como é o caso do Yahoo! Mail e do Gmail. Por isso, para acabar com o problema pela raiz, eles simplesmente estripam a tag style do HTML do email marketing, aceitando apenas o atributo style diretamente nos elementos.</p>
 
 <p>O problema é que o seu trabalho é fazer newsletters ou você faz muitas newsletters por semana, a necessidade de reutilizar código é importante. Por isso o fluxo de desenvolvimento de emails precisa ser muito parecido com o desenvolvimento em ambientes normais, usando um CSS externo, provavelmente dividido por módulos e etc. Embora o HTML fique um horror de fazer manutenção por causa das tabelas, o CSS é a parte onde você vai passar mais tempo, por isso precisa ser o lugar mais organizado.</p>
@@ -67,69 +68,75 @@
 
 <p>Como usamos o Middleman aqui, coloquei pra chamar a task do Gulp para ser executada depois do build do Middleman e pronto! O Build já me devolve os emails com o código direto no atributo style dos emails. Para comparar, o código de desenvolvimento fica assim:</p>
 
-<p>&lt;pre class=“lang-html”&gt;
-&lt;table cellpadding="10"&gt;
+<pre class=“lang-html”>
+&lt;table cellpadding=&quot;10&quot;&gt;
   &lt;tr&gt;
-    &lt;td class="lw-text"&gt;</p>
+    &lt;td class=&quot;lw-text&quot;&gt;
 
-<pre><code>  &amp;lt;h3&amp;gt;&amp;lt;strong&amp;gt;O per&amp;amp;iacute;odo de teste est&amp;amp;aacute; chegando ao fim!&amp;lt;/strong&amp;gt;&amp;lt;/h3&amp;gt;
+      &lt;h3&gt;&lt;strong&gt;O per&amp;iacute;odo de teste est&amp;aacute; chegando ao fim!&lt;/strong&gt;&lt;/h3&gt;
 
-  &amp;lt;p&amp;gt;Ol&amp;amp;aacute; &amp;lt;/p&amp;gt;
+      &lt;p&gt;Ol&amp;aacute; &lt;/p&gt;
 
-  &amp;lt;p&amp;gt;N&amp;amp;atilde;o perca tempo e mantenha o seu site no ar agora mesmo com 10% de desconto no primeiro m&amp;amp;ecirc;s. &amp;lt;/p&amp;gt;
+      &lt;p&gt;N&amp;atilde;o perca tempo e mantenha o seu site no ar agora mesmo com 10% de desconto no primeiro m&amp;ecirc;s. &lt;/p&gt;
 
-  &amp;lt;br&amp;gt;
-    &amp;lt;center&amp;gt;
-      &amp;lt;a href=&amp;quot;###&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;Quero manter meu site&amp;quot; src=&amp;quot;2014-11-21-c.png&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;/center&amp;gt;
+      &lt;br&gt;
+        &lt;center&gt;
+          &lt;a href=&quot;###&quot;&gt;&lt;img alt=&quot;Quero manter meu site&quot; src=&quot;2014-11-21-c.png&quot;&gt;&lt;/a&gt;
+        &lt;/center&gt;
 
-&amp;lt;/td&amp;gt;   &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
-</code></pre>
-<p>&lt;/pre&gt;</p>
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</pre>
 
 <p>E o código buildado fica assim:</p>
 
-<p>&lt;pre class=“lang-html”&gt;
-&lt;table class="lw-wrapper" bgcolor="#e7e2dc" style="background-color: #e7e2dc; font-family: arial, helvetica, sans-serif; padding: 20px; width: 100%;"&gt;
+<pre class=“lang-html”>
+&lt;table class=&quot;lw-wrapper&quot; bgcolor=&quot;#e7e2dc&quot; style=&quot;background-color: #e7e2dc; font-family: arial, helvetica, sans-serif; padding: 20px; width: 100%;&quot;&gt;
 &lt;tr&gt;
-  &lt;td&gt;</p>
+  &lt;td&gt;
 
-<pre><code>&amp;lt;table align=&amp;quot;center&amp;quot; class=&amp;quot;lw-container&amp;quot; style=&amp;quot;background-color: #fff; border: none; border-collapse: collapse; margin: 0 auto; width: 630px;&amp;quot; bgcolor=&amp;quot;#ffffff&amp;quot;&amp;gt;
-  &amp;lt;tr&amp;gt;
-    &amp;lt;td class=&amp;quot;lw-content&amp;quot; style=&amp;quot;background-color: #fff; margin: 0 auto; width: 630px;&amp;quot;&amp;gt;
-        &amp;lt;img src=&amp;quot;2014-11-21-5.jpg&amp;quot; style=&amp;quot;border: none; text-decoration: none;&amp;quot; width=&amp;quot;630&amp;quot;&amp;gt;
+    &lt;table align=&quot;center&quot; class=&quot;lw-container&quot; style=&quot;background-color: #fff; border: none; border-collapse: collapse; margin: 0 auto; width: 630px;&quot; bgcolor=&quot;#ffffff&quot;&gt;
+      &lt;tr&gt;
+        &lt;td class=&quot;lw-content&quot; style=&quot;background-color: #fff; margin: 0 auto; width: 630px;&quot;&gt;
+            &lt;img src=&quot;2014-11-21-5.jpg&quot; style=&quot;border: none; text-decoration: none;&quot; width=&quot;630&quot;&gt;
 
-        &amp;lt;table cellpadding=&amp;quot;10&amp;quot;&amp;gt;   &amp;lt;tr&amp;gt;
-&amp;lt;td class=&amp;quot;lw-text&amp;quot; style=&amp;quot;margin: 0 20px;&amp;quot;&amp;gt;
+            &lt;table cellpadding=&quot;10&quot;&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;lw-text&quot; style=&quot;margin: 0 20px;&quot;&gt;
 
-  &amp;lt;h3&amp;gt;&amp;lt;strong&amp;gt;O per&amp;amp;#xED;odo de teste est&amp;amp;#xE1; chegando ao fim!&amp;lt;/strong&amp;gt;&amp;lt;/h3&amp;gt;
+      &lt;h3&gt;&lt;strong&gt;O per&amp;#xED;odo de teste est&amp;#xE1; chegando ao fim!&lt;/strong&gt;&lt;/h3&gt;
 
-  &amp;lt;p style=&amp;quot;font-family: arial, helvetica, sans-serif; font-size: 14px;&amp;quot;&amp;gt;Ol&amp;amp;#xE1; &amp;lt;/p&amp;gt;
+      &lt;p style=&quot;font-family: arial, helvetica, sans-serif; font-size: 14px;&quot;&gt;Ol&amp;#xE1; &lt;/p&gt;
 
-  &amp;lt;p style=&amp;quot;font-family: arial, helvetica, sans-serif; font-size: 14px;&amp;quot;&amp;gt;N&amp;amp;#xE3;o perca tempo e mantenha o seu site no ar agora mesmo com 10% de desconto no primeiro m&amp;amp;#xEA;s. &amp;lt;/p&amp;gt;
+      &lt;p style=&quot;font-family: arial, helvetica, sans-serif; font-size: 14px;&quot;&gt;N&amp;#xE3;o perca tempo e mantenha o seu site no ar agora mesmo com 10% de desconto no primeiro m&amp;#xEA;s. &lt;/p&gt;
 
-  &amp;lt;br&amp;gt;
-    &amp;amp;lt;center&amp;amp;gt;
-      &amp;amp;lt;a href=&amp;amp;quot;###&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;img alt=&amp;amp;quot;Quero manter meu site&amp;amp;quot; src=&amp;amp;quot;2014-11-21-c.png&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/a&amp;amp;gt;
-    &amp;amp;lt;/center&amp;amp;gt;
+      &lt;br&gt;
+        &amp;lt;center&amp;gt;
+          &amp;lt;a href=&amp;quot;###&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;Quero manter meu site&amp;quot; src=&amp;quot;2014-11-21-c.png&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+        &amp;lt;/center&amp;gt;
 
-&amp;amp;lt;/td&amp;amp;gt;   &amp;amp;lt;/tr&amp;amp;gt; &amp;amp;lt;/table&amp;amp;gt;
-</code></pre>
-<p>&lt;/pre&gt;</p>
+    &amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+</pre>
 
 <p>Além disso tudo, nós usamos SASS para escrever o CSS. Lembre-se: a ideia é tentar ganhar velocidade no desenvolvimento, aproximando o ambiente que você está acostumado para a criação de emails. O problema é que embora você consiga produzir código rapidamente, você vai precisar testar esse layout e você não poderá fazer isso o tempo inteiro olhando para seu browser comum. Os usuários verão isso em diversos clientes de email e você precisa testar nesses clientes. É aí que entra outra ferramenta: Litmus.</p>
 
-<h2 id="testando-com-o-litmus">Testando com o Litmus</h2>
+<h2>Testando com o Litmus</h2>
+
 <p>O <a href="http://litmus.com/">Litmus</a> é um ambiente de testes e análise de email marketing que surgiu em 2005. Além de testar seus emails, você consegue ter uma série de informações sobre taxa de abertura, forwards, deleções e outras análises. Basicamente o que os outros caras do mercado fazem, ele faz também. O grande diferencial dele é que você consegue submeter o código do seu email e ele mostra como o layout fica em praticamente todos os clientes de email do mercado, inclusive nos clientes mobile.</p>
 
 <p>Além disso, você consegue criar ou modificar o código do seu email diretamente pelo sistema deles, facilitando MUITO a adequação do código, principalmente porque eles tem um syntax checker que verifica se você está usando alguma regra que não funciona nos clientes de email do mercado.</p>
 
 <p>Há uma feature deles chamada Interactive Testing. Esse negócio conecta em uma máquina virtual para você, com o seu layout aberto no cliente de email e um lugar para você modificar seu código. Quando você muda alguma coisa no código, ele muda no cliente de email! Pensa na utilidade desse negócio.</p>
 
-<h3 id="putsmail">PutsMail</h3>
+<h3>PutsMail</h3>
+
 <p>O <a href="https://PutsMail.com/">PutsMail</a> é um sisteminha de testes avulso. Ele é muito fácil de usar e nem precisa de cadastro. Basta jogar seu código no campo e mandar testar. Ele foi desenvolvido por um cara chamado Pablo Cantero, aí o Litmus comprou o sistema dele em 2014 e continuou o desenvolvimento.</p>
 
-<h2 id="concluindo">Concluindo</h2>
+<h2>Concluindo</h2>
+
 <p>Email bom é email em Plain Text. Não escondo isso de ninguém. Quando fazemos emails, voltar a trabalhar como nos tempos antigos e isso não é bom. Você precis alinhar muito bem as expectativas do designer, precisa testar muito bem cada cliente de email importante, precisa escrever código ruim para que funcione em todo lugar. Mas não é impossível. Com a experiência e as ferramentas que surgiram nos últimos anos, conseguimos passar pelo vale da sombra e da morte mais facilmente. Mas ainda assim nos machucamos bastante. (ó, fiz até um final filosófico! ;-D )</p>
 
 

@@ -14,88 +14,106 @@
     <link rel="alternate" href="http://blog.url.com/deploy-usando-hook-do-git.html"/>
     <id>http://blog.url.com/deploy-usando-hook-do-git.html</id>
     <published>2016-07-03T21:00:00-03:00</published>
-    <updated>2016-07-04T22:12:44-03:00</updated>
+    <updated>2016-07-04T22:34:41-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o &lt;strong&gt;git hooks&lt;/strong&gt; pra fazer isso.&lt;/p&gt;
 
-&lt;p&gt;Vou mostrar mais ou menos como é o meu processo para atualizar meu &lt;a href="http://diegoeis.com"&gt;blog pessoal&lt;/a&gt;. A ideia é que você crie um repositório utilizando a flag &lt;code&gt;—bare&lt;/code&gt;. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um &lt;code&gt;git init&lt;/code&gt; na sua máquina. O git cria uma pasta &lt;code&gt;.git&lt;/code&gt; dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bash
-git remote add origin git@github.com:diegoeis/diegoeis.com.git
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Vou mostrar mais ou menos como é o meu processo para atualizar meu &lt;a href="http://diegoeis.com"&gt;blog pessoal&lt;/a&gt;. A ideia é que você crie um repositório utilizando a flag &lt;code&gt;--bare&lt;/code&gt;. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um &lt;code&gt;git init&lt;/code&gt; na sua máquina. O git cria uma pasta &lt;code&gt;.git&lt;/code&gt; dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git remote add origin git@github.com:diegoeis/diegoeis.com.git
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Esse repositório remoto não é um repositório de trabalho, ele é um repositório que contém apenas as referências de mudanças do seu código e nada mais. Isso quer dizer que ele não tem os arquivos do seu projeto. Esse é um repositório apenas para compartilhamento, nada mais. É com esse link que todos os outros membros do seu time irão adicionar o projeto em suas máquinas.&lt;/p&gt;
 
-&lt;p&gt;Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando &lt;code&gt;git init —bare&lt;/code&gt; no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bash
-mkdir public/diegoeis.com.git
-cd public/diegoeis.com.git
-git init —bare
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando &lt;code&gt;git init --bare&lt;/code&gt; no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;mkdir public/diegoeis.com.git
+&lt;span class="nb"&gt;cd &lt;/span&gt;public/diegoeis.com.git
+git init --bare
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Pronto, isso foi o suficiente para criar um repositório bare vazio. Ele vai ser o nosso &lt;code&gt;origin&lt;/code&gt; no nosso repositório local. Para tanto, fazemos assim na máquina local, dentro do seu projeto:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bash
-cd diegoeis.com
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;diegoeis.com
 git remote add origin meu_usuario_do_servidor@meu_dominio.com:/public/diegoeis.com.git
-&lt;/code&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Pronto, agora eu adicionei um repositório remoto ao meu projeto. Se você entender bem, você faz a mesma coisa quando vai clonar um projeto usando GitHub ou qualquer outro sistema de gerenciamento de Git como GitLab, Bitbucket etc. Só que eles criam o repositório bare para você.&lt;/p&gt;
 
 &lt;p&gt;Feito isso, vamos voltar para o seu servidor, lá você vai clonar o seu projeto. Isso vai criar uma pasta normal, que você já conhece.&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git clone public/diegoeis.com.git /var/www/diegoeis.com
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;code&gt;bash
-git clone public/diegoeis.com.git /var/www/diegoeis.com
-&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Git Hooks&lt;/h3&gt;
 
-&lt;h3 id="git-hooks"&gt;Git Hooks&lt;/h3&gt;
 &lt;p&gt;Com esse “setup” feito, agora eu posso ir para o que importa, que é configurar meu hook. Lá no seu servidor, dentro do repositório bare que foi criado, encontre a pasta &lt;code&gt;hooks&lt;/code&gt;, e dentro dela tem um arquivo chamado &lt;code&gt;post-receive&lt;/code&gt;. Esse cara é o hook que vai detectar algo depois do recebimento de uma mudança. Você vai colocar esse código:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-#!/bin/bash
-cd /public/diegoeis.com
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class="nb"&gt;cd&lt;/span&gt; /public/diegoeis.com
 env -i git reset —hard
 env -i git pull origin master
-exit
-&lt;/code&gt;&lt;/p&gt;
+&lt;span class="nb"&gt;exit&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Bom, são comandos bash, simples: entra na pasta do meu site, reseta o repositório e faz um pull com as últimas alterações. Esse &lt;code&gt;env -i&lt;/code&gt; é um truque que faz os comandos serem executados na pasta que você entrou ali no seu comando bash. Se não houver esse &lt;code&gt;env -i&lt;/code&gt;, todos os comandos git que você rodar, vão tentar rodar na pasta fora do seu repositório. Colocando essa flag, isso não vai acontecer. O Felix Geisendörfer &lt;a href="http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3"&gt;sofreu com isso e falou como funciona aqui nesse artigo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Por último, você precisa tornar o &lt;strong&gt;post-receive&lt;/strong&gt; um arquivo executável rodando:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bash
-chmod +x /public/diegoeis.com.git/hooks/post-receive
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;chmod +x /public/diegoeis.com.git/hooks/post-receive
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Agora, toda vez que você fizer um git push para o seu repositório remoto, ele vai atualizar e mostrar algo mais ou menos assim:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bash
-Counting objects: 19, done.
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;Counting objects: 19, &lt;span class="k"&gt;done&lt;/span&gt;.
 Delta compression using up to 4 threads.
-Compressing objects: 100% (19/19), done.
-Writing objects: 100% (19/19), 1.99 KiB | 0 bytes/s, done.
-Total 19 (delta 14), reused 0 (delta 0)
+Compressing objects: 100% &lt;span class="o"&gt;(&lt;/span&gt;19/19&lt;span class="o"&gt;)&lt;/span&gt;, &lt;span class="k"&gt;done&lt;/span&gt;.
+Writing objects: 100% &lt;span class="o"&gt;(&lt;/span&gt;19/19&lt;span class="o"&gt;)&lt;/span&gt;, 1.99 KiB | 0 bytes/s, &lt;span class="k"&gt;done&lt;/span&gt;.
+Total 19 &lt;span class="o"&gt;(&lt;/span&gt;delta 14&lt;span class="o"&gt;)&lt;/span&gt;, reused 0 &lt;span class="o"&gt;(&lt;/span&gt;delta 0&lt;span class="o"&gt;)&lt;/span&gt;
 remote: HEAD is now at 9c1acad build
 remote: From /public/diegoeis.com
-remote:  * branch            master     -&amp;gt; FETCH_HEAD
+remote:  &lt;span class="k"&gt;*&lt;/span&gt; branch            master     -&amp;gt; FETCH_HEAD
 remote:    9c1adac..c1bc7ed  master     -&amp;gt; origin/master
 remote: Updating 9c1adac..c1bc7ed
 remote: Fast-forward
 remote:  build/assets/css/style.css                       |  2 +-
 remote:  build/feed.xml                                   | 12 ++++++———
 remote:  build/index.html                                 |  2 +-
-remote:  source/articles/organizando-a-informacao.html.md | 12 ++++++———
-remote:  6 files changed, 21 insertions(+), 19 deletions(-)
+remote:  &lt;span class="nb"&gt;source&lt;/span&gt;/articles/organizando-a-informacao.html.md | 12 ++++++———
+remote:  6 files changed, 21 insertions&lt;span class="o"&gt;(&lt;/span&gt;+&lt;span class="o"&gt;)&lt;/span&gt;, 19 deletions&lt;span class="o"&gt;(&lt;/span&gt;-&lt;span class="o"&gt;)&lt;/span&gt;
 To user@diegoeis.com:/public/diegoeis.com.git/
    9c1acad..c5bb7ed  master -&amp;gt; master
-&lt;/code&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;E quase que instantaneamente seu repositório em prod vai estar atualizado.&lt;/p&gt;
 
-&lt;p&gt;O &lt;a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push"&gt;Akita fez uma artigo em 2010&lt;/a&gt; (!) falando sobre o mesmo assunto e você tem uma série de outros artigos pela internet explicando a mesma coisa. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D&lt;/p&gt;
+&lt;p&gt;O &lt;a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push"&gt;Akita fez uma artigo em 2010&lt;/a&gt; (!) falando sobre o mesmo assunto e existem uma série de &lt;a href="https://githowto.com/bare_repositories"&gt;outros artigos&lt;/a&gt; pela internet explicando a mesma coisa, é só procurar. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -109,7 +127,8 @@ To user@diegoeis.com:/public/diegoeis.com.git/
     </author>
     <content type="html">&lt;p&gt;Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples, esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos, principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.&lt;/p&gt;
 
-&lt;h3 id="gif"&gt;GIF&lt;/h3&gt;
+&lt;h3&gt;GIF&lt;/h3&gt;
+
 &lt;p&gt;GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.&lt;/p&gt;
 
 &lt;p&gt;O formato GIF é um formato que comprime arquivos usando um algoritmo chamado LZW, que mantêm traços das cores e ajuda a reduzir o tamanho do arquivo.
@@ -119,33 +138,35 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
 
 &lt;p&gt;Uma das questões que envolvem o formato GIF é que o algoritmo LZW foi protegido nos EUA por uma patente detida pela empresa Unisys. A patente Unisys LZW expirou nos EUA em 20 de junho de 2003. Essa patente da LZW também expirou no Canadá, França, Itália, Alemanha, Reino Unido e Japão. A versão original do GIF era chamado de 87a. &lt;a href="https://www.w3.org/Graphics/GIF/spec-gif87.txt"&gt;Se liga nessa spec do W3C&lt;/a&gt; de 15 de Junho de 1987. Aposto que alguns leitores nem tinha nascido. Eu já, tinha uns 4 anos.&lt;/p&gt;
 
-&lt;h3 id="png"&gt;PNG&lt;/h3&gt;
+&lt;h3&gt;PNG&lt;/h3&gt;
 
 &lt;p&gt;PNG (Portable Network Graphics), um formato de arquivo de armazenamento portátil, bem compactada para imagens raster. PNG oferece um substituto livre de patentes para o GIF e também pode substituir muitos usos comuns do TIFF. De cores indexadas, transparência alpha e imagens truecolor são suportados.&lt;/p&gt;
 
 &lt;p&gt;Para a Web, PNG realmente tem três vantagens principais sobre GIF:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;canais alfa (transparência variável). Eu ainda me lembro de usar algumas gambiarras para fazer o canal alfa funcionar no IE5.5 e IE6. :-)&lt;/li&gt;
-  &lt;li&gt;correção de multi-plataforma gama (controle de brilho da imagem) e correção de cor&lt;/li&gt;
-  &lt;li&gt;entrelaçamento bidimensional (um método de visualização e carregamento progressivo).&lt;/li&gt;
+&lt;li&gt;canais alfa (transparência variável). Eu ainda me lembro de usar algumas gambiarras para fazer o canal alfa funcionar no IE5.5 e IE6. :-)&lt;/li&gt;
+&lt;li&gt;correção de multi-plataforma gama (controle de brilho da imagem) e correção de cor&lt;/li&gt;
+&lt;li&gt;entrelaçamento bidimensional (um método de visualização e carregamento progressivo).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;PNG também comprime melhor que GIF em quase todos os casos (5% a 25% em casos típicos). E você pode dizer: "Mas o GIF pode ser animado!" mas o PNG também pode: há um formato chamado MNG que se destina como um substituto para GIF animado, mas sem as limitações impostas pela GIF (por exemplo, animações de MNG podem ter profundidade de cor total e parcial ou total transparência). No entanto, quase não há navegadores suportam MNG (algumas versões do Mozilla fazer, mas a maioria não, e IE não) para MNG útil (ainda) não é como um formato web. Mas aí entra o &lt;a href="https://en.wikipedia.org/wiki/APNG#cite_note-20"&gt;APNG&lt;/a&gt;, que é outro formato que compete com o MNG, onde há um bom suporte em todos os navegadores. Contudo, não vejo muita gente usando ainda hoje.&lt;/p&gt;
+&lt;p&gt;PNG também comprime melhor que GIF em quase todos os casos (5% a 25% em casos típicos). E você pode dizer: &amp;ldquo;Mas o GIF pode ser animado!&amp;rdquo; mas o PNG também pode: há um formato chamado MNG que se destina como um substituto para GIF animado, mas sem as limitações impostas pela GIF (por exemplo, animações de MNG podem ter profundidade de cor total e parcial ou total transparência). No entanto, quase não há navegadores suportam MNG (algumas versões do Mozilla fazer, mas a maioria não, e IE não) para MNG útil (ainda) não é como um formato web. Mas aí entra o &lt;a href="https://en.wikipedia.org/wiki/APNG#cite_note-20"&gt;APNG&lt;/a&gt;, que é outro formato que compete com o MNG, onde há um bom suporte em todos os navegadores. Contudo, não vejo muita gente usando ainda hoje.&lt;/p&gt;
 
-&lt;p&gt;E aquele esquema de PNG8 e PNG24? Bom, PNG8 é uma abreviação para "8-bit PNG," mas mais geralmente refere-se a imagens (colormapped) PNG baseada em paleta com 1, 2, 4 ou 8 bits pixels. Isto é, cada valor de pixel na imagem propriamente dita é 8 (ou menos) bits de profundidade, e que atua como um índice para um determinado valor de cor RGB de 24 bits na paleta. Uma imagem colormapped 1-bit pode referir-se a não mais de duas cores; uma imagem de 2 bits não podem ter mais do que quatro; uma imagem de 4-bit pode ter não mais do que 16; e uma imagem de 8 bits pode ter até 256 cores. Entenda que, ao contrário do GIF, as paletas do PNG podem ter qualquer número de entradas - pelo menos, até o máximo permitido pela profundidade de bits - Não apenas potências de dois.&lt;/p&gt;
+&lt;p&gt;E aquele esquema de PNG8 e PNG24? Bom, PNG8 é uma abreviação para &amp;ldquo;8-bit PNG,&amp;rdquo; mas mais geralmente refere-se a imagens (colormapped) PNG baseada em paleta com 1, 2, 4 ou 8 bits pixels. Isto é, cada valor de pixel na imagem propriamente dita é 8 (ou menos) bits de profundidade, e que atua como um índice para um determinado valor de cor RGB de 24 bits na paleta. Uma imagem colormapped 1-bit pode referir-se a não mais de duas cores; uma imagem de 2 bits não podem ter mais do que quatro; uma imagem de 4-bit pode ter não mais do que 16; e uma imagem de 8 bits pode ter até 256 cores. Entenda que, ao contrário do GIF, as paletas do PNG podem ter qualquer número de entradas - pelo menos, até o máximo permitido pela profundidade de bits - Não apenas potências de dois.&lt;/p&gt;
 
-&lt;p&gt;O PNG24, por outro lado, é uma abreviação para "PNG de 24 bits" e refere-se a imagens truecolor ou RGB (vermelho / verde / azul). Cada pixel em tais imagens é de 24 bits (3 bytes) de profundidade e diretamente especifica uma cor em vez de agir como um índice para uma tabela de pesquisa de cores (ou seja, uma paleta). Estas imagens, portanto, pode conter até 16,8 milhões de cores, embora os típicos tendem a usar não mais do que 50.000 ou assim.&lt;/p&gt;
+&lt;p&gt;O PNG24, por outro lado, é uma abreviação para &amp;ldquo;PNG de 24 bits&amp;rdquo; e refere-se a imagens truecolor ou RGB (vermelho / verde / azul). Cada pixel em tais imagens é de 24 bits (3 bytes) de profundidade e diretamente especifica uma cor em vez de agir como um índice para uma tabela de pesquisa de cores (ou seja, uma paleta). Estas imagens, portanto, pode conter até 16,8 milhões de cores, embora os típicos tendem a usar não mais do que 50.000 ou assim.&lt;/p&gt;
 
 &lt;p&gt;Quando você um logo simpels, ou um ícone e etc, você pode salvar como PNG8 que o resultado geralmente é melhor que GIF. Se você vê uma imagem, que não é uma foto, mas contém gradientes e uma mistura enorme de cores, você pode salvar como PNG24. Pode ser que você tenha uma compressão e qualidades melhor que JPG e com certeza é melhor que GIF. Além de ganhar o canal alpha (não, no PNG8 não dá para fazer canal alpha por causa da quantidade de cores).&lt;/p&gt;
 
-&lt;h2 id="garglo-e-outros-formatos-de-imagem"&gt;Gargálo e outros formatos de imagem&lt;/h2&gt;
-&lt;p&gt;Faz tempo que não salvo nenhum ícone ou imagem simples como GIF. O PNG sempre dá conta do trabalho, quase sempre tem compressões melhores e é compatível com todos os browsers hoje em dia. Mas imagem sempre foram um gargalo para quem trabalha com internet. Com a evolução das telas e monitores, a necessidade de usar imagens com melhor qualidade aumentou e por isso talvez os formatos de imagens tradicionais podem não servir durante muito tempo.&lt;/p&gt;
+&lt;h2&gt;Gargálo e outros formatos de imagem&lt;/h2&gt;
+
+&lt;p&gt;Faz tempo que não salvo nenhum ícone ou imagem simples como GIF. O PNG sempre dá conta do trabalho, quase sempre tem compressões melhores e é compatível com todos os browsers hoje em dia. Mas imagem sempre foram um gargalo para quem trabalha com internet. Com a evolução das telas e monitores, a necessidade de usar imagens com melhor qualidade aumentou e por isso talvez os formatos de imagens tradicionais podem não servir durante muito tempo. &lt;/p&gt;
 
 &lt;p&gt;O HTML tenta resolver parte do problema tentando te dar maneiras de servir imagens com mais ou menos qualidade ou de diferentes tamanhos dependendo dos dispositivos e etc. Há &lt;a href="http://www.slideshare.net/caelumdev/tudo-que-voc-precisa-saber-sobre-ltpicture-e-srcset"&gt;uma palestra bem legal do Sergio Lopes falando sobre isso&lt;/a&gt;. Embora isso tudo ajude, as imagens ainda precisam mudar.&lt;/p&gt;
 
-&lt;h3 id="a-tentativa-do-google---webp"&gt;A tentativa do Google - WebP&lt;/h3&gt;
-&lt;p&gt;WebP é um formato de imagem moderna que fornece "lossless" (algoritmo de compressão sem perda de qualidade) superior e compressão para imagens na web. Usando WebP, desenvolvedores podem criar imagens menores, mais ricas e que tornam a web mais rápida. As imagens WebP são 26% menores em tamanho em comparação com PNGs, com 25-34% menos perdas de qualidade do que as imagens JPEG.&lt;/p&gt;
+&lt;h3&gt;A tentativa do Google - WebP&lt;/h3&gt;
+
+&lt;p&gt;WebP é um formato de imagem moderna que fornece &amp;ldquo;lossless&amp;rdquo; (algoritmo de compressão sem perda de qualidade) superior e compressão para imagens na web. Usando WebP, desenvolvedores podem criar imagens menores, mais ricas e que tornam a web mais rápida. As imagens WebP são 26% menores em tamanho em comparação com PNGs, com 25-34% menos perdas de qualidade do que as imagens JPEG.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://tableless.com.br/wp-content/uploads/2016/07/compression-webp_lossy.png" alt="compression-webp_lossy" width="744" height="656" class="aligncenter size-full wp-image-55075" /&gt;&lt;/p&gt;
 
@@ -153,7 +174,7 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
 
 &lt;p&gt;A compressão do WebP utiliza codificação preditiva para codificar uma imagem, o mesmo método usado pelo codec de vídeo VP8 para comprimir keyframes em vídeos. Codificação preditiva usa os valores em blocos de pixels vizinhos para predizer os valores em um determinado bloco, em seguida, codifica apenas a diferença.&lt;/p&gt;
 
-&lt;p&gt;Para melhorar a qualidade, a imagem é segmentada em áreas que têm características visivelmente semelhantes. Para cada um desses segmentos, os parâmetros de compressão (passos de quantização, força de filtragem, etc.) estão sintonizados de forma independente. Isso produz compressão eficiente redistribuindo bits, onde eles são mais úteis.&lt;/p&gt;
+&lt;p&gt;Para melhorar a qualidade, a imagem é segmentada em áreas que têm características visivelmente semelhantes. Para cada um desses segmentos, os parâmetros de compressão (passos de quantização, força de filtragem, etc.) estão sintonizados de forma independente. Isso produz compressão eficiente redistribuindo bits, onde eles são mais úteis. &lt;/p&gt;
 
 &lt;p&gt;Previsão de codificação é uma razão principal pelo qual o WebP pode ser melhor que o JPEG. Blocos de quantização adaptativa faz uma grande diferença também. A codificação aritmética booleana fornece 5% -10% de ganhos de compressão em comparação com a &lt;a href="https://en.wikipedia.org/wiki/Huffman_coding"&gt;codificação de Huffman&lt;/a&gt;, que é o algoritmo usado nas imagens JPEG (e também nos arquivos de MP3).&lt;/p&gt;
 
@@ -161,10 +182,11 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
 
 &lt;p&gt;O Google explica &lt;a href="https://developers.google.com/speed/webp/docs/compression#lossy_webp"&gt;um monte de coisa técnica sobre o formato WebP&lt;/a&gt;. Se você tiver paciência para ler, vai ser bem legal, pelo menos para conhecer mais esse mundo maluco de algoritmos de compressão e etc. E esse é o &lt;a href="https://developers.google.com/speed/webp/"&gt;site oficial do WebP&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id="okay-mas-eu-posso-usar-o-que"&gt;Okay, mas eu posso usar o que?&lt;/h2&gt;
+&lt;h2&gt;Okay, mas eu posso usar o que?&lt;/h2&gt;
+
 &lt;p&gt;Você usa o que você quiser. Quer usar SVG para ícones, facilitando a visualização em aparelhos que tem tela retina e de alta qualidade? Vai fundo. Quer usar PNG em vez de GIF por que acha que é mais fácil de manter, sem problemas. Quer usar JPG em vez de WebP, por que sim? Beleza, não tem problema. O negócio é sempre utilizar o que é melhor para cada necessidade de imagem. Eu ainda salvo imagens, quando são fotos, em JPG. Não usei WebP de verdade ainda por causa do suporte no Safari e na indecisão do Mozilla. Mas uso PNG o tempo inteiro em vez de usar GIF.&lt;/p&gt;
 
-&lt;p&gt;Esse ainda da muito pano para manga e está longe de acabar…&lt;/p&gt;
+&lt;p&gt;Esse ainda da muito pano para manga e está longe de acabar&amp;hellip;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -179,60 +201,60 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
     <content type="html">&lt;p&gt;Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Otimização de web se resume em mitificar css/js, comprimir HTML, gzip, concatenar CSS/JS, sprites, cache/expires, otimizar imagens, colocar scripts no fim da página e CSS no topo, trabalhar com assíncrono, lazy load, usar CDN, diminuir cookies, coisas desse tipo. Quem já usou alguma dessas práticas?&lt;/li&gt;
-  &lt;li&gt;O que é performance exatamente? Qual é o tempo ideal para um site carregar? O que é carregar um site? Carregar o netflix é carregar o video inteiro do filme? Quem te fala que seu site está rápido?&lt;/li&gt;
-  &lt;li&gt;Medir se o site que está rápido ou não, ou seja, pelo Onload, é uma péssima ideia.&lt;/li&gt;
-  &lt;li&gt;SPA já quebra essa métrica, porque carrega uma vez e não dispara o onload de novo.&lt;/li&gt;
-  &lt;li&gt;Nós temos vários tipos de performance:
-    &lt;ol&gt;
-      &lt;li&gt;Performance de carregamento. Quando clica e o browser faz alguma coisa.&lt;/li&gt;
-      &lt;li&gt;Interação. O cara clica num botão e aí abre uma modal. isso é uma interação. É a interação dos usuários com os eventos da página.&lt;/li&gt;
-      &lt;li&gt;Animação. Quanto tempo demora para a animação rodar. Dá umas travadas?&lt;/li&gt;
-      &lt;li&gt;Memória. O browser da crash por causa da falta de memória.&lt;/li&gt;
-      &lt;li&gt;Bateria. Sua aplicação mata a bateria do usuário porque fica consumindo os recursos da máquina (celular) o tempo inteiro?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Quais são os limites da percepção de performance do usuário? A pesquisa chegou em 3 números: 100ms, 1s e 10s.&lt;/li&gt;
-  &lt;li&gt;quando algo acontece algo em 100ms, nosso cérebro acha que aquilo é instantâneo.&lt;/li&gt;
-  &lt;li&gt;Quando demora até 1s, seu cérebro já sabe que existe uma diferença, que há uma certa lentidão. O cérebro repara que algo aconteceu. Mas seu cérebro consegue dizer que ainda estamos numa mesma tarefa, embora exista um delay.&lt;/li&gt;
-  &lt;li&gt;Depois de 10s, seu cérebro entende que acabou a tarefa. Não há uma ação e reação. Se o site demora pra carregar, ele abre uma aba do facebook para esperar e pronto, esqueceu seu site.&lt;/li&gt;
-  &lt;li&gt;RAIL: Response Animation Idle Load, é um modelo de performance que quebra o modelo de performance em 4 pontos.&lt;/li&gt;
-  &lt;li&gt;a ideia é quebrar cada uma das ações na sua página nessas quatro categorias.
+&lt;li&gt;Otimização de web se resume em mitificar css/js, comprimir HTML, gzip, concatenar CSS/JS, sprites, cache/expires, otimizar imagens, colocar scripts no fim da página e CSS no topo, trabalhar com assíncrono, lazy load, usar CDN, diminuir cookies, coisas desse tipo. Quem já usou alguma dessas práticas?&lt;/li&gt;
+&lt;li&gt;O que é performance exatamente? Qual é o tempo ideal para um site carregar? O que é carregar um site? Carregar o netflix é carregar o video inteiro do filme? Quem te fala que seu site está rápido?&lt;/li&gt;
+&lt;li&gt;Medir se o site que está rápido ou não, ou seja, pelo Onload, é uma péssima ideia.&lt;/li&gt;
+&lt;li&gt;SPA já quebra essa métrica, porque carrega uma vez e não dispara o onload de novo.&lt;/li&gt;
+&lt;li&gt;Nós temos vários tipos de performance:
+
+&lt;ol&gt;
+&lt;li&gt;Performance de carregamento. Quando clica e o browser faz alguma coisa.&lt;/li&gt;
+&lt;li&gt;Interação. O cara clica num botão e aí abre uma modal. isso é uma interação. É a interação dos usuários com os eventos da página.&lt;/li&gt;
+&lt;li&gt;Animação. Quanto tempo demora para a animação rodar. Dá umas travadas?&lt;/li&gt;
+&lt;li&gt;Memória. O browser da crash por causa da falta de memória.&lt;/li&gt;
+&lt;li&gt;Bateria. Sua aplicação mata a bateria do usuário porque fica consumindo os recursos da máquina (celular) o tempo inteiro?&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Quais são os limites da percepção de performance do usuário? A pesquisa chegou em 3 números: 100ms, 1s e 10s.&lt;/li&gt;
+&lt;li&gt;quando algo acontece algo em 100ms, nosso cérebro acha que aquilo é instantâneo. &lt;/li&gt;
+&lt;li&gt;Quando demora até 1s, seu cérebro já sabe que existe uma diferença, que há uma certa lentidão. O cérebro repara que algo aconteceu. Mas seu cérebro consegue dizer que ainda estamos numa mesma tarefa, embora exista um delay.&lt;/li&gt;
+&lt;li&gt;Depois de 10s, seu cérebro entende que acabou a tarefa. Não há uma ação e reação. Se o site demora pra carregar, ele abre uma aba do facebook para esperar e pronto, esqueceu seu site.&lt;/li&gt;
+&lt;li&gt;RAIL: Response Animation Idle Load, é um modelo de performance que quebra o modelo de performance em 4 pontos.&lt;/li&gt;
+&lt;li&gt;a ideia é quebrar cada uma das ações na sua página nessas quatro categorias.
 ## Load&lt;/li&gt;
-  &lt;li&gt;Quando o cara dá enter na URL, dá para carregar instantaneamente? Difícil… Mas talvez dá carregar tudo em 1s. Dado aqueles limites de tempo psicológicos que vimos acima.&lt;/li&gt;
-  &lt;li&gt;http://webpagetest.org&lt;/li&gt;
-  &lt;li&gt;O que realmente importa nesses números que as páginas de métricas de performance trazem?&lt;/li&gt;
-  &lt;li&gt;meça a sensação do usuário de que há alguma coisa na tela. First Minimum Paint.&lt;/li&gt;
-  &lt;li&gt;Preste atenção no tempo de Start Render. Isso significa quando o browser começou a renderizar alguma coisa. Tente manter esse número perto do 1s.&lt;/li&gt;
-  &lt;li&gt;O SpeedIndex é o número que vocÊ realmente quer diminuir. Ele mostra quando a página mostrada para o usuário (o topo, antes da dobra, antes do primeiro scroll), para de carregar coisas&lt;/li&gt;
-  &lt;li&gt;Critical Rendering Path&lt;/li&gt;
-  &lt;li&gt;tira o JS da primeira renderização. Fácil; basta chamar os JS no final da página. O grande bloqueador é o CSS.&lt;/li&gt;
-  &lt;li&gt;Entregue tudo que esteja acima da dobra até um segundo.&lt;/li&gt;
-  &lt;li&gt;Use um CSS inline acima da dobra.&lt;/li&gt;
-  &lt;li&gt;&amp;lt; 14Kb é um RTT (Road Trip) do servidor.&lt;/li&gt;
-  &lt;li&gt;Ao invés do inline, dá para usar server push http/2
+&lt;li&gt;Quando o cara dá enter na URL, dá para carregar instantaneamente? Difícil… Mas talvez dá carregar tudo em 1s. Dado aqueles limites de tempo psicológicos que vimos acima.&lt;/li&gt;
+&lt;li&gt;http://webpagetest.org&lt;/li&gt;
+&lt;li&gt;O que realmente importa nesses números que as páginas de métricas de performance trazem?&lt;/li&gt;
+&lt;li&gt;meça a sensação do usuário de que há alguma coisa na tela. First Minimum Paint. &lt;/li&gt;
+&lt;li&gt;Preste atenção no tempo de Start Render. Isso significa quando o browser começou a renderizar alguma coisa. Tente manter esse número perto do 1s.&lt;/li&gt;
+&lt;li&gt;O SpeedIndex é o número que vocÊ realmente quer diminuir. Ele mostra quando a página mostrada para o usuário (o topo, antes da dobra, antes do primeiro scroll), para de carregar coisas&lt;/li&gt;
+&lt;li&gt;Critical Rendering Path&lt;/li&gt;
+&lt;li&gt;tira o JS da primeira renderização. Fácil; basta chamar os JS no final da página. O grande bloqueador é o CSS. &lt;/li&gt;
+&lt;li&gt;Entregue tudo que esteja acima da dobra até um segundo. &lt;/li&gt;
+&lt;li&gt;Use um CSS inline acima da dobra. &lt;/li&gt;
+&lt;li&gt;&amp;lt; 14Kb é um RTT (Road Trip) do servidor.&lt;/li&gt;
+&lt;li&gt;Ao invés do inline, dá para usar server push http/2
 ## Animation&lt;/li&gt;
-  &lt;li&gt;O ideal do animation é que ele seja de 60fps&lt;/li&gt;
-  &lt;li&gt;os monitores hoje redesenham a tela mais ou menos 60 vezes por segundo. Isso dá a sensação de que um vídeo é um video e não um monte de foto parada tentando se mover.&lt;/li&gt;
-  &lt;li&gt;Pelo menos no Chrome e Safari, animações do CSS e etc, é feito na GPU. Isso quer dizer que o browser consegue encaixar os elementos certos na GPU, para que a placa gráfica consiga fazer seu trabalho direito&lt;/li&gt;
-  &lt;li&gt;Quando você muda alguma coisa de CSS via JavaScript, o browser precisa recalcular a posição e os outros elementos que podem estar relacionados com esse elemento modificado&lt;/li&gt;
-  &lt;li&gt;use a propriedade will-change para avisar o browser de que ele vai precisar animar algum elemento na GPU
+&lt;li&gt;O ideal do animation é que ele seja de 60fps&lt;/li&gt;
+&lt;li&gt;os monitores hoje redesenham a tela mais ou menos 60 vezes por segundo. Isso dá a sensação de que um vídeo é um video e não um monte de foto parada tentando se mover.&lt;/li&gt;
+&lt;li&gt;Pelo menos no Chrome e Safari, animações do CSS e etc, é feito na GPU. Isso quer dizer que o browser consegue encaixar os elementos certos na GPU, para que a placa gráfica consiga fazer seu trabalho direito&lt;/li&gt;
+&lt;li&gt;Quando você muda alguma coisa de CSS via JavaScript, o browser precisa recalcular a posição e os outros elementos que podem estar relacionados com esse elemento modificado&lt;/li&gt;
+&lt;li&gt;use a propriedade will-change para avisar o browser de que ele vai precisar animar algum elemento na GPU
 ## Responsive&lt;/li&gt;
-  &lt;li&gt;Todas as ações do usuário precisa ser executado a 100ms.&lt;/li&gt;
-  &lt;li&gt;O usuário precisa saber que sua interação foi executada. na verdade, o usuário só ter uma resposta de que sua ação foi entendida pelo sistema.&lt;/li&gt;
-  &lt;li&gt;Mostra um loading maneiro, mostra qualquer feedback que faça o usuário entender que sua ação foi executada
+&lt;li&gt;Todas as ações do usuário precisa ser executado a 100ms.&lt;/li&gt;
+&lt;li&gt;O usuário precisa saber que sua interação foi executada. na verdade, o usuário só ter uma resposta de que sua ação foi entendida pelo sistema.&lt;/li&gt;
+&lt;li&gt;Mostra um loading maneiro, mostra qualquer feedback que faça o usuário entender que sua ação foi executada
 ## Idle&lt;/li&gt;
-  &lt;li&gt;Você executa coisas na página, mas tem alguma hora que a animação já acabou de executar, sua página já foi carregada e o usuário não está executando nenhuma ação. Logo, você pod usar esse momento de ócio para disparar alguma coisa não essencial para as ações do usuário.&lt;/li&gt;
-  &lt;li&gt;O browser é single thread, tudo rola numa thread só. tanto as ações do usuário, quanto seus scripts.&lt;/li&gt;
-  &lt;li&gt;Quebre as tarefas em tardinhas: setTimeout, setImmediate, requestAnimationFrame, requestIdleCallback&lt;/li&gt;
-  &lt;li&gt;Use WebWorkers para coisas pesadas em background&lt;/li&gt;
-  &lt;li&gt;Performance é UX. O modelo de performance é focada nas ações e na experiência do usuário.&lt;/li&gt;
-  &lt;li&gt;Response em 100ms&lt;/li&gt;
-  &lt;li&gt;Animation em 16ms&lt;/li&gt;
-  &lt;li&gt;Idle em 50 ms&lt;/li&gt;
-  &lt;li&gt;Load em 1s&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Você executa coisas na página, mas tem alguma hora que a animação já acabou de executar, sua página já foi carregada e o usuário não está executando nenhuma ação. Logo, você pod usar esse momento de ócio para disparar alguma coisa não essencial para as ações do usuário.&lt;/li&gt;
+&lt;li&gt;O browser é single thread, tudo rola numa thread só. tanto as ações do usuário, quanto seus scripts.&lt;/li&gt;
+&lt;li&gt;Quebre as tarefas em tardinhas: setTimeout, setImmediate, requestAnimationFrame, requestIdleCallback&lt;/li&gt;
+&lt;li&gt;Use WebWorkers para coisas pesadas em background&lt;/li&gt;
+&lt;li&gt;Performance é UX. O modelo de performance é focada nas ações e na experiência do usuário.&lt;/li&gt;
+&lt;li&gt;Response em 100ms&lt;/li&gt;
+&lt;li&gt;Animation em 16ms&lt;/li&gt;
+&lt;li&gt;Idle em 50 ms&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2&gt;- Load em 1s&lt;/h2&gt;
 </content>
   </entry>
   <entry>
@@ -247,44 +269,44 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
     <content type="html">&lt;p&gt;Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;por que criar um site SPA?&lt;/li&gt;
-  &lt;li&gt;Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA&lt;/li&gt;
-  &lt;li&gt;Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA.&lt;/li&gt;
-  &lt;li&gt;Esse é o problema da otimização prematura. O que você quer otimizar com SPA? Mostrar texto?&lt;/li&gt;
-  &lt;li&gt;A maioria dessas tecnologias, arquiteturas e etc, otimiza muito bem alguns tipos de ambientes e isso não significa que o seu ambiente (contexto) pode ser otimizado&lt;/li&gt;
-  &lt;li&gt;Tem casos e casos para usar Microserviços. Se você está sozinho ou se o grupo de devs é pequeno, não tem por que fazer um microserviço,&lt;/li&gt;
-  &lt;li&gt;Entenda o seu contexto. Existem empresas que gastam mais de USD$100.000,00 em infra. Mas elas faturam quase 1 Bilhão.&lt;/li&gt;
-  &lt;li&gt;Custo mínimo de TI:
-    &lt;ul&gt;
-      &lt;li&gt;USD 1000 - Cloud&lt;/li&gt;
-      &lt;li&gt;USD 3000 - 1 Developer&lt;/li&gt;
-      &lt;li&gt;USD 4000 - 1 Responsável (manager, marketing, etc)&lt;/li&gt;
-      &lt;li&gt;Você tem que estar preparado para gastar por volta de USD96.000. Este é o mínimo.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Você precisa ganhar algo em torno de 2 milhões de dólares no ano para o custo de TI precisa ficar por volta de 5%.&lt;/li&gt;
-  &lt;li&gt;Não tente diminuir custo, tente aumentar a receita.&lt;/li&gt;
-  &lt;li&gt;Tente conseguir mais pessoas comprando seu produto, aumentando sua receita.&lt;/li&gt;
-  &lt;li&gt;Isso acontece quando você tira os bugs do sistema e o usuário consegue finalizar a compra. É quando sue site fica no ar em dias de pico e as pessoas conseguem finalizar as compras. É aí que você ganha dinheiro&lt;/li&gt;
-  &lt;li&gt;Não se atenha a um stack. Se você usa .NET, não precisa ser tudo Microsoft. Best of Breed&lt;/li&gt;
-  &lt;li&gt;Escolha as melhores tecnologias que te trazem os maiores retornos.&lt;/li&gt;
-  &lt;li&gt;Não faz sentido uma empresa ter máquinas, racks e servidores na própria empresa.&lt;/li&gt;
-  &lt;li&gt;A menos que você senha uma empresa de comunicação e que seu core business seja mensageria, NodeJS é uma tecnologia a se considerar.&lt;/li&gt;
-  &lt;li&gt;Pusher, PubNub&lt;/li&gt;
-  &lt;li&gt;O Pusher custa USD$ 49 para 500 conexões simultâneas. Você não vai conseguir melhor que isso. Só de cloud você vai gastar USD$30.&lt;/li&gt;
-  &lt;li&gt;Todo mundo fala de SEO, e ainda continua falando hoje. É a mesma coisa o tempo todo, é tudo astrologia.&lt;/li&gt;
-  &lt;li&gt;Acredite sempre no básico:
-    &lt;ul&gt;
-      &lt;li&gt;Você tem URLs amigáveis&lt;/li&gt;
-      &lt;li&gt;usa sitemap.xml?&lt;/li&gt;
-      &lt;li&gt;Redireciona HTTP301&lt;/li&gt;
-      &lt;li&gt;Usa botões de redes sociais?&lt;/li&gt;
-      &lt;li&gt;Tem conteúdo original relevante? Se seu conteúdo é irrelevante, não adianta…&lt;/li&gt;
-      &lt;li&gt;Não copie conteúdo dos outros.&lt;/li&gt;
-      &lt;li&gt;Pronto, voce não precisa saber mais nada de SEO&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://12factor.net/"&gt;The Twelve-Factor App&lt;/a&gt;
+&lt;li&gt;por que criar um site SPA?&lt;/li&gt;
+&lt;li&gt;Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA&lt;/li&gt;
+&lt;li&gt;Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA.&lt;/li&gt;
+&lt;li&gt;Esse é o problema da otimização prematura. O que você quer otimizar com SPA? Mostrar texto?&lt;/li&gt;
+&lt;li&gt;A maioria dessas tecnologias, arquiteturas e etc, otimiza muito bem alguns tipos de ambientes e isso não significa que o seu ambiente (contexto) pode ser otimizado&lt;/li&gt;
+&lt;li&gt;Tem casos e casos para usar Microserviços. Se você está sozinho ou se o grupo de devs é pequeno, não tem por que fazer um microserviço,&lt;/li&gt;
+&lt;li&gt;Entenda o seu contexto. Existem empresas que gastam mais de USD$100.000,00 em infra. Mas elas faturam quase 1 Bilhão.&lt;/li&gt;
+&lt;li&gt;Custo mínimo de TI:
+
+&lt;ul&gt;
+&lt;li&gt;USD 1000 - Cloud&lt;/li&gt;
+&lt;li&gt;USD 3000 - 1 Developer&lt;/li&gt;
+&lt;li&gt;USD 4000 - 1 Responsável (manager, marketing, etc)&lt;/li&gt;
+&lt;li&gt;Você tem que estar preparado para gastar por volta de USD96.000. Este é o mínimo.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Você precisa ganhar algo em torno de 2 milhões de dólares no ano para o custo de TI precisa ficar por volta de 5%.&lt;/li&gt;
+&lt;li&gt;Não tente diminuir custo, tente aumentar a receita.&lt;/li&gt;
+&lt;li&gt;Tente conseguir mais pessoas comprando seu produto, aumentando sua receita. &lt;/li&gt;
+&lt;li&gt;Isso acontece quando você tira os bugs do sistema e o usuário consegue finalizar a compra. É quando sue site fica no ar em dias de pico e as pessoas conseguem finalizar as compras. É aí que você ganha dinheiro&lt;/li&gt;
+&lt;li&gt;Não se atenha a um stack. Se você usa .NET, não precisa ser tudo Microsoft. Best of Breed&lt;/li&gt;
+&lt;li&gt;Escolha as melhores tecnologias que te trazem os maiores retornos.&lt;/li&gt;
+&lt;li&gt;Não faz sentido uma empresa ter máquinas, racks e servidores na própria empresa. &lt;/li&gt;
+&lt;li&gt;A menos que você senha uma empresa de comunicação e que seu core business seja mensageria, NodeJS é uma tecnologia a se considerar.&lt;/li&gt;
+&lt;li&gt;Pusher, PubNub&lt;/li&gt;
+&lt;li&gt;O Pusher custa USD$ 49 para 500 conexões simultâneas. Você não vai conseguir melhor que isso. Só de cloud você vai gastar USD$30.&lt;/li&gt;
+&lt;li&gt;Todo mundo fala de SEO, e ainda continua falando hoje. É a mesma coisa o tempo todo, é tudo astrologia.&lt;/li&gt;
+&lt;li&gt;Acredite sempre no básico:
+
+&lt;ul&gt;
+&lt;li&gt;Você tem URLs amigáveis&lt;/li&gt;
+&lt;li&gt;usa sitemap.xml?&lt;/li&gt;
+&lt;li&gt;Redireciona HTTP301 &lt;/li&gt;
+&lt;li&gt;Usa botões de redes sociais?&lt;/li&gt;
+&lt;li&gt;Tem conteúdo original relevante? Se seu conteúdo é irrelevante, não adianta…&lt;/li&gt;
+&lt;li&gt;Não copie conteúdo dos outros.&lt;/li&gt;
+&lt;li&gt;Pronto, voce não precisa saber mais nada de SEO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://12factor.net/"&gt;The Twelve-Factor App&lt;/a&gt;
 &lt;strong&gt;I. Codebase&lt;/strong&gt;
 One codebase tracked in revision control, many deploys
 &lt;strong&gt;II. Dependencies&lt;/strong&gt;
@@ -309,35 +331,35 @@ Keep development, staging, and production as similar as possible
 Treat logs as event streams
 &lt;strong&gt;XII. Admin processes&lt;/strong&gt;
 Run admin/management tasks as one-off processes&lt;/li&gt;
-  &lt;li&gt;Quando falamos em código, não precisamos estar preocupados em ganhar tempo. O que é ruim e não faça:
-    &lt;ul&gt;
-      &lt;li&gt;Seu sistema não tem pelo menos 70% de cobertura de testes&lt;/li&gt;
-      &lt;li&gt;Não tem analise estática de código. É um programa lendo seu programa para dar uma nota. (Sugestão: CodeClimate)&lt;/li&gt;
-      &lt;li&gt;Nenhum código fonte pode ter centenas de linhas por arquivo&lt;/li&gt;
-      &lt;li&gt;Não deve ter Copy Paste em todo o lugar do código.&lt;/li&gt;
-      &lt;li&gt;Não pode haver funções com o tamanho de mais de um page down&lt;/li&gt;
-      &lt;li&gt;Banco de dados com vários campos inúteis&lt;/li&gt;
-      &lt;li&gt;Se você faz um clone no projeto, você precisa rodar na máquina em minutos, não horas.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Spree: 68k de linhas de código. 40k dessas linhas são testes.&lt;/li&gt;
-  &lt;li&gt;Magento: 300k de linhas 127k são testes. Poucos testes, 10 vezes mais problemas.&lt;/li&gt;
-  &lt;li&gt;Sua preocupação não pode ser só com performance, é preocupação com manutenabilidade.&lt;/li&gt;
-  &lt;li&gt;Programadores são ruins para priorizar coisas.&lt;/li&gt;
-  &lt;li&gt;Instale New Relic. Não importa sua linguagem. Ele vai coletar seus dados de produção e vai te dar um monte de números para você conhecer seu produto. #ficadica&lt;/li&gt;
-  &lt;li&gt;Teoria das Correntes: como você determina a força de uma corrente, pelo elo mais fraco. Como você resolve? você troca o elo mais fraco. Quando você fizer, um outro elo será mais fraco.&lt;/li&gt;
-  &lt;li&gt;Sem métricas, sem otimização. Voce tem número?  Se não, você está chutando.&lt;/li&gt;
-  &lt;li&gt;Primeiro você faça funcionar, depois você corrige, depois você pensa em tornar rápido e finalmente, você pensa me tornar barato - Alan Kay&lt;/li&gt;
-  &lt;li&gt;Essa é a ordem, você não pode mudá-la!&lt;/li&gt;
-  &lt;li&gt;O facebook precisa do React? O Google precisa do Angular? Eles não precisam dessas tecnologias para sobreviver.&lt;/li&gt;
-  &lt;li&gt;Você precisa usar tecnologias de empresas que realmente precisam das suas próprias tecnologias, que realmente ganham dinheiro com elas.&lt;/li&gt;
-  &lt;li&gt;Não se preocupe em reduzir custos, se preocupe em fazer funcionar, para você ganhar dinheiro e sobreviver.&lt;/li&gt;
-  &lt;li&gt;Best of Breed Open Source&lt;/li&gt;
-  &lt;li&gt;Na dúvida, não faz do zero. Use SAAS.&lt;/li&gt;
-  &lt;li&gt;SEO = Astrologia&lt;/li&gt;
-  &lt;li&gt;Manutenção &amp;gt; Performance&lt;/li&gt;
-  &lt;li&gt;Prioridades. Não otimize sem métricas.&lt;/li&gt;
-  &lt;li&gt;O maior problema dos programadores é a Otimização Prematura.&lt;/li&gt;
+&lt;li&gt;Quando falamos em código, não precisamos estar preocupados em ganhar tempo. O que é ruim e não faça:
+
+&lt;ul&gt;
+&lt;li&gt;Seu sistema não tem pelo menos 70% de cobertura de testes&lt;/li&gt;
+&lt;li&gt;Não tem analise estática de código. É um programa lendo seu programa para dar uma nota. (Sugestão: CodeClimate)&lt;/li&gt;
+&lt;li&gt;Nenhum código fonte pode ter centenas de linhas por arquivo&lt;/li&gt;
+&lt;li&gt;Não deve ter Copy Paste em todo o lugar do código. &lt;/li&gt;
+&lt;li&gt;Não pode haver funções com o tamanho de mais de um page down&lt;/li&gt;
+&lt;li&gt;Banco de dados com vários campos inúteis&lt;/li&gt;
+&lt;li&gt;Se você faz um clone no projeto, você precisa rodar na máquina em minutos, não horas.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Spree: 68k de linhas de código. 40k dessas linhas são testes.&lt;/li&gt;
+&lt;li&gt;Magento: 300k de linhas 127k são testes. Poucos testes, 10 vezes mais problemas.&lt;/li&gt;
+&lt;li&gt;Sua preocupação não pode ser só com performance, é preocupação com manutenabilidade.&lt;/li&gt;
+&lt;li&gt;Programadores são ruins para priorizar coisas. &lt;/li&gt;
+&lt;li&gt;Instale New Relic. Não importa sua linguagem. Ele vai coletar seus dados de produção e vai te dar um monte de números para você conhecer seu produto. #ficadica&lt;/li&gt;
+&lt;li&gt;Teoria das Correntes: como você determina a força de uma corrente, pelo elo mais fraco. Como você resolve? você troca o elo mais fraco. Quando você fizer, um outro elo será mais fraco.&lt;/li&gt;
+&lt;li&gt;Sem métricas, sem otimização. Voce tem número?  Se não, você está chutando.&lt;/li&gt;
+&lt;li&gt;Primeiro você faça funcionar, depois você corrige, depois você pensa em tornar rápido e finalmente, você pensa me tornar barato - Alan Kay&lt;/li&gt;
+&lt;li&gt;Essa é a ordem, você não pode mudá-la!&lt;/li&gt;
+&lt;li&gt;O facebook precisa do React? O Google precisa do Angular? Eles não precisam dessas tecnologias para sobreviver. &lt;/li&gt;
+&lt;li&gt;Você precisa usar tecnologias de empresas que realmente precisam das suas próprias tecnologias, que realmente ganham dinheiro com elas.&lt;/li&gt;
+&lt;li&gt;Não se preocupe em reduzir custos, se preocupe em fazer funcionar, para você ganhar dinheiro e sobreviver.&lt;/li&gt;
+&lt;li&gt;Best of Breed Open Source&lt;/li&gt;
+&lt;li&gt;Na dúvida, não faz do zero. Use SAAS.&lt;/li&gt;
+&lt;li&gt;SEO = Astrologia&lt;/li&gt;
+&lt;li&gt;Manutenção &amp;gt; Performance&lt;/li&gt;
+&lt;li&gt;Prioridades. Não otimize sem métricas.&lt;/li&gt;
+&lt;li&gt;O maior problema dos programadores é a Otimização Prematura.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
@@ -352,13 +374,13 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
     </author>
     <content type="html">&lt;p&gt;Expressão Regular é uma das ferramentas mais úteis que você pode ter. Vira e mexe as Expressões Regulares (RegExp) resolvem desde problemas de Find &amp;amp; Replace no editor até validação de dados em diversos níveis do seu projeto. Mas geralmente a gente só lê sobre Expressões Regulares quando precisamos decifrar aquela linha maluca e ainda assim de um jeito meio descuidado, tateando e tentando fazer dar certo uma combinação de caracteres sem sentido.&lt;/p&gt;
 
-&lt;h2 id="entendendo-as-expresses"&gt;Entendendo as Expressões&lt;/h2&gt;
+&lt;h2&gt;Entendendo as Expressões&lt;/h2&gt;
 
 &lt;p&gt;Uma Expressão Regular é uma representação para que você encontre padrões em um texto. Esse texto pode ser qualquer coisa, desde o valor de um campo de formulário ou simplesmente um search no seu editor de código predileto… Não importa… O objetivo é filtrar padrões em um punhado de informação textual.&lt;/p&gt;
 
 &lt;p&gt;Se você entender que uma Expressão Regular é apenas uma representação formada por símbolos, você não vai ter dificuldades. Cada símbolo representa um tipo de informação. Por exemplo: o &lt;code&gt;.&lt;/code&gt; (ponto) é um curinga. Ele significa que você pode selecionar qualquer caractere, ou seja, qualquer letra, caractere especial ou número. Exceto a quebra de linha, que é representado pelo símbolo &lt;code&gt;\n&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h3 id="classe-de-caracteres"&gt;Classe de caracteres&lt;/h3&gt;
+&lt;h3&gt;Classe de caracteres&lt;/h3&gt;
 
 &lt;p&gt;Vamos começar pelo mais fácil: quando você faz uma busca, você pode buscar uma combinação de caracteres específica, por exemplo: no seu editor de código, se você fizer uma busca por &lt;strong&gt;a&lt;/strong&gt;, ele vai te mostrar todas as letras &lt;strong&gt;a&lt;/strong&gt; do documento. Mas e se você quiser procurar todas as letras &lt;strong&gt;a&lt;/strong&gt; e as letras &lt;strong&gt;e&lt;/strong&gt;? Simples, você faz um agrupamento utilizando os colchetes &lt;code&gt;[]&lt;/code&gt;. Essa expressão irá encontrar todos os caracteres que estiverem dentro dos colchetes. &lt;a href="http://rubular.com/r/i7apRSchRh"&gt;Veja esse exemplo, onde ele filtra as letras &lt;code&gt;[ue]&lt;/code&gt;&lt;/a&gt;. Isso se chama &lt;strong&gt;classe de caracteres&lt;/strong&gt;, onde você encontra vários caracteres diferentes ao mesmo tempo.&lt;/p&gt;
 
@@ -371,83 +393,79 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
 &lt;p&gt;Exemplos de classes de caracteres:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A expressão &lt;code&gt;[a-z]&lt;/code&gt; reconhece todas as letras minúsculas.&lt;/li&gt;
-  &lt;li&gt;A expressão &lt;code&gt;[A-Z]&lt;/code&gt; reconhece todas as letras maiúsculas.&lt;/li&gt;
-  &lt;li&gt;A expressão &lt;code&gt;[A-z]&lt;/code&gt; reconhece todas as letras maiúsculas e minúsculas.&lt;/li&gt;
-  &lt;li&gt;A expressão &lt;code&gt;[A-Z0-9]&lt;/code&gt; reconhece todas as letras maiúsculas e números.&lt;/li&gt;
-  &lt;li&gt;A expressão &lt;code&gt;[a-e]&lt;/code&gt; reconhece as letras &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;[a-z]&lt;/code&gt; reconhece todas as letras minúsculas.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;[A-Z]&lt;/code&gt; reconhece todas as letras maiúsculas.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;[A-z]&lt;/code&gt; reconhece todas as letras maiúsculas e minúsculas.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;[A-Z0-9]&lt;/code&gt; reconhece todas as letras maiúsculas e números.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;[a-e]&lt;/code&gt; reconhece as letras &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Atalhos para as classes mais comuns:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A classe &lt;code&gt;\w&lt;/code&gt; recupera todos os caracteres alpha numericos, ou seja, letras e números, mas não acentos ou caracteres especiais. É o equivalente a &lt;code&gt;[a-zA-Z_0-9]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;A classe &lt;code&gt;\W&lt;/code&gt; pega TODOS os caracteres que não seja alpha numericos, ou seja, pontuações e espaços.&lt;/li&gt;
-  &lt;li&gt;A classe &lt;code&gt;\s&lt;/code&gt; é o equivalente &lt;code&gt;[ \t\n\x0B\f\r]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;A classe &lt;code&gt;\d&lt;/code&gt; é o equivalente &lt;code&gt;[0-9]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;  A classe &lt;code&gt;\w&lt;/code&gt; recupera todos os caracteres alpha numericos, ou seja, letras e números, mas não acentos ou caracteres especiais. É o equivalente a &lt;code&gt;[a-zA-Z_0-9]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;  A classe &lt;code&gt;\W&lt;/code&gt; pega TODOS os caracteres que não seja alpha numericos, ou seja, pontuações e espaços.&lt;/li&gt;
+&lt;li&gt;  A classe &lt;code&gt;\s&lt;/code&gt; é o equivalente &lt;code&gt;[ \t\n\x0B\f\r]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;  A classe &lt;code&gt;\d&lt;/code&gt; é o equivalente &lt;code&gt;[0-9]&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;E as classses de negação. Lembrando que basta colocar o sinal de &lt;code&gt;^&lt;/code&gt; logo depois do colchete inicial &lt;code&gt;[&lt;/code&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A expressão de classe &lt;code&gt;[^y]&lt;/code&gt; reconhece qualquer caractere, exceto y.&lt;/li&gt;
-  &lt;li&gt;A expressão de classe &lt;code&gt;[^a-e]&lt;/code&gt; reconhece qualquer caractere, exceto &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;A expressão de classe &lt;code&gt;[^\d]&lt;/code&gt; reconhece qualquer caractere, exceto 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.&lt;/li&gt;
+&lt;li&gt;  A expressão de classe &lt;code&gt;[^y]&lt;/code&gt; reconhece qualquer caractere, exceto y.&lt;/li&gt;
+&lt;li&gt;  A expressão de classe &lt;code&gt;[^a-e]&lt;/code&gt; reconhece qualquer caractere, exceto &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;  A expressão de classe &lt;code&gt;[^\d]&lt;/code&gt; reconhece qualquer caractere, exceto 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id="mltiplos-padres"&gt;Múltiplos padrões&lt;/h3&gt;
+&lt;h3&gt;Múltiplos padrões&lt;/h3&gt;
 
 &lt;p&gt;Imagine agora que você queira encontrar dois padrões diferentes de caracteres, por exemplo, duas palavras. Bastando usar o símbolo &lt;code&gt;|&lt;/code&gt; (pipe), que vai significar &lt;strong&gt;OU&lt;/strong&gt;. Nesse caso a expressão irá reconhecer um ou o outro padrão. &lt;a href="http://rubular.com/r/QScUEY0F1D"&gt;Veja esse exemplo&lt;/a&gt; onde recuperamos o retorno das palavras &lt;strong&gt;dolor&lt;/strong&gt; ou &lt;strong&gt;labore&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h3 id="ncoras"&gt;Âncoras&lt;/h3&gt;
+&lt;h3&gt;Âncoras&lt;/h3&gt;
 
 &lt;p&gt;As âncoras recuperam a posição &lt;strong&gt;entre os caracteres, mas não os caracteres em si&lt;/strong&gt;. Por exemplo, a expressão &lt;code&gt;^dolor&lt;/code&gt;, vai recuperar as palavras &lt;strong&gt;dolor&lt;/strong&gt; que estiverem no início da linha (&lt;a href="http://rubular.com/r/xLTGYJY1fz"&gt;veja o exemplo&lt;/a&gt;). A expressão &lt;code&gt;dolor$&lt;/code&gt; vai recuperar o termo que estiver no final da linha (&lt;a href="http://rubular.com/r/FdBuPNAeWE"&gt;veja o exemplo&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h3 id="modos"&gt;Modos&lt;/h3&gt;
+&lt;h3&gt;Modos&lt;/h3&gt;
 
 &lt;p&gt;Agora, suponha que você queira pegar uma sequência que contenha um termo parecido, mas que possa estar com algumas letras maiúsculas ou minúsculas. Por exemplo os termos &lt;strong&gt;Lorem&lt;/strong&gt;, &lt;strong&gt;lorem&lt;/strong&gt;, &lt;strong&gt;loRem&lt;/strong&gt;, &lt;strong&gt;lOrEm&lt;/strong&gt; etc, bastaria usar a representação &lt;code&gt;(?i)&lt;/code&gt; antes do termo a ser buscada. A expressão ficaria assim &lt;code&gt;(?i)lorem&lt;/code&gt;. &lt;a href="http://rubular.com/r/oEesGNpNcZ"&gt;Veja este exemplo aqui&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id="brincando-de-validar-um-email"&gt;Brincando de validar um email&lt;/h3&gt;
+&lt;h3&gt;Brincando de validar um email&lt;/h3&gt;
 
 &lt;p&gt;Uma tarefa muito corriqueira é a validação de campos de e-mail. Sem entrar nas polêmicas (validar essas coisas sempre é chato), mas é legal para treinar o que você acabou de ler. A expressão para fazer a validação é essa:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-^\w*(\.\w*)?@\w*\.[a-z]+(\.[a-z]+)?$
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;^\w*(\.\w*)?@\w*\.[a-z]+(\.[a-z]+)?$
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Explicando:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A expressão &lt;code&gt;^&lt;/code&gt; indica o começo da string/linha.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;\w*&lt;/code&gt; pega qualquer caracteres alpha numericos, é o equivalente a &lt;code&gt;[a-zA-Z0-9_]&lt;/code&gt;. O asterísco é quantitativo, detectando qualquer quantidade desses caracteres, iniciando no 0 e indo até o infinito.&lt;/li&gt;
-  &lt;li&gt;A expressão &lt;code&gt;(\.\w*)?&lt;/code&gt; significa: parenteses inicia um agrupamento. A expressão &lt;code&gt;\.&lt;/code&gt; detecta literamente um ponto &lt;strong&gt;.&lt;/strong&gt;. A expressão &lt;code&gt;\w*&lt;/code&gt; qualquer quantidade de caracteres alpha numéricos.&lt;/li&gt;
-  &lt;li&gt;O ponto de interrogação (&lt;code&gt;?&lt;/code&gt;) é quantitativo: determina que o que vier imediatamente antes dele aparecer na expressão 0 ou 1 vez. Nessa expressão ele aparece duas vezes.&lt;/li&gt;
-  &lt;li&gt;O arroba seria o arroba do email mesmo…&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;\w*&lt;/code&gt; que aparece depois do arroba já falamos várias vezes logo acima.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;\.[a-z]&lt;/code&gt; pega um ponto seguido de letras minúsculas. vai detectar algo como &lt;strong&gt;.com&lt;/strong&gt;, &lt;strong&gt;.net&lt;/strong&gt;, etc…&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;+&lt;/code&gt; significa que o que estiver imediatamente antes dele precisa aparecer 1 ou mais vezes no termo.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;(\.[a-z]+)&lt;/code&gt;: abrimos novamente um agrupamento com o parenteses. &lt;code&gt;\.&lt;/code&gt; pega o ponto. A classe &lt;code&gt;[a-z]&lt;/code&gt; seleciona qualquer letra minúscula. E o mais aparece novamente, dizendo que tudo aquilo que estiver antes dele deve aparecer pelo menos 1 vez&lt;/li&gt;
-  &lt;li&gt;E a expressão &lt;code&gt;$&lt;/code&gt; pra finalizar significa final da string.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;^&lt;/code&gt; indica o começo da string/linha.&lt;/li&gt;
+&lt;li&gt;  &lt;code&gt;\w*&lt;/code&gt; pega qualquer caracteres alpha numericos, é o equivalente a &lt;code&gt;[a-zA-Z0-9_]&lt;/code&gt;. O asterísco é quantitativo, detectando qualquer quantidade desses caracteres, iniciando no 0 e indo até o infinito.&lt;/li&gt;
+&lt;li&gt;  A expressão &lt;code&gt;(\.\w*)?&lt;/code&gt; significa: parenteses inicia um agrupamento. A expressão &lt;code&gt;\.&lt;/code&gt; detecta literamente um ponto &lt;strong&gt;.&lt;/strong&gt;. A expressão &lt;code&gt;\w*&lt;/code&gt; qualquer quantidade de caracteres alpha numéricos.&lt;/li&gt;
+&lt;li&gt;  O ponto de interrogação (&lt;code&gt;?&lt;/code&gt;) é quantitativo: determina que o que vier imediatamente antes dele aparecer na expressão 0 ou 1 vez. Nessa expressão ele aparece duas vezes.&lt;/li&gt;
+&lt;li&gt;  O arroba seria o arroba do email mesmo…&lt;/li&gt;
+&lt;li&gt;  &lt;code&gt;\w*&lt;/code&gt; que aparece depois do arroba já falamos várias vezes logo acima.&lt;/li&gt;
+&lt;li&gt;  &lt;code&gt;\.[a-z]&lt;/code&gt; pega um ponto seguido de letras minúsculas. vai detectar algo como &lt;strong&gt;.com&lt;/strong&gt;, &lt;strong&gt;.net&lt;/strong&gt;, etc…&lt;/li&gt;
+&lt;li&gt;  &lt;code&gt;+&lt;/code&gt; significa que o que estiver imediatamente antes dele precisa aparecer 1 ou mais vezes no termo.&lt;/li&gt;
+&lt;li&gt;  &lt;code&gt;(\.[a-z]+)&lt;/code&gt;: abrimos novamente um agrupamento com o parenteses. &lt;code&gt;\.&lt;/code&gt; pega o ponto. A classe &lt;code&gt;[a-z]&lt;/code&gt; seleciona qualquer letra minúscula. E o mais aparece novamente, dizendo que tudo aquilo que estiver antes dele deve aparecer pelo menos 1 vez&lt;/li&gt;
+&lt;li&gt;  E a expressão &lt;code&gt;$&lt;/code&gt; pra finalizar significa final da string.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Veja funcionando abaixo:&lt;/p&gt;
 
 &lt;iframe src="//jsfiddle.net/borrcmd4/7/embedded/result,js,html,css/" allowfullscreen="allowfullscreen" frameborder="0" height="500" width="100%"&gt;&lt;/iframe&gt;
 
-&lt;h4 id="para-voc-testar-e-aprender"&gt;Para você testar e aprender&lt;/h4&gt;
+&lt;h4&gt;Para você testar e aprender&lt;/h4&gt;
 
 &lt;p&gt;Existem alguns sites pra facilitar a criação e o debug das expressões regulares, veja abaixo:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://regex101.com/r/vS7vZ3/224#javascript"&gt;https://regex101.com/r/vS7vZ3/224#javascript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href="http://rubular.com"&gt;http://rubular.com&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://aprenda.vidageek.net/aprenda/regex"&gt;http://aprenda.vidageek.net/aprenda/regex&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://turing.com.br/material/regex/introducao.html#"&gt;http://turing.com.br/material/regex/introducao.html#&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx"&gt;https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  &lt;a href="https://regex101.com/r/vS7vZ3/224#javascript"&gt;https://regex101.com/r/vS7vZ3/224#javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://rubular.com"&gt;http://rubular.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://aprenda.vidageek.net/aprenda/regex"&gt;http://aprenda.vidageek.net/aprenda/regex&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://turing.com.br/material/regex/introducao.html#"&gt;http://turing.com.br/material/regex/introducao.html#&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx"&gt;https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 </content>
   </entry>
   <entry>
@@ -462,113 +480,113 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
     <content type="html">&lt;p&gt;Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile e outros assuntos.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Competência é a junção do &lt;strong&gt;conhecimento (teoria), habilidade (pratica) e atitude (disciplina)&lt;/strong&gt; - CHA&lt;/li&gt;
-  &lt;li&gt;Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências&lt;/li&gt;
-  &lt;li&gt;qual o papel de um gestor num ambiente que melhora o desenvolvimento de competências? O gestor precisa criar um ambiente onde as pessoas desenvolvam o CHA de maneira contínua&lt;/li&gt;
-  &lt;li&gt;Tem certos aprendizados que foram gerados por erros.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;mistake&lt;/strong&gt; Quando o erro gera uma falha, seu aprendizado não é tão grande&lt;/li&gt;
-  &lt;li&gt;Os experimentos podem ter como resultados o sucesso ou falha&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;experiments&lt;/strong&gt; Mas quando você faz de maneira intencional, você aprende com o erro ou com o sucesso&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;practices&lt;/strong&gt; você consegue determinar a causa e efeito e consegue ter uma taxa de sucesso maior, mas também tem uma chance pequena de fracasso&lt;/li&gt;
-  &lt;li&gt;A grande pergunta é: como o gestor consegue construir um ambiente onde há mais sucessos e poucos erros, mas que você também aprenda&lt;/li&gt;
-  &lt;li&gt;como você aprende em um ambiente complexo? Experimentos, falhas, observando… mas principalmente &lt;strong&gt;através das interações&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;O Learning 1.0 é baseado em efeitos simplificações.
-    &lt;ol&gt;
-      &lt;li&gt;Aprendizado prescritivo. Você consegue prescrever a solução dos problemas&lt;/li&gt;
-      &lt;li&gt;Aprendizado push - empurra o aprendizado, mesmo não sabendo se vai ser útil pra pessoa&lt;/li&gt;
-      &lt;li&gt;Aprendizado 1-N - você tem um expert que passa o conhecimento pra muitos&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Uma sala de aula funciona assim: tem um professor que decide &lt;strong&gt;o que&lt;/strong&gt; e &lt;strong&gt;como&lt;/strong&gt; você vai aprender&lt;/li&gt;
-  &lt;li&gt;As pessoas esperam que o gestor seja esse professor.&lt;/li&gt;
-  &lt;li&gt;Como nossa empresa gera conhecimento em um ambiente complexo?&lt;/li&gt;
-  &lt;li&gt;Learning 3.0 -
-    &lt;ol&gt;
-      &lt;li&gt;Aprendizado emergente - aprendizado fruto das interações. O que acontece das interações das partes do sistema&lt;/li&gt;
-      &lt;li&gt;Aprendizado “Pull” - você absorve o conhecimento gerado pelo ambiente&lt;/li&gt;
-      &lt;li&gt;Aprendizado N-N - todos aprendem com todos. Muitos ensinam pra muitos.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;na complexidade, as verdades são muito efêmeras. O ciclo de vida do que é verdade é muito curto.&lt;/li&gt;
-  &lt;li&gt;as regras evoluem mais rápido em sistemas complexos&lt;/li&gt;
-  &lt;li&gt;O quanto nosso aprendizado é desperdício?&lt;/li&gt;
-  &lt;li&gt;Learning 1.0: Focus on being Taught - expert define como e o que aprende&lt;/li&gt;
-  &lt;li&gt;Learning 2.0: Focus on Asking - o expert não define o que é verdadeiro ou falso, mais flexível&lt;/li&gt;
-  &lt;li&gt;Learning 3.0: Focus on Sharing - você ano tem claramente quem é o expert. Todos têm condições de aprender com todos&lt;/li&gt;
-  &lt;li&gt;Nos sistemas complexa você pode ter vários experts como deferentes perspectivas&lt;/li&gt;
-  &lt;li&gt;O Learning 1.0 não vai sumir. Na verdade existem momentos em que ele se encaixa. Logo, cada momento vai pedir um tipo de Learning&lt;/li&gt;
-  &lt;li&gt;Às vezes em uma sala de aula, o Learning 1.0 é melhor, mas para expor um problema no sistema ou no processo da empresa, k Learning 3.0 é o ideal&lt;/li&gt;
-  &lt;li&gt;feedback canvas&lt;/li&gt;
-  &lt;li&gt;Feedback wrap
-    &lt;ol&gt;
-      &lt;li&gt;Describe your context / situation “iniciamos o projeto há 6 meses, alguns clientes já estão usando…”&lt;/li&gt;
-      &lt;li&gt;List your observations (as facts) “temos X bugs em produção afetando algumas coisas…"&lt;/li&gt;
-      &lt;li&gt;Express your emotions / feelings "Eu estou ficando preocupado com o isso, o PO já está ficando apreensivo"&lt;/li&gt;
-      &lt;li&gt;Sprite by value created for you "o que você acha disso, o que podemos fazer diferente daqui pra frente?”&lt;/li&gt;
-      &lt;li&gt;End with suggestions / offer help "Eu como gestor, o que posso te ajudar?”&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Feedback Sandwich. Uma camada de feedback positivo, outra negativa…&lt;/li&gt;
-  &lt;li&gt;Você não come sandwich todos os dias… comer Sandwich todos os dias é pesado… O Wrap é mais leve, mais simples, palatável&lt;/li&gt;
-  &lt;li&gt;Você não tem controle se um feedback é positivo ou negativo. Depende da maneira que o indivíduo vai absorve&lt;/li&gt;
-  &lt;li&gt;no Wrap não existe positivo ou negativo, só existe Feedback&lt;/li&gt;
+&lt;li&gt;  Competência é a junção do &lt;strong&gt;conhecimento (teoria), habilidade (pratica) e atitude (disciplina)&lt;/strong&gt; - CHA&lt;/li&gt;
+&lt;li&gt;  Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências&lt;/li&gt;
+&lt;li&gt;  qual o papel de um gestor num ambiente que melhora o desenvolvimento de competências? O gestor precisa criar um ambiente onde as pessoas desenvolvam o CHA de maneira contínua&lt;/li&gt;
+&lt;li&gt;  Tem certos aprendizados que foram gerados por erros.&lt;/li&gt;
+&lt;li&gt;  &lt;strong&gt;mistake&lt;/strong&gt; Quando o erro gera uma falha, seu aprendizado não é tão grande&lt;/li&gt;
+&lt;li&gt;  Os experimentos podem ter como resultados o sucesso ou falha&lt;/li&gt;
+&lt;li&gt;  &lt;strong&gt;experiments&lt;/strong&gt; Mas quando você faz de maneira intencional, você aprende com o erro ou com o sucesso&lt;/li&gt;
+&lt;li&gt;  &lt;strong&gt;practices&lt;/strong&gt; você consegue determinar a causa e efeito e consegue ter uma taxa de sucesso maior, mas também tem uma chance pequena de fracasso&lt;/li&gt;
+&lt;li&gt;  A grande pergunta é: como o gestor consegue construir um ambiente onde há mais sucessos e poucos erros, mas que você também aprenda&lt;/li&gt;
+&lt;li&gt;  como você aprende em um ambiente complexo? Experimentos, falhas, observando&amp;hellip; mas principalmente &lt;strong&gt;através das interações&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;  O Learning 1.0 é baseado em efeitos simplificações.
+
+&lt;ol&gt;
+&lt;li&gt; Aprendizado prescritivo. Você consegue prescrever a solução dos problemas&lt;/li&gt;
+&lt;li&gt; Aprendizado push - empurra o aprendizado, mesmo não sabendo se vai ser útil pra pessoa&lt;/li&gt;
+&lt;li&gt; Aprendizado 1-N - você tem um expert que passa o conhecimento pra muitos&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;  Uma sala de aula funciona assim: tem um professor que decide &lt;strong&gt;o que&lt;/strong&gt; e &lt;strong&gt;como&lt;/strong&gt; você vai aprender&lt;/li&gt;
+&lt;li&gt;  As pessoas esperam que o gestor seja esse professor.&lt;/li&gt;
+&lt;li&gt;  Como nossa empresa gera conhecimento em um ambiente complexo?&lt;/li&gt;
+&lt;li&gt;  Learning 3.0 -
+
+&lt;ol&gt;
+&lt;li&gt; Aprendizado emergente - aprendizado fruto das interações. O que acontece das interações das partes do sistema&lt;/li&gt;
+&lt;li&gt; Aprendizado “Pull” - você absorve o conhecimento gerado pelo ambiente&lt;/li&gt;
+&lt;li&gt; Aprendizado N-N - todos aprendem com todos. Muitos ensinam pra muitos.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;  na complexidade, as verdades são muito efêmeras. O ciclo de vida do que é verdade é muito curto.&lt;/li&gt;
+&lt;li&gt;  as regras evoluem mais rápido em sistemas complexos&lt;/li&gt;
+&lt;li&gt;  O quanto nosso aprendizado é desperdício?&lt;/li&gt;
+&lt;li&gt;  Learning 1.0: Focus on being Taught - expert define como e o que aprende&lt;/li&gt;
+&lt;li&gt;  Learning 2.0: Focus on Asking - o expert não define o que é verdadeiro ou falso, mais flexível&lt;/li&gt;
+&lt;li&gt;  Learning 3.0: Focus on Sharing - você ano tem claramente quem é o expert. Todos têm condições de aprender com todos&lt;/li&gt;
+&lt;li&gt;  Nos sistemas complexa você pode ter vários experts como deferentes perspectivas&lt;/li&gt;
+&lt;li&gt;  O Learning 1.0 não vai sumir. Na verdade existem momentos em que ele se encaixa. Logo, cada momento vai pedir um tipo de Learning&lt;/li&gt;
+&lt;li&gt;  Às vezes em uma sala de aula, o Learning 1.0 é melhor, mas para expor um problema no sistema ou no processo da empresa, k Learning 3.0 é o ideal&lt;/li&gt;
+&lt;li&gt;  feedback canvas&lt;/li&gt;
+&lt;li&gt;  Feedback wrap
+
+&lt;ol&gt;
+&lt;li&gt; Describe your context / situation “iniciamos o projeto há 6 meses, alguns clientes já estão usando&amp;hellip;”&lt;/li&gt;
+&lt;li&gt; List your observations (as facts) “temos X bugs em produção afetando algumas coisas&amp;hellip;&amp;ldquo;&lt;/li&gt;
+&lt;li&gt; Express your emotions / feelings &amp;quot;Eu estou ficando preocupado com o isso, o PO já está ficando apreensivo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt; Sprite by value created for you &amp;ldquo;o que você acha disso, o que podemos fazer diferente daqui pra frente?”&lt;/li&gt;
+&lt;li&gt; End with suggestions / offer help &amp;quot;Eu como gestor, o que posso te ajudar?”&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;  Feedback Sandwich. Uma camada de feedback positivo, outra negativa&amp;hellip;&lt;/li&gt;
+&lt;li&gt;  Você não come sandwich todos os dias&amp;hellip; comer Sandwich todos os dias é pesado&amp;hellip; O Wrap é mais leve, mais simples, palatável&lt;/li&gt;
+&lt;li&gt;  Você não tem controle se um feedback é positivo ou negativo. Depende da maneira que o indivíduo vai absorve&lt;/li&gt;
+&lt;li&gt;  no Wrap não existe positivo ou negativo, só existe Feedback&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id="grow-structure"&gt;grow structure&lt;/h2&gt;
+&lt;h2&gt;grow structure&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Qual o maior exemplo de escala do mundo? O vírus&lt;/li&gt;
-  &lt;li&gt;Por que o vírus consegue se espalhar de forma eficiente?&lt;/li&gt;
-  &lt;li&gt;Cada vírus é auto-suficiente. Tudo o que ele precisa pra atacar um organismo, está dentro do vírus&lt;/li&gt;
-  &lt;li&gt;Você consegue crescer, clonar e se manter ágil&lt;/li&gt;
-  &lt;li&gt;esse conceito se chama estruturas fractais&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;fractal organization&lt;/strong&gt; - Times multidisciplinares. Um time fractal. Tenha todas as competências necessárias pra gerar valor dentro de um time.&lt;/li&gt;
-  &lt;li&gt;Se ocorrer uma invasão zumbi e só sobrou um time. Esse time precisa ser auto-suficiente.&lt;/li&gt;
-  &lt;li&gt;Women's global leadership initiative&lt;/li&gt;
-  &lt;li&gt;em algum momento da sua empresa que não é possível descentralizar. São as estruturas de serviços que servem pra suprir as unidades de valor&lt;/li&gt;
-  &lt;li&gt;Modelo Pêssego.&lt;/li&gt;
-  &lt;li&gt;O time que está na margem está em contato com o cliente, o negócio em si&lt;/li&gt;
-  &lt;li&gt;O time de serviço está mais perto do centro, no core da empresa&lt;/li&gt;
-  &lt;li&gt;O centro não é um centro de controle, é um centro de serviço&lt;/li&gt;
-  &lt;li&gt;Cada time de negócio é uma unidade de negócio.&lt;/li&gt;
-  &lt;li&gt;procurar: “coragem para empoderar” Agile Brasil&lt;/li&gt;
-  &lt;li&gt;a desvantagem de ter times independentes é o isolamento. Para minimizar isso, a gestão 3.0 incentiva grupos chamados de &lt;strong&gt;COP: community of practice&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;o COP é um grupo de profissionais de vários times que trocam figurinhas, que ajudam a compartilhar conhecimento e soluções&lt;/li&gt;
-  &lt;li&gt;o Chapter é um pouco mais formal que a comunidade pratica. Você pega os especialistas em um determinado assunto pra decidirem sobre os padrões globais da empresa sobre daquele assunto&lt;/li&gt;
-  &lt;li&gt;conway's law - "any organization that designs a system will inevitably produce a design whose structure is a copy of the organizations communication structure" Melvin E. Conway 1967&lt;/li&gt;
-  &lt;li&gt;Perfil T-Shaped - &lt;a href="http://diegoeis.com/tshaped-fullstack-dev/"&gt;http://diegoeis.com/tshaped-fullstack-dev/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;O camarada é um generalista em alguns assuntos, mas é especialista em um determinado assunto&lt;/li&gt;
+&lt;li&gt;  Qual o maior exemplo de escala do mundo? O vírus&lt;/li&gt;
+&lt;li&gt;  Por que o vírus consegue se espalhar de forma eficiente?&lt;/li&gt;
+&lt;li&gt;  Cada vírus é auto-suficiente. Tudo o que ele precisa pra atacar um organismo, está dentro do vírus&lt;/li&gt;
+&lt;li&gt;  Você consegue crescer, clonar e se manter ágil&lt;/li&gt;
+&lt;li&gt;  esse conceito se chama estruturas fractais&lt;/li&gt;
+&lt;li&gt;  &lt;strong&gt;fractal organization&lt;/strong&gt; - Times multidisciplinares. Um time fractal. Tenha todas as competências necessárias pra gerar valor dentro de um time.&lt;/li&gt;
+&lt;li&gt;  Se ocorrer uma invasão zumbi e só sobrou um time. Esse time precisa ser auto-suficiente.&lt;/li&gt;
+&lt;li&gt;  Women&amp;rsquo;s global leadership initiative&lt;/li&gt;
+&lt;li&gt;  em algum momento da sua empresa que não é possível descentralizar. São as estruturas de serviços que servem pra suprir as unidades de valor&lt;/li&gt;
+&lt;li&gt;  Modelo Pêssego.&lt;/li&gt;
+&lt;li&gt;  O time que está na margem está em contato com o cliente, o negócio em si&lt;/li&gt;
+&lt;li&gt;  O time de serviço está mais perto do centro, no core da empresa&lt;/li&gt;
+&lt;li&gt;  O centro não é um centro de controle, é um centro de serviço&lt;/li&gt;
+&lt;li&gt;  Cada time de negócio é uma unidade de negócio.&lt;/li&gt;
+&lt;li&gt;  procurar: “coragem para empoderar” Agile Brasil&lt;/li&gt;
+&lt;li&gt;  a desvantagem de ter times independentes é o isolamento. Para minimizar isso, a gestão 3.0 incentiva grupos chamados de &lt;strong&gt;COP: community of practice&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;  o COP é um grupo de profissionais de vários times que trocam figurinhas, que ajudam a compartilhar conhecimento e soluções&lt;/li&gt;
+&lt;li&gt;  o Chapter é um pouco mais formal que a comunidade pratica. Você pega os especialistas em um determinado assunto pra decidirem sobre os padrões globais da empresa sobre daquele assunto&lt;/li&gt;
+&lt;li&gt;  conway&amp;rsquo;s law - &amp;quot;any organization that designs a system will inevitably produce a design whose structure is a copy of the organizations communication structure&amp;rdquo; Melvin E. Conway 1967&lt;/li&gt;
+&lt;li&gt;  Perfil T-Shaped - &lt;a href="http://diegoeis.com/tshaped-fullstack-dev/"&gt;http://diegoeis.com/tshaped-fullstack-dev/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;  O camarada é um generalista em alguns assuntos, mas é especialista em um determinado assunto&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id="improve-everything"&gt;improve Everything&lt;/h2&gt;
+&lt;h2&gt;improve Everything&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;"MEU MODELO ESTÁ ERRADO!" Jurgen Apello&lt;/li&gt;
-  &lt;li&gt;pra todo problema complexo, sempre há uma resposta clara, simples e errada&lt;/li&gt;
-  &lt;li&gt;Você não tem como garantir a situação de causa e efeito&lt;/li&gt;
-  &lt;li&gt;todo esse esquema de gestão 3.0 é uma especulação porque você está em um modelo complexo&lt;/li&gt;
-  &lt;li&gt;o ciclo de adaptação é feito pouco a pouco&lt;/li&gt;
-  &lt;li&gt;Como você influência um sistema social para que mudanças aconteçam?&lt;/li&gt;
-  &lt;li&gt;As 4 faces da mudança social
-    &lt;ol&gt;
-      &lt;li&gt;Considere o sistema&lt;/li&gt;
-      &lt;li&gt;Considere o comportamento complexo que você tem no seu sistema.&lt;/li&gt;
-      &lt;li&gt;você consegue simplificar a estrutura do sistema, mas não seu comportamento&lt;/li&gt;
-      &lt;li&gt;A complexidade é o cavalheiro numa dança de salão e você é a dama. Você nunca vai estar no controle do sistema&lt;/li&gt;
-      &lt;li&gt;A ferramenta para lidar com a complexidade: PDCA - Plan, Do, Check, Act&lt;/li&gt;
-      &lt;li&gt;Considere os indivíduos&lt;/li&gt;
-      &lt;li&gt;você tem uma ideia e quer que as pessoas absorvam aquela ideia, mostre o porque essa ideia é importante pra elas&lt;/li&gt;
-      &lt;li&gt;Entenda como cada ideia vai afetar a vida de cada integrante da empresa&lt;/li&gt;
-      &lt;li&gt;Considere as interações&lt;/li&gt;
-      &lt;li&gt;Considere as interações tanto pra o bem, quanto pra o mal&lt;/li&gt;
-      &lt;li&gt;as pessoas podem não absorver as ideias, não por que ela não gosta, mas porque a interação dela com as outras pessoas é ruim&lt;/li&gt;
-      &lt;li&gt;exemplo do Motorista, pedestre e faixa&lt;/li&gt;
-      &lt;li&gt;Considere o fluxo de propagação das ideias, onde você precisa identificar os inovadores, influenciadores… Eles ajudarão a propagar a mudança no sistema&lt;/li&gt;
-      &lt;li&gt;Considere o ambiente&lt;/li&gt;
-      &lt;li&gt;você tem restrições externas. Tanto fora ou dentro da empresa&lt;/li&gt;
-      &lt;li&gt;as restrições não inviabilizam, mas precisam ser considerados&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+&lt;li&gt;  &amp;ldquo;MEU MODELO ESTÁ ERRADO!&amp;rdquo; Jurgen Apello&lt;/li&gt;
+&lt;li&gt;  pra todo problema complexo, sempre há uma resposta clara, simples e errada&lt;/li&gt;
+&lt;li&gt;  Você não tem como garantir a situação de causa e efeito&lt;/li&gt;
+&lt;li&gt;  todo esse esquema de gestão 3.0 é uma especulação porque você está em um modelo complexo&lt;/li&gt;
+&lt;li&gt;  o ciclo de adaptação é feito pouco a pouco&lt;/li&gt;
+&lt;li&gt;  Como você influência um sistema social para que mudanças aconteçam?&lt;/li&gt;
+&lt;li&gt;  As 4 faces da mudança social
+
+&lt;ol&gt;
+&lt;li&gt; Considere o sistema&lt;/li&gt;
+&lt;li&gt; Considere o comportamento complexo que você tem no seu sistema.&lt;/li&gt;
+&lt;li&gt; você consegue simplificar a estrutura do sistema, mas não seu comportamento&lt;/li&gt;
+&lt;li&gt; A complexidade é o cavalheiro numa dança de salão e você é a dama. Você nunca vai estar no controle do sistema&lt;/li&gt;
+&lt;li&gt; A ferramenta para lidar com a complexidade: PDCA - Plan, Do, Check, Act&lt;/li&gt;
+&lt;li&gt; Considere os indivíduos&lt;/li&gt;
+&lt;li&gt; você tem uma ideia e quer que as pessoas absorvam aquela ideia, mostre o porque essa ideia é importante pra elas&lt;/li&gt;
+&lt;li&gt; Entenda como cada ideia vai afetar a vida de cada integrante da empresa&lt;/li&gt;
+&lt;li&gt; Considere as interações&lt;/li&gt;
+&lt;li&gt; Considere as interações tanto pra o bem, quanto pra o mal&lt;/li&gt;
+&lt;li&gt; as pessoas podem não absorver as ideias, não por que ela não gosta, mas porque a interação dela com as outras pessoas é ruim&lt;/li&gt;
+&lt;li&gt; exemplo do Motorista, pedestre e faixa&lt;/li&gt;
+&lt;li&gt; Considere o fluxo de propagação das ideias, onde você precisa identificar os inovadores, influenciadores&amp;hellip; Eles ajudarão a propagar a mudança no sistema&lt;/li&gt;
+&lt;li&gt; Considere o ambiente&lt;/li&gt;
+&lt;li&gt; você tem restrições externas. Tanto fora ou dentro da empresa&lt;/li&gt;
+&lt;li&gt; as restrições não inviabilizam, mas precisam ser considerados&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Curso dado pelo &lt;a href="https://twitter.com/manoelp"&gt;@manoelp&lt;/a&gt;.&lt;/p&gt;

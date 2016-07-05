@@ -6,7 +6,7 @@ tags: article, development, git
 
 Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o **git hooks** pra fazer isso.
 
-Vou mostrar mais ou menos como é o meu processo para atualizar meu [blog pessoal](http://diegoeis.com). A ideia é que você crie um repositório utilizando a flag `—bare`. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um `git init` na sua máquina. O git cria uma pasta `.git` dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:
+Vou mostrar mais ou menos como é o meu processo para atualizar meu [blog pessoal](http://diegoeis.com). A ideia é que você crie um repositório utilizando a flag `--bare`. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um `git init` na sua máquina. O git cria uma pasta `.git` dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:
 
 ```bash
 git remote add origin git@github.com:diegoeis/diegoeis.com.git
@@ -14,12 +14,12 @@ git remote add origin git@github.com:diegoeis/diegoeis.com.git
 
 Esse repositório remoto não é um repositório de trabalho, ele é um repositório que contém apenas as referências de mudanças do seu código e nada mais. Isso quer dizer que ele não tem os arquivos do seu projeto. Esse é um repositório apenas para compartilhamento, nada mais. É com esse link que todos os outros membros do seu time irão adicionar o projeto em suas máquinas.
 
-Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando `git init —bare` no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:
+Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando `git init --bare` no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:
 
 ```bash
 mkdir public/diegoeis.com.git
 cd public/diegoeis.com.git
-git init —bare
+git init --bare
 ```
 
 Pronto, isso foi o suficiente para criar um repositório bare vazio. Ele vai ser o nosso `origin` no nosso repositório local. Para tanto, fazemos assim na máquina local, dentro do seu projeto:
