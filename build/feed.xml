@@ -5,16 +5,271 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-07-03T21:00:00-03:00</updated>
+  <updated>2016-07-05T21:00:00-03:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Linked Data e JSON-LD</title>
+    <link rel="alternate" href="http://blog.url.com/linked-data-e-json-ld.html"/>
+    <id>http://blog.url.com/linked-data-e-json-ld.html</id>
+    <published>2016-07-05T21:00:00-03:00</published>
+    <updated>2016-07-07T02:17:45-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Linked Data é um termo relativamente novo para todo o mundo de desenvolvimento, que apresenta apenas um caminho para publicar dados interconectados entre diferentes sites, possibilitando que um site referencie e reutilize dados de um outro site. Tipo, um buscador, reutilizando as informações do seu site para mostrar nos resultados da busca.&lt;/p&gt;
+
+&lt;p&gt;JSON-LD (JavaScript Object Notation - Linked Data) é um formato baseado no já conhecido JSON, que todo mundo utiliza para transmitir dados entre o browser e o servidor. Ele virou &lt;a href="https://www.w3.org/TR/json-ld/"&gt;padrão do W3C&lt;/a&gt; em 2014. Obviamente, é um projeto aberto e você pode ver &lt;a href="https://github.com/json-ld/json-ld.org"&gt;todo o código no GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mas antes de entrarmos em como esse negócio de JSON-LD funciona, queria falar um pouco sobre como a internet funciona. &lt;a href="http://diegoeis.com/organizando-a-informacao.html"&gt;Organização da Informação&lt;/a&gt; na web é um dos assuntos que mais me fascinam no mundo do desenvolvimento. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.&lt;/p&gt;
+
+&lt;p&gt;Hoje a internet é baseada basicamente em código HTML, onde nós podemos mostrar imagens, vídeos, audios e principalmente textos, onde nós temos os links. Os links são o meio pelo qual nós organizamos toda a informação na internet, referenciando informações de um site para outro, em múltiplos websites.&lt;/p&gt;
+
+&lt;p&gt;Nós podemos quebrar a internet em duas partes específicas: nós temos a parte onde nós enxergamos, que basicamente é baseada em HTML, CSS e JS. É onde seres humanos interagem com nosso produto e nosso site. 
+Há também a segunda parte, que é formada basicamente por robôs e sistemas que também interagem com nossos produtos e sites, mas de forma diferente dos humanos, claro, consumindo dados que disponibilizamos de várias formas. Uma desses formatos é o JSON. Como alguns outros formatos, o JSON tem uma estrutura que é simples de ser lida por humanos e principalmente por robôs. &lt;/p&gt;
+
+&lt;p&gt;Quando falamos sobre Linked Data, nós falamos sobre linkar informações entre websites. A maneira que fazemos isso hoje é basicamente com links. Isso resolve a parte de como os seres humanos conseguem relacionar um site (ou um punhado de informação), com outro site. Mas como conseguimos fazer com que as máquinas entendam esse relacionamento? Note que você é um ser humano, e você consegue saber quando um site sobre um determinado assunto contém um link que leva para um site de um assunto completamente diferente. Mas para máquina, se houver um link de um site para outro, não podemos dizer que eles são sites com o mesmo assunto ou com assuntos estreitamente relacionados. Um link para máquina, sempre vai ser um link. Ela vai precisar de mais informações para conseguir relacionar melhor as informações, tudo por causa do contexto. Como ser humano você consegue entender que o contexto mudou por causa dos textos, imagens e etc. Já as máquinas não.&lt;/p&gt;
+
+&lt;p&gt;Você já deve ter ouvido falar sobre RDFa. RDFa é um padrão básico para que possamos dar um pouco mais de contexto para as máquinas sobre os dados que elas estão consumindo. RDFa nada mais é do que um conjunto de atributos que colocamos em linguagens de marcação (HTML, XHTML, XML etc), de forma que as máquinas consigam entender que tipo de informação elas estão lidando. Algo como isso:&lt;/p&gt;
+&lt;div class="highlight html"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;h1&lt;/span&gt; &lt;span class="na"&gt;property=&lt;/span&gt;&lt;span class="s"&gt;"dc:title"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Um artigo sobre Semântica&lt;span class="nt"&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;property=&lt;/span&gt;&lt;span class="s"&gt;"dc:author"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Diego Eis&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sim. Você já viu algo parecido quando estudou sobre Microformatos, &lt;a href="http://tableless.com.br/introducao-a-microdata-no-html5/"&gt;Micro Data&lt;/a&gt; e etc, que são modelos de dados muito mais amigáveis e inteligente do RDF/XML. Mas esse foi um dos primeiros modelos adotados pelo &lt;a href="https://www.w3.org/2001/sw/RDFCore/"&gt;W3C há muito tempo&lt;/a&gt; e por isso, talvez, só talvez, valha a pena você dar uma lida para entender o conceito.&lt;/p&gt;
+
+&lt;p&gt;Deixando isso de lado, o que quero dizer é que nós marcamos esse tipo de informação, para que buscadores, redes sociais e qualquer outro tipo de sistema que precise de dados para funcionar, possa consumir os dados de forma mais inteligente. Então, enquanto as pessoas consomem HTML, lendo seus textos, vendo suas imagens e assistindo seus vídeos, as máquinas consomem esses dados vasculhando seu código procurando por algum significado.&lt;/p&gt;
+
+&lt;h2&gt;O JSON-LD e o @context&lt;/h2&gt;
+
+&lt;p&gt;Mas nós não conseguimos resolver de verdade como as máquinas consomem esses dados. Como eu disse, as máquinas precisam de mais detalhes sobre os dados que publicamos. Eu fiz uma apresentação falando sobre como melhoramos a semântica do código usando as &lt;a href="http://www.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5"&gt;novas tags do HTML5 e microdata&lt;/a&gt;. Mas temos como melhorar isso, usando JSON-LD.&lt;/p&gt;
+
+&lt;p&gt;Quando um sistema acessar seu site, ele vai receber um arquivo JSON, que contém informações sobre o assunto do seu site. O formato é praticamente idêntico ao JSON que você já deve conhecer, mas com alguns valores e chaves diferentes, veja:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"@context"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://json-ld.org/contexts/person.jsonld"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"@id"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://dbpedia.org/page/Bob_Dylan"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Bob Dylan"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"born"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"1941-05-24"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"spouse"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://dbpedia.org/resource/Sara_Dylan"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O problema é quando você começa a receber esses dados de múltiplos websites. Todos eles oferecem dados como esse. Mas e se dois sites colocarem informações iguais em alguns valores? Por exemplo, um site fornece o seguinte dado:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Diego"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"homepage"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://diegoeis.com"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E o outro:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"diegoeis"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"homepage"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://diegoeis.com"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Perceba que no primeiro exemplo, estamos falando sobre uma pessoa. Já no segundo exemplo, em vez do nome de alguém, está algo parecido com um nickname. O robô não tem como saber o que é cada coisa. É por isso que no JSON-LD tem um conceito chamado &lt;strong&gt;@context&lt;/strong&gt;. O &lt;strong&gt;@context&lt;/strong&gt; diz para a aplicação como interpretar o contexto daquelas informações. Perceba que sempre que você conversa com alguém na vida real, a conversa acontece em volta de um contexto. O exemplo legal ficaria assim:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"@context"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://json-ld.org/contexts/person.jsonld"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Diego"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"homepage"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://diegoeis.com"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Mas e o Schema.org?&lt;/h3&gt;
+
+&lt;p&gt;Ahh! Sabia que ia rolar essa pergunta. O &lt;a href="http://schema.org/"&gt;Schema.org&lt;/a&gt; é uma comunidade colaborativa, formada por buscadores como Google e Yahoo! para criar, manter e promover formatos de dados estruturados para a internet, ajudando a estruturar dados para emails, páginas, sistemas etc.&lt;/p&gt;
+
+&lt;p&gt;O que é um vocabulário: imagina que você tem uma série de coisas para descrever para as máquinas, por exemplo: suponha um site sobre filmes. Você quer indicar para os sistemas de busca (ou qualquer outro tipo de sistema interessado), qual é o pedaço de texto na página que é a resenha do filme, qual imagem é o poster do filme etc. Você marcaria o HTML assim:&lt;/p&gt;
+&lt;div class="highlight html"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;itemscope&lt;/span&gt; &lt;span class="na"&gt;itemtype=&lt;/span&gt;&lt;span class="s"&gt;"http://schema.org/Movie"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"url"&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;"http://www.warnerbros.com/matrix"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"name"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Matrix&lt;span class="nt"&gt;&amp;lt;/strong&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+  &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"description"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;The best movie in the real world.&lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"director"&lt;/span&gt; &lt;span class="na"&gt;itemscope&lt;/span&gt; &lt;span class="na"&gt;itemtype=&lt;/span&gt;&lt;span class="s"&gt;"http://schema.org/Person"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    Directed by: &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"name"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;The Wachowskis&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Starring: 
+    &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"actors"&lt;/span&gt; &lt;span class="na"&gt;itemscope&lt;/span&gt; &lt;span class="na"&gt;itemtype=&lt;/span&gt;&lt;span class="s"&gt;"http://schema.org/Person"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"name"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Laurence Fishburne&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"actors"&lt;/span&gt; &lt;span class="na"&gt;itemscope&lt;/span&gt; &lt;span class="na"&gt;itemtype=&lt;/span&gt;&lt;span class="s"&gt;"http://schema.org/Person"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;itemprop=&lt;/span&gt;&lt;span class="s"&gt;"name"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;Keanu Reeves&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Perceba que então, o Google, por exemplo, consegue saber o que é cada pedaço de dado da página. Assim ele consegue classificar melhor a informação.&lt;/p&gt;
+
+&lt;p&gt;A ideia é o seguinte, o &lt;strong&gt;@context&lt;/strong&gt; serve para que você consiga especificar o vocabulário dos tipos e propriedades que você está servindo no seu documento. Ali no exemplo, eu usei o vocabulário que o próprio pessoal do JSON-LD publicou. Mas o Google, assim como outros sistemas de busca, apoiam largamente o uso do Schema.org,  que é um padrão de vocabulário. Fica assim:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"@context"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://schema.org"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"@type"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Person"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Diego"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"homepage"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://diegoeis.com"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Veja ali que a segunda chave é o tipo. O Schema.org fornece uma série de vocabulários, logo, preciso dizer qual é o tipo do vocabulário que eu estou me referindo.&lt;/p&gt;
+
+&lt;p&gt;Perceba que &lt;strong&gt;@context&lt;/strong&gt; e o &lt;strong&gt;@type&lt;/strong&gt; definem o &amp;ldquo;significado&amp;rdquo; das outras chaves. Se fosse uma empresa, seria assim:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"@context"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://schema.org/"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"@type"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Organization"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"National Public Radio"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A chave &lt;strong&gt;name&lt;/strong&gt; ali agora se refere ao nome de uma Organização e não de uma pessoa. E assim segue com outras &amp;ldquo;coisas&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2&gt;E o Microdata?&lt;/h2&gt;
+
+&lt;p&gt;Bom, se você usar o JSON-LD, você não precisa usar Microdata. O Google está investindo pesando com o JSON-LD, por isso, acho que você devia pensar em usá-lo. Outra coisa: para usar Microdata, você vai precisar mexer no seu código HTML para inserir os atributos necessários. Já com o JSON-LD isso não é necessário, já que você serve via JSON as partes necessárias das informações que você quer publicar.&lt;/p&gt;
+
+&lt;h2&gt;Identificadores Globais do JSON-LTD&lt;/h2&gt;
+
+&lt;p&gt;Mas não adianta usar uma terminologia curta, que máquinas e humanos entendam, contendo um contexto, se você ainda não consegue identificar exatamente qual o assunto da conversa. No exemplo acima, o assunto era uma pessoa chamada &lt;strong&gt;Diego&lt;/strong&gt;. Mas qual &lt;strong&gt;Diego&lt;/strong&gt;? Existem milhares deles por aí. Para fazer isso, o JSON-LD usa uma &lt;strong&gt;@id&lt;/strong&gt; para identificar globalmente esse assunto (que pode ser um animal, uma pessoa, um objeto etc).&lt;/p&gt;
+
+&lt;p&gt;Logo, se alguém quiser falar sobre o &lt;strong&gt;Diego&lt;/strong&gt;, basta referenciar esse id específico.&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"@context"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://json-ld.org/contexts/person.jsonld"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"@id"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://diegoeis.com/sobre"&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Diego"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"homepage"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://diegoeis.com"&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Logo, existem três coisas principais que precisamos entender sobre o JSON-LD. &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ele te dá um contexto para a informação. &lt;/li&gt;
+&lt;li&gt;Ele usa uma terminologia e uma estrutura fácil para máquinas e humanos.&lt;/li&gt;
+&lt;li&gt;Ele identifica o assunto para resolver a ambiguidade de informações.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Como eu sirvo o JSON-LD&lt;/h2&gt;
+
+&lt;p&gt;Simples: basta chamar na sua página o JSON com as informações que você quer publicar. Veja abaixo um exemplo:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;script&lt;/span&gt; &lt;span class="nx"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"application/ld+json"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; 
+&lt;span class="p"&gt;{&lt;/span&gt; 
+  &lt;span class="s2"&gt;"@context"&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://schema.org"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;"@type"&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Article"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;"name"&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Um pouco sobre imagens para Web"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;"author"&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="s2"&gt;"@type"&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"Person"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;"name"&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"por Diego Eis"&lt;/span&gt; &lt;span class="p"&gt;},&lt;/span&gt; 
+  &lt;span class="s2"&gt;"datePublished"&lt;/span&gt; &lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"2016-07-05"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;"image"&lt;/span&gt; &lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"http://tableless.com.br/wp-content/uploads/2016/07/image-format.jpg"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+  &lt;span class="s2"&gt;"articleBody"&lt;/span&gt; &lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="err"&gt;"&lt;/span&gt;&lt;span class="nx"&gt;Queria&lt;/span&gt; &lt;span class="nx"&gt;falar&lt;/span&gt; &lt;span class="nx"&gt;um&lt;/span&gt; &lt;span class="nx"&gt;pouco&lt;/span&gt; &lt;span class="nx"&gt;sobre&lt;/span&gt; &lt;span class="nx"&gt;alguns&lt;/span&gt; &lt;span class="nx"&gt;formatos&lt;/span&gt; &lt;span class="nx"&gt;de&lt;/span&gt; &lt;span class="nx"&gt;imagens&lt;/span&gt; &lt;span class="nx"&gt;que&lt;/span&gt; &lt;span class="nx"&gt;usamos&lt;/span&gt; &lt;span class="nx"&gt;todos&lt;/span&gt; &lt;span class="nx"&gt;os&lt;/span&gt; &lt;span class="nx"&gt;dias&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="nx"&gt;Dar&lt;/span&gt; &lt;span class="nx"&gt;algumas&lt;/span&gt; &lt;span class="nx"&gt;informa&lt;/span&gt;&lt;span class="err"&gt;çõ&lt;/span&gt;&lt;span class="nx"&gt;es&lt;/span&gt; &lt;span class="nx"&gt;que&lt;/span&gt; &lt;span class="nx"&gt;encontrei&lt;/span&gt; &lt;span class="nx"&gt;por&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="err"&gt;í&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="nx"&gt;Vamos&lt;/span&gt; &lt;span class="nx"&gt;explorar&lt;/span&gt; &lt;span class="nx"&gt;as&lt;/span&gt; &lt;span class="nx"&gt;duas&lt;/span&gt; &lt;span class="nx"&gt;principais&lt;/span&gt; &lt;span class="nx"&gt;op&lt;/span&gt;&lt;span class="err"&gt;çõ&lt;/span&gt;&lt;span class="nx"&gt;es&lt;/span&gt; &lt;span class="nx"&gt;de&lt;/span&gt; &lt;span class="nx"&gt;formato&lt;/span&gt; &lt;span class="nx"&gt;gr&lt;/span&gt;&lt;span class="err"&gt;á&lt;/span&gt;&lt;span class="nx"&gt;fico&lt;/span&gt; &lt;span class="nx"&gt;que&lt;/span&gt; &lt;span class="nx"&gt;pode&lt;/span&gt; &lt;span class="nx"&gt;ser&lt;/span&gt; &lt;span class="nx"&gt;usado&lt;/span&gt; &lt;span class="nx"&gt;na&lt;/span&gt; &lt;span class="nx"&gt;Web&lt;/span&gt; &lt;span class="nx"&gt;para&lt;/span&gt; &lt;span class="nx"&gt;representar&lt;/span&gt; &lt;span class="nx"&gt;gr&lt;/span&gt;&lt;span class="err"&gt;á&lt;/span&gt;&lt;span class="nx"&gt;ficos&lt;/span&gt; &lt;span class="nx"&gt;simples&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="nx"&gt;esquemas&lt;/span&gt; &lt;span class="nx"&gt;ou&lt;/span&gt; &lt;span class="nx"&gt;logotipos&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="nx"&gt;Embora&lt;/span&gt; &lt;span class="nx"&gt;hoje&lt;/span&gt; &lt;span class="nx"&gt;possamos&lt;/span&gt; &lt;span class="nx"&gt;usar&lt;/span&gt; &lt;span class="nx"&gt;SVG&lt;/span&gt; &lt;span class="nx"&gt;em&lt;/span&gt; &lt;span class="nx"&gt;diversos&lt;/span&gt; &lt;span class="nx"&gt;momentos&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="nx"&gt;principalmente&lt;/span&gt; &lt;span class="nx"&gt;para&lt;/span&gt; &lt;span class="err"&gt;í&lt;/span&gt;&lt;span class="nx"&gt;cones&lt;/span&gt; &lt;span class="nx"&gt;ou&lt;/span&gt; &lt;span class="nx"&gt;Logos&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;o&lt;/span&gt; &lt;span class="nx"&gt;PNG&lt;/span&gt; &lt;span class="nx"&gt;e&lt;/span&gt; &lt;span class="nx"&gt;o&lt;/span&gt; &lt;span class="nx"&gt;GIF&lt;/span&gt; &lt;span class="nx"&gt;ainda&lt;/span&gt; &lt;span class="nx"&gt;podem&lt;/span&gt; &lt;span class="nx"&gt;ser&lt;/span&gt; &lt;span class="nx"&gt;usadas&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="nx"&gt;Depois&lt;/span&gt; &lt;span class="nx"&gt;falamos&lt;/span&gt; &lt;span class="nx"&gt;mais&lt;/span&gt; &lt;span class="nx"&gt;sobre&lt;/span&gt; &lt;span class="nx"&gt;o&lt;/span&gt; &lt;span class="nx"&gt;SVG&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/P&amp;gt;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="sr"&gt;&amp;lt;H3&amp;gt;GIF&amp;lt;/&lt;/span&gt;&lt;span class="nx"&gt;H3&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="nx"&gt;n&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;P&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;GIF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;sigla&lt;/span&gt; &lt;span class="nx"&gt;para&lt;/span&gt; &lt;span class="nx"&gt;Graphics&lt;/span&gt; &lt;span class="nx"&gt;Interchange&lt;/span&gt; &lt;span class="nx"&gt;Format&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nx"&gt;foi&lt;/span&gt; &lt;span class="nx"&gt;desenvolvido&lt;/span&gt; &lt;span class="nx"&gt;no&lt;/span&gt; &lt;span class="kr"&gt;final&lt;/span&gt; &lt;span class="nx"&gt;dos&lt;/span&gt; &lt;span class="nx"&gt;anos&lt;/span&gt; &lt;span class="mi"&gt;1980&lt;/span&gt; &lt;span class="nx"&gt;e&lt;/span&gt; &lt;span class="nx"&gt;ainda&lt;/span&gt; &lt;span class="err"&gt;é&lt;/span&gt; &lt;span class="nx"&gt;amplamente&lt;/span&gt; &lt;span class="nx"&gt;utilizado&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="nx"&gt;PNG&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;Portable&lt;/span&gt; &lt;span class="nx"&gt;Network&lt;/span&gt; &lt;span class="nx"&gt;Graphics&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nx"&gt;foi&lt;/span&gt; &lt;span class="nx"&gt;desenvolvido&lt;/span&gt; &lt;span class="nx"&gt;por&lt;/span&gt; &lt;span class="nx"&gt;volta&lt;/span&gt; &lt;span class="nx"&gt;de&lt;/span&gt; &lt;span class="mi"&gt;1995&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;tornou&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;se&lt;/span&gt; &lt;span class="nx"&gt;uma&lt;/span&gt; &lt;span class="nx"&gt;recomenda&lt;/span&gt;&lt;span class="err"&gt;çã&lt;/span&gt;&lt;span class="nx"&gt;o&lt;/span&gt; &lt;span class="nx"&gt;W3C&lt;/span&gt; &lt;span class="nx"&gt;em&lt;/span&gt; &lt;span class="mi"&gt;1996&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;e&lt;/span&gt; &lt;span class="nx"&gt;tem&lt;/span&gt; &lt;span class="nx"&gt;sido&lt;/span&gt; &lt;span class="nx"&gt;amplamente&lt;/span&gt; &lt;span class="nx"&gt;implementado&lt;/span&gt; &lt;span class="nx"&gt;na&lt;/span&gt; &lt;span class="nx"&gt;maioria&lt;/span&gt; &lt;span class="nx"&gt;dos&lt;/span&gt; &lt;span class="nx"&gt;navegadores&lt;/span&gt; &lt;span class="nx"&gt;da&lt;/span&gt; &lt;span class="nx"&gt;Web&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;logo&lt;/span&gt; &lt;span class="nx"&gt;em&lt;/span&gt; &lt;span class="mi"&gt;1998&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/P&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nx"&gt;p&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/script&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O Google tem uma ferramenta sensacional que te ajuda a criar marcação de dados estruturados direto na sua página. &lt;a href="https://www.google.com/webmasters/markup-helper/u/0/"&gt;Olha aqui&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2&gt;Um pouco mais sobre Web Semântica&lt;/h2&gt;
+
+&lt;p&gt;Essas coisas são as fundações do Linked Data. A Web Semântica é muito do que simplesmente organizar informação. Ela envolve também relacionar esses dados encontrados em diferentes pontos da internet, além de facilitar o consumo e a reutilização desses dados por máquinas e seres humanos.&lt;/p&gt;
+
+&lt;p&gt;O Tim Berners-Lee &lt;a href="https://www.w3.org/DesignIssues/LinkedData.html"&gt;fala sobre os quatro passos (ou regras)&lt;/a&gt; para que os dados sejam interconectados na internet:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Identificar as coisas com URIs. Se a forma de identificar os dados não usam o formato universal de símbolos de URI, nós não podemos chamar isso de Web Semântica.&lt;/li&gt;
+&lt;li&gt;Usar URI pelo protocolo HTTP é totalmente aceitável pela web inteira. Existe uma tendência gigante da criação de novos esquemas de URI como LSIDs, XRIs etc, se baseando em algo totalmente novo, por fora do DNS, impossibilitando o consumo da informação via formato não popular.&lt;/li&gt;
+&lt;li&gt;É necessário ter acesso à informação via URIs. Basicamente você precisa acessar uma URI e encontrar a informação ali, pronta para ser reutilizada.&lt;/li&gt;
+&lt;li&gt;Usar links para relacionar dados pela web.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Veja as regras se baseiam em fundações fortes da web hoje. Talvez essas fundações mudem. Mas não vai ser fácil. Veja o trabalho que é fazer para implementar o HTTP/2. Por isso creio que essas regras valerão durante muito tempo e serão ainda nossa baliza para poder servir informação de forma livre pela internet.&lt;/p&gt;
+
+&lt;h3&gt;Para ler mais:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://json-ld.org/"&gt;Site oficial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://manu.sporny.org/2014/json-ld-origins-2/"&gt;JSON-LD and Why I Hate the Semantic Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://thecustomizewindows.com/2014/08/json-ld-details/"&gt;JSON-LD in Details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=4x_xzT5eF5Q"&gt;Vídeo em ingles sobre Linked Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/json-ld/json-ld.org"&gt;Repositório do JSON-LD no GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://norman.walsh.name/2004/07/30/rdfxml"&gt;Is RDF/XML Good For Anything?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Deploy usando Hook do Git</title>
     <link rel="alternate" href="http://blog.url.com/deploy-usando-hook-do-git.html"/>
     <id>http://blog.url.com/deploy-usando-hook-do-git.html</id>
     <published>2016-07-03T21:00:00-03:00</published>
-    <updated>2016-07-04T22:34:41-03:00</updated>
+    <updated>2016-07-07T02:04:17-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -121,7 +376,7 @@ To user@diegoeis.com:/public/diegoeis.com.git/
     <link rel="alternate" href="http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html"/>
     <id>http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html</id>
     <published>2016-07-02T21:00:00-03:00</published>
-    <updated>2016-07-04T19:48:56-03:00</updated>
+    <updated>2016-07-03T20:28:41-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -194,7 +449,7 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
     <link rel="alternate" href="http://blog.url.com/performance-web-rail.html"/>
     <id>http://blog.url.com/performance-web-rail.html</id>
     <published>2016-06-25T21:00:00-03:00</published>
-    <updated>2016-07-04T19:48:56-03:00</updated>
+    <updated>2016-06-26T21:09:01-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -262,7 +517,7 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
     <link rel="alternate" href="http://blog.url.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html"/>
     <id>http://blog.url.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html</id>
     <published>2016-06-21T21:00:00-03:00</published>
-    <updated>2016-07-04T19:48:56-03:00</updated>
+    <updated>2016-06-24T02:17:55-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -368,7 +623,7 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
     <link rel="alternate" href="http://blog.url.com/o-basico-sobre-expressoes-regulares.html"/>
     <id>http://blog.url.com/o-basico-sobre-expressoes-regulares.html</id>
     <published>2016-06-15T21:00:00-03:00</published>
-    <updated>2016-07-04T19:48:56-03:00</updated>
+    <updated>2016-06-20T21:25:20-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -466,130 +721,6 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://turing.com.br/material/regex/introducao.html#"&gt;http://turing.com.br/material/regex/introducao.html#&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx"&gt;https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Anotações sobre gestão agile</title>
-    <link rel="alternate" href="http://blog.url.com/anotacoes-sobre-gestao-agile.html"/>
-    <id>http://blog.url.com/anotacoes-sobre-gestao-agile.html</id>
-    <published>2016-05-04T21:00:00-03:00</published>
-    <updated>2016-06-20T16:56:33-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile e outros assuntos.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  Competência é a junção do &lt;strong&gt;conhecimento (teoria), habilidade (pratica) e atitude (disciplina)&lt;/strong&gt; - CHA&lt;/li&gt;
-&lt;li&gt;  Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências&lt;/li&gt;
-&lt;li&gt;  qual o papel de um gestor num ambiente que melhora o desenvolvimento de competências? O gestor precisa criar um ambiente onde as pessoas desenvolvam o CHA de maneira contínua&lt;/li&gt;
-&lt;li&gt;  Tem certos aprendizados que foram gerados por erros.&lt;/li&gt;
-&lt;li&gt;  &lt;strong&gt;mistake&lt;/strong&gt; Quando o erro gera uma falha, seu aprendizado não é tão grande&lt;/li&gt;
-&lt;li&gt;  Os experimentos podem ter como resultados o sucesso ou falha&lt;/li&gt;
-&lt;li&gt;  &lt;strong&gt;experiments&lt;/strong&gt; Mas quando você faz de maneira intencional, você aprende com o erro ou com o sucesso&lt;/li&gt;
-&lt;li&gt;  &lt;strong&gt;practices&lt;/strong&gt; você consegue determinar a causa e efeito e consegue ter uma taxa de sucesso maior, mas também tem uma chance pequena de fracasso&lt;/li&gt;
-&lt;li&gt;  A grande pergunta é: como o gestor consegue construir um ambiente onde há mais sucessos e poucos erros, mas que você também aprenda&lt;/li&gt;
-&lt;li&gt;  como você aprende em um ambiente complexo? Experimentos, falhas, observando&amp;hellip; mas principalmente &lt;strong&gt;através das interações&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;  O Learning 1.0 é baseado em efeitos simplificações.
-
-&lt;ol&gt;
-&lt;li&gt; Aprendizado prescritivo. Você consegue prescrever a solução dos problemas&lt;/li&gt;
-&lt;li&gt; Aprendizado push - empurra o aprendizado, mesmo não sabendo se vai ser útil pra pessoa&lt;/li&gt;
-&lt;li&gt; Aprendizado 1-N - você tem um expert que passa o conhecimento pra muitos&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;  Uma sala de aula funciona assim: tem um professor que decide &lt;strong&gt;o que&lt;/strong&gt; e &lt;strong&gt;como&lt;/strong&gt; você vai aprender&lt;/li&gt;
-&lt;li&gt;  As pessoas esperam que o gestor seja esse professor.&lt;/li&gt;
-&lt;li&gt;  Como nossa empresa gera conhecimento em um ambiente complexo?&lt;/li&gt;
-&lt;li&gt;  Learning 3.0 -
-
-&lt;ol&gt;
-&lt;li&gt; Aprendizado emergente - aprendizado fruto das interações. O que acontece das interações das partes do sistema&lt;/li&gt;
-&lt;li&gt; Aprendizado “Pull” - você absorve o conhecimento gerado pelo ambiente&lt;/li&gt;
-&lt;li&gt; Aprendizado N-N - todos aprendem com todos. Muitos ensinam pra muitos.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;  na complexidade, as verdades são muito efêmeras. O ciclo de vida do que é verdade é muito curto.&lt;/li&gt;
-&lt;li&gt;  as regras evoluem mais rápido em sistemas complexos&lt;/li&gt;
-&lt;li&gt;  O quanto nosso aprendizado é desperdício?&lt;/li&gt;
-&lt;li&gt;  Learning 1.0: Focus on being Taught - expert define como e o que aprende&lt;/li&gt;
-&lt;li&gt;  Learning 2.0: Focus on Asking - o expert não define o que é verdadeiro ou falso, mais flexível&lt;/li&gt;
-&lt;li&gt;  Learning 3.0: Focus on Sharing - você ano tem claramente quem é o expert. Todos têm condições de aprender com todos&lt;/li&gt;
-&lt;li&gt;  Nos sistemas complexa você pode ter vários experts como deferentes perspectivas&lt;/li&gt;
-&lt;li&gt;  O Learning 1.0 não vai sumir. Na verdade existem momentos em que ele se encaixa. Logo, cada momento vai pedir um tipo de Learning&lt;/li&gt;
-&lt;li&gt;  Às vezes em uma sala de aula, o Learning 1.0 é melhor, mas para expor um problema no sistema ou no processo da empresa, k Learning 3.0 é o ideal&lt;/li&gt;
-&lt;li&gt;  feedback canvas&lt;/li&gt;
-&lt;li&gt;  Feedback wrap
-
-&lt;ol&gt;
-&lt;li&gt; Describe your context / situation “iniciamos o projeto há 6 meses, alguns clientes já estão usando&amp;hellip;”&lt;/li&gt;
-&lt;li&gt; List your observations (as facts) “temos X bugs em produção afetando algumas coisas&amp;hellip;&amp;ldquo;&lt;/li&gt;
-&lt;li&gt; Express your emotions / feelings &amp;quot;Eu estou ficando preocupado com o isso, o PO já está ficando apreensivo&amp;rdquo;&lt;/li&gt;
-&lt;li&gt; Sprite by value created for you &amp;ldquo;o que você acha disso, o que podemos fazer diferente daqui pra frente?”&lt;/li&gt;
-&lt;li&gt; End with suggestions / offer help &amp;quot;Eu como gestor, o que posso te ajudar?”&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;  Feedback Sandwich. Uma camada de feedback positivo, outra negativa&amp;hellip;&lt;/li&gt;
-&lt;li&gt;  Você não come sandwich todos os dias&amp;hellip; comer Sandwich todos os dias é pesado&amp;hellip; O Wrap é mais leve, mais simples, palatável&lt;/li&gt;
-&lt;li&gt;  Você não tem controle se um feedback é positivo ou negativo. Depende da maneira que o indivíduo vai absorve&lt;/li&gt;
-&lt;li&gt;  no Wrap não existe positivo ou negativo, só existe Feedback&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;grow structure&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  Qual o maior exemplo de escala do mundo? O vírus&lt;/li&gt;
-&lt;li&gt;  Por que o vírus consegue se espalhar de forma eficiente?&lt;/li&gt;
-&lt;li&gt;  Cada vírus é auto-suficiente. Tudo o que ele precisa pra atacar um organismo, está dentro do vírus&lt;/li&gt;
-&lt;li&gt;  Você consegue crescer, clonar e se manter ágil&lt;/li&gt;
-&lt;li&gt;  esse conceito se chama estruturas fractais&lt;/li&gt;
-&lt;li&gt;  &lt;strong&gt;fractal organization&lt;/strong&gt; - Times multidisciplinares. Um time fractal. Tenha todas as competências necessárias pra gerar valor dentro de um time.&lt;/li&gt;
-&lt;li&gt;  Se ocorrer uma invasão zumbi e só sobrou um time. Esse time precisa ser auto-suficiente.&lt;/li&gt;
-&lt;li&gt;  Women&amp;rsquo;s global leadership initiative&lt;/li&gt;
-&lt;li&gt;  em algum momento da sua empresa que não é possível descentralizar. São as estruturas de serviços que servem pra suprir as unidades de valor&lt;/li&gt;
-&lt;li&gt;  Modelo Pêssego.&lt;/li&gt;
-&lt;li&gt;  O time que está na margem está em contato com o cliente, o negócio em si&lt;/li&gt;
-&lt;li&gt;  O time de serviço está mais perto do centro, no core da empresa&lt;/li&gt;
-&lt;li&gt;  O centro não é um centro de controle, é um centro de serviço&lt;/li&gt;
-&lt;li&gt;  Cada time de negócio é uma unidade de negócio.&lt;/li&gt;
-&lt;li&gt;  procurar: “coragem para empoderar” Agile Brasil&lt;/li&gt;
-&lt;li&gt;  a desvantagem de ter times independentes é o isolamento. Para minimizar isso, a gestão 3.0 incentiva grupos chamados de &lt;strong&gt;COP: community of practice&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;  o COP é um grupo de profissionais de vários times que trocam figurinhas, que ajudam a compartilhar conhecimento e soluções&lt;/li&gt;
-&lt;li&gt;  o Chapter é um pouco mais formal que a comunidade pratica. Você pega os especialistas em um determinado assunto pra decidirem sobre os padrões globais da empresa sobre daquele assunto&lt;/li&gt;
-&lt;li&gt;  conway&amp;rsquo;s law - &amp;quot;any organization that designs a system will inevitably produce a design whose structure is a copy of the organizations communication structure&amp;rdquo; Melvin E. Conway 1967&lt;/li&gt;
-&lt;li&gt;  Perfil T-Shaped - &lt;a href="http://diegoeis.com/tshaped-fullstack-dev/"&gt;http://diegoeis.com/tshaped-fullstack-dev/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;  O camarada é um generalista em alguns assuntos, mas é especialista em um determinado assunto&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;improve Everything&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  &amp;ldquo;MEU MODELO ESTÁ ERRADO!&amp;rdquo; Jurgen Apello&lt;/li&gt;
-&lt;li&gt;  pra todo problema complexo, sempre há uma resposta clara, simples e errada&lt;/li&gt;
-&lt;li&gt;  Você não tem como garantir a situação de causa e efeito&lt;/li&gt;
-&lt;li&gt;  todo esse esquema de gestão 3.0 é uma especulação porque você está em um modelo complexo&lt;/li&gt;
-&lt;li&gt;  o ciclo de adaptação é feito pouco a pouco&lt;/li&gt;
-&lt;li&gt;  Como você influência um sistema social para que mudanças aconteçam?&lt;/li&gt;
-&lt;li&gt;  As 4 faces da mudança social
-
-&lt;ol&gt;
-&lt;li&gt; Considere o sistema&lt;/li&gt;
-&lt;li&gt; Considere o comportamento complexo que você tem no seu sistema.&lt;/li&gt;
-&lt;li&gt; você consegue simplificar a estrutura do sistema, mas não seu comportamento&lt;/li&gt;
-&lt;li&gt; A complexidade é o cavalheiro numa dança de salão e você é a dama. Você nunca vai estar no controle do sistema&lt;/li&gt;
-&lt;li&gt; A ferramenta para lidar com a complexidade: PDCA - Plan, Do, Check, Act&lt;/li&gt;
-&lt;li&gt; Considere os indivíduos&lt;/li&gt;
-&lt;li&gt; você tem uma ideia e quer que as pessoas absorvam aquela ideia, mostre o porque essa ideia é importante pra elas&lt;/li&gt;
-&lt;li&gt; Entenda como cada ideia vai afetar a vida de cada integrante da empresa&lt;/li&gt;
-&lt;li&gt; Considere as interações&lt;/li&gt;
-&lt;li&gt; Considere as interações tanto pra o bem, quanto pra o mal&lt;/li&gt;
-&lt;li&gt; as pessoas podem não absorver as ideias, não por que ela não gosta, mas porque a interação dela com as outras pessoas é ruim&lt;/li&gt;
-&lt;li&gt; exemplo do Motorista, pedestre e faixa&lt;/li&gt;
-&lt;li&gt; Considere o fluxo de propagação das ideias, onde você precisa identificar os inovadores, influenciadores&amp;hellip; Eles ajudarão a propagar a mudança no sistema&lt;/li&gt;
-&lt;li&gt; Considere o ambiente&lt;/li&gt;
-&lt;li&gt; você tem restrições externas. Tanto fora ou dentro da empresa&lt;/li&gt;
-&lt;li&gt; as restrições não inviabilizam, mas precisam ser considerados&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Curso dado pelo &lt;a href="https://twitter.com/manoelp"&gt;@manoelp&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
