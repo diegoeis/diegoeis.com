@@ -61,7 +61,7 @@ E o outro:
 }
 ```
 
-Perceba que no primeiro exemplo, estamos falando sobre uma pessoa. Já no segundo exemplo, em vez do nome de alguém, está algo parecido com um nickname. O robô não tem como saber o que é cada coisa. É por isso que no JSON-LD tem um conceito chamado **@context**. O **@context** diz para a aplicação como interpretar o contexto daquelas informações. Perceba que sempre que você conversa com alguém na vida real, a conversa acontece em volta de um contexto. O exemplo legal ficaria assim:
+No primeiro exemplo estamos falando sobre uma **pessoa**. Já no segundo exemplo, em vez do nome de alguém, está algo parecido com um nickname. O robô não tem como saber o que é cada coisa. É por isso que no JSON-LD tem um conceito chamado **@context**. O **@context** diz para a aplicação como interpretar o contexto daquelas informações. Perceba que sempre que você conversa com alguém na vida real, a conversa acontece em volta de um contexto. O exemplo legal ficaria assim:
 
 ```js
 {
@@ -126,7 +126,7 @@ Perceba que **@context** e o **@type** definem o "significado" das outras chaves
 A chave **name** ali agora se refere ao nome de uma Organização e não de uma pessoa. E assim segue com outras "coisas".
 
 ## E o Microdata?
-Bom, se você usar o JSON-LD, você não precisa usar Microdata. O Google está investindo pesando com o JSON-LD, por isso, acho que você devia pensar em usá-lo. Outra coisa: para usar Microdata, você vai precisar mexer no seu código HTML para inserir os atributos necessários. Já com o JSON-LD isso não é necessário, já que você serve via JSON as partes necessárias das informações que você quer publicar.
+Se você usar o JSON-LD, você não precisa usar Microdata. O Google está investindo pesando com o JSON-LD, por isso, acho que você devia pensar em usá-lo. Outra coisa: para usar Microdata, você vai precisar mexer no seu código HTML para inserir os atributos necessários. Já com o JSON-LD isso não é necessário, já que você serve via JSON as partes necessárias das informações que você quer publicar.
 
 ## Identificadores Globais do JSON-LTD
 Mas não adianta usar uma terminologia curta, que máquinas e humanos entendam, contendo um contexto, se você ainda não consegue identificar exatamente qual o assunto da conversa. No exemplo acima, o assunto era uma pessoa chamada **Diego**. Mas qual **Diego**? Existem milhares deles por aí. Para fazer isso, o JSON-LD usa uma **@id** para identificar globalmente esse assunto (que pode ser um animal, uma pessoa, um objeto etc).
@@ -142,7 +142,7 @@ Logo, se alguém quiser falar sobre o **Diego**, basta referenciar esse id espec
 }
 ```
 
-Logo, existem três coisas principais que precisamos entender sobre o JSON-LD. 
+Logo, existem três coisas principais que precisamos entender sobre o JSON-LD:
 
 1. Ele te dá um contexto para a informação. 
 2. Ele usa uma terminologia e uma estrutura fácil para máquinas e humanos.
@@ -161,7 +161,8 @@ Simples: basta chamar na sua página o JSON com as informações que você quer 
   "name" : "por Diego Eis" }, 
   "datePublished" : "2016-07-05", 
   "image" : "http://tableless.com.br/wp-content/uploads/2016/07/image-format.jpg", 
-  "articleBody" : "Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples,  esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos,  principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.</P>\n<H3>GIF</H3>\n<P>GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.</P></p>}
+  "articleBody" : "Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples,  esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos,  principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.</P>\n<H3>GIF</H3>\n<P>GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.</P>
+}
 </script>
 ```
 
