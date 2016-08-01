@@ -5,31 +5,43 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-07-05T21:00:00-03:00</updated>
+  <updated>2016-07-30T21:00:00-03:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo</title>
+    <link rel="alternate" href="http://blog.url.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html"/>
+    <id>http://blog.url.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html</id>
+    <published>2016-07-30T21:00:00-03:00</published>
+    <updated>2016-07-31T21:59:21-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Eu estava buscando informações para escrever meu próximo livro, quando me deparei com esse vídeo maravilhoso no TED. Conheça Ian Ritchie, o cara que perdeu a oportunidade de fazer o primeiro browser para web. &lt;/p&gt;
+
+&lt;iframe src="https://embed-ssl.ted.com/talks/lang/pt-br/ian_ritchie_the_day_i_turned_down_tim_berners_lee.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+</content>
+  </entry>
   <entry>
     <title>Linked Data e JSON-LD</title>
     <link rel="alternate" href="http://blog.url.com/linked-data-e-json-ld.html"/>
     <id>http://blog.url.com/linked-data-e-json-ld.html</id>
     <published>2016-07-05T21:00:00-03:00</published>
-    <updated>2016-07-07T02:31:12-03:00</updated>
+    <updated>2016-07-07T21:53:00-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Linked Data é um termo relativamente novo para todo o mundo de desenvolvimento, que apresenta apenas um caminho para publicar dados interconectados entre diferentes sites, possibilitando que um site referencie e reutilize dados de um outro site. Tipo, um buscador, reutilizando as informações do seu site para mostrar nos resultados da busca.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. &lt;a href="http://diegoeis.com/organizando-a-informacao.html"&gt;Organização da Informação&lt;/a&gt; na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.&lt;/p&gt;
 
-&lt;p&gt;JSON-LD (JavaScript Object Notation - Linked Data) é um formato baseado no já conhecido JSON, que todo mundo utiliza para transmitir dados entre o browser e o servidor. Ele virou &lt;a href="https://www.w3.org/TR/json-ld/"&gt;padrão do W3C&lt;/a&gt; em 2014. Obviamente, é um projeto aberto e você pode ver &lt;a href="https://github.com/json-ld/json-ld.org"&gt;todo o código no GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mas antes de entrarmos em como esse negócio de JSON-LD funciona, queria falar um pouco sobre como a internet funciona. &lt;a href="http://diegoeis.com/organizando-a-informacao.html"&gt;Organização da Informação&lt;/a&gt; na web é um dos assuntos que mais me fascinam no mundo do desenvolvimento. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.&lt;/p&gt;
-
-&lt;p&gt;Hoje a internet é baseada basicamente em código HTML, onde nós podemos mostrar imagens, vídeos, audios e principalmente textos, onde nós temos os links. Os links são o meio pelo qual nós organizamos toda a informação na internet, referenciando informações de um site para outro, em múltiplos websites.&lt;/p&gt;
+&lt;p&gt;Hoje a internet é baseada basicamente em código HTML, onde nós podemos mostrar imagens, vídeos, audios e principalmente textos. Os links são o meio pelo qual nós organizamos toda a informação na internet, referenciando informações de um site para outro. Os links organizam, de certa forma, todos os websites da internet, sempre cruzando um termo com uma fonte de informação relacionada àquele termo.&lt;/p&gt;
 
 &lt;p&gt;Nós podemos quebrar a internet em duas partes específicas: nós temos a parte onde nós enxergamos, que basicamente é baseada em HTML, CSS e JS. É onde seres humanos interagem com nosso produto e nosso site. 
 Há também a segunda parte, que é formada basicamente por robôs e sistemas que também interagem com nossos produtos e sites, mas de forma diferente dos humanos, claro, consumindo dados que disponibilizamos de várias formas. Uma desses formatos é o JSON. Como alguns outros formatos, o JSON tem uma estrutura que é simples de ser lida por humanos e principalmente por robôs. &lt;/p&gt;
 
-&lt;p&gt;Quando falamos sobre Linked Data, nós falamos sobre linkar informações entre websites. A maneira que fazemos isso hoje é basicamente com links. Isso resolve a parte de como os seres humanos conseguem relacionar um site (ou um punhado de informação), com outro site. Mas como conseguimos fazer com que as máquinas entendam esse relacionamento? Note que você é um ser humano, e você consegue saber quando um site sobre um determinado assunto contém um link que leva para um site de um assunto completamente diferente. Mas para máquina, se houver um link de um site para outro, não podemos dizer que eles são sites com o mesmo assunto ou com assuntos estreitamente relacionados. Um link para máquina, sempre vai ser um link. Ela vai precisar de mais informações para conseguir relacionar melhor as informações, tudo por causa do contexto. Como ser humano você consegue entender que o contexto mudou por causa dos textos, imagens e etc. Já as máquinas não.&lt;/p&gt;
+&lt;p&gt;Linked Data é um termo relativamente novo. É um termo que apresenta um caminho para publicar dados interconectados entre diferentes sites, possibilitando que um site referencie e reutilize dados de um outro site. Tipo, um buscador, reutilizando as informações do seu site para mostrar nos resultados da busca.&lt;/p&gt;
+
+&lt;p&gt;Conectar as informações usando links resolve a parte de como os seres humanos conseguem relacionar um site (ou um punhado de informação), com outro. Mas como conseguimos fazer com que as máquinas entendam esse relacionamento? Você, como ser humano (eu espero que você seja um), consegue saber quando um site sobre um determinado assunto contém um link que leva para um site de um assunto completamente diferente, mudando de contexto. Mas as máquinas não conseguem fazer essa distinção. Para a máquina, um link sempre vai ser um link. Se é sobre feijão ou sobre automóveis, um link será um link, mesmo tendo uma mudança de contexto entre os assuntos. Para conseguir relacionar melhor as informações, precisamos indicar melhor para as máquinas o contexto dessa informação, ou melhor, desses dados (informação e dados são coisas diferentes).&lt;/p&gt;
 
 &lt;p&gt;Você já deve ter ouvido falar sobre RDFa. RDFa é um padrão básico para que possamos dar um pouco mais de contexto para as máquinas sobre os dados que elas estão consumindo. RDFa nada mais é do que um conjunto de atributos que colocamos em linguagens de marcação (HTML, XHTML, XML etc), de forma que as máquinas consigam entender que tipo de informação elas estão lidando. Algo como isso:&lt;/p&gt;
 &lt;div class="highlight html"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
@@ -617,111 +629,6 @@ Run admin/management tasks as one-off processes&lt;/li&gt;
 &lt;li&gt;Manutenção &amp;gt; Performance&lt;/li&gt;
 &lt;li&gt;Prioridades. Não otimize sem métricas.&lt;/li&gt;
 &lt;li&gt;O maior problema dos programadores é a Otimização Prematura.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>O básico sobre Expressões Regulares</title>
-    <link rel="alternate" href="http://blog.url.com/o-basico-sobre-expressoes-regulares.html"/>
-    <id>http://blog.url.com/o-basico-sobre-expressoes-regulares.html</id>
-    <published>2016-06-15T21:00:00-03:00</published>
-    <updated>2016-06-20T21:25:20-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Expressão Regular é uma das ferramentas mais úteis que você pode ter. Vira e mexe as Expressões Regulares (RegExp) resolvem desde problemas de Find &amp;amp; Replace no editor até validação de dados em diversos níveis do seu projeto. Mas geralmente a gente só lê sobre Expressões Regulares quando precisamos decifrar aquela linha maluca e ainda assim de um jeito meio descuidado, tateando e tentando fazer dar certo uma combinação de caracteres sem sentido.&lt;/p&gt;
-
-&lt;h2&gt;Entendendo as Expressões&lt;/h2&gt;
-
-&lt;p&gt;Uma Expressão Regular é uma representação para que você encontre padrões em um texto. Esse texto pode ser qualquer coisa, desde o valor de um campo de formulário ou simplesmente um search no seu editor de código predileto… Não importa… O objetivo é filtrar padrões em um punhado de informação textual.&lt;/p&gt;
-
-&lt;p&gt;Se você entender que uma Expressão Regular é apenas uma representação formada por símbolos, você não vai ter dificuldades. Cada símbolo representa um tipo de informação. Por exemplo: o &lt;code&gt;.&lt;/code&gt; (ponto) é um curinga. Ele significa que você pode selecionar qualquer caractere, ou seja, qualquer letra, caractere especial ou número. Exceto a quebra de linha, que é representado pelo símbolo &lt;code&gt;\n&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3&gt;Classe de caracteres&lt;/h3&gt;
-
-&lt;p&gt;Vamos começar pelo mais fácil: quando você faz uma busca, você pode buscar uma combinação de caracteres específica, por exemplo: no seu editor de código, se você fizer uma busca por &lt;strong&gt;a&lt;/strong&gt;, ele vai te mostrar todas as letras &lt;strong&gt;a&lt;/strong&gt; do documento. Mas e se você quiser procurar todas as letras &lt;strong&gt;a&lt;/strong&gt; e as letras &lt;strong&gt;e&lt;/strong&gt;? Simples, você faz um agrupamento utilizando os colchetes &lt;code&gt;[]&lt;/code&gt;. Essa expressão irá encontrar todos os caracteres que estiverem dentro dos colchetes. &lt;a href="http://rubular.com/r/i7apRSchRh"&gt;Veja esse exemplo, onde ele filtra as letras &lt;code&gt;[ue]&lt;/code&gt;&lt;/a&gt;. Isso se chama &lt;strong&gt;classe de caracteres&lt;/strong&gt;, onde você encontra vários caracteres diferentes ao mesmo tempo.&lt;/p&gt;
-
-&lt;p&gt;Bom, se você quiser selecionar TODAS as letras do texto, você não precisa escrever o alfabeto inteiro dentro dos colchetes, basta só usar a representação &lt;code&gt;[A-z]&lt;/code&gt;. Isso quer dizer que ele pega as letras de A até Z, maiúsculas ou minúsculas.&lt;/p&gt;
-
-&lt;p&gt;Se você quiser pegar os números, por exemplo, use &lt;code&gt;[0-9]&lt;/code&gt;. Se quiser todas as letras e todos números: &lt;code&gt;[A-z0-9]&lt;/code&gt;. Pra facilitar a expressão, você pode usar &lt;code&gt;\w&lt;/code&gt;, que vai dar no mesmo.&lt;/p&gt;
-
-&lt;p&gt;Para você fazer uma negação da Classe criada, basta adicionar um &lt;code&gt;^&lt;/code&gt; dentro da classe. Por exemplo, você quer pegar todas as combinações que não sejam formadas pela sequência &lt;code&gt;es&lt;/code&gt;: &lt;code&gt;[^es]&lt;/code&gt;. &lt;a href="http://rubular.com/r/v5TNAzCQKa"&gt;Veja esse exemplo aqui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Exemplos de classes de caracteres:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  A expressão &lt;code&gt;[a-z]&lt;/code&gt; reconhece todas as letras minúsculas.&lt;/li&gt;
-&lt;li&gt;  A expressão &lt;code&gt;[A-Z]&lt;/code&gt; reconhece todas as letras maiúsculas.&lt;/li&gt;
-&lt;li&gt;  A expressão &lt;code&gt;[A-z]&lt;/code&gt; reconhece todas as letras maiúsculas e minúsculas.&lt;/li&gt;
-&lt;li&gt;  A expressão &lt;code&gt;[A-Z0-9]&lt;/code&gt; reconhece todas as letras maiúsculas e números.&lt;/li&gt;
-&lt;li&gt;  A expressão &lt;code&gt;[a-e]&lt;/code&gt; reconhece as letras &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Atalhos para as classes mais comuns:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  A classe &lt;code&gt;\w&lt;/code&gt; recupera todos os caracteres alpha numericos, ou seja, letras e números, mas não acentos ou caracteres especiais. É o equivalente a &lt;code&gt;[a-zA-Z_0-9]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;  A classe &lt;code&gt;\W&lt;/code&gt; pega TODOS os caracteres que não seja alpha numericos, ou seja, pontuações e espaços.&lt;/li&gt;
-&lt;li&gt;  A classe &lt;code&gt;\s&lt;/code&gt; é o equivalente &lt;code&gt;[ \t\n\x0B\f\r]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;  A classe &lt;code&gt;\d&lt;/code&gt; é o equivalente &lt;code&gt;[0-9]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;E as classses de negação. Lembrando que basta colocar o sinal de &lt;code&gt;^&lt;/code&gt; logo depois do colchete inicial &lt;code&gt;[&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  A expressão de classe &lt;code&gt;[^y]&lt;/code&gt; reconhece qualquer caractere, exceto y.&lt;/li&gt;
-&lt;li&gt;  A expressão de classe &lt;code&gt;[^a-e]&lt;/code&gt; reconhece qualquer caractere, exceto &lt;strong&gt;a&lt;/strong&gt;, &lt;strong&gt;b&lt;/strong&gt;, &lt;strong&gt;c&lt;/strong&gt;, &lt;strong&gt;d&lt;/strong&gt; e &lt;strong&gt;e&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;  A expressão de classe &lt;code&gt;[^\d]&lt;/code&gt; reconhece qualquer caractere, exceto 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Múltiplos padrões&lt;/h3&gt;
-
-&lt;p&gt;Imagine agora que você queira encontrar dois padrões diferentes de caracteres, por exemplo, duas palavras. Bastando usar o símbolo &lt;code&gt;|&lt;/code&gt; (pipe), que vai significar &lt;strong&gt;OU&lt;/strong&gt;. Nesse caso a expressão irá reconhecer um ou o outro padrão. &lt;a href="http://rubular.com/r/QScUEY0F1D"&gt;Veja esse exemplo&lt;/a&gt; onde recuperamos o retorno das palavras &lt;strong&gt;dolor&lt;/strong&gt; ou &lt;strong&gt;labore&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3&gt;Âncoras&lt;/h3&gt;
-
-&lt;p&gt;As âncoras recuperam a posição &lt;strong&gt;entre os caracteres, mas não os caracteres em si&lt;/strong&gt;. Por exemplo, a expressão &lt;code&gt;^dolor&lt;/code&gt;, vai recuperar as palavras &lt;strong&gt;dolor&lt;/strong&gt; que estiverem no início da linha (&lt;a href="http://rubular.com/r/xLTGYJY1fz"&gt;veja o exemplo&lt;/a&gt;). A expressão &lt;code&gt;dolor$&lt;/code&gt; vai recuperar o termo que estiver no final da linha (&lt;a href="http://rubular.com/r/FdBuPNAeWE"&gt;veja o exemplo&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h3&gt;Modos&lt;/h3&gt;
-
-&lt;p&gt;Agora, suponha que você queira pegar uma sequência que contenha um termo parecido, mas que possa estar com algumas letras maiúsculas ou minúsculas. Por exemplo os termos &lt;strong&gt;Lorem&lt;/strong&gt;, &lt;strong&gt;lorem&lt;/strong&gt;, &lt;strong&gt;loRem&lt;/strong&gt;, &lt;strong&gt;lOrEm&lt;/strong&gt; etc, bastaria usar a representação &lt;code&gt;(?i)&lt;/code&gt; antes do termo a ser buscada. A expressão ficaria assim &lt;code&gt;(?i)lorem&lt;/code&gt;. &lt;a href="http://rubular.com/r/oEesGNpNcZ"&gt;Veja este exemplo aqui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;Brincando de validar um email&lt;/h3&gt;
-
-&lt;p&gt;Uma tarefa muito corriqueira é a validação de campos de e-mail. Sem entrar nas polêmicas (validar essas coisas sempre é chato), mas é legal para treinar o que você acabou de ler. A expressão para fazer a validação é essa:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;^\w*(\.\w*)?@\w*\.[a-z]+(\.[a-z]+)?$
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Explicando:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  A expressão &lt;code&gt;^&lt;/code&gt; indica o começo da string/linha.&lt;/li&gt;
-&lt;li&gt;  &lt;code&gt;\w*&lt;/code&gt; pega qualquer caracteres alpha numericos, é o equivalente a &lt;code&gt;[a-zA-Z0-9_]&lt;/code&gt;. O asterísco é quantitativo, detectando qualquer quantidade desses caracteres, iniciando no 0 e indo até o infinito.&lt;/li&gt;
-&lt;li&gt;  A expressão &lt;code&gt;(\.\w*)?&lt;/code&gt; significa: parenteses inicia um agrupamento. A expressão &lt;code&gt;\.&lt;/code&gt; detecta literamente um ponto &lt;strong&gt;.&lt;/strong&gt;. A expressão &lt;code&gt;\w*&lt;/code&gt; qualquer quantidade de caracteres alpha numéricos.&lt;/li&gt;
-&lt;li&gt;  O ponto de interrogação (&lt;code&gt;?&lt;/code&gt;) é quantitativo: determina que o que vier imediatamente antes dele aparecer na expressão 0 ou 1 vez. Nessa expressão ele aparece duas vezes.&lt;/li&gt;
-&lt;li&gt;  O arroba seria o arroba do email mesmo…&lt;/li&gt;
-&lt;li&gt;  &lt;code&gt;\w*&lt;/code&gt; que aparece depois do arroba já falamos várias vezes logo acima.&lt;/li&gt;
-&lt;li&gt;  &lt;code&gt;\.[a-z]&lt;/code&gt; pega um ponto seguido de letras minúsculas. vai detectar algo como &lt;strong&gt;.com&lt;/strong&gt;, &lt;strong&gt;.net&lt;/strong&gt;, etc…&lt;/li&gt;
-&lt;li&gt;  &lt;code&gt;+&lt;/code&gt; significa que o que estiver imediatamente antes dele precisa aparecer 1 ou mais vezes no termo.&lt;/li&gt;
-&lt;li&gt;  &lt;code&gt;(\.[a-z]+)&lt;/code&gt;: abrimos novamente um agrupamento com o parenteses. &lt;code&gt;\.&lt;/code&gt; pega o ponto. A classe &lt;code&gt;[a-z]&lt;/code&gt; seleciona qualquer letra minúscula. E o mais aparece novamente, dizendo que tudo aquilo que estiver antes dele deve aparecer pelo menos 1 vez&lt;/li&gt;
-&lt;li&gt;  E a expressão &lt;code&gt;$&lt;/code&gt; pra finalizar significa final da string.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Veja funcionando abaixo:&lt;/p&gt;
-
-&lt;iframe src="//jsfiddle.net/borrcmd4/7/embedded/result,js,html,css/" allowfullscreen="allowfullscreen" frameborder="0" height="500" width="100%"&gt;&lt;/iframe&gt;
-
-&lt;h4&gt;Para você testar e aprender&lt;/h4&gt;
-
-&lt;p&gt;Existem alguns sites pra facilitar a criação e o debug das expressões regulares, veja abaixo:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  &lt;a href="https://regex101.com/r/vS7vZ3/224#javascript"&gt;https://regex101.com/r/vS7vZ3/224#javascript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://rubular.com"&gt;http://rubular.com&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://aprenda.vidageek.net/aprenda/regex"&gt;http://aprenda.vidageek.net/aprenda/regex&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://turing.com.br/material/regex/introducao.html#"&gt;http://turing.com.br/material/regex/introducao.html#&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx"&gt;https://msdn.microsoft.com/pt-br/library/az24scfc(v=vs.110).aspx&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
