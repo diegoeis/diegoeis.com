@@ -14,7 +14,7 @@ pageable: true
   <% page_articles.each_with_index do |article, i| %>
     <div class="de-post-box">
         <h1><%= article.title %></h1>
-        <%= article.summary(250) %>
+        <%= article.summary(200) %>
         <time datetime="<%= article.date.strftime('%b %e %Y') %>"><%= article.date.strftime('%b %e, %Y') %></time>
         <%= link_to "Ler post", article %>
     </div>
