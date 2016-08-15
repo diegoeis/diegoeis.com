@@ -4,10 +4,9 @@ date: 2016-08-15 00:00 UTC
 tags: agile, scrum, gestão
 ---
 
-# Certified Scrum Master - Scrum Alliance
 Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo Alexandre Magno.
 
-# Dia 1
+## Dia 1
 - Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso
 - Temos processos adequados para nossas pessoas tirarem o máximo de valor para clientes, stakeholders, etc?
 - Foco em Processos e Pessoas.
