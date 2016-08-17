@@ -79,7 +79,6 @@ page "/feed.xml", layout: false
 #     "Helping"
 #   end
 # end
-redirect "/dia-1-csm-scrumalliance-adaptworks.html", to: "/csm-scrumalliance-adaptworks-dia-1.html"
 
 set :css_dir, 'assets/css'
 
@@ -87,6 +86,8 @@ set :js_dir, 'assets/js'
 
 set :images_dir, 'assets/images'
 set :base_url, ""
+
+# redirect "/csm-scrumalliance-adaptworks-dia-1.html", to: "/dia-1-csm-scrumalliance-adaptworks.html"
 
 # Build-specific configuration
 configure :build do

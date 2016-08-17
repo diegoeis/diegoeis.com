@@ -14,11 +14,11 @@
     <link rel="alternate" href="http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html"/>
     <id>http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-15T21:00:00-03:00</published>
-    <updated>2016-08-17T14:25:22-03:00</updated>
+    <updated>2016-08-17T14:34:10-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/dia-1-csm-scrumalliance-adaptworks.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/csm-scrumalliance-adaptworks-dia-1.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Product Owner&lt;/h2&gt;
 
@@ -165,217 +165,10 @@
   </entry>
   <entry>
     <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
-    <link rel="alternate" href="http://blog.url.com/csm-scrumalliance-adaptworks-dia-1.html"/>
-    <id>http://blog.url.com/csm-scrumalliance-adaptworks-dia-1.html</id>
-    <published>2016-08-14T21:00:00-03:00</published>
-    <updated>2016-08-17T14:25:48-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo &lt;a href="https://twitter.com/axmagno"&gt;Alexandre Magno&lt;/a&gt;. &lt;a href="/dia-2-csm-scrumalliance-adaptworks.html"&gt;Veja as anotações do segundo dia de curso&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Dia 1&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso&lt;/li&gt;
-&lt;li&gt;Temos processos adequados para nossas pessoas tirarem o máximo de valor para clientes, stakeholders, etc?&lt;/li&gt;
-&lt;li&gt;Foco em Processos e Pessoas.&lt;/li&gt;
-&lt;li&gt;scrum master não tem como base se o produto é certo ou nao.&lt;/li&gt;
-&lt;li&gt;Ele também não está cobrindo a área tecnológica &lt;/li&gt;
-&lt;li&gt;projetos ágeis são projetos com tempo fixo&lt;/li&gt;
-&lt;li&gt;como SM você precisa confiar na sua equipe para que eles produzam melhor, seguindo seu próprio estilo, sem um modelo imposto, respeitando a complexidade do projeto e suas restrições&lt;/li&gt;
-&lt;li&gt;os desenvolvedores precisam ter uma visão clara do objetivo, e o escopo depende de objetivo pra objetivo&lt;/li&gt;
-&lt;li&gt;em um projeto normal existe escopo, prazo e custo&lt;/li&gt;
-&lt;li&gt;Na forma tradicional, fixamos os três pontos. Mas no Scrum nós trabalhamos com prazo fixo, custo fixo e &lt;strong&gt;escopo flexível, aberto e incremental&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;O escopo precisa ter uma visão ligada a ele. Uma visão macro, um objetivo. O que o cliente vai ganhar no final? Qual a estrutura de visão do produto? São definições macro do produto, que deverão ficar fechados. &lt;/li&gt;
-&lt;li&gt;O escopo é flexível, mas você não pode mudar no meio do caminho o objetivo macro do projeto/história&lt;/li&gt;
-&lt;li&gt;o fato do time não saber o que vai fazer e como fazer nos próximos dias, não quer dizer que o escopo vai ser modificado ou o projeto vai atrasar.&lt;/li&gt;
-&lt;li&gt;Mas como garantimos isso? Por que esse processo é o plano vai se adaptar de acordo com a variação do projeto&lt;/li&gt;
-&lt;li&gt;FDD - Feature Driven Development &lt;/li&gt;
-&lt;li&gt;métodos ágeis não são o fim, empresas que não admitem seus próprios problemas em processos, pessoas e clientes, falharão usando Agile&lt;/li&gt;
-&lt;li&gt;Muitas empresas praticam um Agile fake, com grandes falhas&lt;/li&gt;
-&lt;li&gt;Identifique quais os problemas que você tem no seu projeto&lt;/li&gt;
-&lt;li&gt;se há muita incerteza nas definições, manter escopo de funcionalidades flexível maximiza a geração de valor para o negocio&lt;/li&gt;
-&lt;li&gt;Ter requisitos estáveis significa que eles continuarão imutáveis por bastante tempo, dessa forma Você consegue medir a complexidade do ambiente&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Origem do Scrum&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1994: nascimento do Scrum&lt;/li&gt;
-&lt;li&gt;começou a ficar mais popular só lá na frente, nos anos 2001, 2002, 2003, mas estourou mesmo em 2009 por que em 2008 teve uma crise econômica imobiliária&lt;/li&gt;
-&lt;li&gt;Onde aprendemos sobre incertezas e planejamentos a longo prazo&lt;/li&gt;
-&lt;li&gt;scrum fala que no máximo em 1 mês você precisa entregar incrementos do projeto&lt;/li&gt;
-&lt;li&gt;Isso na década de 90 era um horror por causa das tecnologias existentes&lt;/li&gt;
-&lt;li&gt;Hoje, com a tecnologia avançada, conseguimos criar produtos mais modulares, o que facilitou a vida de quem usa scrum&lt;/li&gt;
-&lt;li&gt;outro ponto era que o mercado não achava que o problema da não entrega do software, era do método, mas das pessoas &lt;/li&gt;
-&lt;li&gt;scrum é só para desenvolvimento de software? Não, hoje em dia há empresas relacionadas a manufatura e negócios que usam o scrum&lt;/li&gt;
-&lt;li&gt;Mas o scrum nasceu no desenvolvimento de software, ele nasceu &lt;strong&gt;para&lt;/strong&gt; software&lt;/li&gt;
-&lt;li&gt;Os criadores de chamam &lt;strong&gt;Ken Schwaber&lt;/strong&gt; e &lt;strong&gt;Jeff Sutherland&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Scrum é uma jogada do Rugby para retomar a posse de bola, isso é uma jogada que depende muito da auto-organização da equipe&lt;/li&gt;
-&lt;li&gt;Conceito de auto-organização&lt;/li&gt;
-&lt;li&gt;naquele tempo, todos os métodos para desenvolvimento de software, eram baseados no método waterfall, que vem do modelo industrial, linha de produção, onde se pega todo o trabalho que existe, divide em especialização e divide em fases&lt;/li&gt;
-&lt;li&gt;O Scrum se baseia num processo interativo e incremental, onde em cada interação, temos certeza de que temos todas as especialidades para entregar um incremento funcional. &lt;/li&gt;
-&lt;li&gt;Como cada interação tem todas as especialidades para criar um pedaço do projeto por inteiro, é possível entregar pedaços funcionais do projeto, em um escopo flexível, mas com tempo de entrega definido &lt;/li&gt;
-&lt;li&gt;Antigamente os métodos eram baseados em uma gestão centralizada. Quem faz gestão não executa e quem executa não faz gestão, vem do modelo de Taylor, onde o que você tinha na execução aquela pessoa que dava a “mão de obra”&lt;/li&gt;
-&lt;li&gt;Gestão e execução são situacionais. Há um tempo no projeto que você precisa fazer mais ou menos gestão do projeto e outras que precisa se concentrar na execução&lt;/li&gt;
-&lt;li&gt;O scrum tenta misturar os dois, em cada um dos ciclos de desenvolvimento&lt;/li&gt;
-&lt;li&gt;não adianta ter equipes multidisciplinares se você não compartilha a gestão. &lt;/li&gt;
-&lt;li&gt;Não adianta utilizar scrum se seu fluxo ainda é waterfall&lt;/li&gt;
-&lt;li&gt;Não adianta usar scrum se você tem um gerente cobrando entregas e produtividade em cima do time de desenvolvimento&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Complexidade&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tamanho não é a medição mais adequada para se decidir se vai ou não vai usar Scrum.&lt;/li&gt;
-&lt;li&gt;A forma mais adequada é o nível de complexidade do seu projeto. Eles se basearam na Teoria da Complexidade&lt;/li&gt;
-&lt;li&gt;O que significa Complexidade? Complexidade não quer dizer difícil. Complexidade tem a ver com incerteza, com instabilidade. Algo é mais simples, quando é certo ou estável.&lt;/li&gt;
-&lt;li&gt;Existem vários frameworks no campo científico qua ajudam a discutir esse assunto. Um deles é o Stacey Diagram.&lt;/li&gt;
-&lt;li&gt;Quanto mais difícil a gestão por causa da instabilidade e incerteza do projeto, mais você pode descentralizar a gestão&lt;/li&gt;
-&lt;li&gt;Scrum foi criado para contemplar projetos fortemente complexos, mas que não chega a ser caótico&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Normalmente confundimos caos com desordem. Caos quer dizer que temos um ambiente imprevisível, mas não desorganizado. Um pronto socorro é um ambiente caótico, mas imprevisível.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Cynefin Framework. Divide o ambiente em complexo, complicado, caótico e simples. No meio fica a desordem.&lt;/li&gt;
-&lt;li&gt;Na Sprint você tem mais estabilidade e conhecimento do que você tem no seu projeto. Isso é normal. &lt;/li&gt;
-&lt;li&gt;Não faz sentido usar scrum para Projetos com escopo fechado, arquitetura já definida. Se você já tem um escopo definido e uma arquitetura conhecida, você tem um projeto simples, talvez um pouco complicado.&lt;/li&gt;
-&lt;li&gt;Em projetos com uma stack e um escopo bem conhecido e definido, talvez os modelos de Waterfall seja o modelo mais acertado para esses projetos.&lt;/li&gt;
-&lt;li&gt;Entregar valor rápido para o cliente, é um efeito colateral e não um objetivo. Você não usa Scrum para entregar mais rápido.&lt;/li&gt;
-&lt;li&gt;Mas quanto mais rápido você entrega valor para o cliente, você está sujeito a mais mudanças, porque o cliente reage, o PO reage, o UX reage a estas entregas.&lt;/li&gt;
-&lt;li&gt;Somos ágeis para responder a mudanças de um ambiente de incertezas&lt;/li&gt;
-&lt;li&gt;Uma empresa de Games não podem entregar para o cliente metade de um jogo. Eles podem trabalhar com scrum e entregas incrementais, mas só vai entregar para o cliente quando o game estiver totalmente completo.&lt;/li&gt;
-&lt;li&gt;O topo do backlog do produto precisa ser as histórias estáveis, conhecidas, para que possamos diminuir o nível de incertezas e instabilidades do projeto. &lt;/li&gt;
-&lt;li&gt;Você decide se vai ou não usar scrum de acordo com o nível de incerteza do seu projeto&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Agile&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Agile não é uma metodologia ou ferramenta. Agile é um mindset. Está mais relacionado a comportamento do que método.&lt;/li&gt;
-&lt;li&gt;Valores Agile
-
-&lt;ol&gt;
-&lt;li&gt;Pessoas e interações entre elas. Você precisa ter um ambiente que valorize as pessoas, por que são as pessoas que serão determinantes no sucesso do projeto. Facilite a comunicação entre as pessoas.&lt;/li&gt;
-&lt;li&gt;Entregar software funcionando. É isso que gera valor. Não se dê o luxo de ficar 3 meses escrevendo documentação. O mindset ágil diz que a entrega de valor é entrega software funcionando o quanto antes.&lt;/li&gt;
-&lt;li&gt;Colaboração com o cliente. Colaborar não é ser bonzinho. Colaborar é no sentido de trabalhar junto com o cliente. Não dá para dizer que você é ágil se o seu padrão de trabalho é separar o cliente durante o desenvolvimento do projeto.&lt;/li&gt;
-&lt;li&gt;Responda à mudanças. Quem tem mindset ágil sabe que mudanças vão acontecer durante todo o projeto. Precisamos estar preparados para responder à mudanças de forma rápida.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;Métodos ágeis são os princípios do mindset agile que materializam os valores Agile, fazendo com que esses valores não sejam mais um mantra, mas virem prática&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;O que é Scrum?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Scrum é um framework de processos emergentes em contextos predominantemente complexos.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Scrum é um framework. Scrum não é uma metodologia.&lt;/li&gt;
-&lt;li&gt;Scrum é baseado em Fluxo, Papéis, Artefatos, Cerimônias.&lt;/li&gt;
-&lt;li&gt;Metodologias são prescritas, ou seja, ela diz exatamente como você precisa seguir. Um framework também não é tão fácil de se alterar, mas você pode montar coisas em cima.&lt;/li&gt;
-&lt;li&gt;Metodologia está completa. Ela se vende como algo que está completo. É só implantar e usar. Um Framework se vende como incompleto, você vai precisar completá-lo, ele não acreditar ter o suficiente para o que você precisa.&lt;/li&gt;
-&lt;li&gt;Framework não é Ready to use. Por definição Scrum é incompleto, não por falha ou erro, mas por conceito.&lt;/li&gt;
-&lt;li&gt;Ele não define l que você precisa fazer (planejamento, documentação etc), por que ele não sabe o que será bom pra você. Ele deixa que essas decisões fiquem na sua mão, adequando de acordo com a sua necessidade.&lt;/li&gt;
-&lt;li&gt;Por exemplo: scrum não te fala como se estima projeto. O cara que entendeu o scrum como framework, entende que para estimar um projeto, depende do contexto e ele vai escolher qual a melhor solução/técnica para estimar projetos.&lt;/li&gt;
-&lt;li&gt;O Scrum também não diz como escrever requisitos, histórias etc. Para quem não conhece framework, diz que Scrum não escreve requisitos, o negócio é falar mesmo. Mas o que já conhece o conceito, decide que é melhor, para aquele projeto, usar User Case. Ou User Story em outro cenário.&lt;/li&gt;
-&lt;li&gt;O pior Scrum Master do mundo é aquele que só conhece Scrum.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;bases do processo Scrum&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;fluxo: O scrum se baseia no conceito de Sprint&lt;/li&gt;
-&lt;li&gt;O sprint é a forma com que o scrum expressa o ciclo incremental de trabalho&lt;/li&gt;
-&lt;li&gt;em papéis, temos 3: dev Team, Product Owner e Scrum Master&lt;/li&gt;
-&lt;li&gt;Artefatos: sprint Backlog, Product increment e Product Backlog&lt;/li&gt;
-&lt;li&gt;Eventos: sprint planning, Daily meeting, sprint review, sprint retrospective&lt;/li&gt;
-&lt;li&gt;E em seus valores temos os valores do manifesto ágil.&lt;/li&gt;
-&lt;li&gt;Essa é estrutura pra se desenvolver o mindset Agile&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Papéis&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A gestão de um projeto scrum é feita por três personagens: Product Owner, Scrum Master e Dev Team.&lt;/li&gt;
-&lt;li&gt;o Product Owner não se preocupa ou não em fazer gestão se preocupando se o objetivo da sprint vai ser alcançado, se as tarefas estão no prazo, quais os riscos da sprint. Ele vê o macro, vê o projeto, risco do produto.&lt;/li&gt;
-&lt;li&gt;O que for micro gestão, fica com o Development Team. Quem tem que estar preocupado com os riscos da sprint é o dev Team, o prazo, entregas e etc.&lt;/li&gt;
-&lt;li&gt;PO é macro gestão, Development Team é Micro Gestão. &lt;/li&gt;
-&lt;li&gt;Processos e Pessoas fica com o Scrum Master. Ele está preocupado todas as peculiaridades do time e do projeto, e propõem soluções para melhorar a produtividade do time&lt;/li&gt;
-&lt;li&gt;Scrum Master precisa ter pensamento de processo. Se está errado, é por que o processo está errado e não por que o time é ruim&lt;/li&gt;
-&lt;li&gt;Não é o time que é acomodado, é o processo que está falhando em aumentar o senso de urgência.&lt;/li&gt;
-&lt;li&gt;Processos são feitos para as pessoas entregarem melhor, se comunicarem melhor, trabalharem melhor.&lt;/li&gt;
-&lt;li&gt;o super poder do Scrum Master é se colocar no outro, ele precisa gostar de gente.&lt;/li&gt;
-&lt;li&gt;Quem vai levar porrada do PO se o sprint não for finalizado, é o Development Team.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;fazer a coisa certa, do jeito certo, em um ambiente sustentável.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;PO garante que está fazendo a coisa certa&lt;/li&gt;
-&lt;li&gt;Dev Team garante o jeito certo&lt;/li&gt;
-&lt;li&gt;Scrum Master garante o ambiente sustentável&lt;/li&gt;
-&lt;li&gt;Alma do Scrum são os valores&lt;/li&gt;
-&lt;li&gt;Corpo são os fluxos, eventos, papéis e artefatos&lt;/li&gt;
-&lt;li&gt;Não dá pra ter só corpo ou só alma, precisa ter os dois juntos. &lt;/li&gt;
-&lt;li&gt;Ter os papéis do Scrum são a coisa mais importante pra ter uma transição pro Agile&lt;/li&gt;
-&lt;li&gt;Corpo sem alma é zumbi, alma sem corpo é fantasma.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Product Owner&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;PO gerencia as entregas, por que foi ele que acertou a entrega com o time&lt;/li&gt;
-&lt;li&gt;ele que combina o que vai e o que não vai entrar no sprint&lt;/li&gt;
-&lt;li&gt;satisfação do cliente é uma responsabilidade do PO. Por que é o cara que prioriza o que vai ou não ser feito é que detém a tomada de decisão&lt;/li&gt;
-&lt;li&gt;gestão dos stakeholders&lt;/li&gt;
-&lt;li&gt;Cronograma do projeto PO&lt;/li&gt;
-&lt;li&gt;Custo&lt;/li&gt;
-&lt;li&gt;Comunicar prazos do projeto&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Scrum Master&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desenvolvimento de competências. Se o time não está maduro para o processo, é dever do SM desenvolver essa competência no time&lt;/li&gt;
-&lt;li&gt;retira impedimentos do processo. &lt;/li&gt;
-&lt;li&gt;Facilitador&lt;/li&gt;
-&lt;li&gt;Retirar impedimentos&lt;/li&gt;
-&lt;li&gt;Dar ao Product Owner processos que o ajudem a dar mais visibilidade do projeto&lt;/li&gt;
-&lt;li&gt;qualquer coisa relacionada aos processos, scrum e Agile, é o Scrum Master que precisa ensinar para os pares&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Dev Team&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;gerencia tarefas. Isso significa que nas sprints é dia a dia, eles discute entre eles quem tem mais habilidade pra fazer cada tarefa&lt;/li&gt;
-&lt;li&gt;são responsáveis se as tarefas vão ser entregues no dia, atrasos e etc&lt;/li&gt;
-&lt;li&gt;Resolução de conflitos entre pessoas do time. Qualquer resolução deveria surgir do próprio time&lt;/li&gt;
-&lt;li&gt;o time decide o que é impedimento ou não&lt;/li&gt;
-&lt;li&gt;cronograma da sprint&lt;/li&gt;
-&lt;li&gt;qualidade de entrega das tarefas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Hierarquia&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hierarquia no scrum é situacional, ela não é definitiva &lt;/li&gt;
-&lt;li&gt;PO precisa bater no Dev Team, questionando sobre as entregas e problemas nas tarefas do produto&lt;/li&gt;
-&lt;li&gt;Se o assunto for tecnologia/micro gestão, Dev Team é que decide e manda&lt;/li&gt;
-&lt;li&gt;Se for processos e pessoas, é o scrum master que comanda &lt;/li&gt;
-&lt;li&gt;Scrum é contra a liderança fixa, por que uma pessoa que não é boa em todos os assuntos deverá tomar decisões sobre tudo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Imagens de apoio&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-csm-dia-1/2016-08-16-13.21.23.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-16-13.21.33.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-16-13.21.39.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-16-13.21.43.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-16-13.21.50.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-16-17.43.04.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-15-17.50.52.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-15-17.50.58.jpg" /&gt;
-&lt;img src="assets/images/post-csm-dia-1/2016-08-15-17.51.38.jpg" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
     <link rel="alternate" href="http://blog.url.com/dia-1-csm-scrumalliance-adaptworks.html"/>
     <id>http://blog.url.com/dia-1-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-14T21:00:00-03:00</published>
-    <updated>2016-08-17T14:25:22-03:00</updated>
+    <updated>2016-08-17T14:35:43-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -951,6 +744,79 @@ To user@diegoeis.com:/public/diegoeis.com.git/
 &lt;p&gt;E quase que instantaneamente seu repositório em prod vai estar atualizado.&lt;/p&gt;
 
 &lt;p&gt;O &lt;a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push"&gt;Akita fez uma artigo em 2010&lt;/a&gt; (!) falando sobre o mesmo assunto e existem uma série de &lt;a href="https://githowto.com/bare_repositories"&gt;outros artigos&lt;/a&gt; pela internet explicando a mesma coisa, é só procurar. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Um pouco sobre formatos de imagens</title>
+    <link rel="alternate" href="http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html"/>
+    <id>http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html</id>
+    <published>2016-07-02T21:00:00-03:00</published>
+    <updated>2016-07-04T19:48:56-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples, esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos, principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.&lt;/p&gt;
+
+&lt;h3&gt;GIF&lt;/h3&gt;
+
+&lt;p&gt;GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.&lt;/p&gt;
+
+&lt;p&gt;O formato GIF é um formato que comprime arquivos usando um algoritmo chamado LZW, que mantêm traços das cores e ajuda a reduzir o tamanho do arquivo.
+O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma única imagem use até 256 cores diferentes, escolhidos a partir do espaço de cor RGB de 24 bits. Ele também suporta animações e permite uma paleta separada de até 256 cores para cada frame. Estas limitações de paleta tornam o formato GIF ruim para usar em fotos e outras imagens mais complexas, mas é bem adequado para imagens simples, tais como desenhos ou logotipos que tenham áreas de cor sólida. Tipo aqueles desenhos fazíamos no PaintBrush. ;-)&lt;/p&gt;
+
+&lt;p&gt;O ponto forte de GIF é que ele é muito amplamente suportado e, portanto, bem estabelecida como a escolha padrão para gráficos simples na Web. Em comparação com as outras opções (especialmente PNG) GIF não é tecnicamente superior, mas durante os primeiros anos da Web, quando o suporte para PNG estava começando, era de fato uma escolha mais segura.&lt;/p&gt;
+
+&lt;p&gt;Uma das questões que envolvem o formato GIF é que o algoritmo LZW foi protegido nos EUA por uma patente detida pela empresa Unisys. A patente Unisys LZW expirou nos EUA em 20 de junho de 2003. Essa patente da LZW também expirou no Canadá, França, Itália, Alemanha, Reino Unido e Japão. A versão original do GIF era chamado de 87a. &lt;a href="https://www.w3.org/Graphics/GIF/spec-gif87.txt"&gt;Se liga nessa spec do W3C&lt;/a&gt; de 15 de Junho de 1987. Aposto que alguns leitores nem tinha nascido. Eu já, tinha uns 4 anos.&lt;/p&gt;
+
+&lt;h3&gt;PNG&lt;/h3&gt;
+
+&lt;p&gt;PNG (Portable Network Graphics), um formato de arquivo de armazenamento portátil, bem compactada para imagens raster. PNG oferece um substituto livre de patentes para o GIF e também pode substituir muitos usos comuns do TIFF. De cores indexadas, transparência alpha e imagens truecolor são suportados.&lt;/p&gt;
+
+&lt;p&gt;Para a Web, PNG realmente tem três vantagens principais sobre GIF:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;canais alfa (transparência variável). Eu ainda me lembro de usar algumas gambiarras para fazer o canal alfa funcionar no IE5.5 e IE6. :-)&lt;/li&gt;
+&lt;li&gt;correção de multi-plataforma gama (controle de brilho da imagem) e correção de cor&lt;/li&gt;
+&lt;li&gt;entrelaçamento bidimensional (um método de visualização e carregamento progressivo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PNG também comprime melhor que GIF em quase todos os casos (5% a 25% em casos típicos). E você pode dizer: &amp;ldquo;Mas o GIF pode ser animado!&amp;rdquo; mas o PNG também pode: há um formato chamado MNG que se destina como um substituto para GIF animado, mas sem as limitações impostas pela GIF (por exemplo, animações de MNG podem ter profundidade de cor total e parcial ou total transparência). No entanto, quase não há navegadores suportam MNG (algumas versões do Mozilla fazer, mas a maioria não, e IE não) para MNG útil (ainda) não é como um formato web. Mas aí entra o &lt;a href="https://en.wikipedia.org/wiki/APNG#cite_note-20"&gt;APNG&lt;/a&gt;, que é outro formato que compete com o MNG, onde há um bom suporte em todos os navegadores. Contudo, não vejo muita gente usando ainda hoje.&lt;/p&gt;
+
+&lt;p&gt;E aquele esquema de PNG8 e PNG24? Bom, PNG8 é uma abreviação para &amp;ldquo;8-bit PNG,&amp;rdquo; mas mais geralmente refere-se a imagens (colormapped) PNG baseada em paleta com 1, 2, 4 ou 8 bits pixels. Isto é, cada valor de pixel na imagem propriamente dita é 8 (ou menos) bits de profundidade, e que atua como um índice para um determinado valor de cor RGB de 24 bits na paleta. Uma imagem colormapped 1-bit pode referir-se a não mais de duas cores; uma imagem de 2 bits não podem ter mais do que quatro; uma imagem de 4-bit pode ter não mais do que 16; e uma imagem de 8 bits pode ter até 256 cores. Entenda que, ao contrário do GIF, as paletas do PNG podem ter qualquer número de entradas - pelo menos, até o máximo permitido pela profundidade de bits - Não apenas potências de dois.&lt;/p&gt;
+
+&lt;p&gt;O PNG24, por outro lado, é uma abreviação para &amp;ldquo;PNG de 24 bits&amp;rdquo; e refere-se a imagens truecolor ou RGB (vermelho / verde / azul). Cada pixel em tais imagens é de 24 bits (3 bytes) de profundidade e diretamente especifica uma cor em vez de agir como um índice para uma tabela de pesquisa de cores (ou seja, uma paleta). Estas imagens, portanto, pode conter até 16,8 milhões de cores, embora os típicos tendem a usar não mais do que 50.000 ou assim.&lt;/p&gt;
+
+&lt;p&gt;Quando você um logo simpels, ou um ícone e etc, você pode salvar como PNG8 que o resultado geralmente é melhor que GIF. Se você vê uma imagem, que não é uma foto, mas contém gradientes e uma mistura enorme de cores, você pode salvar como PNG24. Pode ser que você tenha uma compressão e qualidades melhor que JPG e com certeza é melhor que GIF. Além de ganhar o canal alpha (não, no PNG8 não dá para fazer canal alpha por causa da quantidade de cores).&lt;/p&gt;
+
+&lt;h2&gt;Gargálo e outros formatos de imagem&lt;/h2&gt;
+
+&lt;p&gt;Faz tempo que não salvo nenhum ícone ou imagem simples como GIF. O PNG sempre dá conta do trabalho, quase sempre tem compressões melhores e é compatível com todos os browsers hoje em dia. Mas imagem sempre foram um gargalo para quem trabalha com internet. Com a evolução das telas e monitores, a necessidade de usar imagens com melhor qualidade aumentou e por isso talvez os formatos de imagens tradicionais podem não servir durante muito tempo. &lt;/p&gt;
+
+&lt;p&gt;O HTML tenta resolver parte do problema tentando te dar maneiras de servir imagens com mais ou menos qualidade ou de diferentes tamanhos dependendo dos dispositivos e etc. Há &lt;a href="http://www.slideshare.net/caelumdev/tudo-que-voc-precisa-saber-sobre-ltpicture-e-srcset"&gt;uma palestra bem legal do Sergio Lopes falando sobre isso&lt;/a&gt;. Embora isso tudo ajude, as imagens ainda precisam mudar.&lt;/p&gt;
+
+&lt;h3&gt;A tentativa do Google - WebP&lt;/h3&gt;
+
+&lt;p&gt;WebP é um formato de imagem moderna que fornece &amp;ldquo;lossless&amp;rdquo; (algoritmo de compressão sem perda de qualidade) superior e compressão para imagens na web. Usando WebP, desenvolvedores podem criar imagens menores, mais ricas e que tornam a web mais rápida. As imagens WebP são 26% menores em tamanho em comparação com PNGs, com 25-34% menos perdas de qualidade do que as imagens JPEG.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://tableless.com.br/wp-content/uploads/2016/07/compression-webp_lossy.png" alt="compression-webp_lossy" width="744" height="656" class="aligncenter size-full wp-image-55075" /&gt;&lt;/p&gt;
+
+&lt;p&gt;O Lossless das imagens WebP suporta canais alpha com um custo de apenas 22% de bytes adicionais. Para os casos quando a compressão RGB é aceitável, WebP com perdas também suporta a transparência, normalmente fornecendo arquivos três vezes menores em comparação com PNG.&lt;/p&gt;
+
+&lt;p&gt;A compressão do WebP utiliza codificação preditiva para codificar uma imagem, o mesmo método usado pelo codec de vídeo VP8 para comprimir keyframes em vídeos. Codificação preditiva usa os valores em blocos de pixels vizinhos para predizer os valores em um determinado bloco, em seguida, codifica apenas a diferença.&lt;/p&gt;
+
+&lt;p&gt;Para melhorar a qualidade, a imagem é segmentada em áreas que têm características visivelmente semelhantes. Para cada um desses segmentos, os parâmetros de compressão (passos de quantização, força de filtragem, etc.) estão sintonizados de forma independente. Isso produz compressão eficiente redistribuindo bits, onde eles são mais úteis. &lt;/p&gt;
+
+&lt;p&gt;Previsão de codificação é uma razão principal pelo qual o WebP pode ser melhor que o JPEG. Blocos de quantização adaptativa faz uma grande diferença também. A codificação aritmética booleana fornece 5% -10% de ganhos de compressão em comparação com a &lt;a href="https://en.wikipedia.org/wiki/Huffman_coding"&gt;codificação de Huffman&lt;/a&gt;, que é o algoritmo usado nas imagens JPEG (e também nos arquivos de MP3).&lt;/p&gt;
+
+&lt;p&gt;O Google fez um &lt;a href="https://developers.google.com/speed/webp/docs/c_study"&gt;estudo comparativo&lt;/a&gt; que mostra alguns números interessantes.&lt;/p&gt;
+
+&lt;p&gt;O Google explica &lt;a href="https://developers.google.com/speed/webp/docs/compression#lossy_webp"&gt;um monte de coisa técnica sobre o formato WebP&lt;/a&gt;. Se você tiver paciência para ler, vai ser bem legal, pelo menos para conhecer mais esse mundo maluco de algoritmos de compressão e etc. E esse é o &lt;a href="https://developers.google.com/speed/webp/"&gt;site oficial do WebP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Okay, mas eu posso usar o que?&lt;/h2&gt;
+
+&lt;p&gt;Você usa o que você quiser. Quer usar SVG para ícones, facilitando a visualização em aparelhos que tem tela retina e de alta qualidade? Vai fundo. Quer usar PNG em vez de GIF por que acha que é mais fácil de manter, sem problemas. Quer usar JPG em vez de WebP, por que sim? Beleza, não tem problema. O negócio é sempre utilizar o que é melhor para cada necessidade de imagem. Eu ainda salvo imagens, quando são fotos, em JPG. Não usei WebP de verdade ainda por causa do suporte no Safari e na indecisão do Mozilla. Mas uso PNG o tempo inteiro em vez de usar GIF.&lt;/p&gt;
+
+&lt;p&gt;Esse ainda da muito pano para manga e está longe de acabar&amp;hellip;&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -1,12 +1,12 @@
 ---
-title: Dia 1 - CSM - ScrumAlliance - AdaptWorks
-date: 2016-08-15 00:00 UTC
-tags: agile, scrum, notes
+title: CSM - ScrumAlliance - AdaptWorks - Dia 1
+date: 2015-08-15 00:00 UTC
+tags: scrum, agile
 ---
 
-Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo [Alexandre Magno](https://twitter.com/axmagno). [Veja as anotações do segundo dia de curso](/dia-2-csm-scrumalliance-adaptworks.html).
+Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo Alexandre Magno.
 
-## Dia 1
+# Dia 1
 - Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso
 - Temos processos adequados para nossas pessoas tirarem o máximo de valor para clientes, stakeholders, etc?
 - Foco em Processos e Pessoas.
@@ -152,14 +152,3 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - Se o assunto for tecnologia/micro gestão, Dev Team é que decide e manda
 - Se for processos e pessoas, é o scrum master que comanda 
 - Scrum é contra a liderança fixa, por que uma pessoa que não é boa em todos os assuntos deverá tomar decisões sobre tudo
-
-### Imagens de apoio
-![](post-csm-dia-1/2016-08-16-13.21.23.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.33.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.39.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.43.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.50.jpg)
-![](post-csm-dia-1/2016-08-16-17.43.04.jpg)
-![](post-csm-dia-1/2016-08-15-17.50.52.jpg)
-![](post-csm-dia-1/2016-08-15-17.50.58.jpg)
-![](post-csm-dia-1/2016-08-15-17.51.38.jpg)
