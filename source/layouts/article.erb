@@ -1,10 +1,14 @@
 <%= partial "partials/header.html.erb" %>
 
 <div class="de-wrapper">
-
   <article class="de-post">
       <header>
-        <!-- <span class="de-tags">{{tags}}</span> -->
+        <span class="de-tags">
+          <strong>tags: </strong>
+          <% current_article.data.tags.split(', ').each do |tag| %>
+            <%= link_to tag, tag_path(tag) %>
+          <% end %>
+        </span>
         <time datetime="<%= current_article.date.strftime('%b %e, %Y') %>"><%= current_article.date.strftime('%b %e, %Y') %></time>
         <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
 

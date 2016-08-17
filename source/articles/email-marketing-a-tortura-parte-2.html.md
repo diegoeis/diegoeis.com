@@ -1,7 +1,7 @@
 ---
 title: Email Marketing a tortura - Parte 2
 date: 2015-04-07 00:00 UTC
-tags: development
+tags: development, front-end
 ---
 
 Não é só porque você precisa fazer seus emails utilizando tabelas, você vai desdenhar das boas práticas que você aprendeu na escola. O código final de uma Newsletter vai ficar muito maior e tão complexo quanto o código de um site institucional simples. Outro ponto importante, é que você vai fazer muitas e muitas alterações até esse email ser publicado e muito provavelmente vai precisar duplicá-lo quando alguém ter a necessidade de enviar novos emails.

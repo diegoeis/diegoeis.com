@@ -10,15 +10,15 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Dia 2 - SCM - ScrumAlliance - AdaptWorks</title>
-    <link rel="alternate" href="http://blog.url.com/dia-2-scm-scrumalliance-adaptoworks.html"/>
-    <id>http://blog.url.com/dia-2-scm-scrumalliance-adaptoworks.html</id>
+    <title>Dia 2 - CSM - ScrumAlliance - AdaptWorks</title>
+    <link rel="alternate" href="http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html"/>
+    <id>http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-15T21:00:00-03:00</published>
-    <updated>2016-08-16T21:23:43-03:00</updated>
+    <updated>2016-08-16T21:39:45-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/csm-scrumalliance-adaptworks-dia-1.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/dia-1-csm-scrumalliance-adaptworks.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Product Owner&lt;/h2&gt;
 
@@ -165,14 +165,14 @@
   </entry>
   <entry>
     <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
-    <link rel="alternate" href="http://blog.url.com/csm-scrumalliance-adaptworks-dia-1.html"/>
-    <id>http://blog.url.com/csm-scrumalliance-adaptworks-dia-1.html</id>
+    <link rel="alternate" href="http://blog.url.com/dia-1-csm-scrumalliance-adaptworks.html"/>
+    <id>http://blog.url.com/dia-1-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-14T21:00:00-03:00</published>
-    <updated>2016-08-16T21:22:23-03:00</updated>
+    <updated>2016-08-16T21:39:35-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo &lt;a href="https://twitter.com/axmagno"&gt;Alexandre Magno&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo &lt;a href="https://twitter.com/axmagno"&gt;Alexandre Magno&lt;/a&gt;. &lt;a href="/dia-1-csm-scrumalliance-adaptworks.html"&gt;Veja as anotações do segundo dia de curso&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Dia 1&lt;/h2&gt;
 
@@ -377,7 +377,7 @@
     <link rel="alternate" href="http://blog.url.com/linked-data-e-json-ld.html"/>
     <id>http://blog.url.com/linked-data-e-json-ld.html</id>
     <published>2016-07-05T21:00:00-03:00</published>
-    <updated>2016-07-07T21:53:00-03:00</updated>
+    <updated>2016-08-16T21:40:09-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -739,7 +739,7 @@ To user@diegoeis.com:/public/diegoeis.com.git/
     <link rel="alternate" href="http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html"/>
     <id>http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html</id>
     <published>2016-07-02T21:00:00-03:00</published>
-    <updated>2016-07-03T20:28:41-03:00</updated>
+    <updated>2016-08-16T21:36:05-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>

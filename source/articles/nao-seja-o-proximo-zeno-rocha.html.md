@@ -1,7 +1,7 @@
 ---
 title: Não seja o próximo Zeno Rocha
 date: 2014-10-13 00:00 UTC
-tags: development
+tags: development, front-end
 ---
 
 Quando montei esse título eu sabia que ia ser polêmico e sabia que haveria um burburinho nos corredores das interwebs. E sabe de uma coisa? To me lixando para que os outros falam por aí.

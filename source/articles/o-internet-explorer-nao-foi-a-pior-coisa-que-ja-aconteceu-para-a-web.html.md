@@ -1,7 +1,7 @@
 ---
 title: O Internet Explorer não foi a pior coisa que já aconteceu para a web
 date: 2015-01-28 00:00 UTC
-tags:
+tags: browsers, front-end, development
 ---
 
 Você se lembra da guerra dos browsers? Muitos devs hoje não tiveram o prazer e o terror de ter presenciado essa época. Infelizmente eu não vivi essa época desde o início, mas peguei do meio pro fim, o suficiente para saber o contexto geral do mercado naquela fase horrível da web. O W3C tinha uma crise de identidade, nós não tínhamos um browser decente para usar e os desenvolvedores, meus amigos, ahhh os desenvolvedores… Você já parou para pensar que no início quase NINGUÉM era desenvolvedor web? O que aconteceu foi uma imigração de profissionais de outras áreas para a web. Isso aconteceu com desenvolvedores, designers, gestores, empresas, todo mundo. Logo, nesse contexto maluco, ninguém sabia para onde ir, nem browsers, nem devs, nem W3C. Ninguém sabia direito o que era web.

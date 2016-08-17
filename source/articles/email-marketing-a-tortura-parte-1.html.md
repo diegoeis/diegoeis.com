@@ -1,7 +1,7 @@
 ---
 title: Email Marketing a tortura - Parte 1
 date: 2015-04-06 00:00 UTC
-tags: development
+tags: development, front-end
 ---
 
 Esqueça tudo o que você sabe sobre CSS 3, HTML 5, JavaScript e qualquer outra nova novidade que você tenha visto nos últimos 10 anos. Para fazer uma newsletter você não vai usar nada disso.

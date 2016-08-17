@@ -1,7 +1,7 @@
 ---
 title: Sobre ter informações que ajudam a ter uma vida saudável
 date: 2014-02-08 00:00 UTC
-tags:
+tags: saude, health
 ---
 
 Essas são algumas anotações que tenho feito sobre o que tenho lido e aprendido com a tentativa de perder peso. Como são anotações, não espere que tudo faça sentido.

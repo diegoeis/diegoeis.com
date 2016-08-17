@@ -1,10 +1,10 @@
 ---
 title: Dia 1 - CSM - ScrumAlliance - AdaptWorks
 date: 2016-08-15 00:00 UTC
-tags: agile, scrum, gestão, notes
+tags: agile, scrum, notes
 ---
 
-Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo [Alexandre Magno](https://twitter.com/axmagno).
+Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo [Alexandre Magno](https://twitter.com/axmagno). [Veja as anotações do segundo dia de curso](/dia-1-csm-scrumalliance-adaptworks.html).
 
 ## Dia 1
 - Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso

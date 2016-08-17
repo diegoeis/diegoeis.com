@@ -1,7 +1,7 @@
 ---
 title: Complexidade e Causalidade no Management 3.0
 date: 2015-11-20 00:00 UTC
-tags: agile, management
+tags: management, agile, gestão
 ---
 
 #### As versões de gerenciamento

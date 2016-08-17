@@ -1,10 +1,10 @@
 ---
-title: Dia 2 - SCM - ScrumAlliance - AdaptWorks
+title: Dia 2 - CSM - ScrumAlliance - AdaptWorks
 date: 2016-08-16 00:00 UTC
-tags: notes, agile, scrum, gestão
+tags: notes, agile, scrum
 ---
 
-Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As [anotações do dia 1 está aqui](/csm-scrumalliance-adaptworks-dia-1.html).
+Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As [anotações do dia 1 está aqui](/dia-1-csm-scrumalliance-adaptworks.html).
 
 ## Product Owner
 - tem contato forte com o cliente e usuários
