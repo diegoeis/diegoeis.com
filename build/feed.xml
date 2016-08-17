@@ -5,16 +5,170 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-08-14T21:00:00-03:00</updated>
+  <updated>2016-08-15T21:00:00-03:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>CSM - ScrumAlliance - AdaptWorks - Dia 1</title>
+    <title>Dia 2 - SCM - ScrumAlliance - AdaptWorks</title>
+    <link rel="alternate" href="http://blog.url.com/dia-2-scm-scrumalliance-adaptoworks.html"/>
+    <id>http://blog.url.com/dia-2-scm-scrumalliance-adaptoworks.html</id>
+    <published>2016-08-15T21:00:00-03:00</published>
+    <updated>2016-08-16T21:23:43-03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/csm-scrumalliance-adaptworks-dia-1.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Product Owner&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tem contato forte com o cliente e usuários&lt;/li&gt;
+&lt;li&gt;O PO não precisa ser o cliente&lt;/li&gt;
+&lt;li&gt;talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner. Eles conhecem o projeto, eles entendem que é o dinheiro deles que está em jogo, onde eles também conhecem Agile e Scrum&lt;/li&gt;
+&lt;li&gt;O Product Owner garante se o produto está certo é que vai satisfazer o cliente/usuário&lt;/li&gt;
+&lt;li&gt;O PO é responsável pela visão do produto&lt;/li&gt;
+&lt;li&gt;Dessa visão entre PO e Cliente surge o coração do Scrum, que se chama Product Backlog&lt;/li&gt;
+&lt;li&gt;se o Backlog está muito tempo parado, quer dizer que o PO parou de pensar em nova funcionalidades, ele parou de pensar nos próximos passos para o produto&lt;/li&gt;
+&lt;li&gt;SM precisa perguntar: qual problema essa funcionalidade vai solucionar? Tem outro produto no mercado que resolve esse problema? Como eles resolvem? Por que eles resolvem diferente de você?&lt;/li&gt;
+&lt;li&gt;gerencia os stakeholders. Os stakeholders veem o PO como o responsável pelo projeto, é quem eles procuram pra pedir contas&lt;/li&gt;
+&lt;li&gt;PO conversa com os stakeholders sobre budget, report de projeto&lt;/li&gt;
+&lt;li&gt;do relacionamento entre DevTeam e PO, surge o Sprint Backlog&lt;/li&gt;
+&lt;li&gt;O Sprint Backlog válida as tarefas. O Dev Team pergunta pra o PO se a tarefa pode ser aceita&lt;/li&gt;
+&lt;li&gt;ele dá e recebe feedback sobre as tarefas. Por isso que há mudança de escopo. &lt;/li&gt;
+&lt;li&gt;Em vez de esperar pra ter o contato no final da sprint, tenha o contato no inicio, pra poder modificar rápido&lt;/li&gt;
+&lt;li&gt;Através dessa comunicação, o PO aceita ou rejeita entregas. Critérios de aceite devem estar bem claras para que o time cumpra os requisitos&lt;/li&gt;
+&lt;li&gt;O PO é extamente o que o Founder faz em uma startup.&lt;/li&gt;
+&lt;li&gt;A estrutura do Scrum é uma estrutura enxuta de startup&lt;/li&gt;
+&lt;li&gt;O ScrumMaster faz apenas o gerenciamento do processo e pessoas. Onde nessas conversas do PO o Scrum Master está? Em todas, por tem pessoas em todos os lugares&lt;/li&gt;
+&lt;li&gt;scrum master entende sobre discussão e mediação de consenso. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Dev Team&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quando você tem uma estrutura organizacional onde os times são funcionais, você ganha:
+
+&lt;ul&gt;
+&lt;li&gt;em produtividade, porque o time é especializada em sua responsabilidade &lt;/li&gt;
+&lt;li&gt;aprendizado especializado. &lt;/li&gt;
+&lt;li&gt;mas você precisa que a cadeia inteira funcione pra gerar valor, por que times assim não entregam valor sozinhas, elas dependem de outros&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;se você tem um time multifuncional ou equipes de valor, você tem todas as skills para gerar valor diretamente para o cliente
+
+&lt;ul&gt;
+&lt;li&gt;ganha na geração de valor&lt;/li&gt;
+&lt;li&gt;potencializa aprendizado generalista&lt;/li&gt;
+&lt;li&gt;Em compensação, os integrantes desse time precisam entender um pouco mais sobre as skills de outros integrantes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Development teams em scrum, funcionam em times funcionais&lt;/li&gt;
+&lt;li&gt;quanto mais tradicional for sua empresa, mais difícil de implementar o modelo de equipes de valor/multidisciplinar &lt;/li&gt;
+&lt;li&gt;Foco do Scrum não é produtividade, é entrega de valor. Você deve buscar produtividade, dentro da geração de valor&lt;/li&gt;
+&lt;li&gt;McDonalds entre muito hambúrguer, com sabor razoável, prefere produtividade, repetição&lt;/li&gt;
+&lt;li&gt;Hamburgueria Gourmet entrega hambúrguer esplêndido, único, prefere entrega de valor&lt;/li&gt;
+&lt;li&gt;Se uma hamburgueria gourmet demora 2 minutos pra entregar o lanche, você vai achar estranho.&lt;/li&gt;
+&lt;li&gt;Se o McDonalds demorar mais do que 15 minutos pra entregar o sanduíche, você vai achar estranho&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Scrum você procura entregar, de forma produtiva, num âmbito de time, não individualmente. Você mede a entrega do time, não do indivíduo.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Isso não quer dizer que todos do time devem ser generalistas e devem saber tudo. &lt;strong&gt;O time é multidisciplinar e não os integrantes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Quando o integrante é compartilhado, ele não tem comprometimento em nenhum dos projetos.&lt;/li&gt;
+&lt;li&gt;o time precisa ser auto-organizado&lt;/li&gt;
+&lt;li&gt;Auto-organizacao não tem nenhuma relação com maturidade.&lt;/li&gt;
+&lt;li&gt;Auto-organizacao é da natureza do ser humano. Todo mundo, de alguma forma, se auto-organiza em algum nível&lt;/li&gt;
+&lt;li&gt;A auto-organizacao precisa de um esforço, ela só acontece quando tem um desassociais fatores: desejo ou necessidade &lt;/li&gt;
+&lt;li&gt;O time tem o desejo de se auto-organizar?&lt;/li&gt;
+&lt;li&gt;O time tem a necessidade se se auto-organizar?&lt;/li&gt;
+&lt;li&gt;Quando o sucesso do projeto depende do resultado de todos os times, o time precisa se cobrar por auto-organizacao&lt;/li&gt;
+&lt;li&gt;O scrum master precisa criar desejo é identificar a necessidade &lt;/li&gt;
+&lt;li&gt;Mais metas compartilhadas e menos metas individuais ajuda a auto-organizacao&lt;/li&gt;
+&lt;li&gt;é para criar desejo? Momentos de integração fora do trabalho, criar empatia entre os integrantes do time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;fluxo&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Backlog é uma lista de pedaços do produto, em níveis de granuladidaxes diferentes em diferentes posições no Backlog, sem muitos detalhes&lt;/li&gt;
+&lt;li&gt;O Backlog é priorizado, onde está mais pro topo, são as tarefas que entregam muito valor pro negocio / cliente&lt;/li&gt;
+&lt;li&gt;De acordo com que você vai pegando itens do topo, as tarefas vão subindo e você precisa ir quebrando as histórias que estão mais pra baixo, dando mais detalhes sobre o objetivo da tarefa&lt;/li&gt;
+&lt;li&gt;ele precisa estar em constante mudança, refletindo as mudanças das descobertas do time e do PO junto ao cliente&lt;/li&gt;
+&lt;li&gt;O Backlog alimenta o Sprint, onde colocamos as tarefas para a linha de desenvolvimento&lt;/li&gt;
+&lt;li&gt;Uma sprint é uma timebox, que tem uma estrutura pré-definida&lt;/li&gt;
+&lt;li&gt;Toda sprint tem:
+
+&lt;ul&gt;
+&lt;li&gt;uma reunião de planejamento, sprint planning&lt;/li&gt;
+&lt;li&gt;um período de desenvolvimento, pra desenvolver o incremento&lt;/li&gt;
+&lt;li&gt;Sprint Daily&lt;/li&gt;
+&lt;li&gt;Sprint review &lt;/li&gt;
+&lt;li&gt;Sprint retrospective&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;O scrum propoe que o sprint seja de 1 a 4 semana. Não menores que uma semana nem maiores do que um mês.&lt;/li&gt;
+&lt;li&gt;Em cada final da sprint, precisa haver o incremento, entregando valor para p usuário&lt;/li&gt;
+&lt;li&gt;No Sprint Planning, decide-se as tarefas que vão para o sprint Backlog&lt;/li&gt;
+&lt;li&gt;Retrospectiva fazemos a inspeção e a mudança no processo. &lt;/li&gt;
+&lt;li&gt;O sprint é feito pra ter feedback rápido do cliente e PO&lt;/li&gt;
+&lt;li&gt;Quando entregamos pedaços pequenos via sprints, conseguimos saber se o projeto está indo pra um caminho certo&lt;/li&gt;
+&lt;li&gt;Não quer dizer que temos que entregar valor em produção pronto pra o cliente usar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Product Backlog&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a visão do produto, se materializa no Product Backlog&lt;/li&gt;
+&lt;li&gt;A visão não faz parte do core do Scrum, por que você só tem uma visão de onde você quer chegar, isso quer dizer que há um final.&lt;/li&gt;
+&lt;li&gt;Se você trabalha com produto, é necessário ter uma visão, pra sabermos onde estamos indo, mas podemos começar a fazer direto o Product Backlog sem depender de uma visão&lt;/li&gt;
+&lt;li&gt;Você não fala de esforço, você fala de tamanho&lt;/li&gt;
+&lt;li&gt;O Backlog é composto de itens. Para escolher os itens, você escolhe uma técnica pra escrever esses itens&lt;/li&gt;
+&lt;li&gt;Quanto mais próximo do topo do Backlog estiver o item, mais clara e menor ele deve estar &lt;/li&gt;
+&lt;li&gt;O nível de incerteza em volta dos itens que estão na parte de baixo do Backlog, é enorme&lt;/li&gt;
+&lt;li&gt;Se o Card está lá Pra baixo, quer dizer que ele não está claro, não está detalhado, está nebuloso ainda&lt;/li&gt;
+&lt;li&gt;Você sobe as tarefas conforme a tarefa vai ficando mais madura, com mais detalhes, com mais valor&lt;/li&gt;
+&lt;li&gt;a maioria dos itens do Backlog, devem representar uma parte &lt;strong&gt;real&lt;/strong&gt; do produto. Isso se chama item de negócio. São itens funcionais, que vão entregar um comportamento novo no produto&lt;/li&gt;
+&lt;li&gt;Nunca vai ter no Backlog algo como: criar tabela no banco de dados. Subir máquinas para produção&lt;/li&gt;
+&lt;li&gt;Cada item tem que entregar algo material, real, palpável sobre o produto.&lt;/li&gt;
+&lt;li&gt;Ou seja, ele não pode ser baseado em trabalho. &amp;ldquo;Eu como PO, preciso que os devs criem um banco de dados&amp;rdquo; é um péssimo item. &lt;/li&gt;
+&lt;li&gt;no Backlog podem haver também bugs, que não entrega um comportamento novo, mas corrige algo que foi feito no passado&lt;/li&gt;
+&lt;li&gt;é podem haver os itens técnicos, como POC, Spikes, Provas de Conceitos, que vão gerar uma entrega de decisão e não algo funcional.&lt;/li&gt;
+&lt;li&gt;Nos itens técnicos, também podem ter dívidas técnicas.&lt;/li&gt;
+&lt;li&gt;Um bug só é bug se a tarefa foi aceita e foi pra produção ou pra alguma área de teste e foi encontrado um problema&lt;/li&gt;
+&lt;li&gt;retrospective e review, consomem 5% da sprint&lt;/li&gt;
+&lt;li&gt;Planning meeting, também 5%&lt;/li&gt;
+&lt;li&gt;Na Planning meeting:
+
+&lt;ul&gt;
+&lt;li&gt;Participa os três papéis, SM, PO e Dev Team&lt;/li&gt;
+&lt;li&gt;dividido em duas partes: um planejamento mais estratégico: O Que. Outra parte mais mão na massa: Como&lt;/li&gt;
+&lt;li&gt;parte 1: O Sprint precisa ter um Goal. Tem que ser uma meta de negócio. Tem que dar um benefício pra o usuário. O time precisa ver um propósito.&lt;/li&gt;
+&lt;li&gt;A meta determina se o sprint foi bem sucedido ou não&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;me diga como você mede, que eu digo como entrego.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uma sprint é bem sucedida ou não se ela entregou o esperado e não se ela entregou o estimado&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Na parte 2, o Dev Team deve identificar tecnicamente qual trabalho deve ser executado para ter aquela tarefa feita
+
+&lt;ul&gt;
+&lt;li&gt;é aqui que eles criam as famosas tasks, que são todos as tarefas técnicas para entregar as histórias da meta&lt;/li&gt;
+&lt;li&gt;o que nós precisamos fazer para que essa tarefa esteja pronta no final da sprint?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PO tem que participar da segunda parte? Não, ele precisa estar acessível para o time nesse tempo!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;definition of done&lt;/strong&gt; é quando a tarefa está pronta pra ser entregue para o PO&lt;/li&gt;
+&lt;li&gt;a Daily é uma reunião de Dev Team para Dev Team. 
+
+&lt;ul&gt;
+&lt;li&gt;O que fiz?&lt;/li&gt;
+&lt;li&gt;O que farei&lt;/li&gt;
+&lt;li&gt;Impedimento?&lt;/li&gt;
+&lt;li&gt;Tanto o PO quanto o SM são opcionais na Daily, porque a discussão da Daily é para discutir coisas micro.&lt;/li&gt;
+&lt;li&gt;So existem duas dailies, a que correta e a que o PO estava.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;review e retrospective são duas reunião com o mesmo propósito. A review foca no produto, retrospective foca no processo&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
     <link rel="alternate" href="http://blog.url.com/csm-scrumalliance-adaptworks-dia-1.html"/>
     <id>http://blog.url.com/csm-scrumalliance-adaptworks-dia-1.html</id>
     <published>2016-08-14T21:00:00-03:00</published>
-    <updated>2016-08-15T19:59:01-03:00</updated>
+    <updated>2016-08-16T21:22:23-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -651,74 +805,6 @@ O formato suporta até 8 bits por pixel para cada imagem, permitindo que uma ún
 &lt;p&gt;Você usa o que você quiser. Quer usar SVG para ícones, facilitando a visualização em aparelhos que tem tela retina e de alta qualidade? Vai fundo. Quer usar PNG em vez de GIF por que acha que é mais fácil de manter, sem problemas. Quer usar JPG em vez de WebP, por que sim? Beleza, não tem problema. O negócio é sempre utilizar o que é melhor para cada necessidade de imagem. Eu ainda salvo imagens, quando são fotos, em JPG. Não usei WebP de verdade ainda por causa do suporte no Safari e na indecisão do Mozilla. Mas uso PNG o tempo inteiro em vez de usar GIF.&lt;/p&gt;
 
 &lt;p&gt;Esse ainda da muito pano para manga e está longe de acabar&amp;hellip;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Performance Web - Rail</title>
-    <link rel="alternate" href="http://blog.url.com/performance-web-rail.html"/>
-    <id>http://blog.url.com/performance-web-rail.html</id>
-    <published>2016-06-25T21:00:00-03:00</published>
-    <updated>2016-06-26T21:09:01-03:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Otimização de web se resume em mitificar css/js, comprimir HTML, gzip, concatenar CSS/JS, sprites, cache/expires, otimizar imagens, colocar scripts no fim da página e CSS no topo, trabalhar com assíncrono, lazy load, usar CDN, diminuir cookies, coisas desse tipo. Quem já usou alguma dessas práticas?&lt;/li&gt;
-&lt;li&gt;O que é performance exatamente? Qual é o tempo ideal para um site carregar? O que é carregar um site? Carregar o netflix é carregar o video inteiro do filme? Quem te fala que seu site está rápido?&lt;/li&gt;
-&lt;li&gt;Medir se o site que está rápido ou não, ou seja, pelo Onload, é uma péssima ideia.&lt;/li&gt;
-&lt;li&gt;SPA já quebra essa métrica, porque carrega uma vez e não dispara o onload de novo.&lt;/li&gt;
-&lt;li&gt;Nós temos vários tipos de performance:
-
-&lt;ol&gt;
-&lt;li&gt;Performance de carregamento. Quando clica e o browser faz alguma coisa.&lt;/li&gt;
-&lt;li&gt;Interação. O cara clica num botão e aí abre uma modal. isso é uma interação. É a interação dos usuários com os eventos da página.&lt;/li&gt;
-&lt;li&gt;Animação. Quanto tempo demora para a animação rodar. Dá umas travadas?&lt;/li&gt;
-&lt;li&gt;Memória. O browser da crash por causa da falta de memória.&lt;/li&gt;
-&lt;li&gt;Bateria. Sua aplicação mata a bateria do usuário porque fica consumindo os recursos da máquina (celular) o tempo inteiro?&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;Quais são os limites da percepção de performance do usuário? A pesquisa chegou em 3 números: 100ms, 1s e 10s.&lt;/li&gt;
-&lt;li&gt;quando algo acontece algo em 100ms, nosso cérebro acha que aquilo é instantâneo. &lt;/li&gt;
-&lt;li&gt;Quando demora até 1s, seu cérebro já sabe que existe uma diferença, que há uma certa lentidão. O cérebro repara que algo aconteceu. Mas seu cérebro consegue dizer que ainda estamos numa mesma tarefa, embora exista um delay.&lt;/li&gt;
-&lt;li&gt;Depois de 10s, seu cérebro entende que acabou a tarefa. Não há uma ação e reação. Se o site demora pra carregar, ele abre uma aba do facebook para esperar e pronto, esqueceu seu site.&lt;/li&gt;
-&lt;li&gt;RAIL: Response Animation Idle Load, é um modelo de performance que quebra o modelo de performance em 4 pontos.&lt;/li&gt;
-&lt;li&gt;a ideia é quebrar cada uma das ações na sua página nessas quatro categorias.
-## Load&lt;/li&gt;
-&lt;li&gt;Quando o cara dá enter na URL, dá para carregar instantaneamente? Difícil… Mas talvez dá carregar tudo em 1s. Dado aqueles limites de tempo psicológicos que vimos acima.&lt;/li&gt;
-&lt;li&gt;http://webpagetest.org&lt;/li&gt;
-&lt;li&gt;O que realmente importa nesses números que as páginas de métricas de performance trazem?&lt;/li&gt;
-&lt;li&gt;meça a sensação do usuário de que há alguma coisa na tela. First Minimum Paint. &lt;/li&gt;
-&lt;li&gt;Preste atenção no tempo de Start Render. Isso significa quando o browser começou a renderizar alguma coisa. Tente manter esse número perto do 1s.&lt;/li&gt;
-&lt;li&gt;O SpeedIndex é o número que vocÊ realmente quer diminuir. Ele mostra quando a página mostrada para o usuário (o topo, antes da dobra, antes do primeiro scroll), para de carregar coisas&lt;/li&gt;
-&lt;li&gt;Critical Rendering Path&lt;/li&gt;
-&lt;li&gt;tira o JS da primeira renderização. Fácil; basta chamar os JS no final da página. O grande bloqueador é o CSS. &lt;/li&gt;
-&lt;li&gt;Entregue tudo que esteja acima da dobra até um segundo. &lt;/li&gt;
-&lt;li&gt;Use um CSS inline acima da dobra. &lt;/li&gt;
-&lt;li&gt;&amp;lt; 14Kb é um RTT (Road Trip) do servidor.&lt;/li&gt;
-&lt;li&gt;Ao invés do inline, dá para usar server push http/2
-## Animation&lt;/li&gt;
-&lt;li&gt;O ideal do animation é que ele seja de 60fps&lt;/li&gt;
-&lt;li&gt;os monitores hoje redesenham a tela mais ou menos 60 vezes por segundo. Isso dá a sensação de que um vídeo é um video e não um monte de foto parada tentando se mover.&lt;/li&gt;
-&lt;li&gt;Pelo menos no Chrome e Safari, animações do CSS e etc, é feito na GPU. Isso quer dizer que o browser consegue encaixar os elementos certos na GPU, para que a placa gráfica consiga fazer seu trabalho direito&lt;/li&gt;
-&lt;li&gt;Quando você muda alguma coisa de CSS via JavaScript, o browser precisa recalcular a posição e os outros elementos que podem estar relacionados com esse elemento modificado&lt;/li&gt;
-&lt;li&gt;use a propriedade will-change para avisar o browser de que ele vai precisar animar algum elemento na GPU
-## Responsive&lt;/li&gt;
-&lt;li&gt;Todas as ações do usuário precisa ser executado a 100ms.&lt;/li&gt;
-&lt;li&gt;O usuário precisa saber que sua interação foi executada. na verdade, o usuário só ter uma resposta de que sua ação foi entendida pelo sistema.&lt;/li&gt;
-&lt;li&gt;Mostra um loading maneiro, mostra qualquer feedback que faça o usuário entender que sua ação foi executada
-## Idle&lt;/li&gt;
-&lt;li&gt;Você executa coisas na página, mas tem alguma hora que a animação já acabou de executar, sua página já foi carregada e o usuário não está executando nenhuma ação. Logo, você pod usar esse momento de ócio para disparar alguma coisa não essencial para as ações do usuário.&lt;/li&gt;
-&lt;li&gt;O browser é single thread, tudo rola numa thread só. tanto as ações do usuário, quanto seus scripts.&lt;/li&gt;
-&lt;li&gt;Quebre as tarefas em tardinhas: setTimeout, setImmediate, requestAnimationFrame, requestIdleCallback&lt;/li&gt;
-&lt;li&gt;Use WebWorkers para coisas pesadas em background&lt;/li&gt;
-&lt;li&gt;Performance é UX. O modelo de performance é focada nas ações e na experiência do usuário.&lt;/li&gt;
-&lt;li&gt;Response em 100ms&lt;/li&gt;
-&lt;li&gt;Animation em 16ms&lt;/li&gt;
-&lt;li&gt;Idle em 50 ms&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;- Load em 1s&lt;/h2&gt;
 </content>
   </entry>
 </feed>
