@@ -7,13 +7,13 @@ tags: notes, agile, scrum
 Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As [anotações do dia 1 está aqui](/dia-1-csm-scrumalliance-adaptworks.html).
 
 ## Product Owner
-- tem contato forte com o cliente e usuários
-- O PO não precisa ser o cliente
-- talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner. Eles conhecem o projeto, eles entendem que é o dinheiro deles que está em jogo, onde eles também conhecem Agile e Scrum
-- O Product Owner garante se o produto está certo é que vai satisfazer o cliente/usuário
+- O PO tem contato forte com o cliente e usuários
+- O PO não precisa ser o cliente, mas dependendo do cliente, pode ter o papel do PO.
+- talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner. Eles conhecem o projeto, eles entendem que é o dinheiro deles que está em jogo, mas eles teriam que conhecer Agile e Scrum ou pelo estarem dispostos
+- O Product Owner garante se o produto está certo e que vai satisfazer o cliente/usuário
 - O PO é responsável pela visão do produto
-- Dessa visão entre PO e Cliente surge o coração do Scrum, que se chama Product Backlog
-- se o Backlog está muito tempo parado, quer dizer que o PO parou de pensar em nova funcionalidades, ele parou de pensar nos próximos passos para o produto
+- Dessa visão combinada entre PO e Cliente, surge o coração do Scrum, que se chama Product Backlog
+- se o Backlog está muito tempo parado, quer dizer que o PO parou de pensar em novas funcionalidades, ele parou de pensar nos próximos passos para o produto
 - SM precisa perguntar: qual problema essa funcionalidade vai solucionar? Tem outro produto no mercado que resolve esse problema? Como eles resolvem? Por que eles resolvem diferente de você?
 - gerencia os stakeholders. Os stakeholders veem o PO como o responsável pelo projeto, é quem eles procuram pra pedir contas
 - PO conversa com os stakeholders sobre budget, report de projeto

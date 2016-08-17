@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html"/>
     <id>http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-15T21:00:00-03:00</published>
-    <updated>2016-08-16T21:39:45-03:00</updated>
+    <updated>2016-08-16T22:01:23-03:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -23,13 +23,13 @@
 &lt;h2&gt;Product Owner&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;tem contato forte com o cliente e usuários&lt;/li&gt;
-&lt;li&gt;O PO não precisa ser o cliente&lt;/li&gt;
-&lt;li&gt;talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner. Eles conhecem o projeto, eles entendem que é o dinheiro deles que está em jogo, onde eles também conhecem Agile e Scrum&lt;/li&gt;
-&lt;li&gt;O Product Owner garante se o produto está certo é que vai satisfazer o cliente/usuário&lt;/li&gt;
+&lt;li&gt;O PO tem contato forte com o cliente e usuários&lt;/li&gt;
+&lt;li&gt;O PO não precisa ser o cliente, mas dependendo do cliente, pode ter o papel do PO.&lt;/li&gt;
+&lt;li&gt;talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner. Eles conhecem o projeto, eles entendem que é o dinheiro deles que está em jogo, mas eles teriam que conhecer Agile e Scrum ou pelo estarem dispostos&lt;/li&gt;
+&lt;li&gt;O Product Owner garante se o produto está certo e que vai satisfazer o cliente/usuário&lt;/li&gt;
 &lt;li&gt;O PO é responsável pela visão do produto&lt;/li&gt;
-&lt;li&gt;Dessa visão entre PO e Cliente surge o coração do Scrum, que se chama Product Backlog&lt;/li&gt;
-&lt;li&gt;se o Backlog está muito tempo parado, quer dizer que o PO parou de pensar em nova funcionalidades, ele parou de pensar nos próximos passos para o produto&lt;/li&gt;
+&lt;li&gt;Dessa visão combinada entre PO e Cliente, surge o coração do Scrum, que se chama Product Backlog&lt;/li&gt;
+&lt;li&gt;se o Backlog está muito tempo parado, quer dizer que o PO parou de pensar em novas funcionalidades, ele parou de pensar nos próximos passos para o produto&lt;/li&gt;
 &lt;li&gt;SM precisa perguntar: qual problema essa funcionalidade vai solucionar? Tem outro produto no mercado que resolve esse problema? Como eles resolvem? Por que eles resolvem diferente de você?&lt;/li&gt;
 &lt;li&gt;gerencia os stakeholders. Os stakeholders veem o PO como o responsável pelo projeto, é quem eles procuram pra pedir contas&lt;/li&gt;
 &lt;li&gt;PO conversa com os stakeholders sobre budget, report de projeto&lt;/li&gt;
