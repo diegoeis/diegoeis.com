@@ -79,6 +79,7 @@ page "/feed.xml", layout: false
 #     "Helping"
 #   end
 # end
+redirect "/dia-1-csm-scrumalliance-adaptworks.html", to: "/csm-scrumalliance-adaptworks-dia-1.html"
 
 set :css_dir, 'assets/css'
 
