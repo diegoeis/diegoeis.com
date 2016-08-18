@@ -92,8 +92,8 @@ Acho que você percebeu ali em cima que além dos assets, existe uma pasta chama
 
 Esse aqui é o código que **layout.erb** vem como padrão:
 
-<pre class="lang-html">
-<!doctype html>
+```html
+&lt;!doctype html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -120,7 +120,7 @@ Para isso, geralmente crio também uma pasta **partials** para guardar esses ped
 
 A estrutura de código que mostrei lá em cima, pode ficar assim:
 
-```
+```ruby
 &lt;%= partial 'partials/header'%&gt;
 
 &lt;%= yield %&gt;
@@ -135,7 +135,7 @@ O formato **YAML** é conhecido pela facilidade de leitura. Ele foi criado para 
 
 Qualquer arquivo que contém um bloco YAML – que geralmente é chamado de **front-matter** – será processado como um arquivo especial. O front-matter precisa ser a primeira coisa do arquivo e deve estar num formato válido de YAML. Toda página do seu site, tanto no Jekyll quanto no Middleman, precisam começar com uma estrutura assim:
 
-```
+```yml
 ---
 title: Home
 layout: default
@@ -146,7 +146,7 @@ Simples, ahn? O bloco é demarcado pelos três traços no começo e no fim. TEM 
 
 Ambos os sistemas usam essa notação para organizar seus arquivos e informações. Você pode definir variáveis em cada um dos arquivos para fazer condições nas páginas. Se em uma página, por exemplo, eu quero que a sidebar apareça, a notação YAML dela vai se algo assim:
 
-```
+```yml
 ---
 title: Contato
 layout: interna
@@ -156,7 +156,7 @@ sidebar: true
 
 A variável **sidebar** com o valor **false** foi criada por mim. No template, usarei algo parecido com isso, no Middleman:
 
-```
+```ruby
 &lt;% if current_page.data.sidebar? %&gt;
   &lt;%= partial 'partials/header'%&gt;
 &lt;% end %&gt;
