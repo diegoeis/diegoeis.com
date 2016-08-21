@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog Name</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <title>diegoeis.com</title>
+  <subtitle>Blog do Diego Eis</subtitle>
+  <id>http://diegoeis.com/</id>
+  <link href="http://diegoeis.com/"/>
+  <link href="http://diegoeis.com/feed.xml" rel="self"/>
   <updated>2016-08-15T21:00:00-03:00</updated>
   <author>
-    <name>Blog Author</name>
+    <name>Diego Eis</name>
   </author>
   <entry>
     <title>Dia 2 - CSM - ScrumAlliance - AdaptWorks</title>
-    <link rel="alternate" href="http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html"/>
-    <id>http://blog.url.com/dia-2-csm-scrumalliance-adaptworks.html</id>
+    <link rel="alternate" href="http://diegoeis.com/dia-2-csm-scrumalliance-adaptworks.html"/>
+    <id>http://diegoeis.com/dia-2-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-15T21:00:00-03:00</published>
     <updated>2016-08-18T00:04:15-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Diego Eis</name>
     </author>
     <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/csm-scrumalliance-adaptworks-dia-1.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
 
@@ -165,12 +165,12 @@
   </entry>
   <entry>
     <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
-    <link rel="alternate" href="http://blog.url.com/dia-1-csm-scrumalliance-adaptworks.html"/>
-    <id>http://blog.url.com/dia-1-csm-scrumalliance-adaptworks.html</id>
+    <link rel="alternate" href="http://diegoeis.com/dia-1-csm-scrumalliance-adaptworks.html"/>
+    <id>http://diegoeis.com/dia-1-csm-scrumalliance-adaptworks.html</id>
     <published>2016-08-14T21:00:00-03:00</published>
     <updated>2016-08-16T21:52:42-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Diego Eis</name>
     </author>
     <content type="html">&lt;p&gt;Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo &lt;a href="https://twitter.com/axmagno"&gt;Alexandre Magno&lt;/a&gt;. &lt;a href="/dia-2-csm-scrumalliance-adaptworks.html"&gt;Veja as anotações do segundo dia de curso&lt;/a&gt;.&lt;/p&gt;
 
@@ -372,12 +372,12 @@
   </entry>
   <entry>
     <title>Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo</title>
-    <link rel="alternate" href="http://blog.url.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html"/>
-    <id>http://blog.url.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html</id>
+    <link rel="alternate" href="http://diegoeis.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html"/>
+    <id>http://diegoeis.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html</id>
     <published>2016-07-30T21:00:00-03:00</published>
     <updated>2016-07-31T21:59:21-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Diego Eis</name>
     </author>
     <content type="html">&lt;p&gt;Eu estava buscando informações para escrever meu próximo livro, quando me deparei com esse vídeo maravilhoso no TED. Conheça Ian Ritchie, o cara que perdeu a oportunidade de fazer o primeiro browser para web. &lt;/p&gt;
 
@@ -386,12 +386,12 @@
   </entry>
   <entry>
     <title>Linked Data e JSON-LD</title>
-    <link rel="alternate" href="http://blog.url.com/linked-data-e-json-ld.html"/>
-    <id>http://blog.url.com/linked-data-e-json-ld.html</id>
+    <link rel="alternate" href="http://diegoeis.com/linked-data-e-json-ld.html"/>
+    <id>http://diegoeis.com/linked-data-e-json-ld.html</id>
     <published>2016-07-05T21:00:00-03:00</published>
     <updated>2016-08-21T19:45:25-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Diego Eis</name>
     </author>
     <content type="html">&lt;p&gt;Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. &lt;a href="http://diegoeis.com/organizando-a-informacao.html"&gt;Organização da Informação&lt;/a&gt; na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.&lt;/p&gt;
 
@@ -641,12 +641,12 @@ Há também a segunda parte, que é formada basicamente por robôs e sistemas qu
   </entry>
   <entry>
     <title>Deploy usando Hook do Git</title>
-    <link rel="alternate" href="http://blog.url.com/deploy-usando-hook-do-git.html"/>
-    <id>http://blog.url.com/deploy-usando-hook-do-git.html</id>
+    <link rel="alternate" href="http://diegoeis.com/deploy-usando-hook-do-git.html"/>
+    <id>http://diegoeis.com/deploy-usando-hook-do-git.html</id>
     <published>2016-07-03T21:00:00-03:00</published>
     <updated>2016-07-07T02:04:17-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Diego Eis</name>
     </author>
     <content type="html">&lt;p&gt;Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o &lt;strong&gt;git hooks&lt;/strong&gt; pra fazer isso.&lt;/p&gt;
 
@@ -748,12 +748,12 @@ To user@diegoeis.com:/public/diegoeis.com.git/
   </entry>
   <entry>
     <title>Um pouco sobre formatos de imagens</title>
-    <link rel="alternate" href="http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html"/>
-    <id>http://blog.url.com/um-pouco-sobre-formatos-de-imagens.html</id>
+    <link rel="alternate" href="http://diegoeis.com/um-pouco-sobre-formatos-de-imagens.html"/>
+    <id>http://diegoeis.com/um-pouco-sobre-formatos-de-imagens.html</id>
     <published>2016-07-02T21:00:00-03:00</published>
     <updated>2016-08-16T21:36:05-03:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Diego Eis</name>
     </author>
     <content type="html">&lt;p&gt;Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples, esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos, principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.&lt;/p&gt;
 

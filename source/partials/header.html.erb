@@ -2,7 +2,7 @@
 <html class="<%= page_classes %>">
 <head>
   <title>Diego Eis <%= ' - ' + current_article.title unless current_article.nil? %></title>
-  <meta content="<%= current_page.data.description || data.site.description %>" name="description">
+  <meta content="<%= current_page.data.description %>" name="description">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -21,9 +21,8 @@
         "name" : "Diego Eis"
       },
     },
-    "datePublished": "<%= current_article.date %>",
+    "datePublished": "<%= current_article.date unless current_article.nil? %>",
     "headline":"<%= current_article.title unless current_article.nil? %>",
-    "articleBody":"<%= current_article.summary(550000) %>"
   }
   </script>
 
