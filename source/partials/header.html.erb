@@ -12,21 +12,18 @@
   <%= stylesheet_link_tag 'style' %>
 
   <script type="application/ld+json">
-<![CDATA[
   {
     "@context":"http://schema.org",
     "@type":"BlogPosting",
     "@id":"http://diegoeis.com<%= current_page.url %>",
     "author" : {
-        "@type" : "Person",
-        "name" : "Diego Eis"
-      },
+      "@type" : "Person",
+      "name" : "Diego Eis"
     },
     "datePublished": "<%= current_article.date unless current_article.nil? %>",
     "headline":"<%= current_article.title unless current_article.nil? %>",
     "articleBody":""
   }
-  //]]>
   </script>
 
   <script>
