@@ -77,8 +77,6 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
-    middleman-meta-tags (0.2.0)
-      middleman-core (>= 3.0.0)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -146,7 +144,6 @@ DEPENDENCIES
   middleman (~> 3.4.1)
   middleman-blog (~> 3.5.3)
   middleman-deploy (~> 1.0)
-  middleman-meta-tags
   middleman-syntax
   redcarpet
 

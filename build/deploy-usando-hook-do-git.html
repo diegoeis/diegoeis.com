@@ -1,15 +1,23 @@
 <!doctype html>
 <html class="deploy-usando-hook-do-git">
 <head>
-  <meta charset="utf-8" />
+  <title>Diego Eis  - Deploy usando Hook do Git</title>
+  <meta name="description" content="">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-  <title>Diego Eis  - Deploy usando Hook do Git</title>
   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
   <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
-
   <link href="assets/css/style.css" rel="stylesheet" />
-
+  <script type="application/ld+json">
+  {
+    "@context": "http://json-ld.org/contexts/person.jsonld",
+    "@id": "http://dbpedia.org/resource/John_Lennon",
+    "name": "John Lennon",
+    "born": "1940-10-09",
+    "spouse": "http://dbpedia.org/resource/Cynthia_Lennon"
+  }
+  </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,6 +58,7 @@
         <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
 
         <h1 class="de-post-title">Deploy usando Hook do Git</h1>
+
       </header>
 
       <p>Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o <strong>git hooks</strong> pra fazer isso.</p>
@@ -149,6 +158,8 @@ To user@diegoeis.com:/public/diegoeis.com.git/
 
 <p>O <a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push">Akita fez uma artigo em 2010</a> (!) falando sobre o mesmo assunto e existem uma série de <a href="https://githowto.com/bare_repositories">outros artigos</a> pela internet explicando a mesma coisa, é só procurar. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D</p>
 
+      <hr class="de-hr">
+        <br><span class="de-author">por Diego Eis</span>
 
       <hr class="de-hr">
 
