@@ -1,5 +1,6 @@
 ---
 title: Linked Data e JSON-LD
+description: Uma básica explicação sobre Linked Data e JSON-LD
 date: 2016-07-06 00:00 UTC
 tags: development, article, front-end
 ---
