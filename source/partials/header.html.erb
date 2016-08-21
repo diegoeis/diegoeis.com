@@ -2,32 +2,41 @@
 <html class="<%= page_classes %>">
 <head>
   <title>Diego Eis <%= ' - ' + current_article.title unless current_article.nil? %></title>
-  <meta name="description" content="<%= current_page.data.description %>">
+  <meta content="<%= current_page.data.description || data.site.description %>" name="description">
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
   <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag 'style' %>
+
   <script type="application/ld+json">
   {
-    "@context": "http://json-ld.org/contexts/person.jsonld",
-    "@id": "http://dbpedia.org/resource/John_Lennon",
-    "name": "John Lennon",
-    "born": "1940-10-09",
-    "spouse": "http://dbpedia.org/resource/Cynthia_Lennon"
+    "@context":"http://schema.org",
+    "@type":"BlogPosting",
+    "@id":"http://diegoeis.com<%= current_page.url %>",
+    "author" : {
+        "@type" : "Person",
+        "name" : "Diego Eis"
+      },
+    },
+    "datePublished": "<%= current_article.date %>",
+    "headline":"<%= current_article.title unless current_article.nil? %>",
+    "articleBody":"<%= current_article.summary(550000) %>"
   }
   </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-66389393-1', 'auto');
-  ga('send', 'pageview');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-</script>
+    ga('create', 'UA-66389393-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </head>
 <body>
 
