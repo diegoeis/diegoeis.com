@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Sobre o Diego Eis
+sobre: true
 ---
 
 ![Diego Eis](http://2.gravatar.com/avatar/1bf877955dc2e43662320fd3b0280166?size=300)

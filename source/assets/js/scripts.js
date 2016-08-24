@@ -2,7 +2,7 @@ var deTheme = (function(){
   'use strict'
 
   function init() {
-    sandwichMenu();
+    // sandwichMenu();
   }
 
   function sandwichMenu() {
