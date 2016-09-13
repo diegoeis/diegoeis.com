@@ -5,16 +5,34 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2016-08-28T21:00:00-03:00</updated>
+  <updated>2016-09-12T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>CSS - Cansei de Ser Simples – Podcast Hipsters 09</title>
+    <link rel="alternate" href="http://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html"/>
+    <id>http://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html</id>
+    <published>2016-09-12T21:00:00-03:00</published>
+    <updated>2016-09-13T10:47:08-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;O Paulo Silveira e o Sergio Lopes da Caelum Alura me convidaram esses dias para falar um pouco sobre CSS no podcast sobre tecnologia Hipsters! &lt;/p&gt;
+
+&lt;p&gt;Nesse episódio, falamos um pouco sobre CSS, sua história, organização de arquivos, pré-processadores e várias coisas que envolvem essa coisa que amo de paixão, o CSS.&lt;/p&gt;
+
+&lt;p&gt;Quer ouvir, dá o play aí!&lt;/p&gt;
+
+&lt;iframe width="320" height="100" src="http://hipsters.tech/?powerpress_embed=373-podcast&amp;amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;
+</content>
+  </entry>
   <entry>
     <title>BrazilJS 2016 - Sobre o básico de JSON-LD e Web Semântica</title>
     <link rel="alternate" href="http://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html"/>
     <id>http://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html</id>
     <published>2016-08-28T21:00:00-03:00</published>
-    <updated>2016-08-29T15:00:08-03:00</updated>
+    <updated>2016-08-29T15:00:53-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -655,113 +673,6 @@ Há também a segunda parte, que é formada basicamente por robôs e sistemas qu
 &lt;li&gt;&lt;a href="https://github.com/json-ld/json-ld.org"&gt;Repositório do JSON-LD no GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://norman.walsh.name/2004/07/30/rdfxml"&gt;Is RDF/XML Good For Anything?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Deploy usando Hook do Git</title>
-    <link rel="alternate" href="http://diegoeis.com/deploy-usando-hook-do-git.html"/>
-    <id>http://diegoeis.com/deploy-usando-hook-do-git.html</id>
-    <published>2016-07-03T21:00:00-03:00</published>
-    <updated>2016-07-04T22:34:41-03:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o &lt;strong&gt;git hooks&lt;/strong&gt; pra fazer isso.&lt;/p&gt;
-
-&lt;p&gt;Vou mostrar mais ou menos como é o meu processo para atualizar meu &lt;a href="http://diegoeis.com"&gt;blog pessoal&lt;/a&gt;. A ideia é que você crie um repositório utilizando a flag &lt;code&gt;--bare&lt;/code&gt;. E aqui vale uma pequena explicação: geralmente, quando você cria um repositório git, você faz um &lt;code&gt;git init&lt;/code&gt; na sua máquina. O git cria uma pasta &lt;code&gt;.git&lt;/code&gt; dentro da sua pasta local, contendo todas as referências de mudanças e etc. Mas ainda esse código não está compartilhado com ninguém. Para você compartilhar, você precisa subir para um repositório, em algum lugar, por exemplo no GitHub. Quando você cria um repositório remoto lá no GitHub, você referencia seu projeto local com o repositório remoto assim:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git remote add origin git@github.com:diegoeis/diegoeis.com.git
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Esse repositório remoto não é um repositório de trabalho, ele é um repositório que contém apenas as referências de mudanças do seu código e nada mais. Isso quer dizer que ele não tem os arquivos do seu projeto. Esse é um repositório apenas para compartilhamento, nada mais. É com esse link que todos os outros membros do seu time irão adicionar o projeto em suas máquinas.&lt;/p&gt;
-
-&lt;p&gt;Nós vamos criar esse tipo de repositório na nossa máquina em produção, por que assim conseguimos configurar um hook para detectar quando submetermos uma alteração no nosso projeto. Para tanto, você precisa rodar o comando &lt;code&gt;git init --bare&lt;/code&gt; no seu servidor. Isso vai gerar um repositório nu, contendo apenas as referências e não os arquivos de trabalho. No meu server fiz assim:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;mkdir public/diegoeis.com.git
-&lt;span class="nb"&gt;cd &lt;/span&gt;public/diegoeis.com.git
-git init --bare
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Pronto, isso foi o suficiente para criar um repositório bare vazio. Ele vai ser o nosso &lt;code&gt;origin&lt;/code&gt; no nosso repositório local. Para tanto, fazemos assim na máquina local, dentro do seu projeto:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;diegoeis.com
-git remote add origin meu_usuario_do_servidor@meu_dominio.com:/public/diegoeis.com.git
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Pronto, agora eu adicionei um repositório remoto ao meu projeto. Se você entender bem, você faz a mesma coisa quando vai clonar um projeto usando GitHub ou qualquer outro sistema de gerenciamento de Git como GitLab, Bitbucket etc. Só que eles criam o repositório bare para você.&lt;/p&gt;
-
-&lt;p&gt;Feito isso, vamos voltar para o seu servidor, lá você vai clonar o seu projeto. Isso vai criar uma pasta normal, que você já conhece.&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;git clone public/diegoeis.com.git /var/www/diegoeis.com
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h3&gt;Git Hooks&lt;/h3&gt;
-
-&lt;p&gt;Com esse “setup” feito, agora eu posso ir para o que importa, que é configurar meu hook. Lá no seu servidor, dentro do repositório bare que foi criado, encontre a pasta &lt;code&gt;hooks&lt;/code&gt;, e dentro dela tem um arquivo chamado &lt;code&gt;post-receive&lt;/code&gt;. Esse cara é o hook que vai detectar algo depois do recebimento de uma mudança. Você vai colocar esse código:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
-&lt;span class="nb"&gt;cd&lt;/span&gt; /public/diegoeis.com
-env -i git reset —hard
-env -i git pull origin master
-&lt;span class="nb"&gt;exit&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bom, são comandos bash, simples: entra na pasta do meu site, reseta o repositório e faz um pull com as últimas alterações. Esse &lt;code&gt;env -i&lt;/code&gt; é um truque que faz os comandos serem executados na pasta que você entrou ali no seu comando bash. Se não houver esse &lt;code&gt;env -i&lt;/code&gt;, todos os comandos git que você rodar, vão tentar rodar na pasta fora do seu repositório. Colocando essa flag, isso não vai acontecer. O Felix Geisendörfer &lt;a href="http://debuggable.com/posts/git-tip-auto-update-working-tree-via-post-receive-hook:49551efe-6414-4e86-aec6-544f4834cda3"&gt;sofreu com isso e falou como funciona aqui nesse artigo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Por último, você precisa tornar o &lt;strong&gt;post-receive&lt;/strong&gt; um arquivo executável rodando:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;chmod +x /public/diegoeis.com.git/hooks/post-receive
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Agora, toda vez que você fizer um git push para o seu repositório remoto, ele vai atualizar e mostrar algo mais ou menos assim:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;Counting objects: 19, &lt;span class="k"&gt;done&lt;/span&gt;.
-Delta compression using up to 4 threads.
-Compressing objects: 100% &lt;span class="o"&gt;(&lt;/span&gt;19/19&lt;span class="o"&gt;)&lt;/span&gt;, &lt;span class="k"&gt;done&lt;/span&gt;.
-Writing objects: 100% &lt;span class="o"&gt;(&lt;/span&gt;19/19&lt;span class="o"&gt;)&lt;/span&gt;, 1.99 KiB | 0 bytes/s, &lt;span class="k"&gt;done&lt;/span&gt;.
-Total 19 &lt;span class="o"&gt;(&lt;/span&gt;delta 14&lt;span class="o"&gt;)&lt;/span&gt;, reused 0 &lt;span class="o"&gt;(&lt;/span&gt;delta 0&lt;span class="o"&gt;)&lt;/span&gt;
-remote: HEAD is now at 9c1acad build
-remote: From /public/diegoeis.com
-remote:  &lt;span class="k"&gt;*&lt;/span&gt; branch            master     -&amp;gt; FETCH_HEAD
-remote:    9c1adac..c1bc7ed  master     -&amp;gt; origin/master
-remote: Updating 9c1adac..c1bc7ed
-remote: Fast-forward
-remote:  build/assets/css/style.css                       |  2 +-
-remote:  build/feed.xml                                   | 12 ++++++———
-remote:  build/index.html                                 |  2 +-
-remote:  &lt;span class="nb"&gt;source&lt;/span&gt;/articles/organizando-a-informacao.html.md | 12 ++++++———
-remote:  6 files changed, 21 insertions&lt;span class="o"&gt;(&lt;/span&gt;+&lt;span class="o"&gt;)&lt;/span&gt;, 19 deletions&lt;span class="o"&gt;(&lt;/span&gt;-&lt;span class="o"&gt;)&lt;/span&gt;
-To user@diegoeis.com:/public/diegoeis.com.git/
-   9c1acad..c5bb7ed  master -&amp;gt; master
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;E quase que instantaneamente seu repositório em prod vai estar atualizado.&lt;/p&gt;
-
-&lt;p&gt;O &lt;a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push"&gt;Akita fez uma artigo em 2010&lt;/a&gt; (!) falando sobre o mesmo assunto e existem uma série de &lt;a href="https://githowto.com/bare_repositories"&gt;outros artigos&lt;/a&gt; pela internet explicando a mesma coisa, é só procurar. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D&lt;/p&gt;
 </content>
   </entry>
 </feed>
