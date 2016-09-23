@@ -1,0 +1,1 @@
+var deTheme=function(){"use strict";function n(){}return{init:n}}();window.onload=deTheme.init();
