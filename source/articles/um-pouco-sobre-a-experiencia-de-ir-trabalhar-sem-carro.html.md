@@ -53,7 +53,7 @@ O gasto não foi a principal vantagem, já que não economizei o budget mensal p
 
 Eu costumo ir ao cinema com a minha mulher durante a semana. O percurso é mais ou menos esse:
 
-**casa <ônibus> trabalho <ônibus> shopping <uber> casa**
+**casa (ônibus) trabalho (ônibus) shopping (uber) casa**
 
 Eu troquei os R$20 de estacionamento do shopping, pelo Uber, que dá o mesmo valor. 
 
