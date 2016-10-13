@@ -6,16 +6,19 @@ tags: notes, palestras
 
 Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o Dave Ragget fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.
 
+https://iotsecurityfoundation.org
+
+
 - The Challenges for IoT and Big Data
-- Muitos sensores geram a quantidade de dados.
+- Muitos sensores geram uma quantidade enorme de dados, por isso a Big Data será tão importante num ambiente como esse.
 - A segurança na era do IoT preocupa a todos
 - Uma segurança forte depende de compreensao e aderente às novas práticas
 - Quando temos um dispositivo, nós precisamos ter confiança entre quem está nos dando esse dispositivo, isso é necessário para que a IoT funcione de verdade no nível de segurança
 - É necessário assegurar que os sistemas que rodam no IoT sejam seguros, não apenas sobre invasões e ataques, mas também fisicamente, como por exemplo num carro: você precisa que esse carro seja seguro o tempo inteiro, até mesmo houver uma falha no sistema.
 - Segurança, Confiança, Resiliência.
 - Privacidade é uma área muito importante na área de IoT
-- IoT tem um grande potencial para troca informações pessoais, entre indivíduos e os dispositivos. Há um risco direto para qualquer indivíduo ter seus dados pessoais roubados por criminosos, empresas ou até o governo.
-- As empresas precisam aderir a melhores práticas para evitar danos na sua reputação, caso dados pessoais de seus clientes sejam roubados
+- IoT tem um grande potencial para troca informações pessoais entre indivíduos e os dispositivos. Há um risco direto para qualquer indivíduo ter seus dados pessoais roubados por criminosos, empresas ou até o governo.
+- As empresas precisam aderir a melhores práticas para evitar danos na sua reputação, caso dados pessoais de seus clientes sejam roubados por problemas em seus sistemas
 - É necessário também criar um conceito de espaço pessoal virtual, onde indivíduos tem respeito e entendem a importância da não utilização dos dados pessoais de outros indivíduos
 - O HTTP não é a solução para tudo. Ele é bom para usarmos como modo push ou pull na internet de hoje e em dia. 
 - Em IoT precisamos fazer streaming por exemplo, de um dispositivo para vários clientes, aí entra o Web Sockets, que permite essa comunicação de um pra muitos de forma rápida. 
