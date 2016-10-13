@@ -10,27 +10,29 @@
     <name>Diego Eis</name>
   </author>
   <entry>
-    <title>Anotações da palestra do Dave Ragget na Web.br 2016</title>
+    <title>Anotações da palestra do Dave Raggett na Web.br 2016</title>
     <link rel="alternate" href="http://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html"/>
     <id>http://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html</id>
     <published>2016-10-12T21:00:00-03:00</published>
-    <updated>2016-10-13T10:47:43-03:00</updated>
+    <updated>2016-10-13T10:58:03-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o Dave Ragget fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o Dave Raggett fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.&lt;/p&gt;
+
+&lt;p&gt;https://iotsecurityfoundation.org&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The Challenges for IoT and Big Data&lt;/li&gt;
-&lt;li&gt;Muitos sensores geram a quantidade de dados.&lt;/li&gt;
+&lt;li&gt;Muitos sensores geram uma quantidade enorme de dados, por isso a Big Data será tão importante num ambiente como esse.&lt;/li&gt;
 &lt;li&gt;A segurança na era do IoT preocupa a todos&lt;/li&gt;
 &lt;li&gt;Uma segurança forte depende de compreensao e aderente às novas práticas&lt;/li&gt;
 &lt;li&gt;Quando temos um dispositivo, nós precisamos ter confiança entre quem está nos dando esse dispositivo, isso é necessário para que a IoT funcione de verdade no nível de segurança&lt;/li&gt;
 &lt;li&gt;É necessário assegurar que os sistemas que rodam no IoT sejam seguros, não apenas sobre invasões e ataques, mas também fisicamente, como por exemplo num carro: você precisa que esse carro seja seguro o tempo inteiro, até mesmo houver uma falha no sistema.&lt;/li&gt;
 &lt;li&gt;Segurança, Confiança, Resiliência.&lt;/li&gt;
 &lt;li&gt;Privacidade é uma área muito importante na área de IoT&lt;/li&gt;
-&lt;li&gt;IoT tem um grande potencial para troca informações pessoais, entre indivíduos e os dispositivos. Há um risco direto para qualquer indivíduo ter seus dados pessoais roubados por criminosos, empresas ou até o governo.&lt;/li&gt;
-&lt;li&gt;As empresas precisam aderir a melhores práticas para evitar danos na sua reputação, caso dados pessoais de seus clientes sejam roubados&lt;/li&gt;
+&lt;li&gt;IoT tem um grande potencial para troca informações pessoais entre indivíduos e os dispositivos. Há um risco direto para qualquer indivíduo ter seus dados pessoais roubados por criminosos, empresas ou até o governo.&lt;/li&gt;
+&lt;li&gt;As empresas precisam aderir a melhores práticas para evitar danos na sua reputação, caso dados pessoais de seus clientes sejam roubados por problemas em seus sistemas&lt;/li&gt;
 &lt;li&gt;É necessário também criar um conceito de espaço pessoal virtual, onde indivíduos tem respeito e entendem a importância da não utilização dos dados pessoais de outros indivíduos&lt;/li&gt;
 &lt;li&gt;O HTTP não é a solução para tudo. Ele é bom para usarmos como modo push ou pull na internet de hoje e em dia. &lt;/li&gt;
 &lt;li&gt;Em IoT precisamos fazer streaming por exemplo, de um dispositivo para vários clientes, aí entra o Web Sockets, que permite essa comunicação de um pra muitos de forma rápida. &lt;/li&gt;
