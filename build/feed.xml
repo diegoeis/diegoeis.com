@@ -5,10 +5,45 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2016-09-21T21:00:00-03:00</updated>
+  <updated>2016-10-12T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>Anotações da palestra do Dave Ragget na Web.br 2016</title>
+    <link rel="alternate" href="http://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html"/>
+    <id>http://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html</id>
+    <published>2016-10-12T21:00:00-03:00</published>
+    <updated>2016-10-13T10:47:43-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o Dave Ragget fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Challenges for IoT and Big Data&lt;/li&gt;
+&lt;li&gt;Muitos sensores geram a quantidade de dados.&lt;/li&gt;
+&lt;li&gt;A segurança na era do IoT preocupa a todos&lt;/li&gt;
+&lt;li&gt;Uma segurança forte depende de compreensao e aderente às novas práticas&lt;/li&gt;
+&lt;li&gt;Quando temos um dispositivo, nós precisamos ter confiança entre quem está nos dando esse dispositivo, isso é necessário para que a IoT funcione de verdade no nível de segurança&lt;/li&gt;
+&lt;li&gt;É necessário assegurar que os sistemas que rodam no IoT sejam seguros, não apenas sobre invasões e ataques, mas também fisicamente, como por exemplo num carro: você precisa que esse carro seja seguro o tempo inteiro, até mesmo houver uma falha no sistema.&lt;/li&gt;
+&lt;li&gt;Segurança, Confiança, Resiliência.&lt;/li&gt;
+&lt;li&gt;Privacidade é uma área muito importante na área de IoT&lt;/li&gt;
+&lt;li&gt;IoT tem um grande potencial para troca informações pessoais, entre indivíduos e os dispositivos. Há um risco direto para qualquer indivíduo ter seus dados pessoais roubados por criminosos, empresas ou até o governo.&lt;/li&gt;
+&lt;li&gt;As empresas precisam aderir a melhores práticas para evitar danos na sua reputação, caso dados pessoais de seus clientes sejam roubados&lt;/li&gt;
+&lt;li&gt;É necessário também criar um conceito de espaço pessoal virtual, onde indivíduos tem respeito e entendem a importância da não utilização dos dados pessoais de outros indivíduos&lt;/li&gt;
+&lt;li&gt;O HTTP não é a solução para tudo. Ele é bom para usarmos como modo push ou pull na internet de hoje e em dia. &lt;/li&gt;
+&lt;li&gt;Em IoT precisamos fazer streaming por exemplo, de um dispositivo para vários clientes, aí entra o Web Sockets, que permite essa comunicação de um pra muitos de forma rápida. &lt;/li&gt;
+&lt;li&gt;Se voltarmos lá no início da internet, preocupações com segurança da privacidade não era um foco.&lt;/li&gt;
+&lt;li&gt;As pessoas hoje estão experimentando a IoT, e essa preocupação com a segurança tem aumentado. Existe uma &lt;a href="https://iotsecurityfoundation.org"&gt;Fundação de Segurança da Internet das Coisas&lt;/a&gt;. Hoje estamos bem no início sobre esse assunto… Estamos na fase que envolve concientização das pessoas e das empresas.&lt;/li&gt;
+&lt;li&gt;Nesse início, as empresas tentarão controlar esse mercado, como naturalmente acontece. Mesmo assim, a centralização dos dispositivos de uma empresa apenas não é um problema.&lt;/li&gt;
+&lt;li&gt;A W3C não entra em questões de política, por isso ela não pode regular exatamente o que os governos estão fazendo, mas todos os governos precisam discutir com a população sobre como eles podem implementar leis que funcionem num ambiente como esse que está por vir&lt;/li&gt;
+&lt;li&gt;Como a retrocompatibilidade funcionará no mundo da IoT? Essa é uma das maravilhas da internet de hoje e como funciona isso na IoT?&lt;/li&gt;
+&lt;li&gt;A escalabilidade tanto no tempo, como nas funcionalidades, é importante para que haja a retrocompatibilidade de arquiteturas e linguagens. É por isso que a formação de camadas na arquitetura é importante. Os Scripts nos aplicativos precisam funcionar nos dispositivos de amanha. &lt;/li&gt;
+&lt;li&gt;Se um protocolo deixa de ser usado, como fazemos? É necessário uma camada de metadados para que essa retrocompatibilidade das funcionalidade, protocolos, linguagens etc…&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Um pouco sobre a experiência de ir trabalhar sem carro</title>
     <link rel="alternate" href="http://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html"/>
@@ -479,20 +514,6 @@
 &lt;img src="assets/images/post-csm-dia-1/2016-08-15-17.50.52.jpg" /&gt;
 &lt;img src="assets/images/post-csm-dia-1/2016-08-15-17.50.58.jpg" /&gt;
 &lt;img src="assets/images/post-csm-dia-1/2016-08-15-17.51.38.jpg" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo</title>
-    <link rel="alternate" href="http://diegoeis.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html"/>
-    <id>http://diegoeis.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html</id>
-    <published>2016-07-30T21:00:00-03:00</published>
-    <updated>2016-07-31T21:59:21-03:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Eu estava buscando informações para escrever meu próximo livro, quando me deparei com esse vídeo maravilhoso no TED. Conheça Ian Ritchie, o cara que perdeu a oportunidade de fazer o primeiro browser para web. &lt;/p&gt;
-
-&lt;iframe src="https://embed-ssl.ted.com/talks/lang/pt-br/ian_ritchie_the_day_i_turned_down_tim_berners_lee.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 </content>
   </entry>
 </feed>
