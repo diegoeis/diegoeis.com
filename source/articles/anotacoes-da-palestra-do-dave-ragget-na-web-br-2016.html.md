@@ -6,9 +6,6 @@ tags: notes, palestras
 
 Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o [Dave Raggett](https://www.w3.org/People/Raggett/) fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.
 
-https://iotsecurityfoundation.org
-
-
 - The Challenges for IoT and Big Data
 - Muitos sensores geram uma quantidade enorme de dados, por isso a Big Data será tão importante num ambiente como esse.
 - A segurança na era do IoT preocupa a todos
