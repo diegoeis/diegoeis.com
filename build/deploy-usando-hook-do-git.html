@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+
   <link href="assets/css/style.css" rel="stylesheet" />
 
   <script type="application/ld+json">
@@ -64,18 +65,20 @@
 <div class="de-wrapper">
   <article class="de-post">
       <header>
+
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
         <span class="de-tags">
           <strong>tags: </strong>
-            <a href="/tags/article.html">article</a>
-            <a href="/tags/development.html">development</a>
+            <a href="/tags/artigos.html">artigos</a>
+            <a href="/tags/desenvolvimento.html">desenvolvimento</a>
             <a href="/tags/git.html">git</a>
         </span>
-        <time datetime="Jul  4, 2016">Jul  4, 2016</time>
-        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
 
         <h1 class="de-post-title">Deploy usando Hook do Git</h1>
+        <time datetime="Jul  4, 2016">Jul  4, 2016</time>
 
       </header>
+
 
       <p>Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o <strong>git hooks</strong> pra fazer isso.</p>
 
@@ -163,7 +166,7 @@ remote: Fast-forward
 remote:  build/assets/css/style.css                       |  2 +-
 remote:  build/feed.xml                                   | 12 ++++++———
 remote:  build/index.html                                 |  2 +-
-remote:  <span class="nb">source</span>/articles/organizando-a-informacao.html.md | 12 ++++++———
+remote:  <span class="nb">source</span>/artigos/organizando-a-informacao.html.md | 12 ++++++———
 remote:  6 files changed, 21 insertions<span class="o">(</span>+<span class="o">)</span>, 19 deletions<span class="o">(</span>-<span class="o">)</span>
 To user@diegoeis.com:/public/diegoeis.com.git/
    9c1acad..c5bb7ed  master -&gt; master
@@ -174,8 +177,8 @@ To user@diegoeis.com:/public/diegoeis.com.git/
 
 <p>O <a href="http://www.akitaonrails.com/2010/02/13/deploy-com-git-push">Akita fez uma artigo em 2010</a> (!) falando sobre o mesmo assunto e existem uma série de <a href="https://githowto.com/bare_repositories">outros artigos</a> pela internet explicando a mesma coisa, é só procurar. E porque eu quis fazer um artigo igual? Só por que eu nunca tinha feito algo assim. ;-D</p>
 
-      <hr class="de-hr">
-        <br><span class="de-author">por Diego Eis</span>
+      <!-- <hr class="de-hr"> -->
+        <!-- <br><span class="de-author">por Diego Eis</span> -->
 
       <hr class="de-hr">
 
