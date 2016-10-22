@@ -1,10 +1,10 @@
 ---
 title: Anotações sobre gestão agile
 date: 2016-05-05 00:00 UTC
-tags: notes, agile
+tags: notas, agile
 ---
 
-Algumas anotações que tenho sobre management 3.0, learning 3.0, gestão agile e outros assuntos.
+Algumas anotações que tenho sobre gestão 3.0, learning 3.0, gestão agile e outros assuntos.
 
 *   Competência é a junção do **conhecimento (teoria), habilidade (pratica) e atitude (disciplina)** - CHA
 *   Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências

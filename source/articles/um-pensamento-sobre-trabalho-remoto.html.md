@@ -1,7 +1,7 @@
 ---
 title: Um pensamento sobre trabalho remoto
 date: 2016-02-17 00:00 UTC
-tags: article, development
+tags: artigos, desenvolvimento
 ---
 
 Estava lendo e ouvindo alguns podcasts sobre times ágeis que trabalham remoto e acabei pensando em várias coisas. Uma delas é que o trabalho remoto é uma das soluções para o trânsito de São Paulo e quiça do mundo! ;-)  
@@ -23,7 +23,7 @@ Há também o anseio dos gestores em saber o que cada um do time está trabalhan
 
 Um time remoto precisa [trabalhar mais como equipes trabalham em projetos open source](http://2ndscale.com/rtomayko/2012/adopt-an-open-source-process-constraints).
 
-> What we’re learning at GitHub is that opting in to open source project constraints often results in better natural survivability characteristics for many types of business, product development, and operations activities. That is to say, processes designed to conform to open source constraints results in a project that runs well, attracts attention, and seems to be self perpetuating where the same project structured more traditionally requires much more manual coordination and authoritative prodding.
+> What we’re learning at GitHub is that opting in to open source project constraints often results in better natural survivability characteristics for many types of business, product desenvolvimento, and operations activities. That is to say, processes designed to conform to open source constraints results in a project that runs well, attracts attention, and seems to be self perpetuating where the same project structured more traditionally requires much more manual coordination and authoritative prodding.
 
 <iframe src="https://www.youtube.com/embed/mrONxcyQo4E" allowfullscreen="" frameborder="0" height="315" width="560"></iframe>
 

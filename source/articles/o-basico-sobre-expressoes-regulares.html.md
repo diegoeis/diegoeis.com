@@ -1,7 +1,7 @@
 ---
 title: O básico sobre Expressões Regulares
 date: 2016-06-16 00:00 UTC
-tags: development, front-end
+tags: desenvolvimento, front-end
 ---
 
 Expressão Regular é uma das ferramentas mais úteis que você pode ter. Vira e mexe as Expressões Regulares (RegExp) resolvem desde problemas de Find & Replace no editor até validação de dados em diversos níveis do seu projeto. Mas geralmente a gente só lê sobre Expressões Regulares quando precisamos decifrar aquela linha maluca e ainda assim de um jeito meio descuidado, tateando e tentando fazer dar certo uma combinação de caracteres sem sentido.

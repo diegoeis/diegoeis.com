@@ -1,7 +1,7 @@
 ---
 title: Nutrientes vs Comida
 date: 2015-12-25 00:00 UTC
-tags: saude, health, articles
+tags: saude, artigos
 ---
 
 Você já percebeu que hoje a humanidade está obcecada por dividir os alimentos pelo que eles são compostos e não propriamente pelo alimento em si? Eu sei, é complicado. Mas veja: nós acreditamos que podemos dividir o mundo dos alimentos em nutrientes bons e ruins. Se tem muita gordura, é ruim. Se tem pouca fibra, é ruim. Se tem muita vitamina C é bom.

@@ -3,22 +3,24 @@
 <div class="de-wrapper">
   <article class="de-post">
       <header>
+
+        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
         <span class="de-tags">
           <strong>tags: </strong>
           <% current_article.data.tags.split(', ').each do |tag| %>
             <%= link_to tag, tag_path(tag) %>
           <% end %>
         </span>
-        <time datetime="<%= current_article.date.strftime('%b %e, %Y') %>"><%= current_article.date.strftime('%b %e, %Y') %></time>
-        <a href="#disqus_thread" class="de-comment-count">Seja o primeiro a comentar</a>
 
         <h1 class="de-post-title"><%= current_article.title %></h1>
+        <time datetime="<%= current_article.date.strftime('%b %e, %Y') %>"><%= current_article.date.strftime('%b %e, %Y') %></time>
 
       </header>
 
+
       <%= yield %>
-      <hr class="de-hr">
-        <br><span class="de-author">por Diego Eis</span>
+      <!-- <hr class="de-hr"> -->
+        <!-- <br><span class="de-author">por Diego Eis</span> -->
 
       <hr class="de-hr">
 

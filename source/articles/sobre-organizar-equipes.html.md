@@ -1,7 +1,7 @@
 ---
 title: Sobre organizar equipes
 date: 2015-10-19 00:00 UTC
-tags: agile, management
+tags: agile, gestão
 ---
 
 ### Sobre organizar equipes
@@ -45,7 +45,7 @@ A comunicação dos times nos dois formatos são bem difíceis. Mas a comunicaç
 
 Os Grupos de Interesse são um time formado por integrantes que tem um objetivo comum, sem a coordenação de um gerente ou um coordenador. Eles conseguem entender que há um problema entre os diversos produtos e se organizam para juntos encontrarem uma solução. O Spotify tem uma cultura de organização que leva isso muito a sério. [Veja esse vídeo](https://vimeo.com/85490944) para entender melhor como eles se organizam por lá.
 
-[Spotify Engineering Culture — part 1](https://vimeo.com/85490944) from [Spotify Training & Development](https://vimeo.com/user14023874)
+[Spotify Engineering Culture — part 1](https://vimeo.com/85490944) from [Spotify Training & desenvolvimento](https://vimeo.com/user14023874)
 
 É muito, muito importante que a comunicação entre esse pessoal seja frequente, objetiva e natural. Eles precisam ter autonomia para solucionar problemas que envolvem as suas capacidades e responsabilidades.
 
@@ -59,4 +59,4 @@ Com esse time sendo distribuído, nós criamos automaticamente um Grupo de Inter
 
 Conforme o tempo for passando, escrevo mais falando como estamos lidando como essa nova organização. Vai ser divertido.
 
-Se você quiser ler mais sobre o assunto, sugiro que inicie lendo o livro [Management 3.0](https://management30.com/product/management30/) e veja os vídeos ([parte 1](https://vimeo.com/85490944) e [parte 2](http://vimeo.com/94950270)) de como o Spotify montou seus times.
+Se você quiser ler mais sobre o assunto, sugiro que inicie lendo o livro [gestão 3.0](https://gestão30.com/product/gestão30/) e veja os vídeos ([parte 1](https://vimeo.com/85490944) e [parte 2](http://vimeo.com/94950270)) de como o Spotify montou seus times.

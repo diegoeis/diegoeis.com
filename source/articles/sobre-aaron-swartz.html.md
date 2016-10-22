@@ -1,7 +1,7 @@
 ---
 title: Sobre Aaron Swartz
 date: 2016-05-04 00:00 UTC
-tags: development, web
+tags: desenvolvimento, web
 ---
 
 Você conhece Aaron Swartz? Não? Ele está mais presente na sua vida do que você imagina. Duvida? Talvez você conheça RSS. RSS é um subset do XML e sua principal função é facilitar a agregação e distribuição de conteúdo. A especificação 1.0 do RSS foi lançada em 06/12/2000\. Aaron Swartz foi um dos co-autores do RSS. Ele só tinha 14 anos. Eu sei que você se sente orgulhoso quando consegue implementar algum framework JS nos seus projetos. Eu também me sinto. Mas existem algumas pessoas que estão em outro patamar. Um patamar muito distante do mundo dos normais. Aaron Swartz é um destes caras.

@@ -1,26 +1,26 @@
 ---
-title: Complexidade e Causalidade no Management 3.0
+title: Complexidade e Causalidade no gestão 3.0
 date: 2015-11-20 00:00 UTC
-tags: management, agile, gestão
+tags: gestão, agile, gestão
 ---
 
 #### As versões de gerenciamento
 
-Se o método se chama Management 3.0, quer dizer que houveram duas versões antes dessa mais moderna. Na verdade, o modelo de gestão atual da maioria das empresas ainda se baseia em hierarquias bem definidas, onde umas pessoas se reportam a outras e assim por diante.
+Se o método se chama gestão 3.0, quer dizer que houveram duas versões antes dessa mais moderna. Na verdade, o modelo de gestão atual da maioria das empresas ainda se baseia em hierarquias bem definidas, onde umas pessoas se reportam a outras e assim por diante.
 
-#### Management 1.0 — Hierarquias
+#### gestão 1.0 — Hierarquias
 
-Esse é o tipo tradicional de gerenciamento, onde o poder está nas mãos de poucos, onde a palavra de ordem é comandar e controlar. Algumas pessoas chamam isso de “scientific management”, cuja a ideia é que a empresa é organizada e gerenciada de cima para baixo. Onde os cargos no topo da hierarquia tem os salários mais altos, grandes bônus para “compensar os riscos” de terem esses cargos e cadeiras melhores… enquanto os cargos de baixo não tem muito dinheiro, pouca responsabilidades (ou responsabilidades sem qualidade) e pouca ou nenhuma motivação para executar um bom trabalho.
+Esse é o tipo tradicional de gerenciamento, onde o poder está nas mãos de poucos, onde a palavra de ordem é comandar e controlar. Algumas pessoas chamam isso de “scientific gestão”, cuja a ideia é que a empresa é organizada e gerenciada de cima para baixo. Onde os cargos no topo da hierarquia tem os salários mais altos, grandes bônus para “compensar os riscos” de terem esses cargos e cadeiras melhores… enquanto os cargos de baixo não tem muito dinheiro, pouca responsabilidades (ou responsabilidades sem qualidade) e pouca ou nenhuma motivação para executar um bom trabalho.
 
 Empresas com esse tipo de gestão são dirigidas pela inércia por conta do poder estar apenas disponível para poucas pessoas (as que estão na parte de cima da pirâmide). São empresas com estruturas muito monolíticas, muito baseadas em budgets e metas a curto prazo. Além de experimentarem bem pouco novas estratégias ou novas ideias de organização.
 
-#### Management 2.0 — Modismo
+#### gestão 2.0 — Modismo
 
-Essa versão é basicamente a mesma que a primeira, com a diferença que como o Management 1.0 não funciona bem, logo começaram a surgir alguns métodos complementares para tapar os buracos da primeira versão. Esses métodos servem pra que os camaradas que comandam a empresa lá de cima, mudem como a empresa é organizada e desenhada de forma que o gerenciamento se torne mais escalável e duradouro. Alguns desses métodos são: Six Sigma, Teoria das Restrições, Total Quality Management e outros.
+Essa versão é basicamente a mesma que a primeira, com a diferença que como o gestão 1.0 não funciona bem, logo começaram a surgir alguns métodos complementares para tapar os buracos da primeira versão. Esses métodos servem pra que os camaradas que comandam a empresa lá de cima, mudem como a empresa é organizada e desenhada de forma que o gerenciamento se torne mais escalável e duradouro. Alguns desses métodos são: Six Sigma, Teoria das Restrições, Total Quality gestão e outros.
 
-Mesmo com esses métodos, a estrutura da organização continua sendo a mesma do Management 1.0\. Enquanto a primeira versão é fundamentalmente sobre controle, o Management 2.0 é sobre conseguir algum tipo de engajamento das pessoas dos cargos inferiores.
+Mesmo com esses métodos, a estrutura da organização continua sendo a mesma do gestão 1.0\. Enquanto a primeira versão é fundamentalmente sobre controle, o gestão 2.0 é sobre conseguir algum tipo de engajamento das pessoas dos cargos inferiores.
 
-#### Management 3.0 — Complexidade
+#### gestão 3.0 — Complexidade
 
 A versão 3 decide mudar tudo. Ela leva como base a teoria da complexidade, primeiramente aplicada na matemática e biologia, economia e sociologia. O principal ponto é enxergar as organizações como redes. Não adianta organizar a empresa baseada em hierarquias e não entender que as pessoas nessas hierarquias formam uma rede. Outra coisa é que “complexidade social” é tudo sobre pessoas e seus relacionamentos e não sobre departamentos e lucros.
 

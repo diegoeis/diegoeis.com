@@ -21,7 +21,7 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - O escopo é flexível, mas você não pode mudar no meio do caminho o objetivo macro do projeto/história
 - o fato do time não saber o que vai fazer e como fazer nos próximos dias, não quer dizer que o escopo vai ser modificado ou o projeto vai atrasar.
 - Mas como garantimos isso? Por que esse processo é o plano vai se adaptar de acordo com a variação do projeto
-- FDD - Feature Driven Development 
+- FDD - Feature Driven desenvolvimento 
 - métodos ágeis não são o fim, empresas que não admitem seus próprios problemas em processos, pessoas e clientes, falharão usando Agile
 - Muitas empresas praticam um Agile fake, com grandes falhas
 - Identifique quais os problemas que você tem no seu projeto
@@ -103,14 +103,14 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 ## Papéis 
 - A gestão de um projeto scrum é feita por três personagens: Product Owner, Scrum Master e Dev Team.
 - o Product Owner não se preocupa ou não em fazer gestão se preocupando se o objetivo da sprint vai ser alcançado, se as tarefas estão no prazo, quais os riscos da sprint. Ele vê o macro, vê o projeto, risco do produto.
-- O que for micro gestão, fica com o Development Team. Quem tem que estar preocupado com os riscos da sprint é o dev Team, o prazo, entregas e etc.
-- PO é macro gestão, Development Team é Micro Gestão. 
+- O que for micro gestão, fica com o desenvolvimento Team. Quem tem que estar preocupado com os riscos da sprint é o dev Team, o prazo, entregas e etc.
+- PO é macro gestão, desenvolvimento Team é Micro Gestão. 
 - Processos e Pessoas fica com o Scrum Master. Ele está preocupado todas as peculiaridades do time e do projeto, e propõem soluções para melhorar a produtividade do time
 - Scrum Master precisa ter pensamento de processo. Se está errado, é por que o processo está errado e não por que o time é ruim
 - Não é o time que é acomodado, é o processo que está falhando em aumentar o senso de urgência.
 - Processos são feitos para as pessoas entregarem melhor, se comunicarem melhor, trabalharem melhor.
 - o super poder do Scrum Master é se colocar no outro, ele precisa gostar de gente.
-- Quem vai levar porrada do PO se o sprint não for finalizado, é o Development Team.
+- Quem vai levar porrada do PO se o sprint não for finalizado, é o desenvolvimento Team.
 - **fazer a coisa certa, do jeito certo, em um ambiente sustentável.**
 - PO garante que está fazendo a coisa certa
 - Dev Team garante o jeito certo

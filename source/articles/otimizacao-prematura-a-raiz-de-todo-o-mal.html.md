@@ -1,7 +1,7 @@
 ---
 title: Otimização Prematura - a raíz de Todo o Mal
 date: 2016-06-22 00:00 UTC
-tags: notes, development
+tags: notas, desenvolvimento
 ---
 
 Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.
@@ -57,11 +57,11 @@ Scale out via the process model
 **IX. Disposability**
 Maximize robustness with fast startup and graceful shutdown
 **X. Dev/prod parity**
-Keep development, staging, and production as similar as possible
+Keep desenvolvimento, staging, and production as similar as possible
 **XI. Logs**
 Treat logs as event streams
 **XII. Admin processes**
-Run admin/management tasks as one-off processes
+Run admin/gestão tasks as one-off processes
 - Quando falamos em código, não precisamos estar preocupados em ganhar tempo. O que é ruim e não faça:
   - Seu sistema não tem pelo menos 70% de cobertura de testes
   - Não tem analise estática de código. É um programa lendo seu programa para dar uma nota. (Sugestão: CodeClimate)

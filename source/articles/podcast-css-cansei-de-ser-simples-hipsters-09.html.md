@@ -1,7 +1,7 @@
 ---
 title: CSS - Cansei de Ser Simples – Podcast Hipsters 09
 date: 2016-09-13 00:00 UTC
-tags: podcast, css, front-end, development
+tags: podcast, css, front-end, desenvolvimento
 ---
 
 O Paulo Silveira e o Sergio Lopes da Caelum Alura me convidaram esses dias para falar um pouco sobre CSS no podcast sobre tecnologia Hipsters! 

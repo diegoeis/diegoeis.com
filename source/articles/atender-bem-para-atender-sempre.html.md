@@ -1,7 +1,7 @@
 ---
 title: Atender bem para atender sempre
 date: 2015-04-29 00:00 UTC
-tags: development
+tags: desenvolvimento
 ---
 
 

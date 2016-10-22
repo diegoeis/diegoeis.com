@@ -1,7 +1,7 @@
 ---
 title: Sobre os pavões do mercado de front-end
 date: 2014-09-29 00:00 UTC
-tags: development
+tags: desenvolvimento
 ---
 
 #### Um desabafo sobre a autopromoção

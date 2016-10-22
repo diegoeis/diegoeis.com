@@ -1,12 +1,12 @@
 ---
-title: Anotações sobre Management 3.0
+title: Anotações sobre gestão 3.0
 date: 2014-02-11 00:00 UTC
-tags: notes, management, agile, gestão
+tags: notas, gestão, agile, gestão
 ---
 
 Estas são as minhas anotações sobre o que ouvi em um curso de gerenciamento ágil.
 
-**Management 3.0** não é uma metodologia. Ela é uma mindset. É um modo de pensar. Não há uma sequência a seguir. São visões diferentes sobre um mesmo ponto: gerenciar corretamente projetos e pessoas em ambientes complexos.
+**gestão 3.0** não é uma metodologia. Ela é uma mindset. É um modo de pensar. Não há uma sequência a seguir. São visões diferentes sobre um mesmo ponto: gerenciar corretamente projetos e pessoas em ambientes complexos.
 
 *   Qual o tamanho ideal de um grupo? Depende. Depende da necessidade. Mas geralmente uma equipe de 5 pessoas é o ideal. Isso não quer dizer que você precisa ter UMA equipe de 5 pessoas para 20 projetos, mas 20 equipes de 5 pessoas. Quanto mais gente, pior a comunicação. Quando há muita gente em uma equipe, informalmente pessoas acabam criando sub-equipes menores (panelinhas).
 *   Mais importante do que ter um time é ter um time diversificado. Quanto mais diversificado, mais aprendizados e assuntos diferentes.
@@ -46,7 +46,7 @@ Você tem um baralho e sabe que tem um coringa lá, mas não sabe onde. E você 
 *   Racionalidade e racionalização
 *   Racionalidade admite que nosso sistema lógico é insuficienteRacionalização consiste em querer prender o sistema em um sistema coerente.
 *   O comportamento de um sistema complexo pode ser: ordenado, complexo ou caótico
-*   Existem 6 visões no management 3.0:
+*   Existem 6 visões no gestão 3.0:
 *   Improve everythingAlign ConstrainsEmpower teamsEnergise peopleDevelop competenceGrow structure
 
 #### O que é gestão?
@@ -115,7 +115,7 @@ Pessoas diferentes vão se motivar por coisas e maneiras diferentes.
 *   **Objetivo — **Pessoas motivadas pelo objetivo, pelo propósito, pela necessidade de propósito. Trabalha por algo maior que si mesma. Precisam sentir que seu trabalho faz diferença nas pessoas.
 *   **Status — **Pessoa que tem necessidade do prestígio social. Gosta de ter privilégios especiais, recompensas, títulos.
 
-### Proximity management
+### Proximity gestão
 
 *   Mova sua mesa para perto dos times.
 *   Gerência caminhando pela empresa.

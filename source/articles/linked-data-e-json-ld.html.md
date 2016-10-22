@@ -2,7 +2,7 @@
 title: Linked Data e JSON-LD
 description: Uma básica explicação sobre Linked Data e JSON-LD
 date: 2016-07-06 00:00 UTC
-tags: development, article, front-end
+tags: desenvolvimento, artigos, front-end
 ---
 
 Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. [Organização da Informação](http://diegoeis.com/organizando-a-informacao.html) na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.
@@ -154,13 +154,13 @@ Simples: basta chamar na sua página o JSON com as informações que você quer 
 <script type="application/ld+json"> 
 { 
   "@context" : "http://schema.org", 
-  "@type" : "Article", 
+  "@type" : "artigos", 
   "name" : "Um pouco sobre imagens para Web", 
   "author" : { "@type" : "Person", 
   "name" : "por Diego Eis" }, 
   "datePublished" : "2016-07-05", 
   "image" : "http://tableless.com.br/wp-content/uploads/2016/07/image-format.jpg", 
-  "articleBody" : "Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples,  esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos,  principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.</P>\n<H3>GIF</H3>\n<P>GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.</P>
+  "artigosBody" : "Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples,  esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos,  principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.</P>\n<H3>GIF</H3>\n<P>GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.</P>
 }
 </script>
 ```

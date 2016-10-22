@@ -1,7 +1,7 @@
 ---
 title: Deploy usando Hook do Git
 date: 2016-07-04 00:00 UTC
-tags: article, development, git
+tags: artigos, desenvolvimento, git
 ---
 
 Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção. E nada mais simples do que o **git hooks** pra fazer isso.
@@ -73,7 +73,7 @@ remote: Fast-forward
 remote:  build/assets/css/style.css                       |  2 +-
 remote:  build/feed.xml                                   | 12 ++++++———
 remote:  build/index.html                                 |  2 +-
-remote:  source/articles/organizando-a-informacao.html.md | 12 ++++++———
+remote:  source/artigos/organizando-a-informacao.html.md | 12 ++++++———
 remote:  6 files changed, 21 insertions(+), 19 deletions(-)
 To user@diegoeis.com:/public/diegoeis.com.git/
    9c1acad..c5bb7ed  master -> master

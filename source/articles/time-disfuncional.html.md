@@ -1,7 +1,7 @@
 ---
 title: Time disfuncional
 date: 2016-02-02 00:00 UTC
-tags: article, agile, management
+tags: artigos, agile, gestão
 ---
 
 O Scrum e qualquer outro método/framework agile é feito para que a equipe consiga se organizar e ter autonomia para tomar todas as decisões importantes, definindo como irão agir para entregar suas tarefas e conseguir completar os objetivos do projeto. Um dos pontos chave para isso tudo dar certo é a comunicação entre os integrantes do time.

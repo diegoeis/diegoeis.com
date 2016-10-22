@@ -1,7 +1,7 @@
 ---
 title: Anotações do Zeno no Encontro Locaweb 16
 date: 2015-08-22 00:00 UTC
-tags: notes, palestras
+tags: notas, palestras
 ---
 
 Essas são as minhas anotações da palestra do Zeno em Curitiba, no Encontro Locaweb #16.

@@ -1,7 +1,7 @@
 ---
 title: Can web make ES6 the baseline of the Modern Web?
 date: 2015-07-21 00:00 UTC
-tags: notes, development, braziljs
+tags: notas, desenvolvimento, braziljs
 ---
 
 Minhas anotações sobre a palestra que Chris Heilmann fez no BrazilJS de 2014.

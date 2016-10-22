@@ -1,7 +1,7 @@
 ---
 title: Anotações da palestra do Dave Raggett na Web.br 2016
 date: 2016-10-13 00:00 UTC
-tags: notes, palestras
+tags: notas, palestras
 ---
 
 Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o [Dave Raggett](https://www.w3.org/People/Raggett/) fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.
