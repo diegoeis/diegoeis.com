@@ -5,10 +5,323 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2016-10-20T22:00:00-02:00</updated>
+  <updated>2016-10-22T22:00:00-02:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>Hello World com React desde o rascunho</title>
+    <link rel="alternate" href="http://diegoeis.com/hello-world-com-react-desde-o-rascunho.html"/>
+    <id>http://diegoeis.com/hello-world-com-react-desde-o-rascunho.html</id>
+    <published>2016-10-22T22:00:00-02:00</published>
+    <updated>2016-10-23T12:22:23-02:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Há muito tempo eu queria fazer um Hello World com React, mas nunca tinha tempo por que eu mudei de área fazem uns 3 anos, ficando mais na parte de gestão de produtos e times, deixando totalmente o desenvolvimento e a escrita de código. Por isso, senti na pele o que os iniciantes sentem quando precisam fazer um simples Hello World de uma tecnologia nova. São tantos artigos falando coisas diferentes, usando setups diferentes, na sua maioria complexos e que não explicam as coisas com simplicidade.&lt;/p&gt;
+
+&lt;p&gt;É por isso que eu tenho procurado conteúdo fácil para poder investir um tempo e aprender pelo menos o básico e o início do React. Eu li uma série de fontes pela internet, que você pode conferir no final do artigo, além de um curso grátis, muito, mas muito bem feito pelo &lt;a href="http://jscasts.teachable.com/"&gt;Matheus Lima no JSCasts&lt;/a&gt;. Esse é um artigo baseado em todas essas fontes. Tentei abstrair toda as inutilidades que alguém não precisa aprender logo que está iniciando. Espero que tenha cumprido com o objetivo.&lt;/p&gt;
+
+&lt;h2&gt;Conceitos do React e Introdução&lt;/h2&gt;
+
+&lt;p&gt;O React foi pensado em como podemos componentizar nossos elementos, de forma que eles sejam independentes, mas reutilizáveis. Pensa em um componente como se fosse um widget ou um módulo. Se ficar mais fácil, pense que um componente é um pedaço de HTML, CSS, JS e os poucos dados que irão popular esse pedaço do layout.&lt;/p&gt;
+
+&lt;p&gt;Sem entrar na polêmica de modularização e componentização no JS, atualmente, nós organizamos na pior das hipóteses - e mais comum também -, os componentes como partes separadas de códigos. Você pega um pedaço de código HTML, coloca numa determinada página, que é formatada com CSS e manipulada com JS. O código que estrutura, formata e manipula seu componente está separado nesses três arquivos de HTML, CSS e JS. No React, o conceito é mais simples, onde unificamos o HTML dentro do JS, o que no React chamamos de JSX.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="assets/images/iniciando-react/react-component.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Perceba que na imagem acima - &lt;a href="https://dribbble.com/shots/1262636-To-Do-Dashboard/attachments/172917"&gt;peguei o layout de exemplo daqui&lt;/a&gt; - cada retângulo colorido tem um componente pai, com seus componentes internos,  que chamamos de componentes filhos. Podemos, então, criar um componente chamado &lt;code&gt;navBar&lt;/code&gt; com um componente filho chamado &lt;code&gt;userInfo&lt;/code&gt;, que conterá as informações do usuário. O nosso componente &lt;strong&gt;pai&lt;/strong&gt;, guarda estado dos dados que usaremos nos componentes filhos. O &lt;strong&gt;pai&lt;/strong&gt; compartilha os dados com os filhos por meio de atributos. Nesse exemplo, a &lt;code&gt;navBar&lt;/code&gt; iria compartilhar as informações do usuário logado para o componente filho &lt;code&gt;userInfo&lt;/code&gt;. Esta hierarquia de pai e filho faz com que o gerenciamento de dados seja simples, por que nós sabemos exatamente onde os dados estarão, não causando confusão usando esses dados erroneamente em outros lugares.&lt;/p&gt;
+
+&lt;p&gt;O JSX é como o ReactJS cria os componentes em JavaScript. Você vai escrever HTML (quase) normal dentro do próprio JS, o ReactJS, por sua vez, vai se encarregar de traduzir esse HTML para JavaScript, que vai renderizar um elemento no DOM. Se você tem o código &lt;code&gt;&amp;lt;h1&amp;gt;Titulo&amp;lt;/h1&amp;gt;&lt;/code&gt;, o JSX vai se transformar em &lt;code&gt;React.createElement(&amp;#39;h1&amp;#39;, null, &amp;#39;Titulo&amp;#39;);&lt;/code&gt; antes de ser executado pelo browser. Escrever com esse HTML do React (JSX), facilita a leitura e você diminui a curva de aprendizado. &lt;/p&gt;
+
+&lt;p&gt;Você já deve ter ouvido sobre o &lt;strong&gt;Virtual DOM&lt;/strong&gt;. O Virtual DOM é a árvore de componentes que o ReactJS gera para que o browser renderize na tela. Pra melhorar a performance, o ReactJS gera todo o HTML (baseado em JSX e transformado em JavaScript) na memória antes de renderizar para o usuário. Além disso, ele fica vigiando esse Virtual DOM procurando por alterações. Quando algo é alterado, ele muda apenas o que foi alterado e não todo o HTML. &lt;/p&gt;
+
+&lt;h2&gt;Setup do projeto&lt;/h2&gt;
+
+&lt;p&gt;Como todo o projeto, necessitamos fazer um setup inicial, preparando o ambiente e iniciando parte do código. Nesse setup vamos começar criando o projeto com NPM, depois vamos criar arquivos de configuração do Webpack e também o arquivo &lt;strong&gt;index.html&lt;/strong&gt;, que é onde vamos mostrar nossa App.&lt;/p&gt;
+
+&lt;h3&gt;NPM&lt;/h3&gt;
+
+&lt;p&gt;Como gerenciador de pacotes, vamos usar o NPM. Por isso, abra seu terminal predileto e veja os comandos abaixo. Esses comandos vão criar uma pasta para o projeto (eu já estou na minha pasta publica, onde coloco meus projetos para serem acessados via localhost), depois eu inicio o NPM e aí instalo dois pacotes iniciais &lt;strong&gt;react&lt;/strong&gt; e &lt;strong&gt;react-dom&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;mkdir meu-projeto
+&lt;span class="gp"&gt;$ &lt;/span&gt;npm install --save react react-dom
+&lt;span class="gp"&gt;$ &lt;/span&gt;npm init &lt;span class="c"&gt;# aperte enter em tudo que vier&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Agora, dentro da pasta &lt;strong&gt;meu-projeto&lt;/strong&gt; deve haver um &lt;strong&gt;package.json&lt;/strong&gt; que o NPM instalou. Vamos instalar agora o Webpack. O Webpack é o que vai juntar todos os nossos módulos, compilar nosso CSS e etc.&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;meu-projeto
+&lt;span class="gp"&gt;$ &lt;/span&gt;npm install --save-dev webpack
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Nós vamos instalar o &lt;strong&gt;webpack&lt;/strong&gt; apenas em desenvolvimento, por que, obviamente vamos usar o código que ele gerar em produção. Mas vamos aproveitar para instalá-lo também globalmente, por que vamos precisar rodar o comando &lt;code&gt;webpack&lt;/code&gt; para gerar nosso bundle:&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$  &lt;/span&gt;npm install webpack -g
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Seu &lt;strong&gt;package.json&lt;/strong&gt; tem que ficar mais ou menos assim:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"curso-react-matheus"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"version"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"1.0.0"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"description"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"main"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"index.js"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"scripts"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;"test"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"echo \"Error: no test specified\" &amp;amp;&amp;amp; exit 1"&lt;/span&gt;
+  &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="s2"&gt;"author"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"license"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"ISC"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;"dependencies"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;"react"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"^15.3.2"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;"react-dom"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"^15.3.2"&lt;/span&gt;
+  &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="s2"&gt;"devDependencies"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;"webpack"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"^1.13.2"&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Config do Webpack&lt;/h3&gt;
+
+&lt;p&gt;O webpack é um empacotador de código focado em módulos. Você pode ver com mais detalhes sobre o que é o webpack &lt;a href="http://tableless.com.br/introducao-ao-webpack/"&gt;nesse artigo do Leo Cavalcante no Tableless&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como já instalamos anteriormente o webpack com o NPM, vamos criar agora um &lt;strong&gt;webpack.config.js&lt;/strong&gt;. Aqui é onde vamos ter as configurações do Webpack. O Matheus, em seu vídeo, simplificou ao máximo as explicações que não ficasse confusa, tendo que explicar Redux, Flux, ES6 e etc, por isso, vamos fazer o mesmo aqui. Assim facilita seu aprendizado.&lt;/p&gt;
+
+&lt;p&gt;O código do config do Webpack é esse aqui:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="na"&gt;entry&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"./app/App.js"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;output&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="na"&gt;filename&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"public/bundle.js"&lt;/span&gt;
+  &lt;span class="p"&gt;},&lt;/span&gt;
+  &lt;span class="na"&gt;module&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="na"&gt;loaders&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+      &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="na"&gt;test&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="se"&gt;\.&lt;/span&gt;&lt;span class="sr"&gt;js$/&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="na"&gt;exclude&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sr"&gt;/node_modules/&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="na"&gt;loader&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'babel'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="na"&gt;query&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+          &lt;span class="na"&gt;presets&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;]&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O Matheus explicou tim tim por tim tim cada uma dessas linhas no segundo vídeo do curso dele. Por enquanto, você só precisa saber o seguinte: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;entry: &amp;quot;./app/App.js&amp;quot;,&lt;/code&gt; vai ler o arquivo App.js, gerando um &lt;strong&gt;output&lt;/strong&gt; chamado &lt;strong&gt;bundle.js&lt;/strong&gt;. Aproveite para criar agora o &lt;strong&gt;App.js&lt;/strong&gt;, dentro de uma pasta &lt;strong&gt;app&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;O React usa o conceito de Loaders. Não vamos ver isso agora. Mas no bloco &lt;code&gt;loaders&lt;/code&gt; desse código, ele vai testar todos os arquivos &lt;strong&gt;.js&lt;/strong&gt;, menos a pasta &lt;strong&gt;node_modules&lt;/strong&gt;, usando o &lt;strong&gt;babel&lt;/strong&gt; para fazer o transpiler. Ali nos presets, estamos dizendo que vamos usar react. Se fossemos usar ES6 no código, nós colocaríamos também ali no chave &lt;code&gt;presets&lt;/code&gt;, para que o babel soubesse que ele também teria que pegar código ES6 para poder transpor para código conhecido.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Agora, para que o babel funcione, vamos instalá-lo também via NPM:&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;npm install --save-dev babel-core babel-loader babel-preset-react
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E por enquanto, é isso que você precisa saber.&lt;/p&gt;
+
+&lt;h3&gt;index.html&lt;/h3&gt;
+
+&lt;p&gt;Todo os projetos React tem um &lt;strong&gt;index.html&lt;/strong&gt; que faz a conexão com o nosso código. Esse &lt;strong&gt;index.html&lt;/strong&gt; é onde o App vai aparecer e ele deve ficar dentro da pasta &lt;strong&gt;public&lt;/strong&gt;. Crie então uma pasta &lt;strong&gt;public&lt;/strong&gt; e dentro coloque o arquivo &lt;strong&gt;index.html&lt;/strong&gt;. O código é mais ou menos esse. Também tendo em mente a simplicidade da explicação. Não inserirmos nada de outro mundo aqui:&lt;/p&gt;
+&lt;div class="highlight html"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;html&lt;/span&gt; &lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"pt-br"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;charset=&lt;/span&gt;&lt;span class="s"&gt;"utf-8"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;"app"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"bundle.js"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O div APP é onde vamos renderizar a aplicação. É quase que padrão usar o nome &lt;code&gt;app&lt;/code&gt; ali. Mas você pode colocar qualquer outra coisa se quiser.&lt;/p&gt;
+
+&lt;p&gt;Depois chamamos o JavaScript da nossa app, que vai estar tudo contido num arquivo só, que as vezes se chama &lt;code&gt;all.js&lt;/code&gt;, outras &lt;code&gt;bundle.js&lt;/code&gt;, outros &lt;code&gt;app.js&lt;/code&gt;. Tanto faz. Vamos usar &lt;code&gt;bundle.js&lt;/code&gt;, só para não ficar diferente dos artigos que li e do vídeo que o Matheus fez. Assim quando você for procurar mais referências, não fica confuso. E pronto.&lt;/p&gt;
+
+&lt;h2&gt;App.js e Hello World&lt;/h2&gt;
+
+&lt;p&gt;Vamos começar a nossa App fazendo dois &lt;code&gt;require&lt;/code&gt;. O require vai importar para nosso código o &lt;strong&gt;react&lt;/strong&gt; e o &lt;strong&gt;react-dom&lt;/strong&gt; que instalamos aquela hora com NPM. Abra seu &lt;strong&gt;App.js&lt;/strong&gt; e escreva:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;reactDOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react-dom'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react-dom&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Com esses dois pacotes importados, vamos agora colocar um código inicial. Nesse código vamos usar o &lt;code&gt;reactDOM&lt;/code&gt;, que vai pegar nosso código HTML escrito em JSX e jogar naquele div com id &lt;code&gt;app&lt;/code&gt; que fizemos no &lt;strong&gt;index.html&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;reactDOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react-dom'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react-dom&lt;/span&gt;
+
+&lt;span class="nx"&gt;reactDOM&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;render&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;Hello&lt;/span&gt; &lt;span class="nx"&gt;World&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/h1&amp;gt;, document.getElementById&lt;/span&gt;&lt;span class="se"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;'app'&lt;/span&gt;&lt;span class="se"&gt;))&lt;/span&gt;&lt;span class="err"&gt;;
+&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Pra ver funcionando, lá no seu terminal, rode o comando abaixo na pasta do projeto:&lt;/p&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;webpack -w
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ele vai gerar um bundle todas as vezes que você salvar algo no projeto. Você poderá acessar o &lt;strong&gt;index.html&lt;/strong&gt; pelo seu browser. No meu Mac eu acessei nesse endereço &lt;strong&gt;http://localhost/curso-react-matheus/public/index.html&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;O Tutorial puro do ReactJS sugere rodar um server. Exatamente por que eles não mostram o processo usando Webpack. Contudo, se quiser, segue aí as instruções. &lt;a href="https://github.com/reactjs/react-tutorial/#to-use"&gt;Entre nesse link e rode um dos servidores&lt;/a&gt;. É só baixar um dos arquivos da linguagem que mais te agrada e rodar o comando para que o servidor rode.&lt;/p&gt;
+
+&lt;p&gt;Crie uma pasta, baixe o arquivo preferencial e rode o comando correspondente. Ex.: &lt;code&gt;php server.php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sugiro que fique conosco aqui no Webpack, assim você não se perde no processo. Nesse momento, você já deve ter rodado seu primeiro &lt;strong&gt;Hello World&lt;/strong&gt; com React, usando Webpack.&lt;/p&gt;
+
+&lt;h3&gt;Importando seu primeiro módulo&lt;/h3&gt;
+
+&lt;p&gt;Para importar seu primeiro módulo, lá no &lt;strong&gt;App.js&lt;/strong&gt;, vamos criar uma variável que faz a importação do nosso componente. O arquivo desse componente estará na pasta &lt;strong&gt;components&lt;/strong&gt;, dentro da pasta &lt;strong&gt;App&lt;/strong&gt;. A estrutura de pastas fica assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="assets/images/iniciando-react/folders-react.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;O seu App.js fica assim:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;reactDOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react-dom'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="c1"&gt;// importa a lib react-dom&lt;/span&gt;
+
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;MeuComponente&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'./components/MeuComponente.js’);
+
+reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="err"&gt;'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Criando seu primeiro componente&lt;/h3&gt;
+
+&lt;p&gt;Dentro da pasta &lt;strong&gt;components&lt;/strong&gt;, crie um arquivo chamado &lt;strong&gt;MeuComponente.js&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DISCLAIMER:&lt;/strong&gt; Como boas práticas e uma convenção comum nos projetos, nós colocamos o nome do arquivo do componente como sendo o mesmo nome do componente dentro do código. O nome do arquivo poderia ser diferente do nome do componente, mas aí o risco de bagunça seria enorme. Por isso, mantenha o nome do arquivo do componente sendo igual ao nome do componente no código. &lt;/p&gt;
+
+&lt;p&gt;Voltando… dentro desse componente você vai escrever o código básico de todo o componente, que é o código que segue abaixo:&lt;/p&gt;
+&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
+
+&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;MeuComponente&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createClass&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
+  &lt;span class="na"&gt;render&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;teste&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/h1&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;    &lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+
+&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;MeuComponente&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Todos os componentes react vão ter esse código. Primeiro ele importa a lib do React. Depois nós criamos uma classe (&lt;code&gt;React.createClass&lt;/code&gt;) onde construíremos nosso Componente. E aí, exportamos (&lt;code&gt;module.exports = MeuComponente&lt;/code&gt;) nosso Componente para importá-lo em outras partes do projeto, como fizemos no App.js. &lt;/p&gt;
+
+&lt;p&gt;Dentro a classe do seu componente, perceba que há uma função &lt;strong&gt;render&lt;/strong&gt;. Essa função irá transformar o código JSX que estiver ali dentro no seu componente e irá renderizá-la na tela.&lt;/p&gt;
+
+&lt;p&gt;Perceba uma curiosidade: Por que precisamos de um parênteses em volta do return? O JavaScript insere o sinal de ponto-virgula (;) automaticamente. Sem os parênteses, o JavaScript ignoraria as linhas seguintes e não retornaria valor algum. Se o JSX começa na mesma linha que o return, então os parênteses não são necessários.&lt;/p&gt;
+
+&lt;p&gt;Se você for no seu browser e mudar o texto do seu componente, você vai perceber que nosso componente está funcionando! ;-D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="assets/images/iniciando-react/gif-react.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bom, vou ficando por aqui. O objetivo era apenas fazer um setup rápido, para você conseguir inserir pelo menos um componente e ver as coisas mudando na tela. Talvez as coisas tenham ficado mais claras para você agora, assim como ficaram para mim depois desse estudo. Sugiro que você veja os links abaixo para aprofundar mais seus estudos. Tem conteúdo em ingles e também conteúdo em português. Vá fundo!&lt;/p&gt;
+
+&lt;h2&gt;Leitura recomendada:&lt;/h2&gt;
+
+&lt;p&gt;Algumas leituras eu perdi, outras estão por aí. Todos esses links me ajudaram a entender um bocado sobre o setup do React, seus módulos, inserir CSS, modularização e etc. Praticamente todos eles explicam as mesmas coisas, com palavras diferentes detalhes diferentes. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://facebook.github.io/react/tutorial/tutorial.html"&gt;Documentação do React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm"&gt;React Environment Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.andrewray.me/reactjs-for-stupid-people/"&gt;React for Stupid People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/"&gt;Learn React by itsel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@jviereck/modularise-css-the-react-way-1e817b317b04"&gt;Modularise CSS the React way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/"&gt;Style React Components in SASS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://survivejs.com/react/advanced-techniques/styling-react/"&gt;Style React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://buildwithreact.com/tutorial/components"&gt;http://buildwithreact.com/tutorial/components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jscasts.teachable.com/"&gt;Curso do Matheus Lima em Português&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://hugobessa.com.br/2015/01/17/comecando-com-react/"&gt;Começando com React - Hugo Bessa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html"&gt;The React Quick Starter Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/danawoodman/9cfddb1a0c934a35f31a"&gt;React Hello World Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.wn4e2ymf3"&gt;React.js Tutorial Pt 1: A Comprehensive Guide to Building Apps with React.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/facebook/react"&gt;GitHub do projeto React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/tableless/organizando-uma-aplicação-com-react-5b8ea9075596#.3q8sxog55"&gt;Organizando uma aplicação com React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@ignit.io/react-native-construindo-apps-nativos-com-javascript-parte-1-37af2fbcde84#.muc6c8dyv"&gt;React Native — Construindo Apps Nativos com Javascript (parte 1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/fnando/react-starter-pack"&gt;Starter Pack para React do Nando&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Review de Livro - TED Talks - O Guia Oficial do TED para falar em Publico</title>
     <link rel="alternate" href="http://diegoeis.com/review-de-livro-ted-talks-o-guia-oficial-do-ted-para-falar-em-publico.html"/>
@@ -190,7 +503,7 @@
     <link rel="alternate" href="http://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html"/>
     <id>http://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html</id>
     <published>2016-08-28T21:00:00-03:00</published>
-    <updated>2016-09-22T22:02:37-03:00</updated>
+    <updated>2016-10-23T12:04:57-02:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -201,160 +514,6 @@
 &lt;p&gt;&lt;img src="assets/images/braziljs-2016/2016-08-26-15.53.27.jpg" /&gt;
 &lt;img src="assets/images/braziljs-2016/2016-08-26-15.57.04.jpg" /&gt;
 &lt;img src="assets/images/braziljs-2016/2016-08-26-16.05.29.jpg" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Dia 2 - CSM - ScrumAlliance - AdaptWorks</title>
-    <link rel="alternate" href="http://diegoeis.com/dia-2-csm-scrumalliance-adaptworks.html"/>
-    <id>http://diegoeis.com/dia-2-csm-scrumalliance-adaptworks.html</id>
-    <published>2016-08-15T21:00:00-03:00</published>
-    <updated>2016-10-22T11:50:41-02:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As &lt;a href="/csm-scrumalliance-adaptworks-dia-1.html"&gt;anotações do dia 1 está aqui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Product Owner&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;O PO tem contato forte com o cliente e usuários&lt;/li&gt;
-&lt;li&gt;O PO não precisa ser o cliente, mas dependendo do cliente, pode ter o papel do PO.&lt;/li&gt;
-&lt;li&gt;talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner. Eles conhecem o projeto, eles entendem que é o dinheiro deles que está em jogo, mas eles teriam que conhecer Agile e Scrum ou pelo estarem dispostos&lt;/li&gt;
-&lt;li&gt;O Product Owner garante se o produto está certo e que vai satisfazer o cliente/usuário&lt;/li&gt;
-&lt;li&gt;O PO é responsável pela visão do produto&lt;/li&gt;
-&lt;li&gt;Dessa visão combinada entre PO e Cliente, surge o coração do Scrum, que se chama Product Backlog&lt;/li&gt;
-&lt;li&gt;se o Backlog está muito tempo parado, quer dizer que o PO parou de pensar em novas funcionalidades, ele parou de pensar nos próximos passos para o produto&lt;/li&gt;
-&lt;li&gt;SM precisa perguntar: qual problema essa funcionalidade vai solucionar? Tem outro produto no mercado que resolve esse problema? Como eles resolvem? Por que eles resolvem diferente de você?&lt;/li&gt;
-&lt;li&gt;gerencia os stakeholders. Os stakeholders veem o PO como o responsável pelo projeto, é quem eles procuram pra pedir contas&lt;/li&gt;
-&lt;li&gt;PO conversa com os stakeholders sobre budget, report de projeto&lt;/li&gt;
-&lt;li&gt;do relacionamento entre DevTeam e PO, surge o Sprint Backlog&lt;/li&gt;
-&lt;li&gt;O Sprint Backlog válida as tarefas. O Dev Team pergunta pra o PO se a tarefa pode ser aceita&lt;/li&gt;
-&lt;li&gt;ele dá e recebe feedback sobre as tarefas. Por isso que há mudança de escopo. &lt;/li&gt;
-&lt;li&gt;Em vez de esperar pra ter o contato no final da sprint, tenha o contato no inicio, pra poder modificar rápido&lt;/li&gt;
-&lt;li&gt;Através dessa comunicação, o PO aceita ou rejeita entregas. Critérios de aceite devem estar bem claras para que o time cumpra os requisitos&lt;/li&gt;
-&lt;li&gt;O PO é extamente o que o Founder faz em uma startup.&lt;/li&gt;
-&lt;li&gt;A estrutura do Scrum é uma estrutura enxuta de startup&lt;/li&gt;
-&lt;li&gt;O ScrumMaster faz apenas o gerenciamento do processo e pessoas. Onde nessas conversas do PO o Scrum Master está? Em todas, por tem pessoas em todos os lugares&lt;/li&gt;
-&lt;li&gt;scrum master entende sobre discussão e mediação de consenso. &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Dev Team&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Quando você tem uma estrutura organizacional onde os times são funcionais, você ganha:
-
-&lt;ul&gt;
-&lt;li&gt;em produtividade, porque o time é especializada em sua responsabilidade &lt;/li&gt;
-&lt;li&gt;aprendizado especializado. &lt;/li&gt;
-&lt;li&gt;mas você precisa que a cadeia inteira funcione pra gerar valor, por que times assim não entregam valor sozinhas, elas dependem de outros&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;se você tem um time multifuncional ou equipes de valor, você tem todas as skills para gerar valor diretamente para o cliente
-
-&lt;ul&gt;
-&lt;li&gt;ganha na geração de valor&lt;/li&gt;
-&lt;li&gt;potencializa aprendizado generalista&lt;/li&gt;
-&lt;li&gt;Em compensação, os integrantes desse time precisam entender um pouco mais sobre as skills de outros integrantes&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;desenvolvimento teams em scrum, funcionam em times funcionais&lt;/li&gt;
-&lt;li&gt;quanto mais tradicional for sua empresa, mais difícil de implementar o modelo de equipes de valor/multidisciplinar &lt;/li&gt;
-&lt;li&gt;Foco do Scrum não é produtividade, é entrega de valor. Você deve buscar produtividade, dentro da geração de valor&lt;/li&gt;
-&lt;li&gt;McDonalds entre muito hambúrguer, com sabor razoável, prefere produtividade, repetição&lt;/li&gt;
-&lt;li&gt;Hamburgueria Gourmet entrega hambúrguer esplêndido, único, prefere entrega de valor&lt;/li&gt;
-&lt;li&gt;Se uma hamburgueria gourmet demora 2 minutos pra entregar o lanche, você vai achar estranho.&lt;/li&gt;
-&lt;li&gt;Se o McDonalds demorar mais do que 15 minutos pra entregar o sanduíche, você vai achar estranho&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;No Scrum você procura entregar, de forma produtiva, num âmbito de time, não individualmente. Você mede a entrega do time, não do indivíduo.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Isso não quer dizer que todos do time devem ser generalistas e devem saber tudo. &lt;strong&gt;O time é multidisciplinar e não os integrantes&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Quando o integrante é compartilhado, ele não tem comprometimento em nenhum dos projetos.&lt;/li&gt;
-&lt;li&gt;o time precisa ser auto-organizado&lt;/li&gt;
-&lt;li&gt;Auto-organizacao não tem nenhuma relação com maturidade.&lt;/li&gt;
-&lt;li&gt;Auto-organizacao é da natureza do ser humano. Todo mundo, de alguma forma, se auto-organiza em algum nível&lt;/li&gt;
-&lt;li&gt;A auto-organizacao precisa de um esforço, ela só acontece quando tem um desassociais fatores: desejo ou necessidade &lt;/li&gt;
-&lt;li&gt;O time tem o desejo de se auto-organizar?&lt;/li&gt;
-&lt;li&gt;O time tem a necessidade se se auto-organizar?&lt;/li&gt;
-&lt;li&gt;Quando o sucesso do projeto depende do resultado de todos os times, o time precisa se cobrar por auto-organizacao&lt;/li&gt;
-&lt;li&gt;O scrum master precisa criar desejo é identificar a necessidade &lt;/li&gt;
-&lt;li&gt;Mais metas compartilhadas e menos metas individuais ajuda a auto-organizacao&lt;/li&gt;
-&lt;li&gt;é para criar desejo? Momentos de integração fora do trabalho, criar empatia entre os integrantes do time&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;fluxo&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Backlog é uma lista de pedaços do produto, em níveis de granuladidaxes diferentes em diferentes posições no Backlog, sem muitos detalhes&lt;/li&gt;
-&lt;li&gt;O Backlog é priorizado, onde está mais pro topo, são as tarefas que entregam muito valor pro negocio / cliente&lt;/li&gt;
-&lt;li&gt;De acordo com que você vai pegando itens do topo, as tarefas vão subindo e você precisa ir quebrando as histórias que estão mais pra baixo, dando mais detalhes sobre o objetivo da tarefa&lt;/li&gt;
-&lt;li&gt;ele precisa estar em constante mudança, refletindo as mudanças das descobertas do time e do PO junto ao cliente&lt;/li&gt;
-&lt;li&gt;O Backlog alimenta o Sprint, onde colocamos as tarefas para a linha de desenvolvimento&lt;/li&gt;
-&lt;li&gt;Uma sprint é uma timebox, que tem uma estrutura pré-definida&lt;/li&gt;
-&lt;li&gt;Toda sprint tem:
-
-&lt;ul&gt;
-&lt;li&gt;uma reunião de planejamento, sprint planning&lt;/li&gt;
-&lt;li&gt;um período de desenvolvimento, pra desenvolver o incremento&lt;/li&gt;
-&lt;li&gt;Sprint Daily&lt;/li&gt;
-&lt;li&gt;Sprint review &lt;/li&gt;
-&lt;li&gt;Sprint retrospective&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;O scrum propoe que o sprint seja de 1 a 4 semana. Não menores que uma semana nem maiores do que um mês.&lt;/li&gt;
-&lt;li&gt;Em cada final da sprint, precisa haver o incremento, entregando valor para p usuário&lt;/li&gt;
-&lt;li&gt;No Sprint Planning, decide-se as tarefas que vão para o sprint Backlog&lt;/li&gt;
-&lt;li&gt;Retrospectiva fazemos a inspeção e a mudança no processo. &lt;/li&gt;
-&lt;li&gt;O sprint é feito pra ter feedback rápido do cliente e PO&lt;/li&gt;
-&lt;li&gt;Quando entregamos pedaços pequenos via sprints, conseguimos saber se o projeto está indo pra um caminho certo&lt;/li&gt;
-&lt;li&gt;Não quer dizer que temos que entregar valor em produção pronto pra o cliente usar&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Product Backlog&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;a visão do produto, se materializa no Product Backlog&lt;/li&gt;
-&lt;li&gt;A visão não faz parte do core do Scrum, por que você só tem uma visão de onde você quer chegar, isso quer dizer que há um final.&lt;/li&gt;
-&lt;li&gt;Se você trabalha com produto, é necessário ter uma visão, pra sabermos onde estamos indo, mas podemos começar a fazer direto o Product Backlog sem depender de uma visão&lt;/li&gt;
-&lt;li&gt;Você não fala de esforço, você fala de tamanho&lt;/li&gt;
-&lt;li&gt;O Backlog é composto de itens. Para escolher os itens, você escolhe uma técnica pra escrever esses itens&lt;/li&gt;
-&lt;li&gt;Quanto mais próximo do topo do Backlog estiver o item, mais clara e menor ele deve estar &lt;/li&gt;
-&lt;li&gt;O nível de incerteza em volta dos itens que estão na parte de baixo do Backlog, é enorme&lt;/li&gt;
-&lt;li&gt;Se o Card está lá Pra baixo, quer dizer que ele não está claro, não está detalhado, está nebuloso ainda&lt;/li&gt;
-&lt;li&gt;Você sobe as tarefas conforme a tarefa vai ficando mais madura, com mais detalhes, com mais valor&lt;/li&gt;
-&lt;li&gt;a maioria dos itens do Backlog, devem representar uma parte &lt;strong&gt;real&lt;/strong&gt; do produto. Isso se chama item de negócio. São itens funcionais, que vão entregar um comportamento novo no produto&lt;/li&gt;
-&lt;li&gt;Nunca vai ter no Backlog algo como: criar tabela no banco de dados. Subir máquinas para produção&lt;/li&gt;
-&lt;li&gt;Cada item tem que entregar algo material, real, palpável sobre o produto.&lt;/li&gt;
-&lt;li&gt;Ou seja, ele não pode ser baseado em trabalho. &amp;ldquo;Eu como PO, preciso que os devs criem um banco de dados&amp;rdquo; é um péssimo item. &lt;/li&gt;
-&lt;li&gt;no Backlog podem haver também bugs, que não entrega um comportamento novo, mas corrige algo que foi feito no passado&lt;/li&gt;
-&lt;li&gt;é podem haver os itens técnicos, como POC, Spikes, Provas de Conceitos, que vão gerar uma entrega de decisão e não algo funcional.&lt;/li&gt;
-&lt;li&gt;Nos itens técnicos, também podem ter dívidas técnicas.&lt;/li&gt;
-&lt;li&gt;Um bug só é bug se a tarefa foi aceita e foi pra produção ou pra alguma área de teste e foi encontrado um problema&lt;/li&gt;
-&lt;li&gt;retrospective e review, consomem 5% da sprint&lt;/li&gt;
-&lt;li&gt;Planning meeting, também 5%&lt;/li&gt;
-&lt;li&gt;Na Planning meeting:
-
-&lt;ul&gt;
-&lt;li&gt;Participa os três papéis, SM, PO e Dev Team&lt;/li&gt;
-&lt;li&gt;dividido em duas partes: um planejamento mais estratégico: O Que. Outra parte mais mão na massa: Como&lt;/li&gt;
-&lt;li&gt;parte 1: O Sprint precisa ter um Goal. Tem que ser uma meta de negócio. Tem que dar um benefício pra o usuário. O time precisa ver um propósito.&lt;/li&gt;
-&lt;li&gt;A meta determina se o sprint foi bem sucedido ou não&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;me diga como você mede, que eu digo como entrego.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Uma sprint é bem sucedida ou não se ela entregou o esperado e não se ela entregou o estimado&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Na parte 2, o Dev Team deve identificar tecnicamente qual trabalho deve ser executado para ter aquela tarefa feita
-
-&lt;ul&gt;
-&lt;li&gt;é aqui que eles criam as famosas tasks, que são todos as tarefas técnicas para entregar as histórias da meta&lt;/li&gt;
-&lt;li&gt;o que nós precisamos fazer para que essa tarefa esteja pronta no final da sprint?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PO tem que participar da segunda parte? Não, ele precisa estar acessível para o time nesse tempo!&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;definition of done&lt;/strong&gt; é quando a tarefa está pronta pra ser entregue para o PO&lt;/li&gt;
-&lt;li&gt;a Daily é uma reunião de Dev Team para Dev Team. 
-
-&lt;ul&gt;
-&lt;li&gt;O que fiz?&lt;/li&gt;
-&lt;li&gt;O que farei&lt;/li&gt;
-&lt;li&gt;Impedimento?&lt;/li&gt;
-&lt;li&gt;Tanto o PO quanto o SM são opcionais na Daily, porque a discussão da Daily é para discutir coisas micro.&lt;/li&gt;
-&lt;li&gt;So existem duas dailies, a que correta e a que o PO estava.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;review e retrospective são duas reunião com o mesmo propósito. A review foca no produto, retrospective foca no processo&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
