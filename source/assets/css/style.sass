@@ -7,22 +7,13 @@
 
 body
   background: #FAFAFA
-  font: 100% 'Abhaya Libre', Georgia, Serif
+  font: 100% 'PT Serif', 'Abhaya Libre', Georgia, Serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   transition: transform .20s ease-in
 
   .post-template &
     background: #fff
-
-  &:before
-    content: ""
-    width: 20px
-    height: 100%
-    position: fixed
-    top: 0
-    left: 0
-    background: $yellow
 
 .de-header
   padding: 3% 8%
@@ -229,9 +220,12 @@ time
   h1
     display: block
     color: #333
+    font-weight: 400
     line-height: 1.5
-    font-size: 1.7rem
+    font-size: 2rem
     padding: 10% 0 0
+    -webkit-font-smoothing: antialiased
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004)
 
     &:after
       content: ""
@@ -246,6 +240,8 @@ time
     font-size: 1rem
     line-height: 1.7
     margin-bottom: 0
+    -webkit-font-smoothing: antialiased
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004)
 
     a
       text-decoration: none
@@ -270,7 +266,7 @@ blockquote
 ////
 .de-post-title
   color: #333
-  font-weight: 700
+  // font-weight: 700
   font-size: 2rem
   padding: 50px 0
 
@@ -350,6 +346,8 @@ article
     font-size: 1rem
     line-height: 1.7
     margin-bottom: 30px
+    -webkit-font-smoothing: antialiased
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004)
 
   img
     max-width: 100%
@@ -395,8 +393,15 @@ article
       margin: 0px
 
 @media (min-width: 1000px)
-  body
-    border-left-width: 20px
+  body:before
+    content: ""
+    width: 20px
+    height: 100%
+    position: fixed
+    top: 0
+    left: 0
+    background: $yellow
+
 
   .de-sandwich
     position: relative
@@ -407,6 +412,7 @@ article
     // max-width: 30%
 
   .de-post-title
+    font-weight: 400
     font-size: 3.5rem
 
   article
