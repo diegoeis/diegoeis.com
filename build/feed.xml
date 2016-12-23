@@ -5,16 +5,64 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2016-10-22T22:00:00-02:00</updated>
+  <updated>2016-12-21T22:00:00-02:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>UX - reação é melhor que previsão</title>
+    <link rel="alternate" href="http://diegoeis.com/ux-reagir-e-melhor-que-prever.html"/>
+    <id>http://diegoeis.com/ux-reagir-e-melhor-que-prever.html</id>
+    <published>2016-12-21T22:00:00-02:00</published>
+    <updated>2016-12-22T23:35:29-02:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Entender o usuário é algo difícil. Você pode perceber isso facilmente comparando a sua forma de usar algum serviço de internet, digamos o Facebook, com qualquer outra pessoa ao seu redor. Provavelmente você tem um costume totalmente diferente de navegar, consumir conteúdo, comentar etc. Pessoas diferentes, usam de formas diferentes um mesmo produto e isso é totalmente normal. É por isso que tentar prever cenários para desenvolver um produto para internet é algo complicado.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;But in the end, for something this complicated, it&amp;rsquo;s really hard to design products by focus groups. A lot of times, people don&amp;rsquo;t know what they want until you show it to them. &amp;ndash; Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Para tentar diminuir essa dificuldade, é costume antigo entre os profissionais de UX entrevistarem os usuários (além de fazer outras cerimônias) afim de tentar entender qual a sua perspectiva do usuário sobre o produto/site. Geralmente, com um bom papo, você consegue pescar uma série de pontos importantes afim de tentar adiantar a solução de problemas de uso. Métodos assim, podem não ser tão eficazes por vários motivos, aqui vão alguns deles:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Geralmente o usuário não sabe se expressar.&lt;/strong&gt; Muitas vezes, o que o usuário fala não é exatamente o problema real. Você precisa conhecer muito bem seu projeto para conseguir traduzir qual o sentido real do problema para saber onde atacar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entrevistas com os usuários dependem do engajamento do usuário.&lt;/strong&gt; Fazer com o que o usuário saia da sua casa para ir até você é uma tarefa difícil e muito incomoda. Para compensar isso, alguns inventam de pagar ou dar alguma recompensa para o usuário, por um trabalho, que ao meu ver, não é de responsabilidade do usuário, mas da pessoa que está planejando o projeto. Já vi pessoas se prepararem uma semana para um encontro com os usuários, mas que nenhum usuário apareceu. As vezes a gente precisa ir até onde o usuário está, o que é ruim, por que o ambiente onde ele trabalha tem muitas distrações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testes guiados são importantes, mas os resultados são danificados pelo ambiente estranho e pela ansiedade dos usuários.&lt;/strong&gt; Você já parou do lado de um designer ou de um programador enquanto ele executava uma tarefa? Cara, é desconfortável tem um papagaio de pirata &amp;ldquo;fiscalizando&amp;rdquo; o que você está fazendo. Geralmente os usuários não executam suas tarefas naturalmente, como eles executariam em dias comuns. Quando usamos frequentemente um produto, nós nos acostumamos com a interface, fluxo e outras ações. Em entrevistas, é inevitável que o usuários sinta que está sendo avaliado. Achar o contrário é se enganar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Você não vai obter respostas reais com perguntas meia boca.&lt;/strong&gt; É muito difícil obter boas respostas com perguntas como: &amp;ldquo;Qual a primeira ação que você faria nessa tela?&amp;rdquo; ou &amp;ldquo;Qual a primeira impressão sobre essa tela?&amp;rdquo;. Há uma série de técnicas para tornar essas &lt;a href="http://www.uxdesign.blog.br/pesquisa-com-usuarios/perguntas-a-serem-evitadas-em-pesquisa-com-usuarios/"&gt;entrevistas mais inteligentes&lt;/a&gt;, mas infelizmente isso não é tão fácil de executar. Conto nos dedos os UXzes que vi fazerem isso da maneira correta.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tenho certeza de que você pode citar vários outros cenários parecidos, onde usamos várias técnicas e cerimonias na tentativa de prever qual seria a melhor solução para o usuário, mas que na real, não dão respostas que possamos usar &lt;strong&gt;de verdade&lt;/strong&gt; para solucionar os problemas do produto.&lt;/p&gt;
+
+&lt;p&gt;Outro dia vi uma apresentação com a seguinte frase: &lt;strong&gt;Evite Fails no projeto e economize tempo&lt;/strong&gt;. Para mim, esse é o típico comentário comum de UX que não tem a mentalidade ágil e que não sabe trabalhar com pequenas entregas incrementais, que atrasa a entrega de valor para o cliente porque quer entregar &amp;ldquo;algo completo&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Bom, minha sugestão para esse tipo de UX: &lt;strong&gt;pare de tentar prever o que seria melhor para o usuário e tente reagir à experimentos e aos dados de uso real de produção&lt;/strong&gt;. Colocar no ar uma mudança pequena e medir o comportamento dos usuários, ajuda muito mais a entender qual será o próximo passo. É um erro tentar prever o que seria melhor para um produto se baseando na opinião de pessoas, que embora sejam seus clientes diretos, tem expectativas e níveis de conhecimento diferentes.&lt;/p&gt;
+
+&lt;h2&gt;Entrega rápida de valor&lt;/h2&gt;
+
+&lt;p&gt;Essa previsão mentirosa me leva a outro assunto: entregas pequenas são melhores que entregas grandes.
+Planejar grandes mudanças de uma vez é furada. Qualquer um sabe disso. Mudanças pequenas são controláveis, causam menos impacto, são fáceis de medir os acertos e os erros. Existem exceções, claro, por exemplo em casos onde o produto precisa de um redesign completo e o realinhamento progressivo de interface é impossível. Há produtos antigos que não tem a possibilidade de fazer um realinhamento ao longo do tempo e por isso o redesign completo, feito de uma vez, é a única opção. Mas tirando essas exceções, entregas pequenas, funcionais e incrementais é o mais indicado.&lt;/p&gt;
+
+&lt;p&gt;Eu sei que é difícil para um UX pensar dessa forma. A maioria dos UXzes que eu já trabalhei prefere pensar na funcionalidade por inteiro. Eles têm a falsa impressão de que entregar algo pequeno, mesmo que seja funcional, é o mesmo que entregar algo incompleto. Não entra na cabeça deles entregar um pedacinho em vez da obra completa. Eles podem fazer um pedaço pequeno, porém essencial da funcionalidade, medir o comportamento do usuário e aí sim tomar a decisão de qual será o próximo passo. Transformação e adaptação é o nome do jogo.&lt;/p&gt;
+
+&lt;p&gt;Em um dos últimos projetos em que trabalhei, havia um UX com esse perfil mais antiquado. Deixamos de entregar mudanças importantes de interface do painel do usuário, por que o UX queria fazer um estudo para mudar a ordem das opções no menu (!). Ele ligou para vários clientes e agendou um dia de &amp;ldquo;bate papo&amp;rdquo; com eles. Se preparou dias, movimentou P.O., marketing, outros UXzes&amp;hellip; Comprou comida, agendou sala. Ninguém apareceu. Final da história: o time de desenvolvimento ficou 4 meses com a nova versão da interface no forno e o usuário não recebeu uma grande melhoria no seu produto, tudo por conta de uma simples mudança no menu.&lt;/p&gt;
+
+&lt;p&gt;O que poderia ter sido feito: era possível ter subido a nova interface, com vários triggers para mapear o comportamento do usuário, recolhendo dados importantes, tentando descobrir quais os problemas do menu atual e planejando as possíveis soluções da próxima versão, entregando de forma incremental as novas features. Poderíamos ter feito análises do comportamento do usuário usando ferramentas como o Hotjar e sistemas similares que gravam o movimento e as ações do mouse do usuário na interface do produto. Meia hora assistindo esses vídeos já nos trariam respostas realmente importantes sobre o que é necessário modificar no menu ou em qualquer outra parte da interface.&lt;/p&gt;
+
+&lt;p&gt;Mas há um ponto para tomar cuidado em entregas incrementais: a feature precisa ser terminada. Ela precisa ter um ponto onde possamos dizer que ela está &amp;ldquo;completa&amp;rdquo;. A abordagem de entregas incrementais pode virar um ciclo infinito e a feature pode mudar muitas vezes durante um longo período de tempo. O outro ponto é que se o P.O. não priorizar as outras tarefas da feature, ela realmente pode ficar incompleta, embora fique totalmente funcional.&lt;/p&gt;
+
+&lt;p&gt;Moral da história: prefira tomar decisões baseadas em dados ao invés de tentar prever as ações do usuário. Dados são fatos. Usuários, infelizmente, mentem&amp;hellip; e há um monte de UXzes que caem nessas mentiras.&lt;/p&gt;
+
+&lt;p&gt;PS.: Eu não estou dizendo que cerimônias, entrevistas com o usuário e a utilização de técnicas milagrosas especiais não são válidas e inúteis. Elas devem ser aplicadas, mas não devem ser a última palavra para definir as ações do time.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Hello World com React desde o rascunho</title>
     <link rel="alternate" href="http://diegoeis.com/hello-world-com-react-desde-o-rascunho.html"/>
     <id>http://diegoeis.com/hello-world-com-react-desde-o-rascunho.html</id>
     <published>2016-10-22T22:00:00-02:00</published>
-    <updated>2016-10-23T12:22:23-02:00</updated>
+    <updated>2016-12-22T23:28:04-02:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -327,7 +375,7 @@ reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/s
     <link rel="alternate" href="http://diegoeis.com/review-de-livro-ted-talks-o-guia-oficial-do-ted-para-falar-em-publico.html"/>
     <id>http://diegoeis.com/review-de-livro-ted-talks-o-guia-oficial-do-ted-para-falar-em-publico.html</id>
     <published>2016-10-20T22:00:00-02:00</published>
-    <updated>2016-10-22T11:48:19-02:00</updated>
+    <updated>2016-12-22T23:28:04-02:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -375,7 +423,7 @@ reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/s
     <link rel="alternate" href="http://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html"/>
     <id>http://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html</id>
     <published>2016-10-12T21:00:00-03:00</published>
-    <updated>2016-10-22T11:48:19-02:00</updated>
+    <updated>2016-12-22T23:28:04-02:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -410,7 +458,7 @@ reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/s
     <link rel="alternate" href="http://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html"/>
     <id>http://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html</id>
     <published>2016-09-21T21:00:00-03:00</published>
-    <updated>2016-10-22T11:50:41-02:00</updated>
+    <updated>2016-12-22T23:28:04-02:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -485,7 +533,7 @@ reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/s
     <link rel="alternate" href="http://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html"/>
     <id>http://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html</id>
     <published>2016-09-12T21:00:00-03:00</published>
-    <updated>2016-10-22T11:50:41-02:00</updated>
+    <updated>2016-12-22T23:28:04-02:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -496,24 +544,6 @@ reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/s
 &lt;p&gt;Quer ouvir, dá o play aí!&lt;/p&gt;
 
 &lt;iframe width="320" height="100" src="http://hipsters.tech/?powerpress_embed=373-podcast&amp;amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;
-</content>
-  </entry>
-  <entry>
-    <title>BrazilJS 2016 - Sobre o básico de JSON-LD e Web Semântica</title>
-    <link rel="alternate" href="http://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html"/>
-    <id>http://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html</id>
-    <published>2016-08-28T21:00:00-03:00</published>
-    <updated>2016-10-23T12:04:57-02:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Esses são os slides da minha palestra feita no BrazilJS de 2016.&lt;/p&gt;
-
-&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/qRDOIDTV8mbs7C" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;&lt;img src="assets/images/braziljs-2016/2016-08-26-15.53.27.jpg" /&gt;
-&lt;img src="assets/images/braziljs-2016/2016-08-26-15.57.04.jpg" /&gt;
-&lt;img src="assets/images/braziljs-2016/2016-08-26-16.05.29.jpg" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
