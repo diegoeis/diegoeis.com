@@ -5,10 +5,33 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2016-12-21T22:00:00-02:00</updated>
+  <updated>2016-12-26T22:00:00-02:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>Bye bye Locaweb</title>
+    <link rel="alternate" href="http://diegoeis.com/bye-bye-locaweb.html"/>
+    <id>http://diegoeis.com/bye-bye-locaweb.html</id>
+    <published>2016-12-26T22:00:00-02:00</published>
+    <updated>2016-12-27T20:58:04-02:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Este foi meu último dia de trabalho na Locaweb. Foram 5 anos que pareceram poucos meses. A Locaweb é uma empresa tão incrível, que você não vê o tempo passar, e quando percebe, você já se tornou parte da família.&lt;/p&gt;
+
+&lt;p&gt;Quando estava procurando uma nova empresa para morar, eu não queria ir para qualquer lugar. Eu queria ir para um lugar onde eu pudesse fazer a diferença, pudesse ajudar a empresa a crescer, a se modificar, a se transformar para a melhor e acima de tudo, um lugar onde eu pudesse continuar empreendendo, como sempre fiz. A Locaweb caiu como uma luva, e mais que isso, se tornou minha segunda casa.&lt;/p&gt;
+
+&lt;p&gt;Nesses 5 anos a Locaweb, como empresa, mudou totalmente. Vi mudanças de diretorias, mudanças de gerências, integrantes de times saindo e entrando, projetos nascendo e morrendo. Aqui eu pude participar dos erros e dos acertos. Mas principalmente eu pude errar. Se eu puder te dar uma dica valiosa: encontre uma empresa onde te permita errar. Onde há espaço para você fazer aquela porcaria gigante, mas que também te de espaço para concertar o erro. Aqui na Locaweb foi e é permitido fazer isso… E foi assim que eu cresci muito.&lt;/p&gt;
+
+&lt;p&gt;Como toda empresa, há problemas e isso é normal. Não dá para esperar que uma empresa com mais de 1200 funcionários, mais de 250 mil clientes, que fatura milhões por mês com vários produtos seja perfeita e não tenha problemas. Eu entrei na Locaweb sabendo que ela era uma empresa adorada e odiada pelos clientes. Eu perdi a conta de quantas vezes eu já ouvi desenvolvedores falarem muito mal da Locaweb pra mim. Normal. Se 1% dos clientes da Locaweb falam mal, são 2500 pessoas insatisfeitas. É gente pra caramba. Mas não é maior que os outros 248 mil pessoas e empresas, que usam satisfeitos os produtos e que nos ajudavam a crescer todos os dias com suas sugestões.&lt;/p&gt;
+
+&lt;p&gt;Eu queria terminar agradecendo a todos os funcionários da Locaweb que eu tive contato. Não foram poucos. E isso era uma das coisas que eu mais gostava. Eu tinha contato com pessoas do RH, Marketing, Operações, Suporte, Diretoria, além das outras 3 empresas compradas pela Locaweb: a Eventials, Tray e AllIn. Construi relações importantes com todos eles.
+Obrigado Locaweb por fazer parte da minha vida. Ganharam um amigo.&lt;/p&gt;
+
+&lt;p&gt;Agora, começo um novo ciclo na Easynvest como Gestor de Produtos! Uma outra empresa incrível, da qual tenho o prazer de ser cliente e agora, além de me ajudar a investir melhor meu dinheiro, vão me ajudar muito mais a crescer como pessoa e profissional. Que alguém os proteja. ;-)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>UX - reação é melhor que previsão</title>
     <link rel="alternate" href="http://diegoeis.com/ux-reagir-e-melhor-que-prever.html"/>
@@ -526,24 +549,6 @@ reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/s
 &lt;p&gt;Logo, me desfazer do carro seria bobeira, já que posso contar com ele para viajar e fazer passeios mais longos. O que planejo agora é ter, talvez, um carro menor, que gaste menos gasolina.&lt;/p&gt;
 
 &lt;p&gt;Com essas adaptações, mais a facilidade de trabalhar em casa, fazendo alguns dias de home office, consigo ter inúmeras vantagens. Além de ficar mais saudável e normalmente mais disposto.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>CSS - Cansei de Ser Simples – Podcast Hipsters 09</title>
-    <link rel="alternate" href="http://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html"/>
-    <id>http://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html</id>
-    <published>2016-09-12T21:00:00-03:00</published>
-    <updated>2016-12-22T23:28:04-02:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;O Paulo Silveira e o Sergio Lopes da Caelum Alura me convidaram esses dias para falar um pouco sobre CSS no podcast sobre tecnologia Hipsters! &lt;/p&gt;
-
-&lt;p&gt;Nesse episódio, falamos um pouco sobre CSS, sua história, organização de arquivos, pré-processadores e várias coisas que envolvem essa coisa que amo de paixão, o CSS.&lt;/p&gt;
-
-&lt;p&gt;Quer ouvir, dá o play aí!&lt;/p&gt;
-
-&lt;iframe width="320" height="100" src="http://hipsters.tech/?powerpress_embed=373-podcast&amp;amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;
 </content>
   </entry>
 </feed>
