@@ -1,5 +1,5 @@
 ---
-title: Bye bye Locaweb
+title: Locaweb
 date: 2016-12-27 00:00 UTC
 tags: mercado
 ---
