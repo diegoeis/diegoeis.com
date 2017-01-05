@@ -1,6 +1,6 @@
 ---
 title: Um pequeno estudo sobre a Microsoft
-date: 2017-01-06 00:00 UTC
+date: 2016-12-31 08:00 GMT
 tags: artigos mercado gestão
 ---
 
@@ -13,7 +13,7 @@ A primeira ideia que tive para a apresentação foi de transformar o Edge em um 
 ## A visão atual e futura da Microsoft
 Com o comando do Steve Ballmer, a Microsoft tinha uma visão resumida em duas palavras: Devices + Services. A ideia era ter hardware e software para consumidores e empresas. Era muito comum ouvir o Ballmer falar sobre "família de dispositivos" da Microsoft. 
 
-![](post-microsoft-entrevista/visao-atual.png)
+![](post-microsoft/visao-atual.png)
 
 O Surface é um ótimo aparelho, mas ainda está longe de ter as vendas de um iPad, quem dirá chegar perto das vendas de tablets com Android. O Windows Phone não decolou nem com a compra da Nokia. O Xbox dá dinheiro, mas nos últimos quarters de 2016 ele estava dando prejuízo de uns 5% pra empresa (este número está nos reports). O Windows está dando prejuízo, embora tenha se recuperado com o Windows 10 (o Windows 8 foi embaraçoso pra MS), mesmo com a Microsoft liberando o upgrade gratuito para quem tinha Windows 8.
 
@@ -29,7 +29,7 @@ Na realidade Mobile e Cloud precisam se interagir como se fossem um só. Não ex
 A visão de futuro da Microsoft é muito, mas muito legal.
 Ela quer focar em conversações. 
 
-![](post-microsoft-entrevista/visao-futuro.png)
+![](post-microsoft/visao-futuro.png)
 
 O mantra é: **Conversations as a Platform**. Isso tem bastante a ver com o que temos visto com a era dos assistentes pessoais como a Cortana, Siri etc. Além dos Chatbots, que estão dominando vários mercados. Veja esse vídeo da apresentação que eles fizeram em Março do ano passado.
 
@@ -55,7 +55,7 @@ Além disso, na estratégia de cloud, a Microsoft quer facilitar ambientes  do A
 ## Os concorrentes
 Eu não listei todos os concorrentes do mundo, mas selecionei dois que eu julguei os principais: Steam e Playstation. 
 
-![](post-microsoft-entrevista/concorrentes.png)
+![](post-microsoft/concorrentes.png)
 
 Levantei os números de cada um, além dos números do Xbox. Aqui eu já enfrentei um problema: o que é um **Usuário Ativo** para esses caras? Os três tratam usuários ativos de forma diferente: 
 
@@ -68,11 +68,11 @@ A receita de cada que é estrondosa. Veja que o Xbox e o Playstation ficam na ca
 ## O mercado de jogos
 Eu gosto de jogar video game, mas não jogo desde que meu Xbox quebrou e eu decidi tentar usar esse tempo com coisas mais úteis. Mas mesmo eu gostando bastante de jogar, eu não tinha ideia do tamanho do mercado de jogos. Eu sei que eles faturam milhões. Mas qual o cenário global dos jogos? Quais os mercados que o Xbox atua?
 
-![](post-microsoft-entrevista/mercado1.png)
+![](post-microsoft/mercado1.png)
 
 Em 5 anos o mercado de jogos cresceu algo em torno de 6.6%. Perceba o aumento do mercado de jogos para smartphone e mobile, comendo quase 46% de todo o valor, faturando algo em torno de USD$52.5 Bilhões.
 
-![](post-microsoft-entrevista/mercado2.png)
+![](post-microsoft/mercado2.png)
 
 Depois que eu parei de jogar em consoles frequentemente, eu me entreguei a jogos casuais como Clash of Clans, HearthStone, Mario Run etc. Esses jogos pegam exatamente um público como eu, que quer continuar jogando, mas não tem uma, duas ou três horas disponíveis para sentar na frente de uma televisão com calma.
 
@@ -117,13 +117,14 @@ Eu respondi que o risco para o usuário seria não ter esse ecossistema funciona
 ## Para ler mais
 Foi um exercício bem legal. Tive que fazer em uns 4 dias. Achei que a apresentação ficou muito simples. Mesmo assim eles gostaram bastante. Mas como disse lá em cima, o que eu mais gostei foi de buscar informações sobre uma única empresa e se aprofundar na sua cultura, visão de futuro etc. E você, o que achou?
 
-**Dados Faturamento Raking:**
+#### Dados Faturamento Raking:
+
 - [http://fortune.com/2016/02/04/most-valuable-companies-fortune-500-apple/](http://fortune.com/2016/02/04/most-valuable-companies-fortune-500-apple/)
-- [http://www.forbes.com/global2000/list/#header:position_industry:Software%20%26%20Programming](http://www.forbes.com/global2000/list/#header:position_industry:Software%20%26%20Programming)
 - [http://www.businessinsider.com/4-most-valuable-public-companies-all-tech-companies-2016-8](http://www.businessinsider.com/4-most-valuable-public-companies-all-tech-companies-2016-8)
 - [http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Technology&sortname=marketcap&sorttype=1](http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Technology&sortname=marketcap&sorttype=1)
 
-**Visão estratégica Microsoft**
+
+#### Visão estratégica Microsoft
 - [https://news.microsoft.com/2014/03/27/satya-nadella-mobile-first-cloud-first-press-briefing/#sm.0000114k83ys2vezgvftkl04uyjvq](https://news.microsoft.com/2014/03/27/satya-nadella-mobile-first-cloud-first-press-briefing/#sm.0000114k83ys2vezgvftkl04uyjvq)
 - [http://www.informationweek.com/software/enterprise-applications/microsofts-mobile-first-cloud-first-strategy-explained/d/d-id/1234865](http://www.informationweek.com/software/enterprise-applications/microsofts-mobile-first-cloud-first-strategy-explained/d/d-id/1234865)
 - [http://www.theverge.com/2013/9/20/4749574/microsoft-business-model-mix-of-google-and-apple](http://www.theverge.com/2013/9/20/4749574/microsoft-business-model-mix-of-google-and-apple)
