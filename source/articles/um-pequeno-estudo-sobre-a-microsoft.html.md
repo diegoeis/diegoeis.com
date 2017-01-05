@@ -1,7 +1,7 @@
 ---
 title: Um pequeno estudo sobre a Microsoft
 date: 2016-12-31 08:00 GMT
-tags: artigos mercado gestão
+tags: artigos, mercado, gestão
 ---
 
 Uma das fases de uma entrevista de emprego que participei ano passado, envolveu fazer um exercício. A tarefa era a seguinte: eu deveria escolher uma das 10 empresas de tecnologia mais valiosas do mundo e imaginar que eu acabei de ser contratado pra liderar todo o desenvolvimento de um dos produtos dessa empresa. Eu deveria fazer uma apresentação mostrando uma análise estratégica do produto e principais entregas recentes, além de uma definição estratégica de médio prazo, com um roadmap de entregas. Como você já deve saber pelo título desse artigo, eu acabei escolhendo a Microsoft.

@@ -1,7 +1,7 @@
 ---
 title: UX - reação é melhor que previsão
 date: 2016-12-22 00:00 UTC
-tags: ux design
+tags: ux, design
 ---
 
 Entender o usuário é algo difícil. Você pode perceber isso facilmente comparando a sua forma de usar algum serviço de internet, digamos o Facebook, com qualquer outra pessoa ao seu redor. Provavelmente você tem um costume totalmente diferente de navegar, consumir conteúdo, comentar etc. Pessoas diferentes, usam de formas diferentes um mesmo produto e isso é totalmente normal. É por isso que tentar prever cenários para desenvolver um produto para internet é algo complicado.
