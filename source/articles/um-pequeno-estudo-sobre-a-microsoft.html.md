@@ -109,13 +109,15 @@ Mapeando de forma bem macro as oportunidades seriam:
 Nesse processo, eu li vários relatórios financeiros da Microsoft. Ela disse em cada um deles que a ideia é fortalecer o ecossistema da empresa, colocando o Windows 10 como o centro da coisa toda... Exatamente por isso que eles trocaram o sistema dos seus aparelhos para Windows 10, diminuindo o problema de compatibilidade entre as plataformas.
 
 Os riscos e dúvidas seriam:
+
 - Provavelmente usuários deixam de comprar o console; Xbox teve uma queda de 5% na receita no último quarter de 2016.
 - Jogadores não poderão fazer stream de jogos que foram comprados para PC “fora” da Live; Ou seja, só jogos comprados da Live seriam "streamados".
 - Fabricantes de Jogos poderão continuar vendendo seus jogos para PC fora da Xbox Live?
 - O aplicativo de jogos multiplaforma que eu estou sugerindo ainda teria Xbox no nome ou poderia passar a se chamar apenas Microsoft Live?
 
 Uma pergunta que surgiu na entrevista foi: **Quais os riscos para o usuário?**
-Eu respondi que o risco para o usuário seria não ter esse ecossistema funcionando adequadamente. Querendo ou não, a Microsoft ainda está montando seu ecossistema. Ela ainda não é como o Google ou a Apple que tem seus jardins dourados funcionando muito bem. Ela começou agora sair da caixa e a colocar seus apps em lugares que ela não é dona, como é o caso do pacote Office rodando perfeitamente e de graça no iOS.
+
+Eu respondi que o risco para o usuário seria não ter esse ecossistema funcionando adequadamente. Querendo ou não, a Microsoft ainda está montando seu ecossistema. Ela ainda não é como o Google ou a Apple que tem seus jardins dourados funcionando muito bem. Ela começou a sair da caixa agora, colocando seus apps em lugares que ela não é dona, como é o caso do pacote Office rodando perfeitamente e de graça no iOS.
 
 ## Para ler mais
 Foi um exercício bem legal. Tive que fazer em uns 4 dias. Achei que a apresentação ficou muito simples. Mesmo assim eles gostaram bastante. Mas como disse lá em cima, o que eu mais gostei foi de buscar informações sobre uma única empresa e se aprofundar na sua cultura, visão de futuro etc. E você, o que achou?
