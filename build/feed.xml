@@ -5,10 +5,239 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2017-01-31T22:00:00-02:00</updated>
+  <updated>2017-03-09T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>Estatística básica nas entregas de projetos  agile - Moda, mediana e percentil</title>
+    <link rel="alternate" href="http://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html"/>
+    <id>http://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html</id>
+    <published>2017-03-09T21:00:00-03:00</published>
+    <updated>2017-03-12T10:38:04-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/1000/1*fieJwIgvONqnVLyPcEcw_A.jpeg" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Estatística básica nas entregas de projetos  agile — Moda, mediana e percentil&lt;/h3&gt;
+
+&lt;p&gt;Cada uma das metodologias de gestão de projetos tem suas próprias
+características de funcionamento e essência. Mas todas elas tentam responder uma
+grande pergunta que virou clichê faz milhares de anos: &lt;strong&gt;quando o projeto será
+entregue?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A graça das metodologias ágeis é que você trabalha em cima de transparência,
+incluindo o usuário e os stakeholders no processo, permitindo mudanças de planos
+no meio do caminho, apressando as falhas e tentando entregar incrementos de
+valor ao final de cada ciclo. Tudo isso serve para gerenciar as expectativas e
+fazer as informações do projeto fluir. Aproximando os stakeholders e os
+clientes, eles ganham visibilidade do status do projeto, diminuindo a ansiedade
+sobre quando o projeto vai ser entregue. Mesmo que as expectativas estejam bem
+gerenciadas, saber quando um projeto vai ser entregue é importante para o
+planejamento do produto.&lt;/p&gt;
+
+&lt;p&gt;Para ajudar nessa tarefa, existem uma série de métricas já bem conhecidas que
+monitoram a saúde do processo de desenvolvimento. Alguns deles você já conhece
+como o CFD, Lead Time, Cycle Time etc. Contudo, essas métricas, por si só,
+mostram o cenário imediato do projeto. Eles são importantes, porque te mostrarão
+se você está no caminho certo ou errado. Mas além de saber se estamos no caminho
+certo, nós podemos trazer um pouco de luz no caminho que estamos tomando,
+tentando prever nossas entregas e consequentemente termos um vislumbre de quando
+poderá ser a entrega do projeto.&lt;/p&gt;
+
+&lt;p&gt;A ideia desse artigo não é abordar, ainda, a parte legal das &lt;a href="http://blog.kudoos.com.br/lean/previsao-probabilistica/"&gt;previsões
+probabilísticas&lt;/a&gt; de
+projetos, mas é dar alguma ideia para você que pode estar querendo fazer um
+pouco mais do que só olhar o CFD do seu time.&lt;/p&gt;
+
+&lt;h3&gt;Consistência e tamanho das histórias&lt;/h3&gt;
+
+&lt;p&gt;O primeiro segredo para prever o futuro das entregas em um projeto é ter
+consistência. O time precisa ter uma frequência de entrega consistente. Isso não
+é algo fácil de se conseguir, pois o processo de desenvolvimento não é linear,
+pelo contrário: imprevistos acontecem, pessoas ficam doentes, o caso do bus
+factor, ambientes de desenvolvimento quebram, o mercado muda… Tudo isso faz com
+que o desenvolvimento de software seja um lugar
+&lt;a href="https://medium.com/gestao-produtos/management-3-0-primeiras-pÃ¡ginas-5fbf082ddf74#.l3caqqirt"&gt;complexo&lt;/a&gt;
+de se trabalhar. Para tentar diminuir as incertezas, nós precisamos entregar
+tarefas sempre do mesmo tamanho e você sabe que isso é algo difícil de se fazer.
+Não quero falar aqui sobre metodologias de estimativa, porque não importa qual
+metodologia você usa, o que importa é que no final você e seu time tenham
+histórias do mesmo tamanho e que sejam claras para todo mundo.&lt;/p&gt;
+
+&lt;p&gt;Essa coisa de histórias &lt;strong&gt;pequenas, médias e grandes&lt;/strong&gt; não existe. Você precisa
+que todas as histórias tenham de preferência, o menor tamanho possível, mas que
+continuem entregando valor para o usuário. A ideia é que seu backlog seja
+recheado de tarefas mais ou menos do mesmo tamanho, possibilitando sua entrega
+dentro do ciclo (sprint ou semana). Como você vai saber qual o tamanho ideal das
+tarefas do seu time? Experimentando. Aqui não tem segredo nenhum, é só medir e
+comparar com o passado. Pegue os outliers (tarefas que demoraram muito mais
+tempo para fazer do que as outras) e descubra o que aconteceu e tente se
+certificar de que isso não aconteça mais. Existem cerimônias para facilitar o
+processo como o Incepction, Refinement, Plannings etc…&lt;/p&gt;
+
+&lt;p&gt;Uma das maneiras de validar que a frequencia de entrega do seu time é
+consistente, você pode usar o Throughput. O &lt;strong&gt;Throughput&lt;/strong&gt; tem uma série de
+definições por aí, principalmente no mundo Agile, mas para mim e para algumas
+empresas de tecnologia &lt;strong&gt;throughput é a quantidade de histórias (user story)
+entregues na semana&lt;/strong&gt;. Se seu time consegue quebrar bem as histórias, de formas
+que elas entreguem valor e sejam pequenas o bastante para serem entregues sem
+ultrapassar o ciclo, vocês conseguiram dar o primeiro passo para prever o
+futuro. Veja um exemplo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/1000/1*B-bROvrbGKp8E3i7wsIStQ.png" /&gt;
+&lt;span class="figcaption_hack"&gt;Throughput vs Semana&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Esse é o gráfico de um time de produto real. Os valores são das últimas semanas
+de 2016. Veja que a partir da semana 39 até a semana 47 as entregas eram
+realmente desproporcionais. Depois de uma ou duas reuniões, descobrimos que um
+dos motivos era que estávamos quebrando muito mau as histórias. A partir da
+semana 48 até a 52, quando começamos a tentar quebrar as histórias no menor
+tamanho possível (mas ainda entregando valor para o cliente), retirando as
+incertezas nos Refinamentos e Plannings, percebemos uma melhora gigante nas
+entregas. Perceba que mesmo assim há uma diferença da quantidade de entregas nas
+últimas semanas (48 à 52), mas nós já tínhamos certeza de que o motivo não era o
+tamanho das tarefas, mas com problemas de infraestrutura, feriados etc.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Se seu time consegue quebrar bem as histórias, de formas que elas entreguem
+valor e sejam pequenas o bastante para serem entregues sem ultrapassar o ciclo,
+vocês conseguiram dar o primeiro passo para prever o futuro&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esse é o primeiro: conheça o Throughput do seu time. Marque a quantidade de
+entregas numa planilha e faça um gráfico. Perceba no gráfico que a média de
+entregas são 9 histórias por semana. Embora a média seja 9, veja na semana 41,
+onde eles entregaram 14 histórias… Mas na semana seguinte, eles entregaram
+apenas 1. Isso não é consistência. A partir da semana 48 a coisa toda começou a
+melhorar e nós podíamos ter um pouco mais de certeza dos números que nós iríamos
+entregar, já que estávamos melhorando a frequência das entregas. Mesmo assim, há
+um problema nesse gráfico: a média. É aí que entra a estatística básica.&lt;/p&gt;
+
+&lt;h3&gt;&lt;strong&gt;Estatística descritiva básica&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;A média é interessante, mas não pode ser usada sozinha para dar a resposta de
+quanto o time entrega semanalmente. Então o que podemos fazer para ter uma
+resposta melhor? Vamos usar algumas técnicas básicas da estatística descritiva.
+A estatística descritiva é a parte da estatística responsável por apontar
+tendências de comportamento e descrever conjuntos de dados. Fazem parte da
+estatística descritiva as medidas de tendência central ou medidas de posição
+como a &lt;strong&gt;média aritmética&lt;/strong&gt;, &lt;strong&gt;moda&lt;/strong&gt;, &lt;strong&gt;mediana&lt;/strong&gt; e &lt;strong&gt;percentil&lt;/strong&gt;. Há também as
+&lt;strong&gt;medidas de dispersão&lt;/strong&gt;, que envolvem o desvio padrão, variância e outros… que
+também são úteis para descobrir insights sobre as entregas do seu time, mas não
+vamos ver isso nesse artigo.&lt;/p&gt;
+
+&lt;h4&gt;&lt;strong&gt;Moda&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;A &lt;strong&gt;moda&lt;/strong&gt; é o número que aparece mais vezes em uma distribuição de dados.
+Imagine os dados de entrega de um time fictício:&lt;/p&gt;
+
+&lt;iframe class="airtable-embed" src="https://airtable.com/embed/shrgtrc7mIURC1eS8?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Veja que o número que aparece mais vezes na coluna de entregas é o número 1.
+Isso quer dizer que &lt;strong&gt;na maior parte das semanas esse time entregava apenas uma
+tarefa&lt;/strong&gt;. Terrível. Quanto maior esse número, melhor.&lt;/p&gt;
+
+&lt;p&gt;Quero deixar apenas uma observação: a distribuição de dados que eu estou usando
+é bastante pequena, mas vai servir para o nosso exemplo. Quanto mais dados
+históricos você tiver, melhor. &lt;strong&gt;Contudo,&lt;/strong&gt; &lt;strong&gt;se houver alguma mudança drástica
+no modo com que seu time entrega as tarefas, por exemplo, começar a fazer o
+deploy das tarefas de forma automatizada, você deve levar em consideração essa
+mudança nas suas análises.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;strong&gt;Mediana&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;A mediana é a irmã mais sensata da média. Ela não é influenciada pelos valores
+extremos e por isso pode trazer uma resposta muito mais consistente sobre uma
+distribuição de valores: a mediana é o número que divide uma distribuição de
+dados exatamente no meio.&lt;/p&gt;
+
+&lt;p&gt;Imagine as seguintes 10 semanas de entregas do seu time: 2, 2, 4, 2, 5, 3, 3, 5,
+4. Se você somar todos esses números (30) de entregas e dividir pela quantidade
+de semanas (10) a média de entregas do time será de 3.3 tarefas por semana. Mas
+imagine que em uma semana atípica, o time entregou 30 tarefas. A média, nesse
+caso, seria puxada para cima, virando 6 entregas por semana. E aqui está o
+problema: por causa de uma única semana, você obteve um cenário totalmente falso
+sobre a capacidade de entregas do seu time.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;mediana&lt;/strong&gt;, por sua vez, não seria influenciada por essa semana atípica. A
+mediana nesse caso é 3.5, um valor muito próximo da média sem contar com as
+entregas da semana atípica. Nesse ponto, é muito melhor acreditar na mediana do
+que na média. &lt;strong&gt;Para distribuições sem valores extremos, a média e a mediana são
+semelhantes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Usar média não é errado e só usar a mediana não quer dizer que você estará
+correto. O segredo é saber qual *medida do meio *usar em cada situação. Eu
+sugiro que você evite usar apenas uma das medidas do meio. Eu sempre deixo à mão
+nas minhas planilhas as duas medidas. Quanto mais parecidas elas tiverem,
+melhor.&lt;/p&gt;
+
+&lt;h4&gt;Percentis&lt;/h4&gt;
+
+&lt;p&gt;Como disse, a &lt;strong&gt;mediana define o meio de uma distribuição.&lt;/strong&gt; Logo, podemos
+dividir uma distribuição de dados em quatro partes iguais, chamados de
+&lt;strong&gt;quartis&lt;/strong&gt;. O primeiro quartil consiste em 25% das distribuições inferiores. O
+segundo quartil consiste nos 25% seguintes da distribuição e assim por diante.
+Nós podemos dividir a distribuição em centésimos ou como é comumente chamada de
+percentis, onde cada percentil representa 1% da distribuição. A vantagem do
+percentil é que ele mostra onde uma observação particular pode se encontrar em
+comparação à todo o restante.&lt;/p&gt;
+
+&lt;p&gt;Não se preocupe com as fórumas. Você pode confiar nas fórmulas do Google Sheets
+ou do Excel. Eu confirmei os números desse artigo Google Sheets. Logo, é só ter
+uma distribuição em qualquer programa de planilha do seu gosto, escrever , fica
+algo assim:  para descobrir o primeiro quarto do percentil, que é o que ocorre
+em 75% do tempo do seu time.&lt;/p&gt;
+
+&lt;iframe class="airtable-embed" src="https://airtable.com/embed/shrRicu76jmWQ8hUf?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Dado a tabela acima, que mostra as distribuições das entregas do time fictício,
+conseguimos separar os percentis. Ficou algo assim:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Percentil de 25% é igual a 3.8:&lt;/strong&gt; o que significa que em 85% do tempo o nosso
+time entrega 3.8 (4, se for arredondar) tarefas por semana ou menos ou se
+preferir, significa que em &lt;strong&gt;85%&lt;/strong&gt; das semanas, o time entrega mais do que 3.8
+histórias.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Percentil 50% é igual a 7:&lt;/strong&gt; significando que em 50% das semanas, o time
+entrega 7 histórias ou menos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Percentil dos 75% é 12:&lt;/strong&gt; que significa que em 25% das semanas, o time entrega
+12 histórias ou mais e que em 75% das semanas, o time entrega menos do que 12
+histórias por semanas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Concluindo&lt;/h3&gt;
+
+&lt;p&gt;Trabalhar com Agile quer dizer que você precisa aprender com o passado. Todo
+aquela história Empirical Process que as metodologias ágeis pregam
+(principalmente o Scrum), só fizeram sentido pra mim quando eu vi as mudanças se
+refletindo nos números.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Os números ajudam o time a alcançar a frequência consistente de entregas, que é
+o segredo para iniciar a previsibilidade de entrega do seu projeto.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Geralmente eu uso Jira para recolher esses dados, mas não importa a ferramenta
+que você utiliza, desde que você consiga extrair os dados necessários para
+conseguir essas respostas.&lt;/p&gt;
+
+&lt;p&gt;É claro que esses dados não garantem que o seu usuário estará recebendo valor de
+verdade e que as features priorizadas estão realmente fazendo a diferença para o
+produto e para o negócio. O trabalho de análise desses dados só fazem sentido se
+você tiver feito as lições de casa antes com seu time, trabalhando para que o
+produto tenha uma visão clara e que os objetivos do negócio estejam realmente
+alinhados com as expectativas de todos.&lt;/p&gt;
+
+&lt;p&gt;Para se aprofundar e ler mais:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.plataformatec.com.br/2016/02/why-we-love-metrics-throughput-and-burnup-charts/"&gt;http://blog.plataformatec.com.br/2016/02/why-we-love-metrics-throughput-and-burnup-charts/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.kudoos.com.br/gestao-agil/entendendo-lei-de-little/"&gt;http://blog.kudoos.com.br/gestao-agil/entendendo-lei-de-little/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Introdução bem rápida sobre vim</title>
     <link rel="alternate" href="http://diegoeis.com/introducao-bem-rapida-sobre-vim.html"/>
@@ -395,319 +624,6 @@ Planejar grandes mudanças de uma vez é furada. Qualquer um sabe disso. Mudanç
 &lt;p&gt;Moral da história: prefira tomar decisões baseadas em dados ao invés de tentar prever as ações do usuário. Dados são fatos. Usuários, infelizmente, mentem&amp;hellip; e há um monte de UXzes que caem nessas mentiras.&lt;/p&gt;
 
 &lt;p&gt;PS.: Eu não estou dizendo que cerimônias, entrevistas com o usuário e a utilização de técnicas milagrosas especiais não são válidas e inúteis. Elas devem ser aplicadas, mas não devem ser a última palavra para definir as ações do time.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Hello World com React desde o rascunho</title>
-    <link rel="alternate" href="http://diegoeis.com/hello-world-com-react-desde-o-rascunho.html"/>
-    <id>http://diegoeis.com/hello-world-com-react-desde-o-rascunho.html</id>
-    <published>2016-10-22T22:00:00-02:00</published>
-    <updated>2016-12-22T23:28:04-02:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Há muito tempo eu queria fazer um Hello World com React, mas nunca tinha tempo por que eu mudei de área fazem uns 3 anos, ficando mais na parte de gestão de produtos e times, deixando totalmente o desenvolvimento e a escrita de código. Por isso, senti na pele o que os iniciantes sentem quando precisam fazer um simples Hello World de uma tecnologia nova. São tantos artigos falando coisas diferentes, usando setups diferentes, na sua maioria complexos e que não explicam as coisas com simplicidade.&lt;/p&gt;
-
-&lt;p&gt;É por isso que eu tenho procurado conteúdo fácil para poder investir um tempo e aprender pelo menos o básico e o início do React. Eu li uma série de fontes pela internet, que você pode conferir no final do artigo, além de um curso grátis, muito, mas muito bem feito pelo &lt;a href="http://jscasts.teachable.com/"&gt;Matheus Lima no JSCasts&lt;/a&gt;. Esse é um artigo baseado em todas essas fontes. Tentei abstrair toda as inutilidades que alguém não precisa aprender logo que está iniciando. Espero que tenha cumprido com o objetivo.&lt;/p&gt;
-
-&lt;h2&gt;Conceitos do React e Introdução&lt;/h2&gt;
-
-&lt;p&gt;O React foi pensado em como podemos componentizar nossos elementos, de forma que eles sejam independentes, mas reutilizáveis. Pensa em um componente como se fosse um widget ou um módulo. Se ficar mais fácil, pense que um componente é um pedaço de HTML, CSS, JS e os poucos dados que irão popular esse pedaço do layout.&lt;/p&gt;
-
-&lt;p&gt;Sem entrar na polêmica de modularização e componentização no JS, atualmente, nós organizamos na pior das hipóteses - e mais comum também -, os componentes como partes separadas de códigos. Você pega um pedaço de código HTML, coloca numa determinada página, que é formatada com CSS e manipulada com JS. O código que estrutura, formata e manipula seu componente está separado nesses três arquivos de HTML, CSS e JS. No React, o conceito é mais simples, onde unificamos o HTML dentro do JS, o que no React chamamos de JSX.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/iniciando-react/react-component.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Perceba que na imagem acima - &lt;a href="https://dribbble.com/shots/1262636-To-Do-Dashboard/attachments/172917"&gt;peguei o layout de exemplo daqui&lt;/a&gt; - cada retângulo colorido tem um componente pai, com seus componentes internos,  que chamamos de componentes filhos. Podemos, então, criar um componente chamado &lt;code&gt;navBar&lt;/code&gt; com um componente filho chamado &lt;code&gt;userInfo&lt;/code&gt;, que conterá as informações do usuário. O nosso componente &lt;strong&gt;pai&lt;/strong&gt;, guarda estado dos dados que usaremos nos componentes filhos. O &lt;strong&gt;pai&lt;/strong&gt; compartilha os dados com os filhos por meio de atributos. Nesse exemplo, a &lt;code&gt;navBar&lt;/code&gt; iria compartilhar as informações do usuário logado para o componente filho &lt;code&gt;userInfo&lt;/code&gt;. Esta hierarquia de pai e filho faz com que o gerenciamento de dados seja simples, por que nós sabemos exatamente onde os dados estarão, não causando confusão usando esses dados erroneamente em outros lugares.&lt;/p&gt;
-
-&lt;p&gt;O JSX é como o ReactJS cria os componentes em JavaScript. Você vai escrever HTML (quase) normal dentro do próprio JS, o ReactJS, por sua vez, vai se encarregar de traduzir esse HTML para JavaScript, que vai renderizar um elemento no DOM. Se você tem o código &lt;code&gt;&amp;lt;h1&amp;gt;Titulo&amp;lt;/h1&amp;gt;&lt;/code&gt;, o JSX vai se transformar em &lt;code&gt;React.createElement(&amp;#39;h1&amp;#39;, null, &amp;#39;Titulo&amp;#39;);&lt;/code&gt; antes de ser executado pelo browser. Escrever com esse HTML do React (JSX), facilita a leitura e você diminui a curva de aprendizado. &lt;/p&gt;
-
-&lt;p&gt;Você já deve ter ouvido sobre o &lt;strong&gt;Virtual DOM&lt;/strong&gt;. O Virtual DOM é a árvore de componentes que o ReactJS gera para que o browser renderize na tela. Pra melhorar a performance, o ReactJS gera todo o HTML (baseado em JSX e transformado em JavaScript) na memória antes de renderizar para o usuário. Além disso, ele fica vigiando esse Virtual DOM procurando por alterações. Quando algo é alterado, ele muda apenas o que foi alterado e não todo o HTML. &lt;/p&gt;
-
-&lt;h2&gt;Setup do projeto&lt;/h2&gt;
-
-&lt;p&gt;Como todo o projeto, necessitamos fazer um setup inicial, preparando o ambiente e iniciando parte do código. Nesse setup vamos começar criando o projeto com NPM, depois vamos criar arquivos de configuração do Webpack e também o arquivo &lt;strong&gt;index.html&lt;/strong&gt;, que é onde vamos mostrar nossa App.&lt;/p&gt;
-
-&lt;h3&gt;NPM&lt;/h3&gt;
-
-&lt;p&gt;Como gerenciador de pacotes, vamos usar o NPM. Por isso, abra seu terminal predileto e veja os comandos abaixo. Esses comandos vão criar uma pasta para o projeto (eu já estou na minha pasta publica, onde coloco meus projetos para serem acessados via localhost), depois eu inicio o NPM e aí instalo dois pacotes iniciais &lt;strong&gt;react&lt;/strong&gt; e &lt;strong&gt;react-dom&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;mkdir meu-projeto
-&lt;span class="gp"&gt;$ &lt;/span&gt;npm install --save react react-dom
-&lt;span class="gp"&gt;$ &lt;/span&gt;npm init &lt;span class="c"&gt;# aperte enter em tudo que vier&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Agora, dentro da pasta &lt;strong&gt;meu-projeto&lt;/strong&gt; deve haver um &lt;strong&gt;package.json&lt;/strong&gt; que o NPM instalou. Vamos instalar agora o Webpack. O Webpack é o que vai juntar todos os nossos módulos, compilar nosso CSS e etc.&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;meu-projeto
-&lt;span class="gp"&gt;$ &lt;/span&gt;npm install --save-dev webpack
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Nós vamos instalar o &lt;strong&gt;webpack&lt;/strong&gt; apenas em desenvolvimento, por que, obviamente vamos usar o código que ele gerar em produção. Mas vamos aproveitar para instalá-lo também globalmente, por que vamos precisar rodar o comando &lt;code&gt;webpack&lt;/code&gt; para gerar nosso bundle:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$  &lt;/span&gt;npm install webpack -g
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Seu &lt;strong&gt;package.json&lt;/strong&gt; tem que ficar mais ou menos assim:&lt;/p&gt;
-&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="s2"&gt;"name"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"curso-react-matheus"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s2"&gt;"version"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"1.0.0"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s2"&gt;"description"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s2"&gt;"main"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"index.js"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s2"&gt;"scripts"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="s2"&gt;"test"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"echo \"Error: no test specified\" &amp;amp;&amp;amp; exit 1"&lt;/span&gt;
-  &lt;span class="p"&gt;},&lt;/span&gt;
-  &lt;span class="s2"&gt;"author"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;""&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s2"&gt;"license"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"ISC"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s2"&gt;"dependencies"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="s2"&gt;"react"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"^15.3.2"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;"react-dom"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"^15.3.2"&lt;/span&gt;
-  &lt;span class="p"&gt;},&lt;/span&gt;
-  &lt;span class="s2"&gt;"devDependencies"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="s2"&gt;"webpack"&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"^1.13.2"&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h3&gt;Config do Webpack&lt;/h3&gt;
-
-&lt;p&gt;O webpack é um empacotador de código focado em módulos. Você pode ver com mais detalhes sobre o que é o webpack &lt;a href="http://tableless.com.br/introducao-ao-webpack/"&gt;nesse artigo do Leo Cavalcante no Tableless&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Como já instalamos anteriormente o webpack com o NPM, vamos criar agora um &lt;strong&gt;webpack.config.js&lt;/strong&gt;. Aqui é onde vamos ter as configurações do Webpack. O Matheus, em seu vídeo, simplificou ao máximo as explicações que não ficasse confusa, tendo que explicar Redux, Flux, ES6 e etc, por isso, vamos fazer o mesmo aqui. Assim facilita seu aprendizado.&lt;/p&gt;
-
-&lt;p&gt;O código do config do Webpack é esse aqui:&lt;/p&gt;
-&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="na"&gt;entry&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"./app/App.js"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;output&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="na"&gt;filename&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"public/bundle.js"&lt;/span&gt;
-  &lt;span class="p"&gt;},&lt;/span&gt;
-  &lt;span class="na"&gt;module&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="na"&gt;loaders&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-      &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="na"&gt;test&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sr"&gt;/&lt;/span&gt;&lt;span class="se"&gt;\.&lt;/span&gt;&lt;span class="sr"&gt;js$/&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="na"&gt;exclude&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sr"&gt;/node_modules/&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="na"&gt;loader&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'babel'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="na"&gt;query&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-          &lt;span class="na"&gt;presets&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-        &lt;span class="p"&gt;}&lt;/span&gt;
-      &lt;span class="p"&gt;}&lt;/span&gt;
-    &lt;span class="p"&gt;]&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;O Matheus explicou tim tim por tim tim cada uma dessas linhas no segundo vídeo do curso dele. Por enquanto, você só precisa saber o seguinte: &lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;entry: &amp;quot;./app/App.js&amp;quot;,&lt;/code&gt; vai ler o arquivo App.js, gerando um &lt;strong&gt;output&lt;/strong&gt; chamado &lt;strong&gt;bundle.js&lt;/strong&gt;. Aproveite para criar agora o &lt;strong&gt;App.js&lt;/strong&gt;, dentro de uma pasta &lt;strong&gt;app&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;O React usa o conceito de Loaders. Não vamos ver isso agora. Mas no bloco &lt;code&gt;loaders&lt;/code&gt; desse código, ele vai testar todos os arquivos &lt;strong&gt;.js&lt;/strong&gt;, menos a pasta &lt;strong&gt;node_modules&lt;/strong&gt;, usando o &lt;strong&gt;babel&lt;/strong&gt; para fazer o transpiler. Ali nos presets, estamos dizendo que vamos usar react. Se fossemos usar ES6 no código, nós colocaríamos também ali no chave &lt;code&gt;presets&lt;/code&gt;, para que o babel soubesse que ele também teria que pegar código ES6 para poder transpor para código conhecido.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Agora, para que o babel funcione, vamos instalá-lo também via NPM:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;npm install --save-dev babel-core babel-loader babel-preset-react
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;E por enquanto, é isso que você precisa saber.&lt;/p&gt;
-
-&lt;h3&gt;index.html&lt;/h3&gt;
-
-&lt;p&gt;Todo os projetos React tem um &lt;strong&gt;index.html&lt;/strong&gt; que faz a conexão com o nosso código. Esse &lt;strong&gt;index.html&lt;/strong&gt; é onde o App vai aparecer e ele deve ficar dentro da pasta &lt;strong&gt;public&lt;/strong&gt;. Crie então uma pasta &lt;strong&gt;public&lt;/strong&gt; e dentro coloque o arquivo &lt;strong&gt;index.html&lt;/strong&gt;. O código é mais ou menos esse. Também tendo em mente a simplicidade da explicação. Não inserirmos nada de outro mundo aqui:&lt;/p&gt;
-&lt;div class="highlight html"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;html&lt;/span&gt; &lt;span class="na"&gt;lang=&lt;/span&gt;&lt;span class="s"&gt;"pt-br"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;charset=&lt;/span&gt;&lt;span class="s"&gt;"utf-8"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-
-&lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;"app"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"bundle.js"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-
-&lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;O div APP é onde vamos renderizar a aplicação. É quase que padrão usar o nome &lt;code&gt;app&lt;/code&gt; ali. Mas você pode colocar qualquer outra coisa se quiser.&lt;/p&gt;
-
-&lt;p&gt;Depois chamamos o JavaScript da nossa app, que vai estar tudo contido num arquivo só, que as vezes se chama &lt;code&gt;all.js&lt;/code&gt;, outras &lt;code&gt;bundle.js&lt;/code&gt;, outros &lt;code&gt;app.js&lt;/code&gt;. Tanto faz. Vamos usar &lt;code&gt;bundle.js&lt;/code&gt;, só para não ficar diferente dos artigos que li e do vídeo que o Matheus fez. Assim quando você for procurar mais referências, não fica confuso. E pronto.&lt;/p&gt;
-
-&lt;h2&gt;App.js e Hello World&lt;/h2&gt;
-
-&lt;p&gt;Vamos começar a nossa App fazendo dois &lt;code&gt;require&lt;/code&gt;. O require vai importar para nosso código o &lt;strong&gt;react&lt;/strong&gt; e o &lt;strong&gt;react-dom&lt;/strong&gt; que instalamos aquela hora com NPM. Abra seu &lt;strong&gt;App.js&lt;/strong&gt; e escreva:&lt;/p&gt;
-&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;reactDOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react-dom'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react-dom&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Com esses dois pacotes importados, vamos agora colocar um código inicial. Nesse código vamos usar o &lt;code&gt;reactDOM&lt;/code&gt;, que vai pegar nosso código HTML escrito em JSX e jogar naquele div com id &lt;code&gt;app&lt;/code&gt; que fizemos no &lt;strong&gt;index.html&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;reactDOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react-dom'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react-dom&lt;/span&gt;
-
-&lt;span class="nx"&gt;reactDOM&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;render&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;Hello&lt;/span&gt; &lt;span class="nx"&gt;World&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/h1&amp;gt;, document.getElementById&lt;/span&gt;&lt;span class="se"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;'app'&lt;/span&gt;&lt;span class="se"&gt;))&lt;/span&gt;&lt;span class="err"&gt;;
-&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Pra ver funcionando, lá no seu terminal, rode o comando abaixo na pasta do projeto:&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$ &lt;/span&gt;webpack -w
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ele vai gerar um bundle todas as vezes que você salvar algo no projeto. Você poderá acessar o &lt;strong&gt;index.html&lt;/strong&gt; pelo seu browser. No meu Mac eu acessei nesse endereço &lt;strong&gt;http://localhost/curso-react-matheus/public/index.html&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;O Tutorial puro do ReactJS sugere rodar um server. Exatamente por que eles não mostram o processo usando Webpack. Contudo, se quiser, segue aí as instruções. &lt;a href="https://github.com/reactjs/react-tutorial/#to-use"&gt;Entre nesse link e rode um dos servidores&lt;/a&gt;. É só baixar um dos arquivos da linguagem que mais te agrada e rodar o comando para que o servidor rode.&lt;/p&gt;
-
-&lt;p&gt;Crie uma pasta, baixe o arquivo preferencial e rode o comando correspondente. Ex.: &lt;code&gt;php server.php&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sugiro que fique conosco aqui no Webpack, assim você não se perde no processo. Nesse momento, você já deve ter rodado seu primeiro &lt;strong&gt;Hello World&lt;/strong&gt; com React, usando Webpack.&lt;/p&gt;
-
-&lt;h3&gt;Importando seu primeiro módulo&lt;/h3&gt;
-
-&lt;p&gt;Para importar seu primeiro módulo, lá no &lt;strong&gt;App.js&lt;/strong&gt;, vamos criar uma variável que faz a importação do nosso componente. O arquivo desse componente estará na pasta &lt;strong&gt;components&lt;/strong&gt;, dentro da pasta &lt;strong&gt;App&lt;/strong&gt;. A estrutura de pastas fica assim:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/iniciando-react/folders-react.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;O seu App.js fica assim:&lt;/p&gt;
-&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;reactDOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react-dom'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="c1"&gt;// importa a lib react-dom&lt;/span&gt;
-
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;MeuComponente&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'./components/MeuComponente.js’);
-
-reactDOM.render(&amp;lt;MeuComponente /&amp;gt;, document.getElementById('&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="err"&gt;'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h3&gt;Criando seu primeiro componente&lt;/h3&gt;
-
-&lt;p&gt;Dentro da pasta &lt;strong&gt;components&lt;/strong&gt;, crie um arquivo chamado &lt;strong&gt;MeuComponente.js&lt;/strong&gt;. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;DISCLAIMER:&lt;/strong&gt; Como boas práticas e uma convenção comum nos projetos, nós colocamos o nome do arquivo do componente como sendo o mesmo nome do componente dentro do código. O nome do arquivo poderia ser diferente do nome do componente, mas aí o risco de bagunça seria enorme. Por isso, mantenha o nome do arquivo do componente sendo igual ao nome do componente no código. &lt;/p&gt;
-
-&lt;p&gt;Voltando… dentro desse componente você vai escrever o código básico de todo o componente, que é o código que segue abaixo:&lt;/p&gt;
-&lt;div class="highlight javascript"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// importa a lib react&lt;/span&gt;
-
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;MeuComponente&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createClass&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
-  &lt;span class="na"&gt;render&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-      &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;teste&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/h1&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;    &lt;span class="p"&gt;);&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;});&lt;/span&gt;
-
-&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;MeuComponente&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Todos os componentes react vão ter esse código. Primeiro ele importa a lib do React. Depois nós criamos uma classe (&lt;code&gt;React.createClass&lt;/code&gt;) onde construíremos nosso Componente. E aí, exportamos (&lt;code&gt;module.exports = MeuComponente&lt;/code&gt;) nosso Componente para importá-lo em outras partes do projeto, como fizemos no App.js. &lt;/p&gt;
-
-&lt;p&gt;Dentro a classe do seu componente, perceba que há uma função &lt;strong&gt;render&lt;/strong&gt;. Essa função irá transformar o código JSX que estiver ali dentro no seu componente e irá renderizá-la na tela.&lt;/p&gt;
-
-&lt;p&gt;Perceba uma curiosidade: Por que precisamos de um parênteses em volta do return? O JavaScript insere o sinal de ponto-virgula (;) automaticamente. Sem os parênteses, o JavaScript ignoraria as linhas seguintes e não retornaria valor algum. Se o JSX começa na mesma linha que o return, então os parênteses não são necessários.&lt;/p&gt;
-
-&lt;p&gt;Se você for no seu browser e mudar o texto do seu componente, você vai perceber que nosso componente está funcionando! ;-D&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/iniciando-react/gif-react.gif" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bom, vou ficando por aqui. O objetivo era apenas fazer um setup rápido, para você conseguir inserir pelo menos um componente e ver as coisas mudando na tela. Talvez as coisas tenham ficado mais claras para você agora, assim como ficaram para mim depois desse estudo. Sugiro que você veja os links abaixo para aprofundar mais seus estudos. Tem conteúdo em ingles e também conteúdo em português. Vá fundo!&lt;/p&gt;
-
-&lt;h2&gt;Leitura recomendada:&lt;/h2&gt;
-
-&lt;p&gt;Algumas leituras eu perdi, outras estão por aí. Todos esses links me ajudaram a entender um bocado sobre o setup do React, seus módulos, inserir CSS, modularização e etc. Praticamente todos eles explicam as mesmas coisas, com palavras diferentes detalhes diferentes. &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://facebook.github.io/react/tutorial/tutorial.html"&gt;Documentação do React&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm"&gt;React Environment Setup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://blog.andrewray.me/reactjs-for-stupid-people/"&gt;React for Stupid People&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/"&gt;Learn React by itsel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/@jviereck/modularise-css-the-react-way-1e817b317b04"&gt;Modularise CSS the React way&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/"&gt;Style React Components in SASS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://survivejs.com/react/advanced-techniques/styling-react/"&gt;Style React&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://buildwithreact.com/tutorial/components"&gt;http://buildwithreact.com/tutorial/components&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://jscasts.teachable.com/"&gt;Curso do Matheus Lima em Português&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://hugobessa.com.br/2015/01/17/comecando-com-react/"&gt;Começando com React - Hugo Bessa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html"&gt;The React Quick Starter Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gist.github.com/danawoodman/9cfddb1a0c934a35f31a"&gt;React Hello World Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.wn4e2ymf3"&gt;React.js Tutorial Pt 1: A Comprehensive Guide to Building Apps with React.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/facebook/react"&gt;GitHub do projeto React&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/tableless/organizando-uma-aplicação-com-react-5b8ea9075596#.3q8sxog55"&gt;Organizando uma aplicação com React&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/@ignit.io/react-native-construindo-apps-nativos-com-javascript-parte-1-37af2fbcde84#.muc6c8dyv"&gt;React Native — Construindo Apps Nativos com Javascript (parte 1)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/fnando/react-starter-pack"&gt;Starter Pack para React do Nando&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
