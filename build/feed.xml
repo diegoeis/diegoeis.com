@@ -5,16 +5,194 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2017-03-09T21:00:00-03:00</updated>
+  <updated>2017-03-18T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>O fim da profissão front-end</title>
+    <link rel="alternate" href="http://diegoeis.com/o-fim-do-front-end.html"/>
+    <id>http://diegoeis.com/o-fim-do-front-end.html</id>
+    <published>2017-03-18T21:00:00-03:00</published>
+    <updated>2017-03-19T21:50:35-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;O processo de desenvolvimento web podem se dividir em três categorias: design, front-end e back-end. Na minha opinião, a categoria que tem mais processos manuais e repetitivos é sem duvida o front-end.&lt;/p&gt;
+
+&lt;p&gt;Pare pra pensar: o core do trabalho do front-end se resume em duas partes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;implementação do layout&lt;/strong&gt;: produção da primeira camada de código, onde replicamos o layout criado em algum programa gráfico, para código estático em HTML, CSS e JS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;integração com API&lt;/strong&gt;: depois (ou junto, tanto faz) de feito o código estático, a interface é integrada com a API, que geralmente carrega boa parte da lógica, já que essa mesma API é usada para alimentar outras plataformas como mobile, robôs etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As outras &amp;ldquo;responsabilidades&amp;rdquo; que orbitam em volta do front-end como acessibilidade, SEO, performance, compatibilidade entre browsers, código semântico, entre outras coisas que você pode julgar serem de responsabilidade de um front-end &lt;strong&gt;são um mero apetrecho&lt;/strong&gt;. Elas podem existir ou não em um projeto. Mas um projeto não sobrevive sem o código front-end do layout e sem o conteúdo integrado à interface.&lt;/p&gt;
+
+&lt;p&gt;Existem uma série de tarefas manuais que nós delegamos para ferramentas criadas afim de economizar parte do nosso tempo evitando a execução de tarefas repetitivas, automatizando o workflow do front-end. Só para citar algumas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pre-processadores CSS:&lt;/strong&gt; Sass, Less, Stylus&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task runners:&lt;/strong&gt; Gulp, Grunt , Make, NPM Scripts
+&lt;strong&gt;Scaffolding:&lt;/strong&gt; Yeoman, Slush&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dependências/Module Bundles:&lt;/strong&gt; Bower, NPM, Yarn, Webpack, Duo, RequireJS, Browserify, JSPM, Rollup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SPA/Libraries/Frameworks:&lt;/strong&gt; React, Angular, Vue.js, Backbone, EmberJS, todomvc, Polymer, Lodash, Aurelia, MeteorJS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS Frameworks/Libraries:&lt;/strong&gt; SemanticUI, Bootstrap, Foundation, UiKit, YUI, Susy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JS Test&lt;/strong&gt;: Mocha, Jasmine, QUnit, Ava, Tape, Jest&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JS Templates:&lt;/strong&gt; Underscore, Mustache, Handlebars, DoT, Dust, EJS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mas mesmo com todas essas ferramentas, o core da responsabilidade de um front-end ainda continua sendo &lt;strong&gt;implementar layout original&lt;/strong&gt; e &lt;strong&gt;integrar a interface com o back-end&lt;/strong&gt;. Você ainda continua &lt;strong&gt;replicando&lt;/strong&gt; o layout que alguém passou dias desenhando e integra o conteúdo que está numa API, que outra pessoa criou. Seu dia se resume em alternar entre as janelas do Sublime / Sketch / Browser / Sublime / API / Browser / Sublime.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Automation isn&amp;rsquo;t about being lazy. It&amp;rsquo;s about being efficient.&amp;rdquo; &amp;ndash; Add Osmani&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esse processo se torna tedioso e a lista de requisitos para tentar tornar o trabalho de front-end eficiente só aumenta. Toda tarefa mecânica, repetitiva e manual tende a ser automatizada e na minha opinião, em pouco tempo, &lt;strong&gt;não vamos precisar de alguém executando o trabalho de front-end de ponta a ponta&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Okay, respira. Isso é a minha opinião. Dado que o front-end é a parte mais operacional de todo o processo, mais cedo ou mais tarde todo o trabalho executado no front-end vai ser automatizado. A parte mais difícil são essas duas tarefas que nós fazemos desde os primórdios. Contudo, elas já podem estar com seus dias contados.&lt;/p&gt;
+
+&lt;h2&gt;Trabalhando com dados reais direto no Design&lt;/h2&gt;
+
+&lt;p&gt;Você pode não ser designer, mas há uma premissa no mundo dos designers que diz que &lt;strong&gt;você deve trabalhar sempre com conteúdo real&lt;/strong&gt;. Isso quer dizer que entregar um layout com texto em &lt;em&gt;Lorem Ipsum Dolor&lt;/em&gt; é coisa de designer júnior.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;If your site or application requires data input, enter real and relevant words and type the text, don’t just paste it in from another source.&amp;rdquo; &amp;ndash; Jason Fried&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A ideia é que você crie um layout da forma mais fiel possível usando os termos, palavras, nomes, datas etc, afim de chegar mais perto da experiência do usuário.&lt;/p&gt;
+
+&lt;p&gt;Atualmente a maioria dos programas visuais utilizados para criar layouts para web tem alguma feature ou plugin que permite a integração com alguma fonte de dados que contenha o conteúdo real.&lt;/p&gt;
+
+&lt;p&gt;Por exemplo o Sketch, que é o programa de criação visual mais querido do momento, conta com plugins que permitem a integração direta entre API e layout. Veja por exemplo o vídeo abaixo demonstrando a utilização do plugin Craft (também disponível para Photoshop):&lt;/p&gt;
+
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/RDgiltinPl4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Ou essa demonstração que usa a API do Stackoverflow:&lt;/p&gt;
+
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/SdexJ85c0zE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Em pouco tempo, não vamos precisar de alguém executando o trabalho de front-end de ponta a ponta.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;O ponto aqui é: nós só precisamos criar o layout uma vez, usando o programa desejado (Sketch/Photoshop/Figma/Adobe XD etc) e pronto. Não precisamos de uma pessoa para refazer esse layout com HTML/CSS/JS de forma alguma. Isso nos leva para uma segunda discussão: mesmo com o design pronto, usando dados reais de uma API, nós ainda precisamos que ele seja acessível pelos browsers. Como resolvemos isso?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Obs.: E aquele movimento do &amp;ldquo;Design in the Browser&amp;rdquo;? Esse é um movimento criado exatamente para evitar o trabalho de produzir duas vezes o mesmo layout. Mas é MUITO melhor fazer um design usando um programa visual do que escrever direto no código. IMHO.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Código bonito não é importante&lt;/h2&gt;
+
+&lt;p&gt;Desde sempre os front-ends escrotizavam o código que era gerado automaticamente por programas como o Dreamweaver. Eles tinham uma razão pra isso: o código era completamente horrível. Era um tempo onde a conexão com a internet era precária e tudo o que pudéssemos fazer para melhorar o carregado do site, nós fazíamos. O código gerado por programas Wysiwyg tinha várias problemas: era difícil de ler, não havia semântica alguma, continha código inútil e muitas vezes não era compatível com todos os browsers. Tudo isso fazia com que o código limpo, semântico, enxuto e acessível tivesse um valor inestimável.&lt;/p&gt;
+
+&lt;p&gt;Código limpo era sinônimo de bom ranking no Google, boa compatibilidade entre os browsers, performance de carregamento garantida, produtividade entre os membros do time por causa da legibilidade do código, facilidade de manutenção etc etc etc.&lt;/p&gt;
+
+&lt;p&gt;Hoje, boa parte desses problemas foram resolvidos:
+- os browsers tem uma ótima complacência com os padrões web, extinguindo a maioria dos problemas de compatibilidade de layout;
+- a performance é atacada em várias frentes: processo de build dos assets, tecnologias como HTTP/2 e até a evolução da conexão que fica mais rápida a cada ano;
+- a manutenção e a legibilidade do código HTML/CSS não é mais um problema sério, já que o HTML é facilmente escrito usando poucas tags e o CSS tem os pré-processadores, que auxiliam muito na hora de definir padrões, além das boas práticas;
+- o JS está bem assessorado por frameworks, libraries e uma série de boas práticas que se responsabilizam pela parte pesada do trabalho, deixando pouca margem de erro para os devs;
+- e o mais importante para mim é que a semântica não está mais no HTML. Desde a vinda de tecnologias com o JSON-LD, a semântica não está mais atrelada ao código HTML e isso é ótimo;&lt;/p&gt;
+
+&lt;p&gt;Eu sei que mesmo que grande parte da responsabilidade fique na mão dos frameworks, bibliotecas e ferramentas, o dev tem grandes chances de fazer merda com o pedaço de código que ele cuida. Não olha pro seu amiguinho do lado, coitado&amp;hellip; Todos nós cometemos erros&amp;hellip; uns mais, outros menos.&lt;/p&gt;
+
+&lt;p&gt;Mas entenda uma coisa: &lt;strong&gt;código bonito, não é mais algo importante&lt;/strong&gt;. As ferramentas que nos auxiliam hoje para buildar os assets podem ser usadas por programas/robôs ao criar automaticamente código HTML/CSS/JS a partir de layouts produzidos em programas como Sketch. Veja por exemplo &lt;a href="https://github.com/sskyy/blade"&gt;esse plugin&lt;/a&gt; que não é mais atualizado desde 2015 já tentava automatizar a exportação de código no Sketch. O cara estava tentando fazer código HTML a partir do layout desenhado no Sketch versão 3. Hoje o Sketch está na versão 42. E sabe de uma coisa: na versão 43 o Sketch está abrindo o código dos seus arquivos em formato JSON. O que nos leva para o próximo assunto.&lt;/p&gt;
+
+&lt;h3&gt;Automatização do Design&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;We have a new file format which is more compact, and enables more powerful integrations for third-party developers. &amp;ndash; &lt;a href="https://rink.hockeyapp.net/apps/0172d48cceec171249a8d850fb16276b"&gt;Sketch Team&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso quer dizer que o Sketch se transformará em uma plataforma de desenvolvimento. Abrindo o código dos seus arquivos, qualquer um conseguirá ler esses arquivos e partir daí criar &lt;strong&gt;qualquer coisa&lt;/strong&gt;. Quanto tempo para alguém criar um plugin que lê o arquivo do Sketch em formato JSON e &lt;strong&gt;gera automaticamente HTML/CSS/JS&lt;/strong&gt; a partir de um layout Sketch?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Computadores evoluem. Se os princípios mudassem não haveria base para a evolução. - Caio Vaccaro&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Okay, mas espera aí: mesmo antes desse formato novo de arquivo do Sketch, já existia algumas ferramentas que talvez você não conhecia como o &lt;a href="https://protoship.io/tools/teleport.html"&gt;Teleport&lt;/a&gt;, que converte &lt;strong&gt;qualquer website&lt;/strong&gt; em um artboard do Sketch. E também o &lt;a href="https://protoship.io/tools/uipad.html"&gt;UIPad&lt;/a&gt;, que converte layout do Sketch em HTML/CSS e React! Se liga:&lt;/p&gt;
+
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/AcT69mOaf2Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Essa tendência já estava sendo desenhada há tempos. É a coisa mais inteligente de se fazer. Você pode fazer coisas mais importantes do que ficar sentado na frente do computador alternando entre browser, layout, browser, layout.&lt;/p&gt;
+
+&lt;p&gt;Okay: nós temos um design que se integra com a API, puxando dados reais do sistema. Nós temos um programa que design que exporta o layout para código HTML/CSS/JS pronto para ser usado. Mas ainda estamos usando código HTML/CSS/JS como antigamente. Há mais um passo que pode ser melhorado.&lt;/p&gt;
+
+&lt;h3&gt;WebAssembly (Wasm)&lt;/h3&gt;
+
+&lt;p&gt;Outro ponto importante, que não tem nada definido ainda, mas que pode começar a fazer todo sentido é toda aquela &lt;a href="https://tableless.com.br/o-webassembly-vem-ai/"&gt;história do WebAssembly&lt;/a&gt;, que é um novo formato binário criado pelo Google Microsoft, Mozilla e vários outros.&lt;/p&gt;
+
+&lt;p&gt;O formato de código binário do WebAssembly pode ser decodificado muito mais rápido do que o JavaScript é parseado. Isso realmente traz para a Web a experiência de programas nativos, principalmente no mobile.&lt;/p&gt;
+
+&lt;p&gt;O legal é que outras linguagens podem ser compiladas para WebAssembly. Hoje o projeto está um pouco mais focado em C/C++, mas com certeza outras linguagens serão abrangidas. O objetivo principal do WebAssembly é a performance.&lt;/p&gt;
+
+&lt;p&gt;Uma preocupação que surge no ar é que isso cheira monopólio. Lembra do Flash? Querendo ou não ele era uma alternativa de criar algo nativo na Web. Mas a graça é que:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;WebAssembly não substitui o JavaScript. Tudo tem retrocompatibilidade, tudo será executado no mesmo universo que o JS e a segurança terá as mesmas restrições que o JS;&lt;/li&gt;
+&lt;li&gt;Não é só uma empresa ou grupo que está por trás do Wasm, mas várias como Firefox, Chromium, Edge e Webkit;&lt;/li&gt;
+&lt;li&gt;Para rodar WebAssembly não será necessário rodar plugins de terceiros, já que os motores dos browsers serão totalmente compatíveis;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Está entendendo por que buscar por um código limpo (como conhecemos hoje) não faz mais tanto sentido?&lt;/p&gt;
+
+&lt;h2&gt;Conclusão&lt;/h2&gt;
+
+&lt;p&gt;Mais cedo ou mais tarde a profissão de front-end como nós conhecemos até hoje &lt;strong&gt;vai deixar de existir&lt;/strong&gt;. Você que já é velho na área, talvez nem precise se preocupar, porque eu não acho que isso vai acontecer agora, mas você que acabou de começar, é melhor pensar duas vezes no futuro da sua carreira.&lt;/p&gt;
+
+&lt;p&gt;Eu tenho certeza que a área de back-end também pode passar por esse processo, embora seja muito mais difícil de acontecer. E eu também acho que vai demorar muito (se chegar a acontecer) a automatização da parte criativa responsável pelo design dos layouts de produtos e websites.&lt;/p&gt;
+
+&lt;p&gt;Eu não chuto em quanto tempo isso pode acontecer ou se vai acontecer. É mais um chute meu do que qualquer outra. Quero só abrir para discussão esse assunto. Mas até ontem &lt;a href="https://www.wired.com/2016/10/ubers-self-driving-truck-makes-first-delivery-50000-beers/"&gt;carros e caminhões autônomos&lt;/a&gt; eram coisa de filme.&lt;/p&gt;
+
+&lt;p&gt;Mas com certeza existem vários pontos ainda a serem resolvidos:
+- A automatização de sites gigantes de conteúdo vai ocorrer?
+- E sistemas/produtos, como vamos fazer?
+- Autenticação, segurança, etc
+- Coloque aqui sua dúvida maluca&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Minha outra aposta é sobre a profissão de UX, que vai desaparecer não porque suas responsabilidades serão automatizadas, mas por se tornar obsoleto mesmo. Esse é assunto para um outro artigo, mas se quiser pensar sobre isso agora, comece ouvindo &lt;a href="http://movimentoux.com/work/felipememoria/"&gt;esse capítulo do podcast do Movimento UX&lt;/a&gt; com o &lt;a href="http://www.fmemoria.com.br/"&gt;Felipe Memória&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Para ler mais&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Dados reais no design&lt;/strong&gt;
+- &lt;a href="https://www.shopify.com/partners/blog/91010886-3-easy-steps-for-working-with-realistic-data-in-sketch-using-json"&gt;3 Easy Steps for Working with Realistic Data in Sketch Using JSON&lt;/a&gt;
+- &lt;a href="https://medium.com/@markjenkins/designing-with-data-7f6bcd907f0a#.95haya5yq"&gt;Designing with Data&lt;/a&gt;
+- &lt;a href="https://blog.framer.com/prototype-with-real-data-in-framer-from-json-to-multi-device-and-internet-of-things-6eb1ae8b8325#.fo9b8i4gz"&gt;Prototype with real data in Framer, from JSON to multi-device and internet of things&lt;/a&gt;
+- &lt;a href="https://medium.com/@anirudhs/project-comet-designing-with-real-data-959beccb5c1a#.v6khfndrh"&gt;Adobe XD: Designing with Real Data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sobre não usar texto fake em layouts&lt;/strong&gt;
+- &lt;a href="https://www.smashingmagazine.com/2010/01/lorem-ipsum-killing-designs/"&gt;Lorem Ipsum is Killing Your Designs&lt;/a&gt;
+- &lt;a href="https://thenextweb.com/dd/2015/04/09/why-designers-should-never-use-fake-text/#.tnw_zjSSHkxh"&gt;Why designers should never use fake text&lt;/a&gt;
+- &lt;a href="http://www.creativebloq.com/design/stop-using-lorem-ipsum-7116907"&gt;Stop using Lorem Ipsum!&lt;/a&gt;
+- &lt;a href="https://signalvnoise.com/archives/001083.php"&gt;&amp;ldquo;Getting Real&amp;rdquo; design tip: Just say no to Lorem Ipsum&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WebAssembly&lt;/strong&gt;
+- &lt;a href="http://webassembly.org/docs/faq/"&gt;FAQ do site WebAssembly&lt;/a&gt;
+- &lt;a href="https://tableless.com.br/o-webassembly-vem-ai/"&gt;WebAssembly – a web compilada&lt;/a&gt;
+- &lt;a href="https://techcrunch.com/2015/06/17/google-microsoft-mozilla-and-others-team-up-to-launch-webassembly-a-new-binary-format-for-the-web/"&gt;Google, Microsoft, Mozilla And Others Team Up To Launch WebAssembly, A New Binary Format For The Web&lt;/a&gt;
+- &lt;a href="https://jaydson.com/webassembly-e-o-futuro-da-web/"&gt;WebAssembly e o futuro da Web&lt;/a&gt;
+- &lt;a href="https://brendaneich.com/2015/06/from-asm-js-to-webassembly"&gt;From asm.js to webassembly&lt;/a&gt;
+- &lt;a href="https://arstechnica.com/information-technology/2015/06/the-web-is-getting-its-bytecode-webassembly/"&gt;The Web is getting its bytecode: WebAssembly&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sobre o cenário das ferramentas de front-end&lt;/strong&gt;
+- &lt;a href="https://frontend.directory/"&gt;front-end.directory&lt;/a&gt;
+- &lt;a href="http://radify.io/blog/using-build-tools/"&gt;Using front-end build tools&lt;/a&gt;
+- &lt;a href="http://usablica.github.io/front-end-frameworks/compare.html"&gt;A Collection Of Best Front End Frameworks&lt;/a&gt;
+- &lt;a href="https://github.com/showcases/front-end-javascript-frameworks?s=stars"&gt;GitHub: Front-end JavaScript frameworks&lt;/a&gt;
+- &lt;a href="https://www.sitepoint.com/front-end-tooling-trends-2017/"&gt;Front-End Tooling Trends for 2017&lt;/a&gt;
+- &lt;a href="http://blog.debugme.eu/front-end-web-developer-tools/"&gt;Updated List: The 67 Very Best Front End Web Developer Tools&lt;/a&gt;
+- &lt;a href="https://techbeacon.com/most-popular-javascript-front-end-tools"&gt;The most popular JavaScript front-end tools&lt;/a&gt;
+- &lt;a href="https://colorlib.com/wp/top-templating-engines-for-javascript/"&gt;Top 10 Templating Engines for JavaScript To Improve and Simplify Your Workflow 2017&lt;/a&gt;
+- &lt;a href="https://speakerdeck.com/addyosmani/automating-front-end-workflow"&gt;Automating Front-end Workflow&lt;/a&gt;
+- &lt;a href="https://medium.com/@caiovaccaro/javascript-state-of-the-union-2015-parte-3-281aa04bece1#.bulta9j6j"&gt;Javascript State of the Union 2015, parte 3&lt;/a&gt;
+- &lt;a href="https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015"&gt;Slides - Javascript State of the Union 2015&lt;/a&gt;
+- &lt;a href="https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results"&gt;The State of Front-End Tooling 2016 - Results&lt;/a&gt;
+- &lt;a href="https://hackernoon.com/front-end-roles-and-responsibilities-6ee8654f1649#.gsg5zdjtr"&gt;Front-end Roles and Responsibilities&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Estatística básica nas entregas de projetos  agile - Moda, mediana e percentil</title>
     <link rel="alternate" href="http://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html"/>
     <id>http://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html</id>
     <published>2017-03-09T21:00:00-03:00</published>
-    <updated>2017-03-12T10:38:04-03:00</updated>
+    <updated>2017-03-14T07:40:38-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
@@ -31,25 +209,26 @@ entregue?&lt;/strong&gt;&lt;/p&gt;
 incluindo o usuário e os stakeholders no processo, permitindo mudanças de planos
 no meio do caminho, apressando as falhas e tentando entregar incrementos de
 valor ao final de cada ciclo. Tudo isso serve para gerenciar as expectativas e
-fazer as informações do projeto fluir. Aproximando os stakeholders e os
+fazer as informações do projeto fluirem. Aproximando os stakeholders e os
 clientes, eles ganham visibilidade do status do projeto, diminuindo a ansiedade
 sobre quando o projeto vai ser entregue. Mesmo que as expectativas estejam bem
-gerenciadas, saber quando um projeto vai ser entregue é importante para o
-planejamento do produto.&lt;/p&gt;
+gerenciadas, saber o dia de entrega do projeto é importante para o planejamento
+do produto, é uma questão estratégica para a empresa.&lt;/p&gt;
 
 &lt;p&gt;Para ajudar nessa tarefa, existem uma série de métricas já bem conhecidas que
 monitoram a saúde do processo de desenvolvimento. Alguns deles você já conhece
-como o CFD, Lead Time, Cycle Time etc. Contudo, essas métricas, por si só,
-mostram o cenário imediato do projeto. Eles são importantes, porque te mostrarão
-se você está no caminho certo ou errado. Mas além de saber se estamos no caminho
-certo, nós podemos trazer um pouco de luz no caminho que estamos tomando,
-tentando prever nossas entregas e consequentemente termos um vislumbre de quando
-poderá ser a entrega do projeto.&lt;/p&gt;
+como o CFD, Lead Time, Cycle Time etc. Contudo, essas métricas por si só,
+mostram o cenário presente do projeto. Elas são importantes, porque mostram se
+você está no caminho certo ou errado. Mas não basta apenas saber que estamos no
+caminho correto, é muito mais inteligente enxergarmos parte do caminho que
+iremos trilhar afim de prevermos nossas entregas e consequentemente termos um
+vislumbre de quando o projeto irá de fato terminar.&lt;/p&gt;
 
-&lt;p&gt;A ideia desse artigo não é abordar, ainda, a parte legal das &lt;a href="http://blog.kudoos.com.br/lean/previsao-probabilistica/"&gt;previsões
+&lt;p&gt;A ideia desse artigo não é abordar as &lt;a href="http://blog.kudoos.com.br/lean/previsao-probabilistica/"&gt;previsões
 probabilísticas&lt;/a&gt; de
-projetos, mas é dar alguma ideia para você que pode estar querendo fazer um
-pouco mais do que só olhar o CFD do seu time.&lt;/p&gt;
+projetos (que é um assunto muito mais profissa), mas é dar alguma ideia básica
+para você que pode estar querendo fazer um pouco mais do que só olhar o CFD do
+seu time.&lt;/p&gt;
 
 &lt;h3&gt;Consistência e tamanho das histórias&lt;/h3&gt;
 
@@ -81,13 +260,12 @@ processo como o Incepction, Refinement, Plannings etc…&lt;/p&gt;
 consistente, você pode usar o Throughput. O &lt;strong&gt;Throughput&lt;/strong&gt; tem uma série de
 definições por aí, principalmente no mundo Agile, mas para mim e para algumas
 empresas de tecnologia &lt;strong&gt;throughput é a quantidade de histórias (user story)
-entregues na semana&lt;/strong&gt;. Se seu time consegue quebrar bem as histórias, de formas
+entregues na semana&lt;/strong&gt;. Se seu time consegue quebrar bem as histórias, de forma
 que elas entreguem valor e sejam pequenas o bastante para serem entregues sem
 ultrapassar o ciclo, vocês conseguiram dar o primeiro passo para prever o
 futuro. Veja um exemplo:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/1000/1*B-bROvrbGKp8E3i7wsIStQ.png" /&gt;
-&lt;span class="figcaption_hack"&gt;Throughput vs Semana&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="figcaption_hack"&gt;Throughput vs Semana&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Esse é o gráfico de um time de produto real. Os valores são das últimas semanas
 de 2016. Veja que a partir da semana 39 até a semana 47 as entregas eram
@@ -101,28 +279,28 @@ entregas. Perceba que mesmo assim há uma diferença da quantidade de entregas n
 tamanho das tarefas, mas com problemas de infraestrutura, feriados etc.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Se seu time consegue quebrar bem as histórias, de formas que elas entreguem
-valor e sejam pequenas o bastante para serem entregues sem ultrapassar o ciclo,
-vocês conseguiram dar o primeiro passo para prever o futuro&lt;/p&gt;
+&lt;p&gt;Se seu time consegue quebrar bem as histórias, de forma que elas entreguem valor
+e sejam pequenas o bastante para serem entregues sem ultrapassar o ciclo, vocês
+conseguiram dar o primeiro passo para prever o futuro&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Esse é o primeiro: conheça o Throughput do seu time. Marque a quantidade de
-entregas numa planilha e faça um gráfico. Perceba no gráfico que a média de
-entregas são 9 histórias por semana. Embora a média seja 9, veja na semana 41,
-onde eles entregaram 14 histórias… Mas na semana seguinte, eles entregaram
-apenas 1. Isso não é consistência. A partir da semana 48 a coisa toda começou a
-melhorar e nós podíamos ter um pouco mais de certeza dos números que nós iríamos
-entregar, já que estávamos melhorando a frequência das entregas. Mesmo assim, há
-um problema nesse gráfico: a média. É aí que entra a estatística básica.&lt;/p&gt;
+&lt;p&gt;Conheça o Throughput do seu time. Marque a quantidade de entregas numa planilha
+e faça um gráfico. Perceba no gráfico que a média de entregas são 9 histórias
+por semana. Embora a média seja 9, na semana 41 o time entregou 14 histórias…
+Mas na semana seguinte, eles entregaram apenas 1. Isso não é consistência. A
+partir da semana 48 a coisa toda começou a melhorar e nós podíamos ter um pouco
+mais de certeza do número de entrega que iríamos executar. Mesmo assim, há um
+problema nesse gráfico: a média. É aí que entra a estatística básica.&lt;/p&gt;
 
 &lt;h3&gt;&lt;strong&gt;Estatística descritiva básica&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;A média é interessante, mas não pode ser usada sozinha para dar a resposta de
-quanto o time entrega semanalmente. Então o que podemos fazer para ter uma
-resposta melhor? Vamos usar algumas técnicas básicas da estatística descritiva.
-A estatística descritiva é a parte da estatística responsável por apontar
-tendências de comportamento e descrever conjuntos de dados. Fazem parte da
-estatística descritiva as medidas de tendência central ou medidas de posição
+quanto o time entrega semanalmente. Isso não quer dizer que você vai deixar de
+usar médias nos seus cálculos, pelo contrário. Mas então o que podemos fazer
+para ter uma resposta melhor? Vamos usar algumas técnicas básicas da estatística
+descritiva. A estatística descritiva é a parte da estatística responsável por
+apontar tendências de comportamento e descrever conjuntos de dados. Fazem parte
+da estatística descritiva as medidas de tendência central ou medidas de posição
 como a &lt;strong&gt;média aritmética&lt;/strong&gt;, &lt;strong&gt;moda&lt;/strong&gt;, &lt;strong&gt;mediana&lt;/strong&gt; e &lt;strong&gt;percentil&lt;/strong&gt;. Há também as
 &lt;strong&gt;medidas de dispersão&lt;/strong&gt;, que envolvem o desvio padrão, variância e outros… que
 também são úteis para descobrir insights sobre as entregas do seu time, mas não
@@ -135,9 +313,13 @@ Imagine os dados de entrega de um time fictício:&lt;/p&gt;
 
 &lt;iframe class="airtable-embed" src="https://airtable.com/embed/shrgtrc7mIURC1eS8?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Veja que o número que aparece mais vezes na coluna de entregas é o número 1.
-Isso quer dizer que &lt;strong&gt;na maior parte das semanas esse time entregava apenas uma
-tarefa&lt;/strong&gt;. Terrível. Quanto maior esse número, melhor.&lt;/p&gt;
+&lt;p&gt;O número que aparece mais vezes na coluna de entregas é o um. Isso quer dizer
+que &lt;strong&gt;na maior parte das semanas esse time entregava apenas uma tarefa&lt;/strong&gt;.
+Terrível. Quanto maior esse número, melhor. Se a &amp;ldquo;moda&amp;rdquo; do seu time aumentar,
+quer dizer que frequentemente ele tem entregue uma mesma quantidade de tarefas.
+Mas isso ainda não diz que o número de entregas são constantes.&lt;/p&gt;
+
+&lt;hr&gt;
 
 &lt;p&gt;Quero deixar apenas uma observação: a distribuição de dados que eu estou usando
 é bastante pequena, mas vai servir para o nosso exemplo. Quanto mais dados
@@ -146,6 +328,8 @@ no modo com que seu time entrega as tarefas, por exemplo, começar a fazer o
 deploy das tarefas de forma automatizada, você deve levar em consideração essa
 mudança nas suas análises.&lt;/strong&gt;&lt;/p&gt;
 
+&lt;hr&gt;
+
 &lt;h4&gt;&lt;strong&gt;Mediana&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;A mediana é a irmã mais sensata da média. Ela não é influenciada pelos valores
@@ -153,25 +337,26 @@ extremos e por isso pode trazer uma resposta muito mais consistente sobre uma
 distribuição de valores: a mediana é o número que divide uma distribuição de
 dados exatamente no meio.&lt;/p&gt;
 
-&lt;p&gt;Imagine as seguintes 10 semanas de entregas do seu time: 2, 2, 4, 2, 5, 3, 3, 5,
-4. Se você somar todos esses números (30) de entregas e dividir pela quantidade
-de semanas (10) a média de entregas do time será de 3.3 tarefas por semana. Mas
-imagine que em uma semana atípica, o time entregou 30 tarefas. A média, nesse
-caso, seria puxada para cima, virando 6 entregas por semana. E aqui está o
-problema: por causa de uma única semana, você obteve um cenário totalmente falso
-sobre a capacidade de entregas do seu time.&lt;/p&gt;
+&lt;p&gt;Imagine que durante 10 semanas, seu time teve os seguintes throughputs semanais:
+2, 2, 4, 2, 5, 3, 3, 5, 4. Se você somar todos esses números de entregas (dá 30)
+e dividir pela quantidade de semanas (que é 10) a média de entregas do time será
+de 3.3 tarefas por semana. Mas imagine que em uma semana atípica, o time
+entregou 30 tarefas porque você deu RedBull pra todo mundo. A média, nesse caso,
+seria puxada para cima, virando 6 entregas por semana. E aqui está o problema:
+por causa de uma única semana, você obteve um cenário totalmente falso sobre a
+capacidade de entregas do seu time.&lt;/p&gt;
 
 &lt;p&gt;A &lt;strong&gt;mediana&lt;/strong&gt;, por sua vez, não seria influenciada por essa semana atípica. A
 mediana nesse caso é 3.5, um valor muito próximo da média sem contar com as
-entregas da semana atípica. Nesse ponto, é muito melhor acreditar na mediana do
-que na média. &lt;strong&gt;Para distribuições sem valores extremos, a média e a mediana são
+entregas da semana atípica.** &lt;strong&gt;No nosso exemplo a média sem a semana atípico
+era de 3.3 e a nossa mediana é de 3.5, o que nos leva à conclusão que **para
+distribuições sem valores extremos, a média e a mediana são sempre
 semelhantes.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Usar média não é errado e só usar a mediana não quer dizer que você estará
-correto. O segredo é saber qual *medida do meio *usar em cada situação. Eu
+&lt;p&gt;Usar média não é errado e só usar a mediana não quer dizer que você está sempre
+certo. O segredo é &lt;strong&gt;saber qual medida do meio usar em cada situação&lt;/strong&gt;. Eu
 sugiro que você evite usar apenas uma das medidas do meio. Eu sempre deixo à mão
-nas minhas planilhas as duas medidas. Quanto mais parecidas elas tiverem,
-melhor.&lt;/p&gt;
+nas minhas planilhas as duas medidas.&lt;/p&gt;
 
 &lt;h4&gt;Percentis&lt;/h4&gt;
 
@@ -180,11 +365,11 @@ dividir uma distribuição de dados em quatro partes iguais, chamados de
 &lt;strong&gt;quartis&lt;/strong&gt;. O primeiro quartil consiste em 25% das distribuições inferiores. O
 segundo quartil consiste nos 25% seguintes da distribuição e assim por diante.
 Nós podemos dividir a distribuição em centésimos ou como é comumente chamada de
-percentis, onde cada percentil representa 1% da distribuição. A vantagem do
+percentis, onde cada percentil representa 1% da distribuição. &lt;strong&gt;A vantagem do
 percentil é que ele mostra onde uma observação particular pode se encontrar em
-comparação à todo o restante.&lt;/p&gt;
+comparação à todo o restante&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Não se preocupe com as fórumas. Você pode confiar nas fórmulas do Google Sheets
+&lt;p&gt;Não se preocupe com as fórmulas. Você pode confiar nas fórmulas do Google Sheets
 ou do Excel. Eu confirmei os números desse artigo Google Sheets. Logo, é só ter
 uma distribuição em qualquer programa de planilha do seu gosto, escrever , fica
 algo assim:  para descobrir o primeiro quarto do percentil, que é o que ocorre
@@ -196,15 +381,13 @@ em 75% do tempo do seu time.&lt;/p&gt;
 conseguimos separar os percentis. Ficou algo assim:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Percentil de 25% é igual a 3.8:&lt;/strong&gt; o que significa que em 85% do tempo o nosso
-time entrega 3.8 (4, se for arredondar) tarefas por semana ou menos ou se
-preferir, significa que em &lt;strong&gt;85%&lt;/strong&gt; das semanas, o time entrega mais do que 3.8
-histórias.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Percentil 50% é igual a 7:&lt;/strong&gt; significando que em 50% das semanas, o time
-entrega 7 histórias ou menos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Percentil de 25% é igual a 3.8:&lt;/strong&gt; o que significa que em 75% do tempo o nosso
+time entrega 3.8 (4, se for arredondar) tarefas por semana ou menos;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Percentil 50% é igual a 6.5:&lt;/strong&gt; significando que em 50% das semanas, o time
+entrega 6.5 histórias ou menos;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Percentil dos 75% é 12:&lt;/strong&gt; que significa que em 25% das semanas, o time entrega
 12 histórias ou mais e que em 75% das semanas, o time entrega menos do que 12
-histórias por semanas.&lt;/li&gt;
+histórias.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Concluindo&lt;/h3&gt;
@@ -576,54 +759,6 @@ Ela quer se focar em conversações. &lt;/p&gt;
 Obrigado Locaweb por fazer parte da minha vida. Ganharam um amigo.&lt;/p&gt;
 
 &lt;p&gt;Agora, começo um novo ciclo na Easynvest como Gestor de Produtos! Uma outra empresa incrível, da qual tenho o prazer de ser cliente e agora, além de me ajudar a investir melhor meu dinheiro, vão me ajudar muito mais a crescer como pessoa e profissional. Que alguém os proteja. ;-)&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>UX - reação é melhor que previsão</title>
-    <link rel="alternate" href="http://diegoeis.com/ux-reagir-e-melhor-que-prever.html"/>
-    <id>http://diegoeis.com/ux-reagir-e-melhor-que-prever.html</id>
-    <published>2016-12-21T22:00:00-02:00</published>
-    <updated>2017-01-05T21:45:51-02:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Entender o usuário é algo difícil. Você pode perceber isso facilmente comparando a sua forma de usar algum serviço de internet, digamos o Facebook, com qualquer outra pessoa ao seu redor. Provavelmente você tem um costume totalmente diferente de navegar, consumir conteúdo, comentar etc. Pessoas diferentes, usam de formas diferentes um mesmo produto e isso é totalmente normal. É por isso que tentar prever cenários para desenvolver um produto para internet é algo complicado.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;But in the end, for something this complicated, it&amp;rsquo;s really hard to design products by focus groups. A lot of times, people don&amp;rsquo;t know what they want until you show it to them. &amp;ndash; Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para tentar diminuir essa dificuldade, é costume antigo entre os profissionais de UX entrevistarem os usuários (além de fazer outras cerimônias) afim de tentar entender qual a sua perspectiva do usuário sobre o produto/site. Geralmente, com um bom papo, você consegue pescar uma série de pontos importantes afim de tentar adiantar a solução de problemas de uso. Métodos assim, podem não ser tão eficazes por vários motivos, aqui vão alguns deles:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Geralmente o usuário não sabe se expressar.&lt;/strong&gt; Muitas vezes, o que o usuário fala não é exatamente o problema real. Você precisa conhecer muito bem seu projeto para conseguir traduzir qual o sentido real do problema para saber onde atacar.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entrevistas com os usuários dependem do engajamento do usuário.&lt;/strong&gt; Fazer com o que o usuário saia da sua casa para ir até você é uma tarefa difícil e muito incomoda. Para compensar isso, alguns inventam de pagar ou dar alguma recompensa para o usuário, por um trabalho, que ao meu ver, não é de responsabilidade do usuário, mas da pessoa que está planejando o projeto. Já vi pessoas se prepararem uma semana para um encontro com os usuários, mas que nenhum usuário apareceu. As vezes a gente precisa ir até onde o usuário está, o que é ruim, por que o ambiente onde ele trabalha tem muitas distrações.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Testes guiados são importantes, mas os resultados são danificados pelo ambiente estranho e pela ansiedade dos usuários.&lt;/strong&gt; Você já parou do lado de um designer ou de um programador enquanto ele executava uma tarefa? Cara, é desconfortável tem um papagaio de pirata &amp;ldquo;fiscalizando&amp;rdquo; o que você está fazendo. Geralmente os usuários não executam suas tarefas naturalmente, como eles executariam em dias comuns. Quando usamos frequentemente um produto, nós nos acostumamos com a interface, fluxo e outras ações. Em entrevistas, é inevitável que o usuários sinta que está sendo avaliado. Achar o contrário é se enganar.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Você não vai obter respostas reais com perguntas meia boca.&lt;/strong&gt; É muito difícil obter boas respostas com perguntas como: &amp;ldquo;Qual a primeira ação que você faria nessa tela?&amp;rdquo; ou &amp;ldquo;Qual a primeira impressão sobre essa tela?&amp;rdquo;. Há uma série de técnicas para tornar essas &lt;a href="http://www.uxdesign.blog.br/pesquisa-com-usuarios/perguntas-a-serem-evitadas-em-pesquisa-com-usuarios/"&gt;entrevistas mais inteligentes&lt;/a&gt;, mas infelizmente isso não é tão fácil de executar. Conto nos dedos os UXzes que vi fazerem isso da maneira correta.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Tenho certeza de que você pode citar vários outros cenários parecidos, onde usamos várias técnicas e cerimonias na tentativa de prever qual seria a melhor solução para o usuário, mas que na real, não dão respostas que possamos usar &lt;strong&gt;de verdade&lt;/strong&gt; para solucionar os problemas do produto.&lt;/p&gt;
-
-&lt;p&gt;Outro dia vi uma apresentação com a seguinte frase: &lt;strong&gt;Evite Fails no projeto e economize tempo&lt;/strong&gt;. Para mim, esse é o típico comentário comum de UX que não tem a mentalidade ágil e que não sabe trabalhar com pequenas entregas incrementais, que atrasa a entrega de valor para o cliente porque quer entregar &amp;ldquo;algo completo&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Bom, minha sugestão para esse tipo de UX: &lt;strong&gt;pare de tentar prever o que seria melhor para o usuário e tente reagir à experimentos e aos dados de uso real de produção&lt;/strong&gt;. Colocar no ar uma mudança pequena e medir o comportamento dos usuários, ajuda muito mais a entender qual será o próximo passo. É um erro tentar prever o que seria melhor para um produto se baseando na opinião de pessoas, que embora sejam seus clientes diretos, tem expectativas e níveis de conhecimento diferentes.&lt;/p&gt;
-
-&lt;h2&gt;Entrega rápida de valor&lt;/h2&gt;
-
-&lt;p&gt;Essa previsão mentirosa me leva a outro assunto: entregas pequenas são melhores que entregas grandes.
-Planejar grandes mudanças de uma vez é furada. Qualquer um sabe disso. Mudanças pequenas são controláveis, causam menos impacto, são fáceis de medir os acertos e os erros. Existem exceções, claro, por exemplo em casos onde o produto precisa de um redesign completo e o realinhamento progressivo de interface é impossível. Há produtos antigos que não tem a possibilidade de fazer um realinhamento ao longo do tempo e por isso o redesign completo, feito de uma vez, é a única opção. Mas tirando essas exceções, entregas pequenas, funcionais e incrementais é o mais indicado.&lt;/p&gt;
-
-&lt;p&gt;Eu sei que é difícil para um UX pensar dessa forma. A maioria dos UXzes que eu já trabalhei prefere pensar na funcionalidade por inteiro. Eles têm a falsa impressão de que entregar algo pequeno, mesmo que seja funcional, é o mesmo que entregar algo incompleto. Não entra na cabeça deles entregar um pedacinho em vez da obra completa. Eles podem fazer um pedaço pequeno, porém essencial da funcionalidade, medir o comportamento do usuário e aí sim tomar a decisão de qual será o próximo passo. Transformação e adaptação é o nome do jogo.&lt;/p&gt;
-
-&lt;p&gt;Em um dos últimos projetos em que trabalhei, havia um UX com esse perfil mais antiquado. Deixamos de entregar mudanças importantes de interface do painel do usuário, por que o UX queria fazer um estudo para mudar a ordem das opções no menu (!). Ele ligou para vários clientes e agendou um dia de &amp;ldquo;bate papo&amp;rdquo; com eles. Se preparou dias, movimentou P.O., marketing, outros UXzes&amp;hellip; Comprou comida, agendou sala. Ninguém apareceu. Final da história: o time de desenvolvimento ficou 4 meses com a nova versão da interface no forno e o usuário não recebeu uma grande melhoria no seu produto, tudo por conta de uma simples mudança no menu.&lt;/p&gt;
-
-&lt;p&gt;O que poderia ter sido feito: era possível ter subido a nova interface, com vários triggers para mapear o comportamento do usuário, recolhendo dados importantes, tentando descobrir quais os problemas do menu atual e planejando as possíveis soluções da próxima versão, entregando de forma incremental as novas features. Poderíamos ter feito análises do comportamento do usuário usando ferramentas como o Hotjar e sistemas similares que gravam o movimento e as ações do mouse do usuário na interface do produto. Meia hora assistindo esses vídeos já nos trariam respostas realmente importantes sobre o que é necessário modificar no menu ou em qualquer outra parte da interface.&lt;/p&gt;
-
-&lt;p&gt;Mas há um ponto para tomar cuidado em entregas incrementais: a feature precisa ser terminada. Ela precisa ter um ponto onde possamos dizer que ela está &amp;ldquo;completa&amp;rdquo;. A abordagem de entregas incrementais pode virar um ciclo infinito e a feature pode mudar muitas vezes durante um longo período de tempo. O outro ponto é que se o P.O. não priorizar as outras tarefas da feature, ela realmente pode ficar incompleta, embora fique totalmente funcional.&lt;/p&gt;
-
-&lt;p&gt;Moral da história: prefira tomar decisões baseadas em dados ao invés de tentar prever as ações do usuário. Dados são fatos. Usuários, infelizmente, mentem&amp;hellip; e há um monte de UXzes que caem nessas mentiras.&lt;/p&gt;
-
-&lt;p&gt;PS.: Eu não estou dizendo que cerimônias, entrevistas com o usuário e a utilização de técnicas milagrosas especiais não são válidas e inúteis. Elas devem ser aplicadas, mas não devem ser a última palavra para definir as ações do time.&lt;/p&gt;
 </content>
   </entry>
 </feed>
