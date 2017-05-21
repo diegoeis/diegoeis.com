@@ -1,6 +1,6 @@
 ---
 title: Um comentário sobre a desnecessária fragmentação da profissão designer
-date: 2017-05-28 00:00 UTC
+date: 2017-03-28 00:00 UTC
 tags: management
 ---
 
