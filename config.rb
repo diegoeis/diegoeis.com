@@ -86,6 +86,7 @@ set :js_dir, 'assets/js'
 
 set :images_dir, 'assets/images'
 set :base_url, ""
+set :build_dir, 'html'
 
 # redirect "/csm-scrumalliance-adaptworks-dia-1.html", to: "/dia-1-csm-scrumalliance-adaptworks.html"
 
@@ -96,7 +97,7 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
-  set :base_url, '/build'
+  set :base_url, '/html'
   # Enable cache buster
   # activate :asset_hash
 
