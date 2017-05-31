@@ -5,10 +5,140 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2017-05-13T21:00:00-03:00</updated>
+  <updated>2017-05-29T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
+  <entry>
+    <title>Throughput - Saindo do básico</title>
+    <link rel="alternate" href="http://diegoeis.com/throughput-saindo-do-basico.html"/>
+    <id>http://diegoeis.com/throughput-saindo-do-basico.html</id>
+    <published>2017-05-29T21:00:00-03:00</published>
+    <updated>2017-05-30T23:10:27-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Em um ambiente de desenvolvimento de software, &lt;strong&gt;throughput&lt;/strong&gt; é o número de tarefas entregues (que foram para DONE) em um período de tempo. Esse período de tempo é definido pelo time, contudo, normalmente medimos a quantidade de tarefas entregues dentro de uma semana.&lt;/p&gt;
+
+&lt;p&gt;Geralmente o dado de Throughput é utilizado para calcular apenas a média de entregas semanais do time. Quero que você tente pensar um pouco mais além, tentando utilizar esse dado para te dar informações mais interessantes sobre a vazão do seu time. A ideia é que você consiga ter as seguintes informações:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Qual foi o mínimo de tarefas que o time entregou em uma semana?&lt;/li&gt;
+&lt;li&gt;Qual foi o record de entregas de tarefas em uma semana?&lt;/li&gt;
+&lt;li&gt;Geralmente entregamos XX tarefas por semana.&lt;/li&gt;
+&lt;li&gt;Em 25% das vezes, o time entrega XX tarefas por semana ou menos.&lt;/li&gt;
+&lt;li&gt;Em 75% das vezes, o time entrega XX tarefas por semana ou mais.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Throughput é diferente de Velocity&lt;/h2&gt;
+
+&lt;p&gt;Enquanto o primeiro marca a quantidade de tarefas feitas em um período de tempo, o segundo é baseado  na unidade que o time escolheu para definir o tamanho de uma história, portanto, são duas métricas bem diferentes.&lt;/p&gt;
+
+&lt;p&gt;O Throughput só é totalmente confiável se &lt;strong&gt;as tarefas forem de tamanhos similares&lt;/strong&gt;. Eu prefiro quebrar as tarefas no menor tamanho possível de forma que elas continuem sendo incrementos funcionais. Por isso não costumamos definir &lt;strong&gt;story points&lt;/strong&gt; ou qualquer coisa parecida para as tarefas, já que nosso objetivo é fazer com que as tarefas sejam de um tamanho suficiente para serem entregues em uma semana.&lt;/p&gt;
+
+&lt;h2&gt;Dia da entrega da tarefa&lt;/h2&gt;
+
+&lt;p&gt;Não importa qual a metodologia ou framework de gestão de projetos você esteja usando, para medir o Throughput você precisará saber o dia em que a tarefa foi entregue. Não importa qual a ferramenta que você usa, contanto que você saiba a data de conclusão da tarefa.&lt;/p&gt;
+
+&lt;p&gt;Esse é o único dado que você precisa imediatamente. A partir dele, iremos descobrir outros dados para nos dar todas as respostas que precisamos.&lt;/p&gt;
+
+&lt;h2&gt;Descobrindo a semana da entrega do projeto&lt;/h2&gt;
+
+&lt;p&gt;A partir da data da entrega do projeto, você vai descobrir a semana do ano. No meu dia a dia, eu utilizo a planilha do Google para fazer essa conta. Lá tem uma função chamada &lt;code&gt;=weeknum();&lt;/code&gt;, que me dá o número da semana de uma data específica.&lt;/p&gt;
+
+&lt;p&gt;Abaixo segue uma tabela fake de tarefas que foram entregues. Na coluna da semana, usei a função &lt;code&gt;=weeknum();&lt;/code&gt; para descobrir o número da semana.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/WoCWk8Q.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;| Semana     | Data de entrega | Tarefa |
+|:&amp;ndash;|:&amp;ndash;|:&amp;ndash;|
+| 1 | 1/2/2017 | Mudar cor do botão
+| 2 | 1/9/2017 |  [Widget de Texto] Alterar tamanho de texto nativo do template
+| 3 | 1/16/2017 | Criar fila com RabbitMQ
+| 3 | 1/16/2017 | Uma outra tarefa qualquer
+| 1 | 1/2/2017 |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+| 1 | 1/2/2017 |  Morbi eu elit sed turpis imperdiet sagittis et in ligula.
+| 3 | 1/16/2017 | Pellentesque sagittis nisi eu eros vulputate aliquet.
+| 4 | 1/23/2017 | Vestibulum ornare sem nec consequat sodales.
+| 4 | 1/23/2017 | Quisque non diam id nisi sagittis ornare.
+| 2 | 1/9/2017 |  Phasellus posuere odio vitae pretium facilisis.
+| 3 | 1/16/2017 | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+| 4 | 1/23/2017 | Morbi eu elit sed turpis imperdiet sagittis et in ligula.
+| 1 | 1/2/2017 |  Pellentesque sagittis nisi eu eros vulputate aliquet.
+| 2 | 1/9/2017 |  Vestibulum ornare sem nec consequat sodales.
+| 3 | 1/16/2017 | Quisque non diam id nisi sagittis ornare.
+| 4 | 1/23/2017 | Phasellus posuere odio vitae pretium facilisis.&lt;/p&gt;
+
+&lt;p&gt;Agora que sabemos o número de cada semana, podemos descobrir o Throughput, ou seja, a quantidade de tarefas entregues de cada uma das semanas. Para tanto, em outras células, faço outra coluna de semana, colocando os números referentes a cada semana e faço uma contagem de quantas tarefas foram entregues na mesma semana usando a função &lt;code&gt;=countif(intervalo, critério);&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/Ti36irG.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;| Semana     | Throughput (Issues entregues) |
+|:&amp;ndash;|:&amp;ndash;|:&amp;ndash;|
+|1|4|
+|2|3|
+|3|5|
+|4|4|&lt;/p&gt;
+
+&lt;p&gt;Essa informação já é importante o suficiente para algumas pessoas: você acabou de descobrir quantas tarefas foram entregues em cada uma das semanas. Já dá pra fazer um report maroto básico para os chefões. Vamos agora tentar responder as perguntas do começo do artigo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/jkZ5DHm.png" /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Qual foi o mínimo e o máximo de tarefas entregues em uma semana?&lt;/h2&gt;
+
+&lt;p&gt;Vários motivos podem tornar o desenvolvimento de software um ambiente complexo: bugs imprevistos em produção, infraestrutura que sai do ar, férias de desenvolvedores, falta de testes, imprevistos, pedidos de tarefas urgentes e etc. Tudo isso pode influenciar as entregas semanais do time pra pior. É legal entender os motivos que fizeram com que o time entregasse pouco em uma determinada semana.&lt;/p&gt;
+
+&lt;p&gt;Por outro lado, há semanas em que muitas tarefas foram entregues. Isso não é necessariamente bom, já que o time pode ter saído de uma semana ruim, onde as tarefas estavam represadas até que os problemas fossem resolvidos. Ou, se não houve problemas, a alta das entregas podem ter sido resultado da alta produtividade do time&amp;hellip; o que é uma ótima notícia.&lt;/p&gt;
+
+&lt;p&gt;Para saber qual foi a semana que você entregou menos ou mais tarefas, usaremos duas medidas de dispersão: &lt;strong&gt;mínimo&lt;/strong&gt; e &lt;strong&gt;máximo&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/84MzTzK.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bastando usar as funções &lt;code&gt;=min(intervalo)&lt;/code&gt; e &lt;code&gt;=max(intervalo)&lt;/code&gt;, saberemos a resposta dessas perguntas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/lD1EBVo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;No nosso exemplo, tivemos uma semana que entregamos apenas 3 histórias (semana 2), e a semana que entregamos foram 5 histórias (semana 3).&lt;/p&gt;
+
+&lt;h2&gt;Geralmente entregamos XX tarefas por semana.&lt;/h2&gt;
+
+&lt;p&gt;Com o tempo, o time começa a identificar uma cadência de entregas, entregando mais ou menos o mesmo número de tarefas. Com a medida de tendência central &lt;strong&gt;moda&lt;/strong&gt;, nós descobrimos qual é a quantidade de entregas mais comum do time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/avcxCBr.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para descobrir esse número, usamos a função &lt;code&gt;=mode(intervalo)&lt;/code&gt; do próprio Google Sheets e pronto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/eWGfk4C.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Logo, descobrimos que na metade (ou mais) das semanas analisadas, nós entregamos 4 tarefas.&lt;/p&gt;
+
+&lt;p&gt;É possível também ter uma análise desse tipo usando um gráfico de histograma, que vai mostrar com que frequência entregamos uma quantidade específica de tarefas. É um assunto pra outro post, talvez, mas segue abaixo o gráfico:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/jl5o3Zz.png" /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Quartis&lt;/h2&gt;
+
+&lt;p&gt;Agora, para sabermos quantas tarefas são entregues por exemplo, em &amp;frac14; (um quarto) do tempo, nós usamos os quartis, que são medidas que dividem uma amostra. Basicamente os quartis dividem nossa distribuição (as tarefas entregues nas semanas) em 4 partes, de forma que consigamos responder que em 25% o time entrega XX tarefas.&lt;/p&gt;
+
+&lt;p&gt;Para isso, usamos a função &lt;code&gt;=percentile(intervalo; porcentagem)&lt;/code&gt;. Para exemplificar melhor, vou aumentar a nossa amostra de entregas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/pvd2Kzf.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Descobrimos então que em 25% das vezes, o time entregou 3 ou menos tarefas. Logo, em 75% das vezes, o time entregou 3 ou mais.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/ugoFwbl.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Descobrimos também que em 75% das vezes, nosso time entregou 5 tarefas ou menos e que em 25% do tempo, o time entregou 5 tarefas ou mais.&lt;/p&gt;
+
+&lt;h2&gt;Concluindo&lt;/h2&gt;
+
+&lt;p&gt;Na minha humilde opinião, essas métricas são bem mais úteis do que apenas sabermos a média de entregas. Isso torna o processo de desenvolvimento mais empírico, dando mais informações para que o time se conheça mais afim de otimizar melhor seu esforço.&lt;/p&gt;
+
+&lt;p&gt;Isso também começa a se aproximar, mesmo que basicamente, do conceito de #NoEstimates, que é onde usamos dados históricos para estimar a entrega de um projeto. Mesmo que não usemos em momento nenhum qualquer técnica para prever o dia da entrega do projeto, com esses dados damos um passo bem inicial, onde é possível conhecer a frequência de entrega do time, trazendo mais confiança de quantas tarefas eles poderão entregar nas próximas semanas, dado que as histórias tem tamanhos similares.&lt;/p&gt;
+
+&lt;p&gt;Se você quiser explorar um pouco mais a planilha que utilizei, segue nesse link. Basta copiar a planilha e ser feliz: &lt;a href="http://bit.ly/planilha-tp"&gt;http://bit.ly/planilha-tp&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Lançamento App Easynvest</title>
     <link rel="alternate" href="http://diegoeis.com/app-easynvest.html"/>
@@ -666,192 +796,6 @@ alinhados com as expectativas de todos.&lt;/p&gt;
 &lt;p&gt;Agora, pra abrir um arquivo, basta digitar gvim [nome&lt;em&gt;do&lt;/em&gt;arquivo]. É uma boa ideia você ler o &lt;a href="https://github.com/macvim-dev/macvim/wiki/FAQ"&gt;FAQ do MacVim&lt;/a&gt;. Tem muita coisa boa explicada lá.&lt;/p&gt;
 
 &lt;p&gt;Essa &lt;a href="https://faraohh.files.wordpress.com/2009/01/vim-super_editor.pdf"&gt;apresentação vai te ajudar muito a entender melhor o vim&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Um pequeno estudo sobre a Microsoft</title>
-    <link rel="alternate" href="http://diegoeis.com/um-pequeno-estudo-sobre-a-microsoft.html"/>
-    <id>http://diegoeis.com/um-pequeno-estudo-sobre-a-microsoft.html</id>
-    <published>2016-12-31T06:00:00-02:00</published>
-    <updated>2017-01-06T10:09:04-02:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Participei de uma entrevista de emprego ano passado, onde uma das fases envolveu fazer o seguinte exercício: eu deveria escolher uma das &lt;a href="http://fortune.com/2016/02/04/most-valuable-companies-fortune-500-apple/"&gt;10 empresas de tecnologia mais valiosas&lt;/a&gt; do mundo e imaginar que eu acabei de ser contratado pra liderar todo o desenvolvimento de um dos produtos dessa empresa. Eu deveria fazer uma apresentação mostrando uma análise da empresa e quais foram suas principais entregas recentes, além de uma definição estratégica de médio prazo, com um roadmap de entregas. Como você já deve saber pelo título desse artigo, eu acabei escolhendo a Microsoft.&lt;/p&gt;
-
-&lt;p&gt;A apresentação que fiz na entrevista está logo abaixo. Depois, continue lendo esse texto, onde resumi todas as informações que passei na apresentação:&lt;/p&gt;
-
-&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/d04ConmdqQslnn" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt; 
-
-&lt;p&gt;A Microsoft mudou muito nos últimos anos, principalmente depois que o Satya Nadella começou a comandá-la. O que era uma empresa solitária, toda poderosa e auto suficiente se transformou numa empresa colaborativa, com uma visão realmente clara de futuro e principalmente antenada nos movimentos e as tendências tecnológicas do mercado. &lt;/p&gt;
-
-&lt;p&gt;Como um dos objetivos da tarefa era escolher um produto da empresa, a primeira ideia que tive foi de transformar o Edge em um browser multiplataforma. O Edge é um browser sensacional e um dos mais modernos, por isso, seria interessante ter uma versão para Mac e Linux. Isso iria de encontro ao plano da Microsoft de expandir seus domínios em plataformas não próprias, como ela tem feito disponibilizando apps para iOS e Android. Mas eu queria sair da minha zona de conforto, por isso decidi escolher algo que não tinha relação direta com Web, logo tive uma outra ideia: transformar o Xbox em um app de jogos multiplataforma por meio de streaming de games, o famoso GaaS.&lt;/p&gt;
-
-&lt;p&gt;Ideia escolhida, vamos pesquisar sobre a Microsoft.&lt;/p&gt;
-
-&lt;h2&gt;A visão atual e futura da Microsoft&lt;/h2&gt;
-
-&lt;p&gt;Com o comando do Steve Ballmer, a Microsoft tinha uma visão resumida em duas palavras: Devices + Services. A ideia era ter hardware e software para consumidores e empresas. Era muito comum ouvir o Ballmer falar sobre &amp;ldquo;família de dispositivos&amp;rdquo; da Microsoft. &lt;/p&gt;
-
-&lt;p&gt;O Surface é um ótimo aparelho, mas ainda estava longe de ter as vendas de um iPad, quem dirá chegar perto das vendas de tablets com Android. O Windows Phone não decolou nem com a compra da Nokia. O Xbox dá dinheiro, mas nos últimos quarters de 2016 ele estava dando prejuízo de uns 5% pra empresa (&lt;a href="https://www.microsoft.com/en-us/Investor/annual-reports.aspx"&gt;este número está nos reports&lt;/a&gt;). O Windows está dando prejuízo, embora tenha se recuperado com o Windows 10 (o Windows 8 foi embaraçoso pra MS), mesmo com a Microsoft liberando o upgrade gratuito para quem tinha Windows 8.&lt;/p&gt;
-
-&lt;p&gt;O mantra do Satya Nadella é um pouco diferente: Mobile + Cloud.
-A palavra &lt;strong&gt;Mobile&lt;/strong&gt; não se refere apenas aos Smartphones, mas também aos Tablets, PCs, Notebooks, Consoles e qualquer outro dispositivo (sendo ou não da Microsoft) que o usuário utilize e que seja diferente do Desktop. &lt;/p&gt;
-
-&lt;p&gt;Ele se refere ao &lt;strong&gt;Cloud&lt;/strong&gt; sendo um ambiente escalável para manter dispositivos e serviços sincronizados e conectados. Sem uma arquitetura de cloud bem definida, a Microsoft não conseguiria tornar real seu plano de Cloud First + Mobile First. A M$ precisa jogar suas coisas no Cloud para tornar possível a exploração de novas fronteiras, isso é: serviços e apps fora dos seus dispositivos e sistemas próprios.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/visao-atual.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Veja que a maneira como a Microsoft autocentralizava o negócio dela. Ela basicamente ganhava dinheiro apenas com royaties e licenças de software. Perceba que para ganhar com royaties e licenças de software, ela precisa fazer com que seu software vire uma plataforma. Se você parar de usar o Office e o Windows para usar o Google Drive no Mac, a Microsoft perdeu. Se você parar de usar só o Office ou só o Windows, a M$ perdeu. Ela quer que você continue usando seus serviços e softwares em &lt;strong&gt;qualquer lugar&lt;/strong&gt;, seja ele da Microsoft ou não. Por isso, uma nova visão mais vantajosa é juntar receita de assinaturas e ads, além de continuar mantendo royalties e licenças.&lt;/p&gt;
-
-&lt;p&gt;O Google e a Apple já fazem isso há anos. Você usa o Google Drive gratuitamente, mas pode pagar para ter mais espaço. Há ads em vários outros serviços do Google como Gmail e a Busca. A Apple se baseia muito em assinaturas como no iCloud e no iTunes. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/msft-q4-2016-a.jpg" /&gt;
-&lt;img src="assets/images/post-microsoft/msft-q4-productivity-2016.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Só de Office 365 a Microsoft tinha 23 Milhões de assinantes em Julho de 2016. Com todos os serviços de assinatura a Microsoft faturou no Q4 2016 algo em torno de USD$26 Bilhões. Isso inclui produtos como Azure, Dynamics 365 e Office 365.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Nadella knows millions of iOS, OS X, Chrome, and Android users will likely never come back to Windows but still need Microsoft software. The cross-platform opportunity is too big to ignore, even if it strengthens Windows competitors. — &lt;a href="http://www.informationweek.com/software/enterprise-applications/microsofts-mobile-first-cloud-first-strategy-explained/d/d-id/1234865"&gt;Michael Endler&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Na realidade Mobile e Cloud precisam se interagir como se fossem um só. Não existe potencial em serviços baseados em Cloud, mas que não estão conectados a nenhum dispositivo&amp;hellip; Como o Cloud conseguiria interagir com o mundo real? É pelo Cloud que chegamos aos dispositivos. E quando falamos de dispositivos, pense que o dispositivo pode ser um sensor, um dispositivo móvel, um tablet, uma tela gigante na sala de casa ou na sala de reunião em uma empresa. Do outro lado da moeda, um dispositivo que não está conectado no Cloud, não pode se relacionar com outros dispositivos e principalmente com os serviços da Microsoft (ou qualquer outro player). Entendeu a sinergia que a Microsoft está buscando?&lt;/p&gt;
-
-&lt;p&gt;A visão de futuro da Microsoft é muito, mas muito legal.
-Ela quer se focar em conversações. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/visao-futuro.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;O novo mantra é: &lt;strong&gt;Conversations as a Platform&lt;/strong&gt;. Isso tem bastante a ver com o que temos visto com a era dos assistentes pessoais como a Cortana, Siri etc. Além dos Chatbots que estão dominando vários mercados. Veja esse vídeo da apresentação que eles fizeram em Março do ano passado:&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zqMYBWwW16M" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Além disso, ela tem focado bastante em aparelhos como o HoloLens. Mesmo que somente para empresas nesse primeiro momento, é impossível não pensar na integração do HoloLens com o Xbox.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A saúde do ecossistema é mais importante que as políticas de licença.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3&gt;Personas&lt;/h3&gt;
-
-&lt;p&gt;Pra tudo isso funcionar, ela definiu três personas diferentes: Consumidores, Desenvolvedores e Profissionais de TI. &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Consumidores&lt;/strong&gt;: Ela quer ajudar os Consumidores (usuários comuns e profissionais) a fazerem mais em qualquer dispositivo.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Desenvolvedores&lt;/strong&gt;: Ela quer ajudar os desenvolvedores a criarem serviços e sistemas inovadores provendo dispositivos e softwares.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Profissionais de TI&lt;/strong&gt;: Ajudar na gestão e na proteção dos assets da empresa, de forma a evitar problemas com limitações de segurança, implantações, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Na estratégia de cloud, a Microsoft já tem facilitado ambientes do Azure para Linux. Azure suporta atualmente CentOS, CoreOS, Debian, openSUSE, Oracle Linux, Red Hat Enterprise Linux (RHEL), SUSE Linux Enterprise Server (SLES) e Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;Você sabia que a &lt;a href="https://mspoweruser.com/surprise-microsoft-has-the-most-open-source-contributors-on-github/"&gt;Microsoft tem mais contribuidores nos projetos Open Source do Github&lt;/a&gt; dela que o Facebook e o Google?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/ms-github.png" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;Os concorrentes&lt;/h2&gt;
-
-&lt;p&gt;Eu não listei todos os concorrentes do mundo, mas selecionei dois que eu julguei os principais: Steam e Playstation. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/concorrentes.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Levantei os números de cada um, além dos números do Xbox. Aqui eu já enfrentei um problema: o que é um &lt;strong&gt;Usuário Ativo&lt;/strong&gt; para esses caras? Os três tratam usuários ativos de forma diferente: &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;a Microsoft não abre quantos usuários pagantes existem no Xbox Live, mas a Live tem mais de 42 Milhões de usuários, que podem ou não gerar alguma compra/renda.&lt;/li&gt;
-&lt;li&gt;o Steam trata usuários ativos como usuários que jogam. Logo, o número é bem maior, algo em torno de 198 milhões de jogadores, que podem ou não gerar alguma compra/renda.&lt;/li&gt;
-&lt;li&gt;a Sony é um pouco mais transparente: eles tem 65 Milhões de usuários na PSN, mas só 20.8 Milhões são pagantes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A receita de cada que é estrondosa. Veja que o Xbox e o Playstation ficam na casa dos Bilhões. Sendo que o Playstation ganha quase que o dobro da Microsoft. E esse número da Microsoft também não reflete o valor real, já que eles colocam ali o valor gastos com a compra de jogos também, não apenas com a Live. Perceba que a Steam fica na lanterna. Pelo que eu pesquisei, ela fica lá em último lugar por causa das promoções, bundles e etc. &lt;/p&gt;
-
-&lt;h2&gt;O mercado de jogos&lt;/h2&gt;
-
-&lt;p&gt;Eu gosto de jogar video game, mas não jogo desde que meu Xbox quebrou e eu decidi tentar usar esse tempo com coisas mais úteis. Mas mesmo eu gostando bastante de jogar, eu não tinha ideia do tamanho do mercado de jogos. Eu sei que eles faturam milhões. Mas qual o cenário global dos jogos? Quais os mercados que o Xbox atua?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/mercado1.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Em 5 anos o mercado de jogos cresceu algo em torno de 6.6%. Perceba o aumento do mercado de jogos para smartphone e mobile, comendo quase 46% de todo o valor, faturando algo em torno de USD$52.5 Bilhões.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="assets/images/post-microsoft/mercado2.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Depois que eu parei de jogar em consoles frequentemente, eu me entreguei a jogos casuais como Clash of Clans, HearthStone, Mario Run etc. Esses jogos pegam exatamente um público como eu, que quer continuar jogando, mas não tem uma, duas ou três horas disponíveis para sentar na frente de uma televisão com calma.&lt;/p&gt;
-
-&lt;p&gt;Outra coisa que dá pra perceber, é que o mercado que o Xbox atual é responsável por apenas 29% da fatia total, que corresponde a 29 Bilhões. Ela cresce algo em torno de 4.4% ao ano.&lt;/p&gt;
-
-&lt;p&gt;Se levarmos em consideração, a Microsoft está presente em dois setores: Entertainment Screens com o Xbox e Computer Screens com a venda de jogos de PC. Só falta ela ser inserida nos mobiles, o que não é muito fácil, já que o Windows Phone foi um fiasco.&lt;/p&gt;
-
-&lt;h2&gt;O Roadmap&lt;/h2&gt;
-
-&lt;p&gt;Como eu não precisava dar datas exatas, mesmo por que eu não tenho ideia de quanto tempo levaria cada fase, além disso, eu gosto de metodologias ágeis, logo, se fosse na vida real, eu não tenho um roadmap adiantado em anos. Os principais pontos do plano seriam:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Aplicativo SmartGlass se transforma em segunda tela para console Xbox, tanto pra jogos quanto pra outras medias&lt;/li&gt;
-&lt;li&gt;Lançamento Aplicativo do Xbox para Plataforma Windows. Console e App Windows tem a mesma interface com funcionalidades parecidas. Contudo, usuários ainda fazem downloads dos jogos (como no Steam)&lt;/li&gt;
-&lt;li&gt;Jogadores do Console podem jogar online sem distinção com jogadores do Windows&lt;/li&gt;
-&lt;li&gt;Windows e o Console fazem Stream dos jogos. Jogadores ainda tem opção de download por conta da velocidade de conexão.&lt;/li&gt;
-&lt;li&gt;Futuro:
-
-&lt;ul&gt;
-&lt;li&gt;Stream dos jogos para Mac / Linux? &lt;/li&gt;
-&lt;li&gt;Stream de Jogos  nos Tablets e Smartphones?&lt;/li&gt;
-&lt;li&gt;HoloLens funcionando em tudo isso?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;No final do plano, o Xbox já estaria no setor de Game as a Service (GaaS), virando uma espécie aplicativo multiplataforma, que possibilita jogar seus jogos via Cloud ou baixando os jogos, como o Steam.&lt;/p&gt;
-
-&lt;p&gt;Isso abriria outra oportunidade para Microsoft (que era uma das minhas listadas na apresentação) que é de transformar o Xbox em um centro multimedia de verdade, competindo com o AppleTV diretamente. Ele deixaria de ser um aparelho cuja função principal seria jogar e passaria a ser um aparelho que controla as atividades digitais da casa.&lt;/p&gt;
-
-&lt;h2&gt;Oportunidades e riscos&lt;/h2&gt;
-
-&lt;p&gt;Mapeando de forma bem macro as oportunidades seriam:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fortalecimento do ecosistema entre Xbox + Windows 10;&lt;/li&gt;
-&lt;li&gt;Xbox entra na concorrência com Steam (principalmente), EA Origin e Sony’s Remote Play;&lt;/li&gt;
-&lt;li&gt;Xbox Live vira multiplataforma, abrindo possibilidades de conversão de usuários de PC’s e possivelmente Smartphones.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nesse processo, eu li vários relatórios financeiros da Microsoft. Ela disse em cada um deles que a ideia é fortalecer o ecossistema da empresa, colocando o Windows 10 como o centro da coisa toda&amp;hellip; Exatamente por isso que eles trocaram o sistema dos seus aparelhos para Windows 10, diminuindo o problema de compatibilidade entre as plataformas.&lt;/p&gt;
-
-&lt;p&gt;Os riscos e dúvidas seriam:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Provavelmente usuários deixam de comprar o console; Xbox teve uma queda de 5% na receita no último quarter de 2016.&lt;/li&gt;
-&lt;li&gt;Jogadores não poderão fazer stream de jogos que foram comprados para PC “fora” da Live; Ou seja, só jogos comprados da Live seriam &amp;ldquo;streamados&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Fabricantes de Jogos poderão continuar vendendo seus jogos para PC fora da Xbox Live?&lt;/li&gt;
-&lt;li&gt;O aplicativo de jogos multiplaforma que eu estou sugerindo ainda teria Xbox no nome ou poderia passar a se chamar apenas Microsoft Live?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Uma pergunta que surgiu na entrevista foi: &lt;strong&gt;Quais os riscos para o usuário?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Eu respondi que o risco para o usuário seria não ter esse ecossistema funcionando adequadamente. Querendo ou não, a Microsoft ainda está montando seu ecossistema. Ela ainda não é como o Google ou a Apple que tem seus jardins dourados funcionando muito bem. Ela começou a sair da caixa agora, colocando seus apps em lugares que ela não é dona, como é o caso do pacote Office rodando perfeitamente e de graça no iOS.&lt;/p&gt;
-
-&lt;h2&gt;Para ler mais&lt;/h2&gt;
-
-&lt;p&gt;Foi um exercício bem legal. Tive que fazer em uns 4 dias. Achei que a apresentação ficou muito simples. Mesmo assim eles gostaram bastante. Mas como disse lá em cima, o que eu mais gostei foi de buscar informações sobre uma única empresa e se aprofundar na sua cultura, visão de futuro etc. E você, o que achou?&lt;/p&gt;
-
-&lt;h4&gt;Dados Faturamento Raking:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://fortune.com/2016/02/04/most-valuable-companies-fortune-500-apple/"&gt;http://fortune.com/2016/02/04/most-valuable-companies-fortune-500-apple/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.businessinsider.com/4-most-valuable-public-companies-all-tech-companies-2016-8"&gt;http://www.businessinsider.com/4-most-valuable-public-companies-all-tech-companies-2016-8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.zdnet.com/article/microsoft-q4-strong-office-365-consumer-subscriptions-top-23-million/"&gt;Microsoft Q4 strong, Office 365 consumer subscriptions top 23 million&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Technology&amp;amp;sortname=marketcap&amp;amp;sorttype=1"&gt;http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Technology&amp;amp;sortname=marketcap&amp;amp;sorttype=1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Visão estratégica Microsoft&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.microsoft.com/en-us/Investor/annual-reports.aspx"&gt;Reports financeiros da Microsoft&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://news.microsoft.com/2014/03/27/satya-nadella-mobile-first-cloud-first-press-briefing/#sm.0000114k83ys2vezgvftkl04uyjvq"&gt;Mobile First, Cloud First&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.informationweek.com/software/enterprise-applications/microsofts-mobile-first-cloud-first-strategy-explained/d/d-id/1234865"&gt;Microsofts Mobile First Cloud First Strategy Explained&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.theverge.com/2013/9/20/4749574/microsoft-business-model-mix-of-google-and-apple"&gt;Microsoft Business Model mix of Google and Apple&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.bloomberg.com/gadfly/articles/2016-07-19/microsoft-turns-bing-from-a-joke-into-an-ad-business"&gt;Microsoft turns Bing from a joke into an ad Business&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.businessinsider.com/microsofts-bing-ad-revenue-growth-2016-7"&gt;Microsoft Bing ad Revenue Growth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.microsoft.com/microsoft-surface-hub/en-us"&gt;Surface Hub dispositivo da Microsoft para empresas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.microsoft.com/en-us/surface/devices/surface-studio/overview"&gt;Surface Studio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
