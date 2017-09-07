@@ -2,7 +2,7 @@
 title: Histórias menores são a resposta, Story Points são bullshit
 date: 2017-08-15 00:00 UTC
 tags: agile, product management, management
-draft: true
+published: false
 ---
 
 Definir Story Points é uma técnica muito conhecida pelos times de software ágeis. O time estima (chuta) quantos pontos valem uma determinada história e essa história entra ou não na sprint, dependendo da capacidade baseada nas pontuações das histórias completadas anteriormente.

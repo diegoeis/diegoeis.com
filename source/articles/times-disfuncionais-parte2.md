@@ -2,7 +2,7 @@
 title: Times disfuncionais - parte 2
 date: 2017-07-15 00:00 UTC
 tags: product management, management
-draft: true
+published: false
 ---
 
 Basicamente existem duas maneiras de organizar times: agrupar as pessoas de acordo com suas especialidades ou agrupar pessoas com especialidades mistas. Agrupar pessoas da mesma especialidade significa juntar num canto designers com designers, em outro canto devs com devs, em outro canto PMs com PMs, só para citar algumas das especialidades. Agrupando dessa forma, cada grupo executa tarefas de acordo com suas especialidades conforme as demandas chegam, com o mínimo de alinhamento com os outros grupos, mas muitas vezes as motivações de um grupo são totalmente diferentes do outro grupo. Geralmente criar times de acordo com a sua especialidade, significa que embora eles estejam trabalhando num mesmo produto, eles não estão realmente juntos, trabalhando em um mesmo objetivo.
