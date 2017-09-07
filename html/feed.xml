@@ -5,797 +5,335 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2017-05-29T21:00:00-03:00</updated>
+  <updated>2017-09-04T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
   <entry>
-    <title>Throughput - Saindo do básico</title>
-    <link rel="alternate" href="http://diegoeis.com/throughput-saindo-do-basico.html"/>
-    <id>http://diegoeis.com/throughput-saindo-do-basico.html</id>
-    <published>2017-05-29T21:00:00-03:00</published>
-    <updated>2017-05-30T23:10:27-03:00</updated>
+    <title>Guardar o sábado</title>
+    <link rel="alternate" href="http://diegoeis.com/guardar-o-sabado.html"/>
+    <id>http://diegoeis.com/guardar-o-sabado.html</id>
+    <published>2017-09-04T21:00:00-03:00</published>
+    <updated>2017-09-07T18:46:26-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;Em um ambiente de desenvolvimento de software, &lt;strong&gt;throughput&lt;/strong&gt; é o número de tarefas entregues (que foram para DONE) em um período de tempo. Esse período de tempo é definido pelo time, contudo, normalmente medimos a quantidade de tarefas entregues dentro de uma semana.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=vT5sIZU3QZc"&gt;Ricardo Santana - Explicação sobre as leis de Deus&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Geralmente o dado de Throughput é utilizado para calcular apenas a média de entregas semanais do time. Quero que você tente pensar um pouco mais além, tentando utilizar esse dado para te dar informações mais interessantes sobre a vazão do seu time. A ideia é que você consiga ter as seguintes informações:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://novotempo.com/estaescrito/jesus-e-o-sabado/"&gt;Jesus e o Sábado&lt;/a&gt;
+&lt;a href="https://www.bible.com/bible/1608/MRK.2.27"&gt;Sábado por causa do homem&lt;/a&gt;
+&lt;a href="http://www.averdadesobreofim.com.br/estudos/74-razoes-biblicas-para-guardar-sabado/"&gt;74 Razões bíblicas para guarda o sábado&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Qual foi o mínimo de tarefas que o time entregou em uma semana?&lt;/li&gt;
-&lt;li&gt;Qual foi o record de entregas de tarefas em uma semana?&lt;/li&gt;
-&lt;li&gt;Geralmente entregamos XX tarefas por semana.&lt;/li&gt;
-&lt;li&gt;Em 25% das vezes, o time entrega XX tarefas por semana ou menos.&lt;/li&gt;
-&lt;li&gt;Em 75% das vezes, o time entrega XX tarefas por semana ou mais.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Throughput é diferente de Velocity&lt;/h2&gt;
-
-&lt;p&gt;Enquanto o primeiro marca a quantidade de tarefas feitas em um período de tempo, o segundo é baseado  na unidade que o time escolheu para definir o tamanho de uma história, portanto, são duas métricas bem diferentes.&lt;/p&gt;
-
-&lt;p&gt;O Throughput só é totalmente confiável se &lt;strong&gt;as tarefas forem de tamanhos similares&lt;/strong&gt;. Eu prefiro quebrar as tarefas no menor tamanho possível de forma que elas continuem sendo incrementos funcionais. Por isso não costumamos definir &lt;strong&gt;story points&lt;/strong&gt; ou qualquer coisa parecida para as tarefas, já que nosso objetivo é fazer com que as tarefas sejam de um tamanho suficiente para serem entregues em uma semana.&lt;/p&gt;
-
-&lt;h2&gt;Dia da entrega da tarefa&lt;/h2&gt;
-
-&lt;p&gt;Não importa qual a metodologia ou framework de gestão de projetos você esteja usando, para medir o Throughput você precisará saber o dia em que a tarefa foi entregue. Não importa qual a ferramenta que você usa, contanto que você saiba a data de conclusão da tarefa.&lt;/p&gt;
-
-&lt;p&gt;Esse é o único dado que você precisa imediatamente. A partir dele, iremos descobrir outros dados para nos dar todas as respostas que precisamos.&lt;/p&gt;
-
-&lt;h2&gt;Descobrindo a semana da entrega do projeto&lt;/h2&gt;
-
-&lt;p&gt;A partir da data da entrega do projeto, você vai descobrir a semana do ano. No meu dia a dia, eu utilizo a planilha do Google para fazer essa conta. Lá tem uma função chamada &lt;code&gt;=weeknum();&lt;/code&gt;, que me dá o número da semana de uma data específica.&lt;/p&gt;
-
-&lt;p&gt;Abaixo segue uma tabela fake de tarefas que foram entregues. Na coluna da semana, usei a função &lt;code&gt;=weeknum();&lt;/code&gt; para descobrir o número da semana.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/WoCWk8Q.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;| Semana     | Data de entrega | Tarefa |
-|:&amp;ndash;|:&amp;ndash;|:&amp;ndash;|
-| 1 | 1/2/2017 | Mudar cor do botão
-| 2 | 1/9/2017 |  [Widget de Texto] Alterar tamanho de texto nativo do template
-| 3 | 1/16/2017 | Criar fila com RabbitMQ
-| 3 | 1/16/2017 | Uma outra tarefa qualquer
-| 1 | 1/2/2017 |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-| 1 | 1/2/2017 |  Morbi eu elit sed turpis imperdiet sagittis et in ligula.
-| 3 | 1/16/2017 | Pellentesque sagittis nisi eu eros vulputate aliquet.
-| 4 | 1/23/2017 | Vestibulum ornare sem nec consequat sodales.
-| 4 | 1/23/2017 | Quisque non diam id nisi sagittis ornare.
-| 2 | 1/9/2017 |  Phasellus posuere odio vitae pretium facilisis.
-| 3 | 1/16/2017 | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-| 4 | 1/23/2017 | Morbi eu elit sed turpis imperdiet sagittis et in ligula.
-| 1 | 1/2/2017 |  Pellentesque sagittis nisi eu eros vulputate aliquet.
-| 2 | 1/9/2017 |  Vestibulum ornare sem nec consequat sodales.
-| 3 | 1/16/2017 | Quisque non diam id nisi sagittis ornare.
-| 4 | 1/23/2017 | Phasellus posuere odio vitae pretium facilisis.&lt;/p&gt;
-
-&lt;p&gt;Agora que sabemos o número de cada semana, podemos descobrir o Throughput, ou seja, a quantidade de tarefas entregues de cada uma das semanas. Para tanto, em outras células, faço outra coluna de semana, colocando os números referentes a cada semana e faço uma contagem de quantas tarefas foram entregues na mesma semana usando a função &lt;code&gt;=countif(intervalo, critério);&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/Ti36irG.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;| Semana     | Throughput (Issues entregues) |
-|:&amp;ndash;|:&amp;ndash;|:&amp;ndash;|
-|1|4|
-|2|3|
-|3|5|
-|4|4|&lt;/p&gt;
-
-&lt;p&gt;Essa informação já é importante o suficiente para algumas pessoas: você acabou de descobrir quantas tarefas foram entregues em cada uma das semanas. Já dá pra fazer um report maroto básico para os chefões. Vamos agora tentar responder as perguntas do começo do artigo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/jkZ5DHm.png" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;Qual foi o mínimo e o máximo de tarefas entregues em uma semana?&lt;/h2&gt;
-
-&lt;p&gt;Vários motivos podem tornar o desenvolvimento de software um ambiente complexo: bugs imprevistos em produção, infraestrutura que sai do ar, férias de desenvolvedores, falta de testes, imprevistos, pedidos de tarefas urgentes e etc. Tudo isso pode influenciar as entregas semanais do time pra pior. É legal entender os motivos que fizeram com que o time entregasse pouco em uma determinada semana.&lt;/p&gt;
-
-&lt;p&gt;Por outro lado, há semanas em que muitas tarefas foram entregues. Isso não é necessariamente bom, já que o time pode ter saído de uma semana ruim, onde as tarefas estavam represadas até que os problemas fossem resolvidos. Ou, se não houve problemas, a alta das entregas podem ter sido resultado da alta produtividade do time&amp;hellip; o que é uma ótima notícia.&lt;/p&gt;
-
-&lt;p&gt;Para saber qual foi a semana que você entregou menos ou mais tarefas, usaremos duas medidas de dispersão: &lt;strong&gt;mínimo&lt;/strong&gt; e &lt;strong&gt;máximo&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/84MzTzK.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bastando usar as funções &lt;code&gt;=min(intervalo)&lt;/code&gt; e &lt;code&gt;=max(intervalo)&lt;/code&gt;, saberemos a resposta dessas perguntas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/lD1EBVo.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;No nosso exemplo, tivemos uma semana que entregamos apenas 3 histórias (semana 2), e a semana que entregamos foram 5 histórias (semana 3).&lt;/p&gt;
-
-&lt;h2&gt;Geralmente entregamos XX tarefas por semana.&lt;/h2&gt;
-
-&lt;p&gt;Com o tempo, o time começa a identificar uma cadência de entregas, entregando mais ou menos o mesmo número de tarefas. Com a medida de tendência central &lt;strong&gt;moda&lt;/strong&gt;, nós descobrimos qual é a quantidade de entregas mais comum do time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/avcxCBr.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Para descobrir esse número, usamos a função &lt;code&gt;=mode(intervalo)&lt;/code&gt; do próprio Google Sheets e pronto.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/eWGfk4C.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Logo, descobrimos que na metade (ou mais) das semanas analisadas, nós entregamos 4 tarefas.&lt;/p&gt;
-
-&lt;p&gt;É possível também ter uma análise desse tipo usando um gráfico de histograma, que vai mostrar com que frequência entregamos uma quantidade específica de tarefas. É um assunto pra outro post, talvez, mas segue abaixo o gráfico:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/jl5o3Zz.png" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;Quartis&lt;/h2&gt;
-
-&lt;p&gt;Agora, para sabermos quantas tarefas são entregues por exemplo, em &amp;frac14; (um quarto) do tempo, nós usamos os quartis, que são medidas que dividem uma amostra. Basicamente os quartis dividem nossa distribuição (as tarefas entregues nas semanas) em 4 partes, de forma que consigamos responder que em 25% o time entrega XX tarefas.&lt;/p&gt;
-
-&lt;p&gt;Para isso, usamos a função &lt;code&gt;=percentile(intervalo; porcentagem)&lt;/code&gt;. Para exemplificar melhor, vou aumentar a nossa amostra de entregas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/pvd2Kzf.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Descobrimos então que em 25% das vezes, o time entregou 3 ou menos tarefas. Logo, em 75% das vezes, o time entregou 3 ou mais.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/ugoFwbl.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Descobrimos também que em 75% das vezes, nosso time entregou 5 tarefas ou menos e que em 25% do tempo, o time entregou 5 tarefas ou mais.&lt;/p&gt;
-
-&lt;h2&gt;Concluindo&lt;/h2&gt;
-
-&lt;p&gt;Na minha humilde opinião, essas métricas são bem mais úteis do que apenas sabermos a média de entregas. Isso torna o processo de desenvolvimento mais empírico, dando mais informações para que o time se conheça mais afim de otimizar melhor seu esforço.&lt;/p&gt;
-
-&lt;p&gt;Isso também começa a se aproximar, mesmo que basicamente, do conceito de #NoEstimates, que é onde usamos dados históricos para estimar a entrega de um projeto. Mesmo que não usemos em momento nenhum qualquer técnica para prever o dia da entrega do projeto, com esses dados damos um passo bem inicial, onde é possível conhecer a frequência de entrega do time, trazendo mais confiança de quantas tarefas eles poderão entregar nas próximas semanas, dado que as histórias tem tamanhos similares.&lt;/p&gt;
-
-&lt;p&gt;Se você quiser explorar um pouco mais a planilha que utilizei, segue nesse link. Basta copiar a planilha e ser feliz: &lt;a href="http://bit.ly/planilha-tp"&gt;http://bit.ly/planilha-tp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contra o Sábado
+https://estudos.gospelmais.com.br/por-que-nao-guardo-o-sabado.html&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Lançamento App Easynvest</title>
-    <link rel="alternate" href="http://diegoeis.com/app-easynvest.html"/>
-    <id>http://diegoeis.com/app-easynvest.html</id>
-    <published>2017-05-13T21:00:00-03:00</published>
-    <updated>2017-05-20T22:38:43-03:00</updated>
+    <title>Mulheres na área de TI e Respeito</title>
+    <link rel="alternate" href="http://diegoeis.com/mulheres-na-area-deti.html"/>
+    <id>http://diegoeis.com/mulheres-na-area-deti.html</id>
+    <published>2017-09-04T21:00:00-03:00</published>
+    <updated>2017-09-07T18:46:05-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;Saiu o novo App da Easynvest! :-D&lt;/p&gt;
+    <content type="html">&lt;p&gt;Faz algum tempo que tenho me dedicado a não escrever tantos artigos técnicos. Se você perceber, tenho escrito cada vez menos artigos falando sobre linhas de código e mais artigos falando sobre comportamento, mercado e carreira. Tenho feito isso por vários motivos, mas o mais básico é que eu acho que o mercado precisa amadurecer em outros pontos que nada tem a ver com a parte técnica. &lt;/p&gt;
 
-&lt;p&gt;A Easynvest está passando por mudanças profundas em todos os sentidos: formação de novas equipes, &lt;a href="http://www.valor.com.br/financas/4892638/advent-compra-participacao-minoritaria-na-corretora-easynvest"&gt;novos sócios/investidores&lt;/a&gt;, estrutura, negócio, tudo. Ao contrário do que muita gente acha: a Easynvest não é uma start-up. Ela já tem quase 50 anos. Está aí no mercado financeiro desde 1968. Mas  fase de crescimento absurdo que ela está vivendo agora é bastante parecido com que as startups vivem, por isso a confusão. Muito por isso também, ela tem chamado a atenção de todo mundo.&lt;/p&gt;
+&lt;p&gt;Um desses pontos é o respeito pelo próximo, principalmente pelas mulheres. As mulheres nunca foram maioria nesse mundo de TI, isso é um fato. Desde o começo da minha carreira eu encontrei poucas mulheres nessa área e devo confessar que nunca me debrucei para entender os motivos. Sou homem, desligado, que nunca &amp;ldquo;sofreu&amp;rdquo; qualquer tipo de &amp;ldquo;opressão&amp;rdquo; e por isso não senti na pele as dificuldades que as mulheres (e outras minorias) enfrentam para chegar onde chegaram. &lt;/p&gt;
 
-&lt;p&gt;Conforme eu aprendi sobre investimentos, eu nutri a vontade de trabalhar nessa área. Até que surgiu a oportunidade de trabalhar na Easynvest, que já era a corretora que eu usava para gerir meus investimentos. Não perdi tempo e me apliquei à vaga de Gestor de Projetos. Depois de alguns meses, um teste e duas entrevistas, consegui passar no processo. Fiquei bastante empolgado, não apenas porque eu iria trabalhar numa área totalmente nova, mas porque como cliente, eu poderia realmente ser um agente de mudança em um serviço que eu uso praticamente todos os dias.&lt;/p&gt;
+&lt;p&gt;Mas nos últimos anos, as mulheres tecnológicas desse país tem se juntado numa força única, fazendo com que as mulheres ganhem mais espaço nessa área, com mais igualdade e respeito. Mas, sinceramente, eu não sou a melhor pessoa para falar sobre isso, como disse no início, não sou mulher e não saberia retratar aqui qualquer tipo de dificuldade. Contudo, você não precisa saber muita coisa para não ser um babaca, você só precisa ter respeito.&lt;/p&gt;
 
-&lt;p&gt;Logo que entrei, fiquei responsável pela entrega do projeto do novo aplicativo da empresa. O projeto já estava em andamento quando eu cheguei, por isso algumas fases interessantes do projeto já tinham sido executadas e uma parte já estava sendo desenvolvida e a concepção e pesquisa do Design já tinha sido encaminhada, mas nem por isso foi (e ainda não está sendo) uma tarefa trivial.&lt;/p&gt;
+&lt;p&gt;Há uma grande possibilidade de você que está lendo esse artigo ser homem. Se for, há uma grande possibilidade de você fazer piadinhas machistas, de olhar para uma mulher e assobiar, de comentar com seu amiguinho do lado sobre a “mina” que passou de saia… Essas coisas “pequenas e sem importância” só apontam que falta respeito da sua parte para com as mulheres. Se essa bobeira continuar, NUNCA teremos um ambiente saudável para todas as pessoas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/8Omfyo4.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;O mínimo que você, homem bonito que trabalha nessa área de TI, deve fazer é ter &lt;strong&gt;respeito&lt;/strong&gt;. Piadinhas importam sim. Assobios importam sim.  Comentários velados importam sim. O jeito que você trata as mulheres quando você está conversando sozinho com o seu melhor amigo, importa sim&amp;hellip; Porque o respeito de verdade não é dado apenas na presença de uma mulher, mas principalmente na ausência dela. Este é o respeito genuíno. Uma piada machista não deixa de ser machista se for feita na presença apenas de homens. &lt;/p&gt;
 
-&lt;h2&gt;O objetivo&lt;/h2&gt;
+&lt;p&gt;O ambiente cruel é um dos motivos de não haver mais mulheres nessa área. É difícil encontrar lugares onde o ambiente seja confortável para mulheres. Ambientes que incentivam a diversidade só podem existir se houver respeito entre os seres viventes (haha) desses ambientes.&lt;/p&gt;
 
-&lt;p&gt;O conceito que dirige o aplicativo é simples: facilitar ainda mais a ação de investir. Nós não queremos simplesmente lançar um robô que automatiza todo o processo de investimentos para você. Embora isso seja bastante confortável, você, como pessoa, perde uma oportunidade preciosa de aprender mais sobre como usar seu dinheiro em prol dos seus objetivos. Aqui na Easynvest não queremos apenas tirar as pessoas da miséria (poupança), mas queremos democratizar cada vez mais a informação sobre investimentos, educando, ajudando e conscientizando cada um dos clientes.&lt;/p&gt;
+&lt;p&gt;Os famosos Códigos de Conduta que os eventos começaram a divulgar uns anos atrás, existem exatamente para criar que um ambiente &amp;ldquo;seguro&amp;rdquo;. Eu sou contra ter um Código de Conduta, não porque eu acho errado, mas porque não entra na minha cabeça que nós precisamos ensinar pessoas a criarem um ambiente &amp;ldquo;livre de assédio para todos&amp;rdquo;. Mas infelizmente existem os babacas e nós precisamos ajudá-los a serem pessoas melhores. Logo, códigos de conduta são necessários e importantes para criar uma cultura ótima.&lt;/p&gt;
 
-&lt;p&gt;Sabemos que o brasileiro ainda tem muitos bloqueios quando falamos sobre dinheiro. Falta educação financeira em vários níveis e esse é um desafio gigante. Logo, não queremos apenas que as pessoas invistam, mas que elas se eduquem sobre esse assunto e obtenham um pouco mais de conhecimento financeiro.&lt;/p&gt;
+&lt;p&gt;Então, a minha dica é simples: Não seja babaca. E para não ser babaca é mais simples ainda: tenha respeito pela pessoa próxima a você.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://imgur.com/zdthTHM.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Iniciativas, heroínas e discursos&lt;/h2&gt;
 
-&lt;h2&gt;O conceito&lt;/h2&gt;
+&lt;p&gt;Para finalizar esse rap, é interessante que você saiba e divulgue também as iniciativas que a mulherada tem feito Brasil afora, não apenas para fortalecer a identidade feminina nesse mercado, mas também para ajudar o mercado a crescer em todos os sentidos, inclusive guiando a galera jovem que está chegando agora nesse mundão complexo do desenvolvimento web. &lt;/p&gt;
 
-&lt;p&gt;Todo o aplicativo é baseado em listas de investimentos. Categorizamos todos os investimentos por tipo. Também criamos o que chamamos de coleções ou playlists, que agrupam investimentos de diversos tipos de acordo com um objetivo específico. A ideia é que você tenha acesso fácil a todos os títulos disponíveis na Easynvest, para comprar e acompanhar seus investimentos.&lt;/p&gt;
+&lt;h3&gt;Mulheres para seguir&lt;/h3&gt;
 
-&lt;p&gt;Para quem é antenado em alguns aplicativos que usamos todos os dias como Netflix ou Spotify, o funcionamento é bastante similar: do mesmo jeito que você tem suas listas para músicas ou filmes, agora você consegue buscar por listas de títulos de investimentos. Simples e rápido.&lt;/p&gt;
+&lt;p&gt;Algumas heroínas que você deveria seguir. Elas manjam MUITO sobre desenvolvimento web, sobre cultura feminina, mercado e carreira. &lt;/p&gt;
 
-&lt;p&gt;Além disso, você consegue definir filtros para cada um desses tipos de investimentos, facilitando a busca pelos investimentos que mais agradem seu estilo. Temos uma série de outras features  interessantes que ainda já foram desenvolvidas, mas ainda estão no forno, que melhora a experiência de cada pessoa e seus investimentos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://talitapagani.com/"&gt;Talita Pagani&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mjcoffeeholick.github.io/"&gt;Alda Rocha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/vanessametonini"&gt;Vanessa Me Tonini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/AlineBastos"&gt;Aline Barros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.co/93wjxzJZJP"&gt;Livia Amorim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://transnerd.com.br/"&gt;Evelyn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.programaria.org/"&gt;Iana Chan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://twitter.com/deboracardu"&gt;Débora Cardu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/akfzambrana"&gt;Andréa Zambrana&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/rla4"&gt;Roberta Arcoverde&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/biab"&gt;Bianca Brancaleone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/amandarover"&gt;Amanda Rover&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/nyan07"&gt;Daniela Araujo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/sEkfABf.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;E uma menção especial para duas das mulheres que mais admiro nesse mundão das interwebs. &lt;a href="https://ladybugbrazil.com/"&gt;Lucia Freitas&lt;/a&gt; e a &lt;a href="http://s1mone.net/"&gt;Simone Villas Boas&lt;/a&gt;. &lt;/p&gt;
 
-&lt;h2&gt;Parte técnica&lt;/h2&gt;
+&lt;h3&gt;Iniciativas&lt;/h3&gt;
 
-&lt;p&gt;O aplicativo para as duas plataformas foram feitas de forma nativa. A interface inteira foi feita do zero, para que tenhamos uma uniformidade de interface e comunicação visual entre as plataformas mobile e web. Geralmente a galera segue os styleguides de interface das respectivas plataformas. A vantagem disso é não se distanciar muito do uso que o usuário tem com a interface do próprio smartphone que ele está usando. O problema é que manter esse styleguide padrão do SO dos smartphones, descaracteriza a interface que tínhamos em mente. Daí a nossa decisão de fazer tudo do zero.&lt;/p&gt;
+&lt;p&gt;Algumas iniciativas destinadas para mulheres ou lideradas por mulheres:&lt;/p&gt;
 
-&lt;p&gt;Separamos o app em duas fases: cadastro e parte logada. Em cada uma dessas partes a equipe era formada por devs ios, devs android, designers e programadores back-end. Tivemos algo em torno de 10 a 15 pessoas participando de todo o desenvolvimento.  Além do trabalho nativo dos apps, nós aproveitamos para iniciar uma mudança drástica nos nossos serviços back-end. Uma revolução gigante que vai nos dar flexibilidade num futuro bem próximo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.luluzinhacamp.com/"&gt;Luluzinha Camp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://railsgirls.com/"&gt;Rails Girls&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.programaria.org/"&gt;Programaria&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://twitter.com/projetodevas"&gt;Projeto Devas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/pt-BR/Codamos-Club/"&gt;Codamos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/CodeLikeAGirlBR"&gt;Code Like a Girl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codexp.sp.senai.br/"&gt;Senai Code Experience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://insideoutproject.xyz/mulheres-palestrantes/"&gt;Mulheres Palestrantes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src="http://imgur.com/wRWHnjI.jpg" /&gt;&lt;/p&gt;
+&lt;h3&gt;Artigos&lt;/h3&gt;
 
-&lt;h2&gt;Futuro&lt;/h2&gt;
+&lt;p&gt;Alguns artigos sobre poder feminino no mercado de TI:&lt;/p&gt;
 
-&lt;p&gt;Essa primeira nova versão foi feita apenas para marcar o novo caminho que estamos tomando. Temos uma série de features que vamos soltar aos poucos até o final do ano, e que vão democratizar ainda mais os investimentos no Brasil. Queremos e estamos realmente mudando a forma com que os brasileiros investem dinheiro em Renda Fixa e vamos continuar abrindo caminho, ao contrário de outras corretoras, até agora, só tem nos seguido.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=H9EJF3Q1mis"&gt;030 - Deb Xavier: criando uma rede poderosa para incentivar o protagonismo profissional feminino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://imasters.com.br/desenvolvimento/mulheres-na-ti-codando-igualdade/"&gt;Mulheres na TI: codando a igualdade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@bernarddeluna/ajudando-mulheres-a-se-tornarem-palestrantes-tech-1-desconstrução-do-medo-2a2c4e3c33cb"&gt;Ajudando Mulheres a se tornarem Palestrantes TECH — #1 Desconstrução do Medo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=hg3umXU_qWc"&gt;Todos nós deveríamos ser feministas | Chimamanda Ngozi Adichie | TEDxEuston&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://shipit.resultadosdigitais.com.br/blog/como-organizamos-o-rails-girls-e-como-voce-pode-comecar-a-programar/"&gt;Como organizamos o Rails Girls e como você pode começar a programar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://braziljs.org/comite-de-diversidade/"&gt;Comitê de Diversidade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=0HBeBrp3xJc"&gt;Empoderamento feminino | Maíra Liguori&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://code.likeagirl.io/the-techgirlz-manifesto-20a0b798bc19"&gt;The TechGirlz Manifesto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@liviamorim/falei-sobre-os-machistas-no-twitter-e-eles-não-gostaram-b9873a4ef075"&gt;Falei sobre os machistas no Twitter (e eles não gostaram)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://code.likeagirl.io/i-finally-got-a-job-as-a-software-engineer-a83c7a745afb"&gt;I finally got a job as a Software Engineer!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Se quiser ver como ficou, baixe o aplicativo para &lt;a href="https://itunes.apple.com/br/app/easynvest-renda-fixa/id1065904944?mt=8"&gt;iOS&lt;/a&gt; ou &lt;a href="https://play.google.com/store/apps/details?id=br.com.easynvest.rendafixa&amp;amp;hl=pt"&gt;Android&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Compartilhe&lt;/h3&gt;
+
+&lt;p&gt;Eu não devo ter colocado um monte de links interessantes aí em cima. Mas me ajuda aí nos comentários, com links e outras iniciativas que você conhece. &lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Um comentário sobre a desnecessária fragmentação da profissão designer</title>
-    <link rel="alternate" href="http://diegoeis.com/comentario-desnecessaria-fragmentacao-designer.html"/>
-    <id>http://diegoeis.com/comentario-desnecessaria-fragmentacao-designer.html</id>
-    <published>2017-03-27T21:00:00-03:00</published>
-    <updated>2017-05-20T22:39:53-03:00</updated>
+    <title>3 coisas que um Product Manager não deve fazer</title>
+    <link rel="alternate" href="http://diegoeis.com/3-coisas-que-um-product-manager-nao-deve-fazer.html"/>
+    <id>http://diegoeis.com/3-coisas-que-um-product-manager-nao-deve-fazer.html</id>
+    <published>2017-09-04T21:00:00-03:00</published>
+    <updated>2017-09-07T18:42:17-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;Eu estava pra escrever um artigo comentando como a pulverização do trabalho do
-Designer está atrapalhando profissionais e empresas, criando profissões cada vez
-mais fragmentadas e tão especializadas que chega a ser uma piada. Até que eu li
-o artigo do &lt;a href="https://medium.com/@jonasdowney"&gt;Jonas Downey&lt;/a&gt;, escrito no canal do
-&lt;a href="https://m.signalvnoise.com/"&gt;Signal v. Noise&lt;/a&gt;, que descreveu tudo o que eu
-gostaria de falar e mais um pouco.&lt;/p&gt;
-
-&lt;p&gt;O artigo é esse aqui: &lt;a href="https://m.signalvnoise.com/the-unnecessary-fragmentation-of-design-jobs-d5b9c8621082"&gt;The Unnecessary Fragmentation of Design
-Job&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Em conjunto com esse artigo, sugiro que você ouça &lt;a href="http://movimentoux.com/work/felipememoria/"&gt;o episódio do Podcast
-Movimento UX&lt;/a&gt;, onde o
-&lt;a href="https://medium.com/@memo"&gt;Felipe&lt;/a&gt; conta um pouco sobre o processo que eles
-praticam na Work &amp;amp; Co. Nesse episódio (por volta do &lt;strong&gt;1h09&lt;/strong&gt;), o Felipe fala que
-houve um momento que por algum motivo, o mercado quebrou a disciplina do
-designer em duas funções: designer visual e designer de experiência.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Essencialmente essa disciplina, qualquer que seja o nome que a gente dê para
-ela, é uma disciplina que foca muito nas pessoas, no lado humano da coisa. Você
-tenta realmente humanizar a experiência, fazendo uma coisa para um público
-especifico, entendendo esse público e realmente focando nisso.&amp;rdquo; — F&lt;strong&gt;elipe
-Memória&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Eu nunca entendi a separação entre as disciplinas de UX e Visual Designer. Esse
-é até um assunto bastante sensível para alguns. Geralmente a galera não gosta de
-entrar em polêmica e acabam deixando discussões como essa para depois. Mas, na
-minha humilde opinião, UX nunca fez sentido. O nome UX é para mim &lt;a href="https://medium.com/tableless/o-nome-ux-estÃ¡-errado-8d5095a6755b"&gt;um nome muito
-ruim&lt;/a&gt;, que dá
-a entender que a experiência do usuário é responsabilidade de apenas um
-profissional, o que é uma grande bobeira. Infelizmente esse nome fixou no
-mercado. O &lt;a href="https://medium.com/u/bec57f323414"&gt;Felipe Memória&lt;/a&gt; comenta que a
-experiência do usuário é um tema muito mais amplo, que contempla uma série de
-fases na produção de um projeto. Ele diz que lá na Work &amp;amp; Co não existe o cargo
-de UX, mas todos são Designers, exatamente porque Designer é uma disciplina que
-não vai morrer daqui 5, 10, 100 anos… O termo UX pode morrer daqui um tempo,
-assim como os nomes Web Designer, Arquiteto de Informação e tantos outros nomes
-morreram dando lugar para um outro termo da moda e que também tem grandes
-chances de não perdurar.&lt;/p&gt;
-
-&lt;p&gt;Uma pergunta: é uma boa prática trabalhar a &lt;strong&gt;função&lt;/strong&gt; e &lt;strong&gt;forma&lt;/strong&gt;
-separadamente? Um bom design precisa ser bonito e funcional. É estranho ter
-alguém que pensa na função primeiro pra depois uma outra pessoa pensar na forma.
-Alguém que equilibre essas duas funções é o verdadeiro Designer. É esse
-profissional que tem o bom senso aguçado, e que vai conseguir pesar a
-importância da função e da forma nos momentos certos no desenho de um layout.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;What’s the difference between UX and UX/UI and UI? Isn’t Product also UX/UI?
-Isn’t a Front End a UI? What’s a Graphic Designer with UX &amp;amp; UI Focus? And isn’t
-&lt;em&gt;all&lt;/em&gt; of this Visual/Digital design? &amp;quot;— Jonas Downey&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A profissão de UX é muito mais do que fazer um simples Wireframe. Na verdade o
-Wireframe é apenas um resultado de um tempo gigante de pesquisas e entrevistas.
-Mas entender o problema, pensar em soluções alternativas, quebrar a cabeça
-fazendo protótipos, pesquisar e entrevistar pessoas são tarefas que um Designer
-precisa fazer para dar a luz à uma interface que seja realmente bonita (forma) e
-também resolva um determinado problema (função). Isso não é UX, isso é apenas
-Design. São dois momentos, em uma mesma tarefa, de um mesmo profissional.&lt;/p&gt;
-
-&lt;p&gt;Quem nunca presenciou um atrito básico entre o UX, que faz uma tela super
-burocrática, levando em consideração apenas a função, com todos os requisitos
-necessários para o usuário executar uma ação, enquanto o designer briga porque
-essa tela nunca vai ficar bonita, puxando a sardinha apenas para o lado da
-forma. Os dois não conseguem encontrar um equilíbrio e o resultado pode ser
-desastroso para o usuário, que ganha um design bonito, mas oco e ordinário ou
-uma tela feia, sem atrativo nenhum, mas que tem um fluxo agradável.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Na Work &amp;amp; Co, a gente coloca o time de design inteiro pra pensar na única coisa
-que importa durante a maior quantidade de tempo possível. Nos concentramos no
-principal caso de uso e redesenhamos infinitamente, na base da tentativa e erro,
-até chegar em algo interessante.” — Felipe Memória&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Eu não estou dizendo que apenas uma pessoa pode solucionar a fome do mundo. Mas
-eu também aposto muito no &lt;a href="https://medium.com/@diegoeis/desenvolvedor-full-stack-t-shaped-valve-7bcf67f2e011"&gt;Perfil
-T&lt;/a&gt;,
-não apenas para desenvolvedores, mas também para Designers. Você pode ter um
-Designer que tenha uma facilidade maior para lidar com usuários, outro que com
-capacidade acima da média para estruturar e organizar a arquitetura da
-informação, outro que tem skills avançadas no desenho da interface etc etc etc.
-Aceitar e respeitar a especialidade de cada profissional é importante para
-montar um time que tenha integrantes que se complementem, de acordo com o
-talento e a facilidade de cada um.&lt;/p&gt;
-
-&lt;p&gt;Mas por favor, não diga que apenas um personagem é responsável pela experiência
-do usuário, por que isso não é real. É exatamente por isso que o nome UX e
-também a profissão isolada de UX não faz sentido nenhum.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Ser um Product Manager é chato. Muita gente acha que existe um glamour em ser a pessoa por trás do produto e é isso que seduz muita gente desavisada. O ponto é: não existe só uma pessoa por trás de um produto, mas um time inteiro. Logo, alguns PMs insistem em cair nas armadilhas da vida. Separei 3 coisas que na minha opinião, ajudam a esfolar  a relação do PM com o resto da empresa:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://medium.com/tag/design?source=post"&gt;Design&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/tag/ux?source=post"&gt;UX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/tag/web-design?source=post"&gt;Web Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Não tente construir algo que você acha correto;&lt;/li&gt;
+&lt;li&gt;Não esqueça de dar os créditos;&lt;/li&gt;
+&lt;li&gt;Não espere que o time execute cegamente suas ideias;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Publicado no Medium do &lt;a href="https://medium.com/tableless?source=footer_card"&gt;Tableless&lt;/a&gt;&lt;/h3&gt;
+&lt;h2&gt;Não tente construir algo que você acha correto&lt;/h2&gt;
 
-&lt;p&gt;Um lugar para ler e discutir sobre desenvolvimento, design, web semântica,
-back-end e outros assuntos relacionados a web. Se você quiser publicar artigos
-conosco, envie um email: medium[at]tableless.com.br ou &lt;em&gt;clique no link&lt;/em&gt;
-&lt;a href="http://bit.ly/escreva-tableless-medium"&gt;http://bit.ly/escreva-tableless-medium&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>O fim da profissão front-end</title>
-    <link rel="alternate" href="http://diegoeis.com/o-fim-do-front-end.html"/>
-    <id>http://diegoeis.com/o-fim-do-front-end.html</id>
-    <published>2017-03-18T21:00:00-03:00</published>
-    <updated>2017-03-19T21:50:35-03:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;O processo de desenvolvimento web podem se dividir em três categorias: design, front-end e back-end. Na minha opinião, a categoria que tem mais processos manuais e repetitivos é sem duvida o front-end.&lt;/p&gt;
+&lt;p&gt;É normal que um PM colha todos os dias opiniões e críticas sobre o produto de pessoas de áreas de diferentes. São pessoas com perspectivas e expectativas diferentes, que muitas vezes tem opiniões sobre uma parte do problema que as afetam todos os dias. Essa posição é privilegiada porque é como se você tivesse olhos em todos os lugares, recebendo percepções diferentes e tendo uma visão panorâmica dos problemas que os usuários podem estar passando. Um bom PM consegue compilar toda essa informação e usar a favor do produto, que aliás, essa é uma das obrigações do PM. Contudo, se você se deixar levar, é como se toda essa massa de informação tivesse se originado de você. Logo, você se torna o dono da verdade e acha que tudo o que está escrito na sua User Story é a coisa correta a se fazer.&lt;/p&gt;
 
-&lt;p&gt;Pare pra pensar: o core do trabalho do front-end se resume em duas partes:&lt;/p&gt;
+&lt;p&gt;Provavelmente você deve trabalhar em um time misto, composto por designers, front-ends, back-ends, testers, BI/dados e marketing… todos eles, de alguma forma, lidam com o cliente. Embora uma das suas obrigações seja advogar pelos usuários, eles também tem esse papel, cada um da sua forma e ponto de vista. A “junção dos seus poderes” deveria refletir as necessidades e feedbacks do usuário.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;implementação do layout&lt;/strong&gt;: produção da primeira camada de código, onde replicamos o layout criado em algum programa gráfico, para código estático em HTML, CSS e JS.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;integração com API&lt;/strong&gt;: depois (ou junto, tanto faz) de feito o código estático, a interface é integrada com a API, que geralmente carrega boa parte da lógica, já que essa mesma API é usada para alimentar outras plataformas como mobile, robôs etc.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;O que diferença do bom e do mal PM, é conseguir ajudar o time a entregar o produto certo para os usuários, e muitas vezes isso significa entregar um resultado de que você não acha o ideal, mas que o time tem plena certeza da solução. Eu sei que isso dói na alma. É como se você estivesse perdendo poder, ficando com o ego ferido por achar que você deveria ser o responsável por todas as ideias executadas no produto… mas relaxa, não é bem por aí. Não tente construir algo que só você acha correto.&lt;/p&gt;
 
-&lt;p&gt;As outras &amp;ldquo;responsabilidades&amp;rdquo; que orbitam em volta do front-end como acessibilidade, SEO, performance, compatibilidade entre browsers, código semântico, entre outras coisas que você pode julgar serem de responsabilidade de um front-end &lt;strong&gt;são um mero apetrecho&lt;/strong&gt;. Elas podem existir ou não em um projeto. Mas um projeto não sobrevive sem o código front-end do layout e sem o conteúdo integrado à interface.&lt;/p&gt;
+&lt;h2&gt;Não esqueça de dar os créditos&lt;/h2&gt;
 
-&lt;p&gt;Existem uma série de tarefas manuais que nós delegamos para ferramentas criadas afim de economizar parte do nosso tempo evitando a execução de tarefas repetitivas, automatizando o workflow do front-end. Só para citar algumas:&lt;/p&gt;
+&lt;p&gt;Se você levar ao pé da letra a observação anterior, muitas das ideias que serão implementadas no produto não serão suas. Não fique triste por isso, você não é o único responsável por ter boas ideias para o produto, você só é responsável pelo produto. Além disso, você também é responsável por validar se uma ideia é boa ou ruim e geralmente você não faz isso sozinho.&lt;/p&gt;
+
+&lt;p&gt;Designers, geralmente, tem ótimas ideias enquanto eles estão prototipando e investigando uma tarefa. Os stakeholders vivem tendo ideias, boas e ruins. Eu sei que rasga seu ego quando alguém, que não está ali na trincheira, que nunca conversou com qualquer usuário tem uma ótima ideia. Mas por mais que seu ego esteja rasgado, os créditos pela ideia, pelo seu bom desenho e pela execução devem ser dados aos seus respectivos donos.&lt;/p&gt;
+
+&lt;p&gt;Outro dia que chorei por dentro porque um dos diretores, que não conhece nadica de produtos propôs fazer um MVP. Ele estava extremamente correto naquele momento e eu me senti um lixo, porque fazer um MVP faz parte do dia a dia do produto. Eu deveria ter dado aquela ideia e não ele. Mas caramba, que bom que ele teve essa ideia… :-)&lt;/p&gt;
+
+&lt;p&gt;Dar os créditos encoraja a colaboração do time. Geralmente eu tento dar sempre os créditos para o time e tento encorajar cada um dos integrantes a fazerem o mesmo. Se tudo der certo, uma boa ideia e uma execução impecável nunca virá apenas de um individuo, mas do coletivo. Isso também se aplica às más ideia e as execuções mal feitas.&lt;/p&gt;
+
+&lt;h2&gt;Não espere que o time execute cegamente suas ideias&lt;/h2&gt;
+
+&lt;p&gt;Uma das tarefas mais tediosas e mais importantes do PM é transcrever todas as ideias em um formato que o time consiga ler, entender e executar, que são resumidas nas famosas User Stories. Geralmente nós escrevemos essas histórias nos colocando no papel do cliente, seja interno ou externo, juntamente com todos os critérios que o time deverá executar ao pé da letra antes de dizer que a tarefa foi terminada.&lt;/p&gt;
+
+&lt;p&gt;Um time fraco executa as tarefas seguindo estritamente os critérios escritos, sem nem ao menos questionar o objetivo final daquela história. Um PM fraco não contextualiza o time sobre o problema de negócio ou do usuário que aquela história está resolvendo. Geralmente, antes de escrever uma User Story, eu faço um documento muito maior, onde contém não apenas a história, mas todo o contexto usado para defender aquela ideia perante os stakeholders e também perante o time.&lt;/p&gt;
+
+&lt;p&gt;O PM não deveria esperar que o time executará cegamente suas ideias, e o time deveria questionar o PM sobre as motivações para eles executarem aquela história. Não estou dizendo aqui que o time precisa ser convencido o tempo inteiro sobre cada tarefa. Em um ambiente onde o time é bem informado e entende a visão do produto e da empresa, as motivações por trás da história estarão claras desde de antes ela ser escrita e priorizada.&lt;/p&gt;
+
+&lt;h2&gt;Para ler mais:&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pre-processadores CSS:&lt;/strong&gt; Sass, Less, Stylus&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Task runners:&lt;/strong&gt; Gulp, Grunt , Make, NPM Scripts
-&lt;strong&gt;Scaffolding:&lt;/strong&gt; Yeoman, Slush&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dependências/Module Bundles:&lt;/strong&gt; Bower, NPM, Yarn, Webpack, Duo, RequireJS, Browserify, JSPM, Rollup&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SPA/Libraries/Frameworks:&lt;/strong&gt; React, Angular, Vue.js, Backbone, EmberJS, todomvc, Polymer, Lodash, Aurelia, MeteorJS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CSS Frameworks/Libraries:&lt;/strong&gt; SemanticUI, Bootstrap, Foundation, UiKit, YUI, Susy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;JS Test&lt;/strong&gt;: Mocha, Jasmine, QUnit, Ava, Tape, Jest&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;JS Templates:&lt;/strong&gt; Underscore, Mustache, Handlebars, DoT, Dust, EJS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mas mesmo com todas essas ferramentas, o core da responsabilidade de um front-end ainda continua sendo &lt;strong&gt;implementar layout original&lt;/strong&gt; e &lt;strong&gt;integrar a interface com o back-end&lt;/strong&gt;. Você ainda continua &lt;strong&gt;replicando&lt;/strong&gt; o layout que alguém passou dias desenhando e integra o conteúdo que está numa API, que outra pessoa criou. Seu dia se resume em alternar entre as janelas do Sublime / Sketch / Browser / Sublime / API / Browser / Sublime.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Automation isn&amp;rsquo;t about being lazy. It&amp;rsquo;s about being efficient.&amp;rdquo; &amp;ndash; Add Osmani&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Esse processo se torna tedioso e a lista de requisitos para tentar tornar o trabalho de front-end eficiente só aumenta. Toda tarefa mecânica, repetitiva e manual tende a ser automatizada e na minha opinião, em pouco tempo, &lt;strong&gt;não vamos precisar de alguém executando o trabalho de front-end de ponta a ponta&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Okay, respira. Isso é a minha opinião. Dado que o front-end é a parte mais operacional de todo o processo, mais cedo ou mais tarde todo o trabalho executado no front-end vai ser automatizado. A parte mais difícil são essas duas tarefas que nós fazemos desde os primórdios. Contudo, elas já podem estar com seus dias contados.&lt;/p&gt;
-
-&lt;h2&gt;Trabalhando com dados reais direto no Design&lt;/h2&gt;
-
-&lt;p&gt;Você pode não ser designer, mas há uma premissa no mundo dos designers que diz que &lt;strong&gt;você deve trabalhar sempre com conteúdo real&lt;/strong&gt;. Isso quer dizer que entregar um layout com texto em &lt;em&gt;Lorem Ipsum Dolor&lt;/em&gt; é coisa de designer júnior.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;If your site or application requires data input, enter real and relevant words and type the text, don’t just paste it in from another source.&amp;rdquo; &amp;ndash; Jason Fried&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A ideia é que você crie um layout da forma mais fiel possível usando os termos, palavras, nomes, datas etc, afim de chegar mais perto da experiência do usuário.&lt;/p&gt;
-
-&lt;p&gt;Atualmente a maioria dos programas visuais utilizados para criar layouts para web tem alguma feature ou plugin que permite a integração com alguma fonte de dados que contenha o conteúdo real.&lt;/p&gt;
-
-&lt;p&gt;Por exemplo o Sketch, que é o programa de criação visual mais querido do momento, conta com plugins que permitem a integração direta entre API e layout. Veja por exemplo o vídeo abaixo demonstrando a utilização do plugin Craft (também disponível para Photoshop):&lt;/p&gt;
-
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/RDgiltinPl4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Ou essa demonstração que usa a API do Stackoverflow:&lt;/p&gt;
-
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/SdexJ85c0zE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Em pouco tempo, não vamos precisar de alguém executando o trabalho de front-end de ponta a ponta.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;O ponto aqui é: nós só precisamos criar o layout uma vez, usando o programa desejado (Sketch/Photoshop/Figma/Adobe XD etc) e pronto. Não precisamos de uma pessoa para refazer esse layout com HTML/CSS/JS de forma alguma. Isso nos leva para uma segunda discussão: mesmo com o design pronto, usando dados reais de uma API, nós ainda precisamos que ele seja acessível pelos browsers. Como resolvemos isso?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Obs.: E aquele movimento do &amp;ldquo;Design in the Browser&amp;rdquo;? Esse é um movimento criado exatamente para evitar o trabalho de produzir duas vezes o mesmo layout. Mas é MUITO melhor fazer um design usando um programa visual do que escrever direto no código. IMHO.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2&gt;Código bonito não é importante&lt;/h2&gt;
-
-&lt;p&gt;Desde sempre os front-ends escrotizavam o código que era gerado automaticamente por programas como o Dreamweaver. Eles tinham uma razão pra isso: o código era completamente horrível. Era um tempo onde a conexão com a internet era precária e tudo o que pudéssemos fazer para melhorar o carregado do site, nós fazíamos. O código gerado por programas Wysiwyg tinha várias problemas: era difícil de ler, não havia semântica alguma, continha código inútil e muitas vezes não era compatível com todos os browsers. Tudo isso fazia com que o código limpo, semântico, enxuto e acessível tivesse um valor inestimável.&lt;/p&gt;
-
-&lt;p&gt;Código limpo era sinônimo de bom ranking no Google, boa compatibilidade entre os browsers, performance de carregamento garantida, produtividade entre os membros do time por causa da legibilidade do código, facilidade de manutenção etc etc etc.&lt;/p&gt;
-
-&lt;p&gt;Hoje, boa parte desses problemas foram resolvidos:
-- os browsers tem uma ótima complacência com os padrões web, extinguindo a maioria dos problemas de compatibilidade de layout;
-- a performance é atacada em várias frentes: processo de build dos assets, tecnologias como HTTP/2 e até a evolução da conexão que fica mais rápida a cada ano;
-- a manutenção e a legibilidade do código HTML/CSS não é mais um problema sério, já que o HTML é facilmente escrito usando poucas tags e o CSS tem os pré-processadores, que auxiliam muito na hora de definir padrões, além das boas práticas;
-- o JS está bem assessorado por frameworks, libraries e uma série de boas práticas que se responsabilizam pela parte pesada do trabalho, deixando pouca margem de erro para os devs;
-- e o mais importante para mim é que a semântica não está mais no HTML. Desde a vinda de tecnologias com o JSON-LD, a semântica não está mais atrelada ao código HTML e isso é ótimo;&lt;/p&gt;
-
-&lt;p&gt;Eu sei que mesmo que grande parte da responsabilidade fique na mão dos frameworks, bibliotecas e ferramentas, o dev tem grandes chances de fazer merda com o pedaço de código que ele cuida. Não olha pro seu amiguinho do lado, coitado&amp;hellip; Todos nós cometemos erros&amp;hellip; uns mais, outros menos.&lt;/p&gt;
-
-&lt;p&gt;Mas entenda uma coisa: &lt;strong&gt;código bonito, não é mais algo importante&lt;/strong&gt;. As ferramentas que nos auxiliam hoje para buildar os assets podem ser usadas por programas/robôs ao criar automaticamente código HTML/CSS/JS a partir de layouts produzidos em programas como Sketch. Veja por exemplo &lt;a href="https://github.com/sskyy/blade"&gt;esse plugin&lt;/a&gt; que não é mais atualizado desde 2015 já tentava automatizar a exportação de código no Sketch. O cara estava tentando fazer código HTML a partir do layout desenhado no Sketch versão 3. Hoje o Sketch está na versão 42. E sabe de uma coisa: na versão 43 o Sketch está abrindo o código dos seus arquivos em formato JSON. O que nos leva para o próximo assunto.&lt;/p&gt;
-
-&lt;h3&gt;Automatização do Design&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;We have a new file format which is more compact, and enables more powerful integrations for third-party developers. &amp;ndash; &lt;a href="https://rink.hockeyapp.net/apps/0172d48cceec171249a8d850fb16276b"&gt;Sketch Team&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Isso quer dizer que o Sketch se transformará em uma plataforma de desenvolvimento. Abrindo o código dos seus arquivos, qualquer um conseguirá ler esses arquivos e partir daí criar &lt;strong&gt;qualquer coisa&lt;/strong&gt;. Quanto tempo para alguém criar um plugin que lê o arquivo do Sketch em formato JSON e &lt;strong&gt;gera automaticamente HTML/CSS/JS&lt;/strong&gt; a partir de um layout Sketch?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Computadores evoluem. Se os princípios mudassem não haveria base para a evolução. - Caio Vaccaro&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Okay, mas espera aí: mesmo antes desse formato novo de arquivo do Sketch, já existia algumas ferramentas que talvez você não conhecia como o &lt;a href="https://protoship.io/tools/teleport.html"&gt;Teleport&lt;/a&gt;, que converte &lt;strong&gt;qualquer website&lt;/strong&gt; em um artboard do Sketch. E também o &lt;a href="https://protoship.io/tools/uipad.html"&gt;UIPad&lt;/a&gt;, que converte layout do Sketch em HTML/CSS e React! Se liga:&lt;/p&gt;
-
-&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/AcT69mOaf2Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Essa tendência já estava sendo desenhada há tempos. É a coisa mais inteligente de se fazer. Você pode fazer coisas mais importantes do que ficar sentado na frente do computador alternando entre browser, layout, browser, layout.&lt;/p&gt;
-
-&lt;p&gt;Okay: nós temos um design que se integra com a API, puxando dados reais do sistema. Nós temos um programa que design que exporta o layout para código HTML/CSS/JS pronto para ser usado. Mas ainda estamos usando código HTML/CSS/JS como antigamente. Há mais um passo que pode ser melhorado.&lt;/p&gt;
-
-&lt;h3&gt;WebAssembly (Wasm)&lt;/h3&gt;
-
-&lt;p&gt;Outro ponto importante, que não tem nada definido ainda, mas que pode começar a fazer todo sentido é toda aquela &lt;a href="https://tableless.com.br/o-webassembly-vem-ai/"&gt;história do WebAssembly&lt;/a&gt;, que é um novo formato binário criado pelo Google Microsoft, Mozilla e vários outros.&lt;/p&gt;
-
-&lt;p&gt;O formato de código binário do WebAssembly pode ser decodificado muito mais rápido do que o JavaScript é parseado. Isso realmente traz para a Web a experiência de programas nativos, principalmente no mobile.&lt;/p&gt;
-
-&lt;p&gt;O legal é que outras linguagens podem ser compiladas para WebAssembly. Hoje o projeto está um pouco mais focado em C/C++, mas com certeza outras linguagens serão abrangidas. O objetivo principal do WebAssembly é a performance.&lt;/p&gt;
-
-&lt;p&gt;Uma preocupação que surge no ar é que isso cheira monopólio. Lembra do Flash? Querendo ou não ele era uma alternativa de criar algo nativo na Web. Mas a graça é que:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;WebAssembly não substitui o JavaScript. Tudo tem retrocompatibilidade, tudo será executado no mesmo universo que o JS e a segurança terá as mesmas restrições que o JS;&lt;/li&gt;
-&lt;li&gt;Não é só uma empresa ou grupo que está por trás do Wasm, mas várias como Firefox, Chromium, Edge e Webkit;&lt;/li&gt;
-&lt;li&gt;Para rodar WebAssembly não será necessário rodar plugins de terceiros, já que os motores dos browsers serão totalmente compatíveis;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Está entendendo por que buscar por um código limpo (como conhecemos hoje) não faz mais tanto sentido?&lt;/p&gt;
-
-&lt;h2&gt;Conclusão&lt;/h2&gt;
-
-&lt;p&gt;Mais cedo ou mais tarde a profissão de front-end como nós conhecemos até hoje &lt;strong&gt;vai deixar de existir&lt;/strong&gt;. Você que já é velho na área, talvez nem precise se preocupar, porque eu não acho que isso vai acontecer agora, mas você que acabou de começar, é melhor pensar duas vezes no futuro da sua carreira.&lt;/p&gt;
-
-&lt;p&gt;Eu tenho certeza que a área de back-end também pode passar por esse processo, embora seja muito mais difícil de acontecer. E eu também acho que vai demorar muito (se chegar a acontecer) a automatização da parte criativa responsável pelo design dos layouts de produtos e websites.&lt;/p&gt;
-
-&lt;p&gt;Eu não chuto em quanto tempo isso pode acontecer ou se vai acontecer. É mais um chute meu do que qualquer outra. Quero só abrir para discussão esse assunto. Mas até ontem &lt;a href="https://www.wired.com/2016/10/ubers-self-driving-truck-makes-first-delivery-50000-beers/"&gt;carros e caminhões autônomos&lt;/a&gt; eram coisa de filme.&lt;/p&gt;
-
-&lt;p&gt;Mas com certeza existem vários pontos ainda a serem resolvidos:
-- A automatização de sites gigantes de conteúdo vai ocorrer?
-- E sistemas/produtos, como vamos fazer?
-- Autenticação, segurança, etc
-- Coloque aqui sua dúvida maluca&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Minha outra aposta é sobre a profissão de UX, que vai desaparecer não porque suas responsabilidades serão automatizadas, mas por se tornar obsoleto mesmo. Esse é assunto para um outro artigo, mas se quiser pensar sobre isso agora, comece ouvindo &lt;a href="http://movimentoux.com/work/felipememoria/"&gt;esse capítulo do podcast do Movimento UX&lt;/a&gt; com o &lt;a href="http://www.fmemoria.com.br/"&gt;Felipe Memória&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Para ler mais&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Dados reais no design&lt;/strong&gt;
-- &lt;a href="https://www.shopify.com/partners/blog/91010886-3-easy-steps-for-working-with-realistic-data-in-sketch-using-json"&gt;3 Easy Steps for Working with Realistic Data in Sketch Using JSON&lt;/a&gt;
-- &lt;a href="https://medium.com/@markjenkins/designing-with-data-7f6bcd907f0a#.95haya5yq"&gt;Designing with Data&lt;/a&gt;
-- &lt;a href="https://blog.framer.com/prototype-with-real-data-in-framer-from-json-to-multi-device-and-internet-of-things-6eb1ae8b8325#.fo9b8i4gz"&gt;Prototype with real data in Framer, from JSON to multi-device and internet of things&lt;/a&gt;
-- &lt;a href="https://medium.com/@anirudhs/project-comet-designing-with-real-data-959beccb5c1a#.v6khfndrh"&gt;Adobe XD: Designing with Real Data&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre não usar texto fake em layouts&lt;/strong&gt;
-- &lt;a href="https://www.smashingmagazine.com/2010/01/lorem-ipsum-killing-designs/"&gt;Lorem Ipsum is Killing Your Designs&lt;/a&gt;
-- &lt;a href="https://thenextweb.com/dd/2015/04/09/why-designers-should-never-use-fake-text/#.tnw_zjSSHkxh"&gt;Why designers should never use fake text&lt;/a&gt;
-- &lt;a href="http://www.creativebloq.com/design/stop-using-lorem-ipsum-7116907"&gt;Stop using Lorem Ipsum!&lt;/a&gt;
-- &lt;a href="https://signalvnoise.com/archives/001083.php"&gt;&amp;ldquo;Getting Real&amp;rdquo; design tip: Just say no to Lorem Ipsum&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WebAssembly&lt;/strong&gt;
-- &lt;a href="http://webassembly.org/docs/faq/"&gt;FAQ do site WebAssembly&lt;/a&gt;
-- &lt;a href="https://tableless.com.br/o-webassembly-vem-ai/"&gt;WebAssembly – a web compilada&lt;/a&gt;
-- &lt;a href="https://techcrunch.com/2015/06/17/google-microsoft-mozilla-and-others-team-up-to-launch-webassembly-a-new-binary-format-for-the-web/"&gt;Google, Microsoft, Mozilla And Others Team Up To Launch WebAssembly, A New Binary Format For The Web&lt;/a&gt;
-- &lt;a href="https://jaydson.com/webassembly-e-o-futuro-da-web/"&gt;WebAssembly e o futuro da Web&lt;/a&gt;
-- &lt;a href="https://brendaneich.com/2015/06/from-asm-js-to-webassembly"&gt;From asm.js to webassembly&lt;/a&gt;
-- &lt;a href="https://arstechnica.com/information-technology/2015/06/the-web-is-getting-its-bytecode-webassembly/"&gt;The Web is getting its bytecode: WebAssembly&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sobre o cenário das ferramentas de front-end&lt;/strong&gt;
-- &lt;a href="https://frontend.directory/"&gt;front-end.directory&lt;/a&gt;
-- &lt;a href="http://radify.io/blog/using-build-tools/"&gt;Using front-end build tools&lt;/a&gt;
-- &lt;a href="http://usablica.github.io/front-end-frameworks/compare.html"&gt;A Collection Of Best Front End Frameworks&lt;/a&gt;
-- &lt;a href="https://github.com/showcases/front-end-javascript-frameworks?s=stars"&gt;GitHub: Front-end JavaScript frameworks&lt;/a&gt;
-- &lt;a href="https://www.sitepoint.com/front-end-tooling-trends-2017/"&gt;Front-End Tooling Trends for 2017&lt;/a&gt;
-- &lt;a href="http://blog.debugme.eu/front-end-web-developer-tools/"&gt;Updated List: The 67 Very Best Front End Web Developer Tools&lt;/a&gt;
-- &lt;a href="https://techbeacon.com/most-popular-javascript-front-end-tools"&gt;The most popular JavaScript front-end tools&lt;/a&gt;
-- &lt;a href="https://colorlib.com/wp/top-templating-engines-for-javascript/"&gt;Top 10 Templating Engines for JavaScript To Improve and Simplify Your Workflow 2017&lt;/a&gt;
-- &lt;a href="https://speakerdeck.com/addyosmani/automating-front-end-workflow"&gt;Automating Front-end Workflow&lt;/a&gt;
-- &lt;a href="https://medium.com/@caiovaccaro/javascript-state-of-the-union-2015-parte-3-281aa04bece1#.bulta9j6j"&gt;Javascript State of the Union 2015, parte 3&lt;/a&gt;
-- &lt;a href="https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015"&gt;Slides - Javascript State of the Union 2015&lt;/a&gt;
-- &lt;a href="https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results"&gt;The State of Front-End Tooling 2016 - Results&lt;/a&gt;
-- &lt;a href="https://hackernoon.com/front-end-roles-and-responsibilities-6ee8654f1649#.gsg5zdjtr"&gt;Front-end Roles and Responsibilities&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Estatística básica nas entregas de projetos  agile - Moda, mediana e percentil</title>
-    <link rel="alternate" href="http://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html"/>
-    <id>http://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html</id>
-    <published>2017-03-09T21:00:00-03:00</published>
-    <updated>2017-03-14T07:40:38-03:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/1000/1*fieJwIgvONqnVLyPcEcw_A.jpeg" /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Estatística básica nas entregas de projetos  agile — Moda, mediana e percentil&lt;/h3&gt;
-
-&lt;p&gt;Cada uma das metodologias de gestão de projetos tem suas próprias
-características de funcionamento e essência. Mas todas elas tentam responder uma
-grande pergunta que virou clichê faz milhares de anos: &lt;strong&gt;quando o projeto será
-entregue?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A graça das metodologias ágeis é que você trabalha em cima de transparência,
-incluindo o usuário e os stakeholders no processo, permitindo mudanças de planos
-no meio do caminho, apressando as falhas e tentando entregar incrementos de
-valor ao final de cada ciclo. Tudo isso serve para gerenciar as expectativas e
-fazer as informações do projeto fluirem. Aproximando os stakeholders e os
-clientes, eles ganham visibilidade do status do projeto, diminuindo a ansiedade
-sobre quando o projeto vai ser entregue. Mesmo que as expectativas estejam bem
-gerenciadas, saber o dia de entrega do projeto é importante para o planejamento
-do produto, é uma questão estratégica para a empresa.&lt;/p&gt;
-
-&lt;p&gt;Para ajudar nessa tarefa, existem uma série de métricas já bem conhecidas que
-monitoram a saúde do processo de desenvolvimento. Alguns deles você já conhece
-como o CFD, Lead Time, Cycle Time etc. Contudo, essas métricas por si só,
-mostram o cenário presente do projeto. Elas são importantes, porque mostram se
-você está no caminho certo ou errado. Mas não basta apenas saber que estamos no
-caminho correto, é muito mais inteligente enxergarmos parte do caminho que
-iremos trilhar afim de prevermos nossas entregas e consequentemente termos um
-vislumbre de quando o projeto irá de fato terminar.&lt;/p&gt;
-
-&lt;p&gt;A ideia desse artigo não é abordar as &lt;a href="http://blog.kudoos.com.br/lean/previsao-probabilistica/"&gt;previsões
-probabilísticas&lt;/a&gt; de
-projetos (que é um assunto muito mais profissa), mas é dar alguma ideia básica
-para você que pode estar querendo fazer um pouco mais do que só olhar o CFD do
-seu time.&lt;/p&gt;
-
-&lt;h3&gt;Consistência e tamanho das histórias&lt;/h3&gt;
-
-&lt;p&gt;O primeiro segredo para prever o futuro das entregas em um projeto é ter
-consistência. O time precisa ter uma frequência de entrega consistente. Isso não
-é algo fácil de se conseguir, pois o processo de desenvolvimento não é linear,
-pelo contrário: imprevistos acontecem, pessoas ficam doentes, o caso do bus
-factor, ambientes de desenvolvimento quebram, o mercado muda… Tudo isso faz com
-que o desenvolvimento de software seja um lugar
-&lt;a href="https://medium.com/gestao-produtos/management-3-0-primeiras-pÃ¡ginas-5fbf082ddf74#.l3caqqirt"&gt;complexo&lt;/a&gt;
-de se trabalhar. Para tentar diminuir as incertezas, nós precisamos entregar
-tarefas sempre do mesmo tamanho e você sabe que isso é algo difícil de se fazer.
-Não quero falar aqui sobre metodologias de estimativa, porque não importa qual
-metodologia você usa, o que importa é que no final você e seu time tenham
-histórias do mesmo tamanho e que sejam claras para todo mundo.&lt;/p&gt;
-
-&lt;p&gt;Essa coisa de histórias &lt;strong&gt;pequenas, médias e grandes&lt;/strong&gt; não existe. Você precisa
-que todas as histórias tenham de preferência, o menor tamanho possível, mas que
-continuem entregando valor para o usuário. A ideia é que seu backlog seja
-recheado de tarefas mais ou menos do mesmo tamanho, possibilitando sua entrega
-dentro do ciclo (sprint ou semana). Como você vai saber qual o tamanho ideal das
-tarefas do seu time? Experimentando. Aqui não tem segredo nenhum, é só medir e
-comparar com o passado. Pegue os outliers (tarefas que demoraram muito mais
-tempo para fazer do que as outras) e descubra o que aconteceu e tente se
-certificar de que isso não aconteça mais. Existem cerimônias para facilitar o
-processo como o Incepction, Refinement, Plannings etc…&lt;/p&gt;
-
-&lt;p&gt;Uma das maneiras de validar que a frequencia de entrega do seu time é
-consistente, você pode usar o Throughput. O &lt;strong&gt;Throughput&lt;/strong&gt; tem uma série de
-definições por aí, principalmente no mundo Agile, mas para mim e para algumas
-empresas de tecnologia &lt;strong&gt;throughput é a quantidade de histórias (user story)
-entregues na semana&lt;/strong&gt;. Se seu time consegue quebrar bem as histórias, de forma
-que elas entreguem valor e sejam pequenas o bastante para serem entregues sem
-ultrapassar o ciclo, vocês conseguiram dar o primeiro passo para prever o
-futuro. Veja um exemplo:&lt;/p&gt;
-
-&lt;p&gt;&lt;span class="figcaption_hack"&gt;Throughput vs Semana&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Esse é o gráfico de um time de produto real. Os valores são das últimas semanas
-de 2016. Veja que a partir da semana 39 até a semana 47 as entregas eram
-realmente desproporcionais. Depois de uma ou duas reuniões, descobrimos que um
-dos motivos era que estávamos quebrando muito mau as histórias. A partir da
-semana 48 até a 52, quando começamos a tentar quebrar as histórias no menor
-tamanho possível (mas ainda entregando valor para o cliente), retirando as
-incertezas nos Refinamentos e Plannings, percebemos uma melhora gigante nas
-entregas. Perceba que mesmo assim há uma diferença da quantidade de entregas nas
-últimas semanas (48 à 52), mas nós já tínhamos certeza de que o motivo não era o
-tamanho das tarefas, mas com problemas de infraestrutura, feriados etc.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Se seu time consegue quebrar bem as histórias, de forma que elas entreguem valor
-e sejam pequenas o bastante para serem entregues sem ultrapassar o ciclo, vocês
-conseguiram dar o primeiro passo para prever o futuro&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Conheça o Throughput do seu time. Marque a quantidade de entregas numa planilha
-e faça um gráfico. Perceba no gráfico que a média de entregas são 9 histórias
-por semana. Embora a média seja 9, na semana 41 o time entregou 14 histórias…
-Mas na semana seguinte, eles entregaram apenas 1. Isso não é consistência. A
-partir da semana 48 a coisa toda começou a melhorar e nós podíamos ter um pouco
-mais de certeza do número de entrega que iríamos executar. Mesmo assim, há um
-problema nesse gráfico: a média. É aí que entra a estatística básica.&lt;/p&gt;
-
-&lt;h3&gt;&lt;strong&gt;Estatística descritiva básica&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;A média é interessante, mas não pode ser usada sozinha para dar a resposta de
-quanto o time entrega semanalmente. Isso não quer dizer que você vai deixar de
-usar médias nos seus cálculos, pelo contrário. Mas então o que podemos fazer
-para ter uma resposta melhor? Vamos usar algumas técnicas básicas da estatística
-descritiva. A estatística descritiva é a parte da estatística responsável por
-apontar tendências de comportamento e descrever conjuntos de dados. Fazem parte
-da estatística descritiva as medidas de tendência central ou medidas de posição
-como a &lt;strong&gt;média aritmética&lt;/strong&gt;, &lt;strong&gt;moda&lt;/strong&gt;, &lt;strong&gt;mediana&lt;/strong&gt; e &lt;strong&gt;percentil&lt;/strong&gt;. Há também as
-&lt;strong&gt;medidas de dispersão&lt;/strong&gt;, que envolvem o desvio padrão, variância e outros… que
-também são úteis para descobrir insights sobre as entregas do seu time, mas não
-vamos ver isso nesse artigo.&lt;/p&gt;
-
-&lt;h4&gt;&lt;strong&gt;Moda&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;A &lt;strong&gt;moda&lt;/strong&gt; é o número que aparece mais vezes em uma distribuição de dados.
-Imagine os dados de entrega de um time fictício:&lt;/p&gt;
-
-&lt;iframe class="airtable-embed" src="https://airtable.com/embed/shrgtrc7mIURC1eS8?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;O número que aparece mais vezes na coluna de entregas é o um. Isso quer dizer
-que &lt;strong&gt;na maior parte das semanas esse time entregava apenas uma tarefa&lt;/strong&gt;.
-Terrível. Quanto maior esse número, melhor. Se a &amp;ldquo;moda&amp;rdquo; do seu time aumentar,
-quer dizer que frequentemente ele tem entregue uma mesma quantidade de tarefas.
-Mas isso ainda não diz que o número de entregas são constantes.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Quero deixar apenas uma observação: a distribuição de dados que eu estou usando
-é bastante pequena, mas vai servir para o nosso exemplo. Quanto mais dados
-históricos você tiver, melhor. &lt;strong&gt;Contudo,&lt;/strong&gt; &lt;strong&gt;se houver alguma mudança drástica
-no modo com que seu time entrega as tarefas, por exemplo, começar a fazer o
-deploy das tarefas de forma automatizada, você deve levar em consideração essa
-mudança nas suas análises.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h4&gt;&lt;strong&gt;Mediana&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;A mediana é a irmã mais sensata da média. Ela não é influenciada pelos valores
-extremos e por isso pode trazer uma resposta muito mais consistente sobre uma
-distribuição de valores: a mediana é o número que divide uma distribuição de
-dados exatamente no meio.&lt;/p&gt;
-
-&lt;p&gt;Imagine que durante 10 semanas, seu time teve os seguintes throughputs semanais:
-2, 2, 4, 2, 5, 3, 3, 5, 4. Se você somar todos esses números de entregas (dá 30)
-e dividir pela quantidade de semanas (que é 10) a média de entregas do time será
-de 3.3 tarefas por semana. Mas imagine que em uma semana atípica, o time
-entregou 30 tarefas porque você deu RedBull pra todo mundo. A média, nesse caso,
-seria puxada para cima, virando 6 entregas por semana. E aqui está o problema:
-por causa de uma única semana, você obteve um cenário totalmente falso sobre a
-capacidade de entregas do seu time.&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;mediana&lt;/strong&gt;, por sua vez, não seria influenciada por essa semana atípica. A
-mediana nesse caso é 3.5, um valor muito próximo da média sem contar com as
-entregas da semana atípica.** &lt;strong&gt;No nosso exemplo a média sem a semana atípico
-era de 3.3 e a nossa mediana é de 3.5, o que nos leva à conclusão que **para
-distribuições sem valores extremos, a média e a mediana são sempre
-semelhantes.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Usar média não é errado e só usar a mediana não quer dizer que você está sempre
-certo. O segredo é &lt;strong&gt;saber qual medida do meio usar em cada situação&lt;/strong&gt;. Eu
-sugiro que você evite usar apenas uma das medidas do meio. Eu sempre deixo à mão
-nas minhas planilhas as duas medidas.&lt;/p&gt;
-
-&lt;h4&gt;Percentis&lt;/h4&gt;
-
-&lt;p&gt;Como disse, a &lt;strong&gt;mediana define o meio de uma distribuição.&lt;/strong&gt; Logo, podemos
-dividir uma distribuição de dados em quatro partes iguais, chamados de
-&lt;strong&gt;quartis&lt;/strong&gt;. O primeiro quartil consiste em 25% das distribuições inferiores. O
-segundo quartil consiste nos 25% seguintes da distribuição e assim por diante.
-Nós podemos dividir a distribuição em centésimos ou como é comumente chamada de
-percentis, onde cada percentil representa 1% da distribuição. &lt;strong&gt;A vantagem do
-percentil é que ele mostra onde uma observação particular pode se encontrar em
-comparação à todo o restante&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Não se preocupe com as fórmulas. Você pode confiar nas fórmulas do Google Sheets
-ou do Excel. Eu confirmei os números desse artigo Google Sheets. Logo, é só ter
-uma distribuição em qualquer programa de planilha do seu gosto, escrever , fica
-algo assim:  para descobrir o primeiro quarto do percentil, que é o que ocorre
-em 75% do tempo do seu time.&lt;/p&gt;
-
-&lt;iframe class="airtable-embed" src="https://airtable.com/embed/shrRicu76jmWQ8hUf?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Dado a tabela acima, que mostra as distribuições das entregas do time fictício,
-conseguimos separar os percentis. Ficou algo assim:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Percentil de 25% é igual a 3.8:&lt;/strong&gt; o que significa que em 75% do tempo o nosso
-time entrega 3.8 (4, se for arredondar) tarefas por semana ou menos;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Percentil 50% é igual a 6.5:&lt;/strong&gt; significando que em 50% das semanas, o time
-entrega 6.5 histórias ou menos;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Percentil dos 75% é 12:&lt;/strong&gt; que significa que em 25% das semanas, o time entrega
-12 histórias ou mais e que em 75% das semanas, o time entrega menos do que 12
-histórias.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Concluindo&lt;/h3&gt;
-
-&lt;p&gt;Trabalhar com Agile quer dizer que você precisa aprender com o passado. Todo
-aquela história Empirical Process que as metodologias ágeis pregam
-(principalmente o Scrum), só fizeram sentido pra mim quando eu vi as mudanças se
-refletindo nos números.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Os números ajudam o time a alcançar a frequência consistente de entregas, que é
-o segredo para iniciar a previsibilidade de entrega do seu projeto.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Geralmente eu uso Jira para recolher esses dados, mas não importa a ferramenta
-que você utiliza, desde que você consiga extrair os dados necessários para
-conseguir essas respostas.&lt;/p&gt;
-
-&lt;p&gt;É claro que esses dados não garantem que o seu usuário estará recebendo valor de
-verdade e que as features priorizadas estão realmente fazendo a diferença para o
-produto e para o negócio. O trabalho de análise desses dados só fazem sentido se
-você tiver feito as lições de casa antes com seu time, trabalhando para que o
-produto tenha uma visão clara e que os objetivos do negócio estejam realmente
-alinhados com as expectativas de todos.&lt;/p&gt;
-
-&lt;p&gt;Para se aprofundar e ler mais:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://blog.plataformatec.com.br/2016/02/why-we-love-metrics-throughput-and-burnup-charts/"&gt;http://blog.plataformatec.com.br/2016/02/why-we-love-metrics-throughput-and-burnup-charts/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://blog.kudoos.com.br/gestao-agil/entendendo-lei-de-little/"&gt;http://blog.kudoos.com.br/gestao-agil/entendendo-lei-de-little/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lifehacker.com/give-credit-for-an-idea-to-the-whole-group-to-encourage-1644737603"&gt;Give Credit for an Idea to the Whole Group to Encourage Collaboration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/"&gt;What, exactly, is a Product Manager?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://news.greylock.com/let-s-talk-about-product-management-d7bc5606e0c4"&gt;Let’s talk about Product Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@joshelman/a-ceo-of-a-company-is-ultimately-responsible-for-setting-the-overall-vision-and-making-sure-the-29efc477e9f6"&gt;Why I don’t like saying a PM is “CEO” of a product&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.forbes.com/sites/jacquelynsmith/2013/04/30/9-things-you-can-do-when-the-boss-takes-credit-for-your-work/#671cd68e7795"&gt;9 Things You Can Do When The Boss Takes Credit For Your Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mindtheproduct.com/2012/10/how-to-make-products-that-people-love/"&gt;How to Make Products People Love&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
   <entry>
-    <title>Introdução bem rápida sobre vim</title>
-    <link rel="alternate" href="http://diegoeis.com/introducao-bem-rapida-sobre-vim.html"/>
-    <id>http://diegoeis.com/introducao-bem-rapida-sobre-vim.html</id>
-    <published>2017-01-31T22:00:00-02:00</published>
-    <updated>2017-02-01T21:42:22-02:00</updated>
+    <title>A comoditização do desenvolvimento web</title>
+    <link rel="alternate" href="http://diegoeis.com/comoditizacao-dev-web.html"/>
+    <id>http://diegoeis.com/comoditizacao-dev-web.html</id>
+    <published>2017-09-04T21:00:00-03:00</published>
+    <updated>2017-09-07T18:42:43-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;O &lt;strong&gt;vim&lt;/strong&gt; é um editor de texto muito conhecido no mundo Linux. Embora conheça faz tempo, eu nunca o utilizei exatamente por que a curva de aprendizado é terrivelmente longa. Aposto que você conhece alguém que já ficou preso no vim quando foi editar um arquivo no servidor e nem sabia como salvar e sair do arquivo. Normal quando se está começando e nem tem ideia de como o vim funciona.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Comodites são produtos cujo a qualidade ou características são parecidas ou iguais, e por isso a escolha não se baseia pela qualidade ou pelas características do produto, mas pelo preço e necessidade da pessoa/empresa. A Wikipedia dá um &lt;a href="https://pt.wikipedia.org/wiki/Commodity"&gt;exemplo bem legal&lt;/a&gt;: ela compara o cobre com um sistema de som. Veja que o cobre é igual aqui e em qualquer lugar do mundo, suas características serão semelhantes. Já um sistema de som tem milhares outros aspectos que levam você, consumidor, a comparar a qualidade entre dois produtos. Você compra uma caixa de som da Apple ou da JBL? Qual a potência máxima das duas caixas? Qual o tamanho, a conectividade, interface, material usado, etc&amp;hellip; Sacou a diferença? Comparar dois pedaços de cobre dá na mesma&amp;hellip; Comparar dois produtos &amp;ldquo;já prontos&amp;rdquo;, não. É por isso que as comodites tem preços regulados pelo mercado. O preço do barril de petróleo é o mesmo no mundo inteiro, já o preço das caixas de som, não.&lt;/p&gt;
 
-&lt;p&gt;Só para avisar: eu uso Mac, mas é provável que tudo isso aqui funcione num Linux. Mas não tenho ideia se alguma coisa funcionaria no Windows.&lt;/p&gt;
+&lt;h2&gt;Serviços comuns, Sobrinhos e os serviços DIY&lt;/h2&gt;
 
-&lt;h2&gt;Um pouco de blá blá blá histórico&lt;/h2&gt;
+&lt;p&gt;Existem uma série de trabalhos feitos por designers, programadores e outros profissionais do mercado de internet que podem ser vistos como comodites e por isso o preço vai importar muito mais do que as qualidades e características.&lt;/p&gt;
 
-&lt;p&gt;Se você for cavar informações na Web, vai encontrar várias informações interessantes sobre de onde o vim surgiu. Primeiro, a palavra vim significa VI Improvement. O vim é uma melhoria do editor vi, que foi baseado num editor chamado ex, que por sua vez foi baseado num editor chamado qed, que por sua vez era uma melhoria de um editor chamado ed, que talvez foi inspirado em outro editor. ;-) Todas essas e outras informações você pode achar &lt;a href="https://en.wikipedia.org/wiki/Ed_%28text_editor%29"&gt;aqui&lt;/a&gt; e &lt;a href="https://en.wikipedia.org/wiki/Vi"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aos poucos, o grande público leigo deixou de precisar de designers e programadores para obterem produtos que até então eram complexos. Se o seu Manoel quiser um e-commerce para sua mercearia, ele não precisa mais procurar um designer e um programador, ele faz uma conta no Wix e pronto.&lt;/p&gt;
 
-&lt;p&gt;O interessante do vim é que você pode aprender praticamente TUDO sobre ele executando apenas o comando :help. Abra o vim simplesmente digitando vim no seu terminal e aperte ENTER. Depois de aberto, digite :help para abrir o manual. Lá tem TUDO o que você precisa saber. Eu poderia terminar esse artigo aqui e pronto. :-D&lt;/p&gt;
+&lt;p&gt;Mas, antes dos serviços DIY, a comoditização do mercado de desenvolvimento web começou com os sobrinhos. Eles estavam em todo lugar  colocando o site da firma do tio no Geocities. Você que trabalha há alguns anos com internet já deve ter topado com um &lt;a href="https://twitter.com/sobrinhoweb"&gt;Sobrinho&lt;/a&gt;. Muita gente já reclamou falando que os sobrinhos iriam acabar com o mercado por praticarem baixos preços entregando serviços ruins&amp;hellip; Mas aos poucos a galera entendeu que os sobrinhos atacavam uma faixa de clientes que não viam a diferença entre sites feitos por profissionais e sites feitos pelos sobrinhos, exatamente por isso, esses clientes sempre preferiam contratar o sobrinho mais barato. Se o mercado não faz distinção das características e da qualidade de uma mercadoria, essa mercadoria vira comodite. Logo, um site feito por você ou feito por um sobrinho, são a mesma coisa, infelizmente.&lt;/p&gt;
 
-&lt;h2&gt;Modos e comandos básicos&lt;/h2&gt;
+&lt;p&gt;Mas eu sei que você consegue, claramente, dizer quando um site é feito por um profissional. Contudo, essa diferença tem ficado cada vez mais difícil de perceber com serviços como o WIX, onde qualquer um consegue ter um site com uma qualidade MUITO superior quando comparado à um sobrinho e cada vez mais semelhante a sites profissionais, feitos por nós. Hoje, pessoalmente, se eu não ver o código fonte, eu não sei distinguir que o site foi feito no Wix ou por outro serviço DIY.&lt;/p&gt;
 
-&lt;p&gt;A curva de aprendizado do vim é gigante por que você primeiro precisa entender que: o mouse é seu inimigo. A ideia é aumentar a produtividade. Parar de usar o teclado para usar o mouse enquanto estamos digitando código é perda de tempo. Logo, o objetivo é que você tente usar cada vez menos o mouse. Para isso, o vim tem alguns modos de controle:&lt;/p&gt;
+&lt;h2&gt;Os profissionais de web e a personalização&lt;/h2&gt;
+
+&lt;p&gt;Veja, essa faixa de necessidades que são bem resolvidas usando serviços DIY (Do It Youself) é uma faixa na qual você não precisa estar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/HpBXvRt.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quanto mais um serviço está do quadrante inferior esquerdo, mais comum é esse serviço e mais soluções automatizadas iremos encontrar, dispensando a necessidade de um especialista.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/rCfBbhW.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Perceba que para criar um site institucional, podemos usar soluções como o Wix, que é algo MUITO mais barato do que pagar um designer + front-end + back-end. Qualquer um consegue criar uma conta nesses serviços, escolher o design e publicar o site. Você mesmo pode optar por criar os websites nessas ferramentas para clientes desse tipo.   &lt;/p&gt;
+
+&lt;p&gt;Para soluções que tem um nível alto de customização e complexidade, ter especialistas é indispensável. &lt;strong&gt;É aí que eu acho que você deveria estar.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Quanto mais comum uma necessidade se tornar, maior a possibilidade dessa necessidade ser resolvida de forma automática ou por serviços que facilitarão a execução do trabalho.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/n1T1Myb.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Outro ponto é que você tem mais chances de ganhar dinheiro, ter um cargo melhor, ter mais responsabilidade e ter mais sucesso profissional se estiver desenvolvendo soluções que estão mais pro lado direito superior do diagrama. &lt;/p&gt;
+
+&lt;p&gt;A cada dia que passa, design, front-end e back-end (esse último menos) se tornam cada vez mais comodites. O código HTML que você escreve não é muito diferente do código HTML que uma máquina pode escrever ou que os freelancers do Brasil (e do mundo) escrevem. É bastante comum agências de design venderem websites, onde eles fazem apenas o design do layout do projeto e terceirizam a parte de front-end e back-end. Tanto faz quem vai fazer o código front-end. Se todo mundo escreve o mesmo HTML, CSS e JS, qual a diferença para a agência entre escolher você ou outro front-end?&lt;/p&gt;
+
+&lt;h2&gt;A comoditização é real e você não precisa se preocupar&amp;hellip; ainda.&lt;/h2&gt;
+
+&lt;p&gt;Essa comoditização já é real desde muito tempo atrás e você não precisa se preocupar tanto assim. Empresas que fazem produtos, que tem sistemas complexos e altamente customizados sempre precisarão de profissionais capacitados para continuarem crescendo. Mesmo assim, o que você pode fazer para que seu trabalho tenha uma qualidade indiscutível?&lt;/p&gt;
+
+&lt;h3&gt;Links para se aprofundar mais:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;No modo Normal você pode executar todos os comandos normais do editor. Serve para você navegar e manipular o texto. Este é o modo que o vim inicia e que você volta toda vez que sai de outro modo usando a tecla ESC. Geralmente, para navegar no texto, o pessoal do vim usa as seguintes teclas: h para esquerda, j para baixo, k para cima e l para direita. Eu ainda não me acostumei com isso e insisto em usar as setas do teclado. :-&lt;/li&gt;
-&lt;li&gt;O modo Visual é como o modo Normal, mas quando você navega pelas palavras ou linhas, elas são selecionadas. Quando um comando é executado, ele vai ter efeito apenas na área selecionada. Quando você está nesse modo, aparece um “– VISUAL –” no rodapé da janela. Ela é ativada apertando a tecla v.&lt;/li&gt;
-&lt;li&gt;O modo Select é igual ao Visual, mas um pouco parecido com o estilo de seleção do MS-Windows. Não se preocupe com esse modo… me atrevo a dizer que você nunca vai usá-lo.&lt;/li&gt;
-&lt;li&gt;O modo Insert é onde você escreve e modifica o texto do arquivo (buffer). Ela é ativada apertando a tecla i. Apertando a tecla i, você poderá inserir ou apagar o texto onde o cursor está naquele momento.&lt;/li&gt;
-&lt;li&gt;No modo Command-line ou Cmdline, você escreve um comando no rodapé da janela. Esse modo é ativado usando alguns comando como busca (? ou /) e o comando de filtro (!).&lt;/li&gt;
-&lt;li&gt;O modo Ex é ativado com o comando :. Nesse modo, você vai executar comandos como salvar o arquivo (:w), fechar o arquivo (:q) ou até juntar os dois comandos (:wq), além de outros.&lt;/li&gt;
+&lt;li&gt;https://websitesetup.org/website-builders/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Isso tudo parece complicado… Só parece… Vamos aprender na prática.&lt;/p&gt;
+&lt;p&gt;Isso aconteceu com uma pequena fatia do mercado de desenvolvimento web quando os &lt;a href="https://twitter.com/sobrinhoweb"&gt;Sobrinhos&lt;/a&gt; começaram a aparecer. Muita gente ficou com medo dos Sobrinhos acabarem com o mercado por praticarem baixos preços entregando serviços ruins&amp;hellip; Outros profissionais nem se preocupavam muito, pois sabiam que a clientela que os Sobrinhos atendiam dificilmente seriam seus clientes, tanto por conta do poder de compra desses clientes, quanto pelo tamanho dos trabalhos, que geralmente, eram bem pequenos e acabavam nem valendo o desespero.&lt;/p&gt;
 
-&lt;h2&gt;Na prática: editando e salvando um arquivo&lt;/h2&gt;
+&lt;p&gt;Quem é mais velho viu o início da era dos blogs. De uma hora para outra todo mundo tinha  (ou queria ter) um website para publicar postagens de forma regular. Digamos que foi o início da Web 2.0: onde os usuários passaram a criar e publicar conteúdo, fazendo com que a opinião de alguém &amp;ldquo;normal&amp;rdquo; fosse mais valiosa do que a opinião das empresas e veículos de comunicação. Não demorou muito para aparecerem serviços online que facilitassem a criação de blogs e websites cujo principal objetivo era publicar postagens, com direito a histórico, tags, categorização e tudo o que um blog tinha direito. O Blogger era o mais famoso na época. Só depois veio o Wordpress e outros sistemas parecidos.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Websites para as massas</title>
+    <link rel="alternate" href="http://diegoeis.com/wix-code-diy.html"/>
+    <id>http://diegoeis.com/wix-code-diy.html</id>
+    <published>2017-09-04T21:00:00-03:00</published>
+    <updated>2017-09-07T18:46:36-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualquer um precisa de uma presença online na internet. É isso que as redes sociais fazem para a grande maioria das pessoas do mundo: cedem um espaço para que você tenha uma presença online. Mas para empresas e profissionais, um espaço na internet significa ter um website, customizado, com a sua cara, seu logo, seu texto, suas fotos, falando sobre o seu trabalho. &lt;/p&gt;
 
-&lt;p&gt;Abra seu terminal e entre na pasta do seu Desktop (ou qualquer outra pasta que você desejar). Agora execute o seguinte comando:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;vim teste.md
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
+&lt;p&gt;Para essa fatia do mercado, ter um website customizado é caro. Além disso, os profissionais que essa fatia de mercado geralmente encontra são aqueles picaretas que prometem um website bonito e barato, mas somem no meio do caminho. Já tive dezenas de cliente que me procuraram exatamente porque o dev que estava fazendo seus projetos simplesmente sumiu ou falou que pegou outro projeto e desistiu, entre outras desculpas. Para esses clientes, é difícil encontrar um profissional barato, responsável e que faça o trabalho decentemente. É aí que entra o sistemas de DIY, que lhe permitem &lt;a href="http://bit.ly/wix-tableless-pt"&gt;criar site grátis&lt;/a&gt;, como o Wix: sistemas de Site Builder unem a facilidade de ter um site customizado, bonito, com todas as funcionalidades necessárias para controlar e publicar um site, com o preço que essa fatia de mercado tanto precisa: grátis ou perto disso.&lt;/p&gt;
 
-&lt;p&gt;Isso vai abrir uma instância do vim, editando um arquivo vazio chamado teste.md. Agora, aperte a tecla i. Este é o comando para entrar no modo de Insert (ou Inserção). Digite Hello World. O arquivo ainda não existe, por que você ainda não o salvou. Para salvar o arquivo, você precisa sair do modo de Insert e voltar para o modo Normal. Para fazer isso basta apertar a tecla ESC. Agora, pra salvar o arquivo, exatamente na pasta em que você está, basta executar o comando :w. Para sair do arquivo e voltar para o terminal, basta executar o comando :q.&lt;/p&gt;
+&lt;h2&gt;Um orçamento simples&lt;/h2&gt;
 
-&lt;p&gt;Verifique agora se o arquivo existe e se o seu conteúdo é o esperado. Pode fazer isso usando qualquer outro editor de texto.&lt;/p&gt;
+&lt;p&gt;Vamos falar a verdade: quanto você cobraria pra fazer um site para um cabeleireiro hoje? Um projeto completo: Design, front-end e back-end. O cliente tem que conseguir mudar o conteúdo, criar ou apagar páginas&amp;hellip; Além de uma galeria de fotos e página com formulário de contato?
+Chuto, de acordo com os projetos que fiz anteriormente, okay?&lt;/p&gt;
 
-&lt;p&gt;Por enquanto, a interface do seu vim deve estar muito, mas muito feia. Vamos dar um jeito nisso.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: de R$4.000,00 a R$8.500,00. Dado que não sou designer, vou ter que contratar um. Depende da qualidade do design. Eu nunca consegui encontrar um designer que faça algo bonitão por menos de R$3.500,00&amp;hellip; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Front-end&lt;/strong&gt;: de R$3.500,00 a R$4.000,00. Depende de quantas páginas com layouts diferentes vai ter. Mas digamos que uma Home, Página de Texto, contato, galeria de fotos. JS para interface, modal na galeria de fotos, carousel na home, responsive, submenu com os serviços, etc&amp;hellip; Eu não faria por menos de R$3.500,00.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Back-end&lt;/strong&gt;: de R$2.500,00 a R$3.500,00. Basicamente Wordpress, certo? Um plugin para form de contato, outro para galeria de fotos, talvez nem precise fazer custom posts&amp;hellip; Tema customizado de Wordpress, de R$2.500,00  a R$3.500,00.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2&gt;Customizando seu vim&lt;/h2&gt;
+&lt;p&gt;O total ficaria mais ou menos assim: R$10.000,00, cobrando os valores mínimos. Mas aí vem: &lt;strong&gt;Ah, Diego, você exagerou, muito caro seu trabalho. Me dá um desconto de 50%.&lt;/strong&gt;&lt;br&gt;
+Fica R$5.000,00. Pra chegar nesse valor, haveria uma série de concessões no projeto como: Design comprado de qualquer Template Monster da vida&amp;hellip; Front-end sem Responsive, back-end não dá para tirar. Se fosse quebrar logo de vez, pensaríamos em pegar um template já pronto de Wordpress, onde nós implementaríamos, mas não iríamos customizar nada. Logo, ou eu fico no prejuízo, ou o cliente não tem o que ele realmente quer. Não dá para diminuir o valor sem mudar qualquer coisa no escopo no projeto.   &lt;/p&gt;
 
-&lt;p&gt;Como qualquer editor que se preze, o vim pode ser totalmente customizado. Eu nunca gostei de usar o vim — estou aprendendo por pura curiosidade — mas sempre gostei do visual simples e clean do editor. Você customiza o vim por meio do seu arquivo de configuração chamado .vimrc. O .vimrc vai guardar todas as configurações do editor e também quais os plugins que serão instalados, bem como algumas configurações desses plugins. Eu conheço um cara chamado &lt;a href="https://www.sergioaugrod.com.br/"&gt;Sérgio&lt;/a&gt; que tem &lt;a href="https://github.com/sergioaugrod/dotfiles/blob/master/.vimrc"&gt;o vim mais legal que eu já vi&lt;/a&gt;. Ele me deu o .vimrc dele e a partir dali eu modifiquei para ficar de acordo com as minhas necessidades (que eram bem mais simples que as dele).&lt;/p&gt;
+&lt;p&gt;Você realmente quer ficar negociando valor o tempo inteiro com seus clientes? Eu prefiro escolher a faixa de valores e o tipo de cliente que quero trabalhar para não ter problemas assim. Por isso a indicação de serviços como o Wix se encaixa bem em casos onde eu não vou pegar o job, mas não vou deixar o cliente na mão.&lt;/p&gt;
 
-&lt;p&gt;Para facilitar, existe um gerenciador de plugins para vim chamado Vundle (não vá se confundir com o &lt;a href="https://www.google.com.br/search?q=vando&amp;amp;safe=off&amp;amp;client=safari&amp;amp;rls=en&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=0ahUKEwiqhqm086TRAhXCF5AKHQqRBVAQ_AUICSgC&amp;amp;biw=2398&amp;amp;bih=1351#safe=off&amp;amp;tbm=isch&amp;amp;q=vando+calcinha&amp;amp;imgrc=eFoxWJye6tM-TM%3A"&gt;Vando&lt;/a&gt;, hein?!). Eu fiz o meu .vimrc se baseando nas configurações do &lt;a href="https://github.com/sergioaugrod/dotfiles/blob/master/.vimrc"&gt;arquivo do Sérgio&lt;/a&gt;. Logo, sugiro que você faça o mesmo. O &lt;a href="https://github.com/diegoeis/configfiles/blob/master/vimrc"&gt;meu está aqui&lt;/a&gt; e o &lt;a href="https://github.com/sergioaugrod/dotfiles/blob/master/.vimrc"&gt;dele está aqui&lt;/a&gt;. A diferença dos dois são os plugins que serão instalados. O visual do editor é praticamente o mesmo.&lt;/p&gt;
+&lt;p&gt;Suponha que você use o WIX como uma ferramenta, do jeito que usamos o Wordpress para fazer sites. Você poderia cobrar um valor inicial de setup e depois o cliente paga a mensalidade do Wix, que é MUITO baixa, começando com R$9,50! &lt;/p&gt;
 
-&lt;p&gt;Para customizar seu vim, baixe algum dos .vimrc citados acima. Coloque na sua pasta Home (~/). Feito isso, instale o &lt;a href="https://github.com/VundleVim/Vundle.vim"&gt;Vundle&lt;/a&gt;, vamos precisar dele.&lt;/p&gt;
+&lt;h2&gt;Wix ADI - Artificial Design Intelligence e o Editor&lt;/h2&gt;
 
-&lt;p&gt;Depois abra o Terminal, digite &lt;strong&gt;vim&lt;/strong&gt; e aperte &lt;strong&gt;ENTER&lt;/strong&gt;. O vim feião e cru do seu Mac/Linux vai abrir. Do jeito que o vim está, digite &lt;strong&gt;:PluginInstall&lt;/strong&gt;. Deve aparecer uma tela mais ou menos assim:&lt;/p&gt;
+&lt;p&gt;Agora, partindo do pressuposto que você não é designer, não é desenvolvedor, é o cliente final procurando fazer um site se a ajuda de um profissional. Pra tentar facilitar essa tarefa, o Wix criou o que eles chamam de &lt;strong&gt;Inteligência de Design Artificial&lt;/strong&gt;. Ele funciona como um Robô que vai te fazer perguntas simples e se baseando nas suas respostas, ele cria um design pra você.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/800/1*8QPO2u7FHyQLLhdsojDssQ.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/EHgX9Ua.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Agora feche e abra o Terminal e abra o vim novamente. Ele deve estar mais ou menos igual a imagem abaixo:&lt;/p&gt;
+&lt;p&gt;Uma das perguntas é o endereço do seu estabelecimento. Com as informações como o endereço e o nome do seu negócio, o Wix ADI procura na internet informações sobre seu negócio, e monta um card com as outras informações como Telefone. Claro, você precisa ter essas informações atualizadas no Google para que ele consiga buscar corretamente. Mesmo assim, você consegue mudar depois se quiser.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/800/1*ACGv9GCszyLvcT-5RTKlAg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/97Dd5wW.png" /&gt;&lt;/p&gt;
 
-&lt;h2&gt;Instale o MacVim&lt;/h2&gt;
+&lt;p&gt;Depois disso, ele &amp;ldquo;pensa&amp;rdquo; mais um pouquinho e traz pra você uma outra pergunta: qual o estilo de design que você mais gosta? &lt;/p&gt;
 
-&lt;p&gt;Bom, vamos facilitar para quem usa Mac, como eu. Para ter uma integração melhor com o Mac, eu uso o MacVim, que é simplesmente o vim, só que mais integrado com o sistema operacional e standalone, isso quer dizer que ele não está &amp;ldquo;preso&amp;rdquo; no terminal. Por exemplo, você tem suporte a edição fullscreen, scroll e copy and paste como se fosse qualquer app do Mac… basta instalar via brew ou &lt;a href="http://macvim-dev.github.io/macvim/"&gt;baixar no site oficial&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;brew install macvim
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/anO3QsT.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Depois execute o comando abaixo ou coloque no seu .bash_profile ou similar:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
+&lt;p&gt;Escolhendo um desses destes estilos, o Wix começa a criar seu website, começando pela Home Page. &lt;/p&gt;
 
-&lt;p&gt;Agora, pra abrir um arquivo, basta digitar gvim [nome&lt;em&gt;do&lt;/em&gt;arquivo]. É uma boa ideia você ler o &lt;a href="https://github.com/macvim-dev/macvim/wiki/FAQ"&gt;FAQ do MacVim&lt;/a&gt;. Tem muita coisa boa explicada lá.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/67V0sP1.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Essa &lt;a href="https://faraohh.files.wordpress.com/2009/01/vim-super_editor.pdf"&gt;apresentação vai te ajudar muito a entender melhor o vim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Se você não gostar do resultado, basta mudar o estilo e o design. Para alguém que não perder muito tempo escolhendo os detalhes do layout, essa ferramenta faz muito bem o seu trabalho e te economiza tempo. Agora, suponha que você queira realmente parar e deixar o layout do seu site com a sua cara. Basta você usar o editor de sites do Wix, escolhendo um dos 500 templates que ele oferece ou fazendo o seu próprio design a partir do zero. O que eu não aconselho, já que o Wix tem designers profissionais que desenharam templates bem mais bonitos do que a maioria das pessoas conseguiria fazer. ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/HKpFPb8.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Escolhendo um template pronto, você consegue mudar todas as características dos elementos do site. A coisa toda é bem simples de se fazer e mira sempre nas pessoas que não tem nenhuma intimidade com o desenvolvimento de sites. Se você for um desenvolvedor, não há motivo para não usar o Wix para fazer websites para clientes menores e que precisam de um site simples e personalizado. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/2nlTyul.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lembre-se: esses serviços são ótimos para uma fatia do mercado que tem a necessidade de ter uma &amp;ldquo;casa&amp;rdquo; online. Muitos profissionais que tem budget limitado não vão conseguir pagar por um serviço de profissionais como você e outros, logo, alternativas assim ajudam muito esses usuários. &lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Histórias menores são a resposta, Story Points são bullshit</title>
+    <link rel="alternate" href="http://diegoeis.com/story-points-bullshit.html"/>
+    <id>http://diegoeis.com/story-points-bullshit.html</id>
+    <published>2017-08-14T21:00:00-03:00</published>
+    <updated>2017-09-07T18:45:12-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Definir Story Points é uma técnica muito conhecida pelos times de software ágeis. O time estima (chuta) quantos pontos valem uma determinada história e essa história entra ou não na sprint, dependendo da capacidade baseada nas pontuações das histórias completadas anteriormente.&lt;/p&gt;
+
+&lt;p&gt;Para facilitar, suponha que na Sprint anterior, o time completou 3 histórias, de 5 pontos cada uma. Isso quer dizer que a capacidade do time é de fazer 15 pontos por Sprint. E é aqui que os problemas começam: quantas histórias equivalem a 5 pontos? Na sprint anterior isso significou 3 histórias. Na próxima sprint, o time pegou duas histórias: uma de 13 e outra de 2. Isso quer dizer que eles terminarão a história de 2 pontos mais rápido que a de 13? O que significam esses pontos? São horas, dias ou semanas? Quem vai pegar a história de 13 pontos, um júnior ou um sênior?&lt;/p&gt;
+
+&lt;p&gt;Não é incomum e você pode confirmar isso em vários livros, fóruns e blogs, que a maioria dos times e gestores de produto confundem Story Points como uma unidade de &lt;strong&gt;produtividade&lt;/strong&gt; e não de &lt;strong&gt;estimativa&lt;/strong&gt;, que é o que ela pretende ser. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The idea with story estimation is that you figure out, somehow, how “big” each story is, which you can use to figure out how long each story will take, then add them up and that’s how many you can do in an iteration. &amp;ndash; Ron Jeffries&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Como o Ron Jeffries diz: a ideia de estimar uma história é entender quão grande a história é. Sabendo o tamanho da história, você talvez saiba em quanto tempo aquela história será desenvolvida. Story Points são, por natureza, uma &lt;strong&gt;abstração&lt;/strong&gt; desse tamanho. Logo, nós usamos uma abstração de tamanho para ver se uma tarefa caberá dentro de uma timebox. Se a pontuação de uma tarefa for muito alta, a tarefa é muito grande, logo, não cabe nessa timebox (digamos 2 semanas). Aí encostamos em outro erro comum: transformar Story Points em horas (ou qualquer outra unidade de tempo). 1 Story Point vira 1 hora e assim por diante.&lt;br&gt;
+Me diga com sinceridade: você já viu algum programador acertar em quantas horas uma tarefa foi feita? Eu, nunca. Você consegue ter alguma confiança de que esse mesmo programador acertará a quantidade pontos exatas de uma tarefa?&lt;/p&gt;
+
+&lt;p&gt;A realidade dura é que &lt;strong&gt;ninguém realmente sabe quanto tempo vai durar para fazer uma tarefa/issue&lt;/strong&gt;. As equipes e principalmente os PO/PM/Stakeholders precisam lidar com isso. Estimativas são por natureza um CHUTE.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Breaking down a user story into tasks is fine to understand what will be involved in completing it, but spending loads of time estimating tasks and tracking the tasks on agile planning boards/tools is a lot of wasted energy and a relic of waterfall-based planning schemes. &amp;ndash; https://www.industriallogic.com/blog/stop-using-story-points/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;É exatamente por isso que &lt;strong&gt;não importa qual metodologia&lt;/strong&gt; de estimativa que você está usando, o que importa de verdade é &lt;strong&gt;quebrar as histórias no menor tamanho possível, mantendo-a funcional e que entregue valor para o cliente ou para o produto&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se você estiver usando Story Points e quebrar uma história para o menor tamanho possível, essa história sempre terá uma pontuação bem muito baixa, correto? Dado que o time sempre quebrará as históris no menor tamanho possível, pontuar perde o sentido, já que os Story Points serão sempre baixos. Aí, nesse caso, valeria mais a pena medirmos quantas histórias estão sendo entregues e não mais quantos pontos, certo?
+Exemplo: existem duas histórias, a primeira delas é criar um endpoint simples na API do seu produto (esse endpoint só vai devolver o nome do cliente, logo, não haverá nenhuma lógica de foguete para trazer esse valor). A outra é que time de design decidiu de trocar a posição e a cor de um botão com o dev front-end do time.
+Eu julgo que são duas tarefas, bem pequenas, mas que a tarefa do front-end vai levar menos tempo que a tarefa do Endpoint. Logo, seu time entregará DUAS tarefas. Perceba que retiramos a abstração. &lt;/p&gt;
+
+&lt;p&gt;Falar que o time entrega duas tarefas em determinado espaço de tempo, é muito mais útil e exato que dizer que o time entrega 5 pontos (que pode significar 5 horas ou seja lá o que os 5 pontos signifique para o seu time). A tarefa, quebrada no menor tamanho possível, vai levar quanto tempo for necessário para ser feita. O time (e o gestor) está tranquilo com isso, porque dado que a tarefa é pequena, é sabido que ela não levará muitos dias (digamos que duas semanas) pra ser feita, porque se uma tarefa levou todo esse tempo, ela não foi quebrada no seu menor tamanho. Aí isso é explicitado na Retrospectiva, resultando numa ação para que no próximo Refinement/Planning o time tome cuidado para quebrar as tarefas corretamente.&lt;/p&gt;
+
+&lt;p&gt;Em uma das equipes que trabalhei, nós começamos a estimar usando T-Shirt Size. Como não tínhamos NENHUMA ideia do tamanho das tarefas, definimos que uma tarefa P equivalia a uma tarefa que levaria 3 dias para ser feita. O tamanho M, levaria 5 dias e tarefas tamanho G levavam 10 dias. Dado que nossas Sprints eram de 2 semanas, nós achávamos que esses tamanhos casariam bem. Depois de algumas semanas, eu comecei a medir quanto tempo realmente levava uma tarefa P. Descobri que a tarefa P levava geralmente 5 dias para serem feitas. As tarefas M levavam por volta de 8 dias e as tarefas G levavam mais do que 15 dias. Logo percebemos que não fazia sentido NENHUM ter histórias de 15 dias no Sprint b, já que elas levavam mais tempo que a Sprint. Perceba que o ponto de mudança foi entender que uma tarefa que leva 15 dias &lt;/p&gt;
+
+&lt;p&gt;1 2 3 5 8 13 21 34&lt;/p&gt;
+
+&lt;p&gt;https://www.targetprocess.com/blog/2011/04/5-reasons-why-you-should-stop-estimating-user-stories/
+http://ronjeffries.com/articles/015-jul/what-estimates-are-not/
+https://www.mountaingoatsoftware.com/blog/dont-equate-story-points-to-hours
+https://www.mountaingoatsoftware.com/blog/why-i-dont-use-story-points-for-sprint-planning
+https://www.industriallogic.com/blog/stop-using-story-points/&lt;/p&gt;
 </content>
   </entry>
 </feed>
