@@ -5,68 +5,148 @@
   <id>http://diegoeis.com/</id>
   <link href="http://diegoeis.com/"/>
   <link href="http://diegoeis.com/feed.xml" rel="self"/>
-  <updated>2017-09-04T21:00:00-03:00</updated>
+  <updated>2017-09-16T21:00:00-03:00</updated>
   <author>
     <name>Diego Eis</name>
   </author>
   <entry>
-    <title>Websites para as massas</title>
-    <link rel="alternate" href="http://diegoeis.com/wix-code-diy.html"/>
-    <id>http://diegoeis.com/wix-code-diy.html</id>
-    <published>2017-09-04T21:00:00-03:00</published>
-    <updated>2017-09-07T18:46:36-03:00</updated>
+    <title>Livro Introdução à Web Semântica</title>
+    <link rel="alternate" href="http://diegoeis.com/livro-introducao-web-semantica.html"/>
+    <id>http://diegoeis.com/livro-introducao-web-semantica.html</id>
+    <published>2017-09-16T21:00:00-03:00</published>
+    <updated>2017-09-17T11:26:05-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualquer um precisa de uma presença online na internet. É isso que as redes sociais fazem para a grande maioria das pessoas do mundo: cedem um espaço para que você tenha uma presença online. Mas para empresas e profissionais, um espaço na internet significa ter um website, customizado, com a sua cara, seu logo, seu texto, suas fotos, falando sobre o seu trabalho. &lt;/p&gt;
+    <content type="html">&lt;p&gt;Por que precisamos da Web Semântica? A Web de hoje não é suficiente? Estamos caminhando para uma Web com dados cada vez mais relacionados e abertos. A Web Semântica é uma extensão da nossa web atual, em que nós não vamos apenas ler e produzir conteúdo, mas usar as máquinas para relacionar e reutilizar essas informações da melhor maneira possível. Ela se baseia na ideia de que o conteúdo deve ter uma descrição digital, padronizada por vocabulários, que provê meios para as máquinas entenderem do que aquilo se trata, de modo que os computadores possam interpretar, gerar e distribuir conteúdo útil, de acordo com as necessidades dos usuários.&lt;/p&gt;
 
-&lt;p&gt;Para essa fatia do mercado, ter um website customizado é caro. Além disso, os profissionais que essa fatia de mercado geralmente encontra são aqueles picaretas que prometem um website bonito e barato, mas somem no meio do caminho. Já tive dezenas de cliente que me procuraram exatamente porque o dev que estava fazendo seus projetos simplesmente sumiu ou falou que pegou outro projeto e desistiu, entre outras desculpas. Para esses clientes, é difícil encontrar um profissional barato, responsável e que faça o trabalho decentemente. É aí que entra o sistemas de DIY, que lhe permitem &lt;a href="http://bit.ly/wix-tableless-pt"&gt;criar site grátis&lt;/a&gt;, como o Wix: sistemas de Site Builder unem a facilidade de ter um site customizado, bonito, com todas as funcionalidades necessárias para controlar e publicar um site, com o preço que essa fatia de mercado tanto precisa: grátis ou perto disso.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/Vto4B24.jpg" /&gt;&lt;/p&gt;
 
-&lt;h2&gt;Um orçamento simples&lt;/h2&gt;
+&lt;p&gt;Se você trabalha com internet já deve ter ouvido falar ou pelo menos lido um ou dois artigos sobre Web Semântica. Ela nunca foi o assunto da moda nos blogs ou palestras, mas tem uma importância enorme na vida das pessoas. Pouco se fala por aí sobre como usar a informação disponível na internet a favor das pessoas. Empresas como Google, Facebook e Microsoft já tem conseguido benefícios da Web Semântica, e muitas vezes o que chamamos de &amp;ldquo;Inteligência Artificial&amp;rdquo; é na verdade Web Semântica levada sério.&lt;/p&gt;
 
-&lt;p&gt;Vamos falar a verdade: quanto você cobraria pra fazer um site para um cabeleireiro hoje? Um projeto completo: Design, front-end e back-end. O cliente tem que conseguir mudar o conteúdo, criar ou apagar páginas&amp;hellip; Além de uma galeria de fotos e página com formulário de contato?
-Chuto, de acordo com os projetos que fiz anteriormente, okay?&lt;/p&gt;
+&lt;p&gt;Pensando nisso, &lt;a href="http://bit.ly/livro-web-semantica"&gt;quis escrever um livro&lt;/a&gt; que fala sobre a teoria da Web Semântica e como ela funciona. Não é um livro altamente técnico (poderia ser), é um livro para qualquer um ler e entender como a informação tem um papel importante na internet, e como seu relacionamento pode ser a grande virada para a extensão da Web atual.&lt;/p&gt;
+
+&lt;p&gt;É com muito prazer que aviso que o &lt;a href="http://bit.ly/livro-web-semantica"&gt;livro Introdução à Web Semântica: A inteligência da informação&lt;/a&gt; foi lançado hoje pela editora Casa do Código. A versão e-book está sido por apenas R$29,90. 
+Tive o prazer de ter o prefácio escrito pelo grande &lt;a href="https://twitter.com/newtoncalegari"&gt;Newton Calegari&lt;/a&gt;, Gestor de Projetos no W3C e editor da documentação &lt;a href="https://www.w3.org/TR/dwbp/"&gt;Data on the Web Best Practices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Espero que o livro ajude vários desenvolvedores a entenderem um pouco mais sobre Web Semântica, instigando a pesquisa do assunto.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://bit.ly/livro-web-semantica"&gt;Compre o livro aqui!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você já leu o livro, por favor, &lt;a href="http://bit.ly/livro-web-semantica-goodreads"&gt;faça um review ou dê sua nota (estrelinhas) lá no GoodReads&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2&gt;Guia Front-end&lt;/h2&gt;
+
+&lt;p&gt;Eu já escrevi um livro anterior, onde tento mostrar as tecnologias importantes para uma pessoa iniciar na área de front-end. Geralmente um iniciante na área tem dúvidas, falta de tempo, tecnologias, mercado, mais dúvidas. Será que existe um verdadeiro caminho das pedras que devemos percorrer para nos tornarmos bons e verdadeiros desenvolvedores front-end? O que estudar? Qual blog ler? Que fóruns acompanhar? Como participar da comunidade? Será que estou no caminho certo?&lt;/p&gt;
+
+&lt;p&gt;Se você é desenvolvedor front-end, quer entrar na área ou busca se tornar um grande profissional, essas dúvidas já devem ter passado por sua cabeça.&lt;/p&gt;
+
+&lt;p&gt;Neste livro, eu falo sobre o mundo de desenvolvimento web por meio de uma análise franca e objetiva de diversas tecnologias adotadas, necessidades do mercado e postura profissional. Você não vai aprender diretamente sobre essas tecnologias aqui, mas certamente vai desenvolver um senso mais apurado e uma nova forma de olhar para elas, o que é fundamental nesse mundo de aprendizado não linear.&lt;/p&gt;
+
+&lt;p&gt;Compre o livro &lt;a href="https://www.casadocodigo.com.br/products/livro-guia-frontend"&gt;Guia Front-end&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Como dosar métricas de produto e processo em equipes que trabalham com soluções digitais?</title>
+    <link rel="alternate" href="http://diegoeis.com/anotacoes-raphael-albino-agilebrasil2017.html"/>
+    <id>http://diegoeis.com/anotacoes-raphael-albino-agilebrasil2017.html</id>
+    <published>2017-09-14T21:00:00-03:00</published>
+    <updated>2017-09-17T11:47:48-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="http://twitter.com/rapha_albino"&gt;Raphael Albino&lt;/a&gt; é consultor na Plataformatec e ele falou sobre Métricas de Produtos e Métricas Ágeis de um modo mais científico, colocando em pauta a eficiência, eficácia, monitoração das métricas e indicadores afim de alcançarmos os objetivos de negócio sem esquecer de suprir as necessidades do cliente;&lt;/p&gt;
+
+&lt;p&gt;Abaixo segue abaixo minhas anotações da palestra do Raphael no Agile Brazil em 2017:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: de R$4.000,00 a R$8.500,00. Dado que não sou designer, vou ter que contratar um. Depende da qualidade do design. Eu nunca consegui encontrar um designer que faça algo bonitão por menos de R$3.500,00&amp;hellip; &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Front-end&lt;/strong&gt;: de R$3.500,00 a R$4.000,00. Depende de quantas páginas com layouts diferentes vai ter. Mas digamos que uma Home, Página de Texto, contato, galeria de fotos. JS para interface, modal na galeria de fotos, carousel na home, responsive, submenu com os serviços, etc&amp;hellip; Eu não faria por menos de R$3.500,00.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Back-end&lt;/strong&gt;: de R$2.500,00 a R$3.500,00. Basicamente Wordpress, certo? Um plugin para form de contato, outro para galeria de fotos, talvez nem precise fazer custom posts&amp;hellip; Tema customizado de Wordpress, de R$2.500,00  a R$3.500,00.&lt;/li&gt;
+&lt;li&gt;Você sabe a diferença entre Eficiência e Eficácia?&lt;/li&gt;
+&lt;li&gt;Nós temos um conjunto chamado Mercado, outro chamado Produto, e na interseção desses conjuntos tem o cliente.&lt;/li&gt;
+&lt;li&gt;Quanto mais problemas você consegue para os clientes, mais você aumenta a participação sua no mercado&lt;/li&gt;
+&lt;li&gt;Aumente o mercado através de soluções reais, de clientes reais;&lt;/li&gt;
+&lt;li&gt;Por que você deve se preocupar se os clientes estão migrando de produtos? Sem clientes, não há receita. Quanto mais você mantém os clientes, mais estabilidade você tem.&lt;/li&gt;
+&lt;li&gt;Você consegue manter uma relação saudável de novas receitas, com as receitas que você possui?&lt;/li&gt;
+&lt;li&gt;E se você tem mais receitas novas, do que receitas recorrentes? Menos MRR e mais Booking, quer dizer que você tem um problema de retenção.&lt;/li&gt;
+&lt;li&gt;Usuários ativos ajudam no NPS. Um usuário ativo feliz, significa um NPS alto.&lt;/li&gt;
+&lt;li&gt;Quanto mais usuários felizes no seu produto, mais você consegue pesquisar comportamentos usuários que dão certo&lt;/li&gt;
+&lt;li&gt;Por que é importante analisar seu funil de vendas? Desde o visitante, até o cliente virar um usuário de fato.&lt;/li&gt;
+&lt;li&gt;Melhorar as etapas do seu funil (seja ele qual for) significa criar um ambiente previsível de receita ou comportamento do cliente.&lt;/li&gt;
+&lt;li&gt;Quanto mais cliente antigo que de alguma forma esteja ativo, melhor. Você pode garantir mudanças no seu produto, porque você sabe que tem clientes antigos que mantém a sua base estável e rentável.&lt;/li&gt;
+&lt;li&gt;CAC: Custo de Aquisição de Cliente. Quanto menor, melhor.&lt;/li&gt;
+&lt;li&gt;Custo total do gasto de marketing / Qtd de clientes adquiridos&lt;/li&gt;
+&lt;li&gt;Qualidade de código de software diminui bug, custo de manutenção diminui&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Quanto custa atender o número de clientes X por que há um bug no sistema?&lt;/li&gt;
+&lt;li&gt;Checklist Quantitativo básico: Receita, Churn, Receita Recorrente, usuários Ativos&lt;/li&gt;
+&lt;li&gt;Qualitativo: NPS, Surveys, Pesquisa de campo, Pesquisa com de uso com clientes&lt;/li&gt;
+&lt;li&gt;Como você tem usado o NPS?&lt;/li&gt;
+&lt;li&gt;Fazer surveys também são um ótimo caminho para entender o que os clientes estão achando do seu produto.&lt;/li&gt;
+&lt;li&gt;Observação: identifique oportunidades e ameaças. O que os clientes estão dizendo do meu produto? Oque as pessoas estão falando sobre os problemas que o produto está tentando resolver?&lt;/li&gt;
+&lt;li&gt;Observe o que há disponível no seu macro ambiente e identifique as oportunidades e as ameaças;&lt;/li&gt;
+&lt;li&gt;Dado que você observou que existe uma ameaça, o que você pode fazer? Qual problema você tentará resolver?&lt;/li&gt;
+&lt;li&gt;Hipóteses: quais são as hipóteses que você deseja provar? Hipóteses é um conceito que foi levantado em cima de uma observação e precisará ser testado.&lt;/li&gt;
+&lt;li&gt;Experimentação: qual a solução mais rápida que consigo colocar no mercado para experimentar essa hipótese e conseguir dados?&lt;/li&gt;
+&lt;li&gt;Com os dados na mão, será que você consegue entender que você alcançou o objetivo do experimento?&lt;/li&gt;
+&lt;li&gt;Build (experiments) -&amp;gt; Measure (Metrics) -&amp;gt; Learn (Assumptions).&lt;/li&gt;
+&lt;li&gt;Entregue lotes pequenos para gerar aprendizado rápido. Esteja de olho no Lead Time. Qual o menor item do backlog que vai nos ajudar a bater o OKR?&lt;/li&gt;
+&lt;li&gt;Monitore o processo de desenvolvimento para evitar gargalos e filas, afim de que as tarefas caminhem no board sem depender de uma especialidade específica do time.&lt;/li&gt;
+&lt;li&gt;Tenha previsibilidade das suas tarefas por meio da análise de dados.&lt;/li&gt;
+&lt;li&gt;Se você trabalha com produtos, tenha instrumentos para analisar o produto. Tenha em mente o motivo pelo qual a demanda foi priorizada.&lt;/li&gt;
+&lt;li&gt;Se você desenvolve software, tente ir para rua entender melhor sobre seu produto. Interaja com o cliente/usuário.&lt;/li&gt;
+&lt;li&gt;O feedback do cliente pode ser determinando se o produto está indo bem ou não. Tome cuidado com os influenciadores (redes sociais).&lt;/li&gt;
+&lt;li&gt;Escute os dados de mente aberta. Entenda o que está por trás daquele número explicitando o contexto, fazendo reflexões e suposições&lt;/li&gt;
+&lt;li&gt;Evolua o processo de forma orgânica. Se há uma etapa que não estamos mais precisando dessa etapa, tente remove-la e monitore a performance do time depois.&lt;/li&gt;
+&lt;li&gt;Uma organização precisa ter objetivos. Parece óbvio&amp;hellip; Só parece.&lt;/li&gt;
+&lt;li&gt;Ter métricas de produtos, ajudam a sustentar metodologias como OKR. &lt;/li&gt;
+&lt;li&gt;A partir do momento que você transforma os objetivos em ações, você transforma o processo para ser mais eficiente.&lt;/li&gt;
+&lt;li&gt;Se o time entende que o LeadTime ou qualquer outra métrica é um ativo para discussão, aí a métrica está sendo usada. O uso da métrica deve ter a proposta de melhoria.&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Anotações - Como não ficar careca em Agile Transformations</title>
+    <link rel="alternate" href="http://diegoeis.com/anotacoes-manoel-pimentel-agilebrasil2017.html"/>
+    <id>http://diegoeis.com/anotacoes-manoel-pimentel-agilebrasil2017.html</id>
+    <published>2017-09-14T21:00:00-03:00</published>
+    <updated>2017-09-17T11:46:54-03:00</updated>
+    <author>
+      <name>Diego Eis</name>
+    </author>
+    <content type="html">&lt;p&gt;Manoel Pimentel é uma figura muito conhecida na comunidade ágil brasileira e ele foi o Keynote do primeiro dia do Agile Brazil 2017, falando sobre como não aplicarmos o Ágil nas nossas empresas de forma decorativa, onde nós estamos sempre nos focando no que não é essencial, perdendo o que realmente importa na aplicação do Ágil no dia a dia.&lt;/p&gt;
 
-&lt;p&gt;O total ficaria mais ou menos assim: R$10.000,00, cobrando os valores mínimos. Mas aí vem: &lt;strong&gt;Ah, Diego, você exagerou, muito caro seu trabalho. Me dá um desconto de 50%.&lt;/strong&gt;&lt;br&gt;
-Fica R$5.000,00. Pra chegar nesse valor, haveria uma série de concessões no projeto como: Design comprado de qualquer Template Monster da vida&amp;hellip; Front-end sem Responsive, back-end não dá para tirar. Se fosse quebrar logo de vez, pensaríamos em pegar um template já pronto de Wordpress, onde nós implementaríamos, mas não iríamos customizar nada. Logo, ou eu fico no prejuízo, ou o cliente não tem o que ele realmente quer. Não dá para diminuir o valor sem mudar qualquer coisa no escopo no projeto.   &lt;/p&gt;
+&lt;p&gt;Abaixo seguem algumas das anotações que fiz na palestra:&lt;/p&gt;
 
-&lt;p&gt;Você realmente quer ficar negociando valor o tempo inteiro com seus clientes? Eu prefiro escolher a faixa de valores e o tipo de cliente que quero trabalhar para não ter problemas assim. Por isso a indicação de serviços como o Wix se encaixa bem em casos onde eu não vou pegar o job, mas não vou deixar o cliente na mão.&lt;/p&gt;
-
-&lt;p&gt;Suponha que você use o WIX como uma ferramenta, do jeito que usamos o Wordpress para fazer sites. Você poderia cobrar um valor inicial de setup e depois o cliente paga a mensalidade do Wix, que é MUITO baixa, começando com R$9,50! &lt;/p&gt;
-
-&lt;h2&gt;Wix ADI - Artificial Design Intelligence e o Editor&lt;/h2&gt;
-
-&lt;p&gt;Agora, partindo do pressuposto que você não é designer, não é desenvolvedor, é o cliente final procurando fazer um site se a ajuda de um profissional. Pra tentar facilitar essa tarefa, o Wix criou o que eles chamam de &lt;strong&gt;Inteligência de Design Artificial&lt;/strong&gt;. Ele funciona como um Robô que vai te fazer perguntas simples e se baseando nas suas respostas, ele cria um design pra você.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/EHgX9Ua.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Uma das perguntas é o endereço do seu estabelecimento. Com as informações como o endereço e o nome do seu negócio, o Wix ADI procura na internet informações sobre seu negócio, e monta um card com as outras informações como Telefone. Claro, você precisa ter essas informações atualizadas no Google para que ele consiga buscar corretamente. Mesmo assim, você consegue mudar depois se quiser.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/97Dd5wW.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Depois disso, ele &amp;ldquo;pensa&amp;rdquo; mais um pouquinho e traz pra você uma outra pergunta: qual o estilo de design que você mais gosta? &lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/anO3QsT.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Escolhendo um desses destes estilos, o Wix começa a criar seu website, começando pela Home Page. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/67V0sP1.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Se você não gostar do resultado, basta mudar o estilo e o design. Para alguém que não perder muito tempo escolhendo os detalhes do layout, essa ferramenta faz muito bem o seu trabalho e te economiza tempo. Agora, suponha que você queira realmente parar e deixar o layout do seu site com a sua cara. Basta você usar o editor de sites do Wix, escolhendo um dos 500 templates que ele oferece ou fazendo o seu próprio design a partir do zero. O que eu não aconselho, já que o Wix tem designers profissionais que desenharam templates bem mais bonitos do que a maioria das pessoas conseguiria fazer. ;-)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/HKpFPb8.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Escolhendo um template pronto, você consegue mudar todas as características dos elementos do site. A coisa toda é bem simples de se fazer e mira sempre nas pessoas que não tem nenhuma intimidade com o desenvolvimento de sites. Se você for um desenvolvedor, não há motivo para não usar o Wix para fazer websites para clientes menores e que precisam de um site simples e personalizado. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/2nlTyul.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Lembre-se: esses serviços são ótimos para uma fatia do mercado que tem a necessidade de ter uma &amp;ldquo;casa&amp;rdquo; online. Muitos profissionais que tem budget limitado não vão conseguir pagar por um serviço de profissionais como você e outros, logo, alternativas assim ajudam muito esses usuários. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gestão de projetos de software é a mesma coisa que gestão de projeto de obra. Ambos fazem cálculos absurdos para tentar prever o que vem pela frente.&lt;/li&gt;
+&lt;li&gt;Qual a essência do que é agile? Essa essência está ligada a trabalhar da maneira mais simples, entregando coisas de valor, criando resultados e benefícios para o negócio, aprendendo e melhorando o processo&lt;/li&gt;
+&lt;li&gt;Como tornar o ágil mais interoperáveis e palátavel em grandes empresas? &lt;/li&gt;
+&lt;li&gt;Quando você estende muito o conceito do ágil, principalmente em grandes empresas, você corre o risco de aplicar o Ágil de forma decorativa na empresa.&lt;/li&gt;
+&lt;li&gt;Um sintoma é fazer &amp;ldquo;reuniões de área&amp;rdquo;. Onde isso se transforma em um status report das tarefas do time.&lt;/li&gt;
+&lt;li&gt;Outro erro é tentar entregar um escopo grande e fixo através de iterações/sprints&lt;/li&gt;
+&lt;li&gt;O problema está até em modelos comerciais e orçamentário que são baseados em projetos de longo prazo para entregar escopo fixo.&lt;/li&gt;
+&lt;li&gt;Colocar demasiada atenção em ferramentas no começo.&lt;/li&gt;
+&lt;li&gt;A ferramenta dá muito certo quando o Ágil é aplicado numa cultura estabilizada. Se usar a ferramenta deste o começo da implementação da cultura ágil, corremos o risco da ferramenta não funcionar&lt;/li&gt;
+&lt;li&gt;Não crie relatórios gerenciais para tentar definir formas de fazer relatórios gerenciais para tornar o ágil mais visível&lt;/li&gt;
+&lt;li&gt;Frameworks de Escala tentam absorver a estrutura/cultura atual da empresa em vez de mudar 100% da cultura.&lt;/li&gt;
+&lt;li&gt;Outro erro é certificar todo mundo na organização como Scrum Master como um dos primeiros da transformação ágil. Você nem sabe se o Scrum é a melhor prática para sua empresa&lt;/li&gt;
+&lt;li&gt;Outras empresas que fazem milhares de treinamentos internos afim de catequizar o ágil para os membros da empresa. &lt;/li&gt;
+&lt;li&gt;Comportamento waterfall nos times multidisciplinares. Não adianta colocar todo mundo para trabalhar juntos, se os times ainda continuam se aglutinando por especialidades.&lt;/li&gt;
+&lt;li&gt;Não contrate um Agile Coach, muito melhor contratar um Agile Mentor ou um Agile Manager. Esses personagens são melhores para espalhar a cultura ágil e não &amp;ldquo;treinar&amp;rdquo; guela abaixo o Ágil&lt;/li&gt;
+&lt;li&gt;O Agile Coach precisa tentar gerar menos dependência da empresa de uma pessoa que é o &amp;ldquo;mestre&amp;rdquo; do Ágil&lt;/li&gt;
+&lt;li&gt;Nunca tente colocar o modelo do Spotify na sua empresa. É furada bino. Ele é um modelo que funcionou (durante um tempo) no Spotify, mas não quer dizer que vai funcionar na sua empresa;&lt;/li&gt;
+&lt;li&gt;O próprio pessoal do Spotify diz que não tem modelo definido, porque uma das essências do Ágil é transformar sua metodologia organicamente de acordo com a cultura da empresa.&lt;/li&gt;
+&lt;li&gt;Não tente usar estatística para prever grandes lotes de entregas. &lt;/li&gt;
+&lt;li&gt;Em geral, a comunidade Ágil está se esquecendo do modelo Kiss: Keep It Simple, Stupid.&lt;/li&gt;
+&lt;li&gt;Somos bons em não focar no essencial. Criamos indústrias inteiras para manter as coisas não essenciais.&lt;/li&gt;
+&lt;li&gt;Criamos até mesmo comunidades e eventos para manter as coisas não essenciais.&lt;/li&gt;
+&lt;li&gt;Quando o gile era uma coisa de guerrilha, nós não precisávamos de cursos e treinamentos para aplicar o Ágil, exatamente porque aplicávamos o simples e o essencial.&lt;/li&gt;
+&lt;li&gt;Pesquisar: Transformation Canvas&lt;/li&gt;
+&lt;li&gt;Growth Mindset contra Fixed Mindset. Tenha um Growth Mindset, criando uma cultura que sempre busca o melhor&lt;/li&gt;
+&lt;li&gt;Em grandes empresas não existem mudanças, ou elas demoram para mudar. Geralmente nessa empresas o que existe é o Swap, ou a troca.&lt;/li&gt;
+&lt;li&gt;SCARF: Status Certainty Autonomy Relatedness Fairness&lt;/li&gt;
+&lt;li&gt;MVI - Minimum Viable Improvement&lt;/li&gt;
+&lt;li&gt;Por que mudar, O que irei ganhar? O que terei que abrir mão? Essa perguntas são importantes ao aplicar Ágil em grandes empresas.&lt;/li&gt;
+&lt;li&gt;Value = Why? / How?&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
@@ -213,228 +293,63 @@ Fica R$5.000,00. Pra chegar nesse valor, haveria uma série de concessões no pr
 </content>
   </entry>
   <entry>
-    <title>Node.js - o back-end do front-end</title>
-    <link rel="alternate" href="http://diegoeis.com/nodeJS-back-end-front-end.html"/>
-    <id>http://diegoeis.com/nodeJS-back-end-front-end.html</id>
-    <published>2017-08-04T21:00:00-03:00</published>
-    <updated>2017-09-07T18:43:59-03:00</updated>
+    <title>Websites para as massas</title>
+    <link rel="alternate" href="http://diegoeis.com/wix-code-diy.html"/>
+    <id>http://diegoeis.com/wix-code-diy.html</id>
+    <published>2017-09-04T21:00:00-03:00</published>
+    <updated>2017-09-07T18:46:36-03:00</updated>
     <author>
       <name>Diego Eis</name>
     </author>
-    <content type="html">&lt;p&gt;O Node.js se tornou popular a partir de 2009 quando Ryan Dahl, criador do Node.js, divulgou seu projeto para o mundo. De lá para cá ele só tem crescido e ajudado o JavaScript a se popularizar ainda mais com a &amp;ldquo;Linguagem da Web&amp;rdquo;, agora, não apenas por ser praticamente onipresente na web, mas por quebrar a barreira de ser usada apenas no front-end, passando a ser usada também no Back-end.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualquer um precisa de uma presença online na internet. É isso que as redes sociais fazem para a grande maioria das pessoas do mundo: cedem um espaço para que você tenha uma presença online. Mas para empresas e profissionais, um espaço na internet significa ter um website, customizado, com a sua cara, seu logo, seu texto, suas fotos, falando sobre o seu trabalho. &lt;/p&gt;
 
-&lt;p&gt;Se liga na Timeline legal que o Gergely Nemeth fez contando a história e os passos do Node.js:&lt;/p&gt;
+&lt;p&gt;Para essa fatia do mercado, ter um website customizado é caro. Além disso, os profissionais que essa fatia de mercado geralmente encontra são aqueles picaretas que prometem um website bonito e barato, mas somem no meio do caminho. Já tive dezenas de cliente que me procuraram exatamente porque o dev que estava fazendo seus projetos simplesmente sumiu ou falou que pegou outro projeto e desistiu, entre outras desculpas. Para esses clientes, é difícil encontrar um profissional barato, responsável e que faça o trabalho decentemente. É aí que entra o sistemas de DIY, que lhe permitem &lt;a href="http://bit.ly/wix-tableless-pt"&gt;criar site grátis&lt;/a&gt;, como o Wix: sistemas de Site Builder unem a facilidade de ter um site customizado, bonito, com todas as funcionalidades necessárias para controlar e publicar um site, com o preço que essa fatia de mercado tanto precisa: grátis ou perto disso.&lt;/p&gt;
 
-&lt;iframe src="//cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1rt8Xqpno-s7oNFCEKMYHoJexw24DIUcSkTABx2avcV8&amp;amp;font=Default&amp;amp;lang=en&amp;amp;initial_zoom=2&amp;amp;height=650" width="100%" height="650" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;h2&gt;Um orçamento simples&lt;/h2&gt;
 
-&lt;p&gt;Aqui você também consegue &lt;a href="https://github.com/nodejs/node/blob/master/AUTHORS"&gt;ver a lista de todos os contribuidores&lt;/a&gt; do Node.js, por ordem de contribuição. São 1417 contribuidores até agora.&lt;/p&gt;
-
-&lt;p&gt;Um desenvolvedor que trabalha com Node.js é um back-end ou um front-end?
-Eu brinco bastante com isso com alguns front-end que se embrenham no mundo do Node.js, porque dado que podemos chamá-lo uma linguagem hack-end, o ser que começa a programar em Node.js, começa a fazer Back-end. Logo, essa divisão de front-end + back-end passa a não fazer mais sentido. Nós trabalhamos com uma linguagem de programação, que pode ser usada tanto no front, quanto no back e pronto.&lt;/p&gt;
-
-&lt;p&gt;A partir de uma ideia tão legal quanto o Node.js, surgiu o &lt;strong&gt;io.js&lt;/strong&gt;. O io.js apareceu em Dezembro de 2014, a partir de um fork do Node feito pelo Fedor Indutny (que pela lista do Node, foi o 112 contribuidor do Rode), mas que era um integrante core do time.&lt;/p&gt;
-
-&lt;p&gt;O problema era que durante bastante tempo os commits no projeto do Node caíram bastante durante um tempo entre 2014 e 2015. Além disso, a galera não estava gostando muito da forma com que a Joyent, que é a dona da marca Node.js estava levando a governança da coisa toda. Aí você já sabe: os caras forkaram o projeto, criaram o &lt;strong&gt;io.js&lt;/strong&gt;. Mas depois, em 2015, houve um merge do &lt;strong&gt;io.js&lt;/strong&gt; para o projeto original, que já estava na versão 4, e os dois grupos voltaram a trabalhar juntos sobre o Node.js Foundation. E desde 2016 o site do &lt;strong&gt;&lt;a href="https://iojs.org/en/"&gt;io.js&lt;/a&gt;&lt;/strong&gt; recomenda o Node.js.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/"&gt;Nesse post&lt;/a&gt;, o Anand Mani fala um pouco de toda essa história que rolou entre io.js e Node.js.&lt;/p&gt;
-
-&lt;p&gt;Para hospedar Node.js é simples: a plataforma inteira do Node pode rodar em Linux, OS X ou FreeBSD e até em Windows. Como várias linguagens, o Rode pode ser controlada via linha de comando. Existem algumas empresas online que facilitam a hospedagem de Node.js, como a &lt;a href="https://www.umbler.com/br/"&gt;Umbler&lt;/a&gt;, que tem um &lt;a href="https://www.umbler.com/br/hospedagem-nodejs"&gt;serviço maneiro que roda o Node.js em um container Docker&lt;/a&gt;, com MongoDB nativo e tudo o que tem direito. Você não precisa ficar configurando servidor para lá e pra cá. Só chegar e já era.
-E hoje, com hospedagem barata, não há desculpa para você não começar a aprender um pouco que seja de Node.js.&lt;/p&gt;
-
-&lt;p&gt;Para aprender Node.js é importante ter uma base de JavaScript, para isso existem cursos online, por exemplo, vídeos no Umbler Academy, tutoriais e comunidades no Facebook e Google+. Para quem quiser ir além, vale estar por dentro de MongoDB e Docker - duas tecnologias utilizadas pela maioria dos desenvolvedores em Node.js, de acordo com pesquisa da Node.js Foundation.&lt;/p&gt;
-
-&lt;h2&gt;Para começar com Node.js&lt;/h2&gt;
+&lt;p&gt;Vamos falar a verdade: quanto você cobraria pra fazer um site para um cabeleireiro hoje? Um projeto completo: Design, front-end e back-end. O cliente tem que conseguir mudar o conteúdo, criar ou apagar páginas&amp;hellip; Além de uma galeria de fotos e página com formulário de contato?
+Chuto, de acordo com os projetos que fiz anteriormente, okay?&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Uma &lt;a href="https://tableless.com.br/categories/nodejs/"&gt;categoria inteira do Tableless sobre Node.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://forum.tableless.com.br/t/iot-node-js-arduino-etc/243"&gt;IoT - Node.js - Arduino etc - NodeJS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Se você se decidiu pela Umbler, eles tem uma &lt;a href="https://help.umbler.com/hc/pt-br/articles/115001793863"&gt;área inteira com tutoriais de Ajuda com Node.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://academy.umbler.com/umblercast-mandanodes/"&gt;Podcast da Umbler&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/"&gt;História sobre a quebra do Node.js e o io.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://academy.umbler.com/primeiros-passos-com-node-js/​"&gt;Vídeo Primeiros passos com Node&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Throughput - Saindo do básico</title>
-    <link rel="alternate" href="http://diegoeis.com/throughput-saindo-do-basico.html"/>
-    <id>http://diegoeis.com/throughput-saindo-do-basico.html</id>
-    <published>2017-05-29T21:00:00-03:00</published>
-    <updated>2017-09-07T18:46:41-03:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Em um ambiente de desenvolvimento de software, &lt;strong&gt;throughput&lt;/strong&gt; é o número de tarefas entregues (que foram para DONE) em um período de tempo. Esse período de tempo é definido pelo time, contudo, normalmente medimos a quantidade de tarefas entregues dentro de uma semana.&lt;/p&gt;
-
-&lt;p&gt;Geralmente o dado de Throughput é utilizado para calcular apenas a média de entregas semanais do time. Quero que você tente pensar um pouco mais além, tentando utilizar esse dado para te dar informações mais interessantes sobre a vazão do seu time. A ideia é que você consiga ter as seguintes informações:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Qual foi o mínimo de tarefas que o time entregou em uma semana?&lt;/li&gt;
-&lt;li&gt;Qual foi o record de entregas de tarefas em uma semana?&lt;/li&gt;
-&lt;li&gt;Geralmente entregamos XX tarefas por semana.&lt;/li&gt;
-&lt;li&gt;Em 25% das vezes, o time entrega XX tarefas por semana ou menos.&lt;/li&gt;
-&lt;li&gt;Em 75% das vezes, o time entrega XX tarefas por semana ou mais.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: de R$4.000,00 a R$8.500,00. Dado que não sou designer, vou ter que contratar um. Depende da qualidade do design. Eu nunca consegui encontrar um designer que faça algo bonitão por menos de R$3.500,00&amp;hellip; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Front-end&lt;/strong&gt;: de R$3.500,00 a R$4.000,00. Depende de quantas páginas com layouts diferentes vai ter. Mas digamos que uma Home, Página de Texto, contato, galeria de fotos. JS para interface, modal na galeria de fotos, carousel na home, responsive, submenu com os serviços, etc&amp;hellip; Eu não faria por menos de R$3.500,00.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Back-end&lt;/strong&gt;: de R$2.500,00 a R$3.500,00. Basicamente Wordpress, certo? Um plugin para form de contato, outro para galeria de fotos, talvez nem precise fazer custom posts&amp;hellip; Tema customizado de Wordpress, de R$2.500,00  a R$3.500,00.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Throughput é diferente de Velocity&lt;/h2&gt;
+&lt;p&gt;O total ficaria mais ou menos assim: R$10.000,00, cobrando os valores mínimos. Mas aí vem: &lt;strong&gt;Ah, Diego, você exagerou, muito caro seu trabalho. Me dá um desconto de 50%.&lt;/strong&gt;&lt;br&gt;
+Fica R$5.000,00. Pra chegar nesse valor, haveria uma série de concessões no projeto como: Design comprado de qualquer Template Monster da vida&amp;hellip; Front-end sem Responsive, back-end não dá para tirar. Se fosse quebrar logo de vez, pensaríamos em pegar um template já pronto de Wordpress, onde nós implementaríamos, mas não iríamos customizar nada. Logo, ou eu fico no prejuízo, ou o cliente não tem o que ele realmente quer. Não dá para diminuir o valor sem mudar qualquer coisa no escopo no projeto.   &lt;/p&gt;
 
-&lt;p&gt;Enquanto o primeiro marca a quantidade de tarefas feitas em um período de tempo, o segundo é baseado  na unidade que o time escolheu para definir o tamanho de uma história, portanto, são duas métricas bem diferentes.&lt;/p&gt;
+&lt;p&gt;Você realmente quer ficar negociando valor o tempo inteiro com seus clientes? Eu prefiro escolher a faixa de valores e o tipo de cliente que quero trabalhar para não ter problemas assim. Por isso a indicação de serviços como o Wix se encaixa bem em casos onde eu não vou pegar o job, mas não vou deixar o cliente na mão.&lt;/p&gt;
 
-&lt;p&gt;O Throughput só é totalmente confiável se &lt;strong&gt;as tarefas forem de tamanhos similares&lt;/strong&gt;. Eu prefiro quebrar as tarefas no menor tamanho possível de forma que elas continuem sendo incrementos funcionais. Por isso não costumamos definir &lt;strong&gt;story points&lt;/strong&gt; ou qualquer coisa parecida para as tarefas, já que nosso objetivo é fazer com que as tarefas sejam de um tamanho suficiente para serem entregues em uma semana.&lt;/p&gt;
+&lt;p&gt;Suponha que você use o WIX como uma ferramenta, do jeito que usamos o Wordpress para fazer sites. Você poderia cobrar um valor inicial de setup e depois o cliente paga a mensalidade do Wix, que é MUITO baixa, começando com R$9,50! &lt;/p&gt;
 
-&lt;h2&gt;Dia da entrega da tarefa&lt;/h2&gt;
+&lt;h2&gt;Wix ADI - Artificial Design Intelligence e o Editor&lt;/h2&gt;
 
-&lt;p&gt;Não importa qual a metodologia ou framework de gestão de projetos você esteja usando, para medir o Throughput você precisará saber o dia em que a tarefa foi entregue. Não importa qual a ferramenta que você usa, contanto que você saiba a data de conclusão da tarefa.&lt;/p&gt;
+&lt;p&gt;Agora, partindo do pressuposto que você não é designer, não é desenvolvedor, é o cliente final procurando fazer um site se a ajuda de um profissional. Pra tentar facilitar essa tarefa, o Wix criou o que eles chamam de &lt;strong&gt;Inteligência de Design Artificial&lt;/strong&gt;. Ele funciona como um Robô que vai te fazer perguntas simples e se baseando nas suas respostas, ele cria um design pra você.&lt;/p&gt;
 
-&lt;p&gt;Esse é o único dado que você precisa imediatamente. A partir dele, iremos descobrir outros dados para nos dar todas as respostas que precisamos.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/EHgX9Ua.png" /&gt;&lt;/p&gt;
 
-&lt;h2&gt;Descobrindo a semana da entrega do projeto&lt;/h2&gt;
+&lt;p&gt;Uma das perguntas é o endereço do seu estabelecimento. Com as informações como o endereço e o nome do seu negócio, o Wix ADI procura na internet informações sobre seu negócio, e monta um card com as outras informações como Telefone. Claro, você precisa ter essas informações atualizadas no Google para que ele consiga buscar corretamente. Mesmo assim, você consegue mudar depois se quiser.&lt;/p&gt;
 
-&lt;p&gt;A partir da data da entrega do projeto, você vai descobrir a semana do ano. No meu dia a dia, eu utilizo a planilha do Google para fazer essa conta. Lá tem uma função chamada &lt;code&gt;=weeknum();&lt;/code&gt;, que me dá o número da semana de uma data específica.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/97Dd5wW.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Abaixo segue uma tabela fake de tarefas que foram entregues. Na coluna da semana, usei a função &lt;code&gt;=weeknum();&lt;/code&gt; para descobrir o número da semana.&lt;/p&gt;
+&lt;p&gt;Depois disso, ele &amp;ldquo;pensa&amp;rdquo; mais um pouquinho e traz pra você uma outra pergunta: qual o estilo de design que você mais gosta? &lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/WoCWk8Q.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/anO3QsT.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;| Semana     | Data de entrega | Tarefa |
-|:&amp;ndash;|:&amp;ndash;|:&amp;ndash;|
-| 1 | 1/2/2017 | Mudar cor do botão
-| 2 | 1/9/2017 |  [Widget de Texto] Alterar tamanho de texto nativo do template
-| 3 | 1/16/2017 | Criar fila com RabbitMQ
-| 3 | 1/16/2017 | Uma outra tarefa qualquer
-| 1 | 1/2/2017 |  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-| 1 | 1/2/2017 |  Morbi eu elit sed turpis imperdiet sagittis et in ligula.
-| 3 | 1/16/2017 | Pellentesque sagittis nisi eu eros vulputate aliquet.
-| 4 | 1/23/2017 | Vestibulum ornare sem nec consequat sodales.
-| 4 | 1/23/2017 | Quisque non diam id nisi sagittis ornare.
-| 2 | 1/9/2017 |  Phasellus posuere odio vitae pretium facilisis.
-| 3 | 1/16/2017 | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-| 4 | 1/23/2017 | Morbi eu elit sed turpis imperdiet sagittis et in ligula.
-| 1 | 1/2/2017 |  Pellentesque sagittis nisi eu eros vulputate aliquet.
-| 2 | 1/9/2017 |  Vestibulum ornare sem nec consequat sodales.
-| 3 | 1/16/2017 | Quisque non diam id nisi sagittis ornare.
-| 4 | 1/23/2017 | Phasellus posuere odio vitae pretium facilisis.&lt;/p&gt;
+&lt;p&gt;Escolhendo um desses destes estilos, o Wix começa a criar seu website, começando pela Home Page. &lt;/p&gt;
 
-&lt;p&gt;Agora que sabemos o número de cada semana, podemos descobrir o Throughput, ou seja, a quantidade de tarefas entregues de cada uma das semanas. Para tanto, em outras células, faço outra coluna de semana, colocando os números referentes a cada semana e faço uma contagem de quantas tarefas foram entregues na mesma semana usando a função &lt;code&gt;=countif(intervalo, critério);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/67V0sP1.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/Ti36irG.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Se você não gostar do resultado, basta mudar o estilo e o design. Para alguém que não perder muito tempo escolhendo os detalhes do layout, essa ferramenta faz muito bem o seu trabalho e te economiza tempo. Agora, suponha que você queira realmente parar e deixar o layout do seu site com a sua cara. Basta você usar o editor de sites do Wix, escolhendo um dos 500 templates que ele oferece ou fazendo o seu próprio design a partir do zero. O que eu não aconselho, já que o Wix tem designers profissionais que desenharam templates bem mais bonitos do que a maioria das pessoas conseguiria fazer. ;-)&lt;/p&gt;
 
-&lt;p&gt;| Semana     | Throughput (Issues entregues) |
-|:&amp;ndash;|:&amp;ndash;|:&amp;ndash;|
-|1|4|
-|2|3|
-|3|5|
-|4|4|&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/HKpFPb8.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Essa informação já é importante o suficiente para algumas pessoas: você acabou de descobrir quantas tarefas foram entregues em cada uma das semanas. Já dá pra fazer um report maroto básico para os chefões. Vamos agora tentar responder as perguntas do começo do artigo.&lt;/p&gt;
+&lt;p&gt;Escolhendo um template pronto, você consegue mudar todas as características dos elementos do site. A coisa toda é bem simples de se fazer e mira sempre nas pessoas que não tem nenhuma intimidade com o desenvolvimento de sites. Se você for um desenvolvedor, não há motivo para não usar o Wix para fazer websites para clientes menores e que precisam de um site simples e personalizado. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/jkZ5DHm.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2nlTyul.png" /&gt;&lt;/p&gt;
 
-&lt;h2&gt;Qual foi o mínimo e o máximo de tarefas entregues em uma semana?&lt;/h2&gt;
-
-&lt;p&gt;Vários motivos podem tornar o desenvolvimento de software um ambiente complexo: bugs imprevistos em produção, infraestrutura que sai do ar, férias de desenvolvedores, falta de testes, imprevistos, pedidos de tarefas urgentes e etc. Tudo isso pode influenciar as entregas semanais do time pra pior. É legal entender os motivos que fizeram com que o time entregasse pouco em uma determinada semana.&lt;/p&gt;
-
-&lt;p&gt;Por outro lado, há semanas em que muitas tarefas foram entregues. Isso não é necessariamente bom, já que o time pode ter saído de uma semana ruim, onde as tarefas estavam represadas até que os problemas fossem resolvidos. Ou, se não houve problemas, a alta das entregas podem ter sido resultado da alta produtividade do time&amp;hellip; o que é uma ótima notícia.&lt;/p&gt;
-
-&lt;p&gt;Para saber qual foi a semana que você entregou menos ou mais tarefas, usaremos duas medidas de dispersão: &lt;strong&gt;mínimo&lt;/strong&gt; e &lt;strong&gt;máximo&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/84MzTzK.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bastando usar as funções &lt;code&gt;=min(intervalo)&lt;/code&gt; e &lt;code&gt;=max(intervalo)&lt;/code&gt;, saberemos a resposta dessas perguntas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/lD1EBVo.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;No nosso exemplo, tivemos uma semana que entregamos apenas 3 histórias (semana 2), e a semana que entregamos foram 5 histórias (semana 3).&lt;/p&gt;
-
-&lt;h2&gt;Geralmente entregamos XX tarefas por semana.&lt;/h2&gt;
-
-&lt;p&gt;Com o tempo, o time começa a identificar uma cadência de entregas, entregando mais ou menos o mesmo número de tarefas. Com a medida de tendência central &lt;strong&gt;moda&lt;/strong&gt;, nós descobrimos qual é a quantidade de entregas mais comum do time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/avcxCBr.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Para descobrir esse número, usamos a função &lt;code&gt;=mode(intervalo)&lt;/code&gt; do próprio Google Sheets e pronto.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/eWGfk4C.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Logo, descobrimos que na metade (ou mais) das semanas analisadas, nós entregamos 4 tarefas.&lt;/p&gt;
-
-&lt;p&gt;É possível também ter uma análise desse tipo usando um gráfico de histograma, que vai mostrar com que frequência entregamos uma quantidade específica de tarefas. É um assunto pra outro post, talvez, mas segue abaixo o gráfico:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/jl5o3Zz.png" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;Quartis&lt;/h2&gt;
-
-&lt;p&gt;Agora, para sabermos quantas tarefas são entregues por exemplo, em &amp;frac14; (um quarto) do tempo, nós usamos os quartis, que são medidas que dividem uma amostra. Basicamente os quartis dividem nossa distribuição (as tarefas entregues nas semanas) em 4 partes, de forma que consigamos responder que em 25% o time entrega XX tarefas.&lt;/p&gt;
-
-&lt;p&gt;Para isso, usamos a função &lt;code&gt;=percentile(intervalo; porcentagem)&lt;/code&gt;. Para exemplificar melhor, vou aumentar a nossa amostra de entregas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/pvd2Kzf.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Descobrimos então que em 25% das vezes, o time entregou 3 ou menos tarefas. Logo, em 75% das vezes, o time entregou 3 ou mais.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/ugoFwbl.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Descobrimos também que em 75% das vezes, nosso time entregou 5 tarefas ou menos e que em 25% do tempo, o time entregou 5 tarefas ou mais.&lt;/p&gt;
-
-&lt;h2&gt;Concluindo&lt;/h2&gt;
-
-&lt;p&gt;Na minha humilde opinião, essas métricas são bem mais úteis do que apenas sabermos a média de entregas. Isso torna o processo de desenvolvimento mais empírico, dando mais informações para que o time se conheça mais afim de otimizar melhor seu esforço.&lt;/p&gt;
-
-&lt;p&gt;Isso também começa a se aproximar, mesmo que basicamente, do conceito de #NoEstimates, que é onde usamos dados históricos para estimar a entrega de um projeto. Mesmo que não usemos em momento nenhum qualquer técnica para prever o dia da entrega do projeto, com esses dados damos um passo bem inicial, onde é possível conhecer a frequência de entrega do time, trazendo mais confiança de quantas tarefas eles poderão entregar nas próximas semanas, dado que as histórias tem tamanhos similares.&lt;/p&gt;
-
-&lt;p&gt;Se você quiser explorar um pouco mais a planilha que utilizei, segue nesse link. Basta copiar a planilha e ser feliz: &lt;a href="http://bit.ly/planilha-tp"&gt;http://bit.ly/planilha-tp&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Lançamento App Easynvest</title>
-    <link rel="alternate" href="http://diegoeis.com/app-easynvest.html"/>
-    <id>http://diegoeis.com/app-easynvest.html</id>
-    <published>2017-05-13T21:00:00-03:00</published>
-    <updated>2017-09-07T18:54:16-03:00</updated>
-    <author>
-      <name>Diego Eis</name>
-    </author>
-    <content type="html">&lt;p&gt;Saiu o novo App da Easynvest! :-D&lt;/p&gt;
-
-&lt;p&gt;A Easynvest está passando por mudanças profundas em todos os sentidos: formação de novas equipes, &lt;a href="http://www.valor.com.br/financas/4892638/advent-compra-participacao-minoritaria-na-corretora-easynvest"&gt;novos sócios/investidores&lt;/a&gt;, estrutura, negócio, tudo. Ao contrário do que muita gente acha: a Easynvest não é uma start-up. Ela já tem quase 50 anos. Está aí no mercado financeiro desde 1968. Mas  fase de crescimento absurdo que ela está vivendo agora é bastante parecido com que as startups vivem, por isso a confusão. Muito por isso também, ela tem chamado a atenção de todo mundo.&lt;/p&gt;
-
-&lt;p&gt;Conforme eu aprendi sobre investimentos, eu nutri a vontade de trabalhar nessa área. Até que surgiu a oportunidade de trabalhar na Easynvest, que já era a corretora que eu usava para gerir meus investimentos. Não perdi tempo e me apliquei à vaga de Gestor de Projetos. Depois de alguns meses, um teste e duas entrevistas, consegui passar no processo. Fiquei bastante empolgado, não apenas porque eu iria trabalhar numa área totalmente nova, mas porque como cliente, eu poderia realmente ser um agente de mudança em um serviço que eu uso praticamente todos os dias.&lt;/p&gt;
-
-&lt;p&gt;Logo que entrei, fiquei responsável pela entrega do projeto do novo aplicativo da empresa. O projeto já estava em andamento quando eu cheguei, por isso algumas fases interessantes do projeto já tinham sido executadas e uma parte já estava sendo desenvolvida e a concepção e pesquisa do Design já tinha sido encaminhada, mas nem por isso foi (e ainda não está sendo) uma tarefa trivial.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/8Omfyo4.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;O objetivo&lt;/h2&gt;
-
-&lt;p&gt;O conceito que dirige o aplicativo é simples: facilitar ainda mais a ação de investir. Nós não queremos simplesmente lançar um robô que automatiza todo o processo de investimentos para você. Embora isso seja bastante confortável, você, como pessoa, perde uma oportunidade preciosa de aprender mais sobre como usar seu dinheiro em prol dos seus objetivos. Aqui na Easynvest não queremos apenas tirar as pessoas da miséria (poupança), mas queremos democratizar cada vez mais a informação sobre investimentos, educando, ajudando e conscientizando cada um dos clientes.&lt;/p&gt;
-
-&lt;p&gt;Sabemos que o brasileiro ainda tem muitos bloqueios quando falamos sobre dinheiro. Falta educação financeira em vários níveis e esse é um desafio gigante. Logo, não queremos apenas que as pessoas invistam, mas que elas se eduquem sobre esse assunto e obtenham um pouco mais de conhecimento financeiro.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/zdthTHM.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;O conceito&lt;/h2&gt;
-
-&lt;p&gt;Todo o aplicativo é baseado em listas de investimentos. Categorizamos todos os investimentos por tipo. Também criamos o que chamamos de coleções ou playlists, que agrupam investimentos de diversos tipos de acordo com um objetivo específico. A ideia é que você tenha acesso fácil a todos os títulos disponíveis na Easynvest, para comprar e acompanhar seus investimentos.&lt;/p&gt;
-
-&lt;p&gt;Para quem é antenado em alguns aplicativos que usamos todos os dias como Netflix ou Spotify, o funcionamento é bastante similar: do mesmo jeito que você tem suas listas para músicas ou filmes, agora você consegue buscar por listas de títulos de investimentos. Simples e rápido.&lt;/p&gt;
-
-&lt;p&gt;Além disso, você consegue definir filtros para cada um desses tipos de investimentos, facilitando a busca pelos investimentos que mais agradem seu estilo. Temos uma série de outras features  interessantes que ainda já foram desenvolvidas, mas ainda estão no forno, que melhora a experiência de cada pessoa e seus investimentos.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/sEkfABf.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;Parte técnica&lt;/h2&gt;
-
-&lt;p&gt;O aplicativo para as duas plataformas foram feitas de forma nativa. A interface inteira foi feita do zero, para que tenhamos uma uniformidade de interface e comunicação visual entre as plataformas mobile e web. Geralmente a galera segue os styleguides de interface das respectivas plataformas. A vantagem disso é não se distanciar muito do uso que o usuário tem com a interface do próprio smartphone que ele está usando. O problema é que manter esse styleguide padrão do SO dos smartphones, descaracteriza a interface que tínhamos em mente. Daí a nossa decisão de fazer tudo do zero.&lt;/p&gt;
-
-&lt;p&gt;Separamos o app em duas fases: cadastro e parte logada. Em cada uma dessas partes a equipe era formada por devs ios, devs android, designers e programadores back-end. Tivemos algo em torno de 10 a 15 pessoas participando de todo o desenvolvimento.  Além do trabalho nativo dos apps, nós aproveitamos para iniciar uma mudança drástica nos nossos serviços back-end. Uma revolução gigante que vai nos dar flexibilidade num futuro bem próximo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://imgur.com/wRWHnjI.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2&gt;Futuro&lt;/h2&gt;
-
-&lt;p&gt;Essa primeira nova versão foi feita apenas para marcar o novo caminho que estamos tomando. Temos uma série de features que vamos soltar aos poucos até o final do ano, e que vão democratizar ainda mais os investimentos no Brasil. Queremos e estamos realmente mudando a forma com que os brasileiros investem dinheiro em Renda Fixa e vamos continuar abrindo caminho, ao contrário de outras corretoras, até agora, só tem nos seguido.&lt;/p&gt;
-
-&lt;p&gt;Se quiser ver como ficou, baixe o aplicativo para &lt;a href="https://itunes.apple.com/br/app/easynvest-renda-fixa/id1065904944?mt=8"&gt;iOS&lt;/a&gt; ou &lt;a href="https://play.google.com/store/apps/details?id=br.com.easynvest.rendafixa&amp;amp;hl=pt"&gt;Android&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Lembre-se: esses serviços são ótimos para uma fatia do mercado que tem a necessidade de ter uma &amp;ldquo;casa&amp;rdquo; online. Muitos profissionais que tem budget limitado não vão conseguir pagar por um serviço de profissionais como você e outros, logo, alternativas assim ajudam muito esses usuários. &lt;/p&gt;
 </content>
   </entry>
 </feed>
