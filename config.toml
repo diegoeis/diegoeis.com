@@ -1,0 +1,26 @@
+DefaultContentLanguage = "pt-br"
+title = "diegoeis.com"
+baseURL = "https://dieogeis.com/"
+theme = "diegoeis"
+
+# disqusShortname = "tableless"
+# googleAnalytics = "UA-335027-1"
+
+enableRobotsTXT = true
+disableLiveReload = true
+
+[params]
+  siteName = "diegoeis.com"
+  description = "Site do Diego Eis"
+  githubUsername = "diegoeis"
+  twitterUsername = "diegoeis"
+  tagline = "Textos e artigos do Diego Eis"
+
+[permalinks]
+  posts = "/:filename"
+  pages = "/:filename"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
