@@ -64,7 +64,7 @@
     <h1>Artigos e <br>Posts</h1>
 
     <ul>
-    {{ range .Pages}}
+    {{ range .Data.Pages}}
       <li><a href="{{.Permalink}}">{{.Title}}</a></li>
     {{end}}
       
