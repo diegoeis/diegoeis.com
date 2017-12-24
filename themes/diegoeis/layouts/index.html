@@ -26,12 +26,11 @@
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="description" content="{{ .Site.Params.description }}">
-  <meta property="og:url" content="{{ .RelPermalink }}"> {{ if $.Scratch.Get "single"}}
+  {{ if $.Scratch.Get "single"}}
   <meta property="og:type" content="article"> {{end}}
   <meta property="og:title" content="{{ .Title}}">
   <meta property="og:description" content="{{ .Site.Params.description }}" name="description">
   <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
-  <meta property="fb:app_id" content="187329465112652">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@diegoeis">
