@@ -2,41 +2,38 @@
 <html lang="{{ .Site.LanguageCode | default " pt-br " }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
-  <link rel="stylesheet" href="{{ .Site.BaseURL}}/style.css?v1">
+  <link rel="stylesheet" href="/style.css?v1">
 
-    {{ if .IsHome -}}
-    <title>{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:type" content="website">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    {{- else -}}
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
-    <meta property="og:type" content="article">
-    <meta name="description" content="{{ .Description }}">
-    {{- end }}
+  {{ if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:type" content="website">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  {{- else -}}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property="og:type" content="article">
+  <meta name="description" content="{{ .Description }}">
+  {{- end }}
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <meta name="description" content="{{ .Summary }}">
-
-  <link rel="icon" href="images/favicon.png">
+  <meta name="description" content="{{ .Site.Params.description }}">
 
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="description" content="{{ .Site.Params.description }}">
-  <meta property="og:url" content="{{ .RelPermalink }}"> {{ if $.Scratch.Get "single"}}
+  {{ if $.Scratch.Get "single"}}
   <meta property="og:type" content="article"> {{end}}
   <meta property="og:title" content="{{ .Title}}">
-  <meta property="og:description" content="{{ .Summary }}" name="description">
+  <meta property="og:description" content="{{ .Site.Params.description }}" name="description">
   <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
-  <meta property="fb:app_id" content="187329465112652">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@diegoeis">
   <meta name="twitter:title" content="{{.Title}}">
-  <meta name="twitter:description" content="{{ .Summary }}">
+  <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
 

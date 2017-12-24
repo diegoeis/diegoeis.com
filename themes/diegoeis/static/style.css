@@ -75,7 +75,7 @@ body {
   color: var(--colorBlue);
 }
 
-p {
+p, article ul li {
   font-size: .87rem;
   color: var(--colorGray);
   letter-spacing: 0;
@@ -104,4 +104,47 @@ article h1 {
 
 article img {
   max-width: 800px;
+}
+
+article ul {
+  list-style-position: inside;
+  margin-bottom: 25px;
+}
+
+article ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 20px;
+  }
+
+  .de-header {
+    padding-bottom: 60px;
+  }
+  
+  .de-main {
+    display: block;
+  }
+
+
+  .de-minibio,
+  .de-list-post {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 3.37rem;
+    margin-bottom: 15px;
+  }
+
+  article h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
 }

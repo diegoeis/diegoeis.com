@@ -1,45 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default " pt-br " }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
-<head>
-  <link rel="stylesheet" href="/style.css?v1">
-
-    {{ if .IsHome -}}
-    <title>{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:type" content="website">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    {{- else -}}
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
-    <meta property="og:type" content="article">
-    <meta name="description" content="{{ .Description }}">
-    {{- end }}
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-  <meta name="description" content="{{ .Site.Params.description }}">
-
-  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
-  <meta name="author" content="{{ .Site.Params.author }}">
-  <meta name="description" content="{{ .Site.Params.description }}">
-  {{ if $.Scratch.Get "single"}}
-  <meta property="og:type" content="article"> {{end}}
-  <meta property="og:title" content="{{ .Title}}">
-  <meta property="og:description" content="{{ .Site.Params.description }}" name="description">
-  <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@diegoeis">
-  <meta name="twitter:title" content="{{.Title}}">
-  <meta name="twitter:description" content="{{ .Site.Params.description }}">
-  <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
-
-</head>
-
-<body>
+{{partial "head.html" . }}
 
 <main class="de-main">
 
@@ -52,9 +12,9 @@
     <p><i>Long bio:</i> comecei minha carreira como desenvolvedor front-end. Em 2003 criei o Tableless, que inicialmente era um blog pessoal para publicar meus estudos sobre front-end, mas logo virou um site onde vários autores publicam seus artigos sobre os mais variados assuntos relacionados ao desenvolvimento web. Em 2006 abri minha própria empresa fazendo projetos e treinamentos para empresas como Whirlpool, Globo.com, Samsung, Nokia, HSBC, Accenture e várias outras. </p>
     <p>Em 2012 comecei na Locaweb como estrurando a área de Front-end, que até então era inexistente na empresa. Logo depois assumi a liderança de dois times de produtos na própria Locaweb. </p>
     <p>Em 2017, me tornei Product Manager na Easynvest, sendo responsável pela experiência de compra e escolha de produtos de investimentos nas plataformas mobile e desktop.</p>
-    <p>Tenho dois livros publicados pela editora Casa do Código: [Guia Front-end](https://www.casadocodigo.com.br/products/livro-guia-frontend) e [Introdução à Web Semântica](https://www.casadocodigo.com.br/products/livro-web-semantica). Além de ser co-autor
-    de mais um chamado [Coletânia Front-end](https://www.casadocodigo.com.br/products/livro-coletanea-front-end).</p>
-    <p>Faço [palestras](https://www.slideshare.net/diegoeis) pelo Brasil desde muito tempo, já falando em eventos como QCon, Brazil JS, The Dev Conf.</p>
+    <p>Tenho dois livros publicados pela editora Casa do Código: <a herf="https://www.casadocodigo.com.br/products/livro-guia-frontend">Guia Front-end</a> e <a href="https://www.casadocodigo.com.br/products/livro-web-semantica">Introdução à Web Semântica</a>. Além de ser co-autor
+    de mais um chamado <a href="https://www.casadocodigo.com.br/products/livro-coletanea-front-end">Coletânia Front-end</a>.</p>
+    <p>Faço <a href="https://www.slideshare.net/diegoeis">palestras</a> pelo Brasil desde muito tempo, já falando em eventos como QCon, Brazil JS, The Dev Conf.</p>
 
   </section>
   
@@ -65,7 +25,6 @@
     {{ range .Data.Pages}}
       <li><a href="{{.Permalink}}">{{.Title}}</a></li>
     {{end}}
-      
     </ul>
   </section>
 
