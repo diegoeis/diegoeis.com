@@ -51,6 +51,16 @@ body {
   margin-right: 200px;
 }
 
+.de-minibio ul {
+  margin-bottom: 20px;
+}
+
+.de-minibio li {
+  color: var(--colorGray);
+  font-size: .87rem;
+  margin-bottom: 7px;
+}
+
 .de-list-post {
   color: var(--colorGray);
   max-width: 580px;
