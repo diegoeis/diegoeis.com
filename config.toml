@@ -4,7 +4,7 @@ baseURL = "https://diegoeis.com/"
 theme = "diegoeis"
 
 # disqusShortname = "tableless"
-# googleAnalytics = "UA-335027-1"
+googleAnalytics = "UA-66489393-1"
 
 enableRobotsTXT = true
 disableLiveReload = true
