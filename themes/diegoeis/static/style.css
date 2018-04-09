@@ -33,6 +33,27 @@ body {
   font-weight: 300;
 }
 
+.de-social li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.de-social li:hover {
+  opacity: 1;
+}
+
+.de-social li a img,
+.de-social li a svg {
+  max-height: 20px;
+}
+
+.de-social li a svg {
+  max-height: 30px
+}
+
 .de-logo {text-align: left;}
 .de-lnk-back {text-align: right;}
 
@@ -125,6 +146,8 @@ article ul li {
   margin-bottom: 10px;
   line-height: 1.5;
 }
+
+
 
 
 @media screen and (max-width: 800px) {
