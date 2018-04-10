@@ -31,7 +31,9 @@
 
   <meta name="description" content="{{ .Site.Params.description }}">
 
-  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+{{ end -}}
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ if $.Scratch.Get "single"}}
