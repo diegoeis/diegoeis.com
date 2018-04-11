@@ -33,7 +33,8 @@
 
   {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
-{{ end -}}
+  {{ end -}}
+
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ if $.Scratch.Get "single"}}
