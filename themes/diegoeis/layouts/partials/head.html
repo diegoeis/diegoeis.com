@@ -2,8 +2,10 @@
 <html lang="{{ .Site.LanguageCode | default " pt-br " }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
-  
-  <link rel="stylesheet" href="/style.css?v3">
+
+  {{ $style := resources.Get "all.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -48,7 +50,6 @@
   <meta name="twitter:title" content="{{.Title}}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
 
 </head>
 
@@ -58,3 +59,8 @@
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">diegoeis.com</a>
+</header>

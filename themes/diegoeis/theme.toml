@@ -1,10 +1,6 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
 name = "diegoeis"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = "Diego Eis 2018"
+description = "Diego Eis 2019"
 homepage = "http://diegoeis.com/"
 tags = []
 features = []

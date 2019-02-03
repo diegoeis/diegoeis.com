@@ -10,6 +10,7 @@ ghost-dev.db
 ghost.db
 _gen
 public/
+resources/
 
 # Ignore bundler config
 /.bundle
