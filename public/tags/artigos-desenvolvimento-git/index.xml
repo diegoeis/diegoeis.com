@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artigos Desenvolvimento Git on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/artigos-desenvolvimento-git/</link>
+    <description>Recent content in Artigos Desenvolvimento Git on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/artigos-desenvolvimento-git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploy usando Hook do Git</title>
+      <link>https://diegoeis.com/deploy-usando-hook-do-git.html/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/deploy-usando-hook-do-git.html/</guid>
+      <description>Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção.</description>
+    </item>
+    
+  </channel>
+</rss>

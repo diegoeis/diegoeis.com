@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front End Desenvolvimento Web on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/front-end-desenvolvimento-web/</link>
+    <description>Recent content in Front End Desenvolvimento Web on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/front-end-desenvolvimento-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Websites para as massas</title>
+      <link>https://diegoeis.com/wix-code-diy/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/wix-code-diy/</guid>
+      <description>Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualquer um precisa de uma presença online na internet. É isso que as redes sociais fazem para a grande maioria das pessoas do mundo: cedem um espaço para que você tenha uma presença online. Mas para empresas e profissionais, um espaço na internet significa ter um website, customizado, com a sua cara, seu logo, seu texto, suas fotos, falando sobre o seu trabalho.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Browsers Front End Desenvolvimento on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/browsers-front-end-desenvolvimento/</link>
+    <description>Recent content in Browsers Front End Desenvolvimento on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 28 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/browsers-front-end-desenvolvimento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O Internet Explorer não foi a pior coisa que já aconteceu para a web</title>
+      <link>https://diegoeis.com/o-internet-explorer-nao-foi-a-pior-coisa-que-ja-aconteceu-para-a-web.html/</link>
+      <pubDate>Wed, 28 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-internet-explorer-nao-foi-a-pior-coisa-que-ja-aconteceu-para-a-web.html/</guid>
+      <description>Você se lembra da guerra dos browsers? Muitos devs hoje não tiveram o prazer e o terror de ter presenciado essa época. Infelizmente eu não vivi essa época desde o início, mas peguei do meio pro fim, o suficiente para saber o contexto geral do mercado naquela fase horrível da web. O W3C tinha uma crise de identidade, nós não tínhamos um browser decente para usar e os desenvolvedores, meus amigos, ahhh os desenvolvedores… Você já parou para pensar que no início quase NINGUÉM era desenvolvedor web?</description>
+    </item>
+    
+  </channel>
+</rss>

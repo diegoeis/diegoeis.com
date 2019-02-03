@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desenvolvimento Web on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/desenvolvimento-web/</link>
+    <description>Recent content in Desenvolvimento Web on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 04 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/desenvolvimento-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sobre Aaron Swartz</title>
+      <link>https://diegoeis.com/sobre-aaron-swartz.html/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-aaron-swartz.html/</guid>
+      <description>Você conhece Aaron Swartz? Não? Ele está mais presente na sua vida do que você imagina. Duvida? Talvez você conheça RSS. RSS é um subset do XML e sua principal função é facilitar a agregação e distribuição de conteúdo. A especificação 1.0 do RSS foi lançada em 06/12/2000. Aaron Swartz foi um dos co-autores do RSS. Ele só tinha 14 anos. Eu sei que você se sente orgulhoso quando consegue implementar algum framework JS nos seus projetos.</description>
+    </item>
+    
+  </channel>
+</rss>

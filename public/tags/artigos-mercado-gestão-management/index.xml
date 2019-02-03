@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artigos Mercado Gestão Management on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/artigos-mercado-gest%C3%A3o-management/</link>
+    <description>Recent content in Artigos Mercado Gestão Management on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 31 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/artigos-mercado-gest%C3%A3o-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Um pequeno estudo sobre a Microsoft</title>
+      <link>https://diegoeis.com/um-pequeno-estudo-sobre-a-microsoft.html/</link>
+      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/um-pequeno-estudo-sobre-a-microsoft.html/</guid>
+      <description>Participei de uma entrevista de emprego ano passado, onde uma das fases envolveu fazer o seguinte exercício: eu deveria escolher uma das 10 empresas de tecnologia mais valiosas do mundo e imaginar que eu acabei de ser contratado pra liderar todo o desenvolvimento de um dos produtos dessa empresa. Eu deveria fazer uma apresentação mostrando uma análise da empresa e quais foram suas principais entregas recentes, além de uma definição estratégica de médio prazo, com um roadmap de entregas.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saude Artigos on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/saude-artigos/</link>
+    <description>Recent content in Saude Artigos on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/saude-artigos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nutrientes vs Comida</title>
+      <link>https://diegoeis.com/sobre-alimentos-de-mentira.html/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-alimentos-de-mentira.html/</guid>
+      <description>Você já percebeu que hoje a humanidade está obcecada por dividir os alimentos pelo que eles são compostos e não propriamente pelo alimento em si? Eu sei, é complicado. Mas veja: nós acreditamos que podemos dividir o mundo dos alimentos em nutrientes bons e ruins. Se tem muita gordura, é ruim. Se tem pouca fibra, é ruim. Se tem muita vitamina C é bom.
+Quando visitamos o supermercado, vemos o tempo inteiro uma série de embalagens coloridas com todos os dizeres de “sem isso, com aquilo, fonte de…“.</description>
+    </item>
+    
+  </channel>
+</rss>

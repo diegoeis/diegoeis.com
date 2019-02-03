@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notas Palestras Javascript on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/notas-palestras-javascript/</link>
+    <description>Recent content in Notas Palestras Javascript on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/notas-palestras-javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anotações - Palestra do Jean Carlo Emer - Aplicações Web com React</title>
+      <link>https://diegoeis.com/anotacoes-palestra-do-jean-carlo-emer-aplicacoes-web-com-react.html/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-palestra-do-jean-carlo-emer-aplicacoes-web-com-react.html/</guid>
+      <description>O que consegui anotar da palestra do Jean Carlo Emer sobre Aplicações React no 18 Encontro Locaweb em Belo Horizonte o dia 07/04/2016.
+ Aplicações possuem diferentes estados em uma única página. O Gmail é a aplicação web mais notável, porque ele lançou esse tipo de aplicação, dando o ponta pé com o Ajax O Facebook também, onde você tem uma timeline, que carrega conforme a atualização A navegação pelo conteúdo torna-se mais fluída em uma aplicação Uma aplicação web tem uma camada entre navegador e servidor reduz a carga de dados Uma aplicação web tenta criar experiência compatíveis as das ferramentas nativas, por menos custo e melhor suporte Tres aspectos importantes:  Priorizar o conteúdo.</description>
+    </item>
+    
+  </channel>
+</rss>

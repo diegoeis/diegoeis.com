@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ux Design on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/ux-design/</link>
+    <description>Recent content in Ux Design on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/ux-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UX - reação é melhor que previsão</title>
+      <link>https://diegoeis.com/ux-reagir-e-melhor-que-prever.html/</link>
+      <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/ux-reagir-e-melhor-que-prever.html/</guid>
+      <description>Entender o usuário é algo difícil. Você pode perceber isso facilmente comparando a sua forma de usar algum serviço de internet, digamos o Facebook, com qualquer outra pessoa ao seu redor. Provavelmente você tem um costume totalmente diferente de navegar, consumir conteúdo, comentar etc. Pessoas diferentes, usam de formas diferentes um mesmo produto e isso é totalmente normal. É por isso que tentar prever cenários para desenvolver um produto para internet é algo complicado.</description>
+    </item>
+    
+  </channel>
+</rss>

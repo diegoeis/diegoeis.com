@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tecnologia Desenvolvimento Mercado on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/tecnologia-desenvolvimento-mercado/</link>
+    <description>Recent content in Tecnologia Desenvolvimento Mercado on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/tecnologia-desenvolvimento-mercado/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neutralidade da Rede - pra você que está desinformado</title>
+      <link>https://diegoeis.com/neutralidade-da-rede-desinformado/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/neutralidade-da-rede-desinformado/</guid>
+      <description>A Web só consegue ser do jeito que você conhece, pois a internet foi construída tendo como base a privacidade e o livre tráfego de informação. Isso quer dizer que você pode visitar qualquer site, ler qualquer texto, expressar sua opinião, assistir, gravar, criar conteúdo e fazer qualquer (ui!) coisa que desejar, sem precisar realmente se expor.
+Mas mesmo que você use um nickname como &amp;ldquo;Nandinha19&amp;rdquo; pra enganar os nerds desavisados em salas de bate-papo alheios, todos os seus dados trafegam livremente na internet e invariavelmente passam pelas operadoras que basicamente te dão acesso à internet.</description>
+    </item>
+    
+  </channel>
+</rss>

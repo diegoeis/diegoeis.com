@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang=" pt-br " prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+
+  
+  <link rel="stylesheet" href="https://diegoeis.com/all.min.a6134fb405769a35be419b71ad80cf589d62013c7763bbe8028f9f2bc107180e.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
+  
+
+  
+  <title> - </title>
+  <meta property="og:title" content=" - ">
+  <meta property="og:type" content="article">
+  <meta name="description" content="">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="">
+  <meta property="og:description" content="" name="description">
+  <meta property="og:image" content="images/missing-img.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@diegoeis">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="images/missing-img.png">
+
+</head>
+
+<body>
+  
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">diegoeis.com</a>
+</header>
+
+
+  <article class="eis-article">
+    <header>
+      <h1>Linked Data e JSON-LD</h1>
+      <span class="eis-date">July 6, 2016</span>
+    </header>
+
+    <div class="eis-text">
+      
+
+<p>Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. <a href="http://diegoeis.com/organizando-a-informacao.html">Organização da Informação</a> na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.</p>
+
+<p>Hoje a internet é baseada basicamente em código HTML, onde nós podemos mostrar imagens, vídeos, audios e principalmente textos. Os links são o meio pelo qual nós organizamos toda a informação na internet, referenciando informações de um site para outro. Os links organizam, de certa forma, todos os websites da internet, sempre cruzando um termo com uma fonte de informação relacionada àquele termo.</p>
+
+<p>Nós podemos quebrar a internet em duas partes específicas: nós temos a parte onde nós enxergamos, que basicamente é baseada em HTML, CSS e JS. É onde seres humanos interagem com nosso produto e nosso site.
+Há também a segunda parte, que é formada basicamente por robôs e sistemas que também interagem com nossos produtos e sites, mas de forma diferente dos humanos, claro, consumindo dados que disponibilizamos de várias formas. Uma desses formatos é o JSON. Como alguns outros formatos, o JSON tem uma estrutura que é simples de ser lida por humanos e principalmente por robôs.</p>
+
+<p>Linked Data é um termo relativamente novo. É um termo que apresenta um caminho para publicar dados interconectados entre diferentes sites, possibilitando que um site referencie e reutilize dados de um outro site. Tipo, um buscador, reutilizando as informações do seu site para mostrar nos resultados da busca.</p>
+
+<p>Conectar as informações usando links resolve a parte de como os seres humanos conseguem relacionar um site (ou um punhado de informação), com outro. Mas como conseguimos fazer com que as máquinas entendam esse relacionamento? Você, como ser humano (eu espero que você seja um), consegue saber quando um site sobre um determinado assunto contém um link que leva para um site de um assunto completamente diferente, mudando de contexto. Mas as máquinas não conseguem fazer essa distinção. Para a máquina, um link sempre vai ser um link. Se é sobre feijão ou sobre automóveis, um link será um link, mesmo tendo uma mudança de contexto entre os assuntos. Para conseguir relacionar melhor as informações, precisamos indicar melhor para as máquinas o contexto dessa informação, ou melhor, desses dados (informação e dados são coisas diferentes).</p>
+
+<p>Você já deve ter ouvido falar sobre RDFa. RDFa é um padrão básico para que possamos dar um pouco mais de contexto para as máquinas sobre os dados que elas estão consumindo. RDFa nada mais é do que um conjunto de atributos que colocamos em linguagens de marcação (HTML, XHTML, XML etc), de forma que as máquinas consigam entender que tipo de informação elas estão lidando. Algo como isso:</p>
+
+<pre><code class="language-html">&lt;h1 property=&quot;dc:title&quot;&gt;Um artigo sobre Semântica&lt;/h1&gt;
+&lt;span property=&quot;dc:author&quot;&gt;Diego Eis&lt;/span&gt;
+</code></pre>
+
+<p>Sim. Você já viu algo parecido quando estudou sobre Microformatos, <a href="http://tableless.com.br/introducao-a-microdata-no-html5/">Micro Data</a> e etc, que são modelos de dados muito mais amigáveis e inteligente do RDF/XML. Mas esse foi um dos primeiros modelos adotados pelo <a href="https://www.w3.org/2001/sw/RDFCore/">W3C há muito tempo</a> e por isso, talvez, só talvez, valha a pena você dar uma lida para entender o conceito.</p>
+
+<p>Deixando isso de lado, o que quero dizer é que nós marcamos esse tipo de informação, para que buscadores, redes sociais e qualquer outro tipo de sistema que precise de dados para funcionar, possa consumir os dados de forma mais inteligente. Então, enquanto as pessoas consomem HTML, lendo seus textos, vendo suas imagens e assistindo seus vídeos, as máquinas consomem esses dados vasculhando seu código procurando por algum significado.</p>
+
+<h2 id="o-json-ld-e-o-context">O JSON-LD e o @context</h2>
+
+<p>Mas nós não conseguimos resolver de verdade como as máquinas consomem esses dados. Como eu disse, as máquinas precisam de mais detalhes sobre os dados que publicamos. Eu fiz uma apresentação falando sobre como melhoramos a semântica do código usando as <a href="http://www.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5">novas tags do HTML5 e microdata</a>. Mas temos como melhorar isso, usando JSON-LD.</p>
+
+<p>Quando um sistema acessar seu site, ele vai receber um arquivo JSON, que contém informações sobre o assunto do seu site. O formato é praticamente idêntico ao JSON que você já deve conhecer, mas com alguns valores e chaves diferentes, veja:</p>
+
+<pre><code class="language-js">{
+  &quot;@context&quot;: &quot;http://json-ld.org/contexts/person.jsonld&quot;,
+  &quot;@id&quot;: &quot;http://dbpedia.org/page/Bob_Dylan&quot;,
+  &quot;name&quot;: &quot;Bob Dylan&quot;,
+  &quot;born&quot;: &quot;1941-05-24&quot;,
+  &quot;spouse&quot;: &quot;http://dbpedia.org/resource/Sara_Dylan&quot;
+}
+</code></pre>
+
+<p>O problema é quando você começa a receber esses dados de múltiplos websites. Todos eles oferecem dados como esse. Mas e se dois sites colocarem informações iguais em alguns valores? Por exemplo, um site fornece o seguinte dado:</p>
+
+<pre><code class="language-js">{
+  &quot;name&quot;: &quot;Diego&quot;,
+  &quot;homepage&quot;: &quot;http://diegoeis.com&quot;
+}
+</code></pre>
+
+<p>E o outro:</p>
+
+<pre><code class="language-js">{
+  &quot;name&quot;: &quot;diegoeis&quot;,
+  &quot;homepage&quot;: &quot;http://diegoeis.com&quot;
+}
+</code></pre>
+
+<p>No primeiro exemplo estamos falando sobre uma <strong>pessoa</strong>. Já no segundo exemplo, em vez do nome de alguém, está algo parecido com um nickname. O robô não tem como saber o que é cada coisa. É por isso que no JSON-LD tem um conceito chamado <strong>@context</strong>. O <strong>@context</strong> diz para a aplicação como interpretar o contexto daquelas informações. Perceba que sempre que você conversa com alguém na vida real, a conversa acontece em volta de um contexto. O exemplo legal ficaria assim:</p>
+
+<pre><code class="language-js">{
+  &quot;@context&quot;: &quot;http://json-ld.org/contexts/person.jsonld&quot;,
+  &quot;name&quot;: &quot;Diego&quot;,
+  &quot;homepage&quot;: &quot;http://diegoeis.com&quot;
+}
+</code></pre>
+
+<h3 id="mas-e-o-schema-org">Mas e o Schema.org?</h3>
+
+<p>Ahh! Sabia que ia rolar essa pergunta. O <a href="http://schema.org/">Schema.org</a> é uma comunidade colaborativa, formada por buscadores como Google e Yahoo! para criar, manter e promover formatos de dados estruturados para a internet, ajudando a estruturar dados para emails, páginas, sistemas etc.</p>
+
+<p>O que é um vocabulário: imagina que você tem uma série de coisas para descrever para as máquinas, por exemplo: suponha um site sobre filmes. Você quer indicar para os sistemas de busca (ou qualquer outro tipo de sistema interessado), qual é o pedaço de texto na página que é a resenha do filme, qual imagem é o poster do filme etc. Você marcaria o HTML assim:</p>
+
+<pre><code class="language-html">&lt;div itemscope itemtype=&quot;http://schema.org/Movie&quot;&gt;
+  &lt;a itemprop=&quot;url&quot; href=&quot;http://www.warnerbros.com/matrix&quot;&gt;&lt;div itemprop=&quot;name&quot;&gt;&lt;strong&gt;Matrix&lt;/strong&gt;&lt;/div&gt;&lt;/a&gt;
+  
+  &lt;div itemprop=&quot;description&quot;&gt;The best movie in the real world.&lt;/div&gt;
+  
+  &lt;div itemprop=&quot;director&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;
+    Directed by: &lt;span itemprop=&quot;name&quot;&gt;The Wachowskis&lt;/span&gt;
+  &lt;/div&gt;
+  
+  &lt;div&gt;Starring: 
+    &lt;div itemprop=&quot;actors&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;
+      &lt;span itemprop=&quot;name&quot;&gt;Laurence Fishburne&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div itemprop=&quot;actors&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;
+      &lt;span itemprop=&quot;name&quot;&gt;Keanu Reeves&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+
+<p>Perceba que então, o Google, por exemplo, consegue saber o que é cada pedaço de dado da página. Assim ele consegue classificar melhor a informação.</p>
+
+<p>A ideia é o seguinte, o <strong>@context</strong> serve para que você consiga especificar o vocabulário dos tipos e propriedades que você está servindo no seu documento. Ali no exemplo, eu usei o vocabulário que o próprio pessoal do JSON-LD publicou. Mas o Google, assim como outros sistemas de busca, apoiam largamente o uso do Schema.org,  que é um padrão de vocabulário. Fica assim:</p>
+
+<pre><code class="language-js">{
+  &quot;@context&quot;: &quot;http://schema.org&quot;,
+  &quot;@type&quot;: &quot;Person&quot;,
+  &quot;name&quot;: &quot;Diego&quot;,
+  &quot;homepage&quot;: &quot;http://diegoeis.com&quot;
+}
+</code></pre>
+
+<p>Veja ali que a segunda chave é o tipo. O Schema.org fornece uma série de vocabulários, logo, preciso dizer qual é o tipo do vocabulário que eu estou me referindo.</p>
+
+<p>Perceba que <strong>@context</strong> e o <strong>@type</strong> definem o &ldquo;significado&rdquo; das outras chaves. Se fosse uma empresa, seria assim:</p>
+
+<pre><code class="language-js">{
+  &quot;@context&quot;: &quot;http://schema.org/&quot;,
+  &quot;@type&quot;: &quot;Organization&quot;,
+  &quot;name&quot;: &quot;National Public Radio&quot;
+}
+</code></pre>
+
+<p>A chave <strong>name</strong> ali agora se refere ao nome de uma Organização e não de uma pessoa. E assim segue com outras &ldquo;coisas&rdquo;.</p>
+
+<h2 id="e-o-microdata">E o Microdata?</h2>
+
+<p>Se você usar o JSON-LD, você não precisa usar Microdata. O Google está investindo pesando com o JSON-LD, por isso, acho que você devia pensar em usá-lo. Outra coisa: para usar Microdata, você vai precisar mexer no seu código HTML para inserir os atributos necessários. Já com o JSON-LD isso não é necessário, já que você serve via JSON as partes necessárias das informações que você quer publicar.</p>
+
+<h2 id="identificadores-globais-do-json-ltd">Identificadores Globais do JSON-LTD</h2>
+
+<p>Mas não adianta usar uma terminologia curta, que máquinas e humanos entendam, contendo um contexto, se você ainda não consegue identificar exatamente qual o assunto da conversa. No exemplo acima, o assunto era uma pessoa chamada <strong>Diego</strong>. Mas qual <strong>Diego</strong>? Existem milhares deles por aí. Para fazer isso, o JSON-LD usa uma <strong>@id</strong> para identificar globalmente esse assunto (que pode ser um animal, uma pessoa, um objeto etc).</p>
+
+<p>Logo, se alguém quiser falar sobre o <strong>Diego</strong>, basta referenciar esse id específico.</p>
+
+<pre><code class="language-js">{
+  &quot;@context&quot;: &quot;http://json-ld.org/contexts/person.jsonld&quot;,
+  &quot;@id&quot;: &quot;http://diegoeis.com/sobre&quot;
+  &quot;name&quot;: &quot;Diego&quot;,
+  &quot;homepage&quot;: &quot;http://diegoeis.com&quot;
+}
+</code></pre>
+
+<p>Logo, existem três coisas principais que precisamos entender sobre o JSON-LD:</p>
+
+<ol>
+<li>Ele te dá um contexto para a informação.</li>
+<li>Ele usa uma terminologia e uma estrutura fácil para máquinas e humanos.</li>
+<li>Ele identifica o assunto para resolver a ambiguidade de informações.</li>
+</ol>
+
+<h2 id="como-eu-sirvo-o-json-ld">Como eu sirvo o JSON-LD</h2>
+
+<p>Simples: basta chamar na sua página o JSON com as informações que você quer publicar. Veja abaixo um exemplo:</p>
+
+<pre><code class="language-js">&lt;script type=&quot;application/ld+json&quot;&gt; 
+{ 
+  &quot;@context&quot; : &quot;http://schema.org&quot;, 
+  &quot;@type&quot; : &quot;artigos&quot;, 
+  &quot;name&quot; : &quot;Um pouco sobre imagens para Web&quot;, 
+  &quot;author&quot; : { &quot;@type&quot; : &quot;Person&quot;, 
+  &quot;name&quot; : &quot;por Diego Eis&quot; }, 
+  &quot;datePublished&quot; : &quot;2016-07-05&quot;, 
+  &quot;image&quot; : &quot;http://tableless.com.br/wp-content/uploads/2016/07/image-format.jpg&quot;, 
+  &quot;artigosBody&quot; : &quot;Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples,  esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos,  principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.&lt;/P&gt;\n&lt;H3&gt;GIF&lt;/H3&gt;\n&lt;P&gt;GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.&lt;/P&gt;
+}
+&lt;/script&gt;
+</code></pre>
+
+<p>O Google tem uma ferramenta sensacional que te ajuda a criar marcação de dados estruturados direto na sua página. <a href="https://www.google.com/webmasters/markup-helper/u/0/">Olha aqui</a>!</p>
+
+<h2 id="um-pouco-mais-sobre-web-semântica">Um pouco mais sobre Web Semântica</h2>
+
+<p>Essas coisas são as fundações do Linked Data. A Web Semântica é muito do que simplesmente organizar informação. Ela envolve também relacionar esses dados encontrados em diferentes pontos da internet, além de facilitar o consumo e a reutilização desses dados por máquinas e seres humanos.</p>
+
+<p>O Tim Berners-Lee <a href="https://www.w3.org/DesignIssues/LinkedData.html">fala sobre os quatro passos (ou regras)</a> para que os dados sejam interconectados na internet:</p>
+
+<ol>
+<li>Identificar as coisas com URIs. Se a forma de identificar os dados não usam o formato universal de símbolos de URI, nós não podemos chamar isso de Web Semântica.</li>
+<li>Usar URI pelo protocolo HTTP é totalmente aceitável pela web inteira. Existe uma tendência gigante da criação de novos esquemas de URI como LSIDs, XRIs etc, se baseando em algo totalmente novo, por fora do DNS, impossibilitando o consumo da informação via formato não popular.</li>
+<li>É necessário ter acesso à informação via URIs. Basicamente você precisa acessar uma URI e encontrar a informação ali, pronta para ser reutilizada.</li>
+<li>Usar links para relacionar dados pela web.</li>
+</ol>
+
+<p>Veja as regras se baseiam em fundações fortes da web hoje. Talvez essas fundações mudem. Mas não vai ser fácil. Veja o trabalho que é fazer para implementar o HTTP/2. Por isso creio que essas regras valerão durante muito tempo e serão ainda nossa baliza para poder servir informação de forma livre pela internet.</p>
+
+<h3 id="para-ler-mais">Para ler mais:</h3>
+
+<ul>
+<li><a href="http://json-ld.org/">Site oficial</a></li>
+<li><a href="http://manu.sporny.org/2014/json-ld-origins-2/">JSON-LD and Why I Hate the Semantic Web</a></li>
+<li><a href="https://thecustomizewindows.com/2014/08/json-ld-details/">JSON-LD in Details</a></li>
+<li><a href="https://www.youtube.com/watch?v=4x_xzT5eF5Q">Vídeo em ingles sobre Linked Data</a></li>
+<li><a href="https://github.com/json-ld/json-ld.org">Repositório do JSON-LD no GitHub</a></li>
+<li><a href="https://norman.walsh.name/2004/07/30/rdfxml">Is RDF/XML Good For Anything?</a></li>
+</ul>
+
+    </div>
+  </article>
+

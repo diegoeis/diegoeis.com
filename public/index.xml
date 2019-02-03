@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog do Diego Eis</title>
+    <link>https://diegoeis.com/</link>
+    <description>Recent content on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quem cuida das pessoas no seu time?</title>
+      <link>https://diegoeis.com/lider-do-time/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/lider-do-time/</guid>
+      <description>A estrutura que eu tenho visto nascerem em times de desenvolvimentos é mais ou menos assim:
+ Agile Coach cuida do processo. Se certifica que as coisas estão nos trilhos, de que as métricas do time estão em dia, se há algum impedimento ou se o time precisa de alguma coisa para completar sua missão do sprint; O PO/PM para dar o norte das próximas coisas que precisam ser executadas, gerenciando o backlog e deixando claro o objetivo das tarefas, alinhando a visão da empresa com a visão do produto, necessidades dos clientes e objetivos do negócio; TechLead que direciona o time na parte técnica, definindo quais tecnologias serão usadas, como serão usadas, além tirar dúvidas, sendo referência técnica do time e analisando viabilidade técnica com o que será feito no futuro.</description>
+    </item>
+    
+    <item>
+      <title>Sobre engajamento e churn</title>
+      <link>https://diegoeis.com/sobre-engajamento-churn-metricas/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-engajamento-churn-metricas/</guid>
+      <description>Churn é uma métrica tão comum no mundo dos produtos digitais que ao usá-la, nós nem paramos para pensar direito nas suas variações.
+O que é churn? Não responda rápido. Fácil, né?! Churn seria a quantidade de usuários que deixam de ser clientes do produto num determinado período de tempo. Você pega a quantidade de clientes que cancelou seu produto no mês e divide pelo total de clientes na base no último dia do mês&amp;hellip; pronto, você tem a porcentagem de churn do seu produto.</description>
+    </item>
+    
+    <item>
+      <title>Muito conteúdo para você que começou agora como Product Manager</title>
+      <link>https://diegoeis.com/muito-conteudo-novos-product-managers/</link>
+      <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/muito-conteudo-novos-product-managers/</guid>
+      <description>Se você começou agora como Product Manager ou Product Owner, separei alguns links de blogs, artigos, livros, eventos e Meetups para você começar com o pé direito nesse mercado.
+Sempre que você é novo em uma certa área de conhecimento, você precisa aprender tudo muito rápido e nem sempre é possível ter alguém ao seu lado dizendo o caminho fácil. O que acontece é que você acaba perdendo tempo precioso procurando suas próprias fontes de informação como blogs, livros e outros assuntos importantes para estudar.</description>
+    </item>
+    
+    <item>
+      <title>Você conhece Service Dominant Logic ou S-D Logic?</title>
+      <link>https://diegoeis.com/service-dominant-logic-marketing/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/service-dominant-logic-marketing/</guid>
+      <description>Focar no serviço em vez do produto A forma com que lidamos com produtos todos os dias tem mudado nos últimos dez anos e um novo pensamento tem se difundido, mudando a forma tradicional de pensamento sobre produto. Se antes o produto manufaturado era o centro e o símbolo da solução de algum problema ou necessidade/desejo do cliente, agora ele passa a ser um meio ou uma ferramenta para um ecossistema um maior e mais complexo.</description>
+    </item>
+    
+    <item>
+      <title>Sobre times e squads</title>
+      <link>https://diegoeis.com/sobre-times-squads-diferencas/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-times-squads-diferencas/</guid>
+      <description>Eu duvido que você consiga passar mais do que 15 minutos conversando com alguém que trabalha em alguma empresa de desenvolvimento e produto sem ouvir a palavra &amp;ldquo;Squad&amp;rdquo;. Parece que a palavra Time foi abolida do dicionário dessa galera e agora todo mundo que passa por uma &amp;ldquo;transformação digital&amp;rdquo; trabalha no formato de Squads. Qualquer Startup que trabalhar nesse formato. Mas é difícil entender por que eles escolheram esse formato.</description>
+    </item>
+    
+    <item>
+      <title>Neutralidade da Rede - pra você que está desinformado</title>
+      <link>https://diegoeis.com/neutralidade-da-rede-desinformado/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/neutralidade-da-rede-desinformado/</guid>
+      <description>A Web só consegue ser do jeito que você conhece, pois a internet foi construída tendo como base a privacidade e o livre tráfego de informação. Isso quer dizer que você pode visitar qualquer site, ler qualquer texto, expressar sua opinião, assistir, gravar, criar conteúdo e fazer qualquer (ui!) coisa que desejar, sem precisar realmente se expor.
+Mas mesmo que você use um nickname como &amp;ldquo;Nandinha19&amp;rdquo; pra enganar os nerds desavisados em salas de bate-papo alheios, todos os seus dados trafegam livremente na internet e invariavelmente passam pelas operadoras que basicamente te dão acesso à internet.</description>
+    </item>
+    
+    <item>
+      <title>O que a concentração de riqueza tem a ver com democracia</title>
+      <link>https://diegoeis.com/concentracao-riqueza-democracia/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/concentracao-riqueza-democracia/</guid>
+      <description>Depois que comecei a me interessar um pouco sobre política e economia (o que aconteceu depois que comecei a investir), consegui entender como todo o sistema é interligado. É um sistema pautado por valores que se iniciaram nas bases e necessidades pessoais do ser humano e que hoje regem a forma como vivemos e interagimos como sociedade.
+A democracia não é muito difícil de entender: a opinião pública é ou deveria ser representada pelos políticos que o povo escolhe, e então o governo toma as ações de acordo com os desejos do povo.</description>
+    </item>
+    
+    <item>
+      <title>Planejando as priorizações de um produto</title>
+      <link>https://diegoeis.com/planejando-priorizacoes-produto/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/planejando-priorizacoes-produto/</guid>
+      <description>Como na maioria dos lugares, o dia a dia dos times de produtos são quase iguais: o time segue alguma metodologia ágil onde há algumas cerimônias e definições de quais tarefas serão desenvolvidas. Essa visão mais micro é uma derivação de uma visão um pouco mais estratégica que veio de um planejamento anterior, que geralmente está (ou pelo menos deveria) ligado com a estratégia da empresa.
+É importante que tudo o que o time de produtos faça esteja de acordo com a visão estratégica da empresa e que sacie a necessidade dos clientes.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Game Off</title>
+      <link>https://diegoeis.com/github-game-show/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/github-game-show/</guid>
+      <description>O 5º aniversário de jogo anual organizado pela GitHub está de volta e está comemorando o código aberto. Claro, não podia ser diferente.
+No dia 01 de novembro o GitHub vai anunciar o tema do evento. Logo, você terá o mês inteiro par construir um jogo. Como sempre, você é encorajado a usar mecanismos de jogos, bibliotecas e ferramentas de código aberto no seu jogo, mas você pode usar qualquer tecnologia que desejar.</description>
+    </item>
+    
+    <item>
+      <title>Atlassian libera documentação da sua biblioteca visual</title>
+      <link>https://diegoeis.com/atlassian-design/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/atlassian-design/</guid>
+      <description>A Atlassian passou por um redesign recentemente, onde toda a sua suite de produtos foi totalmente redesenhada, de forma que não apenas o código fosse reescrito, mas também toda a linguagem de design. Nesse processo, eles deixaram livre para uso público todo o guideline de Design usado para criar esse redesign, como também uma biblioteca baseada em React com todos os componentes de interface, prontinhos para você implementar em qualquer produto.</description>
+    </item>
+    
+    <item>
+      <title>Livro Introdução à Web Semântica</title>
+      <link>https://diegoeis.com/livro-introducao-web-semantica.html/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/livro-introducao-web-semantica.html/</guid>
+      <description>Por que precisamos da Web Semântica? A Web de hoje não é suficiente? Estamos caminhando para uma Web com dados cada vez mais relacionados e abertos. A Web Semântica é uma extensão da nossa web atual, em que nós não vamos apenas ler e produzir conteúdo, mas usar as máquinas para relacionar e reutilizar essas informações da melhor maneira possível. Ela se baseia na ideia de que o conteúdo deve ter uma descrição digital, padronizada por vocabulários, que provê meios para as máquinas entenderem do que aquilo se trata, de modo que os computadores possam interpretar, gerar e distribuir conteúdo útil, de acordo com as necessidades dos usuários.</description>
+    </item>
+    
+    <item>
+      <title>Anotações - Como não ficar careca em Agile Transformations</title>
+      <link>https://diegoeis.com/anotacoes-manoel-pimentel-agilebrasil2017.html/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-manoel-pimentel-agilebrasil2017.html/</guid>
+      <description>Manoel Pimentel é uma figura muito conhecida na comunidade ágil brasileira e ele foi o Keynote do primeiro dia do Agile Brazil 2017, falando sobre como não aplicarmos o Ágil nas nossas empresas de forma decorativa, onde nós estamos sempre nos focando no que não é essencial, perdendo o que realmente importa na aplicação do Ágil no dia a dia.
+Abaixo seguem algumas das anotações que fiz na palestra:
+ Gestão de projetos de software é a mesma coisa que gestão de projeto de obra.</description>
+    </item>
+    
+    <item>
+      <title>Como dosar métricas de produto e processo em equipes que trabalham com soluções digitais?</title>
+      <link>https://diegoeis.com/anotacoes-raphael-albino-agilebrasil2017/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-raphael-albino-agilebrasil2017/</guid>
+      <description>Raphael Albino é consultor na Plataformatec e ele falou sobre Métricas de Produtos e Métricas Ágeis de um modo mais científico, colocando em pauta a eficiência, eficácia, monitoração das métricas e indicadores afim de alcançarmos os objetivos de negócio sem esquecer de suprir as necessidades do cliente;
+Abaixo segue abaixo minhas anotações da palestra do Raphael no Agile Brazil em 2017:
+ Você sabe a diferença entre Eficiência e Eficácia? Nós temos um conjunto chamado Mercado, outro chamado Produto, e na interseção desses conjuntos tem o cliente.</description>
+    </item>
+    
+    <item>
+      <title>A comoditização do desenvolvimento web</title>
+      <link>https://diegoeis.com/comoditizacao-desenvolvimento-web/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/comoditizacao-desenvolvimento-web/</guid>
+      <description>Comodites são produtos cujo a qualidade ou características são parecidas ou iguais, e por isso a escolha não se baseia pela pelas características do produto, mas pelo preço e necessidade da pessoa/empresa. A Wikipedia dá um exemplo bem legal: ela compara o cobre com um sistema de som. Veja que o cobre é igual aqui e em qualquer lugar do mundo. Já um sistema de som tem milhares outros aspectos que levam você, consumidor, a comparar a qualidade entre dois produtos.</description>
+    </item>
+    
+    <item>
+      <title>3 coisas que um Product Manager não deve fazer</title>
+      <link>https://diegoeis.com/3-coisas-que-um-product-manager-nao-deve-fazer/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/3-coisas-que-um-product-manager-nao-deve-fazer/</guid>
+      <description>Ser um Product Manager é chato. Muita gente acha que existe um glamour em ser a pessoa por trás do produto e é isso que seduz muita gente desavisada. O ponto é: não existe só uma pessoa por trás de um produto, mas um time inteiro. Logo, alguns PMs insistem em cair nas armadilhas da vida. Separei 3 coisas que na minha opinião, ajudam a esfolar a relação do PM com o resto da empresa:</description>
+    </item>
+    
+    <item>
+      <title>Mulheres na área de TI e Respeito</title>
+      <link>https://diegoeis.com/mulheres-na-area-deti.html/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/mulheres-na-area-deti.html/</guid>
+      <description>Faz algum tempo que tenho me dedicado a não escrever tantos artigos técnicos. Se você perceber, tenho escrito cada vez menos artigos falando sobre linhas de código e mais artigos falando sobre comportamento, mercado e carreira. Tenho feito isso por vários motivos, mas o mais básico é que eu acho que o mercado precisa amadurecer em outros pontos que nada tem a ver com a parte técnica.
+Um desses pontos é o respeito pelo próximo, principalmente pelas mulheres.</description>
+    </item>
+    
+    <item>
+      <title>Websites para as massas</title>
+      <link>https://diegoeis.com/wix-code-diy/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/wix-code-diy/</guid>
+      <description>Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualquer um precisa de uma presença online na internet. É isso que as redes sociais fazem para a grande maioria das pessoas do mundo: cedem um espaço para que você tenha uma presença online. Mas para empresas e profissionais, um espaço na internet significa ter um website, customizado, com a sua cara, seu logo, seu texto, suas fotos, falando sobre o seu trabalho.</description>
+    </item>
+    
+    <item>
+      <title>Node.js - o back-end do front-end</title>
+      <link>https://diegoeis.com/nodejs-back-end-front-end/</link>
+      <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/nodejs-back-end-front-end/</guid>
+      <description>O Node.js se tornou popular a partir de 2009 quando Ryan Dahl, criador do Node.js, divulgou seu projeto para o mundo. De lá para cá ele só tem crescido e ajudado o JavaScript a se popularizar ainda mais com a &amp;ldquo;Linguagem da Web&amp;rdquo;, agora, não apenas por ser praticamente onipresente na web, mas por quebrar a barreira de ser usada apenas no front-end, passando a ser usada também no Back-end.</description>
+    </item>
+    
+    <item>
+      <title>Throughput - Saindo do básico</title>
+      <link>https://diegoeis.com/throughput-saindo-do-basico/</link>
+      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/throughput-saindo-do-basico/</guid>
+      <description>Em um ambiente de desenvolvimento de software, throughput é o número de tarefas entregues (que foram para DONE) em um período de tempo. Esse período de tempo é definido pelo time, contudo, normalmente medimos a quantidade de tarefas entregues dentro de uma semana.
+Geralmente o dado de Throughput é utilizado para calcular apenas a média de entregas semanais do time. Quero que você tente pensar um pouco mais além, tentando utilizar esse dado para te dar informações mais interessantes sobre a vazão do seu time.</description>
+    </item>
+    
+    <item>
+      <title>Lançamento App Easynvest</title>
+      <link>https://diegoeis.com/app-easynvest.html/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/app-easynvest.html/</guid>
+      <description>Saiu o novo App da Easynvest! :-D
+A Easynvest está passando por mudanças profundas em todos os sentidos: formação de novas equipes, novos sócios/investidores, estrutura, negócio, tudo. Ao contrário do que muita gente acha: a Easynvest não é uma start-up. Ela já tem quase 50 anos. Está aí no mercado financeiro desde 1968. Mas fase de crescimento absurdo que ela está vivendo agora é bastante parecido com que as startups vivem, por isso a confusão.</description>
+    </item>
+    
+    <item>
+      <title>Um comentário sobre a desnecessária fragmentação da profissão designer</title>
+      <link>https://diegoeis.com/comentario-desnecessaria-fragmentacao-designer/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/comentario-desnecessaria-fragmentacao-designer/</guid>
+      <description>Eu estava pra escrever um artigo comentando como a pulverização do trabalho do Designer está atrapalhando profissionais e empresas, criando profissões cada vez mais fragmentadas e tão especializadas que chega a ser uma piada. Até que eu li o artigo do Jonas Downey, escrito no canal do Signal v. Noise, que descreveu tudo o que eu gostaria de falar e mais um pouco.
+O artigo é esse aqui: The Unnecessary Fragmentation of Design Job</description>
+    </item>
+    
+    <item>
+      <title>O fim da profissão front-end</title>
+      <link>https://diegoeis.com/o-fim-do-front-end.html/</link>
+      <pubDate>Sun, 19 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-fim-do-front-end.html/</guid>
+      <description>O processo de desenvolvimento web podem se dividir em três categorias: design, front-end e back-end. Na minha opinião, a categoria que tem mais processos manuais e repetitivos é sem duvida o front-end.
+Pare pra pensar: o core do trabalho do front-end se resume em duas partes:
+ implementação do layout: produção da primeira camada de código, onde replicamos o layout criado em algum programa gráfico, para código estático em HTML, CSS e JS.</description>
+    </item>
+    
+    <item>
+      <title>Estatística básica nas entregas de projetos  agile - Moda, mediana e percentil</title>
+      <link>https://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html/</link>
+      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/estatistica-basica-nas-entregas-de-projetos-agile-moda-mediana-e-percentil.html/</guid>
+      <description>Estatística básica nas entregas de projetos agile — Moda, mediana e percentil Cada uma das metodologias de gestão de projetos tem suas próprias características de funcionamento e essência. Mas todas elas tentam responder uma grande pergunta que virou clichê faz milhares de anos: quando o projeto será entregue?
+A graça das metodologias ágeis é que você trabalha em cima de transparência, incluindo o usuário e os stakeholders no processo, permitindo mudanças de planos no meio do caminho, apressando as falhas e tentando entregar incrementos de valor ao final de cada ciclo.</description>
+    </item>
+    
+    <item>
+      <title>Introdução bem rápida sobre vim</title>
+      <link>https://diegoeis.com/introducao-bem-rapida-sobre-vim.html/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/introducao-bem-rapida-sobre-vim.html/</guid>
+      <description>O vim é um editor de texto muito conhecido no mundo Linux. Embora conheça faz tempo, eu nunca o utilizei exatamente por que a curva de aprendizado é terrivelmente longa. Aposto que você conhece alguém que já ficou preso no vim quando foi editar um arquivo no servidor e nem sabia como salvar e sair do arquivo. Normal quando se está começando e nem tem ideia de como o vim funciona.</description>
+    </item>
+    
+    <item>
+      <title>Um pequeno estudo sobre a Microsoft</title>
+      <link>https://diegoeis.com/um-pequeno-estudo-sobre-a-microsoft.html/</link>
+      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/um-pequeno-estudo-sobre-a-microsoft.html/</guid>
+      <description>Participei de uma entrevista de emprego ano passado, onde uma das fases envolveu fazer o seguinte exercício: eu deveria escolher uma das 10 empresas de tecnologia mais valiosas do mundo e imaginar que eu acabei de ser contratado pra liderar todo o desenvolvimento de um dos produtos dessa empresa. Eu deveria fazer uma apresentação mostrando uma análise da empresa e quais foram suas principais entregas recentes, além de uma definição estratégica de médio prazo, com um roadmap de entregas.</description>
+    </item>
+    
+    <item>
+      <title>Meu ano em livros - 2016</title>
+      <link>https://diegoeis.com/meu-ano-em-livros-2016.html/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/meu-ano-em-livros-2016.html/</guid>
+      <description>Eu nunca li tanto quanto esse último ano de 2016. Eu sempre li muito, mas nada tão sistemático… sempre muito casual e se resumia a livros técnicos ou livros sobre religião. Esse ano eu decidi andar menos de carro e usar mais o transporte público para ir ao trabalho. Essa atitude me fez ganhar duas horas por dia e claro, preenchi com livros.
+Pensei em ler 12 livros. Logo, calculei minha preguiça, mais problemas e imprevistos… esse número diminuiu pra 9.</description>
+    </item>
+    
+    <item>
+      <title>Locaweb</title>
+      <link>https://diegoeis.com/bye-bye-locaweb.html/</link>
+      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/bye-bye-locaweb.html/</guid>
+      <description>Este foi meu último dia de trabalho na Locaweb. Foram 5 anos que pareceram poucos meses. A Locaweb é uma empresa tão incrível, que você não vê o tempo passar, e quando percebe, você já se tornou parte da família.
+Quando estava procurando uma nova empresa para morar, eu não queria ir para qualquer lugar. Eu queria ir para um lugar onde eu pudesse fazer a diferença, pudesse ajudar a empresa a crescer, a se modificar, a se transformar para a melhor e acima de tudo, um lugar onde eu pudesse continuar empreendendo, como sempre fiz.</description>
+    </item>
+    
+    <item>
+      <title>UX - reação é melhor que previsão</title>
+      <link>https://diegoeis.com/ux-reagir-e-melhor-que-prever.html/</link>
+      <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/ux-reagir-e-melhor-que-prever.html/</guid>
+      <description>Entender o usuário é algo difícil. Você pode perceber isso facilmente comparando a sua forma de usar algum serviço de internet, digamos o Facebook, com qualquer outra pessoa ao seu redor. Provavelmente você tem um costume totalmente diferente de navegar, consumir conteúdo, comentar etc. Pessoas diferentes, usam de formas diferentes um mesmo produto e isso é totalmente normal. É por isso que tentar prever cenários para desenvolver um produto para internet é algo complicado.</description>
+    </item>
+    
+    <item>
+      <title>Hello World com React desde o rascunho</title>
+      <link>https://diegoeis.com/hello-world-com-react-desde-o-rascunho.html/</link>
+      <pubDate>Sun, 23 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/hello-world-com-react-desde-o-rascunho.html/</guid>
+      <description>Há muito tempo eu queria fazer um Hello World com React, mas nunca tinha tempo por que eu mudei de área fazem uns 3 anos, ficando mais na parte de gestão de produtos e times, deixando totalmente o desenvolvimento e a escrita de código. Por isso, senti na pele o que os iniciantes sentem quando precisam fazer um simples Hello World de uma tecnologia nova. São tantos artigos falando coisas diferentes, usando setups diferentes, na sua maioria complexos e que não explicam as coisas com simplicidade.</description>
+    </item>
+    
+    <item>
+      <title>Review de Livro - TED Talks - O Guia Oficial do TED para falar em Publico</title>
+      <link>https://diegoeis.com/review-de-livro-ted-talks-o-guia-oficial-do-ted-para-falar-em-publico.html/</link>
+      <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/review-de-livro-ted-talks-o-guia-oficial-do-ted-para-falar-em-publico.html/</guid>
+      <description>Ganhei do Pablo Silva o livro TED Talks: O Guia Oficial do TED para falar em público. Aqui segue minhas anotações do livro. Não anotei tudo, exatamente se não fica sendo um spoiler gigante. Mas tem um resumo no Four Minutes Books. ;-)
+ Se você sabe conversar com amigos em uma mesa de jantar, também sabe falar em público Por mais que você ache que não consegue falar em público, existem medidas para reverter esse quadro Você não precisa ser alguém diferente, você precisa ser você mesmo.</description>
+    </item>
+    
+    <item>
+      <title>Anotações da palestra do Dave Raggett na Web.br 2016</title>
+      <link>https://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-da-palestra-do-dave-ragget-na-web-br-2016.html/</guid>
+      <description>Essas são as minhas anotações da palestra Internet das Coisas na Web (IoTw) que o Dave Raggett fez no evento Web.br 2016. Cheguei meio pro final, não deu pra anotar muita coisa.
+ The Challenges for IoT and Big Data Muitos sensores geram uma quantidade enorme de dados, por isso a Big Data será tão importante num ambiente como esse. A segurança na era do IoT preocupa a todos Uma segurança forte depende de compreensao e aderente às novas práticas Quando temos um dispositivo, nós precisamos ter confiança entre quem está nos dando esse dispositivo, isso é necessário para que a IoT funcione de verdade no nível de segurança É necessário assegurar que os sistemas que rodam no IoT sejam seguros, não apenas sobre invasões e ataques, mas também fisicamente, como por exemplo num carro: você precisa que esse carro seja seguro o tempo inteiro, até mesmo houver uma falha no sistema.</description>
+    </item>
+    
+    <item>
+      <title>Um pouco sobre a experiência de ir trabalhar sem carro</title>
+      <link>https://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html/</link>
+      <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html/</guid>
+      <description>Faz meses que tenho deixado o carro em casa e passado a usar transporte público para ir trabalhar. Não fiz isso por causa do valor que estou economizando por mês (que é bem pouco), mas por uma série de outros motivos.
+Desde o dia que eu deixei de usar o carro, consegui ler algo em torno de 22 livros. 2016 Reading Challenge     Diego has completed his goal of reading 9 books in 2016!</description>
+    </item>
+    
+    <item>
+      <title>CSS - Cansei de Ser Simples – Podcast Hipsters 09</title>
+      <link>https://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html/</guid>
+      <description>O Paulo Silveira e o Sergio Lopes da Caelum Alura me convidaram esses dias para falar um pouco sobre CSS no podcast sobre tecnologia Hipsters!
+Nesse episódio, falamos um pouco sobre CSS, sua história, organização de arquivos, pré-processadores e várias coisas que envolvem essa coisa que amo de paixão, o CSS.
+Quer ouvir, dá o play aí!
+ </description>
+    </item>
+    
+    <item>
+      <title>BrazilJS 2016 - Sobre o básico de JSON-LD e Web Semântica</title>
+      <link>https://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html/</link>
+      <pubDate>Mon, 29 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/braziljs-2016-sobre-o-basico-de-json-ld-e-web-semantica.html/</guid>
+      <description>Esses são os slides da minha palestra feita no BrazilJS de 2016.
+ </description>
+    </item>
+    
+    <item>
+      <title>Dia 2 - CSM - ScrumAlliance - AdaptWorks</title>
+      <link>https://diegoeis.com/dia-2-csm-scrumalliance-adaptworks.html/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/dia-2-csm-scrumalliance-adaptworks.html/</guid>
+      <description>Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As anotações do dia 1 está aqui.
+Product Owner  O PO tem contato forte com o cliente e usuários O PO não precisa ser o cliente, mas dependendo do cliente, pode ter o papel do PO. talvez numa empresa que esteja no estado da arte do relacionamento com o cliente, se torna interessante que eles sejam o Product Owner.</description>
+    </item>
+    
+    <item>
+      <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
+      <link>https://diegoeis.com/dia-1-csm-scrumalliance-adaptworks.html/</link>
+      <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/dia-1-csm-scrumalliance-adaptworks.html/</guid>
+      <description>Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo Alexandre Magno. Veja as anotações do segundo dia de curso.
+Dia 1  Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso Temos processos adequados para nossas pessoas tirarem o máximo de valor para clientes, stakeholders, etc? Foco em Processos e Pessoas.</description>
+    </item>
+    
+    <item>
+      <title>Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo</title>
+      <link>https://diegoeis.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/ian-ricthie-o-cara-que-se-recusou-a-fazer-o-primeiro-browser-do-mundo.html/</guid>
+      <description>Eu estava buscando informações para escrever meu próximo livro, quando me deparei com esse vídeo maravilhoso no TED. Conheça Ian Ritchie, o cara que perdeu a oportunidade de fazer o primeiro browser para web.
+ </description>
+    </item>
+    
+    <item>
+      <title>Linked Data e JSON-LD</title>
+      <link>https://diegoeis.com/linked-data-e-json-ld.html/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/linked-data-e-json-ld.html/</guid>
+      <description>Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. Organização da Informação na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.
+Hoje a internet é baseada basicamente em código HTML, onde nós podemos mostrar imagens, vídeos, audios e principalmente textos.</description>
+    </item>
+    
+    <item>
+      <title>Deploy usando Hook do Git</title>
+      <link>https://diegoeis.com/deploy-usando-hook-do-git.html/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/deploy-usando-hook-do-git.html/</guid>
+      <description>Se você tem qualquer projeto pessoal, você já deve ter tido a necessidade de como fazer, de forma fácil, a automatização do deploy. Para tentar automatizar os meus projetos, eu tentei usar vários serviços como CodeShip, DeployBot e etc… Esses caras são bem legais, por que te dão uma série de integrações, históricos etc. Mas as vezes você nem precisa de tanto, você só quer dar um push no projeto local pro seu repositório remoto e esse repositório atualizar seu projeto em produção.</description>
+    </item>
+    
+    <item>
+      <title>Um pouco sobre formatos de imagens</title>
+      <link>https://diegoeis.com/um-pouco-sobre-formatos-de-imagens.html/</link>
+      <pubDate>Sun, 03 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/um-pouco-sobre-formatos-de-imagens.html/</guid>
+      <description>Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples, esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos, principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.</description>
+    </item>
+    
+    <item>
+      <title>Performance Web - Rail</title>
+      <link>https://diegoeis.com/performance-web-rail.html/</link>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/performance-web-rail.html/</guid>
+      <description>Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.
+ Otimização de web se resume em mitificar css/js, comprimir HTML, gzip, concatenar CSS/JS, sprites, cache/expires, otimizar imagens, colocar scripts no fim da página e CSS no topo, trabalhar com assíncrono, lazy load, usar CDN, diminuir cookies, coisas desse tipo. Quem já usou alguma dessas práticas? O que é performance exatamente? Qual é o tempo ideal para um site carregar?</description>
+    </item>
+    
+    <item>
+      <title>Otimização Prematura - a raíz de Todo o Mal</title>
+      <link>https://diegoeis.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html/</link>
+      <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html/</guid>
+      <description>Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.
+ por que criar um site SPA? Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA. Esse é o problema da otimização prematura. O que você quer otimizar com SPA? Mostrar texto? A maioria dessas tecnologias, arquiteturas e etc, otimiza muito bem alguns tipos de ambientes e isso não significa que o seu ambiente (contexto) pode ser otimizado Tem casos e casos para usar Microserviços.</description>
+    </item>
+    
+    <item>
+      <title>O básico sobre Expressões Regulares</title>
+      <link>https://diegoeis.com/o-basico-sobre-expressoes-regulares/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-basico-sobre-expressoes-regulares/</guid>
+      <description>Expressão Regular é uma das ferramentas mais úteis que você pode ter. Vira e mexe as Expressões Regulares (RegExp) resolvem desde problemas de Find &amp;amp; Replace no editor até validação de dados em diversos níveis do seu projeto. Mas geralmente a gente só lê sobre Expressões Regulares quando precisamos decifrar aquela linha maluca e ainda assim de um jeito meio descuidado, tateando e tentando fazer dar certo uma combinação de caracteres sem sentido.</description>
+    </item>
+    
+    <item>
+      <title>Anotações sobre gestão agile</title>
+      <link>https://diegoeis.com/anotacoes-sobre-gestao-agile.html/</link>
+      <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-sobre-gestao-agile.html/</guid>
+      <description>Algumas anotações que tenho sobre gestão 3.0, learning 3.0, gestão agile e outros assuntos.
+ Competência é a junção do conhecimento (teoria), habilidade (pratica) e atitude (disciplina) - CHA Você não precisa de milhões de dólares pra criar um ambiente que ajude o desenvolvimento de competências qual o papel de um gestor num ambiente que melhora o desenvolvimento de competências? O gestor precisa criar um ambiente onde as pessoas desenvolvam o CHA de maneira contínua Tem certos aprendizados que foram gerados por erros.</description>
+    </item>
+    
+    <item>
+      <title>Sobre Aaron Swartz</title>
+      <link>https://diegoeis.com/sobre-aaron-swartz.html/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-aaron-swartz.html/</guid>
+      <description>Você conhece Aaron Swartz? Não? Ele está mais presente na sua vida do que você imagina. Duvida? Talvez você conheça RSS. RSS é um subset do XML e sua principal função é facilitar a agregação e distribuição de conteúdo. A especificação 1.0 do RSS foi lançada em 06/12/2000. Aaron Swartz foi um dos co-autores do RSS. Ele só tinha 14 anos. Eu sei que você se sente orgulhoso quando consegue implementar algum framework JS nos seus projetos.</description>
+    </item>
+    
+    <item>
+      <title>Review de Livro - Andróides Sonham com Ovelhas Elétricas</title>
+      <link>https://diegoeis.com/review-de-livro-androides-sonham-com-ovelhas-eletricas.html/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/review-de-livro-androides-sonham-com-ovelhas-eletricas.html/</guid>
+      <description>O começo do livro já mostra o quão longe um autor de ficção científica pode ir. Imagina você criar uma ovelha. Agora imagina você criar uma ovelha elétrica. Imagina você ter um sintetizador que controla seu humor, onde você sintoniza o canal de um humor específico e aquilo te influência de forma direta, te fazendo sentir feliz, ou realizado com o trabalho, ou com vontade de obedecer as ordens da esposa, etc etc etc&amp;hellip; esse é o início do Andróides Sonham com Ovelhas Elétricas?</description>
+    </item>
+    
+    <item>
+      <title>O básico sobre Sprints no Scrum</title>
+      <link>https://diegoeis.com/o-basico-sobre-sprint-do-scrum/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-basico-sobre-sprint-do-scrum/</guid>
+      <description>O Sprint é um dos eventos do Scrum. Na verdade ele é a essência do Scrum e é o que o diferencia de outras metodologias como o Kanban, que tem um um fluxo de tarefas mais puxado e contínuo. O Sprint é um time-boxed determinado, de até um mês, onde o time vai executar suas tarefas, que no final será um incremento para o produto, entregando valor para o usuário.</description>
+    </item>
+    
+    <item>
+      <title>Sobre prazos e produtividade</title>
+      <link>https://diegoeis.com/sobre-prazos-e-produtividade/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-prazos-e-produtividade/</guid>
+      <description>Você já percebeu que cumprir prazos em projetos de web é praticamente impossível? Nunca vi ninguém entregando tudo o que combinou no prazo final. Sempre falta alguma coisa, um teste, uma feature, algo que ninguém conseguiu prever. O problema é que isso pode estar se tornando um problema crônico dentro das empresas, principalmente em empresas onde as equipes não tem um processo bem formado, onde a comunicação é difícil.</description>
+    </item>
+    
+    <item>
+      <title>Não se preocupe tanto com o Time To First Byte</title>
+      <link>https://diegoeis.com/nao-se-preocupe-tanto-com-o-time-to-first-byte.html/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/nao-se-preocupe-tanto-com-o-time-to-first-byte.html/</guid>
+      <description>O pessoal da CloudFlare fez um teste muito interessante, provando que a medida TTFB (Time To First Byte) não é tão precisa para provarmos que a resposta do servidor de um site é rápida.
+O que eles fizeram: em um servidor de teste eles criaram um delay de resposta HTTP para entender o que realmente é medido. A resposta foi que o TTFB não é uma medida tão útil assim. Quando um browser faz o request de uma página no servidor, ele envia alguns headers para especificar algumas coisas como os formatos de respostas aceitos.</description>
+    </item>
+    
+    <item>
+      <title>Anotações - Palestra do Jean Carlo Emer - Aplicações Web com React</title>
+      <link>https://diegoeis.com/anotacoes-palestra-do-jean-carlo-emer-aplicacoes-web-com-react.html/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-palestra-do-jean-carlo-emer-aplicacoes-web-com-react.html/</guid>
+      <description>O que consegui anotar da palestra do Jean Carlo Emer sobre Aplicações React no 18 Encontro Locaweb em Belo Horizonte o dia 07/04/2016.
+ Aplicações possuem diferentes estados em uma única página. O Gmail é a aplicação web mais notável, porque ele lançou esse tipo de aplicação, dando o ponta pé com o Ajax O Facebook também, onde você tem uma timeline, que carrega conforme a atualização A navegação pelo conteúdo torna-se mais fluída em uma aplicação Uma aplicação web tem uma camada entre navegador e servidor reduz a carga de dados Uma aplicação web tenta criar experiência compatíveis as das ferramentas nativas, por menos custo e melhor suporte Tres aspectos importantes:  Priorizar o conteúdo.</description>
+    </item>
+    
+    <item>
+      <title>Um pensamento sobre trabalho remoto</title>
+      <link>https://diegoeis.com/um-pensamento-sobre-trabalho-remoto.html/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/um-pensamento-sobre-trabalho-remoto.html/</guid>
+      <description>Estava lendo e ouvindo alguns podcasts sobre times ágeis que trabalham remoto e acabei pensando em várias coisas. Uma delas é que o trabalho remoto é uma das soluções para o trânsito de São Paulo e quiça do mundo! ;-)
+Imagina só a quantidade de carros que deixariam de transitar. Além disso, talvez até os ônibus e o metro ficariam mais vazios e confortáveis durante boa parte do dia…
+Isso tudo por que o trabalhar em casa está ficando cada vez mais comum.</description>
+    </item>
+    
+    <item>
+      <title>Time disfuncional</title>
+      <link>https://diegoeis.com/time-disfuncional.html/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/time-disfuncional.html/</guid>
+      <description>O Scrum e qualquer outro método/framework agile é feito para que a equipe consiga se organizar e ter autonomia para tomar todas as decisões importantes, definindo como irão agir para entregar suas tarefas e conseguir completar os objetivos do projeto. Um dos pontos chave para isso tudo dar certo é a comunicação entre os integrantes do time.
+ &amp;ldquo;Pense no seu trabalho. Quanto tempo é desperdiçado enquanto você espera alguém concluir uma tarefa, ou receber alguma informação, ou porque está tentando fazer um monte de coisas ao mesmo tempo?</description>
+    </item>
+    
+    <item>
+      <title>Nutrientes vs Comida</title>
+      <link>https://diegoeis.com/sobre-alimentos-de-mentira.html/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-alimentos-de-mentira.html/</guid>
+      <description>Você já percebeu que hoje a humanidade está obcecada por dividir os alimentos pelo que eles são compostos e não propriamente pelo alimento em si? Eu sei, é complicado. Mas veja: nós acreditamos que podemos dividir o mundo dos alimentos em nutrientes bons e ruins. Se tem muita gordura, é ruim. Se tem pouca fibra, é ruim. Se tem muita vitamina C é bom.
+Quando visitamos o supermercado, vemos o tempo inteiro uma série de embalagens coloridas com todos os dizeres de “sem isso, com aquilo, fonte de…“.</description>
+    </item>
+    
+    <item>
+      <title>Anotações - Palestra da Vania Ferrari - Gestão e liderança</title>
+      <link>https://diegoeis.com/anotacoes-palestra-da-vania-ferrari-gestao-e-lideranca.html/</link>
+      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-palestra-da-vania-ferrari-gestao-e-lideranca.html/</guid>
+      <description>Essas são as minhas anotações da palestra que a Vania Ferrari fez na Locaweb sobre gestão, liderança, tecnologia e mudanças de paradigmas na empresa.
+ você tem o poder de transformar as pessoas Você não tem uma equipe de 50 pessoas, na verdade são as 50 pessoas que tem você Seu time precisa do seu feedback constantemente. Questione você mesmo pra saber se você está no caminho certo Você está preparado para o século 21?</description>
+    </item>
+    
+    <item>
+      <title>Perfil T e o Desenvolvedor Full Stack</title>
+      <link>https://diegoeis.com/perfil-t-e-o-desenvolvedor-full-stack.html/</link>
+      <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/perfil-t-e-o-desenvolvedor-full-stack.html/</guid>
+      <description>A Valve é uma das maiores empresas de games do mercado. Na verdade, como eles mesmos dizem, eles não são apenas uma empresa de games:
+ We’re an entertainment company. A software company. A platform company.
+ A cultura da Valve é uma das mais interessantes que existem. Pra começar não existe hierarquia, apostando totalmente em um formato autogerenciável. As mesas são totalmente móveis (sim, elas tem rodinhas), o funcionário escolhe o projeto no qual vai trabalhar e ele mesmo define e prioriza as suas tarefas.</description>
+    </item>
+    
+    <item>
+      <title>Complexidade e Causalidade no gestão 3.0</title>
+      <link>https://diegoeis.com/complexidade-e-causalidade-no-management-3-0.html/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/complexidade-e-causalidade-no-management-3-0.html/</guid>
+      <description>As versões de gerenciamento Se o método se chama gestão 3.0, quer dizer que houveram duas versões antes dessa mais moderna. Na verdade, o modelo de gestão atual da maioria das empresas ainda se baseia em hierarquias bem definidas, onde umas pessoas se reportam a outras e assim por diante.
+gestão 1.0 — Hierarquias Esse é o tipo tradicional de gerenciamento, onde o poder está nas mãos de poucos, onde a palavra de ordem é comandar e controlar.</description>
+    </item>
+    
+    <item>
+      <title>Sobre organizar equipes</title>
+      <link>https://diegoeis.com/sobre-organizar-equipes.html/</link>
+      <pubDate>Mon, 19 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-organizar-equipes.html/</guid>
+      <description>Sobre organizar equipes Não existem muitas maneiras de organizar um time de desenvolvimento, eu posso citar basicamente duas: ou você agrupa os integrantes de acordo com suas funções, formando os famosos times “funcionais” (ou silos), ou você organiza os times agrupando os integrantes que tenham funções diferentes, formando times multifuncionais.
+Faz quase 4 anos que eu trabalho em uma empresa que tem muitos produtos. Cada projeto tem um P.O (Product Owner), seguido de um time de desenvolvedores back-end.</description>
+    </item>
+    
+    <item>
+      <title>Anotações do Zeno no Encontro Locaweb 16</title>
+      <link>https://diegoeis.com/anotacoes-do-zeno-no-encontro-locaweb-16.html/</link>
+      <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-do-zeno-no-encontro-locaweb-16.html/</guid>
+      <description>Essas são as minhas anotações da palestra do Zeno em Curitiba, no Encontro Locaweb #16.
+Carreira  A moda toda é largar tudo e empreender em alguma coisa Todo mundo é manipulado pelas cifras do mercado Nós temos vários heróis no mercado como o Steve Jobs, Bill Gates etc Mas não é tão fácil chegar no ponto destes caras. Você deve mirar fazer algo maior que eles. Você pode seguir outro caminho, fazer outras coisas, ter outras oportunidades.</description>
+    </item>
+    
+    <item>
+      <title>CSM - ScrumAlliance - AdaptWorks - Dia 1</title>
+      <link>https://diegoeis.com/csm-scrumalliance-adaptworks-dia-1.html/</link>
+      <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/csm-scrumalliance-adaptworks-dia-1.html/</guid>
+      <description>Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo Alexandre Magno.
+Dia 1  Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso Temos processos adequados para nossas pessoas tirarem o máximo de valor para clientes, stakeholders, etc? Foco em Processos e Pessoas. scrum master não tem como base se o produto é certo ou nao.</description>
+    </item>
+    
+    <item>
+      <title>Can web make ES6 the baseline of the Modern Web?</title>
+      <link>https://diegoeis.com/can-web-make-es6-the-baseline-of-the-modern-web.html/</link>
+      <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/can-web-make-es6-the-baseline-of-the-modern-web.html/</guid>
+      <description>Minhas anotações sobre a palestra que Chris Heilmann fez no BrazilJS de 2014.
+ Os devs esperam muito que a inovação venha de empresas como Mozilla, Apple, Microsoft. Em uma banda de música, o cara que toca o baixo, tem um papel muito importante, mas quase sempre ele não é levado a sério ou é reconhecido. O baixista dirige a banda. Ele diz para onde a música vai. Ele mantém o ritmo durante a música.</description>
+    </item>
+    
+    <item>
+      <title>O nome UX está errado</title>
+      <link>https://diegoeis.com/o-nome-ux-esta-errado.html/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-nome-ux-esta-errado.html/</guid>
+      <description>O que é um profissional de UX? Se você for responder rápido, você vai dizer: “É o mano (ou a mana) que faz o Wireframe do projeto.” Essa resposta é no mínimo incompleta. O profissional de UX é responsável por muito mais que isso. O Wireframe é na verdade uma resposta representativa de todo um trabalho prévio de pesquisa, organização e garimpo de informação junto com usuários e clientes. Há uma preocupação muito forte com fluxo de conteúdo e principalmente fluxo de navegação, além de juntar especificar a função e comportamento do sistema.</description>
+    </item>
+    
+    <item>
+      <title>Atender bem para atender sempre</title>
+      <link>https://diegoeis.com/atender-bem-para-atender-sempre.html/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/atender-bem-para-atender-sempre.html/</guid>
+      <description>Não atender bem é uma das grandes falhas se você trabalha com web. Parece óbvio, mas um dos principais problemas de empresas, freelancers ou desenvolvedores é o atendimento, por mais simples que seja. Atender bem não é só levar o camarada para almoçar antes de fechar um grande negócio. Atender bem é algo complexo, caro e que toma tempo.
+Quantas empresas você conhece que procuram saber realmente se o seu cliente está ou ficou satisfeito com o trabalho executado?</description>
+    </item>
+    
+    <item>
+      <title>Realinhamento ou Redesign?</title>
+      <link>https://diegoeis.com/realinhamento-ou-redesign.html/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/realinhamento-ou-redesign.html/</guid>
+      <description>Como usuário, quando um bom design é feito, eu percebo menos os problemas em funcionalidades. Parece que eu fico mais tolerante porque percebo, pelo design e pela usabilidade do produto, que existe um apresso pela qualidade. Por causa desse sentimento de constante mudança, eu entendo que uma funcionalidade não vai ficar muito tempo com defeito ou incompleta. Esse tipo de sentimento não é perceptível em testes reais com os usuários.</description>
+    </item>
+    
+    <item>
+      <title>Email Marketing a tortura - Parte 2</title>
+      <link>https://diegoeis.com/email-marketing-a-tortura-parte-2.html/</link>
+      <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/email-marketing-a-tortura-parte-2.html/</guid>
+      <description>Não é só porque você precisa fazer seus emails utilizando tabelas, você vai desdenhar das boas práticas que você aprendeu na escola. O código final de uma Newsletter vai ficar muito maior e tão complexo quanto o código de um site institucional simples. Outro ponto importante, é que você vai fazer muitas e muitas alterações até esse email ser publicado e muito provavelmente vai precisar duplicá-lo quando alguém ter a necessidade de enviar novos emails.</description>
+    </item>
+    
+    <item>
+      <title>Email Marketing a tortura - Parte 1</title>
+      <link>https://diegoeis.com/email-marketing-a-tortura-parte-1.html/</link>
+      <pubDate>Mon, 06 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/email-marketing-a-tortura-parte-1.html/</guid>
+      <description>Esqueça tudo o que você sabe sobre CSS 3, HTML 5, JavaScript e qualquer outra nova novidade que você tenha visto nos últimos 10 anos. Para fazer uma newsletter você não vai usar nada disso.
+Criar email marketing é chato. Não é fácil e provavelmente não vai ficar do jeito que você quer na primeira ou na segunda ou na terceira vez. Se você reclama do Internet Explorer por qualquer motivo, você ainda não teve que lidar com os clientes de email.</description>
+    </item>
+    
+    <item>
+      <title>O pensamento de um leigo sobre alimentação, saúde e medicina</title>
+      <link>https://diegoeis.com/saude-alimentacao-estilo-de-vida.html/</link>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/saude-alimentacao-estilo-de-vida.html/</guid>
+      <description>Perseverar nos maus hábitos por falta de domínio próprio, é o caminho correto para uma vida sem saúde e infelicidade.
+ Muito incrível como a Dieta Gracie e a Dieta do Mediterrâneo são parecidíssimas (com pequenas modificações) com a dieta que a Ellen White descreve como sendo a correta escolhida por Deus. Sem entrar no conceito se você é Cristão ou não (eu sou), mas se você gosta de alimentação, ela diz que uma alimentação baseada em oleaginosas (castanhas, nozes etc), verduras, legumes, grãos e frutas são o regime perfeito.</description>
+    </item>
+    
+    <item>
+      <title>O Internet Explorer não foi a pior coisa que já aconteceu para a web</title>
+      <link>https://diegoeis.com/o-internet-explorer-nao-foi-a-pior-coisa-que-ja-aconteceu-para-a-web.html/</link>
+      <pubDate>Wed, 28 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-internet-explorer-nao-foi-a-pior-coisa-que-ja-aconteceu-para-a-web.html/</guid>
+      <description>Você se lembra da guerra dos browsers? Muitos devs hoje não tiveram o prazer e o terror de ter presenciado essa época. Infelizmente eu não vivi essa época desde o início, mas peguei do meio pro fim, o suficiente para saber o contexto geral do mercado naquela fase horrível da web. O W3C tinha uma crise de identidade, nós não tínhamos um browser decente para usar e os desenvolvedores, meus amigos, ahhh os desenvolvedores… Você já parou para pensar que no início quase NINGUÉM era desenvolvedor web?</description>
+    </item>
+    
+    <item>
+      <title>Sobre o Design oco</title>
+      <link>https://diegoeis.com/sobre-o-design-oco.html/</link>
+      <pubDate>Wed, 03 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-o-design-oco.html/</guid>
+      <description>Um pouco sobre design ordinário e como arranjar argumentos.
+ Quando construímos um padrão de interface para qualquer tipo de produto digital, é necessário que esse padrão se perpetue, caso contrário seu trabalho não valerá de nada. Esse padrão precisa ser protegido durante todo a produção do projeto, offline ou online, não importa. Para que essa perpetuidade seja real, você e sua equipe precisarão defender esse padrão e para defendê-lo você precisa de argumentos.</description>
+    </item>
+    
+    <item>
+      <title>Sobre se livrar de uma hipertensão e um câncer</title>
+      <link>https://diegoeis.com/sobre-se-livrar-de-uma-hipertensao-e-um-cancer/</link>
+      <pubDate>Sun, 09 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-se-livrar-de-uma-hipertensao-e-um-cancer/</guid>
+      <description>O Cardiologista Eu me sentia muito mal todas as vezes que me levantava. Tontura, visão escurecendo, cansaço e principalmente pressão alta (15.9) me levaram a visitar um cardiologista.
+Chegando lá ele mediu minha pressão, pediu uma série de exames e me disse mais ou menos assim: “Não posso dizer que você é hipertenso até fazer esses exames pra confirmar.”
+Fiz os malditos exames, incluindo aquele que fica medindo sua pressão o dia inteiro e aquele de correr na esteira.</description>
+    </item>
+    
+    <item>
+      <title>Não seja o próximo Zeno Rocha</title>
+      <link>https://diegoeis.com/nao-seja-o-proximo-zeno-rocha.html/</link>
+      <pubDate>Mon, 13 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/nao-seja-o-proximo-zeno-rocha.html/</guid>
+      <description>Quando montei esse título eu sabia que ia ser polêmico e sabia que haveria um burburinho nos corredores das interwebs. E sabe de uma coisa? To me lixando para que os outros falam por aí.
+Quando conversei com o Zeno horas depois de ter tido a ideia, expliquei os motivos para ele e comentamos coisas que acontecem conosco por causa dessa “popularidade” na área. Eu realmente não quero que você seja o próximo Zeno Rocha.</description>
+    </item>
+    
+    <item>
+      <title>6 dicas para se dar em trabalhos remotos</title>
+      <link>https://diegoeis.com/6-dicas-para-se-dar-em-trabalhos-remotos.html/</link>
+      <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/6-dicas-para-se-dar-em-trabalhos-remotos.html/</guid>
+      <description>Ao contrário do que muitos acham, trabalho remoto (ou até um projeto freelancer) não é algo fácil. Eu sei que é o sonho de todo mundo ficar em casa, organizar o seu próprio horário para ir ao parque (cinema, praia, sítio, bar, prostíbulo etc etc etc) enquanto todo mundo se mata em um escritório.
+Para ter esse privilégio, você não precisa ser só bom no que faz, você precisa ser responsável e ter disciplinas extras que vão além das suas responsabilidades técnicas.</description>
+    </item>
+    
+    <item>
+      <title>Sobre os pavões do mercado de front-end</title>
+      <link>https://diegoeis.com/sobre-os-pavoes-do-mercado-de-front-end.html/</link>
+      <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-os-pavoes-do-mercado-de-front-end.html/</guid>
+      <description>Um desabafo sobre a autopromoção Eu gostava quando o mercado de front-end era mais simples. Quando não haviam tantos eventos. Quando não havia tanta gente querendo ser a estrela da vez. Eu gostava quando o mercado era pequeno, onde a maioria das discussões rolava em listas de discussões. Quando quase não haviam blogs sobre o assunto e os blogueiros que mais falavam tecnologia e também front-end eram profissionais de outras áreas.</description>
+    </item>
+    
+    <item>
+      <title>Iniciando com Middleman - Gerador de arquivos estáticos</title>
+      <link>https://diegoeis.com/iniciando-com-middleman-gerador-de-arquivos-estaticos.html/</link>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/iniciando-com-middleman-gerador-de-arquivos-estaticos.html/</guid>
+      <description>O Middleman, assim como o Jekyll, serve sites estáticos, sem banco de dados, baseados em puro código HTML e informação. Existem uma série de sistemas desse tipo e é uma das minhas armas em muitos projetos.
+Instalando Supondo que você tem um Ruby e RubyGems na sua máquina, basta instalar a GEM do Middleman:
+$ gem install middleman  Depois de instalado, os comandos básicos são:
+ middleman init para iniciar um projeto.</description>
+    </item>
+    
+    <item>
+      <title>Sobre traquejo social na internet</title>
+      <link>https://diegoeis.com/sobre-traquejo-social-na-internet.html/</link>
+      <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-traquejo-social-na-internet.html/</guid>
+      <description>Um dos meus primeiros erros quando iniciei na interwebs era conseguir me comunicar decentemente via texto. Eu me expressava errado, principalmente quando a frase era sarcástica ou irônica. Sempre me faltava timing ou na pior das hipóteses um emoticon, que talvez resolveria todo o problema. Com o tempo fui aprendendo e os maus entendidos foram desaparecendo. Mas esse problema ainda acontece com uma pancada de gente aí fora, desprotegidos, coitados, que digitam frases e mais frases com o maldito capslock travado e que leem mensagens no Facebook como se fosse a primeira página de algum jornal americano.</description>
+    </item>
+    
+    <item>
+      <title>Anotações Segurança em Aplicações Web</title>
+      <link>https://diegoeis.com/anotacoes-seguranca-em-aplicacoes-web.html/</link>
+      <pubDate>Tue, 20 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-seguranca-em-aplicacoes-web.html/</guid>
+      <description>Minhas anotações sobre a palestra do Nando Vieira no 16ELW.
+ seu site está seguro? Você se pergunta isso quando coloca seu produto no ar? 75% dos ataques estão na camada da aplicação. brechas de segurança acabam com sua credibilidade. OWASP é uma fundação voltada para distribuir informações sobre segurança em aplicações web. http://owasp.org/ o raios teve algo em torno de 8 ou 9 relesses de segurança em 2013. Parece muito mas não é.</description>
+    </item>
+    
+    <item>
+      <title>Sobre o básico que você precisa aprender para ser um front-end</title>
+      <link>https://diegoeis.com/sobre-o-basico-que-voce-precisa-aprender-para-ser-um-front-end.html/</link>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-o-basico-que-voce-precisa-aprender-para-ser-um-front-end.html/</guid>
+      <description>Estava navegando por aí e acabei encontrando um artigo bem legal do Leandro Oriente, que fala sobre tecnologias e o que você precisa saber para ser um dev front-end. Decidi então escrever minha versão do artigo, colocando meus pontos de vista.
+Entrar na área de front-end é algo muito fácil. Você não precisa ter habilidades técnicas muito avançadas. É por isso que durante muito tempo o mercado andou saturado e muito, muito prostituído por gente que entregava trabalhos sem qualidade e que cobravam barato demais.</description>
+    </item>
+    
+    <item>
+      <title>Sobre o mercado de desenvolvimento front-end</title>
+      <link>https://diegoeis.com/sobre-o-mercado-de-desenvolvimento-front-end.html/</link>
+      <pubDate>Tue, 25 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-o-mercado-de-desenvolvimento-front-end.html/</guid>
+      <description>Você já deve ter notado que o mercado cresceu demais nos últimos anos. De repente, codificar HTML virou a coisa mais importante do mundo e saber JavaScript transforma você automaticamente em um rockstar.
+O interesse das empresas também aumentou bastante. Empresas gringas tem buscado desesperadamente profissionais no mundo todo, inclusive no Brasil. Hoje não é muito difícil ir trabalhar na Amsterdam ou em Bangkok. A mão de obra nestes países está bem escassa.</description>
+    </item>
+    
+    <item>
+      <title>Anotações sobre gestão 3.0</title>
+      <link>https://diegoeis.com/anotacoes-sobre-management-3-0.html/</link>
+      <pubDate>Tue, 11 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-sobre-management-3-0.html/</guid>
+      <description>Estas são as minhas anotações sobre o que ouvi em um curso de gerenciamento ágil.
+gestão 3.0 não é uma metodologia. Ela é uma mindset. É um modo de pensar. Não há uma sequência a seguir. São visões diferentes sobre um mesmo ponto: gerenciar corretamente projetos e pessoas em ambientes complexos.
+ Qual o tamanho ideal de um grupo? Depende. Depende da necessidade. Mas geralmente uma equipe de 5 pessoas é o ideal.</description>
+    </item>
+    
+    <item>
+      <title>Sobre ter informações que ajudam a ter uma vida saudável</title>
+      <link>https://diegoeis.com/sobre-ter-informacoes-que-ajudam-a-ter-uma-vida-saudavel.html/</link>
+      <pubDate>Sat, 08 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-ter-informacoes-que-ajudam-a-ter-uma-vida-saudavel.html/</guid>
+      <description>Essas são algumas anotações que tenho feito sobre o que tenho lido e aprendido com a tentativa de perder peso. Como são anotações, não espere que tudo faça sentido.
+Não sei se você já leu o livro 4 Horas para o Corpo. Leia o primeiro capítulo aqui (em português). No livro, um cara chamado Timothy Ferriss, gastou pelo menos 3 anos entrevistando médicos, atlétas e uma série de outras pessoas para saber como perder peso, hackear o corpo e manter uma vida saudável.</description>
+    </item>
+    
+    <item>
+      <title>Organizando a Informação</title>
+      <link>https://diegoeis.com/organizando-a-informacao.html/</link>
+      <pubDate>Sun, 30 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/organizando-a-informacao.html/</guid>
+      <description>Como qualquer criança, eu tinha o costume fazer muitos trabalhos para a escola. O processo era quase sempre igual: a professora definia o assunto e ao chegar em casa, pegava um bocado de papel almaço e ia para casa da minha tia. Ela era a única da família que tinha enciclopédias&amp;hellip; lembra da Barsa? Se eu precisava fazer um trabalho escolar, certamente as enciclopédias da minha tia iam me ajudar na tarefa.</description>
+    </item>
+    
+  </channel>
+</rss>

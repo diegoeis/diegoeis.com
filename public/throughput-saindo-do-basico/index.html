@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang=" pt-br " prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+
+  
+  <link rel="stylesheet" href="https://diegoeis.com/all.min.a6134fb405769a35be419b71ad80cf589d62013c7763bbe8028f9f2bc107180e.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
+  
+
+  
+  <title> - </title>
+  <meta property="og:title" content=" - ">
+  <meta property="og:type" content="article">
+  <meta name="description" content="">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="">
+  <meta property="og:description" content="" name="description">
+  <meta property="og:image" content="images/missing-img.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@diegoeis">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="images/missing-img.png">
+
+</head>
+
+<body>
+  
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">diegoeis.com</a>
+</header>
+
+
+  <article class="eis-article">
+    <header>
+      <h1>Throughput - Saindo do básico</h1>
+      <span class="eis-date">May 30, 2017</span>
+    </header>
+
+    <div class="eis-text">
+      
+
+<p>Em um ambiente de desenvolvimento de software, <strong>throughput</strong> é o número de tarefas entregues (que foram para DONE) em um período de tempo. Esse período de tempo é definido pelo time, contudo, normalmente medimos a quantidade de tarefas entregues dentro de uma semana.</p>
+
+<p>Geralmente o dado de Throughput é utilizado para calcular apenas a média de entregas semanais do time. Quero que você tente pensar um pouco mais além, tentando utilizar esse dado para te dar informações mais interessantes sobre a vazão do seu time. A ideia é que você consiga ter as seguintes informações:</p>
+
+<ul>
+<li>Qual foi o mínimo de tarefas que o time entregou em uma semana?</li>
+<li>Qual foi o record de entregas de tarefas em uma semana?</li>
+<li>Geralmente entregamos XX tarefas por semana.</li>
+<li>Em 25% das vezes, o time entrega XX tarefas por semana ou menos.</li>
+<li>Em 75% das vezes, o time entrega XX tarefas por semana ou mais.</li>
+</ul>
+
+<h2 id="throughput-é-diferente-de-velocity">Throughput é diferente de Velocity</h2>
+
+<p>Enquanto o primeiro marca a quantidade de tarefas feitas em um período de tempo, o segundo é baseado  na unidade que o time escolheu para definir o tamanho de uma história, portanto, são duas métricas bem diferentes.</p>
+
+<p>O Throughput só é totalmente confiável se <strong>as tarefas forem de tamanhos similares</strong>. Eu prefiro quebrar as tarefas no menor tamanho possível de forma que elas continuem sendo incrementos funcionais. Por isso não costumamos definir <strong>story points</strong> ou qualquer coisa parecida para as tarefas, já que nosso objetivo é fazer com que as tarefas sejam de um tamanho suficiente para serem entregues em uma semana.</p>
+
+<h2 id="dia-da-entrega-da-tarefa">Dia da entrega da tarefa</h2>
+
+<p>Não importa qual a metodologia ou framework de gestão de projetos você esteja usando, para medir o Throughput você precisará saber o dia em que a tarefa foi entregue. Não importa qual a ferramenta que você usa, contanto que você saiba a data de conclusão da tarefa.</p>
+
+<p>Esse é o único dado que você precisa imediatamente. A partir dele, iremos descobrir outros dados para nos dar todas as respostas que precisamos.</p>
+
+<h2 id="descobrindo-a-semana-da-entrega-do-projeto">Descobrindo a semana da entrega do projeto</h2>
+
+<p>A partir da data da entrega do projeto, você vai descobrir a semana do ano. No meu dia a dia, eu utilizo a planilha do Google para fazer essa conta. Lá tem uma função chamada <code>=weeknum();</code>, que me dá o número da semana de uma data específica.</p>
+
+<p>Abaixo segue uma tabela fake de tarefas que foram entregues. Na coluna da semana, usei a função <code>=weeknum();</code> para descobrir o número da semana.</p>
+
+<p><img src="http://i.imgur.com/WoCWk8Q.png" alt="" /></p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Semana</th>
+<th align="left">Data de entrega</th>
+<th align="left">Tarefa</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">1</td>
+<td align="left">1/2/2017</td>
+<td align="left">Mudar cor do botão</td>
+</tr>
+
+<tr>
+<td align="left">2</td>
+<td align="left">1/9/2017</td>
+<td align="left">[Widget de Texto] Alterar tamanho de texto nativo do template</td>
+</tr>
+
+<tr>
+<td align="left">3</td>
+<td align="left">1/16/2017</td>
+<td align="left">Criar fila com RabbitMQ</td>
+</tr>
+
+<tr>
+<td align="left">3</td>
+<td align="left">1/16/2017</td>
+<td align="left">Uma outra tarefa qualquer</td>
+</tr>
+
+<tr>
+<td align="left">1</td>
+<td align="left">1/2/2017</td>
+<td align="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+</tr>
+
+<tr>
+<td align="left">1</td>
+<td align="left">1/2/2017</td>
+<td align="left">Morbi eu elit sed turpis imperdiet sagittis et in ligula.</td>
+</tr>
+
+<tr>
+<td align="left">3</td>
+<td align="left">1/16/2017</td>
+<td align="left">Pellentesque sagittis nisi eu eros vulputate aliquet.</td>
+</tr>
+
+<tr>
+<td align="left">4</td>
+<td align="left">1/23/2017</td>
+<td align="left">Vestibulum ornare sem nec consequat sodales.</td>
+</tr>
+
+<tr>
+<td align="left">4</td>
+<td align="left">1/23/2017</td>
+<td align="left">Quisque non diam id nisi sagittis ornare.</td>
+</tr>
+
+<tr>
+<td align="left">2</td>
+<td align="left">1/9/2017</td>
+<td align="left">Phasellus posuere odio vitae pretium facilisis.</td>
+</tr>
+
+<tr>
+<td align="left">3</td>
+<td align="left">1/16/2017</td>
+<td align="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+</tr>
+
+<tr>
+<td align="left">4</td>
+<td align="left">1/23/2017</td>
+<td align="left">Morbi eu elit sed turpis imperdiet sagittis et in ligula.</td>
+</tr>
+
+<tr>
+<td align="left">1</td>
+<td align="left">1/2/2017</td>
+<td align="left">Pellentesque sagittis nisi eu eros vulputate aliquet.</td>
+</tr>
+
+<tr>
+<td align="left">2</td>
+<td align="left">1/9/2017</td>
+<td align="left">Vestibulum ornare sem nec consequat sodales.</td>
+</tr>
+
+<tr>
+<td align="left">3</td>
+<td align="left">1/16/2017</td>
+<td align="left">Quisque non diam id nisi sagittis ornare.</td>
+</tr>
+
+<tr>
+<td align="left">4</td>
+<td align="left">1/23/2017</td>
+<td align="left">Phasellus posuere odio vitae pretium facilisis.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Agora que sabemos o número de cada semana, podemos descobrir o Throughput, ou seja, a quantidade de tarefas entregues de cada uma das semanas. Para tanto, em outras células, faço outra coluna de semana, colocando os números referentes a cada semana e faço uma contagem de quantas tarefas foram entregues na mesma semana usando a função <code>=countif(intervalo, critério);</code></p>
+
+<p><img src="http://i.imgur.com/Ti36irG.png" alt="" /></p>
+
+<p>| Semana     | Throughput (Issues entregues) |
+|:&ndash;|:&ndash;|:&ndash;|
+|1|4|
+|2|3|
+|3|5|
+|4|4|</p>
+
+<p>Essa informação já é importante o suficiente para algumas pessoas: você acabou de descobrir quantas tarefas foram entregues em cada uma das semanas. Já dá pra fazer um report maroto básico para os chefões. Vamos agora tentar responder as perguntas do começo do artigo.</p>
+
+<p><img src="http://i.imgur.com/jkZ5DHm.png" alt="" /></p>
+
+<h2 id="qual-foi-o-mínimo-e-o-máximo-de-tarefas-entregues-em-uma-semana">Qual foi o mínimo e o máximo de tarefas entregues em uma semana?</h2>
+
+<p>Vários motivos podem tornar o desenvolvimento de software um ambiente complexo: bugs imprevistos em produção, infraestrutura que sai do ar, férias de desenvolvedores, falta de testes, imprevistos, pedidos de tarefas urgentes e etc. Tudo isso pode influenciar as entregas semanais do time pra pior. É legal entender os motivos que fizeram com que o time entregasse pouco em uma determinada semana.</p>
+
+<p>Por outro lado, há semanas em que muitas tarefas foram entregues. Isso não é necessariamente bom, já que o time pode ter saído de uma semana ruim, onde as tarefas estavam represadas até que os problemas fossem resolvidos. Ou, se não houve problemas, a alta das entregas podem ter sido resultado da alta produtividade do time&hellip; o que é uma ótima notícia.</p>
+
+<p>Para saber qual foi a semana que você entregou menos ou mais tarefas, usaremos duas medidas de dispersão: <strong>mínimo</strong> e <strong>máximo</strong>.</p>
+
+<p><img src="http://imgur.com/84MzTzK.png" alt="" /></p>
+
+<p>Bastando usar as funções <code>=min(intervalo)</code> e <code>=max(intervalo)</code>, saberemos a resposta dessas perguntas.</p>
+
+<p><img src="http://imgur.com/lD1EBVo.png" alt="" /></p>
+
+<p>No nosso exemplo, tivemos uma semana que entregamos apenas 3 histórias (semana 2), e a semana que entregamos foram 5 histórias (semana 3).</p>
+
+<h2 id="geralmente-entregamos-xx-tarefas-por-semana">Geralmente entregamos XX tarefas por semana.</h2>
+
+<p>Com o tempo, o time começa a identificar uma cadência de entregas, entregando mais ou menos o mesmo número de tarefas. Com a medida de tendência central <strong>moda</strong>, nós descobrimos qual é a quantidade de entregas mais comum do time.</p>
+
+<p><img src="http://imgur.com/avcxCBr.png" alt="" /></p>
+
+<p>Para descobrir esse número, usamos a função <code>=mode(intervalo)</code> do próprio Google Sheets e pronto.</p>
+
+<p><img src="http://imgur.com/eWGfk4C.png" alt="" /></p>
+
+<p>Logo, descobrimos que na metade (ou mais) das semanas analisadas, nós entregamos 4 tarefas.</p>
+
+<p>É possível também ter uma análise desse tipo usando um gráfico de histograma, que vai mostrar com que frequência entregamos uma quantidade específica de tarefas. É um assunto pra outro post, talvez, mas segue abaixo o gráfico:</p>
+
+<p><img src="http://imgur.com/jl5o3Zz.png" alt="" /></p>
+
+<h2 id="quartis">Quartis</h2>
+
+<p>Agora, para sabermos quantas tarefas são entregues por exemplo, em <sup>1</sup>&frasl;<sub>4</sub> (um quarto) do tempo, nós usamos os quartis, que são medidas que dividem uma amostra. Basicamente os quartis dividem nossa distribuição (as tarefas entregues nas semanas) em 4 partes, de forma que consigamos responder que em 25% o time entrega XX tarefas.</p>
+
+<p>Para isso, usamos a função <code>=percentile(intervalo; porcentagem)</code>. Para exemplificar melhor, vou aumentar a nossa amostra de entregas.</p>
+
+<p><img src="http://imgur.com/pvd2Kzf.png" alt="" /></p>
+
+<p>Descobrimos então que em 25% das vezes, o time entregou 3 ou menos tarefas. Logo, em 75% das vezes, o time entregou 3 ou mais.</p>
+
+<p><img src="http://imgur.com/ugoFwbl.png" alt="" /></p>
+
+<p>Descobrimos também que em 75% das vezes, nosso time entregou 5 tarefas ou menos e que em 25% do tempo, o time entregou 5 tarefas ou mais.</p>
+
+<h2 id="concluindo">Concluindo</h2>
+
+<p>Na minha humilde opinião, essas métricas são bem mais úteis do que apenas sabermos a média de entregas. Isso torna o processo de desenvolvimento mais empírico, dando mais informações para que o time se conheça mais afim de otimizar melhor seu esforço.</p>
+
+<p>Isso também começa a se aproximar, mesmo que basicamente, do conceito de #NoEstimates, que é onde usamos dados históricos para estimar a entrega de um projeto. Mesmo que não usemos em momento nenhum qualquer técnica para prever o dia da entrega do projeto, com esses dados damos um passo bem inicial, onde é possível conhecer a frequência de entrega do time, trazendo mais confiança de quantas tarefas eles poderão entregar nas próximas semanas, dado que as histórias tem tamanhos similares.</p>
+
+<p>Se você quiser explorar um pouco mais a planilha que utilizei, segue nesse link. Basta copiar a planilha e ser feliz: <a href="http://bit.ly/planilha-tp">http://bit.ly/planilha-tp</a></p>
+
+    </div>
+  </article>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management Product Management Design on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/management-product-management-design/</link>
+    <description>Recent content in Management Product Management Design on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 06 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/management-product-management-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sobre engajamento e churn</title>
+      <link>https://diegoeis.com/sobre-engajamento-churn-metricas/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-engajamento-churn-metricas/</guid>
+      <description>Churn é uma métrica tão comum no mundo dos produtos digitais que ao usá-la, nós nem paramos para pensar direito nas suas variações.
+O que é churn? Não responda rápido. Fácil, né?! Churn seria a quantidade de usuários que deixam de ser clientes do produto num determinado período de tempo. Você pega a quantidade de clientes que cancelou seu produto no mês e divide pelo total de clientes na base no último dia do mês&amp;hellip; pronto, você tem a porcentagem de churn do seu produto.</description>
+    </item>
+    
+  </channel>
+</rss>

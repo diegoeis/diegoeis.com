@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desenvolvimento Javascript Front End on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/desenvolvimento-javascript-front-end/</link>
+    <description>Recent content in Desenvolvimento Javascript Front End on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 23 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/desenvolvimento-javascript-front-end/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World com React desde o rascunho</title>
+      <link>https://diegoeis.com/hello-world-com-react-desde-o-rascunho.html/</link>
+      <pubDate>Sun, 23 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/hello-world-com-react-desde-o-rascunho.html/</guid>
+      <description>Há muito tempo eu queria fazer um Hello World com React, mas nunca tinha tempo por que eu mudei de área fazem uns 3 anos, ficando mais na parte de gestão de produtos e times, deixando totalmente o desenvolvimento e a escrita de código. Por isso, senti na pele o que os iniciantes sentem quando precisam fazer um simples Hello World de uma tecnologia nova. São tantos artigos falando coisas diferentes, usando setups diferentes, na sua maioria complexos e que não explicam as coisas com simplicidade.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast Css Front End Desenvolvimento on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/podcast-css-front-end-desenvolvimento/</link>
+    <description>Recent content in Podcast Css Front End Desenvolvimento on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 13 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/podcast-css-front-end-desenvolvimento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS - Cansei de Ser Simples – Podcast Hipsters 09</title>
+      <link>https://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/podcast-css-cansei-de-ser-simples-hipsters-09.html/</guid>
+      <description>O Paulo Silveira e o Sergio Lopes da Caelum Alura me convidaram esses dias para falar um pouco sobre CSS no podcast sobre tecnologia Hipsters!
+Nesse episódio, falamos um pouco sobre CSS, sua história, organização de arquivos, pré-processadores e várias coisas que envolvem essa coisa que amo de paixão, o CSS.
+Quer ouvir, dá o play aí!
+ </description>
+    </item>
+    
+  </channel>
+</rss>

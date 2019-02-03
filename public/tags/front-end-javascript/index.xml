@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front End Javascript on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/front-end-javascript/</link>
+    <description>Recent content in Front End Javascript on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 05 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/front-end-javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Node.js - o back-end do front-end</title>
+      <link>https://diegoeis.com/nodejs-back-end-front-end/</link>
+      <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/nodejs-back-end-front-end/</guid>
+      <description>O Node.js se tornou popular a partir de 2009 quando Ryan Dahl, criador do Node.js, divulgou seu projeto para o mundo. De lá para cá ele só tem crescido e ajudado o JavaScript a se popularizar ainda mais com a &amp;ldquo;Linguagem da Web&amp;rdquo;, agora, não apenas por ser praticamente onipresente na web, mas por quebrar a barreira de ser usada apenas no front-end, passando a ser usada também no Back-end.</description>
+    </item>
+    
+  </channel>
+</rss>

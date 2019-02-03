@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang=" pt-br " prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+
+  
+  <link rel="stylesheet" href="https://diegoeis.com/all.min.a6134fb405769a35be419b71ad80cf589d62013c7763bbe8028f9f2bc107180e.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
+  
+
+  
+  <title> - </title>
+  <meta property="og:title" content=" - ">
+  <meta property="og:type" content="article">
+  <meta name="description" content="">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="">
+  <meta property="og:description" content="" name="description">
+  <meta property="og:image" content="images/missing-img.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@diegoeis">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="images/missing-img.png">
+
+</head>
+
+<body>
+  
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">diegoeis.com</a>
+</header>
+
+
+  <article class="eis-article">
+    <header>
+      <h1>Anotações - Palestra do Jean Carlo Emer - Aplicações Web com React</h1>
+      <span class="eis-date">April 7, 2016</span>
+    </header>
+
+    <div class="eis-text">
+      <p>O que consegui anotar da palestra do Jean Carlo Emer sobre Aplicações React no 18 Encontro Locaweb em Belo Horizonte o dia 07/04/2016.</p>
+
+<ul>
+<li>Aplicações possuem diferentes estados em uma única página.</li>
+<li>O Gmail é a aplicação web mais notável, porque ele lançou esse tipo de aplicação, dando o ponta pé com o Ajax</li>
+<li>O Facebook também, onde você tem uma timeline, que carrega conforme a atualização</li>
+<li>A navegação pelo conteúdo torna-se mais fluída em uma aplicação</li>
+<li>Uma aplicação web tem uma camada entre navegador e servidor reduz a carga de dados</li>
+<li>Uma aplicação web tenta criar experiência compatíveis as das ferramentas nativas, por menos custo e melhor suporte</li>
+<li>Tres aspectos importantes:
+
+<ol>
+<li>Priorizar o conteúdo. O mais importante da web é o conteúdo. Todo conteúdo deve ser acessível</li>
+<li>Primar por uma boa experiência de navegação</li>
+<li>Atentar para a performance percebida. Performance percebida é aquela performance que o usuário sente. O usuário é o parâmetro.</li>
+</ol></li>
+<li>0.1 segundos é imperceptible para o usuário. 1 segundo é aceitável. 10 segundos é mais que suficiente par perder o usuário.</li>
+<li><a href="http://blog.teamtreehouse.com/perceived-performance">http://blog.teamtreehouse.com/perceived-performance</a></li>
+<li>Quando o usuário entra num site e ele é lento, há grandes chance do usuário achar que o site é lento e nunca haverá mudanças</li>
+<li>Fugir da chuva de reflows não é a tarefa fácil. Alterar os elementos do documento sem critérios não é performático.</li>
+<li>O botão voltar do navegador precisa ter sentido. Os estados da app e a barra de endereço devem ter sincronia.</li>
+<li>JavaScript e css viram caos fácil fácil. a organização do código precisa ser planejada e praticada</li>
+<li>Internet caiu e voltou, e agora? Instabilidades na conexão de rede precisam ser endereçadas.</li>
+<li>Os motores de busca devem reconhecer o conteúdo do seu site. Mesmo que a aplicação seja um SPA com JS.</li>
+<li>Já existem diversas tecnologias para auxiliar nessas situações. Você precisa procura uma que atenda a equipe, que faça o time se sentir confortável.</li>
+<li>O React não é um framework, ele é uma biblioteca. Ele não te diz como você integra seu código. Ele serve para você escrever seus componentes.</li>
+<li>Componentes são usados para formar um sistema mais complexo.</li>
+<li>Existem dois tipos de conteúdos: os do servidor e os do usuário.</li>
+<li>Componentes guardam estado e recebem dados dos seus ancestrais.</li>
+<li>O que é estado em um componente? É tudo aquilo que pode sofrer alteração durante o ciclo de vida da aplicação</li>
+<li>Componentes que recebe dados do servidor, formulário de dados, ações do usuários.</li>
+<li>O ciclo de vida é o mais recurso mais poderoso dos componentes.</li>
+<li>código pode ser executado antes e depois da interface ser montada e quando a interface precisar de ajustes</li>
+<li>também é possível decidir o que fazer com dados recebidos</li>
+<li>React já lida muito tem com CSS transitions. Permite apoiar transições de estados com CSS de forma simples.</li>
+<li>o dom virtual aplica apenas as mudanças realmente necessárias no documento e em lotes.</li>
+<li>Quando o componente vai ser representado na tela, o react cria uma representação virtual, faz uma diferença entre os elementos diferentes e só aplica aquilo que ele encontrou diferença.</li>
+<li>Assim o react não remonta a página inteira se houve uma mudança simples, como mudanças de texto.</li>
+<li>O React não define como você gerencia as rotas da aplicação</li>
+<li>O React Router permite como você integra a barra de endereço com a aplicação. Ele integra a sua aplicação com o navegador.</li>
+<li>As rotas são componentes também.</li>
+<li>Diferentes rodas podem apontar para os mesmos componentes.</li>
+<li>React e Router são desenhadas para executarem com facilidade na plataforma node.js em servidores.</li>
+<li>Entregar HTML é garantia de performance e boa indexação em buscadores.</li>
+<li>Webpack: permite transformar, juntar e compactar o código de todos os componentes.</li>
+<li>verificar, transformar e empacotar são palavras chaves em código front-end</li>
+<li>jest e enzyme apoiam a escrita de testes isolados para cada componente</li>
+<li>Como desenvolvedor você foca em conteúdo e navegação. O React foca na performance dos componentes.</li>
+</ul>
+
+    </div>
+  </article>
+

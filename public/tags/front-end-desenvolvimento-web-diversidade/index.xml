@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front End Desenvolvimento Web Diversidade on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/front-end-desenvolvimento-web-diversidade/</link>
+    <description>Recent content in Front End Desenvolvimento Web Diversidade on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/front-end-desenvolvimento-web-diversidade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mulheres na área de TI e Respeito</title>
+      <link>https://diegoeis.com/mulheres-na-area-deti.html/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/mulheres-na-area-deti.html/</guid>
+      <description>Faz algum tempo que tenho me dedicado a não escrever tantos artigos técnicos. Se você perceber, tenho escrito cada vez menos artigos falando sobre linhas de código e mais artigos falando sobre comportamento, mercado e carreira. Tenho feito isso por vários motivos, mas o mais básico é que eu acho que o mercado precisa amadurecer em outros pontos que nada tem a ver com a parte técnica.
+Um desses pontos é o respeito pelo próximo, principalmente pelas mulheres.</description>
+    </item>
+    
+  </channel>
+</rss>

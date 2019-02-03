@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artigos Agile Gestão on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/artigos-agile-gest%C3%A3o/</link>
+    <description>Recent content in Artigos Agile Gestão on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 02 Feb 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/artigos-agile-gest%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Time disfuncional</title>
+      <link>https://diegoeis.com/time-disfuncional.html/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/time-disfuncional.html/</guid>
+      <description>O Scrum e qualquer outro método/framework agile é feito para que a equipe consiga se organizar e ter autonomia para tomar todas as decisões importantes, definindo como irão agir para entregar suas tarefas e conseguir completar os objetivos do projeto. Um dos pontos chave para isso tudo dar certo é a comunicação entre os integrantes do time.
+ &amp;ldquo;Pense no seu trabalho. Quanto tempo é desperdiçado enquanto você espera alguém concluir uma tarefa, ou receber alguma informação, ou porque está tentando fazer um monte de coisas ao mesmo tempo?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product Management Management Agile on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/product-management-management-agile/</link>
+    <description>Recent content in Product Management Management Agile on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/product-management-management-agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sobre times e squads</title>
+      <link>https://diegoeis.com/sobre-times-squads-diferencas/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-times-squads-diferencas/</guid>
+      <description>Eu duvido que você consiga passar mais do que 15 minutos conversando com alguém que trabalha em alguma empresa de desenvolvimento e produto sem ouvir a palavra &amp;ldquo;Squad&amp;rdquo;. Parece que a palavra Time foi abolida do dicionário dessa galera e agora todo mundo que passa por uma &amp;ldquo;transformação digital&amp;rdquo; trabalha no formato de Squads. Qualquer Startup que trabalhar nesse formato. Mas é difícil entender por que eles escolheram esse formato.</description>
+    </item>
+    
+  </channel>
+</rss>

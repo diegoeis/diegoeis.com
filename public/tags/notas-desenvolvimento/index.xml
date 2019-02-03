@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notas Desenvolvimento on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/notas-desenvolvimento/</link>
+    <description>Recent content in Notas Desenvolvimento on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/notas-desenvolvimento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Otimização Prematura - a raíz de Todo o Mal</title>
+      <link>https://diegoeis.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html/</link>
+      <pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/otimizacao-prematura-a-raiz-de-todo-o-mal.html/</guid>
+      <description>Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.
+ por que criar um site SPA? Quer fazer um Spotify, Google drive, um Dashboard, você faz um SPA Se vai fazer um site de conteúdo, e-commerce ou qualquer coisa que dependa de conteúdo, não faça SPA. Esse é o problema da otimização prematura. O que você quer otimizar com SPA? Mostrar texto? A maioria dessas tecnologias, arquiteturas e etc, otimiza muito bem alguns tipos de ambientes e isso não significa que o seu ambiente (contexto) pode ser otimizado Tem casos e casos para usar Microserviços.</description>
+    </item>
+    
+    <item>
+      <title>Anotações Segurança em Aplicações Web</title>
+      <link>https://diegoeis.com/anotacoes-seguranca-em-aplicacoes-web.html/</link>
+      <pubDate>Tue, 20 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/anotacoes-seguranca-em-aplicacoes-web.html/</guid>
+      <description>Minhas anotações sobre a palestra do Nando Vieira no 16ELW.
+ seu site está seguro? Você se pergunta isso quando coloca seu produto no ar? 75% dos ataques estão na camada da aplicação. brechas de segurança acabam com sua credibilidade. OWASP é uma fundação voltada para distribuir informações sobre segurança em aplicações web. http://owasp.org/ o raios teve algo em torno de 8 ou 9 relesses de segurança em 2013. Parece muito mas não é.</description>
+    </item>
+    
+  </channel>
+</rss>

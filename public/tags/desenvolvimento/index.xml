@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desenvolvimento on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/desenvolvimento/</link>
+    <description>Recent content in Desenvolvimento on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/desenvolvimento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introdução bem rápida sobre vim</title>
+      <link>https://diegoeis.com/introducao-bem-rapida-sobre-vim.html/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/introducao-bem-rapida-sobre-vim.html/</guid>
+      <description>O vim é um editor de texto muito conhecido no mundo Linux. Embora conheça faz tempo, eu nunca o utilizei exatamente por que a curva de aprendizado é terrivelmente longa. Aposto que você conhece alguém que já ficou preso no vim quando foi editar um arquivo no servidor e nem sabia como salvar e sair do arquivo. Normal quando se está começando e nem tem ideia de como o vim funciona.</description>
+    </item>
+    
+    <item>
+      <title>Atender bem para atender sempre</title>
+      <link>https://diegoeis.com/atender-bem-para-atender-sempre.html/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/atender-bem-para-atender-sempre.html/</guid>
+      <description>Não atender bem é uma das grandes falhas se você trabalha com web. Parece óbvio, mas um dos principais problemas de empresas, freelancers ou desenvolvedores é o atendimento, por mais simples que seja. Atender bem não é só levar o camarada para almoçar antes de fechar um grande negócio. Atender bem é algo complexo, caro e que toma tempo.
+Quantas empresas você conhece que procuram saber realmente se o seu cliente está ou ficou satisfeito com o trabalho executado?</description>
+    </item>
+    
+    <item>
+      <title>6 dicas para se dar em trabalhos remotos</title>
+      <link>https://diegoeis.com/6-dicas-para-se-dar-em-trabalhos-remotos.html/</link>
+      <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/6-dicas-para-se-dar-em-trabalhos-remotos.html/</guid>
+      <description>Ao contrário do que muitos acham, trabalho remoto (ou até um projeto freelancer) não é algo fácil. Eu sei que é o sonho de todo mundo ficar em casa, organizar o seu próprio horário para ir ao parque (cinema, praia, sítio, bar, prostíbulo etc etc etc) enquanto todo mundo se mata em um escritório.
+Para ter esse privilégio, você não precisa ser só bom no que faz, você precisa ser responsável e ter disciplinas extras que vão além das suas responsabilidades técnicas.</description>
+    </item>
+    
+    <item>
+      <title>Sobre os pavões do mercado de front-end</title>
+      <link>https://diegoeis.com/sobre-os-pavoes-do-mercado-de-front-end.html/</link>
+      <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-os-pavoes-do-mercado-de-front-end.html/</guid>
+      <description>Um desabafo sobre a autopromoção Eu gostava quando o mercado de front-end era mais simples. Quando não haviam tantos eventos. Quando não havia tanta gente querendo ser a estrela da vez. Eu gostava quando o mercado era pequeno, onde a maioria das discussões rolava em listas de discussões. Quando quase não haviam blogs sobre o assunto e os blogueiros que mais falavam tecnologia e também front-end eram profissionais de outras áreas.</description>
+    </item>
+    
+    <item>
+      <title>Sobre o básico que você precisa aprender para ser um front-end</title>
+      <link>https://diegoeis.com/sobre-o-basico-que-voce-precisa-aprender-para-ser-um-front-end.html/</link>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-o-basico-que-voce-precisa-aprender-para-ser-um-front-end.html/</guid>
+      <description>Estava navegando por aí e acabei encontrando um artigo bem legal do Leandro Oriente, que fala sobre tecnologias e o que você precisa saber para ser um dev front-end. Decidi então escrever minha versão do artigo, colocando meus pontos de vista.
+Entrar na área de front-end é algo muito fácil. Você não precisa ter habilidades técnicas muito avançadas. É por isso que durante muito tempo o mercado andou saturado e muito, muito prostituído por gente que entregava trabalhos sem qualidade e que cobravam barato demais.</description>
+    </item>
+    
+    <item>
+      <title>Sobre o mercado de desenvolvimento front-end</title>
+      <link>https://diegoeis.com/sobre-o-mercado-de-desenvolvimento-front-end.html/</link>
+      <pubDate>Tue, 25 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-o-mercado-de-desenvolvimento-front-end.html/</guid>
+      <description>Você já deve ter notado que o mercado cresceu demais nos últimos anos. De repente, codificar HTML virou a coisa mais importante do mundo e saber JavaScript transforma você automaticamente em um rockstar.
+O interesse das empresas também aumentou bastante. Empresas gringas tem buscado desesperadamente profissionais no mundo todo, inclusive no Brasil. Hoje não é muito difícil ir trabalhar na Amsterdam ou em Bangkok. A mão de obra nestes países está bem escassa.</description>
+    </item>
+    
+  </channel>
+</rss>

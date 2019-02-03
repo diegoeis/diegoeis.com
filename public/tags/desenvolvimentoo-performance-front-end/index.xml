@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desenvolvimentoo Performance Front End on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/desenvolvimentoo-performance-front-end/</link>
+    <description>Recent content in Desenvolvimentoo Performance Front End on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/desenvolvimentoo-performance-front-end/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Não se preocupe tanto com o Time To First Byte</title>
+      <link>https://diegoeis.com/nao-se-preocupe-tanto-com-o-time-to-first-byte.html/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/nao-se-preocupe-tanto-com-o-time-to-first-byte.html/</guid>
+      <description>O pessoal da CloudFlare fez um teste muito interessante, provando que a medida TTFB (Time To First Byte) não é tão precisa para provarmos que a resposta do servidor de um site é rápida.
+O que eles fizeram: em um servidor de teste eles criaram um delay de resposta HTTP para entender o que realmente é medido. A resposta foi que o TTFB não é uma medida tão útil assim. Quando um browser faz o request de uma página no servidor, ele envia alguns headers para especificar algumas coisas como os formatos de respostas aceitos.</description>
+    </item>
+    
+  </channel>
+</rss>

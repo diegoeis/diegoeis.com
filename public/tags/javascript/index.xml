@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/javascript/</link>
+    <description>Recent content in Javascript on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 30 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub Game Off</title>
+      <link>https://diegoeis.com/github-game-show/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/github-game-show/</guid>
+      <description>O 5º aniversário de jogo anual organizado pela GitHub está de volta e está comemorando o código aberto. Claro, não podia ser diferente.
+No dia 01 de novembro o GitHub vai anunciar o tema do evento. Logo, você terá o mês inteiro par construir um jogo. Como sempre, você é encorajado a usar mecanismos de jogos, bibliotecas e ferramentas de código aberto no seu jogo, mas você pode usar qualquer tecnologia que desejar.</description>
+    </item>
+    
+  </channel>
+</rss>

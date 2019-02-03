@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang=" pt-br " prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+
+  
+  <link rel="stylesheet" href="https://diegoeis.com/all.min.a6134fb405769a35be419b71ad80cf589d62013c7763bbe8028f9f2bc107180e.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
+  
+
+  
+  <title> - </title>
+  <meta property="og:title" content=" - ">
+  <meta property="og:type" content="article">
+  <meta name="description" content="">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="">
+  <meta property="og:description" content="" name="description">
+  <meta property="og:image" content="images/missing-img.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@diegoeis">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="images/missing-img.png">
+
+</head>
+
+<body>
+  
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">diegoeis.com</a>
+</header>
+
+
+  <article class="eis-article">
+    <header>
+      <h1>Performance Web - Rail</h1>
+      <span class="eis-date">June 26, 2016</span>
+    </header>
+
+    <div class="eis-text">
+      
+
+<p>Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.</p>
+
+<ul>
+<li>Otimização de web se resume em mitificar css/js, comprimir HTML, gzip, concatenar CSS/JS, sprites, cache/expires, otimizar imagens, colocar scripts no fim da página e CSS no topo, trabalhar com assíncrono, lazy load, usar CDN, diminuir cookies, coisas desse tipo. Quem já usou alguma dessas práticas?</li>
+<li>O que é performance exatamente? Qual é o tempo ideal para um site carregar? O que é carregar um site? Carregar o netflix é carregar o video inteiro do filme? Quem te fala que seu site está rápido?</li>
+<li>Medir se o site que está rápido ou não, ou seja, pelo Onload, é uma péssima ideia.</li>
+<li>SPA já quebra essa métrica, porque carrega uma vez e não dispara o onload de novo.</li>
+<li>Nós temos vários tipos de performance:
+
+<ol>
+<li>Performance de carregamento. Quando clica e o browser faz alguma coisa.</li>
+<li>Interação. O cara clica num botão e aí abre uma modal. isso é uma interação. É a interação dos usuários com os eventos da página.</li>
+<li>Animação. Quanto tempo demora para a animação rodar. Dá umas travadas?</li>
+<li>Memória. O browser da crash por causa da falta de memória.</li>
+<li>Bateria. Sua aplicação mata a bateria do usuário porque fica consumindo os recursos da máquina (celular) o tempo inteiro?</li>
+</ol></li>
+<li>Quais são os limites da percepção de performance do usuário? A pesquisa chegou em 3 números: 100ms, 1s e 10s.</li>
+<li>quando algo acontece algo em 100ms, nosso cérebro acha que aquilo é instantâneo.</li>
+<li>Quando demora até 1s, seu cérebro já sabe que existe uma diferença, que há uma certa lentidão. O cérebro repara que algo aconteceu. Mas seu cérebro consegue dizer que ainda estamos numa mesma tarefa, embora exista um delay.</li>
+<li>Depois de 10s, seu cérebro entende que acabou a tarefa. Não há uma ação e reação. Se o site demora pra carregar, ele abre uma aba do facebook para esperar e pronto, esqueceu seu site.</li>
+<li>RAIL: Response Animation Idle Load, é um modelo de performance que quebra o modelo de performance em 4 pontos.</li>
+
+<li><p>a ideia é quebrar cada uma das ações na sua página nessas quatro categorias.</p>
+
+<h2 id="load">Load</h2></li>
+
+<li><p>Quando o cara dá enter na URL, dá para carregar instantaneamente? Difícil… Mas talvez dá carregar tudo em 1s. Dado aqueles limites de tempo psicológicos que vimos acima.</p></li>
+
+<li><p><a href="http://webpagetest.org">http://webpagetest.org</a></p></li>
+
+<li><p>O que realmente importa nesses números que as páginas de métricas de performance trazem?</p></li>
+
+<li><p>meça a sensação do usuário de que há alguma coisa na tela. First Minimum Paint.</p></li>
+
+<li><p>Preste atenção no tempo de Start Render. Isso significa quando o browser começou a renderizar alguma coisa. Tente manter esse número perto do 1s.</p></li>
+
+<li><p>O SpeedIndex é o número que vocÊ realmente quer diminuir. Ele mostra quando a página mostrada para o usuário (o topo, antes da dobra, antes do primeiro scroll), para de carregar coisas</p></li>
+
+<li><p>Critical Rendering Path</p></li>
+
+<li><p>tira o JS da primeira renderização. Fácil; basta chamar os JS no final da página. O grande bloqueador é o CSS.</p></li>
+
+<li><p>Entregue tudo que esteja acima da dobra até um segundo.</p></li>
+
+<li><p>Use um CSS inline acima da dobra.</p></li>
+
+<li><p>&lt; 14Kb é um RTT (Road Trip) do servidor.</p></li>
+
+<li><p>Ao invés do inline, dá para usar server push http/2</p>
+
+<h2 id="animation">Animation</h2></li>
+
+<li><p>O ideal do animation é que ele seja de 60fps</p></li>
+
+<li><p>os monitores hoje redesenham a tela mais ou menos 60 vezes por segundo. Isso dá a sensação de que um vídeo é um video e não um monte de foto parada tentando se mover.</p></li>
+
+<li><p>Pelo menos no Chrome e Safari, animações do CSS e etc, é feito na GPU. Isso quer dizer que o browser consegue encaixar os elementos certos na GPU, para que a placa gráfica consiga fazer seu trabalho direito</p></li>
+
+<li><p>Quando você muda alguma coisa de CSS via JavaScript, o browser precisa recalcular a posição e os outros elementos que podem estar relacionados com esse elemento modificado</p></li>
+
+<li><p>use a propriedade will-change para avisar o browser de que ele vai precisar animar algum elemento na GPU</p>
+
+<h2 id="responsive">Responsive</h2></li>
+
+<li><p>Todas as ações do usuário precisa ser executado a 100ms.</p></li>
+
+<li><p>O usuário precisa saber que sua interação foi executada. na verdade, o usuário só ter uma resposta de que sua ação foi entendida pelo sistema.</p></li>
+
+<li><p>Mostra um loading maneiro, mostra qualquer feedback que faça o usuário entender que sua ação foi executada</p>
+
+<h2 id="idle">Idle</h2></li>
+
+<li><p>Você executa coisas na página, mas tem alguma hora que a animação já acabou de executar, sua página já foi carregada e o usuário não está executando nenhuma ação. Logo, você pod usar esse momento de ócio para disparar alguma coisa não essencial para as ações do usuário.</p></li>
+
+<li><p>O browser é single thread, tudo rola numa thread só. tanto as ações do usuário, quanto seus scripts.</p></li>
+
+<li><p>Quebre as tarefas em tardinhas: setTimeout, setImmediate, requestAnimationFrame, requestIdleCallback</p></li>
+
+<li><p>Use WebWorkers para coisas pesadas em background</p></li>
+
+<li><p>Performance é UX. O modelo de performance é focada nas ações e na experiência do usuário.</p></li>
+
+<li><p>Response em 100ms</p></li>
+
+<li><p>Animation em 16ms</p></li>
+
+<li><p>Idle em 50 ms</p></li>
+
+<li><p>Load em 1s</p></li>
+
+<li></li>
+</ul>
+
+    </div>
+  </article>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desenvolvimento Artigos Front End Javascript on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/desenvolvimento-artigos-front-end-javascript/</link>
+    <description>Recent content in Desenvolvimento Artigos Front End Javascript on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 06 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/desenvolvimento-artigos-front-end-javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linked Data e JSON-LD</title>
+      <link>https://diegoeis.com/linked-data-e-json-ld.html/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/linked-data-e-json-ld.html/</guid>
+      <description>Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. Organização da Informação na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.
+Hoje a internet é baseada basicamente em código HTML, onde nós podemos mostrar imagens, vídeos, audios e principalmente textos.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artigos on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/artigos/</link>
+    <description>Recent content in Artigos on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/artigos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Um pouco sobre a experiência de ir trabalhar sem carro</title>
+      <link>https://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html/</link>
+      <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html/</guid>
+      <description>Faz meses que tenho deixado o carro em casa e passado a usar transporte público para ir trabalhar. Não fiz isso por causa do valor que estou economizando por mês (que é bem pouco), mas por uma série de outros motivos.
+Desde o dia que eu deixei de usar o carro, consegui ler algo em torno de 22 livros. 2016 Reading Challenge     Diego has completed his goal of reading 9 books in 2016!</description>
+    </item>
+    
+    <item>
+      <title>Sobre traquejo social na internet</title>
+      <link>https://diegoeis.com/sobre-traquejo-social-na-internet.html/</link>
+      <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/sobre-traquejo-social-na-internet.html/</guid>
+      <description>Um dos meus primeiros erros quando iniciei na interwebs era conseguir me comunicar decentemente via texto. Eu me expressava errado, principalmente quando a frase era sarcástica ou irônica. Sempre me faltava timing ou na pior das hipóteses um emoticon, que talvez resolveria todo o problema. Com o tempo fui aprendendo e os maus entendidos foram desaparecendo. Mas esse problema ainda acontece com uma pancada de gente aí fora, desprotegidos, coitados, que digitam frases e mais frases com o maldito capslock travado e que leem mensagens no Facebook como se fosse a primeira página de algum jornal americano.</description>
+    </item>
+    
+  </channel>
+</rss>

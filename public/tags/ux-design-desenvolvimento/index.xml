@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ux Design Desenvolvimento on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/ux-design-desenvolvimento/</link>
+    <description>Recent content in Ux Design Desenvolvimento on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/ux-design-desenvolvimento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O nome UX está errado</title>
+      <link>https://diegoeis.com/o-nome-ux-esta-errado.html/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/o-nome-ux-esta-errado.html/</guid>
+      <description>O que é um profissional de UX? Se você for responder rápido, você vai dizer: “É o mano (ou a mana) que faz o Wireframe do projeto.” Essa resposta é no mínimo incompleta. O profissional de UX é responsável por muito mais que isso. O Wireframe é na verdade uma resposta representativa de todo um trabalho prévio de pesquisa, organização e garimpo de informação junto com usuários e clientes. Há uma preocupação muito forte com fluxo de conteúdo e principalmente fluxo de navegação, além de juntar especificar a função e comportamento do sistema.</description>
+    </item>
+    
+  </channel>
+</rss>

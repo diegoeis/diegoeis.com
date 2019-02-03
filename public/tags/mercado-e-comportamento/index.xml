@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mercado E Comportamento on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/mercado-e-comportamento/</link>
+    <description>Recent content in Mercado E Comportamento on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/mercado-e-comportamento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A comoditização do desenvolvimento web</title>
+      <link>https://diegoeis.com/comoditizacao-desenvolvimento-web/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/comoditizacao-desenvolvimento-web/</guid>
+      <description>Comodites são produtos cujo a qualidade ou características são parecidas ou iguais, e por isso a escolha não se baseia pela pelas características do produto, mas pelo preço e necessidade da pessoa/empresa. A Wikipedia dá um exemplo bem legal: ela compara o cobre com um sistema de som. Veja que o cobre é igual aqui e em qualquer lugar do mundo. Já um sistema de som tem milhares outros aspectos que levam você, consumidor, a comparar a qualidade entre dois produtos.</description>
+    </item>
+    
+  </channel>
+</rss>

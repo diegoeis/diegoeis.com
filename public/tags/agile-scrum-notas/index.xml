@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile Scrum Notas on Blog do Diego Eis</title>
+    <link>https://diegoeis.com/tags/agile-scrum-notas/</link>
+    <description>Recent content in Agile Scrum Notas on Blog do Diego Eis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://diegoeis.com/tags/agile-scrum-notas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dia 1 - CSM - ScrumAlliance - AdaptWorks</title>
+      <link>https://diegoeis.com/dia-1-csm-scrumalliance-adaptworks.html/</link>
+      <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://diegoeis.com/dia-1-csm-scrumalliance-adaptworks.html/</guid>
+      <description>Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo Alexandre Magno. Veja as anotações do segundo dia de curso.
+Dia 1  Todas as atitudes do Scrum Master são direcionadas com o jeito com que o time está trabalhando, e com o ambiente no qual estão fazendo isso Temos processos adequados para nossas pessoas tirarem o máximo de valor para clientes, stakeholders, etc? Foco em Processos e Pessoas.</description>
+    </item>
+    
+  </channel>
+</rss>
