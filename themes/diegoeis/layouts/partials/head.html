@@ -3,8 +3,7 @@
 
 <head>
 
-  {{ $style := resources.Get "all.sass" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link rel="stylesheet" href="all.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 
   <!-- Google Tag Manager -->
