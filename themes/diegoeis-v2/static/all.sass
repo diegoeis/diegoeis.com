@@ -3,7 +3,7 @@
 ////
 $yellow: #f9da18
 $roboto: Roboto, sans-serif
-
+$serif: Times New Roman, Times, Georgia, Serif
 *
   box-sizing: border-box
   padding: 0
@@ -31,6 +31,7 @@ p, li
 
 .eis-logo
   color: #000
+  float: left
   text-decoration: none
   font: 700 1em $roboto
 
@@ -68,6 +69,29 @@ p, li
   color: rgba(150, 150, 150, 1)
 
 
+.eis-social 
+  float: right
+
+.eis-social li
+  list-style: none
+  display: inline-block
+  vertical-align: middle
+  margin-left: 10px
+  opacity: 0.8
+
+
+.eis-social li:hover
+  opacity: 1
+
+
+.eis-social li a img,
+.eis-social li a svg
+  max-height: 20px
+
+
+.eis-social li a svg
+  max-height: 30px
+
 ////
 // SINGLE
 ////
@@ -95,22 +119,52 @@ p, li
     font-weight: 900
     padding: 100px 0 40px
 
-  p, li, ul
+  .eis-text 
+    img
+      max-width: 100%
+    h1
+      font-size: 2.5em
+      padding: 50px 0 20px
+
+    p
+      text-align: justify
+
+    blockquote
+      font: italic 1.5em $serif
+      padding: 30px
+      margin: 0 0 35px
+      max-width: 800px
+
+      p
+        margin: 0
+        padding: 0
+
+  p, li, ul, ol
     padding: 0 0 35px 0
     font-size: 1.18em
     line-height: 1.6
     color: #1a1a1a
     max-width: 800px
-    list-style-position: inside
 
   h2, h3, h4
     padding-bottom: 10px
     padding-top: 20px
 
   li
-    padding: 3px 0
+    padding: 3px 0 10px
+    font-size: .9em
+    margin-left: 20px
+
+hr
+  display: block
+  clear: both
+  margin: 10px 0 40px
+  padding: 0
+  border: none
+  border-top: 1px solid rgba(0, 0, 0, .1)
 
 @media screen and (max-width: 700px)
   body
     padding-left: 0
     font-size: 80%
+

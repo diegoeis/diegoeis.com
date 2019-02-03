@@ -1,13 +1,11 @@
 {{partial "head.html" . }}
 
-  <article class="eis-article">
-    <header>
+
+   {{partial "header.html"}}
+
+    <article class="de-article">
       <h1>{{.Title}}</h1>
-      <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
-    </header>
-
-    <div class="eis-text">
       {{.Content}}
-    </div>
-  </article>
+    </article>
 
+{{partial "footer.html"}}

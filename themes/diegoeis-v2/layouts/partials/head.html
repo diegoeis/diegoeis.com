@@ -2,8 +2,9 @@
 <html lang="{{ .Site.LanguageCode | default " pt-br " }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
-  
-  <link rel="stylesheet" href="/style.css?v3">
+
+  <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -48,7 +49,6 @@
   <meta name="twitter:title" content="{{.Title}}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
 
 </head>
 
@@ -58,3 +58,23 @@
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">diegoeis.com</a>
+  <ul class="eis-social">
+    <li>
+      <a href="http://twitter.com/diegoeis/" data-clicked="lnk-twitter" class="de-twitter"><img src="{{ .Site.BaseURL}}/images/twitter.png" alt="Logo do Twitter" title="Acesse o Twitter do Diego"></a>
+    </li>
+    <li>
+      <a href="https://medium.com/@diegoeis" class="de-medium" data-clicked="lnk-medium">
+        <svg class="svgIcon-use" width="45" height="45" viewBox="0 0 45 45">
+          <path d="M5 40V5h35v35H5zm8.56-12.627c0 .555-.027.687-.318 1.03l-2.457 2.985v.396h6.974v-.396l-2.456-2.985c-.291-.343-.344-.502-.344-1.03V18.42l6.127 13.364h.714l5.256-13.364v10.644c0 .29 0 .342-.185.528l-1.848 1.796v.396h9.19v-.396l-1.822-1.796c-.184-.186-.21-.238-.21-.528V15.937c0-.291.026-.344.21-.528l1.823-1.797v-.396h-6.471l-4.622 11.542-5.203-11.542h-6.79v.396l2.14 2.64c.239.292.291.37.291.768v10.353z"></path>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="http://diegoeis.com/index.xml" class="de-rssc" data-clicked="lnk-feed"><img src="{{ .Site.BaseURL}}/images/rss.png" alt="Logo do RSS" title="Acesse o RSS do {{ .Site.Title }}"></a>
+    </li>
+  </ul>
+</header>
