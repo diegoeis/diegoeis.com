@@ -1,7 +1,7 @@
 DefaultContentLanguage = "pt-br"
 title = "Blog do Diego Eis"
 baseURL = "https://diegoeis.com/"
-theme = "diegoeis"
+theme = "diegoeis-v2"
 
 # disqusShortname = "tableless"
 googleAnalytics = "UA-66489393-1"
@@ -23,4 +23,3 @@ disableLiveReload = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-
