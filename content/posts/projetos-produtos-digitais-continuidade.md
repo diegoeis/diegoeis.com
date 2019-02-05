@@ -1,10 +1,13 @@
 ---
 title: Projeto, Produtos Digitais e Continuidade
-date: 2019-01-07
+date: 2019-01-07 00:00:00 +0000
 image: https://cdn-images-1.medium.com/max/1000/0*MaMJvCANCNJUTQk_
-tags: product management, management, agile
----
+tags:
+- product management
+- " mangement"
+- agile
 
+---
 Eu já me fiz muitas vezes a pergunta sobre qual a diferença entre gestão de
 Projetos e gestão de Produtos Digitais. Acho que não existe uma resposta
 completa o suficiente e talvez cada um, de acordo com sua experiência, tem uma
