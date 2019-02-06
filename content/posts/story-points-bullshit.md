@@ -1,7 +1,9 @@
 ---
 title: Histórias menores são a resposta, Story Points são bullshit
 date: 2017-08-15
-tags: agile, product management, management
+tags:
+- agile, product management
+- management
 published: false
 ---
 

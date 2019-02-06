@@ -1,7 +1,8 @@
 ---
 title: Um comentário sobre a desnecessária fragmentação da profissão designer
 date: 2017-03-28
-tags: management
+tags:
+- management
 ---
 
 Eu estava pra escrever um artigo comentando como a pulverização do trabalho do
@@ -30,7 +31,8 @@ Memória**
 Eu nunca entendi a separação entre as disciplinas de UX e Visual Designer. Esse
 é até um assunto bastante sensível para alguns. Geralmente a galera não gosta de
 entrar em polêmica e acabam deixando discussões como essa para depois. Mas, na
-minha humilde opinião, UX nunca fez sentido. O nome UX é para mim [um nome muito
+minha humilde opinião
+- UX nunca fez sentido. O nome UX é para mim [um nome muito
 ruim](https://medium.com/tableless/o-nome-ux-estÃ¡-errado-8d5095a6755b), que dá
 a entender que a experiência do usuário é responsabilidade de apenas um
 profissional, o que é uma grande bobeira. Infelizmente esse nome fixou no
@@ -96,7 +98,8 @@ também a profissão isolada de UX não faz sentido nenhum.
 
 ### Publicado no Medium do [Tableless](https://medium.com/tableless?source=footer_card)
 
-Um lugar para ler e discutir sobre desenvolvimento, design, web semântica,
+Um lugar para ler e discutir sobre desenvolvimento
+- design, web semântica,
 back-end e outros assuntos relacionados a web. Se você quiser publicar artigos
 conosco, envie um email: medium[at]tableless.com.br ou *clique no link*
 [http://bit.ly/escreva-tableless-medium](http://bit.ly/escreva-tableless-medium)

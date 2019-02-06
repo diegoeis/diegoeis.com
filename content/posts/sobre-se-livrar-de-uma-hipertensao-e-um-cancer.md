@@ -1,7 +1,8 @@
 ---
 title: Sobre se livrar de uma hipertensão e um câncer
 date: 2014-11-09
-tags: saude
+tags:
+- saude
 ---
 
 ### O Cardiologista

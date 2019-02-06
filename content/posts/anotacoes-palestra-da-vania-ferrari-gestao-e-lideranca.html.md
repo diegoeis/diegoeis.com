@@ -1,7 +1,9 @@
 ---
 title: Anotações - Palestra da Vania Ferrari - Gestão e liderança
 date: 2015-12-09
-tags: notas, palestras
+tags:
+- notas
+- palestras
 ---
 Essas são as minhas anotações da palestra que a Vania Ferrari fez na Locaweb sobre gestão, liderança, tecnologia e mudanças de paradigmas na empresa.
 

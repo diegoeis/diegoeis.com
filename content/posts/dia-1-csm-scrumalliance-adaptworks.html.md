@@ -1,7 +1,10 @@
 ---
 title: Dia 1 - CSM - ScrumAlliance - AdaptWorks
 date: 2016-08-15
-tags: agile, scrum, notas
+tags:
+- agile
+- scrum
+- notas
 ---
 
 Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo [Alexandre Magno](https://twitter.com/axmagno). [Veja as anotações do segundo dia de curso](/dia-2-csm-scrumalliance-adaptworks.html).
@@ -101,10 +104,12 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - Essa é estrutura pra se desenvolver o mindset Agile
 
 ## Papéis 
-- A gestão de um projeto scrum é feita por três personagens: Product Owner, Scrum Master e Dev Team.
+- A gestão de um projeto scrum é feita por três personagens: Product Owner
+- scrum Master e Dev Team.
 - o Product Owner não se preocupa ou não em fazer gestão se preocupando se o objetivo da sprint vai ser alcançado, se as tarefas estão no prazo, quais os riscos da sprint. Ele vê o macro, vê o projeto, risco do produto.
 - O que for micro gestão, fica com o desenvolvimento Team. Quem tem que estar preocupado com os riscos da sprint é o dev Team, o prazo, entregas e etc.
-- PO é macro gestão, desenvolvimento Team é Micro Gestão. 
+- PO é macro gestão
+- desenvolvimento Team é Micro Gestão. 
 - Processos e Pessoas fica com o Scrum Master. Ele está preocupado todas as peculiaridades do time e do projeto, e propõem soluções para melhorar a produtividade do time
 - Scrum Master precisa ter pensamento de processo. Se está errado, é por que o processo está errado e não por que o time é ruim
 - Não é o time que é acomodado, é o processo que está falhando em aumentar o senso de urgência.
@@ -136,7 +141,8 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - Facilitador
 - Retirar impedimentos
 - Dar ao Product Owner processos que o ajudem a dar mais visibilidade do projeto
-- qualquer coisa relacionada aos processos, scrum e Agile, é o Scrum Master que precisa ensinar para os pares
+- qualquer coisa relacionada aos processos
+- scrum e Agile, é o Scrum Master que precisa ensinar para os pares
 
 ### Dev Team
 - gerencia tarefas. Isso significa que nas sprints é dia a dia, eles discute entre eles quem tem mais habilidade pra fazer cada tarefa

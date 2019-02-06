@@ -1,7 +1,10 @@
 ---
 title: Times disfuncionais - parte 2
 date: 2017-07-15
-tags: product management, management
+tags:
+- 
+- product management
+- management
 published: false
 ---
 
@@ -30,6 +33,8 @@ Além disso, quando há a criação de silos, esses grupos acabam virando "paste
 
 ---
 
-O time do produto tem que ser formado por todas as especialidades necessárias para que o produto seja incrementado e evoluído constantemente. Para tanto, o time precisa se organizar, tendo visibilidade de todas as partes em andamento no produto. No board - ou seja lá o que vocês estejam usando para organizar o fluxo de trabalho do seu produto - deve haver as tarefas de hack-end, front-end, design, QA e qualquer outro integrante com qualquer especialidade específica.
+O time do produto tem que ser formado por todas as especialidades necessárias para que o produto seja incrementado e evoluído constantemente. Para tanto, o time precisa se organizar, tendo visibilidade de todas as partes em andamento no produto. No board - ou seja lá o que vocês estejam usando para organizar o fluxo de trabalho do seu produto - deve haver as tarefas de hack-end
+- front-end
+- design, QA e qualquer outro integrante com qualquer especialidade específica.
 
 O que acontece geralmente é que o time de design ou de front, por algum motivo que na maioria das vezes eu desconheço (ou que não faz sentido algum) decide sentar junto, separado de todo o resto do time, tentando 

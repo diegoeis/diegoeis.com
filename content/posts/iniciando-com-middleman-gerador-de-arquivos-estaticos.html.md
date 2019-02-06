@@ -1,7 +1,10 @@
 ---
 title: Iniciando com Middleman - Gerador de arquivos estáticos
 date: 2014-07-04
-tags: desenvolvimento, middleman, front-end
+tags:
+- desenvolvimento
+- middleman
+- front-end
 ---
 
 O Middleman, assim como o [Jekyll](http://tableless.com.br/jekyll-servindo-sites-estaticos/), serve sites estáticos, sem banco de dados, baseados em puro código HTML e informação. Existem uma [série de sistemas](https://www.staticgen.com) desse tipo e é uma das minhas armas em muitos projetos.

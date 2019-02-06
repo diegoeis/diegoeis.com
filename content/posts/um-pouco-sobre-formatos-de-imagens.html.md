@@ -1,7 +1,9 @@
 ---
 title: Um pouco sobre formatos de imagens
 date: 2016-07-03
-tags: desenvolvimento, front-end
+tags:
+- desenvolvimento
+- front-end
 ---
 
 Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples, esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos, principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.

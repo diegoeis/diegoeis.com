@@ -1,7 +1,9 @@
 ---
 title: A comoditização do desenvolvimento web
 date: 2017-09-05
-tags: desenvolvimento web, front-end
+tags:
+- desenvolvimento web
+- front-end
 ---
 
 Comodites são produtos cujo a qualidade ou características são parecidas ou iguais, e por isso a escolha não se baseia pela qualidade ou pelas características do produto, mas pelo preço e necessidade da pessoa/empresa. A Wikipedia dá um [exemplo bem legal](https://pt.wikipedia.org/wiki/Commodity): ela compara o cobre com um sistema de som. Veja que o cobre é igual aqui e em qualquer lugar do mundo, suas características serão semelhantes. Já um sistema de som tem milhares outros aspectos que levam você, consumidor, a comparar a qualidade entre dois produtos. Você compra uma caixa de som da Apple ou da JBL? Qual a potência máxima das duas caixas? Qual o tamanho, a conectividade, interface, material usado, etc... Sacou a diferença? Comparar dois pedaços de cobre dá na mesma... Comparar dois produtos "já prontos", não. É por isso que as comodites tem preços regulados pelo mercado. O preço do barril de petróleo é o mesmo no mundo inteiro, já o preço das caixas de som, não.
@@ -34,7 +36,9 @@ Quanto mais comum uma necessidade se tornar, maior a possibilidade dessa necessi
 
 Outro ponto é que você tem mais chances de ganhar dinheiro, ter um cargo melhor, ter mais responsabilidade e ter mais sucesso profissional se estiver desenvolvendo soluções que estão mais pro lado direito superior do diagrama. 
 
-A cada dia que passa, design, front-end e back-end (esse último menos) se tornam cada vez mais comodites. O código HTML que você escreve não é muito diferente do código HTML que uma máquina pode escrever ou que os freelancers do Brasil (e do mundo) escrevem. É bastante comum agências de design venderem websites, onde eles fazem apenas o design do layout do projeto e terceirizam a parte de front-end e back-end. Tanto faz quem vai fazer o código front-end. Se todo mundo escreve o mesmo HTML, CSS e JS, qual a diferença para a agência entre escolher você ou outro front-end?
+A cada dia que passa
+- design
+- front-end e back-end (esse último menos) se tornam cada vez mais comodites. O código HTML que você escreve não é muito diferente do código HTML que uma máquina pode escrever ou que os freelancers do Brasil (e do mundo) escrevem. É bastante comum agências de design venderem websites, onde eles fazem apenas o design do layout do projeto e terceirizam a parte de front-end e back-end. Tanto faz quem vai fazer o código front-end. Se todo mundo escreve o mesmo HTML, CSS e JS, qual a diferença para a agência entre escolher você ou outro front-end?
 
 ## A comoditização é real e você não precisa se preocupar... ainda.
 Essa comoditização já é real desde muito tempo atrás e você não precisa se preocupar tanto assim. Empresas que fazem produtos, que tem sistemas complexos e altamente customizados sempre precisarão de profissionais capacitados para continuarem crescendo. Mesmo assim, o que você pode fazer para que seu trabalho tenha uma qualidade indiscutível?

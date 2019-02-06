@@ -1,10 +1,14 @@
 ---
 title: Mulheres na área de TI e Respeito
 date: 2017-09-05
-tags: front-end, desenvolvimento web, diversidade
+tags:
+- front-end
+- desenvolvimento web
+- diversidade
 ---
 
-Faz algum tempo que tenho me dedicado a não escrever tantos artigos técnicos. Se você perceber, tenho escrito cada vez menos artigos falando sobre linhas de código e mais artigos falando sobre comportamento, mercado e carreira. Tenho feito isso por vários motivos, mas o mais básico é que eu acho que o mercado precisa amadurecer em outros pontos que nada tem a ver com a parte técnica. 
+Faz algum tempo que tenho me dedicado a não escrever tantos artigos técnicos. Se você perceber, tenho escrito cada vez menos artigos falando sobre linhas de código e mais artigos falando sobre comportamento
+- mercado e carreira. Tenho feito isso por vários motivos, mas o mais básico é que eu acho que o mercado precisa amadurecer em outros pontos que nada tem a ver com a parte técnica. 
 
 Um desses pontos é o respeito pelo próximo, principalmente pelas mulheres. As mulheres nunca foram maioria nesse mundo de TI, isso é um fato. Desde o começo da minha carreira eu encontrei poucas mulheres nessa área e devo confessar que nunca me debrucei para entender os motivos. Sou homem, desligado, que nunca "sofreu" qualquer tipo de "opressão" e por isso não senti na pele as dificuldades que as mulheres (e outras minorias) enfrentam para chegar onde chegaram. 
 
@@ -25,7 +29,8 @@ Para finalizar esse rap, é interessante que você saiba e divulgue também as i
 
 
 ### Mulheres para seguir
-Algumas heroínas que você deveria seguir. Elas manjam MUITO sobre desenvolvimento web, sobre cultura feminina, mercado e carreira. 
+Algumas heroínas que você deveria seguir. Elas manjam MUITO sobre desenvolvimento web, sobre cultura feminina
+- mercado e carreira. 
 
 - [Talita Pagani](http://talitapagani.com/)
 - [Alda Rocha](https://mjcoffeeholick.github.io/)

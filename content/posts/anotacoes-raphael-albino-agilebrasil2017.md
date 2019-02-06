@@ -1,7 +1,9 @@
 ---
 title: Como dosar métricas de produto e processo em equipes que trabalham com soluções digitais?
 date: 2017-09-15
-tags: notas, agile
+tags:
+- notas
+- agile
 ---
 
 [Raphael Albino](http://twitter.com/rapha_albino) é consultor na Plataformatec e ele falou sobre Métricas de Produtos e Métricas Ágeis de um modo mais científico, colocando em pauta a eficiência, eficácia, monitoração das métricas e indicadores afim de alcançarmos os objetivos de negócio sem esquecer de suprir as necessidades do cliente;

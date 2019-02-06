@@ -1,7 +1,10 @@
 ---
 title: Performance Web - Rail
 date: 2016-06-26
-tags: notas, performance, front-end
+tags:
+- notas
+- performance
+- front-end
 ---
 
 Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.

@@ -1,7 +1,9 @@
 ---
 title: Sobre engajamento e churn
 date: 2018-04-06
-tags: management, product management, design
+tags:
+- management, product management
+- design
 ---
 
 Churn é uma métrica tão comum no mundo dos produtos digitais que ao usá-la, nós nem paramos para pensar direito nas suas variações. 
@@ -14,7 +16,8 @@ Essa resposta vale muito bem para produtos SaaS, onde clientes pagam para contin
 
 Até aqui eu acho que todo mundo fica na mesma página. Mas e se seu produto é um produto freemium, onde você pode usá-lo de forma limitada, sem pagar mensalidade, como é o churn é calculado? Ou, como no exemplo da Easynvest, onde o usuário entra no produto, investe, e depois não investe mais, mas continua usando o produto frequentemente para acompanhar seus investimentos?
 
-Eu acho que podemos dizer que o churn é muito mais do que o turnover de usuários de um produto, certo? Há vários cenários onde você, como Product Manager, juntamente com outras equipes (stakeholders, atendimento, marketing) podem definir quando tratar um usuário como churn.
+Eu acho que podemos dizer que o churn é muito mais do que o turnover de usuários de um produto, certo? Há vários cenários onde você, como Product Manager, juntamente com outras equipes (stakeholders, atendimento
+- marketing) podem definir quando tratar um usuário como churn.
 
 Nós podemos considerar níveis de churn a partir do momento que o usuário deixa de fazer determinadas ações no seu produto. Tarefas essas que trazem valor para a empresa, tanto de receita quanto de engajamento (tarefas que levem o usuário a usar com mais recorrência seu produto).
 

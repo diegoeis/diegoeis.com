@@ -1,12 +1,15 @@
 ---
 title: Sobre prazos e produtividade
 date: 2016-04-17
-tags: agile, desenvolvimento
+tags:
+- agile
+- desenvolvimento
 ---
 
 Você já percebeu que cumprir prazos em projetos de web é praticamente impossível? Nunca vi ninguém entregando tudo o que combinou no prazo final. Sempre falta alguma coisa, um teste, uma feature, algo que ninguém conseguiu prever. O problema é que isso pode estar se tornando um problema crônico dentro das empresas, principalmente em empresas onde as equipes não tem um processo bem formado, onde a comunicação é difícil.
 
-Talvez a solução e o início do problema esteja nas trincheiras. Seja designer, front-end ou back-end, a maioria deles não sabe estimar. Todos eles acham que estimar é acertar a data exata de quando eles entregarão as tarefas e fecharão o ciclo principal de desenvolvimento. Estimar não significa isso, pelo contrário. Se o problema está aqui nas trincheiras, a solução também pode estar, por que são os integrantes do time que devem definir as datas. Claro, essa data pode ser revista e afinada com o P.O., sempre que necessário. Mas quem deve dizer se uma data é impossível ou não são os desenvolvedores.
+Talvez a solução e o início do problema esteja nas trincheiras. Seja designer
+- front-end ou back-end, a maioria deles não sabe estimar. Todos eles acham que estimar é acertar a data exata de quando eles entregarão as tarefas e fecharão o ciclo principal de desenvolvimento. Estimar não significa isso, pelo contrário. Se o problema está aqui nas trincheiras, a solução também pode estar, por que são os integrantes do time que devem definir as datas. Claro, essa data pode ser revista e afinada com o P.O., sempre que necessário. Mas quem deve dizer se uma data é impossível ou não são os desenvolvedores.
 
 > _Estimar é opinar a respeito de algo de que não se tem certeza._
 

@@ -1,7 +1,8 @@
 ---
 title: Review de Livro - Andróides Sonham com Ovelhas Elétricas
 date: 2016-04-27
-tags: reviews, livros
+tags:
+- reviews, livros
 ---
 
 O começo do livro já mostra o quão longe um autor de ficção científica pode ir. Imagina você criar uma ovelha. Agora imagina você criar uma ovelha elétrica. Imagina você ter um sintetizador que controla seu humor, onde você  sintoniza o canal de um humor específico e aquilo te influência de forma direta, te fazendo sentir feliz, ou realizado com o trabalho, ou com vontade de obedecer as ordens da esposa, etc etc etc... esse é o início do Andróides Sonham com Ovelhas Elétricas?.

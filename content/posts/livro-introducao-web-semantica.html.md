@@ -2,7 +2,9 @@
 type: post
 title: Livro Introdução à Web Semântica
 date: 2017-09-17
-tags: Web Semântica, HTML, front-end
+tags:
+- Web Semântica, HTML
+- front-end
 ---
 
 Por que precisamos da Web Semântica? A Web de hoje não é suficiente? Estamos caminhando para uma Web com dados cada vez mais relacionados e abertos. A Web Semântica é uma extensão da nossa web atual, em que nós não vamos apenas ler e produzir conteúdo, mas usar as máquinas para relacionar e reutilizar essas informações da melhor maneira possível. Ela se baseia na ideia de que o conteúdo deve ter uma descrição digital, padronizada por vocabulários, que provê meios para as máquinas entenderem do que aquilo se trata, de modo que os computadores possam interpretar, gerar e distribuir conteúdo útil, de acordo com as necessidades dos usuários.
@@ -23,7 +25,8 @@ Espero que o livro ajude vários desenvolvedores a entenderem um pouco mais sobr
 Se você já leu o livro, por favor, [faça um review ou dê sua nota (estrelinhas) lá no GoodReads](http://bit.ly/livro-web-semantica-goodreads)!
 
 ## Guia Front-end
-Eu já escrevi um livro anterior, onde tento mostrar as tecnologias importantes para uma pessoa iniciar na área de front-end. Geralmente um iniciante na área tem dúvidas, falta de tempo, tecnologias, mercado, mais dúvidas. Será que existe um verdadeiro caminho das pedras que devemos percorrer para nos tornarmos bons e verdadeiros desenvolvedores front-end? O que estudar? Qual blog ler? Que fóruns acompanhar? Como participar da comunidade? Será que estou no caminho certo?
+Eu já escrevi um livro anterior, onde tento mostrar as tecnologias importantes para uma pessoa iniciar na área de front-end. Geralmente um iniciante na área tem dúvidas, falta de tempo, tecnologias
+- mercado, mais dúvidas. Será que existe um verdadeiro caminho das pedras que devemos percorrer para nos tornarmos bons e verdadeiros desenvolvedores front-end? O que estudar? Qual blog ler? Que fóruns acompanhar? Como participar da comunidade? Será que estou no caminho certo?
 
 Se você é desenvolvedor front-end, quer entrar na área ou busca se tornar um grande profissional, essas dúvidas já devem ter passado por sua cabeça.
 

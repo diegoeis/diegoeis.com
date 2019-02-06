@@ -1,7 +1,9 @@
 ---
 title: Otimização Prematura - a raíz de Todo o Mal
 date: 2016-06-22
-tags: notas, desenvolvimento
+tags:
+- notas
+- desenvolvimento
 ---
 
 Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.
@@ -16,7 +18,8 @@ Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaw
 - Custo mínimo de TI:
   - USD 1000 - Cloud
   - USD 3000 - 1 Developer
-  - USD 4000 - 1 Responsável (manager, marketing, etc)
+  - USD 4000 - 1 Responsável (manager
+- marketing, etc)
   - Você tem que estar preparado para gastar por volta de USD96.000. Este é o mínimo.
 - Você precisa ganhar algo em torno de 2 milhões de dólares no ano para o custo de TI precisa ficar por volta de 5%.
 - Não tente diminuir custo, tente aumentar a receita.

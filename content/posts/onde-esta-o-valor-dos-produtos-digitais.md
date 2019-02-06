@@ -2,7 +2,9 @@
 title: Onde está o valor nos produtos digitais?
 date: 2018-12-09
 image: https://cdn-images-1.medium.com/max/1000/0*oX_Ise6TEyTBD79z
-tags: books, read
+tags:
+- books
+- read
 ---
 
 
@@ -25,7 +27,7 @@ solução.
 O marketing passou por várias mudanças em processos, fundamentos e suas
 proposições até chegar no que é hoje.
 
-Entre **1800–1920 **era a época em que o valor se encontrava em possuir coisas.
+Entre **1800–1920** era a época em que o valor se encontrava em possuir coisas.
 A medição do status e também da riqueza era medida pela aquisição de coisas
 tangíveis, por assim dizer.
 
@@ -42,7 +44,8 @@ valor perante os concorrentes.
 
 A partir de **1950** o marketing se modificou um pouco e passou a focar suas
 decisões nas necessidades e desejos dos usuários. Por isso, os pontos de
-esforços das empresas como vendas, propaganda, gestão de produtos, precificação
+esforços das empresas como vendas, propaganda
+- gestão de produtos, precificação
 e distribuição eram focados em sanar as necessidades e desejos dos clientes.
 Muito por isso, pesquisas, análises e entrevistas de campo ficaram mais comuns,
 exatamente para tentar entender o comportamento das pessoas perante o produto
@@ -132,7 +135,8 @@ importante de se resolver, que tem uma série de caminhos fáceis e difíceis.
 Muito por isso patinetes, bicicletas, carros compartilhados e outras
 alternativas estão nascendo.
 
-Esse é mais um motivo pelo qual os devs, UX, PMs e todos os profissionais que
+Esse é mais um motivo pelo qual os devs
+- UX, PMs e todos os profissionais que
 criam produtos digitais devem colocar o usuário em primeiro lugar, analisando
 bem seu comportamento e formas de uso do serviço. Entender suas necessidades
 deixa de ser só um lema bonito e passa a ser obrigatório. Essa é a diferença

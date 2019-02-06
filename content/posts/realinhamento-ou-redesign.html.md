@@ -1,7 +1,10 @@
 ---
 title: Realinhamento ou Redesign?
 date: 2015-04-15
-tags: design, ux, desenvolvimento
+tags:
+- design
+- UX
+- desenvolvimento
 ---
 
 Como usuário, quando um bom design é feito, eu percebo menos os problemas em funcionalidades. Parece que eu fico mais tolerante porque percebo, pelo design e pela usabilidade do produto, que existe um apresso pela qualidade. Por causa desse sentimento de constante mudança, eu entendo que uma funcionalidade não vai ficar muito tempo com defeito ou incompleta. Esse tipo de sentimento não é perceptível em testes reais com os usuários. Uma das melhores formas para entender como o usuário “funciona” é prestando atenção em você mesmo, em como você usa seus aplicativos prediletos, websites e serviços.

@@ -1,14 +1,17 @@
 ---
 title: Sobre organizar equipes
 date: 2015-10-19
-tags: agile, gestão
+tags:
+- agile
+- gestão
 ---
 
 ### Sobre organizar equipes
 
 Não existem muitas maneiras de organizar um time de desenvolvimento, eu posso citar basicamente duas: ou você agrupa os integrantes de acordo com suas funções, formando os famosos times “funcionais” (ou silos), ou você organiza os times agrupando os integrantes que tenham funções diferentes, formando times multifuncionais.
 
-Faz quase 4 anos que eu trabalho em uma empresa que tem muitos produtos. Cada projeto tem um P.O (Product Owner), seguido de um time de desenvolvedores back-end. As pessoas que fazem UX, Front-end e QA forma times funcionais, recebendo e entregando demandas específicas para os projetos. Mas desde ontem decidimos mudar: o time de front-end está se dividindo e por isso cada integrante do time está indo fazer parte dos times dos projetos. É o primeiro passo para criarmos uma organização com times multifuncionais.
+Faz quase 4 anos que eu trabalho em uma empresa que tem muitos produtos. Cada projeto tem um P.O (Product Owner), seguido de um time de desenvolvedores back-end. As pessoas que fazem UX
+- front-end e QA forma times funcionais, recebendo e entregando demandas específicas para os projetos. Mas desde ontem decidimos mudar: o time de front-end está se dividindo e por isso cada integrante do time está indo fazer parte dos times dos projetos. É o primeiro passo para criarmos uma organização com times multifuncionais.
 
 Isso quer dizer que eu deixo de ser coordenador de um time específico de front-end e inicio uma nova jornada sendo coordenador de um time de desenvolvimento multifuncional.
 

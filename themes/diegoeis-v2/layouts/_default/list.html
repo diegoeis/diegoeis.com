@@ -1,0 +1,12 @@
+{{partial "head.html" . }}
+
+<ul class="eis-list-post">
+{{ range .Data.Pages}}
+  <li>
+    <a href="{{.Permalink}}" class="de-post-lnk">
+      <h1>{{.Title}}</h1>
+      <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+    </a>
+  </li>
+{{end}}
+</ul>

@@ -1,7 +1,10 @@
 ---
 title: Dia 2 - CSM - ScrumAlliance - AdaptWorks
 date: 2016-08-16
-tags: notas, agile, scrum
+tags:
+- notas
+- agile
+- scrum
 ---
 
 Anotações do segundo dia do treinamento CSM feito na AdaptWorks. As [anotações do dia 1 está aqui](/csm-scrumalliance-adaptworks-dia-1.html).

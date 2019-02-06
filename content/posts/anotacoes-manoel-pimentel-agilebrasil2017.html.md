@@ -1,7 +1,9 @@
 ---
 title: Anotações - Como não ficar careca em Agile Transformations
 date: 2017-09-15
-tags: notas, agile
+tags:
+- notas
+- agile
 ---
 
 Manoel Pimentel é uma figura muito conhecida na comunidade ágil brasileira e ele foi o Keynote do primeiro dia do Agile Brazil 2017, falando sobre como não aplicarmos o Ágil nas nossas empresas de forma decorativa, onde nós estamos sempre nos focando no que não é essencial, perdendo o que realmente importa na aplicação do Ágil no dia a dia.

@@ -1,7 +1,8 @@
 ---
 title: Lançamento App Easynvest
 date: 2017-05-14
-tags: management
+tags:
+- management
 ---
 
 Saiu o novo App da Easynvest! :-D
@@ -33,7 +34,8 @@ Além disso, você consegue definir filtros para cada um desses tipos de investi
 ## Parte técnica
 O aplicativo para as duas plataformas foram feitas de forma nativa. A interface inteira foi feita do zero, para que tenhamos uma uniformidade de interface e comunicação visual entre as plataformas mobile e web. Geralmente a galera segue os styleguides de interface das respectivas plataformas. A vantagem disso é não se distanciar muito do uso que o usuário tem com a interface do próprio smartphone que ele está usando. O problema é que manter esse styleguide padrão do SO dos smartphones, descaracteriza a interface que tínhamos em mente. Daí a nossa decisão de fazer tudo do zero.
 
-Separamos o app em duas fases: cadastro e parte logada. Em cada uma dessas partes a equipe era formada por devs ios, devs android, designers e programadores back-end. Tivemos algo em torno de 10 a 15 pessoas participando de todo o desenvolvimento.  Além do trabalho nativo dos apps, nós aproveitamos para iniciar uma mudança drástica nos nossos serviços back-end. Uma revolução gigante que vai nos dar flexibilidade num futuro bem próximo.
+Separamos o app em duas fases: cadastro e parte logada. Em cada uma dessas partes a equipe era formada por devs ios, devs android
+- designers e programadores back-end. Tivemos algo em torno de 10 a 15 pessoas participando de todo o desenvolvimento.  Além do trabalho nativo dos apps, nós aproveitamos para iniciar uma mudança drástica nos nossos serviços back-end. Uma revolução gigante que vai nos dar flexibilidade num futuro bem próximo.
 
 ![](http://imgur.com/wRWHnjI.jpg)
 

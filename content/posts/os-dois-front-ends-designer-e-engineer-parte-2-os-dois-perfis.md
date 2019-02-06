@@ -2,7 +2,11 @@
 title: "Os dois front-ends: designer e engineer — Parte 2: Os dois perfis"
 date: 2018-06-11
 image: https://cdn-images-1.medium.com/max/1000/0*arM5YJLQAlOFVtBU
-tags: front-end, client-side, carreira, development
+tags:
+- front-end
+- client-side
+- carreira
+- development
 ---
 
 Pessoas diferentes para momentos diferentes no processo de desenvolvimento.
@@ -60,8 +64,12 @@ deve saber.*
 O front-end designer é um perfil que vai manjar muito da parte técnica de CSS,
 HTML e Javascript para manipulação de interface.
 
-> A front-end designer (who may also go by UI developer, client-side developer, UI
-> engineer, design engineer, front-end architect, designer/developer, prototyper,
+> A front-end designer (who may also go by UI developer
+- client-side developer, UI
+> engineer
+- design engineer
+- front-end architect
+- designer/developer, prototyper,
 unicorn, or Bo Jackson) lives in a sort of purgatory between worlds. — **Brad
 Frost**
 
@@ -72,7 +80,8 @@ componentes, **mas ele não vai querer escrever código JS a nível de aplicaç�
 muito menos código back-end, contudo, ele sabe como as coisas funcionam debaixo
 do capo.**
 
-Ele define junto com os designers padrões de uso de componentes, design systems,
+Ele define junto com os designers padrões de uso de componentes
+- design systems,
 padronização visual e de comportamentos se estabelecendo assim **como a parte
 técnica de código do designer.**
 

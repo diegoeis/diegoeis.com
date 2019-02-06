@@ -1,7 +1,10 @@
 ---
 title: Anotações - Palestra do Jean Carlo Emer - Aplicações Web com React
 date: 2016-04-07
-tags: notas, palestras, javascript
+tags:
+- notas
+- palestras
+- javascript
 ---
 
 O que consegui anotar da palestra do Jean Carlo Emer sobre Aplicações React no 18 Encontro Locaweb em Belo Horizonte o dia 07/04/2016.

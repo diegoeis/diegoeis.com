@@ -1,7 +1,8 @@
 ---
 title: Introdução bem rápida sobre vim
 date: 2017-02-01
-tags: desenvolvimento
+tags:
+- desenvolvimento
 ---
 
 O **vim** é um editor de texto muito conhecido no mundo Linux. Embora conheça faz tempo, eu nunca o utilizei exatamente por que a curva de aprendizado é terrivelmente longa. Aposto que você conhece alguém que já ficou preso no vim quando foi editar um arquivo no servidor e nem sabia como salvar e sair do arquivo. Normal quando se está começando e nem tem ideia de como o vim funciona.

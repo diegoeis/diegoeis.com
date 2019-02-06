@@ -1,7 +1,9 @@
 ---
 title: Planejando as priorizações de um produto
 date: 2017-12-03
-tags: management, agile
+tags:
+- management
+- agile
 ---
 
 Como na maioria dos lugares, o dia a dia dos times de produtos são quase iguais: o time segue alguma metodologia ágil onde há algumas cerimônias e definições de quais tarefas serão desenvolvidas. Essa visão mais micro é uma derivação de uma visão um pouco mais estratégica que veio de um planejamento anterior, que geralmente está (ou pelo menos deveria) ligado com a estratégia da empresa. 

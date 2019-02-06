@@ -2,7 +2,10 @@
 title: Marketing das corretoras é bom, mas não basta. Comentário.
 date: 2018-09-27
 image: https://cdn-images-1.medium.com/max/1000/1*IeDqiDj2KVVMNsNk3nDiWQ.png
-tags: product management, digital product, marketing
+tags:
+- product management
+- digital product
+- marketing
 ---
 
 Tecnologia, user experience e conhecimento do comportamento digital do usuário. Estão aí três coisas que as corretoras não estão prestando atenção.

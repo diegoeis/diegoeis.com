@@ -1,17 +1,21 @@
 ---
 title: O fim da profissão front-end
 date: 2017-03-19
-tags: front-end, management
+tags:
+- front-end
+- management
 ---
 
-O processo de desenvolvimento web podem se dividir em três categorias: design, front-end e back-end. Na minha opinião, a categoria que tem mais processos manuais e repetitivos é sem duvida o front-end.
+O processo de desenvolvimento web podem se dividir em três categorias: design
+- front-end e back-end. Na minha opinião, a categoria que tem mais processos manuais e repetitivos é sem duvida o front-end.
 
 Pare pra pensar: o core do trabalho do front-end se resume em duas partes:
 
 - **implementação do layout**: produção da primeira camada de código, onde replicamos o layout criado em algum programa gráfico, para código estático em HTML, CSS e JS.
 - **integração com API**: depois (ou junto, tanto faz) de feito o código estático, a interface é integrada com a API, que geralmente carrega boa parte da lógica, já que essa mesma API é usada para alimentar outras plataformas como mobile, robôs etc.
 
-As outras "responsabilidades" que orbitam em volta do front-end como acessibilidade, SEO, performance, compatibilidade entre browsers, código semântico, entre outras coisas que você pode julgar serem de responsabilidade de um front-end **são um mero apetrecho**. Elas podem existir ou não em um projeto. Mas um projeto não sobrevive sem o código front-end do layout e sem o conteúdo integrado à interface.
+As outras "responsabilidades" que orbitam em volta do front-end como acessibilidade, SEO
+- performance, compatibilidade entre browsers, código semântico, entre outras coisas que você pode julgar serem de responsabilidade de um front-end **são um mero apetrecho**. Elas podem existir ou não em um projeto. Mas um projeto não sobrevive sem o código front-end do layout e sem o conteúdo integrado à interface.
 
 Existem uma série de tarefas manuais que nós delegamos para ferramentas criadas afim de economizar parte do nosso tempo evitando a execução de tarefas repetitivas, automatizando o workflow do front-end. Só para citar algumas:
 
@@ -58,7 +62,8 @@ O ponto aqui é: nós só precisamos criar o layout uma vez, usando o programa d
 ## Código bonito não é importante
 Desde sempre os front-ends escrotizavam o código que era gerado automaticamente por programas como o Dreamweaver. Eles tinham uma razão pra isso: o código era completamente horrível. Era um tempo onde a conexão com a internet era precária e tudo o que pudéssemos fazer para melhorar o carregado do site, nós fazíamos. O código gerado por programas Wysiwyg tinha várias problemas: era difícil de ler, não havia semântica alguma, continha código inútil e muitas vezes não era compatível com todos os browsers. Tudo isso fazia com que o código limpo, semântico, enxuto e acessível tivesse um valor inestimável.
 
-Código limpo era sinônimo de bom ranking no Google, boa compatibilidade entre os browsers, performance de carregamento garantida, produtividade entre os membros do time por causa da legibilidade do código, facilidade de manutenção etc etc etc.
+Código limpo era sinônimo de bom ranking no Google, boa compatibilidade entre os browsers
+- performance de carregamento garantida, produtividade entre os membros do time por causa da legibilidade do código, facilidade de manutenção etc etc etc.
 
 Hoje, boa parte desses problemas foram resolvidos:
 - os browsers tem uma ótima complacência com os padrões web, extinguindo a maioria dos problemas de compatibilidade de layout;
@@ -150,6 +155,7 @@ Minha outra aposta é sobre a profissão de UX, que vai desaparecer não porque 
 - [Top 10 Templating Engines for JavaScript To Improve and Simplify Your Workflow 2017](https://colorlib.com/wp/top-templating-engines-for-javascript/)
 - [Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
 - [Javascript State of the Union 2015, parte 3](https://medium.com/@caiovaccaro/javascript-state-of-the-union-2015-parte-3-281aa04bece1#.bulta9j6j)
-- [Slides - Javascript State of the Union 2015](https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015)
+- [Slides 
+- javascript State of the Union 2015](https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015)
 - [The State of Front-End Tooling 2016 - Results](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results)
 - [Front-end Roles and Responsibilities](https://hackernoon.com/front-end-roles-and-responsibilities-6ee8654f1649#.gsg5zdjtr)

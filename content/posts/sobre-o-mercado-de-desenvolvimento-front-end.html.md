@@ -1,7 +1,8 @@
 ---
 title: Sobre o mercado de desenvolvimento front-end
 date: 2014-03-25
-tags: desenvolvimento
+tags:
+- desenvolvimento
 ---
 
 Você já deve ter notado que o mercado cresceu demais nos últimos anos. De repente, codificar HTML virou a coisa mais importante do mundo e saber JavaScript transforma você automaticamente em um rockstar.

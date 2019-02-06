@@ -1,7 +1,8 @@
 ---
 title: GitHub Game Off
 date: 2017-10-30
-tags: javascript
+tags:
+- javascript
 ---
 
 O 5º aniversário de jogo anual organizado pela GitHub está de volta e está comemorando o código aberto. Claro, não podia ser diferente.

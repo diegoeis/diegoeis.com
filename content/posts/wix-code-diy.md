@@ -1,7 +1,9 @@
 ---
 title: Websites para as massas
 date: 2017-09-05
-tags: front-end, desenvolvimento web
+tags:
+- front-end
+- desenvolvimento web
 ---
 
 Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualquer um precisa de uma presença online na internet. É isso que as redes sociais fazem para a grande maioria das pessoas do mundo: cedem um espaço para que você tenha uma presença online. Mas para empresas e profissionais, um espaço na internet significa ter um website, customizado, com a sua cara, seu logo, seu texto, suas fotos, falando sobre o seu trabalho. 
@@ -9,7 +11,8 @@ Todo mundo precisa de um website, fato. Seja um individuo ou uma empresa, qualqu
 Para essa fatia do mercado, ter um website customizado é caro. Além disso, os profissionais que essa fatia de mercado geralmente encontra são aqueles picaretas que prometem um website bonito e barato, mas somem no meio do caminho. Já tive dezenas de cliente que me procuraram exatamente porque o dev que estava fazendo seus projetos simplesmente sumiu ou falou que pegou outro projeto e desistiu, entre outras desculpas. Para esses clientes, é difícil encontrar um profissional barato, responsável e que faça o trabalho decentemente. É aí que entra o sistemas de DIY, que lhe permitem [criar site grátis](http://bit.ly/wix-tableless-pt), como o Wix: sistemas de Site Builder unem a facilidade de ter um site customizado, bonito, com todas as funcionalidades necessárias para controlar e publicar um site, com o preço que essa fatia de mercado tanto precisa: grátis ou perto disso.
 
 ## Um orçamento simples
-Vamos falar a verdade: quanto você cobraria pra fazer um site para um cabeleireiro hoje? Um projeto completo: Design, front-end e back-end. O cliente tem que conseguir mudar o conteúdo, criar ou apagar páginas... Além de uma galeria de fotos e página com formulário de contato?
+Vamos falar a verdade: quanto você cobraria pra fazer um site para um cabeleireiro hoje? Um projeto completo: Design
+- front-end e back-end. O cliente tem que conseguir mudar o conteúdo, criar ou apagar páginas... Além de uma galeria de fotos e página com formulário de contato?
 Chuto, de acordo com os projetos que fiz anteriormente, okay?
 
 - **Design**: de R$4.000,00 a R$8.500,00. Dado que não sou designer, vou ter que contratar um. Depende da qualidade do design. Eu nunca consegui encontrar um designer que faça algo bonitão por menos de R$3.500,00... 

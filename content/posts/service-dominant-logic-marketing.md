@@ -1,7 +1,9 @@
 ---
 title: Você conhece Service Dominant Logic ou S-D Logic?
 date: 2018-03-05
-tags: management, product management, sdlogic, marketing
+tags:
+- management, product management, sdlogic
+- marketing
 ---
 
 ## Focar no serviço em vez do produto
@@ -102,8 +104,11 @@ direcionado para uma visão onde o marketing faz parte de um processo social e
 econômico, onde o resultado financeiro não é um fim, mas faz parte de um teste
 contínuo de hipóteses sobre a proposição de valor do produto. Essa forma de
 pensar, unifica uma vários pensamentos divididos em uma série de explicações
-sobre marketing de serviços, marketing de relacionamento, gestão de qualidade e
-valor, gestão de recursos e também análise de rede.
+sobre marketing de serviços
+- marketing de relacionamento
+- gestão de qualidade e
+valor
+- gestão de recursos e também análise de rede.
 
 ## O bem não é mais o fim
 

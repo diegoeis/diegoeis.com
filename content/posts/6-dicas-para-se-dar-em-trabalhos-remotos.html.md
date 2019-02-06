@@ -1,7 +1,8 @@
 ---
 title: 6 dicas para se dar em trabalhos remotos
 date: 2014-10-04
-tags: desenvolvimento
+tags:
+- desenvolvimento
 ---
 
 Ao contrário do que muitos acham, trabalho remoto (ou até um projeto freelancer) não é algo fácil. Eu sei que é o sonho de todo mundo ficar em casa, organizar o seu próprio horário para ir ao parque (cinema, praia, sítio, bar, prostíbulo etc etc etc) enquanto todo mundo se mata em um escritório.

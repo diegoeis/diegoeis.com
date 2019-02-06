@@ -1,7 +1,9 @@
 ---
 title: UX - reação é melhor que previsão
 date: 2016-12-22
-tags: ux, design
+tags:
+- ux
+- design
 ---
 
 Entender o usuário é algo difícil. Você pode perceber isso facilmente comparando a sua forma de usar algum serviço de internet, digamos o Facebook, com qualquer outra pessoa ao seu redor. Provavelmente você tem um costume totalmente diferente de navegar, consumir conteúdo, comentar etc. Pessoas diferentes, usam de formas diferentes um mesmo produto e isso é totalmente normal. É por isso que tentar prever cenários para desenvolver um produto para internet é algo complicado.
@@ -27,7 +29,8 @@ Planejar grandes mudanças de uma vez é furada. Qualquer um sabe disso. Mudanç
 
 Eu sei que é difícil para um UX pensar dessa forma. A maioria dos UXzes que eu já trabalhei prefere pensar na funcionalidade por inteiro. Eles têm a falsa impressão de que entregar algo pequeno, mesmo que seja funcional, é o mesmo que entregar algo incompleto. Não entra na cabeça deles entregar um pedacinho em vez da obra completa. Eles podem fazer um pedaço pequeno, porém essencial da funcionalidade, medir o comportamento do usuário e aí sim tomar a decisão de qual será o próximo passo. Transformação e adaptação é o nome do jogo.
 
-Em um dos últimos projetos em que trabalhei, havia um UX com esse perfil mais antiquado. Deixamos de entregar mudanças importantes de interface do painel do usuário, por que o UX queria fazer um estudo para mudar a ordem das opções no menu (!). Ele ligou para vários clientes e agendou um dia de "bate papo" com eles. Se preparou dias, movimentou P.O., marketing, outros UXzes... Comprou comida, agendou sala. Ninguém apareceu. Final da história: o time de desenvolvimento ficou 4 meses com a nova versão da interface no forno e o usuário não recebeu uma grande melhoria no seu produto, tudo por conta de uma simples mudança no menu.
+Em um dos últimos projetos em que trabalhei, havia um UX com esse perfil mais antiquado. Deixamos de entregar mudanças importantes de interface do painel do usuário, por que o UX queria fazer um estudo para mudar a ordem das opções no menu (!). Ele ligou para vários clientes e agendou um dia de "bate papo" com eles. Se preparou dias, movimentou P.O.
+- marketing, outros UXzes... Comprou comida, agendou sala. Ninguém apareceu. Final da história: o time de desenvolvimento ficou 4 meses com a nova versão da interface no forno e o usuário não recebeu uma grande melhoria no seu produto, tudo por conta de uma simples mudança no menu.
 
 O que poderia ter sido feito: era possível ter subido a nova interface, com vários triggers para mapear o comportamento do usuário, recolhendo dados importantes, tentando descobrir quais os problemas do menu atual e planejando as possíveis soluções da próxima versão, entregando de forma incremental as novas features. Poderíamos ter feito análises do comportamento do usuário usando ferramentas como o Hotjar e sistemas similares que gravam o movimento e as ações do mouse do usuário na interface do produto. Meia hora assistindo esses vídeos já nos trariam respostas realmente importantes sobre o que é necessário modificar no menu ou em qualquer outra parte da interface.
 

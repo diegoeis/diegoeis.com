@@ -1,7 +1,8 @@
 ---
 title: Review de Livro - TED Talks - O Guia Oficial do TED para falar em Publico
 date: 2016-10-21
-tags: notas, reviews, livros
+tags:
+- notas, reviews, livros
 ---
 
 Ganhei do [Pablo Silva](http://twitter.com/phsilbr) o livro **TED Talks: O Guia Oficial do TED para falar em público**. Aqui segue minhas anotações do livro. Não anotei tudo, exatamente se não fica sendo um spoiler gigante. Mas tem um resumo no [Four Minutes Books](http://fourminutebooks.com/talk-like-ted-summary/). ;-)

@@ -1,7 +1,9 @@
 ---
 title: 3 coisas que um Product Manager não deve fazer
 date: 2017-09-05
-tags: product management, management
+tags:
+- product management
+- management
 ---
 
 Ser um Product Manager é chato. Muita gente acha que existe um glamour em ser a pessoa por trás do produto e é isso que seduz muita gente desavisada. O ponto é: não existe só uma pessoa por trás de um produto, mas um time inteiro. Logo, alguns PMs insistem em cair nas armadilhas da vida. Separei 3 coisas que na minha opinião, ajudam a esfolar  a relação do PM com o resto da empresa:
@@ -13,7 +15,8 @@ Ser um Product Manager é chato. Muita gente acha que existe um glamour em ser a
 ## Não tente construir algo que você acha correto
 É normal que um PM colha todos os dias opiniões e críticas sobre o produto de pessoas de áreas de diferentes. São pessoas com perspectivas e expectativas diferentes, que muitas vezes tem opiniões sobre uma parte do problema que as afetam todos os dias. Essa posição é privilegiada porque é como se você tivesse olhos em todos os lugares, recebendo percepções diferentes e tendo uma visão panorâmica dos problemas que os usuários podem estar passando. Um bom PM consegue compilar toda essa informação e usar a favor do produto, que aliás, essa é uma das obrigações do PM. Contudo, se você se deixar levar, é como se toda essa massa de informação tivesse se originado de você. Logo, você se torna o dono da verdade e acha que tudo o que está escrito na sua User Story é a coisa correta a se fazer.
 
-Provavelmente você deve trabalhar em um time misto, composto por designers, front-ends, back-ends, testers, BI/dados e marketing… todos eles, de alguma forma, lidam com o cliente. Embora uma das suas obrigações seja advogar pelos usuários, eles também tem esse papel, cada um da sua forma e ponto de vista. A “junção dos seus poderes” deveria refletir as necessidades e feedbacks do usuário.
+Provavelmente você deve trabalhar em um time misto, composto por designers
+- front-ends, back-ends, testers, BI/dados e marketing… todos eles, de alguma forma, lidam com o cliente. Embora uma das suas obrigações seja advogar pelos usuários, eles também tem esse papel, cada um da sua forma e ponto de vista. A “junção dos seus poderes” deveria refletir as necessidades e feedbacks do usuário.
 
 O que diferença do bom e do mal PM, é conseguir ajudar o time a entregar o produto certo para os usuários, e muitas vezes isso significa entregar um resultado de que você não acha o ideal, mas que o time tem plena certeza da solução. Eu sei que isso dói na alma. É como se você estivesse perdendo poder, ficando com o ego ferido por achar que você deveria ser o responsável por todas as ideias executadas no produto… mas relaxa, não é bem por aí. Não tente construir algo que só você acha correto.
 

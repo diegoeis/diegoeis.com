@@ -1,10 +1,13 @@
 ---
 title: Email Marketing a tortura - Parte 1
 date: 2015-04-06
-tags: desenvolvimento, front-end
+tags:
+- desenvolvimento
+- front-end
 ---
 
-Esqueça tudo o que você sabe sobre CSS 3, HTML 5, JavaScript e qualquer outra nova novidade que você tenha visto nos últimos 10 anos. Para fazer uma newsletter você não vai usar nada disso.
+Esqueça tudo o que você sabe sobre CSS 3, HTML 5
+- javascript e qualquer outra nova novidade que você tenha visto nos últimos 10 anos. Para fazer uma newsletter você não vai usar nada disso.
 
 Criar email marketing é chato. Não é fácil e provavelmente não vai ficar do jeito que você quer na primeira ou na segunda ou na terceira vez. Se você reclama do Internet Explorer por qualquer motivo, você ainda não teve que lidar com os clientes de email. É um mundo totalmente diferente do que conhecemos e estamos acostumados.
 

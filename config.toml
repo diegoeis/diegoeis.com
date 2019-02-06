@@ -1,3 +1,4 @@
+DefaultContentLanguage = "pt-br"
 title = "Blog do Diego Eis"
 baseURL = "https://diegoeis.com/"
 theme = "diegoeis-v2"

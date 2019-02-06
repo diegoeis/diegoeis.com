@@ -1,7 +1,9 @@
 ---
 title: Sobre o Design oco
 date: 2014-12-03
-tags: design, ux
+tags:
+- design
+- UX
 ---
 
 > _Um pouco sobre design ordinário e como arranjar argumentos._

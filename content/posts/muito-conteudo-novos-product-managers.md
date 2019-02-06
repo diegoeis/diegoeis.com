@@ -1,7 +1,8 @@
 ---
 title: Muito conteúdo para você que começou agora como Product Manager
 date: 2018-03-20
-tags: management, product management
+tags:
+- management, product management
 image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg
 ---
 
@@ -54,7 +55,8 @@ ficar parado, criei esse Medium para juntar uma galera bacana.
 
 Criado pelo Martin Eriksson, esse é um projeto e não apenas um blog,
 especializado em Produtos Digitais. O blog deles é recheado de informação
-assuntos relacionados a produto, design, dados, eventos, etc.
+assuntos relacionados a produto
+- design, dados, eventos, etc.
 
 #### [The art of Product Management](https://pmblog.quora.com/)
 
