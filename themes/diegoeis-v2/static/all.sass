@@ -2,6 +2,7 @@
 // Variables
 ////
 $yellow: #f9da18
+$black: #333
 $sansserif: Open Sans, sans-serif
 $serif: Times New Roman, Times, Georgia, Serif
 *
@@ -16,12 +17,17 @@ body
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   -moz-font-feature-settings: "liga" on
-  padding-left: 200px
+  padding-left: 100px
   height: inherit
 
 p, li
   font-size: 1em
 
+.eis-article .eis-text img.eis-avatar-about
+  max-width: 400px
+  position: absolute
+  right: -500px
+  top: 110px
 
 ////
 // HEADER
@@ -29,12 +35,21 @@ p, li
 #eis-header
   padding: 20px 35px
 
+  .eis-link-about
+    margin-bottom: 5px
+    margin-right: 15px
+    transition: all .15s linear
+    &:hover
+      background: $yellow
+
 .eis-logo
-  color: #000
+  color: $black
   float: left
   text-decoration: none
-  font: 700 1em $sansserif
-
+  font: 700 1.3em $sansserif
+  transition: all .15s linear
+  &:hover
+    background: $yellow
 .eis-list-post
   list-style: none
   padding: 100px 0
@@ -69,27 +84,35 @@ p, li
   color: rgba(150, 150, 150, 1)
 
 
-.eis-social 
+.eis-menu 
   float: right
 
-.eis-social li
+.eis-menu li
   list-style: none
   display: inline-block
   vertical-align: middle
   margin-left: 10px
   opacity: 0.8
 
+  & a
+    font-weight: bold
+    color: #000
+    text-decoration: none
+    font-size: 1em
+    display: inline-block
+    margin-left: 5px
+    vertical-align: middle
 
-.eis-social li:hover
+.eis-menu li:hover
   opacity: 1
 
 
-.eis-social li a img,
-.eis-social li a svg
+.eis-menu li a img,
+.eis-menu li a svg
   max-height: 20px
 
 
-.eis-social li a svg
+.eis-menu li a svg
   max-height: 30px
 
 ////
@@ -114,21 +137,25 @@ p, li
     display: inline-block
 
   h1
-    font-size: 3.5em
+    font-size: 2.5em
     line-height: 1.3
     font-weight: 900
+    color: $black
     padding: 100px 0 40px
 
   .eis-text 
+    position: relative
     img
       max-width: 100%
+    
     h1
-      font-size: 2.5em
+      font-size: 2em
       padding: 50px 0 20px
       font-weight: 700
+      color: $black
 
     p
-      text-align: justify
+      // text-align: justify
       color: rgba(0, 0, 0, .7)
 
     blockquote
@@ -143,9 +170,9 @@ p, li
         padding: 0
 
   p, li, ul, ol
-    padding: 0 0 35px 0
-    font-size: 1.15em
-    line-height: 1.8
+    padding: 0 0 25px 0
+    font-size: 1em
+    line-height: 1.7
     color: #1a1a1a
     max-width: 800px
 
@@ -165,6 +192,38 @@ hr
   padding: 0
   border: none
   border-top: 1px solid rgba(0, 0, 0, .1)
+
+
+.eis-comments
+  input
+    padding: 5px
+    font-size: .8em
+    display: inline-block
+    margin: 10px 0
+
+  textarea
+    height: 150px
+    padding: 5px
+    max-width: 542px
+
+  #comments_list
+    padding: 25px 0 25px
+    .comment
+      padding: 25px 0
+      margin: 0
+      .date, .author
+        padding-right: 10px
+        font-size: .8em
+        display: inline-block
+        margin-bottom: 3px
+
+      .likes
+        padding: 30px
+
+      blockquote
+        font-size: .9em
+        img
+          margin-right: 10px
 
 ////
 // Mobile
@@ -200,3 +259,7 @@ hr
         padding-bottom: 20px
         font-size: 1.35em
         line-height: 1.7
+
+  .eis-article .eis-text img.eis-avatar-about
+    max-width: 400px
+    position: static
