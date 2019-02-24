@@ -160,12 +160,12 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - Scrum é contra a liderança fixa, por que uma pessoa que não é boa em todos os assuntos deverá tomar decisões sobre tudo
 
 ### Imagens de apoio
-![](post-csm-dia-1/2016-08-16-13.21.23.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.33.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.39.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.43.jpg)
-![](post-csm-dia-1/2016-08-16-13.21.50.jpg)
-![](post-csm-dia-1/2016-08-16-17.43.04.jpg)
-![](post-csm-dia-1/2016-08-15-17.50.52.jpg)
-![](post-csm-dia-1/2016-08-15-17.50.58.jpg)
-![](post-csm-dia-1/2016-08-15-17.51.38.jpg)
+![](/images/post-csm-dia-1/2016-08-16-13.21.23.jpg)
+![](/images/post-csm-dia-1/2016-08-16-13.21.33.jpg)
+![](/images/post-csm-dia-1/2016-08-16-13.21.39.jpg)
+![](/images/post-csm-dia-1/2016-08-16-13.21.43.jpg)
+![](/images/post-csm-dia-1/2016-08-16-13.21.50.jpg)
+![](/images/post-csm-dia-1/2016-08-16-17.43.04.jpg)
+![](/images/post-csm-dia-1/2016-08-15-17.50.52.jpg)
+![](/images/post-csm-dia-1/2016-08-15-17.50.58.jpg)
+![](/images/post-csm-dia-1/2016-08-15-17.51.38.jpg)

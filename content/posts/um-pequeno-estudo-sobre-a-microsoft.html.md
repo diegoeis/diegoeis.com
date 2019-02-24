@@ -30,14 +30,14 @@ A palavra **Mobile** não se refere apenas aos Smartphones, mas também aos Tabl
 
 Ele se refere ao **Cloud** sendo um ambiente escalável para manter dispositivos e serviços sincronizados e conectados. Sem uma arquitetura de cloud bem definida, a Microsoft não conseguiria tornar real seu plano de Cloud First + Mobile First. A M$ precisa jogar suas coisas no Cloud para tornar possível a exploração de novas fronteiras, isso é: serviços e apps fora dos seus dispositivos e sistemas próprios.
 
-![](post-microsoft/visao-atual.png)
+![](/images/post-microsoft/visao-atual.png)
 
 Veja que a maneira como a Microsoft autocentralizava o negócio dela. Ela basicamente ganhava dinheiro apenas com royaties e licenças de software. Perceba que para ganhar com royaties e licenças de software, ela precisa fazer com que seu software vire uma plataforma. Se você parar de usar o Office e o Windows para usar o Google Drive no Mac, a Microsoft perdeu. Se você parar de usar só o Office ou só o Windows, a M$ perdeu. Ela quer que você continue usando seus serviços e softwares em **qualquer lugar**, seja ele da Microsoft ou não. Por isso, uma nova visão mais vantajosa é juntar receita de assinaturas e ads, além de continuar mantendo royalties e licenças.
 
 O Google e a Apple já fazem isso há anos. Você usa o Google Drive gratuitamente, mas pode pagar para ter mais espaço. Há ads em vários outros serviços do Google como Gmail e a Busca. A Apple se baseia muito em assinaturas como no iCloud e no iTunes. 
 
-![](post-microsoft/msft-q4-2016-a.jpg)
-![](post-microsoft/msft-q4-productivity-2016.jpg)
+![](/images/post-microsoft/msft-q4-2016-a.jpg)
+![](/images/post-microsoft/msft-q4-productivity-2016.jpg)
 
 Só de Office 365 a Microsoft tinha 23 Milhões de assinantes em Julho de 2016. Com todos os serviços de assinatura a Microsoft faturou no Q4 2016 algo em torno de USD$26 Bilhões. Isso inclui produtos como Azure, Dynamics 365 e Office 365.
 
@@ -48,7 +48,7 @@ Na realidade Mobile e Cloud precisam se interagir como se fossem um só. Não ex
 A visão de futuro da Microsoft é muito, mas muito legal.
 Ela quer se focar em conversações. 
 
-![](post-microsoft/visao-futuro.png)
+![](/images/post-microsoft/visao-futuro.png)
 
 O novo mantra é: **Conversations as a Platform**. Isso tem bastante a ver com o que temos visto com a era dos assistentes pessoais como a Cortana, Siri etc. Além dos Chatbots que estão dominando vários mercados. Veja esse vídeo da apresentação que eles fizeram em Março do ano passado:
 
@@ -69,13 +69,13 @@ Na estratégia de cloud, a Microsoft já tem facilitado ambientes do Azure para 
 
 Você sabia que a [Microsoft tem mais contribuidores nos projetos Open Source do Github](https://mspoweruser.com/surprise-microsoft-has-the-most-open-source-contributors-on-github/) dela que o Facebook e o Google?
 
-![](post-microsoft/ms-github.png)
+![](/images/post-microsoft/ms-github.png)
 
 
 ## Os concorrentes
 Eu não listei todos os concorrentes do mundo, mas selecionei dois que eu julguei os principais: Steam e Playstation. 
 
-![](post-microsoft/concorrentes.png)
+![](/images/post-microsoft/concorrentes.png)
 
 Levantei os números de cada um, além dos números do Xbox. Aqui eu já enfrentei um problema: o que é um **Usuário Ativo** para esses caras? Os três tratam usuários ativos de forma diferente: 
 
@@ -88,11 +88,11 @@ A receita de cada que é estrondosa. Veja que o Xbox e o Playstation ficam na ca
 ## O mercado de jogos
 Eu gosto de jogar video game, mas não jogo desde que meu Xbox quebrou e eu decidi tentar usar esse tempo com coisas mais úteis. Mas mesmo eu gostando bastante de jogar, eu não tinha ideia do tamanho do mercado de jogos. Eu sei que eles faturam milhões. Mas qual o cenário global dos jogos? Quais os mercados que o Xbox atua?
 
-![](post-microsoft/mercado1.png)
+![](/images/post-microsoft/mercado1.png)
 
 Em 5 anos o mercado de jogos cresceu algo em torno de 6.6%. Perceba o aumento do mercado de jogos para smartphone e mobile, comendo quase 46% de todo o valor, faturando algo em torno de USD$52.5 Bilhões.
 
-![](post-microsoft/mercado2.png)
+![](/images/post-microsoft/mercado2.png)
 
 Depois que eu parei de jogar em consoles frequentemente, eu me entreguei a jogos casuais como Clash of Clans, HearthStone, Mario Run etc. Esses jogos pegam exatamente um público como eu, que quer continuar jogando, mas não tem uma, duas ou três horas disponíveis para sentar na frente de uma televisão com calma.
 
