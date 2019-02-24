@@ -29,27 +29,27 @@ Suponha que você use o WIX como uma ferramenta, do jeito que usamos o Wordpress
 ## Wix ADI - Artificial Design Intelligence e o Editor
 Agora, partindo do pressuposto que você não é designer, não é desenvolvedor, é o cliente final procurando fazer um site se a ajuda de um profissional. Pra tentar facilitar essa tarefa, o Wix criou o que eles chamam de **Inteligência de Design Artificial**. Ele funciona como um Robô que vai te fazer perguntas simples e se baseando nas suas respostas, ele cria um design pra você.
 
-![](http://i.imgur.com/EHgX9Ua.png)
+![](https://i.imgur.com/EHgX9Ua.png)
 
 Uma das perguntas é o endereço do seu estabelecimento. Com as informações como o endereço e o nome do seu negócio, o Wix ADI procura na internet informações sobre seu negócio, e monta um card com as outras informações como Telefone. Claro, você precisa ter essas informações atualizadas no Google para que ele consiga buscar corretamente. Mesmo assim, você consegue mudar depois se quiser.
 
-![](http://i.imgur.com/97Dd5wW.png)
+![](https://i.imgur.com/97Dd5wW.png)
 
 Depois disso, ele "pensa" mais um pouquinho e traz pra você uma outra pergunta: qual o estilo de design que você mais gosta? 
 
-![](http://i.imgur.com/anO3QsT.png)
+![](https://i.imgur.com/anO3QsT.png)
 
 Escolhendo um desses destes estilos, o Wix começa a criar seu website, começando pela Home Page. 
 
-![](http://i.imgur.com/67V0sP1.png)
+![](https://i.imgur.com/67V0sP1.png)
 
 Se você não gostar do resultado, basta mudar o estilo e o design. Para alguém que não perder muito tempo escolhendo os detalhes do layout, essa ferramenta faz muito bem o seu trabalho e te economiza tempo. Agora, suponha que você queira realmente parar e deixar o layout do seu site com a sua cara. Basta você usar o editor de sites do Wix, escolhendo um dos 500 templates que ele oferece ou fazendo o seu próprio design a partir do zero. O que eu não aconselho, já que o Wix tem designers profissionais que desenharam templates bem mais bonitos do que a maioria das pessoas conseguiria fazer. ;-)
 
-![](http://i.imgur.com/HKpFPb8.png)
+![](https://i.imgur.com/HKpFPb8.png)
 
 Escolhendo um template pronto, você consegue mudar todas as características dos elementos do site. A coisa toda é bem simples de se fazer e mira sempre nas pessoas que não tem nenhuma intimidade com o desenvolvimento de sites. Se você for um desenvolvedor, não há motivo para não usar o Wix para fazer websites para clientes menores e que precisam de um site simples e personalizado. 
 
-![](http://i.imgur.com/2nlTyul.png)
+![](https://i.imgur.com/2nlTyul.png)
 
 Lembre-se: esses serviços são ótimos para uma fatia do mercado que tem a necessidade de ter uma "casa" online. Muitos profissionais que tem budget limitado não vão conseguir pagar por um serviço de profissionais como você e outros, logo, alternativas assim ajudam muito esses usuários. 
 

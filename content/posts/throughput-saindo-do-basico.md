@@ -32,7 +32,7 @@ A partir da data da entrega do projeto, você vai descobrir a semana do ano. No 
 
 Abaixo segue uma tabela fake de tarefas que foram entregues. Na coluna da semana, usei a função `=weeknum();` para descobrir o número da semana.
 
-![](http://i.imgur.com/WoCWk8Q.png)
+![](https://i.imgur.com/WoCWk8Q.png)
 
 | Semana	 | Data de entrega | Tarefa |
 |:--|:--|:--|
@@ -55,7 +55,7 @@ Abaixo segue uma tabela fake de tarefas que foram entregues. Na coluna da semana
 
 Agora que sabemos o número de cada semana, podemos descobrir o Throughput, ou seja, a quantidade de tarefas entregues de cada uma das semanas. Para tanto, em outras células, faço outra coluna de semana, colocando os números referentes a cada semana e faço uma contagem de quantas tarefas foram entregues na mesma semana usando a função `=countif(intervalo, critério);`
 
-![](http://i.imgur.com/Ti36irG.png)
+![](https://i.imgur.com/Ti36irG.png)
 
 | Semana	 | Throughput (Issues entregues) |
 |:--|:--|:--|
@@ -66,7 +66,7 @@ Agora que sabemos o número de cada semana, podemos descobrir o Throughput, ou s
 
 Essa informação já é importante o suficiente para algumas pessoas: você acabou de descobrir quantas tarefas foram entregues em cada uma das semanas. Já dá pra fazer um report maroto básico para os chefões. Vamos agora tentar responder as perguntas do começo do artigo.
 
-![](http://i.imgur.com/jkZ5DHm.png)
+![](https://i.imgur.com/jkZ5DHm.png)
 
 ## Qual foi o mínimo e o máximo de tarefas entregues em uma semana?
 Vários motivos podem tornar o desenvolvimento de software um ambiente complexo: bugs imprevistos em produção, infraestrutura que sai do ar, férias de desenvolvedores, falta de testes, imprevistos, pedidos de tarefas urgentes e etc. Tudo isso pode influenciar as entregas semanais do time pra pior. É legal entender os motivos que fizeram com que o time entregasse pouco em uma determinada semana.
@@ -75,39 +75,39 @@ Por outro lado, há semanas em que muitas tarefas foram entregues. Isso não é 
 
 Para saber qual foi a semana que você entregou menos ou mais tarefas, usaremos duas medidas de dispersão: **mínimo** e **máximo**.
 
-![](http://imgur.com/84MzTzK.png)
+![](https://imgur.com/84MzTzK.png)
 
 Bastando usar as funções `=min(intervalo)` e `=max(intervalo)`, saberemos a resposta dessas perguntas.
 
-![](http://imgur.com/lD1EBVo.png)
+![](https://imgur.com/lD1EBVo.png)
 
 No nosso exemplo, tivemos uma semana que entregamos apenas 3 histórias (semana 2), e a semana que entregamos foram 5 histórias (semana 3).
 
 ## Geralmente entregamos XX tarefas por semana.
 Com o tempo, o time começa a identificar uma cadência de entregas, entregando mais ou menos o mesmo número de tarefas. Com a medida de tendência central **moda**, nós descobrimos qual é a quantidade de entregas mais comum do time.
 
-![](http://imgur.com/avcxCBr.png)
+![](https://imgur.com/avcxCBr.png)
 
 Para descobrir esse número, usamos a função `=mode(intervalo)` do próprio Google Sheets e pronto.
 
-![](http://imgur.com/eWGfk4C.png)
+![](https://imgur.com/eWGfk4C.png)
 
 Logo, descobrimos que na metade (ou mais) das semanas analisadas, nós entregamos 4 tarefas.
 
 É possível também ter uma análise desse tipo usando um gráfico de histograma, que vai mostrar com que frequência entregamos uma quantidade específica de tarefas. É um assunto pra outro post, talvez, mas segue abaixo o gráfico:
 
-![](http://imgur.com/jl5o3Zz.png)
+![](https://imgur.com/jl5o3Zz.png)
 
 ## Quartis
 Agora, para sabermos quantas tarefas são entregues por exemplo, em 1/4 (um quarto) do tempo, nós usamos os quartis, que são medidas que dividem uma amostra. Basicamente os quartis dividem nossa distribuição (as tarefas entregues nas semanas) em 4 partes, de forma que consigamos responder que em 25% o time entrega XX tarefas.
 
 Para isso, usamos a função `=percentile(intervalo; porcentagem)`. Para exemplificar melhor, vou aumentar a nossa amostra de entregas.
 
-![](http://imgur.com/pvd2Kzf.png)
+![](https://imgur.com/pvd2Kzf.png)
 
 Descobrimos então que em 25% das vezes, o time entregou 3 ou menos tarefas. Logo, em 75% das vezes, o time entregou 3 ou mais.
 
-![](http://imgur.com/ugoFwbl.png)
+![](https://imgur.com/ugoFwbl.png)
 
 Descobrimos também que em 75% das vezes, nosso time entregou 5 tarefas ou menos e que em 25% do tempo, o time entregou 5 tarefas ou mais.
 
