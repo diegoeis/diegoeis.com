@@ -27,4 +27,4 @@ Sim, o UX, QA, Ops
 
 Eu não vejo solução para este problema a não ser transformar o time em um time realmente multifuncional. Trazendo TODAS as especialidades para dentro do time, para que esse seja totalmente comprometido com o objetivo e a missão do time. Isso um trabalho árduo, sem graça, necessário e recompensador.
 
-![](http://feeds.feedburner.com/~r/diegoeisfeed/~4/HkxNPydoLQs)
+![](https://feeds.feedburner.com/~r/diegoeisfeed/~4/HkxNPydoLQs)

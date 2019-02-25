@@ -39,12 +39,12 @@ Quando você um logo simpels, ou um ícone e etc, você pode salvar como PNG8 qu
 ## Gargálo e outros formatos de imagem
 Faz tempo que não salvo nenhum ícone ou imagem simples como GIF. O PNG sempre dá conta do trabalho, quase sempre tem compressões melhores e é compatível com todos os browsers hoje em dia. Mas imagem sempre foram um gargalo para quem trabalha com internet. Com a evolução das telas e monitores, a necessidade de usar imagens com melhor qualidade aumentou e por isso talvez os formatos de imagens tradicionais podem não servir durante muito tempo. 
 
-O HTML tenta resolver parte do problema tentando te dar maneiras de servir imagens com mais ou menos qualidade ou de diferentes tamanhos dependendo dos dispositivos e etc. Há <a href="http://www.slideshare.net/caelumdev/tudo-que-voc-precisa-saber-sobre-ltpicture-e-srcset">uma palestra bem legal do Sergio Lopes falando sobre isso</a>. Embora isso tudo ajude, as imagens ainda precisam mudar.
+O HTML tenta resolver parte do problema tentando te dar maneiras de servir imagens com mais ou menos qualidade ou de diferentes tamanhos dependendo dos dispositivos e etc. Há <a href="https://www.slideshare.net/caelumdev/tudo-que-voc-precisa-saber-sobre-ltpicture-e-srcset">uma palestra bem legal do Sergio Lopes falando sobre isso</a>. Embora isso tudo ajude, as imagens ainda precisam mudar.
 
 ### A tentativa do Google - WebP
 WebP é um formato de imagem moderna que fornece "lossless" (algoritmo de compressão sem perda de qualidade) superior e compressão para imagens na web. Usando WebP, desenvolvedores podem criar imagens menores, mais ricas e que tornam a web mais rápida. As imagens WebP são 26% menores em tamanho em comparação com PNGs, com 25-34% menos perdas de qualidade do que as imagens JPEG.
 
-<img src="http://tableless.com.br/wp-content/uploads/2016/07/compression-webp_lossy.png" alt="compression-webp_lossy" width="744" height="656" class="aligncenter size-full wp-image-55075" />
+<img src="https://tableless.com.br/wp-content/uploads/2016/07/compression-webp_lossy.png" alt="compression-webp_lossy" width="744" height="656" class="aligncenter size-full wp-image-55075" />
 
 O Lossless das imagens WebP suporta canais alpha com um custo de apenas 22% de bytes adicionais. Para os casos quando a compressão RGB é aceitável, WebP com perdas também suporta a transparência, normalmente fornecendo arquivos três vezes menores em comparação com PNG.
 

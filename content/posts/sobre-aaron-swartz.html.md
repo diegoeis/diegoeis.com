@@ -27,4 +27,4 @@ As tecnologias que usamos hoje para desenvolver nosso produtos e que permitem fa
 
 Você deve parte da sua vida online ao Aaron Swartz.
 
-![](http://feeds.feedburner.com/~r/diegoeisfeed/~4/ozx0sropAVY)
+![](https://feeds.feedburner.com/~r/diegoeisfeed/~4/ozx0sropAVY)

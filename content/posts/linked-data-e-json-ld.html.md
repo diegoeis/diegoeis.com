@@ -162,7 +162,7 @@ Simples: basta chamar na sua página o JSON com as informações que você quer 
   "author" : { "@type" : "Person", 
   "name" : "por Diego Eis" }, 
   "datePublished" : "2016-07-05", 
-  "image" : "http://tableless.com.br/wp-content/uploads/2016/07/image-format.jpg", 
+  "image" : "https://tableless.com.br/wp-content/uploads/2016/07/image-format.jpg", 
   "artigosBody" : "Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples,  esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos,  principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.</P>\n<H3>GIF</H3>\n<P>GIF (sigla para Graphics Interchange Format) foi desenvolvido no final dos anos 1980 e ainda é amplamente utilizado. PNG (Portable Network Graphics) foi desenvolvido por volta de 1995, tornou-se uma recomendação W3C em 1996, e tem sido amplamente implementado na maioria dos navegadores da Web, logo em 1998.</P>
 }
 </script>

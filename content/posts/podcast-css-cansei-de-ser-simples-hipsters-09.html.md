@@ -13,4 +13,4 @@ Nesse episódio, falamos um pouco sobre CSS, sua história, organização de arq
 
 Quer ouvir, dá o play aí!
 
-<iframe width="320" height="100" src="http://hipsters.tech/?powerpress_embed=373-podcast&amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"></iframe>
+<iframe width="320" height="100" src="https://hipsters.tech/?powerpress_embed=373-podcast&amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"></iframe>
