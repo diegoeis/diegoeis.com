@@ -12,6 +12,8 @@ Mas a grande sacada é que o termo Produtos Digitais fez o seu trabalho. Na verd
 
 Esse não é um conceito novo, pelo contrário, é algo bem antigo. Se você já leu sobre Service Dominant Logic já deve ter se deparado com isso.
 
+> Não é mais um app, não mais uma interface web, mas sim a construção de um ecossistema, que entrega valor para as pessoas, para a empresa e também para a rede/ecossistema que se formou.
+
 A Apple deixou isso mais evidente agora, se posicionando como uma empresa de Serviços e não mais como uma empresa de hardware que junta software. O produto (físico ou digital) é apenas um meio de execução e entrega do serviço.
 
 Um Product Manager deveria se chamar Service Manager. Veja como a visão fica mais ampla e mais complexa desse especialista. Ele não fixa apenas num app ou em uma versão desktop do produto digital, mas na cadeia de valor que o serviço entrega para o usuário. As vezes, o serviço nem será entregue por meio de software.
