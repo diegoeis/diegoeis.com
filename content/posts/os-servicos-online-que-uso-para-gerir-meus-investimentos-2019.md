@@ -31,7 +31,7 @@ Para investimentos de Renda Variável, uso a Modal. Como a Modal é também um B
 Na maior parte do tempo faço as operações usando o app mobile. Não é lindo, mas bem usável. O sistema como um todo, tanto online quanto mobile é muito instável, mas funciona. 
 Recentemente lançaram a versão mais nova da versão desktop. Além disso, consigo operar em outras ferramentas como ProTrader, Trading View e MetaTrader.
 
-!()[https://i.imgur.com/DNDWNUD.png]
+![](https://i.imgur.com/DNDWNUD.png)
 
 A Modal é bem tradicional no mercado de Renda Variável e isso ajuda bastante ao tentar conseguir informações sobre a plataforma. Sem falar que é taxa zero para FIIs (como a maioria das corretoras) e tem uma das taxas mais baixas por operação: R$2,49.
 
@@ -40,6 +40,8 @@ A Modal é bem tradicional no mercado de Renda Variável e isso ajuda bastante a
 Em 2017 eu usava a Bloomberg e a Investing.com para acompanhamento de carteira e informações de papéis. Atualmente passei usar o [Yahoo Finance!](https://finance.yahoo.com/). Além das informações e notícias sobre as empresas e das ações, há também a possibilidade de criar e [acompanhar seu portfólio](https://finance.yahoo.com/portfolios).
 
 Até agora é o melhor serviço de portfólio que eu já usei. O aplicativo é MUITO decente. Vale a pena ter.
+
+![](https://i.imgur.com/DtS8IdE.jpg)
 
 Contudo, mesmo usando o Finance para acompanhar os papéis de Renda Variável (Ações e FIIs), sentia falta de ter um lugar que eu pudesse colocar todos os investimentos, seja eles Fundos, Renda Fixa, Variável etc... Achei tudo o que eu precisava usando as [planinlhas do Douglas Lombello](https://sites.google.com/view/dlombelloplanilhas/).
 
