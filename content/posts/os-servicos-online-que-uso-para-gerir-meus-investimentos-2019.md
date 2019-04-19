@@ -43,7 +43,7 @@ Até agora é o melhor serviço de portfólio que eu já usei. O aplicativo é M
 
 ![](https://i.imgur.com/DtS8IdE.jpg)
 
-Contudo, mesmo usando o Finance para acompanhar os papéis de Renda Variável (Ações e FIIs), sentia falta de ter um lugar que eu pudesse colocar todos os investimentos, seja eles Fundos, Renda Fixa, Variável etc... Achei tudo o que eu precisava usando as [planinlhas do Douglas Lombello](https://sites.google.com/view/dlombelloplanilhas/).
+Contudo, mesmo usando o Finance para acompanhar os papéis de Renda Variável (Ações e FIIs), sentia falta de ter um lugar que eu pudesse colocar todos os investimentos, seja eles Fundos, Renda Fixa, Variável etc... Achei tudo o que eu precisava usando as [planilhas do Douglas Lombello](https://sites.google.com/view/dlombelloplanilhas/).
 
 # Planilhas do Douglas Lombello (dlombello)
 
