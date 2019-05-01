@@ -20,35 +20,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <title>{{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Site.Title }}">
   <meta property="og:type" content="website">
-  <meta name="description" content="{{ .Site.Params.description }}">
   {{- else -}}
   <title>{{ .Title }} - {{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
   <meta property="og:type" content="article">
-  <meta name="description" content="{{ .Description }}">
   {{- end }}
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
   {{ end -}}
 
   <meta name="author" content="{{ .Site.Params.author }}">
-  <meta name="description" content="{{ .Site.Params.description }}">
+
   {{ if $.Scratch.Get "single"}}
-  <meta property="og:type" content="article"> {{end}}
+  <meta property="og:type" content="article"> 
+  {{end}}
+  
   <meta property="og:title" content="{{ .Title}}">
-  <meta property="og:description" content="{{ .Site.Params.description }}" name="description">
+  <meta property="og:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" name="description">
   <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://images.pexels.com/photos/1089663/pexels-photo-1089663.jpeg?cs=srgb&dl=arid-automobile-barren-1089663.jpg&fm=jpg{{ end }}">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@diegoeis">
   <meta name="twitter:title" content="{{.Title}}">
-  <meta name="twitter:description" content="{{ .Site.Params.description }}">
+  <meta name="twitter:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://images.pexels.com/photos/1089663/pexels-photo-1089663.jpeg?cs=srgb&dl=arid-automobile-barren-1089663.jpg&fm=jpg{{ end }}">
 
 </head>

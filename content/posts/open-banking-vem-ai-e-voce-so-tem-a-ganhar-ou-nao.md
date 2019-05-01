@@ -1,5 +1,5 @@
 ---
-title: Open Banking vem aí, e você só tem a ganhar… ou não.
+title: "Open Banking vem aí, e você só tem a ganhar… ou não."
 excerpt: Descentralização do dinheiro, pessoas no controle dos seus dados financeiros, produtos digitais que poderão estar preparados para essa revolução.
 image: https://i.imgur.com/WuRPkbl.jpg
 date: 2019-04-30
