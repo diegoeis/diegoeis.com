@@ -3,8 +3,8 @@
 ////
 $yellow: #f9da18
 $black: #333
-$sansserif: Open Sans, sans-serif
-$serif: "Noto Serif", Times New Roman, Times, Georgia, Serif
+$sansserif: Roboto, sans-serif
+$serif: "PT Serif", Times New Roman, Times, Georgia, Serif
 *
   box-sizing: border-box
   padding: 0
@@ -80,16 +80,18 @@ p, li
     flex-direction: column
     justify-content: center
     text-decoration: none
-    font: 1em $serif
+    font: 1em $sansserif
     color: #000
     padding: 60px 50px
     // display: block
     // padding: 45px 50% 45px 35px
     // border-bottom: 1px solid rgba(0, 0, 0, .09)
+    transition: all .10s linear
 
     h1
       display: inline
       font-weight: 200
+      color: rgba(0, 0, 0, .7)
 
     &:hover 
       background: $yellow 
@@ -98,9 +100,14 @@ p, li
         display: inline
         color: rgba(0, 0, 0, .7)
 
+      .eis-date
+        color: #fff
+
+
   .eis-date
     display: block
     padding-top: 20px
+    transition: all .10s linear
 
 .eis-date 
   font: 400 .8em $sansserif 
@@ -144,9 +151,8 @@ p, li
 ////
 
 .eis-article
-  padding-left: 35px
   padding: 0 0 200px 35px
-  max-width: 800px
+  max-width: 700px
 
   a
     box-shadow: inset 0 -2px 0 $yellow
@@ -161,10 +167,11 @@ p, li
     display: inline-block
 
   h1
-    font-family: $serif
-    font-size: 4.5em
-    line-height: 1.3
-    font-weight: 200
+    font-family: $sansserif
+    font-size: 3em
+    line-height: 1.1
+    font-weight: 300
+    max-width: 80%
     color: $black
     padding: 100px 0 40px
 
@@ -178,26 +185,30 @@ p, li
       padding: 50px 0 20px
       font-weight: 700
       color: $black
+      text-align: inherit
 
     p
       // text-align: justify
-      color: rgba(0, 0, 0, .7)
+      font: 1em/1.7em $sansserif
+      color: #000
 
     blockquote
-      font: italic 1em $sansserif
+      font: italic 1.5em $sansserif
       padding: 30px
       margin: 0 0 35px
       max-width: 800px
 
       p
         color: #000
+        line-height: 1.5
+        font-style: italic
         margin: 0
         padding: 0
 
   p, li, ul, ol
     padding: 0 0 25px 0
     font-size: 1em
-    line-height: 1.7
+    line-height: 1.5
     color: #000
     max-width: 800px
 
