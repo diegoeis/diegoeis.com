@@ -1,7 +1,7 @@
 ---
 title: Marketing das corretoras é bom, mas não basta. Comentário.
 date: 2018-09-27
-image: https://cdn-images-1.medium.com/max/1000/1*IeDqiDj2KVVMNsNk3nDiWQ.png
+image: https://images.pexels.com/photos/251287/pexels-photo-251287.png
 tags:
 - product management
 - digital product

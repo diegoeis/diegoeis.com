@@ -1,7 +1,7 @@
 ---
 title: Projeto, Produtos Digitais e Continuidade
 date: 2019-01-07 00:00:00 +0000
-image: https://cdn-images-1.medium.com/max/1000/0*MaMJvCANCNJUTQk_
+image: https://images.pexels.com/photos/1181343/pexels-photo-1181343.jpeg
 tags:
 - product management
 - management

@@ -1,7 +1,7 @@
 ---
 title: Meu ano em livros — 2018
 date: 2018-12-17
-image: https://cdn-images-1.medium.com/max/1000/0*Kj7dAcYsG5G5Oz3r
+image: https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg
 tags:
 - books
 - read

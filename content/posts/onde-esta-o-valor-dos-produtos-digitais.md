@@ -1,7 +1,7 @@
 ---
 title: Onde está o valor nos produtos digitais?
 date: 2018-12-09
-image: https://cdn-images-1.medium.com/max/1000/0*oX_Ise6TEyTBD79z
+image: https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg
 tags:
 - books
 - read
