@@ -101,7 +101,7 @@ p, li
         color: rgba(0, 0, 0, .7)
 
       .eis-date
-        color: #fff
+        color: #000
 
 
   .eis-date
@@ -137,14 +137,14 @@ p, li
 .eis-menu li:hover
   opacity: 1
 
-
 .eis-menu li a img,
 .eis-menu li a svg
   max-height: 20px
 
-
 .eis-menu li a svg
   max-height: 30px
+
+
 
 ////
 // SINGLE
@@ -155,16 +155,26 @@ p, li
   max-width: 700px
 
   a
-    box-shadow: inset 0 -2px 0 $yellow
+    // box-shadow: inset 0 -1px 0 $yellow
+    text-decoration: underline
     color: #000
     font-weight: bold
-    text-decoration: none
+    transition: all .15s linear
     &:hover
+      text-decoration: none
       background: $yellow
 
   .eis-date
     padding-bottom: 100px
     display: inline-block
+    width: auto
+
+  a.eis-comments-lnk
+    font-size: .8em
+    display: inline-block
+    width: auto
+    margin-left: 15px
+    font-weight: 100
 
   h1
     font-family: $sansserif
@@ -217,7 +227,7 @@ p, li
     padding-top: 20px
 
   li
-    padding: 3px 0 10px
+    padding: 3px 0 7px
     font-size: .9em
     margin-left: 20px
 
@@ -236,6 +246,10 @@ hr
     font-size: .8em
     display: inline-block
     margin: 10px 0
+
+  #idc-container a
+    box-shadow: none
+    text-decoration: none
 
   textarea
     height: 150px

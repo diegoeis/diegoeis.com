@@ -11,7 +11,7 @@ tags:
 - management
 ---
 
-No última dia 24/04/2019, o Banco Central [divulgou um texto](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=33455) que fala dos requisitos mínimos fundamentais para a aplicação e implementação do Open Banking no Brasil. A ideia é que até o segundo semestre de 2020 a coisa toda comece a rodar.
+No último dia 24/04/2019, o Banco Central [divulgou um texto](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=33455) que fala dos requisitos mínimos fundamentais para a aplicação e implementação do Open Banking no Brasil. A ideia é que até o segundo semestre de 2020 a coisa toda comece a rodar.
 
 # Lá fora
 
