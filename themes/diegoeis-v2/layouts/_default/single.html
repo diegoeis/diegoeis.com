@@ -5,6 +5,7 @@
       <h1>{{.Title}}</h1>
       <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
       <a href="#eis-comments" class="eis-comments-lnk">Comente também</a>
+      {{- partial "tags.html" . }}
     </header>
 
     <div class="eis-text">

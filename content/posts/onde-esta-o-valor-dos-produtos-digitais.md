@@ -3,8 +3,8 @@ title: Onde está o valor nos produtos digitais?
 date: 2018-12-09
 image: https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg
 tags:
-- books
-- read
+- product management
+- produtos digitais
 ---
 
 
@@ -94,8 +94,8 @@ exemplo](https://www.forbes.com/sites/quora/2017/10/16/why-millennials-are-buyin
 — porque os comportamentos mudaram.
 
 Isso significa que o valor está muito mais no serviço prestado do que no produto
-em si. **O produto, nesse momento, passa a ser um meio de execução do serviço.
-**Quando compramos uma furadeira, por exemplo, na verdade nós estamos comprando
+em si. O produto, nesse momento, passa a ser um meio de execução do serviço.
+Quando compramos uma furadeira, por exemplo, na verdade nós estamos comprando
 um furo na parede ou pelo menos a possibilidade de ter furos na parede a hora
 que quisermos. Ou, quando se compra um carro — objeto esse que altamente
 balizado pelo status e desejo — você compra na verdade a possibilidade de ir e

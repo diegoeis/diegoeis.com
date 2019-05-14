@@ -6,9 +6,8 @@ image: https://cdn-images-1.medium.com/max/1200/0*HNYs2Q5TImEpRCCh
 tags:
 - Livros
 - Review De Livros
-- Sociedade Do Cansaço
-- Reading
-- Health
+- Leitura
+- saude
 ---
 
 

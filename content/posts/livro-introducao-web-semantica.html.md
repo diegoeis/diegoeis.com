@@ -4,7 +4,9 @@ title: Livro Introdução à Web Semântica
 date: 2017-09-17
 image: https://i.imgur.com/Vto4B24.jpg
 tags:
-- Web Semântica, HTML
+- Web Semântica
+- HTML
+- desenvolvimento
 - front-end
 ---
 

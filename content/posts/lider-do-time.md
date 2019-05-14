@@ -2,7 +2,8 @@
 title: Quem cuida das pessoas no seu time?
 date: 2018-04-25
 tags:
-- management, developers, team management
+- management
+- product management
 ---
 
 A estrutura que eu tenho visto nascerem em times de desenvolvimentos é mais ou menos assim:

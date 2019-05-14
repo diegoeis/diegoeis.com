@@ -2,9 +2,8 @@
 title: Neutralidade da Rede - pra você que está desinformado
 date: 2018-01-16
 tags:
-- tecnologia
 - desenvolvimento
-- mercado
+- tecnologia
 ---
 
 A Web só consegue ser do jeito que você conhece, pois a internet foi construída tendo como base a privacidade e o livre tráfego de informação. Isso quer dizer que você pode visitar qualquer site, ler qualquer texto, expressar sua opinião, assistir, gravar, criar conteúdo e fazer qualquer (ui!) coisa que desejar, sem precisar realmente se expor.

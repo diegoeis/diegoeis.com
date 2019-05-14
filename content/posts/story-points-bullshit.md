@@ -2,7 +2,8 @@
 title: Histórias menores são a resposta, Story Points são bullshit
 date: 2017-08-15
 tags:
-- agile, product management
+- agile
+- product management
 - management
 published: false
 ---
@@ -31,17 +32,13 @@ Eu julgo que são duas tarefas, bem pequenas, mas que a tarefa do front-end vai 
 Falar que o time entrega duas tarefas em determinado espaço de tempo, é muito mais útil e exato que dizer que o time entrega 5 pontos (que pode significar 5 horas ou seja lá o que os 5 pontos signifique para o seu time). A tarefa, quebrada no menor tamanho possível, vai levar quanto tempo for necessário para ser feita. O time (e o gestor) está tranquilo com isso, porque dado que a tarefa é pequena, é sabido que ela não levará muitos dias (digamos que duas semanas) pra ser feita, porque se uma tarefa levou todo esse tempo, ela não foi quebrada no seu menor tamanho. Aí isso é explicitado na Retrospectiva, resultando numa ação para que no próximo Refinement/Planning o time tome cuidado para quebrar as tarefas corretamente.
 
 
-
-
-
 Em uma das equipes que trabalhei, nós começamos a estimar usando T-Shirt Size. Como não tínhamos NENHUMA ideia do tamanho das tarefas, definimos que uma tarefa P equivalia a uma tarefa que levaria 3 dias para ser feita. O tamanho M, levaria 5 dias e tarefas tamanho G levavam 10 dias. Dado que nossas Sprints eram de 2 semanas, nós achávamos que esses tamanhos casariam bem. Depois de algumas semanas, eu comecei a medir quanto tempo realmente levava uma tarefa P. Descobri que a tarefa P levava geralmente 5 dias para serem feitas. As tarefas M levavam por volta de 8 dias e as tarefas G levavam mais do que 15 dias. Logo percebemos que não fazia sentido NENHUM ter histórias de 15 dias no Sprint b, já que elas levavam mais tempo que a Sprint. Perceba que o ponto de mudança foi entender que uma tarefa que leva 15 dias 
   
 
+## Para ler mais
 
-1 2 3 5 8 13 21 34
-
-https://www.targetprocess.com/blog/2011/04/5-reasons-why-you-should-stop-estimating-user-stories/
-http://ronjeffries.com/articles/015-jul/what-estimates-are-not/
-https://www.mountaingoatsoftware.com/blog/dont-equate-story-points-to-hours
-https://www.mountaingoatsoftware.com/blog/why-i-dont-use-story-points-for-sprint-planning
-https://www.industriallogic.com/blog/stop-using-story-points/
+- https://www.targetprocess.com/blog/2011/04/5-reasons-why-you-should-stop-estimating-user-stories/
+- http://ronjeffries.com/articles/015-jul/what-estimates-are-not/
+- https://www.mountaingoatsoftware.com/blog/dont-equate-story-points-to-hours
+- https://www.mountaingoatsoftware.com/blog/why-i-dont-use-story-points-for-sprint-planning
+- https://www.industriallogic.com/blog/stop-using-story-points/

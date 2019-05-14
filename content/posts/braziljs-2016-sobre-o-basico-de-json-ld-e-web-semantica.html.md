@@ -2,8 +2,9 @@
 title: BrazilJS 2016 - Sobre o básico de JSON-LD e Web Semântica
 date: 2016-08-29
 tags:
-- braziljs
-- front-end, talks
+- front-end
+- talks
+- palestras
 - javascript
 ---
 

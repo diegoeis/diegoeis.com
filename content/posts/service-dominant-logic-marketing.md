@@ -2,8 +2,9 @@
 title: Você conhece Service Dominant Logic ou S-D Logic?
 date: 2018-03-05
 tags:
-- management, product management, sdlogic
-- marketing
+- management
+- product management
+- produtos digitais
 ---
 
 ## Focar no serviço em vez do produto

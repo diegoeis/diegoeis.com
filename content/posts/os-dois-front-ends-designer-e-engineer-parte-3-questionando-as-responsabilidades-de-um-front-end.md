@@ -4,9 +4,7 @@ date: 2018-08-13
 image: https://cdn-images-1.medium.com/max/1000/0*L--dRzhEpxR8vWNL
 tags:
 - front-end
-- client-side
-- carreira
-- development
+- desenvolvimento
 ---
 
 Nos outros dois artigos da série ([Parte

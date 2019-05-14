@@ -4,7 +4,6 @@ date: 2015-07-21
 tags:
 - notas
 - desenvolvimento
-- braziljs
 - javascript
 ---
 

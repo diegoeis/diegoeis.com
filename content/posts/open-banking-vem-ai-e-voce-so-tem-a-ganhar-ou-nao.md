@@ -5,8 +5,7 @@ image: https://i.imgur.com/WuRPkbl.jpg
 date: 2019-04-30
 tags:
 - finance
-- mercado financeiro
-- servicos digitais
+- produtos digitais
 - product management
 - management
 ---

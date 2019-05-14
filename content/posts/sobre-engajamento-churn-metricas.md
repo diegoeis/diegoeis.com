@@ -2,7 +2,8 @@
 title: Sobre engajamento e churn
 date: 2018-04-06
 tags:
-- management, product management
+- management
+- product management
 - design
 ---
 

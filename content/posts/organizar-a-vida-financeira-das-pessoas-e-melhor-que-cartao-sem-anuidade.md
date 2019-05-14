@@ -4,9 +4,10 @@ date: 2018-08-13
 image: https://cdn-images-1.medium.com/max/1000/1*8AsMVWnYibSKmlOUxuoNBA.jpeg
 tags:
 - product management
-- digital product
-- marketing, fintech
-- dinheiro, investimento
+- produtos digitais
+- fintech
+- dinheiro
+- investimento
 ---
 
 Ou o que - na minha opinião - os bancos digitais, bancos tradicionais e outras fintechs deveriam estar se focando agora.
