@@ -2,16 +2,23 @@ DefaultContentLanguage = "pt-br"
 title = "Blog do Diego Eis"
 baseURL = "https://diegoeis.com/"
 theme = "diegoeis-v2"
-
-# disqusShortname = "tableless"
-googleAnalytics = "UA-66489393-1"
+languageCode = "pt-br"
 
 enableRobotsTXT = true
 disableLiveReload = true
 
+rssLimit = 40
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
   siteName = "diegoeis.com"
-  description = "Site do Diego Eis"
+  AuthorName = "Diego Eis"
+  description = "Blog pessoal do Diego Eis"
+  Subtitle = "Meu blog."
   githubUsername = "diegoeis"
   twitterUsername = "diegoeis"
   tagline = "Textos e artigos do Diego Eis"
@@ -23,3 +30,6 @@ disableLiveReload = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[imaging]
+  quality = 75

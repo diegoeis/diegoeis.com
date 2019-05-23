@@ -1,12 +1,12 @@
 ---
 title: "Anotações: Se compare com os outros"
 date: 2019-05-14
+image: https://i.imgur.com/G4zFNai.png
 tags:
 - notas
 - tweets
 - desenvolvimento
 - carreira
-- mercado
 ---
 
 Essa foi uma série de tweets que fiz outro dia. Merece um artigo sobre. No final, tem o link da thread. Segue as anotações:
