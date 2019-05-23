@@ -1,6 +1,7 @@
 ---
 title: Sobre Aaron Swartz
 date: 2016-05-04
+image: https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/5/29/1369827994288/Aaron-Swartz-internet-act-010.jpg
 tags:
 - desenvolvimento web
 - tecnologia
