@@ -1,8 +1,11 @@
 ---
 title: Um comentário sobre a desnecessária fragmentação da profissão designer
 date: 2017-03-28
+image: https://images.pexels.com/photos/6224/hands-people-woman-working.jpg
 tags:
-- management
+- design
+- desenvolvimento web
+- product management
 ---
 
 Eu estava pra escrever um artigo comentando como a pulverização do trabalho do
