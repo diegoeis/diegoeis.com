@@ -5,6 +5,9 @@ image: https://images.pexels.com/photos/251287/pexels-photo-251287.png
 tags:
 - product management
 - produtos digitais
+- produtos digitais
+- finance
+- fintech
 ---
 
 Tecnologia, user experience e conhecimento do comportamento digital do usuário. Estão aí três coisas que as corretoras não estão prestando atenção.

@@ -2,7 +2,6 @@
 title: Um pequeno estudo sobre a Microsoft
 date: 2016-12-31
 tags:
-- artigos
 - mercado
 - gestão
 - management

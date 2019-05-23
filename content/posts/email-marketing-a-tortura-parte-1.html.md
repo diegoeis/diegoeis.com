@@ -2,7 +2,7 @@
 title: Email Marketing a tortura - Parte 1
 date: 2015-04-06
 tags:
-- desenvolvimento
+- desenvolvimento web
 - front-end
 ---
 

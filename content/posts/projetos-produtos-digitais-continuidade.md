@@ -4,6 +4,7 @@ date: 2019-01-07 00:00:00 +0000
 image: https://images.pexels.com/photos/1181343/pexels-photo-1181343.jpeg
 tags:
 - product management
+- produtos digitais
 - management
 - agile
 
@@ -16,7 +17,7 @@ Tradicionalmente o projeto tem um plano, que precisa ser executado num tempo det
 
 De acordo com o PMI: 
 
-> A project is **temporary** in that it has a defined beginning and end in time, > > and therefore defined scope and resources. — [https://www.pmi.org/about/learn-about-pmi/what-is-project-management](https://www.pmi.org/about/learn-about-pmi/what-is-project-management) 
+> A project is **temporary** in that it has a defined beginning and end in time, and therefore defined scope and resources. — [https://www.pmi.org/about/learn-about-pmi/what-is-project-management](https://www.pmi.org/about/learn-about-pmi/what-is-project-management) 
 
 Quando temos um projeto para construir um edifício, muito obviamente esse projeto tem um começo, meio e um fim. Para executar esse começo, meio e fim, temos um budget definido, com uma quantidade de recursos limitada, definição dos materiais usados, ferramentas e tudo o mais. 
 
@@ -32,7 +33,11 @@ As regras de gestão de projeto NUNCA devem ser aplicadas na sua totalidade em u
 
 Existem alguns pontos de atenção que mudam drasticamente a forma com que gerimos um produto/serviço contínuo em vez de um projeto com começo, meio e fim. Abaixo, segue o que eu julgo ser os pilares que marcam as diferenças entre os dois mundos: 
 
-* Começamos a ter um pensamento mais amplo voltado à **serviço** digital em vez de **produto** digital; * Criar um **produto/serviço baseado no pensamento de plataforma**; * Usar o **efeito de rede para amplificar o valor** do produto/serviço; * Decisões guiadas por **dados e métricas de engajamento e retenção do usuário**; * **Foco para entrega de valor** e não deadline ou quantidade de tasks; 
+* Começamos a ter um pensamento mais amplo voltado à **serviço** digital em vez de **produto** digital; 
+* Criar um **produto/serviço baseado no pensamento de plataforma**; 
+* Usar o **efeito de rede para amplificar o valor** do produto/serviço; 
+* Decisões guiadas por **dados e métricas de engajamento e retenção do usuário**; 
+* **Foco para entrega de valor** e não deadline ou quantidade de tasks; 
 
 Todos esses (e outros) pontos só existem se houver um senso de continuidade do produto e eles modificam drasticamente a forma com que montamos o time, lidamos com as pessoas, gerenciamos expectativas, calculamos performance, entendemos crescimento do produto/serviço, medimos qualidade e satisfação do usuário. 
 
@@ -46,7 +51,7 @@ Enquanto no ambiente de projetos usamos metodologias e mindset ágil para aument
 
 Os times também tendem a ser cobrados de forma diferente, além de terem perspectivas diferentes: um time preza pela velocidade de entrega, o outro preza pelo impacto que as suas entregas trarão para o usuário. 
 
-> Em um projeto é muito melhor organizar as tarefas para dar uma percepção aos > stakeholders de completude do projeto. Já em um serviço digital com mindset contínuo, as entregas devem ser organizadas de acordo com o seu impacto de valor no usuário. 
+> Em um projeto é muito melhor organizar as tarefas para dar uma percepção aos stakeholders de completude do projeto. Já em um serviço digital com mindset contínuo, as entregas devem ser organizadas de acordo com o seu impacto de valor no usuário. 
 
 Obviamente que a velocidade de entrega é importante nos dois casos, mas em um ambiente de projeto, o time não precisa pensar no quão o usuário será impactado, por um simples motivo: apenas existirão usuários reais quando o projeto for entregue. O único usuário importante usando e vendo o projeto são os stakeholders e por isso, muitas vezes, a ordem das entregas do time é organizada para dar um senso de completude do projeto e não impacto de valor. 
 

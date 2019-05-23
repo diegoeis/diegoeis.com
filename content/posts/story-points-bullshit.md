@@ -4,6 +4,7 @@ date: 2017-08-15
 tags:
 - agile
 - product management
+- produtos digitais
 - management
 published: false
 ---

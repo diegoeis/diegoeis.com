@@ -4,6 +4,7 @@ date: 2017-07-15
 tags:
 - 
 - product management
+- produtos digitais
 - management
 published: false
 ---

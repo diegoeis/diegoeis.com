@@ -2,7 +2,7 @@
 title: Anotações da palestra do Dave Raggett na Web.br 2016
 date: 2016-10-13
 tags:
-- notas
+- anotacoes
 - palestras
 ---
 

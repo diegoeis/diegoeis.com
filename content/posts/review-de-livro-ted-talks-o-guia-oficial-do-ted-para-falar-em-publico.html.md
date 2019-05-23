@@ -2,7 +2,7 @@
 title: Review de Livro - TED Talks - O Guia Oficial do TED para falar em Publico
 date: 2016-10-21
 tags:
-- notas
+- anotacoes
 - review de livros
 - livros
 ---

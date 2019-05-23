@@ -2,7 +2,7 @@
 title: Anotações sobre gestão agile
 date: 2016-05-05
 tags:
-- notas
+- anotacoes
 - agile
 ---
 

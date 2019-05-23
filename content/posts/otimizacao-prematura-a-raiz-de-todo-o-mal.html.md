@@ -2,8 +2,8 @@
 title: Otimização Prematura - a raíz de Todo o Mal
 date: 2016-06-22
 tags:
-- notas
-- desenvolvimento
+- anotacoes
+- desenvolvimento web
 ---
 
 Minhas anotações da palestra do Fabio Akita no fechamento do 18 Encontro Locaweb em São Paulo.

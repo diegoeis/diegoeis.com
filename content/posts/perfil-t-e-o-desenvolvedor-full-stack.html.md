@@ -2,7 +2,7 @@
 title: Perfil T e o Desenvolvedor Full Stack
 date: 2015-11-21
 tags:
-- desenvolvimento
+- desenvolvimento web
 - agile
 ---
 

@@ -2,7 +2,7 @@
 title: Anotações do Zeno no Encontro Locaweb 16
 date: 2015-08-22
 tags:
-- notas
+- anotacoes
 - palestras
 ---
 

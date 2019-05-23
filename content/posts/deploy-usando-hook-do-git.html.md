@@ -2,8 +2,7 @@
 title: Deploy usando Hook do Git
 date: 2016-07-04
 tags:
-- artigos
-- desenvolvimento
+- desenvolvimento web
 - git
 ---
 

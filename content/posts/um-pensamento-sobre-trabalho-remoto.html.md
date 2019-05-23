@@ -2,8 +2,9 @@
 title: Um pensamento sobre trabalho remoto
 date: 2016-02-17
 tags:
-- artigos
-- desenvolvimento
+- desenvolvimento web
+- carreira
+- front-end
 ---
 
 Estava lendo e ouvindo alguns podcasts sobre times ágeis que trabalham remoto e acabei pensando em várias coisas. Uma delas é que o trabalho remoto é uma das soluções para o trânsito de São Paulo e quiça do mundo! ;-)  

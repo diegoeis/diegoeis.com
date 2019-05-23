@@ -2,7 +2,7 @@
 title: Neutralidade da Rede - pra você que está desinformado
 date: 2018-01-16
 tags:
-- desenvolvimento
+- desenvolvimento web
 - tecnologia
 ---
 

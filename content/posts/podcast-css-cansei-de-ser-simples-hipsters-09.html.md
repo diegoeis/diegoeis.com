@@ -4,7 +4,7 @@ date: 2016-09-13
 tags:
 - podcast, css
 - front-end
-- desenvolvimento
+- desenvolvimento web
 ---
 
 O Paulo Silveira e o Sergio Lopes da Caelum Alura me convidaram esses dias para falar um pouco sobre CSS no podcast sobre tecnologia Hipsters! 

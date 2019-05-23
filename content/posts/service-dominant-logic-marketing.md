@@ -5,6 +5,7 @@ tags:
 - management
 - product management
 - produtos digitais
+- produtos digitais
 ---
 
 ## Focar no serviço em vez do produto

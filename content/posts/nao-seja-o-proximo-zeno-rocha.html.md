@@ -2,7 +2,7 @@
 title: Não seja o próximo Zeno Rocha
 date: 2014-10-13
 tags:
-- desenvolvimento
+- desenvolvimento web
 - front-end
 ---
 

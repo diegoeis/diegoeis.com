@@ -2,7 +2,7 @@
 title: Hello World com React desde o rascunho
 date: 2016-10-23
 tags:
-- desenvolvimento
+- desenvolvimento web
 - javascript
 - front-end
 ---

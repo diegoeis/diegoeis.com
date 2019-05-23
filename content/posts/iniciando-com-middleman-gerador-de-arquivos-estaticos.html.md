@@ -2,7 +2,7 @@
 title: Iniciando com Middleman - Gerador de arquivos estáticos
 date: 2014-07-04
 tags:
-- desenvolvimento
+- desenvolvimento web
 - front-end
 ---
 

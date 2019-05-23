@@ -2,7 +2,7 @@
 title: Sobre o básico que você precisa aprender para ser um front-end
 date: 2014-05-15
 tags:
-- desenvolvimento
+- desenvolvimento web
 ---
 
 Estava navegando por aí e acabei encontrando um artigo bem legal do [Leandro Oriente](http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/), que fala sobre tecnologias e o que você precisa saber para ser um dev front-end. Decidi então escrever minha versão do artigo, colocando meus pontos de vista.

@@ -2,7 +2,7 @@
 title: Anotações sobre gestão 3.0
 date: 2014-02-11
 tags:
-- notas
+- anotacoes
 - gestão
 - agile
 - gestão

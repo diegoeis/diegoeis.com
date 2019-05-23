@@ -2,8 +2,8 @@
 title: Anotações Segurança em Aplicações Web
 date: 2014-05-20
 tags:
-- notas
-- desenvolvimento
+- anotacoes
+- desenvolvimento web
 ---
 
 Minhas anotações sobre a palestra do Nando Vieira no 16ELW.

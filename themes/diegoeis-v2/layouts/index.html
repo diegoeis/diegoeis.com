@@ -11,13 +11,7 @@
 {{end}}
 </ul>
 
-<ul class="eis-tags-list">
-{{ range $.Site.Taxonomies.tags.ByCount }}
-  <li>
-    <a href="/tags/{{ .Name }}"> {{ .Name }} <small>({{ .Count }})</small></a>
-  </li>
-{{end}}
-</ul>
 
+{{partial "tags-list.html" . }}
 
 {{partial "footer.html" . }}

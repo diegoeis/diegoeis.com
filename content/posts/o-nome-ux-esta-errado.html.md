@@ -4,7 +4,7 @@ date: 2015-05-09
 tags:
 - ux
 - design
-- desenvolvimento
+- desenvolvimento web
 ---
 
 O que é um profissional de UX? Se você for responder rápido, você vai dizer: “É o mano (ou a mana) que faz o Wireframe do projeto.” Essa resposta é no mínimo incompleta. O profissional de UX é responsável por muito mais que isso. O Wireframe é na verdade uma resposta representativa de todo um trabalho prévio de pesquisa, organização e garimpo de informação junto com usuários e clientes. Há uma preocupação muito forte com fluxo de conteúdo e principalmente fluxo de navegação, além de juntar especificar a função e comportamento do sistema. Por isso, meça suas palavras, parça. UX não é o cara que **só** faz os wireframes.

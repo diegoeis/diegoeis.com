@@ -4,6 +4,7 @@ date: 2018-04-06
 tags:
 - management
 - product management
+- produtos digitais
 - design
 ---
 

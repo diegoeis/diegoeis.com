@@ -2,7 +2,7 @@
 title: O básico sobre Expressões Regulares
 date: 2016-06-16
 tags:
-- desenvolvimento
+- desenvolvimento web
 - front-end
 ---
 

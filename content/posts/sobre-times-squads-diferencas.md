@@ -5,6 +5,7 @@ image: https://i.imgur.com/rNAFyJx.jpg
 tags:
 - 
 - product management
+- produtos digitais
 - management
 - agile
 ---

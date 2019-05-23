@@ -4,7 +4,7 @@ date: 2018-06-11
 image: https://cdn-images-1.medium.com/max/1000/0*arM5YJLQAlOFVtBU
 tags:
 - front-end
-- desenvolvimento
+- desenvolvimento web
 ---
 
 Pessoas diferentes para momentos diferentes no processo de desenvolvimento.

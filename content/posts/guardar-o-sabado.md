@@ -1,6 +1,7 @@
 ---
 title: Guardar o sábado
 date: 2017-09-05
+draft: true
 tags:
 - adventista
 - cristão

@@ -4,6 +4,7 @@ date: 2018-04-25
 tags:
 - management
 - product management
+- produtos digitais
 ---
 
 A estrutura que eu tenho visto nascerem em times de desenvolvimentos é mais ou menos assim:

@@ -2,7 +2,7 @@
 title: Como dosar métricas de produto e processo em equipes que trabalham com soluções digitais?
 date: 2017-09-15
 tags:
-- notas
+- anotacoes
 - agile
 ---
 

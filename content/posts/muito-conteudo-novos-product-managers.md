@@ -3,6 +3,7 @@ title: Muito conteúdo para você que começou agora como Product Manager
 date: 2018-03-20
 tags:
 - product management
+- produtos digitais
 - management
 - produtos digitais
 image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg

@@ -3,10 +3,12 @@ title: "Anotações: Se compare com os outros"
 date: 2019-05-14
 image: https://i.imgur.com/G4zFNai.png
 tags:
-- notas
-- tweets
-- desenvolvimento
+- anotacoes
+- desenvolvimento web
 - carreira
+- product management
+- produtos digitais
+- gestão
 ---
 
 Essa foi uma série de tweets que fiz outro dia. Merece um artigo sobre. No final, tem o link da thread. Segue as anotações:

@@ -5,8 +5,9 @@ image: https://cdn-images-1.medium.com/max/1000/1*8AsMVWnYibSKmlOUxuoNBA.jpeg
 tags:
 - product management
 - produtos digitais
+- produtos digitais
 - fintech
-- dinheiro
+- finance
 - investimento
 ---
 

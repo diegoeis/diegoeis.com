@@ -4,7 +4,7 @@ date: 2018-05-11
 image: https://cdn-images-1.medium.com/max/1000/0*_RU28xfysCVfnKG-
 tags:
 - front-end
-- desenvolvimento
+- desenvolvimento web
 ---
 
 O perfil do desenvolvedor front-end mudou e se transformou em dois (talvez mais)

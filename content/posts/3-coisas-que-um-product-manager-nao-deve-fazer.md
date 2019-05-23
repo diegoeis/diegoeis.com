@@ -3,6 +3,7 @@ title: 3 coisas que um Product Manager não deve fazer
 date: 2017-09-05
 tags:
 - product management
+- produtos digitais
 - management
 ---
 

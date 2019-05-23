@@ -1,5 +1,20 @@
 {{partial "head.html" . }}
 
+
+  {{ if eq .Kind "taxonomy" }}
+  
+    {{if eq .Data.Singular "category" }}
+      <h1 class="eis-section-title">{{ .Title }}</h1>
+
+    {{else if eq .Data.Singular "tag"}}
+      <h1 class="eis-section-title">{{ .Title }}</h1>
+      
+    {{else}}
+      <h1 class="eis-section-title">{{ .Title }}</h1>
+    {{ end }}
+
+  {{ end }}
+
 <ul class="eis-list-post">
 {{ range .Data.Pages}}
   <li>
@@ -11,4 +26,6 @@
 {{end}}
 </ul>
 
+
+{{partial "tags-list.html" . }}
 {{partial "footer.html" . }}

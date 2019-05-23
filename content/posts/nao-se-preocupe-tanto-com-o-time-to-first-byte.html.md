@@ -2,7 +2,7 @@
 title: Não se preocupe tanto com o Time To First Byte
 date: 2016-04-11
 tags:
-- desenvolvimento
+- desenvolvimento web
 - front-end
 ---
 

@@ -4,7 +4,7 @@ date: 2016-08-15
 tags:
 - agile
 - scrum
-- notas
+- anotacoes
 ---
 
 Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela AdaptWorks, ministrado pelo [Alexandre Magno](https://twitter.com/axmagno). [Veja as anotações do segundo dia de curso](/dia-2-csm-scrumalliance-adaptworks.html).
@@ -109,7 +109,7 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - o Product Owner não se preocupa ou não em fazer gestão se preocupando se o objetivo da sprint vai ser alcançado, se as tarefas estão no prazo, quais os riscos da sprint. Ele vê o macro, vê o projeto, risco do produto.
 - O que for micro gestão, fica com o desenvolvimento Team. Quem tem que estar preocupado com os riscos da sprint é o dev Team, o prazo, entregas e etc.
 - PO é macro gestão
-- desenvolvimento Team é Micro Gestão. 
+- desenvolvimento web Team é Micro Gestão. 
 - Processos e Pessoas fica com o Scrum Master. Ele está preocupado todas as peculiaridades do time e do projeto, e propõem soluções para melhorar a produtividade do time
 - Scrum Master precisa ter pensamento de processo. Se está errado, é por que o processo está errado e não por que o time é ruim
 - Não é o time que é acomodado, é o processo que está falhando em aumentar o senso de urgência.
@@ -136,7 +136,7 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - Comunicar prazos do projeto
 
 ### Scrum Master
-- Desenvolvimento de competências. Se o time não está maduro para o processo, é dever do SM desenvolver essa competência no time
+- desenvolvimento web de competências. Se o time não está maduro para o processo, é dever do SM desenvolver essa competência no time
 - retira impedimentos do processo. 
 - Facilitador
 - Retirar impedimentos

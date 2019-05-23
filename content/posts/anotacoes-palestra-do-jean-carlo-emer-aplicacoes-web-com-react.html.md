@@ -2,7 +2,7 @@
 title: Anotações - Palestra do Jean Carlo Emer - Aplicações Web com React
 date: 2016-04-07
 tags:
-- notas
+- anotacoes
 - palestras
 - javascript
 ---

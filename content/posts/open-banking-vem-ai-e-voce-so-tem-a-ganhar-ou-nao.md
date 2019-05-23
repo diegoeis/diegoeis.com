@@ -5,8 +5,10 @@ image: https://i.imgur.com/WuRPkbl.jpg
 date: 2019-04-30
 tags:
 - finance
+- fintech
 - produtos digitais
 - product management
+- produtos digitais
 - management
 ---
 

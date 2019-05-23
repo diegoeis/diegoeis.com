@@ -36,7 +36,8 @@ p, li
 // HEADER
 ////
 #eis-header
-  padding: 20px 35px
+  padding: 20px 35px 20px 15px
+  overflow: hidden
 
   .eis-link-about
     margin-bottom: 5px
@@ -76,7 +77,6 @@ p, li
   a
     flex: 1
     display: flex
-    align-items: center
     flex-direction: column
     justify-content: center
     text-decoration: none
@@ -114,7 +114,6 @@ p, li
   width: 100%
   color: rgba(150, 150, 150, 1)
 
-
 .eis-menu 
   float: right
 
@@ -150,7 +149,7 @@ p, li
 
 #eis-tags
   display: block
-  margin: 30px 0 70px
+  margin: 30px auto 70px
   font-size: .8em
   &:before
     content: "tags: "
@@ -179,7 +178,7 @@ p, li
 .eis-tags-list
   position: absolute
   left: 1580px
-  top: 170px
+  top: 190px
   width: 300px
 
   li
@@ -196,13 +195,41 @@ p, li
       background: rgba(0, 0, 0, .07)
       &:hover
         background: $yellow
+
+.eis-section-title
+  clear: both
+  padding-left: 15px
+  margin: 50px 0 -35px
+
 ////
 // SINGLE
 ////
 
 .eis-article
   padding: 0 0 200px 35px
-  max-width: 700px
+  max-width: 1000px
+  margin: 0 auto
+
+  header
+    text-align: center
+
+  pre
+    background-color: #263238
+    color: rgba(233, 237, 237, 1)
+    font-weight: bold
+    padding: 10px
+    display: block
+    margin-bottom: 30px
+    border-radius: 5px
+
+    code
+      color: #fff
+
+  code
+    font-weight: bold
+    background-color: rgba(0, 0, 0, .05)
+    padding: 2px 5px
+    color: #ff0000
 
   a
     // box-shadow: inset 0 -1px 0 $yellow
@@ -230,13 +257,15 @@ p, li
     font-family: $sansserif
     font-size: 3em
     line-height: 1.1
-    font-weight: 300
-    max-width: 80%
+    font-weight: 700
+    margin: 0 auto
     color: $black
     padding: 100px 0 40px
 
   .eis-text 
     position: relative
+    max-width: 80%
+    margin: 0 auto
     img
       max-width: 100%
     
@@ -253,27 +282,28 @@ p, li
       color: #000
 
     blockquote
-      font: italic 1.5em $sansserif
+      font: italic 1.5em $serif
       padding: 30px
       margin: 0 0 35px
-      max-width: 800px
 
       p
         color: #000
         line-height: 1.5
         font-style: italic
+        font-family: $serif
         margin: 0
         padding: 0
 
   p, li, ul, ol
     padding: 0 0 25px 0
+    margin: 0 auto
     font-size: 1em
     line-height: 1.5
     color: #000
-    max-width: 800px
 
   h2, h3, h4
     padding-bottom: 10px
+    margin: 0 auto
     padding-top: 20px
 
   li
@@ -333,7 +363,6 @@ hr
     padding-left: 0
     font-size: 75%
 
-
   .eis-list-post
     padding-right: 0
 
@@ -349,6 +378,7 @@ hr
         padding-bottom: 40px
 
     .eis-text
+      max-width: 100%
 
       blockquote
         font-size: 1.2em

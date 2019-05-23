@@ -5,6 +5,7 @@ image: https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg
 tags:
 - product management
 - produtos digitais
+- produtos digitais
 ---
 
 
