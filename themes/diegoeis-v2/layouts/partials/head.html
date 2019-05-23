@@ -3,9 +3,12 @@
 
 <head>
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
+<link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|PT+Serif:400,700" rel="stylesheet">
 
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
