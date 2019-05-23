@@ -8,7 +8,7 @@ enableRobotsTXT = true
 disableLiveReload = true
 
 rssLimit = 40
-
+pygmentsUseClasses=true
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
