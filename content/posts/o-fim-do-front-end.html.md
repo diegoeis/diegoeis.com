@@ -3,7 +3,7 @@ title: O fim da profissão front-end
 date: 2017-03-19
 tags:
 - front-end
-- management
+- gestão e liderança
 ---
 
 O processo de desenvolvimento web podem se dividir em três categorias: design

@@ -2,7 +2,7 @@
 title: Quem cuida das pessoas no seu time?
 date: 2018-04-25
 tags:
-- management
+- gestão e liderança
 - product management
 - produtos digitais
 ---

@@ -3,9 +3,8 @@ title: Anotações sobre gestão 3.0
 date: 2014-02-11
 tags:
 - anotacoes
-- gestão
 - agile
-- gestão
+- gestão e liderança
 ---
 
 Estas são as minhas anotações sobre o que ouvi em um curso de gerenciamento ágil.

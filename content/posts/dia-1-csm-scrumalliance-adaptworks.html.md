@@ -48,7 +48,7 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - O Scrum se baseia num processo interativo e incremental, onde em cada interação, temos certeza de que temos todas as especialidades para entregar um incremento funcional. 
 - Como cada interação tem todas as especialidades para criar um pedaço do projeto por inteiro, é possível entregar pedaços funcionais do projeto, em um escopo flexível, mas com tempo de entrega definido 
 - Antigamente os métodos eram baseados em uma gestão centralizada. Quem faz gestão não executa e quem executa não faz gestão, vem do modelo de Taylor, onde o que você tinha na execução aquela pessoa que dava a “mão de obra”
-- Gestão e execução são situacionais. Há um tempo no projeto que você precisa fazer mais ou menos gestão do projeto e outras que precisa se concentrar na execução
+- gestão e execução são situacionais. Há um tempo no projeto que você precisa fazer mais ou menos gestão do projeto e outras que precisa se concentrar na execução
 - O scrum tenta misturar os dois, em cada um dos ciclos de desenvolvimento
 - não adianta ter equipes multidisciplinares se você não compartilha a gestão. 
 - Não adianta utilizar scrum se seu fluxo ainda é waterfall
@@ -130,7 +130,7 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - PO gerencia as entregas, por que foi ele que acertou a entrega com o time
 - ele que combina o que vai e o que não vai entrar no sprint
 - satisfação do cliente é uma responsabilidade do PO. Por que é o cara que prioriza o que vai ou não ser feito é que detém a tomada de decisão
-- gestão dos stakeholders
+- gestão e liderança dos stakeholders
 - Cronograma do projeto PO
 - Custo
 - Comunicar prazos do projeto

@@ -5,7 +5,7 @@ tags:
 - agile
 - product management
 - produtos digitais
-- management
+- gestão e liderança
 published: false
 ---
 

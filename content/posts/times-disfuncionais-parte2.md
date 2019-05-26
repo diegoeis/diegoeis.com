@@ -2,10 +2,9 @@
 title: Times disfuncionais - parte 2
 date: 2017-07-15
 tags:
-- 
+- gestão e liderança
 - product management
 - produtos digitais
-- management
 published: false
 ---
 

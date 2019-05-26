@@ -2,7 +2,9 @@
 title: Lançamento App Easynvest
 date: 2017-05-14
 tags:
-- management
+- gestão e liderança
+- produtos digitais
+- product management
 ---
 
 Saiu o novo App da Easynvest! :-D

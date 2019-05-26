@@ -2,9 +2,8 @@
 title: Throughput - Saindo do básico
 date: 2017-05-30
 tags:
-- management
+- gestão e liderança
 - agile
-- gestão
 ---
 
 Em um ambiente de desenvolvimento de software, **throughput** é o número de tarefas entregues (que foram para DONE) em um período de tempo. Esse período de tempo é definido pelo time, contudo, normalmente medimos a quantidade de tarefas entregues dentro de uma semana.

@@ -5,7 +5,6 @@ image: https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg
 tags:
 - product management
 - produtos digitais
-- produtos digitais
 ---
 
 
@@ -46,7 +45,7 @@ valor perante os concorrentes.
 A partir de **1950** o marketing se modificou um pouco e passou a focar suas
 decisões nas necessidades e desejos dos usuários. Por isso, os pontos de
 esforços das empresas como vendas, propaganda
-- gestão de produtos, precificação
+- gestão e liderança de produtos, precificação
 e distribuição eram focados em sanar as necessidades e desejos dos clientes.
 Muito por isso, pesquisas, análises e entrevistas de campo ficaram mais comuns,
 exatamente para tentar entender o comportamento das pessoas perante o produto

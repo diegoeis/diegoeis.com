@@ -3,8 +3,7 @@ title: Time disfuncional
 date: 2016-02-02
 tags:
 - agile
-- gestão
-- management
+- gestão e liderança
 - product management
 - produtos digitais
 ---

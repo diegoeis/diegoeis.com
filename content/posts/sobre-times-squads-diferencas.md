@@ -3,10 +3,9 @@ title: Sobre times e squads
 date: 2018-01-20
 image: https://i.imgur.com/rNAFyJx.jpg
 tags:
-- 
+- gestão e liderança
 - product management
 - produtos digitais
-- management
 - agile
 ---
 
@@ -95,7 +94,7 @@ O rodízio de integrantes, numa estrutura de squads, é regra. Um PM não deve s
 Já em uma estrutura baseada em Times, o rodízio deve ser feito de forma parcimoniosa. Trocar várias integrantes do time de forma frequente é prejudicial para a performance do time. Geralmente novos membros no diminuem o Throughput e Leadtime de entrega, pois os integrantes mais antigos deverão usar uma parte do tempo para passar conhecimento para o novo integrante. 
 
 Como o escopo dos Squads mudam frequentemente, é normal que mais desenvolvedores conheçam mais partes do sistema. É uma democratização orgânica do conhecimento. Quando a estrutura é baseada em times, é comum que poucas pessoas tenham um grande conhecimento de uma parte específica do sistema. Esse é um dos motivos pelo qual o Rodízio de tempos em tempos de integrantes é importante. A frequência do rodízio pode acontecer levando em consideração o turnover dos times
-- gestão, sub-cultura de cada time e vários outros pontos. 
+- gestão e liderança, sub-cultura de cada time e vários outros pontos. 
  
 ### Responsabilidade
  

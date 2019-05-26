@@ -2,9 +2,8 @@
 title: Você conhece Service Dominant Logic ou S-D Logic?
 date: 2018-03-05
 tags:
-- management
+- gestão e liderança
 - product management
-- produtos digitais
 - produtos digitais
 ---
 
@@ -108,9 +107,9 @@ contínuo de hipóteses sobre a proposição de valor do produto. Essa forma de
 pensar, unifica uma vários pensamentos divididos em uma série de explicações
 sobre marketing de serviços
 - marketing de relacionamento
-- gestão de qualidade e
+- gestão e liderança de qualidade e
 valor
-- gestão de recursos e também análise de rede.
+- gestão e liderança de recursos e também análise de rede.
 
 ## O bem não é mais o fim
 

@@ -3,7 +3,7 @@ title: Sobre engajamento e churn
 date: 2018-04-06
 image: https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg
 tags:
-- management
+- gestão e liderança
 - product management
 - produtos digitais
 - design

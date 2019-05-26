@@ -3,7 +3,7 @@ title: Estatística básica nas entregas de projetos  agile - Moda, mediana 
 date: 2017-03-10
 tags:
 - agile
-- management
+- gestão e liderança
 ---
 
 ![](https://cdn-images-1.medium.com/max/1000/1*fieJwIgvONqnVLyPcEcw_A.jpeg)

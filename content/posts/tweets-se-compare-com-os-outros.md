@@ -8,7 +8,7 @@ tags:
 - carreira
 - product management
 - produtos digitais
-- gestão
+- gestão e liderança
 ---
 
 Essa foi uma série de tweets que fiz outro dia. Merece um artigo sobre. No final, tem o link da thread. Segue as anotações:

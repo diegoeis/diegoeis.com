@@ -3,7 +3,7 @@ title: Sobre organizar equipes
 date: 2015-10-19
 tags:
 - agile
-- gestão
+- gestão e liderança
 ---
 
 ### Sobre organizar equipes

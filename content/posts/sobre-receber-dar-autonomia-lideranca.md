@@ -3,8 +3,7 @@ title: Sobre receber e dar autonomia
 date: 2019-02-17
 image: https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg
 tags:
-- management
-- gestão
+- gestão e liderança
 - product management
 - produtos digitais
 ---

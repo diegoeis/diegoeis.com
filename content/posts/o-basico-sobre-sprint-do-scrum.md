@@ -3,7 +3,7 @@ title: O básico sobre Sprints no Scrum
 date: 2016-04-17
 tags:
 - agile
-- gestão
+- gestão e liderança
 - scrum
 ---
 

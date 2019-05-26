@@ -10,7 +10,7 @@ Manoel Pimentel é uma figura muito conhecida na comunidade ágil brasileira e e
 
 Abaixo seguem algumas das anotações que fiz na palestra:
 
-- Gestão de projetos de software é a mesma coisa que gestão de projeto de obra. Ambos fazem cálculos absurdos para tentar prever o que vem pela frente.
+- gestão e liderança de projetos de software é a mesma coisa que gestão de projeto de obra. Ambos fazem cálculos absurdos para tentar prever o que vem pela frente.
 - Qual a essência do que é agile? Essa essência está ligada a trabalhar da maneira mais simples, entregando coisas de valor, criando resultados e benefícios para o negócio, aprendendo e melhorando o processo
 - Como tornar o ágil mais interoperáveis e palátavel em grandes empresas? 
 - Quando você estende muito o conceito do ágil, principalmente em grandes empresas, você corre o risco de aplicar o Ágil de forma decorativa na empresa.

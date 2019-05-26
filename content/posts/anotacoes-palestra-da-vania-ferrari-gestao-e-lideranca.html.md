@@ -1,5 +1,5 @@
 ---
-title: Anotações - Palestra da Vania Ferrari - Gestão e liderança
+title: Anotações - Palestra da Vania Ferrari
 date: 2015-12-09
 tags:
 - anotacoes

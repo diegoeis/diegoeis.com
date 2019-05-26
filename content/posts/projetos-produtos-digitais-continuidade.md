@@ -5,10 +5,10 @@ image: https://images.pexels.com/photos/1181343/pexels-photo-1181343.jpeg
 tags:
 - product management
 - produtos digitais
-- management
+- gestão e liderança
 - agile
-
 ---
+
 Eu já me fiz muitas vezes a pergunta sobre qual a diferença entre gestão de Projetos e gestão de Produtos Digitais. Acho que não existe uma resposta completa o suficiente e talvez cada um, de acordo com sua experiência, tem uma resposta diferente. Nesse artigo, segue a minha versão da resposta, breve e simplista. 
 
 # Escopo, budget e deadline 
