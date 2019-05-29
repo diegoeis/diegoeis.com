@@ -1,6 +1,7 @@
 ---
-title: "Open Banking vem aí, e você só tem a ganhar… ou não."
-excerpt: Descentralização do dinheiro, pessoas no controle dos seus dados financeiros, produtos digitais que poderão estar preparados para essa revolução.
+title: Open Banking vem aí, e você só tem a ganhar… ou não.
+excerpt: Descentralização do dinheiro, pessoas no controle dos seus dados financeiros,
+  produtos digitais que poderão estar preparados para essa revolução.
 image: https://i.imgur.com/WuRPkbl.jpg
 date: 2019-04-30
 tags:
@@ -10,14 +11,17 @@ tags:
 - product management
 - produtos digitais
 - gestão e liderança
----
 
+---
 No último dia 24/04/2019, o Banco Central [divulgou um texto](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=33455) que fala dos requisitos mínimos fundamentais para a aplicação e implementação do Open Banking no Brasil. A ideia é que até o segundo semestre de 2020 a coisa toda comece a rodar.
 
 # Lá fora
 
 Não apenas o Brasil, mas o mundo inteiro tem esperado muito que o Open Banking se torne realidade. Em Janeiro de 2018, o [Payment Services Directive 2](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en) — PSD2 — foi oficializado na Europa. O PSD2 é uma diretiva que força os bancos europeus a abrir suas API’s para Fintechs e outras empresas financeiras. Mas não foi da noite pro dia. Toda a especificação levou alguns anos para ficar pronta.
 
+Um ponto importante: o PSD2 não é a mesma coisa que o Open Banking. O PSD2 é uma lei mais abrangente, que o Open Banking faz parte. Essecialmente o Open Banking é uma versão britânica do PSD2. A diferença básica é que o PSD2 exige que os bancos abram seus dados para que terceiros possam se conectar, já o Open Banking determina que os bancos façam isso de forma padronizada. Isso quer dizer que não dá para cada banco ter uma API com formatos diferentes para uma mesma resposta. A [Wired explica bem isso](https://www.wired.co.uk/article/open-banking-cma-psd2-explained).
+
+  
 O foco do PSD2, nessa sua segunda revisão, é melhorar ainda mais os processos e autorizações de pagamentos além de outros serviços financeiros, criando e integrando novos padrões de serviços de pagamento e padronizando regulações para que bancos e provedores de serviços de financeiros possam se integrar cada vez mais.
 
 > “The primary goal of the directive is to create a single integrated market for > payment services by standardizing the regulations for the banks and for the new payment service providers we have started to see. The PSD2 will ensure transparency and fair competition, and break down the entry barriers for new payment services, which will benefit the customers,” says Søland.
@@ -72,7 +76,7 @@ Hoje, você já não precisa usar o cartão de débito para pagar seu cafezinho,
 
 A tendência é que os Super Apps, que foram originados lá na China, sejam tão comuns quanto qualquer outro aplicativo que usamos hoje. O ponto é que isso vai sofrer uma metamorfose enorme, além de se adaptar à cultura local. O WeChat funcionou na China, por causa do fit cultural deles. O [WeChat, puro, do jeito que funciona na China, NUNCA funcionaria aqui no Brasil](https://www.youtube.com/watch?v=RVup4xqY8Cg). Seria necessário uma série de modificações, ou seja, um App totalmente novo, para se adequar aos nossos costumes de uso. Além disso, os serviços que usamos aqui no dia a dia não estão preparados para isso.
 
-Já existem uma série de serviços que juntam as informações de todos os seus bancos em um só. O HSBC tem uma iniciativa dessa (espertão) [desde 2017](https://www.moneysavingexpert.com/news/2017/09/new-hsbc-app-will-show-all-your-accounts---even-if-theyre-with-its-rivals/). O [Finker](https://www.finker.co/), o [Combine](https://getcombine.com/), o [Yolt](https://www.yolt.com/) e o [Barclays](https://www.barclays.co.uk/ways-to-bank/account-aggregation/). Existem vários outros nomes no mercado e não vai demorar muito para que esses Apps apareçam aqui no Brasil. Isso é normal em qualquer mercado e os primeiros, geralmente, levam a melhor. Dado que não é nenhum serviço totalmente novo, com uma ideia totalmente nova, mas muito útil. E como já disse lá em cima, serviços como Guia Bolso, Organizze e outros serviços desse tipo, poderão ser os primeiros a se transformarem nesses agregadores de bancos e serviços financeiros. 
+Já existem uma série de serviços que juntam as informações de todos os seus bancos em um só. O HSBC tem uma iniciativa dessa (espertão) [desde 2017](https://www.moneysavingexpert.com/news/2017/09/new-hsbc-app-will-show-all-your-accounts---even-if-theyre-with-its-rivals/). O [Finker](https://www.finker.co/), o [Combine](https://getcombine.com/), o [Yolt](https://www.yolt.com/) e o [Barclays](https://www.barclays.co.uk/ways-to-bank/account-aggregation/). Existem vários outros nomes no mercado e não vai demorar muito para que esses Apps apareçam aqui no Brasil. Isso é normal em qualquer mercado e os primeiros, geralmente, levam a melhor. Dado que não é nenhum serviço totalmente novo, com uma ideia totalmente nova, mas muito útil. E como já disse lá em cima, serviços como Guia Bolso, Organizze e outros serviços desse tipo, poderão ser os primeiros a se transformarem nesses agregadores de bancos e serviços financeiros.
 
 # Conclusão
 
@@ -81,27 +85,27 @@ Estou realmente ansioso para ver essa revolução no mundo financeiro. Isso queb
 # Referências:
 
 * [Comunicado Oficial do Banco
-Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=33455)
+  Central](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=33455)
 * [PSD2 (the second Payment Services Directive) explained in 3
-minutes](https://www.nexusgroup.com/blog/psd2-second-payment-services-3-minutes/)
+  minutes](https://www.nexusgroup.com/blog/psd2-second-payment-services-3-minutes/)
 * [Comparing Centralized and Decentralized
-Banking](http://www.usbe.umu.se/digitalAssets/90/90697_ues838.pdf)
+  Banking](http://www.usbe.umu.se/digitalAssets/90/90697_ues838.pdf)
 * [Quit Facebook Before It Inevitably Accesses Your Banking
-Data](https://www.forbes.com/sites/curtissilver/2018/08/06/quit-facebook-before-it-inevitably-accesses-your-banking-data/#7c243bcc6877)
+  Data](https://www.forbes.com/sites/curtissilver/2018/08/06/quit-facebook-before-it-inevitably-accesses-your-banking-data/#7c243bcc6877)
 * [O que é o open banking, que o Banco Central quer
-implementar](https://www.nexojornal.com.br/expresso/2019/04/28/O-que-Ã©-o-open-banking-que-o-Banco-Central-quer-implementar)
+  implementar](https://www.nexojornal.com.br/expresso/2019/04/28/O-que-Ã©-o-open-banking-que-o-Banco-Central-quer-implementar)
 * [Payment services (PSD 2) — Directive (EU)
-2015/2366](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en)
+  2015/2366](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en)
 * [Decentralization Versus Centralization: What It Is, How It Works, Where Is It
-Going and Which One Will Rule
-Supreme?](https://hackernoon.com/decentralization-versus-centralization-what-it-is-how-it-works-where-is-it-going-and-which-one-a725de8426ec)
+  Going and Which One Will Rule
+  Supreme?](https://hackernoon.com/decentralization-versus-centralization-what-it-is-how-it-works-where-is-it-going-and-which-one-a725de8426ec)
 * [Organizar a vida financeira das pessoas é mais importante do que dar cartão sem
-anuidade](https://diegoeis.com/organizar-a-vida-financeira-das-pessoas-e-melhor-que-cartao-sem-anuidade/)
+  anuidade](https://diegoeis.com/organizar-a-vida-financeira-das-pessoas-e-melhor-que-cartao-sem-anuidade/)
 * [2018 will be the year of open banking. Here’s everything you need to
-know.](https://thenextweb.com/worldofbanking/2018/06/27/openbanking/)
+  know.](https://thenextweb.com/worldofbanking/2018/06/27/openbanking/)
 * [The Chinese ‘Super-App’ Changing the Face of
-Tech](https://fleximize.com/articles/006663/chinese-super-app-changing-tech)
+  Tech](https://fleximize.com/articles/006663/chinese-super-app-changing-tech)
 * [Original Devs](https://developers.original.com.br/services#connect)
 * [Open Banking no
-BB](https://www.bb.com.br/pbb/pagina-inicial/bb-digital/open-banking-no-bb#/)
+  BB](https://www.bb.com.br/pbb/pagina-inicial/bb-digital/open-banking-no-bb#/)
 * [Open Banking Brasil](https://openbankingbrasil.com.br/)

@@ -1,7 +1,6 @@
 ---
 label: Default diegoeis.com
 hide_body: false
-is_partial: false
 fields:
 - type: text
   label: TITLE
@@ -17,5 +16,3 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-pages:
-- content/posts/problemas-vem-primeiro-que-soluções.md
