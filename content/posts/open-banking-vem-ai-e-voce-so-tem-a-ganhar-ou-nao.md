@@ -21,7 +21,6 @@ Não apenas o Brasil, mas o mundo inteiro tem esperado muito que o Open Banking 
 
 Um ponto importante: o PSD2 não é a mesma coisa que o Open Banking. O PSD2 é uma lei mais abrangente, que o Open Banking faz parte. Essecialmente o Open Banking é uma versão britânica do PSD2. A diferença básica é que o PSD2 exige que os bancos abram seus dados para que terceiros possam se conectar, já o Open Banking determina que os bancos façam isso de forma padronizada. Isso quer dizer que não dá para cada banco ter uma API com formatos diferentes para uma mesma resposta. A [Wired explica bem isso](https://www.wired.co.uk/article/open-banking-cma-psd2-explained).
 
-  
 O foco do PSD2, nessa sua segunda revisão, é melhorar ainda mais os processos e autorizações de pagamentos além de outros serviços financeiros, criando e integrando novos padrões de serviços de pagamento e padronizando regulações para que bancos e provedores de serviços de financeiros possam se integrar cada vez mais.
 
 > “The primary goal of the directive is to create a single integrated market for > payment services by standardizing the regulations for the banks and for the new payment service providers we have started to see. The PSD2 will ensure transparency and fair competition, and break down the entry barriers for new payment services, which will benefit the customers,” says Søland.
