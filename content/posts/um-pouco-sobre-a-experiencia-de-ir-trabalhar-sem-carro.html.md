@@ -2,7 +2,8 @@
 title: Um pouco sobre a experiência de ir trabalhar sem carro
 date: 2016-09-22
 tags:
-- vida
+  - vida
+  - letter
 ---
 
 Faz meses que tenho deixado o carro em casa e passado a usar transporte público para ir trabalhar. Não fiz isso por causa do valor que estou economizando por mês (que é bem pouco), mas por uma série de outros motivos.
