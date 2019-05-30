@@ -2,6 +2,7 @@
 <html lang="{{ .Site.LanguageCode | default " pt-br " }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
+  <link rel="icon" href="{{ .Site.BaseURL}}/images/favicon.ico">
 
 <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|PT+Serif:400,700" rel="stylesheet">
@@ -22,7 +23,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="og:type" content="website">
   {{- else -}}
   <title>{{ .Title }} - {{ .Site.Title }}</title>
-  
 
   <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cefc9317feea60012093e3c&product=sticky-share-buttons' async='async'></script>
 
