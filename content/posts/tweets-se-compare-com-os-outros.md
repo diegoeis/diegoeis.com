@@ -11,7 +11,7 @@ tags:
 - gestão e liderança
 ---
 
-Essa foi uma série de tweets que fiz outro dia. Merece um artigo sobre. No final, tem o link da thread. Segue as anotações:
+Essa foi [uma série de tweets que fiz outro dia](https://twitter.com/diegoeis/status/1128385316073746434). Merece um artigo sobre. No final, tem o link da thread. Segue as anotações:
 
 "Uma dica (vale para todos, mas principalmente devs): sempre se compare com os outros. 
 Existe uma falácia de que vc não pode se comparar com ninguém. Que fazer faz mal. Mentira. Você precisa sim entender quem é igual a você, quem é melhor que você e quem é pior que você.
