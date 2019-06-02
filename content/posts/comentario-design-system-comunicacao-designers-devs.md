@@ -10,7 +10,7 @@ tags:
   - design
 ---
 
-Essa foi uma [série de tweets](https://twitter.com/diegoeis/status/1134339782149058560) que fiz outro dia. No final, tem o link da thread. Segue as anotações:
+Essa foi uma [série de tweets](https://twitter.com/diegoeis/status/1134339782149058560) que fiz outro dia. No final, tem o link da thread. Seguem as anotações:
 
 ----
 

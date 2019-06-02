@@ -5,10 +5,11 @@ theme = "diegoeis-v2"
 languageCode = "pt-br"
 
 enableRobotsTXT = true
-disableLiveReload = true
+disableLiveReload = false
 
 rssLimit = 40
 pygmentsUseClasses=true
+assetDir = "/static/"
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"

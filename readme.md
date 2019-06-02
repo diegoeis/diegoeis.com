@@ -1,1 +1,3 @@
-sass --watch themes/diegoeis-v2/static/all.sass:themes/diegoeis-v2/static/all.css --style compressed
+# Blog do Diego Eis
+
+Esse é o meu blog pessoal. A plataforma usada é Hugo.

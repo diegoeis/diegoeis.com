@@ -6,8 +6,6 @@ tags:
 - anotacoes
 - desenvolvimento web
 - carreira
-- product management
-- produtos digitais
 - gestão e liderança
 ---
 

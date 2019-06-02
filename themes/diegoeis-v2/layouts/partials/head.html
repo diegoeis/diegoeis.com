@@ -4,8 +4,12 @@
 <head>
   <link rel="icon" href="{{ .Site.BaseURL}}/images/favicon.ico">
 
-<link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|PT+Serif:400,700" rel="stylesheet">
+{{ $style := resources.Get "all.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}"> -->
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Source+Sans+Pro:300,400,700|PT+Sans:700|Noto Serif" rel="stylesheet">
+
 <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/diegoeiscom" title="{{ .Site.Title }}">
 
 <!-- Google Tag Manager -->
