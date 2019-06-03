@@ -4,21 +4,18 @@
 <head>
   <link rel="icon" href="{{ .Site.BaseURL}}/images/favicon.ico">
 
-{{ $style := resources.Get "all.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Source+Sans+Pro:300,400,700|PT+Sans:700|Noto Serif" rel="stylesheet">
 
-<!-- <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}"> -->
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Source+Sans+Pro:300,400,700|PT+Sans:700|Noto Serif" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/diegoeiscom" title="{{ .Site.Title }}">
 
-<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/diegoeiscom" title="{{ .Site.Title }}">
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
-<!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
+  <!-- End Google Tag Manager -->
 
   
   {{ if .IsHome -}}
