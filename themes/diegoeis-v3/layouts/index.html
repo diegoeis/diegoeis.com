@@ -1,0 +1,30 @@
+{{partial "head.html" . }}
+
+<div class="eis-container">
+
+  {{ range first 1 (where .Site.Pages "Type" "post" )}}
+  <div class="eis-first-post">
+    <h1><a href="{{.Permalink}}">{{.Title}}</a></h1>
+    <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+    {{partial "post-tags.html" . }}
+  </div>
+  {{end}}
+
+  <section class="eis-home-container">
+    <ul class="eis-list-post">
+    {{ range .Pages}}
+      <li>
+        <a href="{{.Permalink}}" class="eis-post-lnk">
+          <h1>{{.Title}}</h1>
+          <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+        </a>
+      </li>
+    {{end}}
+    </ul>
+
+    {{partial "tags-list.html" . }}
+
+  </section>
+</div>
+
+{{partial "footer.html" . }}

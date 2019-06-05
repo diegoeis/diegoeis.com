@@ -1,0 +1,32 @@
+{{partial "head.html" . }}
+
+<article class="eis-article">
+  <header>
+    <div class="eis-post-info">
+      <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <!-- <a href="#eis-comments" class="eis-comments-lnk">Comente também</a> -->
+      {{- partial "post-tags.html" . }}
+    </div>
+
+    <h1>{{.Title}}</h1>
+  </header>
+
+  <div class="eis-text">
+    {{.Content}}
+  </div>
+
+  <!-- <div class="eis-comments" id="eis-comments">
+
+    <script>
+    var idcomments_acct = 'eb5d596a249484b9b0c0d5c8e1cf058b';
+    var idcomments_post_id;
+    var idcomments_post_url;
+    </script>
+    <span id="IDCommentsPostTitle" style="display:none"></span>
+    <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+
+  </div> -->
+</article>
+
+{{partial "footer.html" . }}
+

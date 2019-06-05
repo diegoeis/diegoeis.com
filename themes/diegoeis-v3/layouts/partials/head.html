@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default " pt-br " }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+  <link rel="icon" href="{{ .Site.BaseURL}}/images/favicon.ico">
+
+  <link rel="stylesheet" href="{{ .Site.BaseURL}}all.css?{{ now.Unix }}">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,700|Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/diegoeiscom" title="{{ .Site.Title }}">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5RQBQLQ');</script>
+  <!-- End Google Tag Manager -->
+
+  {{ if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:type" content="website">
+  {{- else -}}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+
+  <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cefc9317feea60012093e3c&product=sticky-share-buttons' async='async'></script>
+
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property="og:type" content="article">
+  {{- end }}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+  {{ end -}}
+
+  <meta name="author" content="{{ .Site.Params.author }}">
+
+  {{ if $.Scratch.Get "single"}}
+  <meta property="og:type" content="article"> 
+  {{end}}
+  
+  <meta property="og:title" content="{{ .Title}}">
+  <meta property="og:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" name="description">
+  <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://images.pexels.com/photos/1089663/pexels-photo-1089663.jpeg?cs=srgb&dl=arid-automobile-barren-1089663.jpg&fm=jpg{{ end }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@diegoeis">
+  <meta name="twitter:title" content="{{.Title}}">
+  <meta name="twitter:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://images.pexels.com/photos/1089663/pexels-photo-1089663.jpeg?cs=srgb&dl=arid-automobile-barren-1089663.jpg&fm=jpg{{ end }}">
+
+</head>
+
+<body class='Type-is-{{ .Type }} Kind-is-{{ .Kind }} Section-is-{{ .Section }}'>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+<header id="eis-header">
+  <a href="/" class="eis-logo">Diego Eis</a>
+  <ul class="eis-menu">
+    <li><a href="/about-me" class="eis-link-about" data-clicked="lnk-about-me">Sobre mim</a></li>
+    <li>
+      <a href="http://twitter.com/diegoeis/" data-clicked="lnk-twitter" class="de-twitter"><img src="{{ .Site.BaseURL}}/images/twitter.png" alt="Logo do Twitter" title="Acesse o Twitter do Diego"></a>
+    </li>
+    <li>
+      <a href="https://medium.com/@diegoeis" class="de-medium" data-clicked="lnk-medium">
+        <svg class="svgIcon-use" height="45" viewBox="0 0 45 45">
+          <path d="M5 40V5h35v35H5zm8.56-12.627c0 .555-.027.687-.318 1.03l-2.457 2.985v.396h6.974v-.396l-2.456-2.985c-.291-.343-.344-.502-.344-1.03V18.42l6.127 13.364h.714l5.256-13.364v10.644c0 .29 0 .342-.185.528l-1.848 1.796v.396h9.19v-.396l-1.822-1.796c-.184-.186-.21-.238-.21-.528V15.937c0-.291.026-.344.21-.528l1.823-1.797v-.396h-6.471l-4.622 11.542-5.203-11.542h-6.79v.396l2.14 2.64c.239.292.291.37.291.768v10.353z"></path>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="http://feeds.feedburner.com/diegoeiscom" class="de-rssc" data-clicked="lnk-feed"><img src="{{ .Site.BaseURL}}/images/rss.png" alt="Logo do RSS" title="Acesse o RSS do {{ .Site.Title }}"></a>
+    </li>
+  </ul>
+</header>

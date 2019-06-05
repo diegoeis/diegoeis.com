@@ -1,6 +1,7 @@
 ---
 title: "Design System e o gap de comunicação entre Designers e Devs"
 date: 2019-05-31
+type: post
 publishdate: 2019-05-31
 image: https://i.imgur.com/slk72ip.jpg
 tags:
