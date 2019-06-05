@@ -474,7 +474,8 @@ body.darkmode {
   text-decoration: none
 }
 
-.darkmode p a {
+.darkmode p a,
+.darkmode .eis-post-tags li a:hover {
   color: var(--yellow);
 }
 .darkmode p a:hover {
