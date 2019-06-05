@@ -443,7 +443,6 @@ body.darkmode {
 .darkmode .eis-post-tags li a,
 .darkmode .eis-tags-list:before,
 .darkmode .eis-list-post li a,
-.darkmode .eis-text a,
 .darkmode h2, 
 .darkmode h3, 
 .darkmode h4, 
@@ -475,14 +474,24 @@ body.darkmode {
   text-decoration: none
 }
 
+.darkmode p a {
+  color: var(--yellow);
+}
+.darkmode p a:hover {
+  background: var(--yellow); 
+  color: black;
+  text-decoration: none;
+}
+
 .darkmode a:hover {
   box-shadow: none;
-  color: white;
+  color: var(--yellow);
   text-decoration: underline;
 }
 
 .darkmode h1 a:hover {
   box-shadow: none;
+  color: var(--yellow);
 }
 
 .darkmode .eis-article header h1:after {
