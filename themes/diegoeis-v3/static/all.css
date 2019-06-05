@@ -209,7 +209,7 @@ h1 a:hover {
 
 .eis-list-post li a:hover {
   box-shadow: none;
-  background: var(--yellow);
+  background: var(--yellow) !important;
 }
 
 .eis-list-post li a:hover h1 {
@@ -461,6 +461,11 @@ body.darkmode {
 .darkmode .eis-text blockquote {
   color: #DFDFDF;
 }
+
+.eis-list-post li a:hover .eis-date {
+  color: #000;
+}
+
 
 .darkmode .eis-list-post li a {
   background: #434343;
