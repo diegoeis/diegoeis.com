@@ -124,12 +124,17 @@ h1 a:hover {
   max-height: 20px;
 }
 
+
 .eis-logo {
   font: 700 1.25rem var(--sans-serif);
   color: #000;
   text-decoration: none;
 }
-
+@media screen and (max-width: 700px) {
+  #eis-header {
+    margin-bottom: 40px;
+  }
+}
 /***
  First Featured Post
 ***/
@@ -158,6 +163,7 @@ h1 a:hover {
   }
   .eis-first-post h1 {
     margin-bottom: 50px;
+    font-size: 2rem;
   }
 }
 
@@ -187,6 +193,7 @@ h1 a:hover {
   display: flex;
   width: 100%;
 }
+.eis-list-post li:first-child {display: none;}
 
 .eis-list-post li a {
   padding: 25px;
@@ -393,4 +400,86 @@ h1 a:hover {
   background: transparent;
   display: block;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .eis-article header h1 {
+    font-size: 2rem;
+    margin: 40px auto;
+  }
+  .eis-article header h1:after {margin-top: 40px;}
+
+}
+
+
+
+/**********
+**** DARK MODE
+**********/
+.eis-dark-btn {
+  cursor: pointer;
+  font: .7rem var(--sans-serif);
+  background: rgba(0, 0, 0, .1);
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.darkmode .eis-dark-btn {
+  background: rgba(255, 255, 255, .5);
+}
+
+body.darkmode {
+  background: #121212;
+}
+
+.darkmode a, 
+.darkmode h1, 
+.darkmode p,
+.darkmode .eis-date,
+.darkmode .eis-post-tags li,
+.darkmode .eis-menu a,
+.darkmode .eis-logo,
+.darkmode .eis-post-tags li a,
+.darkmode .eis-tags-list:before,
+.darkmode .eis-list-post li a,
+.darkmode .eis-text a,
+.darkmode h2, 
+.darkmode h3, 
+.darkmode h4, 
+.darkmode h5, 
+.darkmode h6,
+.eis-menu li {
+  color: #fff;
+}
+
+.darkmode .eis-list-post .eis-date,
+.darkmode .eis-post-tags li a,
+.darkmode .eis-tags-list a,
+.darkmode .eis-text p,
+.darkmode .eis-text li,
+.darkmode .eis-text blockquote {
+  color: #DFDFDF;
+}
+
+.darkmode .eis-list-post li a {
+  background: #434343;
+}
+
+.darkmode .eis-list-post li a:hover {
+  text-decoration: none
+}
+
+.darkmode a:hover {
+  box-shadow: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.darkmode h1 a:hover {
+  box-shadow: none;
+}
+
+.darkmode .eis-article header h1:after {
+  background: #fff;
 }

@@ -1,2 +1,45 @@
+
+<script type="text/javascript">
+  
+  (function (){
+    'use strict';
+
+    var dmbtn = document.querySelector('.eis-dark-btn');
+    var body = document.querySelector('body');
+
+    function init(){
+      setClassDarkMode();
+      checkDarkMode();
+    }
+
+    function checkDarkMode() {
+      if(localStorage.getItem("darkmode") != null) {
+        body.classList.add("darkmode");
+        dmbtn.textContent = "white mode"
+      }
+    }
+
+    function setClassDarkMode() {
+      dmbtn.addEventListener('click', () => {
+        
+        if (localStorage.getItem("darkmode") != null){
+          localStorage.removeItem('darkmode','true')
+          body.classList.remove("darkmode");
+          dmbtn.textContent = "dark mode"
+        } else {
+          localStorage.setItem('darkmode','true')
+          body.classList.add("darkmode");
+          dmbtn.textContent = "white mode"
+        }
+
+      });
+
+    };
+
+    init()
+  }());
+
+</script>
+
 </body>
 </html>
