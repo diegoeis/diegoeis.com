@@ -36,7 +36,7 @@ a {
 a:hover { box-shadow: inset 0 -6px 0 var(--yellow);}
 
 h1 {
-  font: 700 3.125rem var(--serif);
+  font: 400 3.125rem var(--serif);
   color: #000;
 }
 
@@ -48,7 +48,7 @@ h1 a:hover {
 
 .eis-section-title {
   margin-bottom: 50px;
-  font-weight: 500
+  font-weight: 400
 }
 
 .eis-section-title i {font-weight: 700}
@@ -281,7 +281,7 @@ h1 a:hover {
   max-width: 770px;
   text-align: center;
   margin: 100px auto;
-  font-weight: 500
+  font-weight: 400
 }
 
 .eis-article h1:after {
