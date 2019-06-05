@@ -5,7 +5,7 @@ publishdate: 2019-05-30
 image: https://cdn-images-1.medium.com/max/1200/1*3g0iXZJryOCK_zDB4RVnPg.jpeg
 tags:
 - product management
-- gestão
+- gestão e liderança
 - produtos digitais
 ---
 

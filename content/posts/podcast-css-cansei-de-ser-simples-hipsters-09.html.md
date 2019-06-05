@@ -2,7 +2,7 @@
 title: CSS - Cansei de Ser Simples – Podcast Hipsters 09
 date: 2016-09-13
 tags:
-- podcast, css
+- podcast
 - front-end
 - desenvolvimento web
 ---

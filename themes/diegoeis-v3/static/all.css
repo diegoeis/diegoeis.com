@@ -62,7 +62,7 @@ h1 a:hover {
   text-transform: uppercase;
   color: var(--black);
   font:  400 .625rem var(--sans-serif);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -197,7 +197,7 @@ h1 a:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
+  transition: all linear .15s;
 }
 
 .eis-list-post li a:hover {
@@ -243,7 +243,7 @@ h1 a:hover {
   text-transform: uppercase;
   color: var(--black);
   font:  400 .625rem var(--sans-serif);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -276,15 +276,16 @@ h1 a:hover {
   padding: 15px 20px;
 }
 
-.eis-article h1 {
+.eis-article header h1 {
   width: 100%;
-  max-width: 770px;
+  max-width: 960px;
   text-align: center;
   margin: 100px auto;
-  font-weight: 400
+  font-weight: 400;
+  font-size: 4.3rem;
 }
 
-.eis-article h1:after {
+.eis-article header h1:after {
   content: "";
   display: block;
   width: 70px;
@@ -299,18 +300,92 @@ h1 a:hover {
   margin: 0 auto;
 }
 
+.eis-text ul,
+.eis-text ol {
+  margin: 0 0 20px 20px;
+}
+
+.eis-text li {
+  font: 400 .9375rem/1.2 var(--sans-serif);
+  padding-bottom: 10px;
+}
+
 .eis-text p {
   font: 400 .9375rem/1.75 var(--sans-serif);
   margin-bottom: 20px;
   color: #272727;
 }
 
-.eis-text p a {
+.eis-text a {
   color: #000;
   text-decoration: underline;
 }
 
-.eis-text p a:hover {text-decoration: none;}
+.eis-text a:hover {text-decoration: none;}
+
+.eis-text h1 {
+  margin: 40px 0 10px;
+  text-align: left;
+  font-size: 2.2rem;
+}
+
+.eis-text h1:after {display: none;}
+
+.eis-text h2,  
+.eis-text h3,  
+.eis-text h4 {
+  font-family: var(--sans-serif);
+  margin: 40px 0 5px;
+}
+
+.eis-text blockquote {
+  position: relative;
+  padding-left: 50px;
+}
+.eis-text blockquote:before,
+.eis-text blockquote:after {
+  content: '"';
+  font: italic 700 10rem/1.2 Sans-Serif;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: -1;
+  color: rgba(0, 0, 0, .08);
+}
+
+.eis-text blockquote:after {
+  left: auto;
+  bottom: 0;
+  right: 0;
+}
+
+.eis-text blockquote p {
+  font: italic 700 2rem/1.2 var(--serif);
+  margin: 50px 0;
+  padding-top: 20px;
+}
+
+.eis-text pre {
+  background-color: #263238;
+  color: rgba(233, 237, 237, 1);
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.eis-text pre code{
+ color: #fff;
+}
+
+.eis-text code {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, .05);
+  padding: 2px 5px;
+  color: #ff0000;
+}
 
 .eis-text hr {
   border: none;
