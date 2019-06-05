@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-  --serif: "Cormorant Garamond", Times, Serif;
+  --serif: "EB Garamond", "Cormorant Garamond", Times, Serif;
   --sans-serif: Open Sans, Arial, Helvetica, sans-serif;
   --yellow: #f9da18;
   --black: #484848;
@@ -43,7 +43,7 @@ h1 {
 h1 a:hover {
   box-shadow: 
     inset 0 -13px 0 white,
-    inset 0 -21px 0 var(--yellow);
+    inset 0 -25px 0 var(--yellow);
 }
 
 .eis-section-title {
@@ -134,12 +134,11 @@ h1 a:hover {
  First Featured Post
 ***/
 .eis-first-post {
-  margin-bottom: 120px;
+  margin-bottom: 150px;
 }
 .eis-first-post h1 {
-  font-weight: 500; 
-  line-height: 55px;
-  max-width: 750px;
+  font: 400 4.375rem/1.15 var(--serif);
+  max-width: 1000px;
   margin-bottom: 45px;
 }
 
