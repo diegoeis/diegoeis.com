@@ -138,6 +138,14 @@ img {
   vertical-align: middle;
 }
 
+.eis-menu li .eis-twitter svg {fill: #24A0EF;}
+.eis-menu li .eis-linkedin svg {fill: #0077B5;}
+.eis-menu li .eis-feed svg {fill: #DC7936;}
+
+.darkmode .eis-menu li .eis-twitter svg,
+.darkmode .eis-menu li .eis-linkedin svg, 
+.darkmode .eis-menu li .eis-feed svg {fill: rgba(255, 255, 255, 1);}
+
 .eis-menu .eis-twitter {position: relative; right: -6px;}
 
 .eis-logo {
