@@ -25,11 +25,11 @@
         if (localStorage.getItem("darkmode") != null){
           localStorage.removeItem('darkmode','true')
           body.classList.remove("darkmode");
-          dmbtn.textContent = "dark mode"
+          dmbtn.textContent = "dark on"
         } else {
           localStorage.setItem('darkmode','true')
           body.classList.add("darkmode");
-          dmbtn.textContent = "white mode"
+          dmbtn.textContent = "dark off"
         }
 
       });

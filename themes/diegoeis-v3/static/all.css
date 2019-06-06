@@ -46,6 +46,10 @@ h1 a:hover {
     inset 0 -25px 0 var(--yellow);
 }
 
+img {
+  max-width: 100%;
+}
+
 .eis-section-title {
   margin-bottom: 50px;
   font-weight: 400
@@ -53,6 +57,17 @@ h1 a:hover {
 
 .eis-section-title i {font-weight: 700}
 
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .eis-avatar-about {
+    float: none !important;
+    max-width: 100% !important;
+  }
+
+}
 
 /*
   Date in posts
@@ -130,11 +145,17 @@ h1 a:hover {
   color: #000;
   text-decoration: none;
 }
+
 @media screen and (max-width: 700px) {
   #eis-header {
     margin-bottom: 40px;
+    justify-content: center;
+  }
+  .eis-menu {
+    padding-top: 20px;
   }
 }
+
 /***
  First Featured Post
 ***/
@@ -282,6 +303,8 @@ h1 a:hover {
   border-bottom: 1px solid #DFDFDF;
   padding: 15px 20px;
 }
+
+.Section-is-pages .eis-post-info {display: none;}
 
 .eis-article header h1 {
   width: 100%;

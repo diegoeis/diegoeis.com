@@ -3,7 +3,7 @@ title: Sobre mim
 date: 2018-02-18
 ---
 
-<img src="/images/avatar-2018.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" />
+<img src="/images/avatar-2018.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" style="max-width: 170px; margin: 0 20px 0 0; display: block; float: left;">
 
 ## TL: DR;
 Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente sou Diretor de Produtos Digitais na Jüssi. Anteriormente eu era Product Manager na Neon Pagamentos e antes disso passei pela na Easynvest e antes ainda na Locaweb, coordenando dois times de produtos digitais. 
