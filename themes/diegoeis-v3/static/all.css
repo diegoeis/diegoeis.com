@@ -5,7 +5,7 @@
 
 body {
   font-size: 16px;
-  padding: 0 20px;
+  padding: 0 25px;
   text-rendering: optimizeLegibility
   -moz-osx-font-smoothing: grayscale
   -moz-font-feature-settings: "liga" on
@@ -118,11 +118,11 @@ img {
 .eis-menu li {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .eis-menu li:first-child {
-  margin-right: 25px
+  margin-right: 20px
 }
 
 .eis-menu a {
@@ -131,14 +131,14 @@ img {
   color: #000;
 }
 
-.eis-menu li img {
-  max-width: 15px;
-}
 .eis-menu li img,
 .eis-menu li svg {
-  max-height: 20px;
+  height: 17px;
+  width: 17px;
+  vertical-align: middle;
 }
 
+.eis-menu .eis-twitter {position: relative; right: -6px;}
 
 .eis-logo {
   font: 700 1.25rem var(--sans-serif);
@@ -435,6 +435,20 @@ img {
 }
 
 
+.eis-footer {
+  text-align: center;
+  padding: 10px;
+  margin: 100px 0 25px;
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  font: .7rem var(--sans-serif);
+  color: var(--black);
+}
+
+.eis-footer a {
+  text-transform: uppercase;
+  color: var(--black);
+}
+
 
 /**********
 **** DARK MODE
@@ -521,3 +535,4 @@ body.darkmode {
 .darkmode .eis-article header h1:after {
   background: #fff;
 }
+
