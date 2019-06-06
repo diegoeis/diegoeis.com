@@ -198,7 +198,7 @@ img {
 
 .eis-list-post {
   order: 1;
-  flex: 1 1100px;
+  flex: 1 600px;
   display: flex;
   flex-flow:  row;
   flex-wrap: wrap;
