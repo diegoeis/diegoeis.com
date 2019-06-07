@@ -1,5 +1,6 @@
 ---
 title: Anotações sobre gestão agile
+type: post
 date: 2016-05-05
 tags:
 - anotacoes

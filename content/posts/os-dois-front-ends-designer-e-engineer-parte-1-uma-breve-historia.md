@@ -1,5 +1,6 @@
 ---
 title: "Os dois front-ends: designer e engineer — Parte 1 : Uma breve história"
+type: post
 date: 2018-05-11
 image: https://cdn-images-1.medium.com/max/1000/0*_RU28xfysCVfnKG-
 tags:

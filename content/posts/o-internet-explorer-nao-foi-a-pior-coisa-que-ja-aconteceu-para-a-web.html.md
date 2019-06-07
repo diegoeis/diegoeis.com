@@ -1,5 +1,6 @@
 ---
 title: O Internet Explorer não foi a pior coisa que já aconteceu para a web
+type: post
 date: 2015-01-28
 tags:
 - browsers

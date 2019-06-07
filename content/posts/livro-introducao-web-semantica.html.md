@@ -1,6 +1,7 @@
 ---
 type: post
 title: Livro Introdução à Web Semântica
+type: post
 date: 2017-09-17
 image: https://i.imgur.com/Vto4B24.jpg
 tags:

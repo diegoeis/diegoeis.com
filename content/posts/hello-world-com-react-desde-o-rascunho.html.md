@@ -1,5 +1,6 @@
 ---
 title: Hello World com React desde o rascunho
+type: post
 date: 2016-10-23
 tags:
 - desenvolvimento web

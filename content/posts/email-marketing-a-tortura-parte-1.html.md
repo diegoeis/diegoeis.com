@@ -1,5 +1,6 @@
 ---
 title: Email Marketing a tortura - Parte 1
+type: post
 date: 2015-04-06
 tags:
 - desenvolvimento web

@@ -1,5 +1,6 @@
 ---
 title: Introdução bem rápida sobre vim
+type: post
 date: 2017-02-01
 tags:
 - desenvolvimento web

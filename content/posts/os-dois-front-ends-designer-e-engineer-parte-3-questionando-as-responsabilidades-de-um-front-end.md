@@ -1,5 +1,6 @@
 ---
 title: "Os dois front-ends: designer e engineer — Parte 3: Questionando as responsabilidades de um front-end"
+type: post
 date: 2018-08-13
 image: https://cdn-images-1.medium.com/max/1000/0*L--dRzhEpxR8vWNL
 tags:

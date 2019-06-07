@@ -1,5 +1,6 @@
 ---
 title: Throughput - Saindo do básico
+type: post
 date: 2017-05-30
 tags:
 - gestão e liderança

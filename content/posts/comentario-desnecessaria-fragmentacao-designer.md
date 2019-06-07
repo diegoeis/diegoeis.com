@@ -1,5 +1,6 @@
 ---
 title: Um comentário sobre a desnecessária fragmentação da profissão designer
+type: post
 date: 2017-03-28
 image: https://images.pexels.com/photos/6224/hands-people-woman-working.jpg
 tags:

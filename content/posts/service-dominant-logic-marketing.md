@@ -1,5 +1,6 @@
 ---
 title: Você conhece Service Dominant Logic ou S-D Logic?
+type: post
 date: 2018-03-05
 tags:
 - gestão e liderança

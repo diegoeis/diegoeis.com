@@ -1,5 +1,6 @@
 ---
 title: Organizar a vida financeira das pessoas é mais importante do que dar cartão sem anuidade
+type: post
 date: 2018-08-13
 image: https://cdn-images-1.medium.com/max/1000/1*8AsMVWnYibSKmlOUxuoNBA.jpeg
 tags:

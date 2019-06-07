@@ -1,5 +1,6 @@
 ---
 title: Sobre traquejo social na internet
+type: post
 date: 2014-05-23
 tags:
   - vida

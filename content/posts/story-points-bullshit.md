@@ -1,5 +1,6 @@
 ---
 title: Histórias menores são a resposta, Story Points são bullshit
+type: post
 date: 2017-08-15
 tags:
 - agile

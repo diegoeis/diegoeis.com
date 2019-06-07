@@ -1,5 +1,6 @@
 ---
 title: O básico sobre Sprints no Scrum
+type: post
 date: 2016-04-17
 tags:
 - agile

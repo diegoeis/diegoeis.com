@@ -1,5 +1,6 @@
 ---
 title: Não seja o próximo Zeno Rocha
+type: post
 date: 2014-10-13
 tags:
 - desenvolvimento web

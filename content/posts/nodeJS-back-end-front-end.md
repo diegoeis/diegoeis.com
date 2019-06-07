@@ -1,5 +1,6 @@
 ---
 title: Node.js - o back-end do front-end
+type: post
 date: 2017-08-05
 tags:
 - front-end

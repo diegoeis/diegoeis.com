@@ -1,5 +1,6 @@
 ---
 title: Sobre organizar equipes
+type: post
 date: 2015-10-19
 tags:
 - agile

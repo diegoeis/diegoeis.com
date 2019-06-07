@@ -1,5 +1,6 @@
 ---
 title: Sobre os pavões do mercado de front-end
+type: post
 date: 2014-09-29
 tags:
 - desenvolvimento web

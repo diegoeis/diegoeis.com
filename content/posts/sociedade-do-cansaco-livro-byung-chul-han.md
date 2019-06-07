@@ -1,6 +1,7 @@
 ---
 type: post
 title: Vivemos numa sociedade doente - Sobre o livro Sociedade do Cansaço
+type: post
 date: 2019-05-12
 image: https://cdn-images-1.medium.com/max/1200/0*HNYs2Q5TImEpRCCh
 tags:

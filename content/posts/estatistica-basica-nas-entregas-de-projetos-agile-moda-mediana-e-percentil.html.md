@@ -1,5 +1,6 @@
 ---
 title: Estatística básica nas entregas de projetos  agile - Moda, mediana e percentil
+type: post
 date: 2017-03-10
 tags:
 - agile

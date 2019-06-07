@@ -1,5 +1,6 @@
 ---
 title: Um pouco sobre a experiência de ir trabalhar sem carro
+type: post
 date: 2016-09-22
 tags:
   - vida

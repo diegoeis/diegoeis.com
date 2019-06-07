@@ -1,5 +1,6 @@
 ---
 title: Mulheres na área de TI e Respeito
+type: post
 date: 2017-09-05
 tags:
 - front-end

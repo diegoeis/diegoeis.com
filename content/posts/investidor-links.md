@@ -1,5 +1,6 @@
 ---
 title: Investidor Toolkit - Links de utilidades para investidores
+type: post
 date: 2019-03-06
 tags:
 - investimento

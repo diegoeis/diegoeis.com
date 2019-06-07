@@ -1,5 +1,6 @@
 ---
 title: Sobre times e squads
+type: post
 date: 2018-01-20
 image: https://i.imgur.com/rNAFyJx.jpg
 tags:

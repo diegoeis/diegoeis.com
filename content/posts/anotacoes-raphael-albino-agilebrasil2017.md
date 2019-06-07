@@ -1,5 +1,6 @@
 ---
 title: Como dosar métricas de produto e processo em equipes que trabalham com soluções digitais?
+type: post
 date: 2017-09-15
 tags:
 - anotacoes

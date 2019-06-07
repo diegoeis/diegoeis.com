@@ -1,5 +1,6 @@
 ---
 title: Anotações - Palestra da Vania Ferrari
+type: post
 date: 2015-12-09
 tags:
 - anotacoes

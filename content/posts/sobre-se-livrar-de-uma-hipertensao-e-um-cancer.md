@@ -1,5 +1,6 @@
 ---
 title: Sobre se livrar de uma hipertensão e um câncer
+type: post
 date: 2014-11-09
 tags:
 - saude

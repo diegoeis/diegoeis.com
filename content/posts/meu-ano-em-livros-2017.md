@@ -1,5 +1,6 @@
 ---
 title: Meu ano em livros — 2017
+type: post
 date: 2017-12-20
 image: https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg
 tags:

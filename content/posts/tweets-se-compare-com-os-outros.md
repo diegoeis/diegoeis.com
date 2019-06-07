@@ -1,5 +1,6 @@
 ---
 title: "Anotações: Se compare com os outros"
+type: post
 date: 2019-05-14
 image: https://i.imgur.com/G4zFNai.png
 tags:

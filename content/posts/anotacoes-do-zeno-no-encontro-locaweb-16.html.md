@@ -1,5 +1,6 @@
 ---
 title: Anotações do Zeno no Encontro Locaweb 16
+type: post
 date: 2015-08-22
 tags:
 - anotacoes

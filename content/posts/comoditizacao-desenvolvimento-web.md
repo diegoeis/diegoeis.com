@@ -1,5 +1,6 @@
 ---
 title: A comoditização do desenvolvimento web
+type: post
 date: 2017-09-11
 image: https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg
 tags:

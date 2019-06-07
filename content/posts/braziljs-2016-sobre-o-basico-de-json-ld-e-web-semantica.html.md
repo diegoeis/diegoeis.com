@@ -1,5 +1,6 @@
 ---
 title: BrazilJS 2016 - Sobre o básico de JSON-LD e Web Semântica
+type: post
 date: 2016-08-29
 tags:
 - desenvolvimento web

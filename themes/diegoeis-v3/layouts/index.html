@@ -12,7 +12,7 @@
 
   <section class="eis-home-container">
     <ul class="eis-list-post">
-    {{ range .Pages}}
+    {{ range after 1 (where .Site.Pages "Type" "post" )}}
       <li>
         <a href="{{.Permalink}}" class="eis-post-lnk">
           <h1>{{.Title}}</h1>

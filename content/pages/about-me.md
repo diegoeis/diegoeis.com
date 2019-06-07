@@ -1,6 +1,8 @@
 ---
 title: Sobre mim
+type: post
 date: 2018-02-18
+type: page
 ---
 
 <img src="/images/avatar-2018.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" style="max-width: 170px; margin: 0 20px 0 0; display: block; float: left;">

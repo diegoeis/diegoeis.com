@@ -1,5 +1,6 @@
 ---
 title: O nome UX está errado
+type: post
 date: 2015-05-09
 tags:
 - ux

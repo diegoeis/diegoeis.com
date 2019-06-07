@@ -1,5 +1,6 @@
 ---
 title: Deploy usando Hook do Git
+type: post
 date: 2016-07-04
 tags:
 - desenvolvimento web

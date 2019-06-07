@@ -1,5 +1,6 @@
 ---
 title: 3 coisas que um Product Manager não deve fazer
+type: post
 date: 2017-09-05
 tags:
 - gestão e liderança

@@ -1,5 +1,6 @@
 ---
 title: Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo
+type: post
 date: 2016-07-31
 tags:
 - video

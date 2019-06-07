@@ -1,5 +1,6 @@
 ---
 title: O pensamento de um leigo sobre alimentação, saúde e medicina
+type: post
 date: 2015-02-21
 tags:
 - saude

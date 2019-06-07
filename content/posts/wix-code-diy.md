@@ -1,5 +1,6 @@
 ---
 title: Websites para as massas
+type: post
 date: 2017-09-05
 tags:
 - front-end

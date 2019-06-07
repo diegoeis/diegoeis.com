@@ -1,5 +1,6 @@
 ---
 title: CSS - Cansei de Ser Simples – Podcast Hipsters 09
+type: post
 date: 2016-09-13
 tags:
 - podcast

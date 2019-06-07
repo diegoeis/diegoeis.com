@@ -1,5 +1,6 @@
 ---
 title: Não se preocupe tanto com o Time To First Byte
+type: post
 date: 2016-04-11
 tags:
 - desenvolvimento web

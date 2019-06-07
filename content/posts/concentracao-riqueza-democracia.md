@@ -1,5 +1,6 @@
 ---
 title: O que a concentração de riqueza tem a ver com democracia
+type: post
 date: 2017-12-03
 tags:
 - dinheiro

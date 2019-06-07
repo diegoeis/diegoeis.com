@@ -1,5 +1,6 @@
 ---
 title: Sobre o Design oco
+type: post
 date: 2014-12-03
 tags:
 - design

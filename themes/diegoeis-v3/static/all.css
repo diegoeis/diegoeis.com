@@ -115,6 +115,10 @@ img {
   flex-wrap: wrap;
 }
 
+.Section-is-posts #eis-header {
+  margin-bottom: 60px;
+}
+
 .eis-menu li {
   display: inline-block;
   vertical-align: middle;
@@ -222,7 +226,6 @@ img {
   display: flex;
   width: 100%;
 }
-.eis-list-post li:first-child {display: none;}
 
 .eis-list-post li a {
   padding: 25px;

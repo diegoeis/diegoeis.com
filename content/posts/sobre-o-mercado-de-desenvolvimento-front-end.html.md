@@ -1,5 +1,6 @@
 ---
 title: Sobre o mercado de desenvolvimento front-end
+type: post
 date: 2014-03-25
 tags:
 - desenvolvimento web

@@ -1,6 +1,7 @@
 ---
 type: post
 title: Regidos por desejos alheios
+type: post
 date: 2019-05-29
 image: https://i.imgur.com/ltNweig.png
 tags:

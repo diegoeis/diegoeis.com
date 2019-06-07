@@ -1,5 +1,6 @@
 ---
 title: Perfil T e o Desenvolvedor Full Stack
+type: post
 date: 2015-11-21
 tags:
 - desenvolvimento web

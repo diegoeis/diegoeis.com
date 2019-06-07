@@ -1,5 +1,6 @@
 ---
 title: Guardar o sábado
+type: post
 date: 2017-09-05
 draft: true
 tags:
