@@ -9,7 +9,11 @@ tags:
 image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg
 ---
 
-## Se você começou agora como Product Manager ou Product Owner, separei alguns
+**Update**: Pensando em deixar isso melhor, fiz esse projetinho para organizar melhor e facilitar a procura por conteúdo. Aproveite: [PM ToolKit](http://pmtoolkit.work/).
+
+---
+
+Se você começou agora como Product Manager ou Product Owner, separei alguns
 links de blogs, artigos, livros, eventos e Meetups para você começar com o pé
 direito nesse mercado.
 
