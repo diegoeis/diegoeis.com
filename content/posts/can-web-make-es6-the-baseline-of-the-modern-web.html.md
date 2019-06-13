@@ -4,9 +4,9 @@ type: post
 date: 2015-07-21
 tags:
 - anotacoes
-- browsers
 - desenvolvimento web
 - javascript
+- tecnologia
 ---
 
 Minhas anotações sobre a palestra que Chris Heilmann fez no BrazilJS de 2014.

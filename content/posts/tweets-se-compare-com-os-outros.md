@@ -8,6 +8,7 @@ tags:
 - desenvolvimento web
 - carreira
 - gestão e liderança
+- cotidiano e comportamento
 ---
 
 Essa foi [uma série de tweets que fiz outro dia](https://twitter.com/diegoeis/status/1128385316073746434). Merece um artigo sobre. No final, tem o link da thread. Segue as anotações:

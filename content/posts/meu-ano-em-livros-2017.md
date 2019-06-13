@@ -4,8 +4,7 @@ type: post
 date: 2017-12-20
 image: https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg
 tags:
-- livros
-- leitura
+- livros e leitura
 ---
 
 Veja também o que eu li em

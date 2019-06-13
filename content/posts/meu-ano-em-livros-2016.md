@@ -3,8 +3,7 @@ title: Meu ano em livros - 2016
 type: post
 date: 2016-12-29
 tags:
-- livros
-- leitura
+- livros e leitura
 ---
 
 Eu nunca li tanto quanto esse último ano de 2016. Eu sempre li muito, mas nada tão sistemático… sempre muito casual e se resumia a livros técnicos ou livros sobre religião. [Esse ano eu decidi andar menos de carro e usar mais o transporte público para ir ao trabalho](https://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html). Essa atitude me fez ganhar duas horas por dia e claro, preenchi com livros.

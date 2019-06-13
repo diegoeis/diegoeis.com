@@ -4,7 +4,6 @@ type: post
 date: 2017-12-03
 tags:
 - dinheiro
-- investimento
 ---
 
 Depois que comecei a me interessar um pouco sobre política e economia (o que aconteceu depois que comecei a investir), consegui entender como todo o sistema é interligado. É um sistema pautado por valores que se iniciaram nas bases e necessidades pessoais do ser humano e que hoje regem a forma como vivemos e interagimos como sociedade.

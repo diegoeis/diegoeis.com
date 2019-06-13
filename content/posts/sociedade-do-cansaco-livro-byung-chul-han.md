@@ -5,11 +5,8 @@ type: post
 date: 2019-05-12
 image: https://cdn-images-1.medium.com/max/1200/0*HNYs2Q5TImEpRCCh
 tags:
-- Livros
-- Review De Livros
-- Leitura
+- livros e leitura
 - saude
-- letter
 ---
 
 

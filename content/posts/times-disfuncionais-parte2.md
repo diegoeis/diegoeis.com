@@ -5,7 +5,6 @@ date: 2017-07-15
 tags:
 - gestão e liderança
 - product management
-- produtos digitais
 published: false
 ---
 

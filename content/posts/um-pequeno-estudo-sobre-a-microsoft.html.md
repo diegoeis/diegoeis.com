@@ -3,7 +3,7 @@ title: Um pequeno estudo sobre a Microsoft
 type: post
 date: 2016-12-31
 tags:
-- mercado
+- tecnologia
 - gestão e liderança
 ---
 

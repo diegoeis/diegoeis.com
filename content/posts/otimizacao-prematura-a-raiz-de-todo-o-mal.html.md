@@ -1,5 +1,5 @@
 ---
-title: Otimização Prematura - a raíz de Todo o Mal
+title: "Anotações: Otimização Prematura - a raíz de Todo o Mal"
 type: post
 date: 2016-06-22
 tags:

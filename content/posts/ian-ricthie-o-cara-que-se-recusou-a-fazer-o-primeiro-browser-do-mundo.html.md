@@ -3,8 +3,9 @@ title: Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo
 type: post
 date: 2016-07-31
 tags:
-- video
 - desenvolvimento web
+- front-end
+- tecnologia
 ---
 
 Eu estava buscando informações para escrever meu próximo livro, quando me deparei com esse vídeo maravilhoso no TED. Conheça Ian Ritchie, o cara que perdeu a oportunidade de fazer o primeiro browser para web. 

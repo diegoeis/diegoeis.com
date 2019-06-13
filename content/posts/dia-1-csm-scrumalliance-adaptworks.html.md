@@ -4,7 +4,6 @@ type: post
 date: 2016-08-15
 tags:
 - agile
-- scrum
 - anotacoes
 ---
 

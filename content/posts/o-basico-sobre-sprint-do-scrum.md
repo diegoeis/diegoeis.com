@@ -5,7 +5,6 @@ date: 2016-04-17
 tags:
 - agile
 - gestão e liderança
-- scrum
 ---
 
 O Sprint é um dos eventos do Scrum. Na verdade ele é a essência do Scrum e é o que o diferencia de outras metodologias como o Kanban, que tem um um fluxo de tarefas mais puxado e contínuo. O Sprint é um time-boxed determinado, de até um mês, onde o time vai executar suas tarefas, que no final será um incremento para o produto, entregando valor para o usuário.

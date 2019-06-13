@@ -6,7 +6,6 @@ image: https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg
 tags:
 - gestão e liderança
 - product management
-- produtos digitais
 ---
 
 Quando você se torna líder - entenda que não estou falando de cargos - a vida fornece algumas ferramentas que provavelmente não estavam disponíveis até então. Normalmente essas ferramentas são "desbloqueadas" conforme você atinge alguns pontos de experiência na sua jornada profissional. Uma dessas ferramentas se chama autonomia.

@@ -6,7 +6,6 @@ image: https://i.imgur.com/rNAFyJx.jpg
 tags:
 - gestão e liderança
 - product management
-- produtos digitais
 - agile
 ---
 
@@ -19,7 +18,7 @@ Uma organização militar é baseada numa estrutura hierárquica. Essa organiza�
 
 Se você tiver interesse, como exemplo, você pode conferir a hierarquia de todo o exército brasileiro a partir dessa imagem:
 
-![https://upload.wikimedia.org/wikipedia/commons/e/e0/Brazilian_Army_-_CoOpTer_12%2C5.png](https://i.imgur.com/TKSxJhe.png)
+![](https://i.imgur.com/TKSxJhe.png)
 
 Se formos dar uma olhada mais de perto em como a organização dos soldados é feita, nós vamos entender como o exército é dividido em unidades. Essa organização de unidades facilita muito o comando e o controle não apenas dos soldados, mas também da informação e objetivos de batalha, exatamente pelo motivo de que é impossível alguém sozinho controlar tantas pessoas, com responsabilidades diferentes, em lugares diferentes, em prol de um objetivo comum.
 

@@ -5,7 +5,6 @@ date: 2018-03-05
 tags:
 - gestão e liderança
 - product management
-- produtos digitais
 ---
 
 ## Focar no serviço em vez do produto

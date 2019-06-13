@@ -7,7 +7,6 @@ image: https://i.imgur.com/Ovt7apc.jpg
 tags:
 - gestão e liderança
 - product management
-- produtos digitais
 - carreira
 ---
 

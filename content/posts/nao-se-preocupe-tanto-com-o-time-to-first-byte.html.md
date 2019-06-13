@@ -5,7 +5,7 @@ date: 2016-04-11
 tags:
 - desenvolvimento web
 - front-end
-- browsers
+- tecnologia
 ---
 
 O pessoal da [CloudFlare fez um teste muito interessante](https://blog.cloudflare.com/ttfb-time-to-first-byte-considered-meaningles/), provando que a medida TTFB (Time To First Byte) não é tão precisa para provarmos que a resposta do servidor de um site é rápida.

@@ -6,7 +6,6 @@ image: https://i.imgur.com/TzdDVwx.jpg
 excerpt: Como na vida normal, o mercado de desenvolvimento web, está cercado pelo superficialismo. Não apenas no nível comportamental, que expõe o estado atual de amadurecimento da área mas também no nível teórico.
 tags:
 - product management
-- produtos digitais
 - desenvolvimento web
 - front-end
 - carreira

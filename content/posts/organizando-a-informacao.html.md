@@ -5,7 +5,7 @@ date: 2013-06-30
 tags:
 - desenvolvimento web
 - front-end
-- web semantica
+- tecnologia
 ---
 
 Como qualquer criança, eu tinha o costume fazer muitos trabalhos para a escola. O processo era quase sempre igual: a professora definia o assunto e ao chegar em casa, pegava um bocado de papel almaço e ia para casa da minha tia. Ela era a única da família que tinha enciclopédias... lembra da Barsa? Se eu precisava fazer um trabalho escolar, certamente as enciclopédias da minha tia iam me ajudar na tarefa. As tais enciclopédias eram pesadas. Chatas de serem manuseadas. Mas tinham tudo ou quase tudo do que precisava para completar o meu trabalho com o máximo de detalhes possível.

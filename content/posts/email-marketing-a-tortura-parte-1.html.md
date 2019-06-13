@@ -5,7 +5,6 @@ date: 2015-04-06
 tags:
 - desenvolvimento web
 - front-end
-- browsers
 ---
 
 Esqueça tudo o que você sabe sobre CSS 3, HTML 5

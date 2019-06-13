@@ -3,14 +3,13 @@ title: Os serviços online que eu uso para gerir meus investimentos
 type: post
 date: 2019-03-30
 tags:
-- finance
 - fintech
 - investimento
 - dinheiro
 ---
 
 
-Em 2017 eu escrevi o artigo [Os serviços online que eu uso para gerir meu dinheiro](https://link.medium.com/uCpK5u7TsV). Dois anos se passaram e aqui vão as ferramentas que adotei desde então.
+Em 2017 eu escrevi o artigo [Os serviços online que eu uso para gerir meu dinheiro](https://diegoeis.com/os-servicos-online-que-uso-para-gerir-meus-investimentos-2017/). Dois anos se passaram e aqui vão as ferramentas que adotei desde então.
 
 Meu perfil de investimento mudou bastante e agora. Embora eu tenha agora um perfil Buy&Hold e direcionado a dividendos, eu gosto de acompanhar o mercado e também minha carteira quase que diariamente. Abaixo seguem os serviços e ferramentas que uso.
 

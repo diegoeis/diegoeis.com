@@ -3,7 +3,8 @@ title: Locaweb
 type: post
 date: 2016-12-27
 tags:
-- mercado
+  - cotidiano e comportamento
+  - carreira
 ---
 
 Este foi meu último dia de trabalho na Locaweb. Foram 5 anos que pareceram poucos meses. A Locaweb é uma empresa tão incrível, que você não vê o tempo passar, e quando percebe, você já se tornou parte da família.

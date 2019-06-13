@@ -6,7 +6,6 @@ image: https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg
 tags:
 - gestão e liderança
 - product management
-- produtos digitais
 - design
 ---
 

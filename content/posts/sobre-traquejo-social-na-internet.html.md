@@ -3,8 +3,7 @@ title: Sobre traquejo social na internet
 type: post
 date: 2014-05-23
 tags:
-  - vida
-  - letter
+  - cotidiano e comportamento
 ---
 
 Um dos meus primeiros erros quando iniciei na interwebs era conseguir me comunicar decentemente via texto. Eu me expressava errado, principalmente quando a frase era sarcástica ou irônica. Sempre me faltava timing ou na pior das hipóteses um emoticon, que talvez resolveria todo o problema. Com o tempo fui aprendendo e os maus entendidos foram desaparecendo. Mas esse problema ainda acontece com uma pancada de gente aí fora, desprotegidos, coitados, que digitam frases e mais frases com o maldito capslock travado e que leem mensagens no Facebook como se fosse a primeira página de algum jornal americano.

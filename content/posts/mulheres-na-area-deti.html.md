@@ -5,7 +5,7 @@ date: 2017-09-05
 tags:
 - front-end
 - desenvolvimento web
-- diversidade
+- tecnologia
 ---
 
 Faz algum tempo que tenho me dedicado a não escrever tantos artigos técnicos. Se você perceber, tenho escrito cada vez menos artigos falando sobre linhas de código e mais artigos falando sobre comportamento
