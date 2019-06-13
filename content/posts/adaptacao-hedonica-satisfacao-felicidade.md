@@ -10,7 +10,7 @@ tags:
 
 Você se lembra do seu primeiro salário? Eu me lembro do meu: R$168. Eu era um dos estagiários da empresa em uma pequena agência em São Paulo. Foi meu primeiro emprego. 
 
-Em 3 meses meu salário dobrou. O outro estagiário simplesmente largou o trabalho e eu fiz uma carinha de dó para o dono da agência, que resolveu dar a parte do outro estagiário para mim. "Cara, eu dobrei meu salário", pensava. Era dinheiro que não acabava mais e eu achava que era os suficiente. Em pouco tempo comecei a imaginar o que pessoas que ganham mais do que eu tinham e como viviam. Se eu já tinha o **suficiente**, elas então... Como será que seria ganhar mais?
+Em 3 meses meu salário dobrou. O outro estagiário simplesmente largou o trabalho e eu fiz uma carinha de dó para o dono da agência, que resolveu dar a parte do outro estagiário para mim. "Cara, eu dobrei meu salário", pensava. Era dinheiro que não acabava mais e eu achava que era os suficiente. Em pouco tempo comecei a imaginar o que pessoas que ganham mais do que eu tinham e como viviam. Se eu já tinha o **suficiente**, essas pessoas então... Como será que seria ganhar mais?
 
 Obviamente, nos empregos subsequentes, meu salário aumentou em muitas vezes. E não demorou muito para que aquela sensação de ganhar mais não durava tanto quanto eu tinha imaginado e como deve acontecer com todo mundo, o pensamento de "como será que é ganhar mais ainda? Eu poderia fazer milhares de outras coisas... nossa, iria ser o máximo..." Bom, vocês já devem conhecer o ciclo que eu estou citando.
 
