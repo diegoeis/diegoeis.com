@@ -4,7 +4,7 @@
 
   {{ range first 1 (where .Site.Pages "Type" "post" )}}
   <div class="eis-first-post">
-    <h1><a href="{{.Permalink}}">{{.Title}}</a></h1>
+    <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
     <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
     {{partial "post-tags.html" . }}
   </div>
