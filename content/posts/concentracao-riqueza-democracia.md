@@ -2,6 +2,7 @@
 title: O que a concentração de riqueza tem a ver com democracia
 type: post
 date: 2017-12-03
+image: https://images.pexels.com/photos/259209/pexels-photo-259209.jpeg
 tags:
 - dinheiro
 ---
@@ -36,8 +37,8 @@ Quero deixar claro que não sou nenhum político, economista ou qualquer coisa d
 
 Leia mais:
 
- * Livro: A Riqueza das Nações: Adam Smith em 1776
- * Livro: Política de Aristóteles
+ * Livro: [A Riqueza das Nações: Adam Smith em 1776](https://amzn.to/2MRQoJx)
+ * Livro: [Política de Aristóteles](https://amzn.to/2WL6HY3)
  * [Income and Wealth Concentration in a Historical and International Perspective](https://eml.berkeley.edu/~saez/berkeleysympo2.pdf)
  * [The impact of the concentration of wealth on democracy](http://sidems.org/wp-content/uploads/2013/01/incomeinequality.pdf)
  * [The concentration of wealth explained by Noam Chomsky](https://medium.com/@malwarwick_98471/the-concentration-of-wealth-explained-by-noam-chomsky-ed3437698751)
