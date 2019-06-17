@@ -24,6 +24,10 @@ body {
   margin: 0 auto;
 }
 
+.sobre-mim header {
+  display: none;
+}
+
 /***
   Default Styles
 ***/
@@ -338,6 +342,7 @@ img {
 .eis-text {
   width: 100%;
   max-width: 670px;
+  font: 400 .9375rem/1.75 var(--sans-serif);
   margin: 0 auto;
 }
 
@@ -347,8 +352,9 @@ img {
 }
 
 .eis-text li {
-  font: 400 .9375rem/1.2 var(--sans-serif);
-  padding-bottom: 10px;
+  font: 400 .9375rem/1.5 var(--sans-serif);
+  color: #272727;
+  padding-bottom: 13px;
 }
 
 .eis-text p {
