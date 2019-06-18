@@ -45,7 +45,7 @@ Se você perceber, o Spotify escolheu essa estrutura de forma orgânica. Ela fun
   
 Essa estrutura de Squads é muito parecida com a estrutura do Squad militar que expliquei no início, porque os Squads fazem parte de grupos maiores: Chapters, Guilds e Tribes. 
 
-Esse formato foi tão "inovador" para época, que as pessoas começaram a copiar loucamente nas suas empresas. Hoje, várias (todas?) "empresas de tecnologia" usam esse formato, ou pelo menos acham que usa e esse é o problema. Na maioria das vezes várias empresas usam uma forma adaptada da ideia original do Spotify. Se você parar para analisar como essas empresas se organizam, de verdade, vai perceber que eles ficam entre o formato de Squads e a estrutura de times normal. E aí é que tá o problema: uma estrutura híbrida é muito pior do que uma estrutura que uma estrutura quebrada. 
+Esse formato foi tão "inovador" para época, que as pessoas começaram a copiar loucamente nas suas empresas. Hoje, várias (todas?) "empresas de tecnologia" usam esse formato, ou pelo menos acham que usa e esse é o problema. Na maioria das vezes várias empresas usam uma forma adaptada da ideia original do Spotify. Se você parar para analisar como essas empresas se organizam, de verdade, vai perceber que eles ficam entre o formato de Squads e a estrutura de times comum. 
 
 É normal passar um tempo em transição de um formato para outro. Mas se o tempo passa demais, a transição fica permanente e os times vivem num pesadelo onde problemas irão acontecer o tempo inteiro. Mas uma organização de TIMES é diferente de uma organização de Squads. Um time e um Squad podem se parecer bastante em alguns pontos, mas eles são organizados de forma essencialmente diferente.
 
