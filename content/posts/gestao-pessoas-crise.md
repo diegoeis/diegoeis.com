@@ -94,23 +94,9 @@ Além disso, as pessoas são naturalmente insatisfeitas com o seu estado geral a
 
 Um ponto importante e não abordado por mim aqui, é que para gerir outras pessoas, você precisar gerir você mesmo com maestria. Se você não se conhece, não sabe dos seus desejos, tem dúvidas sobre a sua capacidade e não definiu objetivos a serem cumpridos, em suma, você não se conhece. E se você não se conhece, como você pode ter a chance de tentar mentora, ajudar, gerir outras pessoas que você não vai conhecer mais do que você mesmo?
 
+### Mais para ler
 - Livro: [Who Am I?: 16 Basic Desires That Motivate Our Actions Define Our Personalities](https://amzn.to/2QsaVlV)
 - Livro: [Mindset](https://amzn.to/2EvPX0z)
 - Artigo: [Maslow's Hierarchy of Needs](https://www.simplypsychology.org/maslow.html)
 - Artigo: [David Rock's SCARF Model](https://www.mindtools.com/pages/article/SCARF.htm)
 - Artigo: [Self-Determination Theory](https://selfdeterminationtheory.org/theory/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
