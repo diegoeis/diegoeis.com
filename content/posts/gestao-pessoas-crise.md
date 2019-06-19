@@ -78,7 +78,7 @@ Outro modelo criado e focado em motivação - ou sobre o que nos movem ou movem 
 - Teoria Básica das Necessidades Psicológicas. Conceito que envolve as necessidades psicológicas, saúde e bem estar;
 - Teoria dos Conteúdos de Meta. Basicamente vem das diferenças dos impactos na motivação e bem estar derivados dos objetivos intrínsecos e extrínsecos;
 
-## Nenhuma teoria te ensina a resolver os seus problemas ou das pessoas que gere
+## Nenhuma teoria vai te ensinar a resolver os seus problemas ou das pessoas que você gere
 
 Mesmo existindo tantas teorias, estudos e métodos, nada disso importa quando uma pessoa diz que está passando por dificuldades em casa, com parentes, filhos, amigos... Ou que não está conseguindo alcançar seus objetivos no trabalho ou fora dele. Ou que não está satisfeito com seu próprio desempenho no trabalho, mesmo você achando que a pessoa é um dos funcionários mais importantes da equipe. Nesse momento, nenhuma dessas teorias ajuda de fato. Elas te dão alguma base para entender a classificação do problema, mas não ensina como resolver de fato. 
 
