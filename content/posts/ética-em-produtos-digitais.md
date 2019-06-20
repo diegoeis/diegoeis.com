@@ -6,6 +6,7 @@ image: 'https://i.imgur.com/GboQBsC.jpg'
 tags:
   - gestão-e-liderança
   - product-management
+  - produtos digitais
 ---
 ## O que é ética?
 
@@ -112,5 +113,3 @@ Obviamente ter pessoas no board executivo, que são coerentes e conscientes, aju
 - [Na gig economy, nem todo mundo está sendo Rappi o suficiente](https://www.b9.com.br/109843/twitter-atende-pedido-de-usuario-e-transforma-tweet-em-outdoor-em-acao-no-cannes-lions-2019/)
 - Leia sobre Mundo Líquido, teoria do Zygmunt Bauman.
 - [A fluidez do mundo líquido de Zygmunt Bauman](https://www.fronteiras.com/entrevistas/a-fluidez-do-mundo-liquido-de-zygmunt-bauman)
-
-#produtos #productmanagement
