@@ -261,7 +261,7 @@ img {
 
 .eis-list-post .eis-date {
   font-weight: 400;
-  color: rgba(0, 0, 0, .5);
+  color: var(--black);
 }
 
 @media screen and (max-width: 700px) {
