@@ -1,6 +1,6 @@
 ---
 type: post
-title: Ética em Produtos Digitais
+title: Sobre ética em produtos e serviços digitais
 date: '2019-06-26'
 publishdate: '2019-06-26T06:00:00+00:00'
 image: 'https://i.imgur.com/GboQBsC.jpg'
