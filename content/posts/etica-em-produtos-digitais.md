@@ -2,13 +2,14 @@
 type: post
 title: Ética em Produtos Digitais
 date: '2019-06-26'
-publishdate: '2019-06-26'
+publishdate: '2019-06-26T06:00:00+00:00'
 image: 'https://i.imgur.com/GboQBsC.jpg'
 tags:
   - gestão-e-liderança
   - product-management
   - produtos digitais
 ---
+
 ## O que é ética?
 
 Ética é um conjunto de valores e preceitos que direcionam o comportamento de uma sociedade. Como estamos mudando todos os dias e lidando com novas situações a todo momento, não poderíamos criar uma lista de valores de “pode” ou “não pode”. Logo, é mais correto que tratemos os valores éticos como princípios.
@@ -64,7 +65,7 @@ Obviamente estes serviços tem o seu (algum) valor, o ponto é que o impacto cau
 
 > "Houve muitas crises na história da humanidade, muitos períodos de interregno, nos quais as pessoas não sabiam o que fazer, mas elas sempre acharam um caminho. A minha única preocupação é o tempo que levarão para achar o caminho agora. Quantas pessoas se tornarão vítimas até que a solução seja encontrada?" - Zygmunt Bauman
 
-### Precarização digital
+### Precarização da profissão com a ajuda de serviços digitais
 
 Outro ponto é a **precarização do emprego nesse mundo digital**. Hoje [temos mais de 13 milhões de desempregados no Brasil](https://g1.globo.com/economia/noticia/2019/04/30/desemprego-sobe-para-127percent-em-marco-diz-ibge.ghtml). Trabalhar fazendo pedidos no Rappi, [pode dar uma renda de R$1500 para alguém que precisa urgentemente de dinheiro](https://brasil.elpais.com/brasil/2018/07/18/economia/1531926980_055340.html). 
 
