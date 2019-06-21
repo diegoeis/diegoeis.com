@@ -1,7 +1,8 @@
 ---
 type: post
 title: Ética em Produtos Digitais
-date: 2019-06-20T20:05:27.059Z
+date: '2019-06-26'
+publishdate: '2019-06-26'
 image: 'https://i.imgur.com/GboQBsC.jpg'
 tags:
   - gestão-e-liderança
