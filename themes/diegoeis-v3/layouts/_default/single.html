@@ -20,7 +20,7 @@
         <h2>Outros posts do meu blog:</h2>
         <ul>
           {{ range . }}
-          <li><a href="{{ .RelPermalink }}?utm_source=eisRelatedLink" class="eis-related-link">{{ .Title }}</a></li>
+          <li><a href="{{ .RelPermalink }}?utm_source=eisRelatedLink" data-clicked="eis-related-link">{{ .Title }}</a></li>
           {{ end }}
         </ul>
 
