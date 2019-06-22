@@ -26,31 +26,31 @@ assuntos importantes para estudar. A ideia desse artigo é tentar ajudar você,
 que acabou de entrar na área de Product Manager ou Product Owner, e precisa se
 focar no que vai trazer mais resultado.
 
-### Conteúdo Blogs, Medium, Slack
+## Conteúdo Blogs, Medium, Slack
 
 Estes são blogs e sites que eu acompanho. Cadastra o feed desses sites no sue
 leitor de feeds predileto e chablau!
 
-#### [SVPG](http://www.svpg.com/articles)
+### [SVPG](http://www.svpg.com/articles)
 
 Para mim esse é um dos melhores sites para encontrar conteúdo sobre Gestão de
 Produtos. Mantido pelo Marty Cagan, ele tem tanto conteúdo para iniciantes
 quanto conteúdo para os mais experientes. Além disso, vários artigos desse site
 serve como “verdade” para a comunidade de product managers do Brasil e do mundo.
 
-#### [The Clever PM](http://www.cleverpm.com/)
+### [The Clever PM](http://www.cleverpm.com/)
 
 Blog super atualizado especificamente sobre produto. Tips, tricks, and hacks
 that help you to be a better, more clever, Product Manager.
 
-#### [Product Coalition](https://productcoalition.com/)
+### [Product Coalition](https://productcoalition.com/)
 
 Talvez um dos blogs mais populares sobre o assunto. Eles tem um
 [Slack](https://productcoalition.com/join-the-product-coalition-on-slack-2b635aaa6db3)
 com mais de 1000 membros e pode ser ótimo para saber quais os assuntos que os
 gringos estão falando agora.
 
-#### [GP — Gestão de produtos](http://gestaodeprodutos.com/)
+### [GP — Gestão de produtos](http://gestaodeprodutos.com/)
 
 Aqui eu puxo uma sardinha pro meu lado! ;-) Esse é um canal no Medium que eu
 criei, juntando alguns autores e artigos de vários gerentes de produtos e outras
@@ -59,14 +59,14 @@ conteúdo de produtos especificamente. Você acha muito conteúdo sobre produto
 ligado a Agile e a Design, mas nada sobre PRODUTOS mesmo. Como eu não gosto de
 ficar parado, criei esse Medium para juntar uma galera bacana.
 
-#### [Mind the Product](https://www.mindtheproduct.com/)
+### [Mind the Product](https://www.mindtheproduct.com/)
 
 Criado pelo Martin Eriksson, esse é um projeto e não apenas um blog,
 especializado em Produtos Digitais. O blog deles é recheado de informação
 assuntos relacionados a produto
 - design, dados, eventos, etc.
 
-#### [The art of Product Management](https://pmblog.quora.com/)
+### [The art of Product Management](https://pmblog.quora.com/)
 
 Blog da Jackie Bavaro, PM no Asana. Esse aqui, eu não sei o motivo, não consegui
 o FEED. Mas lá no Blog você fica sabendo um pouco de como ela constrói produtos,
@@ -74,7 +74,7 @@ além de algumas coisas que ela faz no Asana, como por exemplo, como [eles mant�
 o roadmap
 deles](https://pmblog.quora.com/How-we-build-our-Product-Roadmap-at-Asana).
 
-#### [Blog ProductPlan](https://www.productplan.com/blog/)
+### [Blog ProductPlan](https://www.productplan.com/blog/)
 
 Algumas empresas tem blogs para chamar a atenção do produto, na verdade não é
 problema, o problema é que ao fazer um blog para chamar a atenção do seu
@@ -83,17 +83,17 @@ divulgado. Esse não é o caso do blog do ProductPlan. Embora haja uma série de
 posts que são puro jabá, o conteúdo é muito bem feito e diversas vezes muito
 útil.
 
-#### [Podcast — This is Product Management](https://www.thisisproductmanagement.com/)
+### [Podcast — This is Product Management](https://www.thisisproductmanagement.com/)
 
 Entrevistas em audio (inglês) com vários produteiros gringos. Esse podcast é
 sensacional e devia estar na sua lista de conteúdo principal.
 
-#### [Telegram do Gestão de Produtos](https://t.me/gestaoprodutos)
+### [Telegram do Gestão de Produtos](https://t.me/gestaoprodutos)
 
 Este é um canal no Telegram que eu fiz para publicar e divulgar artigos e
 conteúdo sobre Gestão de Produtos.
 
-#### [produto.slack.com](https://produto.slack.com/)
+### [produto.slack.com](https://produto.slack.com/)
 
 Esse é um slack da comunidade de produtos. Lá tem muita gente bacana de mercado.
 Rola uns papos bem legais e links interessantes. Talvez lá seja o lugar para
@@ -145,7 +145,7 @@ mantém o Medium do [Gestão de Produtos](http://gestaodeprodutos.com/).
 
 Aqui são alguns eventos e Meetups.
 
-#### [ProductTank](http://www.producttank.com/)
+### [ProductTank](http://www.producttank.com/)
 
 Quer encontrar meetups e eventos sobre produtos no mundo inteiro? O ProductTank
 é o lugar. Ele nasceu como um simples Meetup e cresceu bastante. Agora tem
@@ -157,19 +157,19 @@ Janeiro](http://www.meetup.com/ProductTank-Rio-de-Janeiro/),
 [Curitiba](http://www.meetup.com/ProductTank-Curitiba/) e em vários outros
 lugares.
 
-#### [SP Product Meetup](https://www.meetup.com/SP-Product-Meetup/)
+### [SP Product Meetup](https://www.meetup.com/SP-Product-Meetup/)
 
 (Em São Paulo) Esse é um Meetup mensal sobre produtos. Todas as edições são
 feitas em uma empresa diferente. Importante demais para ouvir sobre o assunto,
 mas o melhor é fazer network.
 
-#### [ProdutoSP](https://www.meetup.com/pt-BR/produtoSP)
+### [ProdutoSP](https://www.meetup.com/pt-BR/produtoSP)
 
 (Em São Paulo) Outro Meetup bastante com uma periodicidade bacana. Também
 acontece em várias empresas e sempre lota, então, sempre garanta o lugar quando
 um Meetup for anunciado.
 
-#### [ProductCamp SP](http://productcampsp.com.br/)
+### [ProductCamp SP](http://productcampsp.com.br/)
 
 Uma conferência sobre produtos. É um dos eventos onde não há mistura de
 assuntos, você só vai ouvir sobre Produtos. É bem interessante porque um monte
@@ -183,7 +183,7 @@ livros para você colocar na sua lista de leitura. Ah… não me foquei em livro
 que vão te ensinar a escrever histórias ou essa parte mais “técnica”, okay? Isso
 você aprende em qualquer lugar.
 
-#### [Inspired](http://amzn.to/2FNL5Xm)
+### [Inspired](http://amzn.to/2FNL5Xm)
 
 Livro do mestre Marty Cagan, criador do SVPG (Silicon Valley Product Group). Ele
 já trabalhou na HP (começando como Desenvolvedor), Netscape (VP de plataformas e
@@ -191,12 +191,12 @@ ferramentas) e no eBay (VP de produtos e design). Eu começaria por esse livro.
 Desde o lançamento da primeira edição desse livro, há 10 anos, ele se tornou a
 bíblia no que tange produtos e gestão de produtos.
 
-#### [Radical Candor](https://www.radicalcandor.com/)
+### [Radical Candor](https://www.radicalcandor.com/)
 
 Não é um livro especificamente sobre produto, mas sobre como tratar pessoas.
 Essa skill é muito importante para PM/POs que precisam liderar pelo exemplo.
 
-#### [Gestão de produtos de
+### [Gestão de produtos de
 software](https://www.casadocodigo.com.br/products/livro-gestao-produtos)
 
 O Joca foi meu chefe (CTO) durante 5 anos de trabalho na Locaweb. Ele tem um
@@ -205,7 +205,7 @@ tudo nesse livro. Ele responde uma série de perguntas e mostra como é o dia a
 dia do trabalho de um gestor de produtos, mostrando todos os conceitos
 necessários para quem quer um dia ter esse papel na sua empresa.
 
-#### [Guia da Startup](https://www.casadocodigo.com.br/products/livro-startup-guia)
+### [Guia da Startup](https://www.casadocodigo.com.br/products/livro-startup-guia)
 
 Também do Joca, esse não é um livro especificamente sobre produtos, mas julgo
 importante para você entender como uma startup e outras empresas podem e
@@ -213,7 +213,7 @@ conseguem criar produtos de software rentáveis. Ele dá exemplos de como as
 coisas funcionavam na Locaweb, além de um experimento do produto do próprio
 Joca.
 
-#### [Direto ao
+### [Direto ao
 Ponto](https://www.casadocodigo.com.br/products/livro-direto-ao-ponto)
 
 O [Paulo Caroli](http://caroli.org/) é bastante conhecido na área de produtos e
