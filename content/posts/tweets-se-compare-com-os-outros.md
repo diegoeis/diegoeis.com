@@ -4,9 +4,9 @@ type: post
 date: 2019-05-14
 image: https://i.imgur.com/G4zFNai.png
 tags:
-- anotacoes
-- desenvolvimento web
 - carreira
+- desenvolvimento web
+- anotacoes
 - gestão e liderança
 - cotidiano e comportamento
 ---

@@ -6,10 +6,12 @@ languageCode = "pt-br"
 
 enableRobotsTXT = true
 disableLiveReload = false
+disableKinds = ["section"]
 
 rssLimit = 40
 pygmentsUseClasses=true
 assetDir = "/static/"
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
@@ -34,3 +36,16 @@ assetDir = "/static/"
 
 [imaging]
   quality = 75
+
+
+[related]
+  threshold = 100
+  includeNewer = true
+  toLower = false
+
+  [[related.indices]]
+  name  = "tags"
+  weight = 40
+  [[related.indices]]
+  name  = "title"
+  weight = 40

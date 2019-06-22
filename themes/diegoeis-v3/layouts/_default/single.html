@@ -13,6 +13,19 @@
 
   <div class="eis-text">
     {{.Content}}
+
+      {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+    <div class="eis-related-posts">
+
+        <h2>Outros posts do meu blog:</h2>
+        <ul>
+          {{ range . }}
+          <li><a href="{{ .RelPermalink }}?utm_source=eisRelatedLink" class="eis-related-link">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+
+      </div>
+      {{ end }}
   </div>
 
   <!-- <div class="eis-comments" id="eis-comments">

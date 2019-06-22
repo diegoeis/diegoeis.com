@@ -14,9 +14,9 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
-      - {label: "Sponsor", name: "sponsor", widget: "hidden"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Publish Date", name: "publishdate", widget: "datetime", format: "YYYY-MM-DD HH:mm"}
       - {label: "Image", name: "image", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", default: ["desenvolvimento-web, gestão-e-liderança, front-end, product-management, agile, anotacoes, tecnologia, design, carreira, javascript, livros-e-leitura, cotidiano-e-comportamento, saude, dinheiro, fintech, palestras, ux, investimento"]}
