@@ -8,7 +8,9 @@ tags:
 image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg
 ---
 
-**Update**: Pensando em deixar isso melhor, fiz esse projetinho para organizar melhor e facilitar a procura por conteúdo. Aproveite: [PM ToolKit](http://pmtoolkit.work/).
+### Update importante:
+
+Pensando em deixar mais organizado, fiz esse projetinho para aumentar a quantidade de conteúdo e facilitar a procura das fontes. Visite e compartilhe: [PM ToolKit](http://pmtoolkit.work/).
 
 ---
 

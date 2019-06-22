@@ -17,7 +17,7 @@
       {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
     <div class="eis-related-posts">
 
-        <h2>Outros posts do meu blog:</h2>
+        <h2>Outros posts do blog:</h2>
         <ul>
           {{ range . }}
           <li><a href="{{ .RelPermalink }}?utm_source=eisRelatedLink" data-clicked="eis-related-link">{{ .Title }}</a></li>
