@@ -213,11 +213,10 @@ conseguem criar produtos de software rentáveis. Ele dá exemplos de como as
 coisas funcionavam na Locaweb, além de um experimento do produto do próprio
 Joca.
 
-### [Direto ao
-Ponto](https://www.casadocodigo.com.br/products/livro-direto-ao-ponto)
+### [Direto ao Ponto](https://www.casadocodigo.com.br/products/livro-direto-ao-ponto)
 
 O [Paulo Caroli](http://caroli.org/) é bastante conhecido na área de produtos e
-agile. Ele é consultor principal lá na Thoughtworks Brasil e co-fundado do
+agile. Ele é consultor principal lá na Thoughtworks Brasil e co-fundador do
 AgileBrazil, portanto, nem preciso falar da experiência dele. Nesse livro ele
 fala um pouco sobre como fazer produtos de forma enxuta, sem gastar dinheiro nem
 tempo, tocando bastante na validação de hipóteses de negócio, bastante
@@ -273,3 +272,6 @@ conteúdo gringo, mas poucos conteúdos brasileiros. Seria interessante você
 começar a mudar esse cenário gerando conteúdo. A área de gestão de produtos
 digitais aqui no Brasil ainda está bem neném e precisa de carinho pra crescer
 fortinha.
+
+Pensando em deixar mais organizado, fiz esse projetinho para aumentar a quantidade de conteúdo e facilitar a procura das fontes. Visite e compartilhe: [PM ToolKit](http://pmtoolkit.work/).
+
