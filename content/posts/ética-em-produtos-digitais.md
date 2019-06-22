@@ -17,7 +17,7 @@ tags:
 
 Um ponto importante é que não existe ética individual. A ética são os valores coletivos de um grupo e uma sociedade. exatamente porque a Ética é um conjunto de valores definidos para que essa sociedade viva de forma confortável, acolhedora, honesta, transparente, previsível, visando o bem geral.
 
-Já a moral, é individual. Podemos dizer que a moral é a prática da ética. Tendo a ética como princípio coletivo, a moral se torna uma conduta formada pela escolha individual de exercer corretamente os princípios éticos daquela sociedade, ou simplesmente ignorá-los.
+Já a moral é individual. Podemos dizer que a moral é a prática da ética. Tendo a ética como princípio coletivo, a moral se torna uma conduta formada pela escolha individual de exercer corretamente os princípios éticos daquela sociedade, ou simplesmente ignorá-los.
 
 ## Ética no mundo digital
 
@@ -58,7 +58,7 @@ A Ethical OS (falo mais sobre eles a frente), tem 8 pontos importantes, que eles
 7. Confiança Implícita e Compreensão do Usuário;
 8. Ódio e Autores Criminosos (no inglês são Criminal Actors, traduzi livremente);
 
-Vemos isso muito claramente quando lembramos do surgimento da "economia do compartilhamento". Quando o AirBnb, Uber e outros surgiram, imediatamente todos acharam um ótima ideia. Os motivos era vários: menos trânsito, viajar para lugares onde os hotéis não chegam, compartilhar minha casa ou meu carro para ajudar na renda mensal, se relacionar com outras pessoas... Tudo isso eram novos pontos de vista nunca antes impactados de verdade por qualquer serviço anterior. Pelo menos não de forma organizada. O que o AirBnb fez foi estruturar em um negócio o que antes chamávamos de **[counchsurfing](https://www.google.com.br/search?q=couchsurfing)**. 
+Vemos isso muito claramente quando lembramos do surgimento da "economia do compartilhamento". Quando o AirBnb, Uber e outros surgiram, imediatamente todos acharam um ótima ideia: menos trânsito, viajar para lugares onde os hotéis não chegam, compartilhar minha casa ou meu carro para ajudar na renda mensal, se relacionar com outras pessoas... Tudo isso eram novos pontos de vista nunca antes impactados de verdade por qualquer serviço anterior. Pelo menos não de forma organizada. O que o AirBnb fez foi estruturar em um negócio o que antes chamávamos de **[counchsurfing](https://www.google.com.br/search?q=couchsurfing)**. 
 
 Obviamente estes serviços tem o seu (algum) valor, o ponto é que o impacto causado pelo crescimento exponencial dessas empresas não pode ser medido de forma imediata. Hoje temos estudos e pesquisas que mostram que o [Uber, Lyft e outros tipos de serviços desse tipo pioram o tráfego](https://www.theverge.com/2019/5/8/18535627/uber-lyft-sf-traffic-congestion-increase-study). [Como os governos devem se comportar num ambiente nunca antes visto](http://www.schallerconsult.com/rideservices/automobility.htm)? Será que esses serviços contribuem realmente para um ambiente mais confortável, sustentável e seguro na cidade?
 
