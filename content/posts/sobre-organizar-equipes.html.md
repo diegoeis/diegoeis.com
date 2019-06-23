@@ -4,7 +4,7 @@ type: post
 date: 2015-10-19
 tags:
 - agile
-- gestão e liderança
+- gestao e lideranca
 ---
 
 ### Sobre organizar equipes

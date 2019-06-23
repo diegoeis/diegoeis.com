@@ -129,7 +129,7 @@ Anotações do curso de certificação de Scrum Master da Scrum Alliance, pela A
 - PO gerencia as entregas, por que foi ele que acertou a entrega com o time
 - ele que combina o que vai e o que não vai entrar no sprint
 - satisfação do cliente é uma responsabilidade do PO. Por que é o cara que prioriza o que vai ou não ser feito é que detém a tomada de decisão
-- gestão e liderança dos stakeholders
+- gestao e lideranca dos stakeholders
 - Cronograma do projeto PO
 - Custo
 - Comunicar prazos do projeto

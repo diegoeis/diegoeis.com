@@ -3,7 +3,7 @@ title: Atender bem para atender sempre
 type: post
 date: 2015-04-29
 tags:
-- gestão e liderança
+- gestao e lideranca
 - carreira
 ---
 

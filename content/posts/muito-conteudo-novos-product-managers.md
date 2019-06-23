@@ -4,7 +4,7 @@ type: post
 date: 2018-03-20
 tags:
 - product management
-- gestão e liderança
+- gestao e lideranca
 image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg
 ---
 

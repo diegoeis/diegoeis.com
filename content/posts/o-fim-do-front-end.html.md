@@ -4,7 +4,7 @@ type: post
 date: 2017-03-19
 tags:
 - front-end
-- gestão e liderança
+- gestao e lideranca
 ---
 
 O processo de desenvolvimento web podem se dividir em três categorias: design

@@ -4,7 +4,7 @@ type: post
 date: 2019-02-17
 image: https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg
 tags:
-- gestão e liderança
+- gestao e lideranca
 - product management
 ---
 

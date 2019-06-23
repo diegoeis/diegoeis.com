@@ -4,7 +4,7 @@ type: post
 date: 2017-03-10
 tags:
 - agile
-- gestão e liderança
+- gestao e lideranca
 ---
 
 ![](https://cdn-images-1.medium.com/max/1000/1*fieJwIgvONqnVLyPcEcw_A.jpeg)

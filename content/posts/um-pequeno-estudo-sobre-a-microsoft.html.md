@@ -4,7 +4,7 @@ type: post
 date: 2016-12-31
 tags:
 - tecnologia
-- gestão e liderança
+- gestao e lideranca
 ---
 
 Participei de uma entrevista de emprego ano passado, onde uma das fases envolveu fazer o seguinte exercício: eu deveria escolher uma das [10 empresas de tecnologia mais valiosas](http://fortune.com/2016/02/04/most-valuable-companies-fortune-500-apple/) do mundo e imaginar que eu acabei de ser contratado pra liderar todo o desenvolvimento de um dos produtos dessa empresa. Eu deveria fazer uma apresentação mostrando uma análise da empresa e quais foram suas principais entregas recentes, além de uma definição estratégica de médio prazo, com um roadmap de entregas. Como você já deve saber pelo título desse artigo, eu acabei escolhendo a Microsoft.

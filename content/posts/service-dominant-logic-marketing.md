@@ -4,7 +4,7 @@ type: post
 image: https://i.imgur.com/qL6r67S.jpg
 date: 2018-03-05
 tags:
-- gestão e liderança
+- gestao e lideranca
 - product management
 ---
 
@@ -108,9 +108,9 @@ contínuo de hipóteses sobre a proposição de valor do produto. Essa forma de
 pensar, unifica uma vários pensamentos divididos em uma série de explicações
 sobre marketing de serviços
 - marketing de relacionamento
-- gestão e liderança de qualidade e
+- gestao e lideranca de qualidade e
 valor
-- gestão e liderança de recursos e também análise de rede.
+- gestao e lideranca de recursos e também análise de rede.
 
 ## O bem não é mais o fim
 

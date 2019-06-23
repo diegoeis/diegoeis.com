@@ -5,7 +5,7 @@ date: 2014-02-11
 tags:
 - anotacoes
 - agile
-- gestão e liderança
+- gestao e lideranca
 ---
 
 Estas são as minhas anotações sobre o que ouvi em um curso de gerenciamento ágil.

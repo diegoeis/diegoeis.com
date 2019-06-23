@@ -7,7 +7,7 @@ tags:
 - carreira
 - desenvolvimento web
 - anotacoes
-- gestão e liderança
+- gestao e lideranca
 - cotidiano e comportamento
 ---
 

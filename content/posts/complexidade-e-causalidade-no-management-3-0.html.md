@@ -4,7 +4,7 @@ type: post
 date: 2015-11-20
 tags:
 - agile
-- gestão e liderança
+- gestao e lideranca
 ---
 
 #### As versões de gerenciamento
