@@ -22,7 +22,12 @@
     {{end}}
     </ul>
 
-    {{partial "tags-list.html" . }}
+    <div class="eis-home-sidebar">
+     {{partial "tags-list.html" . }}
+      
+      {{partial "latest-reads.html" . }}
+    </div>
+
 
   </section>
 </div>
