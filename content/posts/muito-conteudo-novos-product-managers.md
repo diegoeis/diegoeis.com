@@ -12,7 +12,7 @@ image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg
 
 Pensando em deixar mais organizado, fiz esse projetinho para aumentar a quantidade de conteúdo e facilitar a procura das fontes. Visite e compartilhe: [PM ToolKit](http://pmtoolkit.work/).
 
-Além disso, [existe agora uma letter para pessoas que trabalham com Produtos Digitais](http://bit.ly/pmletteremail). [Assine a Product Manager Email Letter](http://bit.ly/pmletteremail) e aproveite a curadoria de conteúdo.
+Além disso, [existe uma letter para pessoas que trabalham com Produtos Digitais](http://bit.ly/pmletteremail). [Assine a Product Manager Email Letter](http://bit.ly/pmletteremail) e aproveite a curadoria de conteúdo.
 
 ---
 
