@@ -4,7 +4,6 @@ type: post
 date: 2017-08-05
 tags:
 - front-end
-- javascript
 ---
 
 O Node.js se tornou popular a partir de 2009 quando Ryan Dahl, criador do Node.js, divulgou seu projeto para o mundo. De lá para cá ele só tem crescido e ajudado o JavaScript a se popularizar ainda mais com a "Linguagem da Web", agora, não apenas por ser praticamente onipresente na web, mas por quebrar a barreira de ser usada apenas no front-end, passando a ser usada também no Back-end.

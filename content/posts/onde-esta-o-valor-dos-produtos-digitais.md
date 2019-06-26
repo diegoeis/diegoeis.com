@@ -136,7 +136,7 @@ Muito por isso patinetes, bicicletas, carros compartilhados e outras
 alternativas estão nascendo.
 
 Esse é mais um motivo pelo qual os devs
-- UX, PMs e todos os profissionais que
+- design, PMs e todos os profissionais que
 criam produtos digitais devem colocar o usuário em primeiro lugar, analisando
 bem seu comportamento e formas de uso do serviço. Entender suas necessidades
 deixa de ser só um lema bonito e passa a ser obrigatório. Essa é a diferença

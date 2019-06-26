@@ -6,7 +6,6 @@ tags:
 - desenvolvimento web
 - front-end
 - palestras
-- javascript
 ---
 
 Esses são os slides da minha palestra feita no BrazilJS de 2016.

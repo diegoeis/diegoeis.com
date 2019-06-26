@@ -36,7 +36,7 @@ Eu nunca entendi a separação entre as disciplinas de UX e Visual Designer. Ess
 é até um assunto bastante sensível para alguns. Geralmente a galera não gosta de
 entrar em polêmica e acabam deixando discussões como essa para depois. Mas, na
 minha humilde opinião
-- UX nunca fez sentido. O nome UX é para mim [um nome muito
+- design nunca fez sentido. O nome UX é para mim [um nome muito
 ruim](https://medium.com/tableless/o-nome-ux-estÃ¡-errado-8d5095a6755b), que dá
 a entender que a experiência do usuário é responsabilidade de apenas um
 profissional, o que é uma grande bobeira. Infelizmente esse nome fixou no

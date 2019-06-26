@@ -4,7 +4,6 @@ type: post
 date: 2014-12-03
 tags:
 - design
-- UX
 ---
 
 > _Um pouco sobre design ordinário e como arranjar argumentos._

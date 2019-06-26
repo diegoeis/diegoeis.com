@@ -157,6 +157,6 @@ Minha outra aposta é sobre a profissão de UX, que vai desaparecer não porque 
 - [Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
 - [Javascript State of the Union 2015, parte 3](https://medium.com/@caiovaccaro/javascript-state-of-the-union-2015-parte-3-281aa04bece1#.bulta9j6j)
 - [Slides 
-- javascript State of the Union 2015](https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015)
+- front-end State of the Union 2015](https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015)
 - [The State of Front-End Tooling 2016 - Results](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results)
 - [Front-end Roles and Responsibilities](https://hackernoon.com/front-end-roles-and-responsibilities-6ee8654f1649#.gsg5zdjtr)
