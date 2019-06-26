@@ -60,13 +60,7 @@ pela essência intangível que a marca carrega.
 
 # O valor está no uso?
 
-Um dos debates que aconteciam nos corredores dos bastidores do marketing era
-centralizada em uma questão, que é até certo ponto é bastante filosófica: se o
-valor era colocado nos produtos por meio dos processos de produção,
-distribuição, manufatura e etc, como o marketing contribuía para agregar mais
-valor ao produto? Até então o marketing amplificava as características do
-produto, tornando mais desejados todos os seus atributos, adicionados durante o
-processo de manufatura até a distribuição.
+Um dos debates que aconteciam nos corredores dos bastidores do marketing era centralizada em uma questão que é até certo ponto é bastante filosófica: se o valor era colocado nos produtos por meio dos processos de produção, distribuição, manufatura e etc, como o marketing contribuía para agregar mais valor ao produto? Até então o marketing amplificava as características do produto, tornando-o mais desejado, e adicionando valor durante o processo de manufatura até a distribuição.
 
 É aqui que a discussão começa a ficar muito mais importante, porque os
 estudiosos começam debater mais sobre a utilidade do produto.
