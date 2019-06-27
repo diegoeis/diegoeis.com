@@ -13,13 +13,11 @@ tags:
 
 ## O que é ética?
 
-Ética é um conjunto de valores e preceitos que direcionam o comportamento de uma sociedade. Como estamos mudando todos os dias e lidando com novas situações a todo momento, não poderíamos criar uma lista de valores de “pode” ou “não pode”. Logo, é mais correto que tratemos os valores éticos como princípios.
+Ética é um conjunto de valores e preceitos que direcionam o comportamento de uma sociedade. Como estamos mudando todos os dias e lidando com novas situações a todo momento, não poderíamos criar uma lista de valores de "pode" ou "não pode". Logo, é mais correto que tratemos os valores éticos como princípios.
 
 Ética tem muito a ver com liberdade de escolha. Por isso que os comportamentos dos animais não podem ser levados em consideração do ponto de vista ético, porque eles não tem escolha de se comportarem da maneira que se comportam. Eles são regidos pela natureza, escravos do seu instinto. Já nós não. Nós temos a opção de escolher e decidir nossa conduta todos os dias e a todos os momentos. Esse poder de decisão é o que define nossos padrões éticos.
 
-Um ponto importante é que não existe ética individual. A ética são os valores coletivos de um grupo e uma sociedade. exatamente porque a Ética é um conjunto de valores definidos para que essa sociedade viva de forma confortável, acolhedora, honesta, transparente, previsível, visando o bem geral.
-
-Já a moral, é individual. Podemos dizer que a moral é a prática da ética. Tendo a ética como princípio coletivo, a moral se torna uma conduta formada pela escolha individual de exercer corretamente os princípios éticos daquela sociedade, ou simplesmente ignorá-los.
+Um ponto importante é que não existe ética individual. A ética são os valores coletivos de um grupo e uma sociedade. Diferente da moral, que essa sim é individual. Podemos dizer que a moral é a prática da ética. Tendo a ética como princípio coletivo, a moral se torna uma conduta formada pela escolha individual de exercer corretamente os princípios éticos definidos pela sociedade, ou simplesmente ignorá-los.
 
 ## Ética no mundo digital
 
@@ -27,13 +25,13 @@ Nunca a tecnologia esteve tão presente na vida das pessoas como atualmente. A s
 
 Quando nos falamos sobre ética digital, nós nos referimos ao campo que se preocupa com o poder que a tecnologia tem de influenciar e direcionar a visão política, social e moral da sociedade.
 
-A realidade, é que o impacto dos serviços e mercados criados por meio da tecnologia é ainda desconhecido. Será que instagram deixa jovens mais depressivos? Será que o Twitter e Facebook estão contribuindo para um tipo novo de déficit de atenção? Será que o serviços da gig economy promovem um novo tipo de escravidão?
+Na realidade é que o impacto dos serviços e mercados criados por meio da tecnologia é ainda desconhecido. Será que instagram deixa jovens mais depressivos? Será que o Twitter e Facebook estão contribuindo para um tipo novo de déficit de atenção? Será que o serviços da gig economy promovem um novo tipo de escravidão?
 
 ## E o que isso tem a ver com Produtos Digitais?
 
-Podemos dizer que ética em Produtos Digitais é só uma vertente da ética digital. Não seria errado compreender que os Produtos Digitais são responsáveis pelo controle mais micro dessa “ética digital”, abordando desde problemas simples até os mais complexos, que só veremos resultados depois de muito tempo. É a partir dos Produtos Digitais que vemos o comportamento das pessoas e consequentemente da sociedade mudando. Por isso um Product Manager é um profissional tão importante hoje.
+Podemos dizer que ética em Produtos Digitais é só uma vertente da ética digital. É a partir dos Produtos Digitais que vemos o comportamento das pessoas e consequentemente da sociedade mudando. Por isso um Product Manager é um profissional tão importante hoje.
 
-Um Product Manager, que faz a junção das parte tática e estratégica de um produto, tem um papel de alta responsabilidade, fazendo a mediação entre negócio e usuário. É uma responsabilidade ingrata, que envolve tomar decisões que podem ser boas para o negócio, mas talvez não para o usuário.
+Um Product Manager, que faz a junção das partes tática e estratégica de um produto, tem um papel de alta responsabilidade, ao fazer a mediação entre negócio e usuário. É uma responsabilidade ingrata, que envolve tomar decisões que podem ser boas para o negócio, mas talvez não para o usuário.
 
 ### Pontos inerentes aos produtos digitais que o PM (e o time) deveriam prestar atenção
 
@@ -47,7 +45,7 @@ Existem importantes pontos de vista que devem ser observados pelos times de empr
 
 Como fazer os usuários engajarem mais no produto, sem utilizar técnicas de gatilhos emocionais ou mentais? Como criar algoritmos neutros e livres de qualquer viés, seja de forma proposital e direcionada, ou por falta de atenção? Como criar serviços que não incentivem a superficialidade das relações?
 
-Podemos avaliar a ética digital de uma camada mais macro, onde não apenas os indivíduos são impactados, mas a sociedade e os mercados também são altamente influenciados.
+Podemos avaliar a ética digital de uma camada mais macro, onde não apenas os indivíduos são impactados, mas a sociedade e os mercados também são altamente influenciados. E aqui os Produtos Digitais são apenas mais um meio de impacto, se misturando entre dezenas de outras formas.
 
 A Ethical OS (falo mais sobre eles a frente), tem 8 pontos importantes, que eles chamam de **Zonas de Risco**, que resumem bem o que podemos abranger no nosso dia a dia:
 
@@ -60,7 +58,9 @@ A Ethical OS (falo mais sobre eles a frente), tem 8 pontos importantes, que eles
 7. Confiança Implícita e Compreensão do Usuário;
 8. Ódio e Autores Criminosos (no inglês são Criminal Actors, traduzi livremente);
 
-Vemos isso muito claramente quando lembramos do surgimento da "economia do compartilhamento". Quando o AirBnb, Uber e outros surgiram, imediatamente todos acharam um ótima ideia. Os motivos era vários: menos trânsito, viajar para lugares onde os hotéis não chegam, compartilhar minha casa ou meu carro para ajudar na renda mensal, se relacionar com outras pessoas... Tudo isso eram novos pontos de vista nunca antes impactados de verdade por qualquer serviço anterior. Pelo menos não de forma organizada. O que o AirBnb fez foi estruturar em um negócio o que antes chamávamos de **[couchsurfing](https://www.google.com.br/search?q=couchsurfing)**. 
+Vemos isso muito claramente se lembrarmos do surgimento da "economia do compartilhamento". Quando o AirBnb, Uber e outros surgiram, imediatamente todos acharam um ótima ideia, dada às claras vantagens economicas e comportamentais para as pessoas que usam e oferecem serviços.
+
+![Estudo da PwC sobre Sharing Economy](https://i.imgur.com/yT3j1N4.jpg)
 
 Obviamente estes serviços tem o seu (algum) valor, o ponto é que o impacto causado pelo crescimento exponencial dessas empresas não pode ser medido de forma imediata. Hoje temos estudos e pesquisas que mostram que o [Uber, Lyft e outros tipos de serviços desse tipo pioram o tráfego](https://www.theverge.com/2019/5/8/18535627/uber-lyft-sf-traffic-congestion-increase-study). [Como os governos devem se comportar num ambiente nunca antes visto](http://www.schallerconsult.com/rideservices/automobility.htm)? Será que esses serviços contribuem realmente para um ambiente mais confortável, sustentável e seguro na cidade?
 
@@ -112,6 +112,8 @@ Obviamente ter pessoas no board executivo, que são coerentes e conscientes, aju
 - [What is Digital Ethics?: 10 Key Issues Which Will Shape Our Future](https://www.process.st/digital-ethics/)
 - [O Rene de Paula Jr vive falando sobre ética nos serviços digitais, sobretudo uso de dados e privacidade](https://radinhodepilha.com/?s=ética&submit=Search)
 - [Uber and the Ethics of Sharing: Exploring the Societal Promises and Responsibilities of the Sharing Economy](https://link.springer.com/chapter/10.1007/978-94-024-1144-7_27)
+- [The Sharing Economy Isn’t About Sharing at All](https://hbr.org/2015/01/the-sharing-economy-isnt-about-sharing-at-all)
+- [Estudo da PwC sobre Sharing Economy](https://www.pwc.fr/fr/assets/files/pdf/2015/05/pwc_etude_sharing_economy.pdf)
 - [No Brasil em crise profunda, aplicativos como Uber e iFood se tornaram o símbolo dos empregos temporários e mal-remunerados](https://www.cartacapital.com.br/economia/proletariado-digital-apps-promovem-trabalhos-precarios-a-brasileiros/)
 - [Na gig economy, nem todo mundo está sendo Rappi o suficiente](https://www.b9.com.br/109843/twitter-atende-pedido-de-usuario-e-transforma-tweet-em-outdoor-em-acao-no-cannes-lions-2019/)
 - Leia sobre Mundo Líquido, teoria do Zygmunt Bauman.
