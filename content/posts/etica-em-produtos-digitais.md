@@ -25,15 +25,15 @@ Já a moral, é individual. Podemos dizer que a moral é a prática da ética. T
 
 Nunca a tecnologia esteve tão presente na vida das pessoas como atualmente. A sociedade é impactada de forma brutal desde redes sociais até aplicativos de carona. Nosso comportamento cotidiano tem mudado drasticamente por influência de novas maneiras de se comunicar, consumir e se relacionar.
 
-A ética digital se refere ao campo que se preocupa com o poder que a tecnologia tem de influenciar e direcionar a visão política, social e moral da sociedade.
+Quando nos falamos sobre ética digital, nós nos referimos ao campo que se preocupa com o poder que a tecnologia tem de influenciar e direcionar a visão política, social e moral da sociedade.
 
 A realidade, é que o impacto dos serviços e mercados criados por meio da tecnologia é ainda desconhecido. Será que instagram deixa jovens mais depressivos? Será que o Twitter e Facebook estão contribuindo para um tipo novo de déficit de atenção? Será que o serviços da gig economy promovem um novo tipo de escravidão?
 
 ## E o que isso tem a ver com Produtos Digitais?
 
-Podemos dizer que ética em Produtos Digitais é só uma vertente da Ética Digital. Não seria errado afirmar que os Produtos Digitais são responsáveis pelo controle mais micro dessa “ética digital”, abordando desde problemas simples até os mais complexos, que só veremos resultados depois de muito tempo, exatamente porque é um dos maiores pontos de contato com o usuário. É a partir dos Produtos Digitais que vemos o comportamento das pessoas e consequentemente da sociedade mudando. Por isso um Product Manager é um profissional tão importante hoje.
+Podemos dizer que ética em Produtos Digitais é só uma vertente da ética digital. Não seria errado compreender que os Produtos Digitais são responsáveis pelo controle mais micro dessa “ética digital”, abordando desde problemas simples até os mais complexos, que só veremos resultados depois de muito tempo. É a partir dos Produtos Digitais que vemos o comportamento das pessoas e consequentemente da sociedade mudando. Por isso um Product Manager é um profissional tão importante hoje.
 
-Um Product Manager, que faz a junção das visões tática e estratégica de um produto, tem um papel de alta responsabilidade, fazendo a mediação entre negócio e usuário. É uma responsabilidade ingrata, que envolve tomar decisões que podem ser boas para o negócio, mas talvez não para o usuário e vice-versa. Quando colocamos a visão ética nesse mix, todo o processo de decisão, priorização e gestão de expectativa fica ainda mais caótico.
+Um Product Manager, que faz a junção das parte tática e estratégica de um produto, tem um papel de alta responsabilidade, fazendo a mediação entre negócio e usuário. É uma responsabilidade ingrata, que envolve tomar decisões que podem ser boas para o negócio, mas talvez não para o usuário.
 
 ### Pontos inerentes aos produtos digitais que o PM (e o time) deveriam prestar atenção
 
@@ -66,7 +66,7 @@ Obviamente estes serviços tem o seu (algum) valor, o ponto é que o impacto cau
 
 > "Houve muitas crises na história da humanidade, muitos períodos de interregno, nos quais as pessoas não sabiam o que fazer, mas elas sempre acharam um caminho. A minha única preocupação é o tempo que levarão para achar o caminho agora. Quantas pessoas se tornarão vítimas até que a solução seja encontrada?" - Zygmunt Bauman
 
-### Precarização da profissão com a ajuda de serviços digitais
+### Precarização digital
 
 Outro ponto é a **precarização do emprego nesse mundo digital**. Hoje [temos mais de 13 milhões de desempregados no Brasil](https://g1.globo.com/economia/noticia/2019/04/30/desemprego-sobe-para-127percent-em-marco-diz-ibge.ghtml). Trabalhar fazendo pedidos no Rappi, [pode dar uma renda de R$1500 para alguém que precisa urgentemente de dinheiro](https://brasil.elpais.com/brasil/2018/07/18/economia/1531926980_055340.html). 
 
