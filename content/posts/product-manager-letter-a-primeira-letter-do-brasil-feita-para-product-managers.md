@@ -4,7 +4,7 @@ title: Product Manager Letter  -  A primeira letter do Brasil feita para e p
 excerpt: "Uma Letter para pessoas que produzem, gerem e criam produtos e serviços digitais no Brasil."
 date: '2019-07-01'
 publishdate: '2019-07-01 06:00'
-image: 'https://i.imgur.com/QLUQcAP.jpg'
+image: https://i.imgur.com/QLUQcAP.jpg
 tags:
   - product-management
   - agile
