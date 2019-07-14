@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Não seria errado afirmarmos que a maioria - se não a totalidade - dos problemas atuais envolvendo pessoas, performance e produtividade nas empresas tem sua raiz na gestão. 
+Não seria errado afirmar que a maioria - se não a totalidade - dos problemas atuais envolvendo pessoas, performance e produtividade nas empresas tem sua raiz na gestão. 
 
 Não quero colocar a gestão de pessoas ou a questão das soft skills num pedestal, como alguns outros gestores especialistas fazem, chegando a infantilizar o assunto, forçando por todos os caminhos que as pessoas precisam trabalhar felizes para produzirem bem. Isso é óbvio e não precisa desenhar um jardineiro para todo mundo entender. Ninguém irá produzir bem, se não estiver feliz consigo mesmo, se não for aceito no ambiente em que está inserido, se não estiver satisfeito com os desafios, colegas e tudo mais. Se levássemos isso ao extremo, todos nós mudaríamos de emprego para fazermos o que realmente gostamos, anulando assim a tristeza que a maioria das pessoas sentem ao trabalhar no lugar que estão atualmente. 
 
@@ -29,6 +29,7 @@ Geralmente o RH tem perdido seu foco para tarefas mais operacionais, se focando 
 
 **A gestão de pessoas não pode ficar centralizada e de responsabilidade de apenas um departamento da empresa**, pelo contrário. Como eu disse anteriormente, o RH (ou qualquer área dentro da empresa que exerça esse papel) geralmente está bem longe dos funcionários. Quem sabe se a pessoa conseguiu ou não cumprir suas tarefas com a qualidade esperada, ou se a pessoa está feliz com a atividade que está exercendo, ou se ela tem uma boa comunicação e relacionamento com seus pares é o gestor direto. 
 
+### RH distante
 Como o RH está bem longe desses acontecimentos diários, há uma tentativa de amenizar essa distância fazendo trabalhos de retenção e acompanhamento de desempenho que são muito pouco individualizados. Isso faz com que boa parte do trabalho de gerir as pessoas seja delegada, de forma não oficial, para os gestores diretos das pessoas, seja um supervisor, coordenador, lider técnico, team lead etc. E sendo assim, outros problemas acontecem, pois agora estamos falando de indivíduos que não são neutros e imparciais aos seus cargos - como o RH consegue ser ao avaliar as pessoas - mas pessoas que geralmente não sabem da extensão e importância desse tipo de gestão para entender que sua autoridade serve para ajudar seus times a trabalharem melhor, de forma feliz e saudável, e não contrário. 
 
 Na maioria das vezes, esses gestores tem alta capacidade técnica, mas não tem as soft skill (odeio esse nome, mas na falta de um nome melhor, vamos usá-lo) necessárias. Não estou me referindo ao soft skills inerentes à sua responsabilidade técnica, mas as soft skills que colocam a pessoa (como ser humano), destituída de qualquer cargo ou responsabilidade técnica, em primeiro lugar.

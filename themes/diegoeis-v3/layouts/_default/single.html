@@ -1,6 +1,10 @@
 {{partial "head.html" . }}
 
-<article class="eis-article">
+
+    {{if .Params.image }}
+  <span class="eis-featured-image" style="background-image: url({{ .Params.image }})"></span>
+    {{end}}
+<article class="eis-article {{if not .Params.image }}no-image{{end}}">
   <header>
     <div class="eis-post-info">
       <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>

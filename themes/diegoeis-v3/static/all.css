@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400|Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Cormorant+Garamond:300,400,700");
 
 * {
   margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-  --serif: "EB Garamond", "Cormorant Garamond", Times, Serif;
+  --serif: "Cormorant Garamond", Georgia, Times, Serif;
   --sans-serif: Open Sans, Arial, Helvetica, sans-serif;
   --yellow: #f9da18;
   --yellowContrast: #0008FF;
@@ -115,14 +115,17 @@ img {
 
 #eis-header {
   padding: 30px 0;
-  margin-bottom: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 120px;
 }
 
 .Section-is-posts #eis-header {
+  max-width: 1202px;
   margin-bottom: 60px;
 }
 
@@ -348,9 +351,18 @@ img {
 *** SINGLE
 *************/
 .eis-article {
-  margin: 0 auto 200px;
+  margin: 300px auto 200px;
+  padding: 25px 20px;
   width: 100%;
-  max-width: 1115px;
+  max-width: 1000px;
+  background: #fff;
+}
+
+.eis-article.no-image {margin-top: 100px;}
+@media screen and (max-width: 700px) {
+  .eis-article {
+    width: auto;
+  }
 }
 
 .eis-post-info {
@@ -366,11 +378,11 @@ img {
 
 .eis-article header h1 {
   width: 100%;
-  max-width: 960px;
+  max-width: 770px;
   text-align: center;
-  margin: 100px auto;
+  margin: 80px auto 100px;
   font-weight: 400;
-  font-size: 4.3rem;
+  font-size: 3.125rem;
 }
 
 .eis-article header h1:after {
@@ -384,7 +396,7 @@ img {
 
 .eis-text {
   width: 100%;
-  max-width: 670px;
+  max-width: 700px;
   font: 400 .9375rem/1.75 var(--sans-serif);
   margin: 0 auto;
 }
@@ -401,8 +413,8 @@ img {
 }
 
 .eis-text p {
-  font: 400 .9375rem/1.75 var(--sans-serif);
-  margin-bottom: 20px;
+  font: 300 1rem/1.75 var(--sans-serif);
+  margin-bottom: 35px;
   color: #272727;
 }
 
@@ -415,6 +427,7 @@ img {
 
 .eis-text h1 {
   margin: 40px 0 10px;
+  font-weight: 700;
   text-align: left;
   font-size: 2.2rem;
 }
@@ -483,6 +496,22 @@ img {
   background: transparent;
   display: block;
   margin-bottom: 20px;
+}
+
+.eis-featured-image {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, 0);
+  width: 100%;
+  max-width: 1200px;
+  height: 445px;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /***
@@ -609,6 +638,8 @@ img {
 [data-darkmode="true"] {
   background: #121212;
 }
+
+[data-darkmode="true"] .eis-article {background: #121212;}
 
 [data-darkmode="true"] a, 
 [data-darkmode="true"] h1, 
