@@ -28,7 +28,8 @@ Se você ler o [artigo](https://hbr.org/1986/01/the-new-new-product-development-
 
 Em desenvolvimento de software, sofremos de alguns grandes problemas. Dois deles seriam:
 
-* A mudança de prioridade e escopo; * Requisitos e materiais para iniciar o desenvolvimento;
+* A mudança de prioridade e escopo; 
+* Requisitos e materiais para iniciar o desenvolvimento;
 
 Esses dois problemas acabam minando a velocidade e a produtividade do time. Antigamente o time de desenvolvedores lidavam diretamente com os Stakeholders e outras áreas da empresa como atendimento, por exemplo. Então, as demandas podiam vir de todos os lados. Como o time de desenvolvimento consegue decidir se vai fazer uma tarefa que o Diretor Comercial pediu para conseguir ganhar Milhões, ou por um bug que está afetando milhares de usuários?
 
@@ -38,11 +39,22 @@ Nesse cenário, não há espaços para inovação do produto ou solução para d
 
 Então, nesse contexto horroroso, o Product Owner surge como um centralizador, responsável por **priorizar** e **organizar** as demandas do time, que nós chamamos hoje de Backlog. O Guia oficial do Scrum especifica detalhadamente quais as responsabilidades de um Product Owner:
 
-* Clearly expressing Product Backlog items; * Ordering the items in the Product Backlog to best achieve goals and missions; * Optimizing the value of the work the Development Team performs; * Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next; and, * Ensuring the Development Team understands items in the Product Backlog to the level needed.
+* Clearly expressing Product Backlog items; 
+* Ordering the items in the Product Backlog to best achieve goals and missions; 
+* Optimizing the value of the work the Development Team performs; 
+* Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next; and, 
+* Ensuring the Development Team understands items in the Product Backlog to the level needed.
 
-Você leu em algum nessa lista as responsabilidades abaixo? Só pra citar algumas:
+Na lista acima, você identificou algum dos pontos abaixo?
 
-* Identificação das necessidades do mercado e do negócio; * Pesquisa e análise de Benchmark; * Unir visão da empresa com a visão da área de produto; * Criar estratégia do produto e direciona-la para cumprir com as necessidades da empresa e do usuário; * Definir, acompanhar e comunicar métricas de sucesso do produto; * Compreender profundamente o negócio e o mercado de atuação; * Compreender profundamente o usuário, conhecendo suas necessidades, a fim de identificar oportunidades para o produto; * Definir e planejar novas features do produto de acordo com as necessidades do usuário e do negócio;
+* Identificação das necessidades do mercado e do negócio; 
+* Pesquisa e análise de Benchmark; 
+* Unir visão da empresa com a visão da área de produto; 
+* Criar estratégia do produto e direciona-la para cumprir com as necessidades da empresa e do usuário; 
+* Definir, acompanhar e comunicar métricas de sucesso do produto; 
+* Compreender profundamente o negócio e o mercado de atuação; 
+* Compreender profundamente o usuário, conhecendo suas necessidades, a fim de identificar oportunidades para o produto; 
+* Definir e planejar novas features do produto de acordo com as necessidades do usuário e do negócio;
 
 Se seu time tem um Product Manager que faz apenas as coisas da primeira lista, na verdade seu time tem apenas um Product Owner e outro alguém está sendo o Product Manager. Isso não é necessariamente errado, e vou tentar explicar isso em seguida.
 
@@ -56,7 +68,10 @@ A principal característica de um PM é ser multidisciplinar. Há um diagrama mu
 
 Infelizmente esse diagrama é muito simplista, pois poderia haver mais áreas ali, por exemplo:
 
-* O PM precisa entender um pouco de Marketing, principalmente lançar seu produto/feature. Há também o conhecimento de aquisição, dependendo das responsabilidades que você tem na empresa; * O PM precisa entender bastante de Agile, já que ele exerce também as responsabilidades descritas de um Product Owner. * O PM precisa entender sobre atendimento ou fluxo de atendimento dos usuários, dado que ele vai precisar selecionar o que está mais doendo nos usuários, conseguindo priorizar qual solução ele vai pensar primeiro de acordo com número de usuários impactados, ciclo de ocorrência, churn, perda de receita e etc… * O PM precisa saber um pouco sobre dados, já que ele vai lidar com os times de BI, Data Science e assim por diante. Existem uma série de métricas de produtos que o PM poderá fazer correlações para entender melhor o comportamento do usuário, afim de melhorar a retenção e engajamento do produto;
+* O PM precisa entender um pouco de Marketing, principalmente lançar seu produto/feature. Há também o conhecimento de aquisição, dependendo das responsabilidades que você tem na empresa; 
+* O PM precisa entender bastante de Agile, já que ele exerce também as responsabilidades descritas de um Product Owner. 
+* O PM precisa entender sobre atendimento ou fluxo de atendimento dos usuários, dado que ele vai precisar selecionar o que está mais doendo nos usuários, conseguindo priorizar qual solução ele vai pensar primeiro de acordo com número de usuários impactados, ciclo de ocorrência, churn, perda de receita e etc… 
+* O PM precisa saber um pouco sobre dados, já que ele vai lidar com os times de BI, Data Science e assim por diante. Existem uma série de métricas de produtos que o PM poderá fazer correlações para entender melhor o comportamento do usuário, afim de melhorar a retenção e engajamento do produto;
 
 Provavelmente você deve ter pensado em algumas áreas que poderiam ser citadas como compliance, segurança, risco, fraude, comercial, etc… Tudo vai depender do mercado em que você está atuando.
 

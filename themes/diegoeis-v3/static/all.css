@@ -560,7 +560,7 @@ img {
 /**********
 **** DARK MODE
 **********/
-.eis-dark-btn {
+#eis-dark-btn {
   cursor: pointer;
   font: .7rem var(--sans-serif);
   background: rgba(0, 0, 0, .1);
@@ -569,39 +569,39 @@ img {
   border-radius: 15px;
 }
 
-.darkmode .eis-dark-btn {
+[data-darkmode="true"] #eis-dark-btn {
   background: rgba(255, 255, 255, .5);
 }
 
-body.darkmode {
+[data-darkmode="true"] {
   background: #121212;
 }
 
-.darkmode a, 
-.darkmode h1, 
-.darkmode p,
-.darkmode .eis-date,
-.darkmode .eis-post-tags li,
-.darkmode .eis-menu a,
-.darkmode .eis-logo,
-.darkmode .eis-post-tags li a,
-.darkmode .eis-tags-list:before,
-.darkmode .eis-list-post li a,
-.darkmode h2, 
-.darkmode h3, 
-.darkmode h4, 
-.darkmode h5, 
-.darkmode h6,
+[data-darkmode="true"] a, 
+[data-darkmode="true"] h1, 
+[data-darkmode="true"] p,
+[data-darkmode="true"] .eis-date,
+[data-darkmode="true"] .eis-post-tags li,
+[data-darkmode="true"] .eis-menu a,
+[data-darkmode="true"] .eis-logo,
+[data-darkmode="true"] .eis-post-tags li a,
+[data-darkmode="true"] .eis-tags-list:before,
+[data-darkmode="true"] .eis-list-post li a,
+[data-darkmode="true"] h2, 
+[data-darkmode="true"] h3, 
+[data-darkmode="true"] h4, 
+[data-darkmode="true"] h5, 
+[data-darkmode="true"] h6,
 .eis-menu li {
   color: #fff;
 }
 
-.darkmode .eis-list-post .eis-date,
-.darkmode .eis-post-tags li a,
-.darkmode .eis-tags-list a,
-.darkmode .eis-text p,
-.darkmode .eis-text li,
-.darkmode .eis-text blockquote {
+[data-darkmode="true"] .eis-list-post .eis-date,
+[data-darkmode="true"] .eis-post-tags li a,
+[data-darkmode="true"] .eis-tags-list a,
+[data-darkmode="true"] .eis-text p,
+[data-darkmode="true"] .eis-text li,
+[data-darkmode="true"] .eis-text blockquote {
   color: #DFDFDF;
 }
 
@@ -610,36 +610,36 @@ body.darkmode {
 }
 
 
-.darkmode .eis-list-post li a {
+[data-darkmode="true"] .eis-list-post li a {
   background: #434343;
 }
 
-.darkmode .eis-list-post li a:hover {
+[data-darkmode="true"] .eis-list-post li a:hover {
   text-decoration: none
 }
 
-.darkmode p a,
-.darkmode .eis-post-tags li a:hover {
+[data-darkmode="true"] p a,
+[data-darkmode="true"] .eis-post-tags li a:hover {
   color: var(--yellow);
 }
-.darkmode p a:hover {
+[data-darkmode="true"] p a:hover {
   background: var(--yellow); 
   color: black;
   text-decoration: none;
 }
 
-.darkmode a:hover {
+[data-darkmode="true"] a:hover {
   box-shadow: none;
   color: var(--yellow);
   text-decoration: underline;
 }
 
-.darkmode h1 a:hover {
+[data-darkmode="true"] h1 a:hover {
   box-shadow: none;
   color: var(--yellow);
 }
 
-.darkmode .eis-article header h1:after {
+[data-darkmode="true"] .eis-article header h1:after {
   background: #fff;
 }
 
