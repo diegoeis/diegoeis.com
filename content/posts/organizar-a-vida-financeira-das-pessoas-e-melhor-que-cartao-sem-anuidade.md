@@ -6,7 +6,7 @@ image: https://cdn-images-1.medium.com/max/1000/1*8AsMVWnYibSKmlOUxuoNBA.jpeg
 tags:
 - product management
 - fintech
-- dinheiro
+- investimento-e-dinheiro
 ---
 
 Ou o que - na minha opinião - os bancos digitais, bancos tradicionais e outras fintechs deveriam estar se focando agora.

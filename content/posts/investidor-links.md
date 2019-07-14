@@ -3,8 +3,7 @@ title: Investidor Toolkit - Links de utilidades para investidores
 type: post
 date: 2019-03-06
 tags:
-- investimento
-- dinheiro
+- investimento-e-dinheiro
 ---
 
 Todo mundo tem medo de investir. Muito por que existe um tabu para os pequenos investidores amadores de que investir é perigoso, que só quem entende pode fazer isso, que renda variável é coisa de rico, e tudo quanto é história dessas. Muito por isso pessoas como Nathalia Arcuri e Primo Rico tem tido tanto sucesso: eles dismistificam toda essa complicação e diminuindo a barreira da falta de conteúdo.
