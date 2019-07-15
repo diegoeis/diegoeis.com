@@ -6,7 +6,6 @@ date: '2017-07-31'
 publishdate: '2017-07-31 00:00'
 image: 'https://cdn-images-1.medium.com/max/4400/1*9Ot-CeEJRQmiNlg2YacSnA.jpeg'
 tags:
-  - cotidiano-e-comportamento
   - saude
   - personal-stats
 ---
