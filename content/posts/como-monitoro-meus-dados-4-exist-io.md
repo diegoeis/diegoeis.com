@@ -25,7 +25,7 @@ O [Exist.io](https://exist.io/?referred_by=diegoeis) faz esse trabalho para voc�
 o [Exist.io](https://exist.io/?referred_by=diegoeis) é um sistema feito pela [Belle B. Cooper](http://bellebethcooper.com/) e [Josh Sharp](http://joshsharp.com.au/). Eles são programador e designer independentes. O valor é de USD$6 por mês. 
 Durante muito tempo, achei meio salgado esse valor, pelo serviço prestado. Mas hoje estou usando bastante e quanto mais dados, melhor ele fica.
 
-## Correlações
+## Correlações e dashboard
 
 A ideia do Exist é fazer correlação de dados de vários serviços e depois correlacionar esses dados na tentativa de tirar insights para que você possa entender quais tarefas no seu dia a dia influenciam mais ou menos nos resultados. 
 
@@ -35,4 +35,6 @@ No início eu achei a ideia incrível e comecei a usar bastante. Mas fui percebe
 
 Eu queria fazer alguns testes desligando alguns serviços como o twitter, para ver se as correlações ficam mais "inteligentes".
 
-![]()
+![](https://diegoeis.com/images/uploads/screen-shot-2019-07-15-at-16.22.14.png)
+
+Outro ponto interessante é o dashboard completo que ele dá. Geralmente cada app de monitoramento de dados tem o seu. Eu uso o Apple Health para conseguir centralizar os dados, mas fico preso à Apple. Com o Exist.io eu tenho um lugar, neutro, que consegue juntar todos os dados de diversos serviços, inclusive, puxando do Apple Health.
