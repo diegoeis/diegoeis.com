@@ -9,9 +9,11 @@ tags:
   - cotidiano e comportamento
 ---
 
-Você já deve ter notado que viver é difícil. Nós aprendemos a viver no improviso. Nós tentamos aprender com os nossos erros e os espertos tentam aprender com o erro dos outros. Quando finalmente estamos aprendendo alguma coisa, que nos faça errar menos, já estamos no final da vida. Trágico. 
+Você já deve ter notado que viver é difícil. Nós aprendemos a viver no improviso. Nós tentamos aprender com os nossos erros e os espertos tentam aprender com o erro dos outros. Quando finalmente estamos aprendendo alguma coisa, que nos faça errar menos, já estamos no final da vida. Trágico.
 
-Mas e se eu te dissesse que um manual pra vida pode existir? Um manual livre de religião, livre de qualquer misticismo, doutrina ou burocracia?
+Mas e se eu te dissesse que um manual pra vida pode existir? Um manual prático e livre de religião, livre de qualquer misticismo, doutrina ou burocracia? Que te ensinaria a enfrentar a vida de uma maneira mais equilibrada, racional e direto ao ponto? Encontrei isso no Estoicismo.
+
+# O que é o Estoicismo?
 
 O Estoicismo foi uma escola filosófica fundada Zenão, em Atenas. 
 
