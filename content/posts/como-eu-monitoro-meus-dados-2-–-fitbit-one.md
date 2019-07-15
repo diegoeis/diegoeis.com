@@ -12,7 +12,7 @@ tags:
 ---
 Você pode ver os outros dois artigos da série aqui:
 
-\- [Como eu monitoro meus dados #1 — Life Cyclehttps://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
+\- \[Como eu monitoro meus dados #1 — Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
 
 \- \[Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
 
