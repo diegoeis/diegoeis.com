@@ -9,6 +9,14 @@ tags:
   - cotidiano-e-comportamento
   - saude
 ---
+Você pode ver os outros dois artigos da série aqui:
+
+\- [Como eu monitoro meus dados #1 — Life Cyclehttps://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
+
+\- \[Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
+
+\---
+
 O \[Fitbit One](https://www.fitbit.com/shop/one?color=black) foi o primeiro gadget que comprei para fazer tracking das minhas atividades. A Fitbit é uma empresa especializada em trackers. Ela entrou no mercado de weareables pra tentar suprir uma necessidade crescente de pessoas que querem controlar seus próprios dados.
 
 Quando eu comprei meu Fitbit One, eu procurava um aparelho que não me atrapalhasse. Eu não gostava de usar relógios e queria algum gadget que fosse bastante discreto, mas que traqueasse todos os dados importantes, logo, o FitBit One se encaixou totalmente nessa necessidade.
