@@ -7,7 +7,15 @@ publishdate: '2018-06-03 00:00'
 image: 'https://diegoeis.com/images/uploads/1_gmydwec7eq1nqji8fqkytg.jpeg'
 tags:
   - cotidiano-e-comportamento
+  - personal-stats
 ---
+Você pode ver os outros dois artigos da série aqui:
+
+- [Como eu monitoro meus dados #1 — Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
+- [Como eu monitoro meus dados #2 — Fitbit One](https://diegoeis.com/como-eu-monitoro-meus-dados-2-fitbit-one/)
+
+---
+
 Embora eu não seja um bom jogador de Hearthstone (diegoeis#1998), eu gosto de fazer track de todos os dados das minhas atividades. Entenda por atividade, qualquer coisa que eu venha a fazer no meu dia a dia. Eu já escrevi alguns artigos sobre isso. Com jogos não é diferente. O Hearthstone fornece meios para que os interessados possam se plugar e sugar os dados que são gerados no jogo.
 
 Essas são os servicinhos que eu uso para fazer track dos meus jogos:
