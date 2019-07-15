@@ -2,8 +2,8 @@
 type: post
 title: 'Como monitoro meus dados #4 - Exist.io'
 excerpt: Correlacionando os dados gerados pelos serviços que você usa
-date: '2019-07-15'
-publishdate: '2019-07-15 16:08'
+date: '2019-07-18'
+publishdate: '2019-07-18 07:00'
 image: 'https://diegoeis.com/images/uploads/blur-codes-coding-577585.jpg'
 tags:
   - personal-stats
