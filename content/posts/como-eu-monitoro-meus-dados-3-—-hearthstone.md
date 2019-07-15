@@ -6,7 +6,6 @@ date: '2018-06-03'
 publishdate: '2018-06-03 00:00'
 image: 'https://diegoeis.com/images/uploads/1_gmydwec7eq1nqji8fqkytg.jpeg'
 tags:
-  - cotidiano-e-comportamento
   - personal-stats
 ---
 Você pode ver os outros dois artigos da série aqui:
