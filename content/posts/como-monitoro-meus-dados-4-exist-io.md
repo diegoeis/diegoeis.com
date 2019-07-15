@@ -38,3 +38,15 @@ Eu queria fazer alguns testes desligando alguns serviços como o twitter, para v
 ![](https://diegoeis.com/images/uploads/screen-shot-2019-07-15-at-16.22.14.png)
 
 Outro ponto interessante é o dashboard completo que ele dá. Geralmente cada app de monitoramento de dados tem o seu. Eu uso o Apple Health para conseguir centralizar os dados, mas fico preso à Apple. Com o Exist.io eu tenho um lugar, neutro, que consegue juntar todos os dados de diversos serviços, inclusive, puxando do Apple Health.
+
+## Serviços e Integrações
+
+Ele consegue se integrar em muitos serviços, de diversos tipos, desde redes sociais, até serviços como Last.Fm e RescueTime. Além disso, os mantenedores do Exist [mantém o roadmap aberto](https://changemap.co/hellocode/exist/), e vão implementando mais serviços de acordo com a votação dos usuários.
+
+![](/images/uploads/screen-shot-2019-07-15-at-16.30.31.png)
+
+Esses são os serviços que eu tenho conectado. Infelizmente ele ainda não tem o [Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/) integrado. Ia ser uma ótima dobradinha, já que os dois fazem correlação de dados. 
+
+![](/images/uploads/screen-shot-2019-07-15-at-16.30.39.png)
+
+O [Exist.io custa USD$6 mensais](https://exist.io/?referred_by=diegoeis), e se voce cancelar, você perde os dados, que são importados novamente quando você renova o plano. Há também a possibilidade de exportar seus dados, caso não deseje mais continuar com o serviço. **Você pode testar por 1 mes grátis, e se você [se cadastrar no meu link, ganha mais 1 mês](https://exist.io/?referred_by=diegoeis)!** :-)
