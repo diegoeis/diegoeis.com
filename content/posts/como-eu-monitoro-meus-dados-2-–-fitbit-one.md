@@ -8,6 +8,7 @@ image: 'https://cdn-images-1.medium.com/max/4400/1*9Ot-CeEJRQmiNlg2YacSnA.jpeg'
 tags:
   - cotidiano-e-comportamento
   - saude
+  - personal-stats
 ---
 Você pode ver os outros dois artigos da série aqui:
 
