@@ -7,11 +7,13 @@
 
 body {
   font-size: 16px;
-  padding: 0 25px;
+  padding: 0 10px;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
 }
+
+body.Kind-is-home {padding: 0 20px;}
 
 :root {
   --serif: "Cormorant Garamond", Georgia, Times, Serif;
@@ -170,12 +172,24 @@ img {
 
 @media screen and (max-width: 700px) {
   #eis-header {
+    display: block;
     margin-bottom: 40px;
-    justify-content: center;
+    padding: 20px 10px;
   }
   .eis-menu {
-    padding-top: 20px;
+    padding-top: 0;
+    float: right;
+    width: 150px;
+    text-align: right;
   }
+
+  .eis-menu li:first-child {margin: 0 0 10px; display: block;}
+
+  .eis-menu li {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+
 }
 
 /***
@@ -359,9 +373,11 @@ img {
 }
 
 .eis-article.no-image {margin-top: 100px;}
+
 @media screen and (max-width: 700px) {
   .eis-article {
     width: auto;
+    margin-top: 150px;
   }
 }
 
@@ -441,10 +457,23 @@ img {
   margin: 40px 0 5px;
 }
 
+.eis-text iframe {
+  max-width: 100%;
+}
+
 .eis-text blockquote {
   position: relative;
   padding-left: 50px;
 }
+@media screen and (max-width: 700px) {
+  .eis-text blockquote {
+    padding: 0;
+  }
+  .eis-text blockquote p {
+    font-size: 2rem;
+  }
+}
+
 .eis-text blockquote:before,
 .eis-text blockquote:after {
   content: '"';
@@ -500,7 +529,7 @@ img {
 
 .eis-featured-image {
   position: absolute;
-  top: 100px;
+  top: 130px;
   left: 50%;
   z-index: -1;
   transform: translate(-50%, 0);
