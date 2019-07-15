@@ -6,11 +6,9 @@ date: '2017-07-27'
 publishdate: '2017-07-27 00:00'
 image: 'https://cdn-images-1.medium.com/max/5200/1*U3Bkz43cwlpF4oF103PQKA.jpeg'
 tags:
-  - >-
-    desenvolvimento-web, gestão-e-liderança, front-end, product-management,
-    agile, anotacoes, tecnologia, design, carreira, javascript,
-    livros-e-leitura, cotidiano-e-comportamento, saude, dinheiro, fintech,
-    palestras, ux, investimento
+  - cotidiano-e-comportamento
+  - saude
+  - personal-stats
 ---
 Você pode ver os outros dois artigos da série aqui:
 
