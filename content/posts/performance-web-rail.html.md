@@ -5,7 +5,6 @@ date: 2016-06-26
 tags:
   - anotacoes
   - desenvolvimento web
-  - front-end
 ---
 
 Minhas anotações da palestra do sobre performance web do Sergio Lopes, feito no Encontro Locaweb 2016.

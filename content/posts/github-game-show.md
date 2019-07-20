@@ -3,7 +3,7 @@ title: GitHub Game Off
 type: post
 date: 2017-10-30
 tags:
-- front-end
+- desenvolvimento web
 - tecnologia
 ---
 

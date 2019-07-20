@@ -4,6 +4,7 @@ type: post
 date: 2014-02-08
 tags:
 - saude
+- Produtividade e Dados Pessoais
 ---
 
 Essas são algumas anotações que tenho feito sobre o que tenho lido e aprendido com a tentativa de perder peso. Como são anotações, não espere que tudo faça sentido.

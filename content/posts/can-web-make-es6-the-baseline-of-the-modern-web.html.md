@@ -5,7 +5,6 @@ date: 2015-07-21
 tags:
 - anotacoes
 - desenvolvimento web
-- front-end
 - tecnologia
 ---
 

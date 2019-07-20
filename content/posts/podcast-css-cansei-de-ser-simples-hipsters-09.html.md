@@ -4,7 +4,6 @@ type: post
 date: 2016-09-13
 tags:
 - tecnologia
-- front-end
 - desenvolvimento web
 ---
 

@@ -4,7 +4,6 @@ type: post
 date: 2014-10-13
 tags:
 - desenvolvimento web
-- front-end
 ---
 
 Quando montei esse título eu sabia que ia ser polêmico e sabia que haveria um burburinho nos corredores das interwebs. E sabe de uma coisa? To me lixando para que os outros falam por aí.

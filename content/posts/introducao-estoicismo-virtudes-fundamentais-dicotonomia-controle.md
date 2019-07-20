@@ -6,6 +6,7 @@ date: '2019-07-15'
 publishdate: '2019-07-15 06:00'
 image: https://i.imgur.com/nfR7LzO.jpg?1
 tags:
+  - estoicismo
   - cotidiano e comportamento
 ---
 

@@ -5,7 +5,6 @@ date: 2016-07-03
 image: https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?cs=srgb&dl=action-plan-brainstorming-complex-212286.jpg&fm=jpg
 tags:
 - desenvolvimento web
-- front-end
 ---
 
 Queria falar um pouco sobre alguns formatos de imagens que usamos todos os dias. Dar algumas informações que encontrei por aí. Vamos explorar as duas principais opções de formato gráfico que pode ser usado na Web para representar gráficos simples, esquemas ou logotipos. Embora hoje possamos usar SVG em diversos momentos, principalmente para ícones ou Logos, o PNG e o GIF ainda podem ser usadas. Depois falamos mais sobre o SVG.

@@ -4,7 +4,6 @@ type: post
 date: 2018-06-11
 image: https://cdn-images-1.medium.com/max/1000/0*arM5YJLQAlOFVtBU
 tags:
-- front-end
 - desenvolvimento web
 ---
 

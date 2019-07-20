@@ -6,9 +6,8 @@ date: '2019-07-01'
 publishdate: '2019-07-01 06:00'
 image: https://i.imgur.com/QLUQcAP.jpg
 tags:
-  - product-management
+  - Product Management
   - agile
-  - produtos digitais
 ---
 
 Faz anos que o mercado de Produtos Digitais está aquecido. As empresas estão ficando cada vez mais maiores, impactando cada vez mais as pessoas e as sociedades… mas, por outro lado, o mercado tem ficado cada vez mais caótico com a mudança de comportamento e de uso da tecnologia. Com esse novo cenário, um profissional que acaba ganhando bastante visibilidade é o Product Manager.

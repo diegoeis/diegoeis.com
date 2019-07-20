@@ -4,7 +4,6 @@ type: post
 date: 2016-10-23
 tags:
 - desenvolvimento web
-- front-end
 ---
 
 Há muito tempo eu queria fazer um Hello World com React, mas nunca tinha tempo por que eu mudei de área fazem uns 3 anos, ficando mais na parte de gestão de produtos e times, deixando totalmente o desenvolvimento e a escrita de código. Por isso, senti na pele o que os iniciantes sentem quando precisam fazer um simples Hello World de uma tecnologia nova. São tantos artigos falando coisas diferentes, usando setups diferentes, na sua maioria complexos e que não explicam as coisas com simplicidade.

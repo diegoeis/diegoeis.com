@@ -7,6 +7,7 @@ publishdate: '2019-07-01 00:00'
 image: 'https://diegoeis.com/images/uploads/marcus-1024x735-panorama.jpg'
 tags:
   - livros e leitura
+  - estoicismo
 ---
 # O que me levou a ler o livro O Estoicismo Hoje?
 

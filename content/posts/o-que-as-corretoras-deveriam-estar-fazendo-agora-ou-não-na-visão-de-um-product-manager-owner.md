@@ -1,20 +1,16 @@
 ---
 type: post
-title: >-
-  O que as corretoras deveriam estar fazendo agora (ou não) na visão de um
-  Product Manager/Owner
-excerpt: >-
-  Um comentários sobre o mercado digital de corretoras o que elas poderiam estar
-  atacando agora.
+title: O que as corretoras deveriam estar fazendo agora (ou não) na visão de um Product Manager/Owner
+excerpt: Um comentários sobre o mercado digital de corretoras o que elas poderiam estar atacando agora.
 date: '2018-05-24'
 publishdate: '2018-05-24 00:00'
 image: 'https://diegoeis.com/images/uploads/blur-chart-data-159888.jpg'
 tags:
-  - product-management
-  - dinheiro
+  - Product Management
   - fintech
-  - investimento
+  - investimento e dinheiro
 ---
+
 ## Existem várias outras maneiras de distribuir investimentos. Mas as corretoras hoje usam apenas um caminho: suas próprias plataformas.
 
 Mais um artigo onde eu tento devanear um pouco sobre possibilidades de um mercado específico. Dessa vez tentei pensar um pouco no mundo das corretoras de valores, que nos últimos cinco anos ganharam uma visibilidade enorme por causa da alta dos juros e por conta de produtos de Renda Fixa e tesouro direto. Contudo, esse crescimento, ao meu ver, não foi totalmente proposital, mas em sua grande maioria orgânico, muito influenciado pelo interesse crescente da população sobre investimentos.

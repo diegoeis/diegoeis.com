@@ -23,7 +23,3 @@ Um Product Manager deveria se chamar Service Manager. Veja como a visão fica ma
 O mercado de Produtos Digitais está muito mal acostumado achando que um Produto Digital é um App. Parece que um produto digital só é um produto digital se houver um App nas lojas de apps. Quantas pessoas não chegaram para você e soltaram um: “Cara, tenho uma ideia de produto, que o usuário baixa um app e …”
 
 O pedaço de hardware ou de software faz parte de um conceito maior que se chama serviço. Do mesmo jeito que o Marketing saiu da ideia antiga de que os valores se encontravam nos Bens de Consumo e depois entenderam que na verdade o valor está no Serviço prestado e também na rede que se forma para entregar esse Serviço, o mercado de software (ou de produtos digitais) precisa passar pelo menos processo de adaptação e amadurecimento de um modelo de negócio baseado em serviço e não mais de produto ou peça de software.
-
-## para ler mais:
-- [Onde está o valor nos produtos digitais?](https://diegoeis.com/onde-esta-o-valor-dos-produtos-digitais/)
-- [Você conhece Service Dominant Logic?](https://diegoeis.com/service-dominant-logic-marketing/)

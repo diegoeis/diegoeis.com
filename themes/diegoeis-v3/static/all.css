@@ -198,8 +198,9 @@ img {
 .eis-first-post {
   margin-bottom: 150px;
 }
+
 .eis-first-post h1 {
-  font: 400 4.375rem/1.15 var(--serif);
+  font: 700 4.375rem/1.15 var(--serif);
   max-width: 1000px;
   margin-bottom: 45px;
 }
@@ -397,7 +398,7 @@ img {
   max-width: 770px;
   text-align: center;
   margin: 80px auto 100px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 3.125rem;
 }
 

@@ -6,7 +6,7 @@ date: '2018-06-03'
 publishdate: '2018-06-03 00:00'
 image: 'https://diegoeis.com/images/uploads/1_gmydwec7eq1nqji8fqkytg.jpeg'
 tags:
-  - cotidiano-e-comportamento
+  - Produtividade e Dados pessoais
 ---
 Embora eu não seja um bom jogador de Hearthstone (diegoeis#1998), eu gosto de fazer track de todos os dados das minhas atividades. Entenda por atividade, qualquer coisa que eu venha a fazer no meu dia a dia. Eu já escrevi alguns artigos sobre isso. Com jogos não é diferente. O Hearthstone fornece meios para que os interessados possam se plugar e sugar os dados que são gerados no jogo.
 

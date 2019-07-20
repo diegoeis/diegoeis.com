@@ -4,7 +4,6 @@ type: post
 date: 2016-08-29
 tags:
 - desenvolvimento web
-- front-end
 - palestras
 ---
 

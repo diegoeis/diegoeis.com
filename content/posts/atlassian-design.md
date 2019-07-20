@@ -4,7 +4,7 @@ type: post
 date: 2017-10-29
 tags:
 - design
-- front-end
+- desenvolvimento web
 ---
 
 ![](https://i.imgur.com/OnzTBdE.png)

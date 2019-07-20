@@ -5,7 +5,6 @@ type: post
 date: 2016-07-06
 tags:
 - desenvolvimento web
-- front-end
 ---
 
 Antes de entrarmos em como esse negócio de JSON-LD e Linked Data, queria falar um pouco sobre como a internet funciona. [Organização da Informação](http://diegoeis.com/organizando-a-informacao.html) na web é um dos assuntos que mais me fascinam no mundo da internet. Inclusive quando falamos sobre semântica e organização da informação de forma que não apenas humanos, mas computadores possam publicar e reutilizar essa informação livremente na web.

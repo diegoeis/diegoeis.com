@@ -7,7 +7,6 @@ excerpt: Como na vida normal, o mercado de desenvolvimento web, está cercado pe
 tags:
 - product management
 - desenvolvimento web
-- front-end
 - carreira
 ---
 

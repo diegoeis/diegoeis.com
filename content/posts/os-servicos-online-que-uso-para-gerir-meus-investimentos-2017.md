@@ -5,7 +5,7 @@ date: 2017-12-03
 image: https://cdn-images-1.medium.com/max/1200/1*3KODRUmTpJBxFwf5uNwKwQ.jpeg
 tags:
 - fintech
-- investimento-e-dinheiro
+- Investimento e Dinheiro
 ---
 
 É comum encontrar pessoas que não fazem nenhum tipo de controle financeiro. Eu não consigo ser tão desencanado assim. Eu preciso saber pra onde meu dinheiro está indo todo santo dia. Quando eu era mais jovem e ganhava um bocado de dinheiro, mas não tinha responsabilidades, eu gastava tudo em Fliperama (KoF 97 é o jogo de luta de todos os tempos. ;-] ) e Caldo de Cana (néctar dos deuses). Mas agora que sou crescido, um adulto (mais ou menos), tenho responsabilidades e como qualquer pessoa e tenho alguns objetivos para o futuro. Para tanto, faço um controle de perto dos meus gastos diários, a fim de controlar toda a entrada e saída de dinheiro, além de saber quanto falta para cumprir com os meus objetivos (muitos anos).

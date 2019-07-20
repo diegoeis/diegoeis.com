@@ -7,7 +7,6 @@ image: https://i.imgur.com/Vto4B24.jpg
 tags:
 - tecnologia
 - desenvolvimento web
-- front-end
 - livros e leitura
 ---
 
