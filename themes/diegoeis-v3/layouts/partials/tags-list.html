@@ -1,6 +1,6 @@
 <ul class="eis-tags-list">
 {{ range .Site.Taxonomies.tags.ByCount }}
-	<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <small>({{ .Count }})</small></a></li>
+	<li><a href="/tags/{{ .Name | urlize }}">{{ .Page.Title }} <small>({{ .Count }})</small></a></li>
 {{ end }}
 </ul>
 
