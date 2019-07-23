@@ -105,12 +105,12 @@ Mas desde 1980/90 até os dias de hoje, tem existido um movimento claro
 direcionado para uma visão onde o marketing faz parte de um processo social e
 econômico, onde o resultado financeiro não é um fim, mas faz parte de um teste
 contínuo de hipóteses sobre a proposição de valor do produto. Essa forma de
-pensar, unifica uma vários pensamentos divididos em uma série de explicações
-sobre marketing de serviços
-- marketing de relacionamento
-- gestao e lideranca de qualidade e
-valor
-- gestao e lideranca de recursos e também análise de rede.
+pensar unifica vários pensamentos divididos em uma série de explicações
+sobre marketing de serviços:
+
+- marketing de relacionamento;
+- gestao e lideranca de qualidade e valor;
+- gestao e lideranca de recursos e também análise de rede;
 
 ## O bem não é mais o fim
 
@@ -127,13 +127,8 @@ atores que juntos trazem valor para o cliente, cada qual com sua especialidade e
 conhecimento sobre uma parte do negócio. Nesse caos, a ênfase está mais ligado
 aos aspectos intangíveis.
 
-> *Customers do not buy goods or services: [T]hey buy offerings which render
-> services which create value…. The traditional division between goods and
-services is long outdated. It is not a matter of redefining services and seeing
-them from a customer perspective; activities render services, things render
-services. The shift in focus to services is a shift from the means and the
-producer perspective to the utilization and the customer perspective. —
-***Gummesson**** (1995, p. 250–51)**
+> Customers do not buy goods or services: [T]hey buy offerings which render services which create value…. The traditional division between goods and services is long outdated. It is not a matter of redefining services and seeing them from a customer perspective; activities render services, things render services. The shift in focus to services is a shift from the means and the
+producer perspective to the utilization and the customer perspective. — Gummesson, (1995, p. 250–51)
 
 O Service Logic Dominant propõe que a forma de trabalhar deve ser mais
 abrangente, integrando produtos com serviços, fornecendo uma estrutura mais
@@ -143,9 +138,7 @@ também do marketing em si.
 ## Bens versus Serviços
 
 Abaixo segue as diferenças básicas entre os dois tipos de pensamentos, retirado
-do [paper
-original](http://tarjomefa.com/wp-content/uploads/2016/12/5809-English.pdf) de
-Stephen L. Vargo e Robert F. Lusch.
+do [paper original](http://tarjomefa.com/wp-content/uploads/2016/12/5809-English.pdf) de Stephen L. Vargo e Robert F. Lusch.
 
 O pensamento que coloca os bens no centro do processo, tem os seguintes pontos:
 
@@ -167,9 +160,8 @@ de uma discussão maior sobre onde se encontrava a “utilidade” do que era
 oferecido ao consumidor. Alguns papas do marketing encontravam essa utilidade em
 pontos diferentes do processo.
 
-> *“What is needed is not an interpretation of the utility created by marketing,
-> but a marketing interpretation of the whole process of creating utility.” —
-***Alderson, 1957, p69**
+> “What is needed is not an interpretation of the utility created by marketing,
+> but a marketing interpretation of the whole process of creating utility.” — Alderson, 1957, p69
 
 Alguns falavam que o valor era no processo de troca, ou seja, ficava na
 satisfação do cliente ao obter o produto, onde a satisfação era enfim saciada.
@@ -224,9 +216,8 @@ cocriação com o consumidor em detrimento ao valor incorporado no produto. Ouvi
 o consumidor e mostrar que você está ouvindo, nesse caso, é mais importante do
 que o produto em si
 
-> *Haeckel (1999) observes successful firms moving from practicing a
-> “make-and-sell” strategy to a “sense-and-respond” strategy. — ***Stephen L.
-Vargo e Robert F. Lusch**
+> Haeckel (1999) observes successful firms moving from practicing a
+> “make-and-sell” strategy to a “sense-and-respond” strategy. — Stephen L. Vargo e Robert F. Lusch
 
 Mas como isso funciona em produtos digitais?
 
@@ -241,8 +232,7 @@ esse produto (depende da estratégia da empresa) e todos ficamos felizes.
 
 Mas o que é um produto digital?
 
-> **Produtos Digitais é qualquer software com usuários. — ***Joaquim Torres,
-> ***Gestão de produtos de software**
+> Produtos Digitais é qualquer software com usuários. — Joaquim Torres, Gestão de produtos de software
 
 E essa afirmação é muito objetiva: se um software tem usuários, pode ser chamado
 de produto digital. Desde o Windows até produtos baseados na internet, podem e
@@ -374,7 +364,7 @@ manifestável; **Axioma 4**.
 1.  Cocriação de valor é coordenada pela geração de atores e acordos entre
 instituições; **Axioma 5**.
 
-*** As observações entre [] foram colocadas por mim.*
+*As observações entre [] foram colocadas por mim.*
 
 Perceba que entre os fundamentos existem 5 axiomas. Os axiomas, como nome já
 declara, são os princípios inquestionáveis que formam a base e a estrutura do
