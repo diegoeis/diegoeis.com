@@ -23,7 +23,7 @@ Mas você sabe qual a diferença entre uma métrica e um indicador? Essa pergunt
 
 Dicamos que o indicador é formado pela junção de métricas.
 
-/img1-diferenca-metrica-indicador.jpg
+![](https://diegoeis.com/images/uploads/img1-diferenca-metrica-indicador.jpg)
 
 Um indicador como o Life Time Value (LFT) é formado pelo **Valor do Ticket Médio** e **Tempo de retenção do cliente**. O LFT *indica* quanto os usuários gastam no serviço durante o tempo que eles são clientes. Ou o **Stickness**, que mede a porcentagem de usuários mensais que retornam ao seu produto diariamente, é formado pelo DAU (Daily Active Users) e o MAU (Monthly Active Users).
 
@@ -52,19 +52,19 @@ Eu gosto de explicar esse ponto usando um framework muito interessante chamado G
 - **Metrics**: métrica (ou indicador) acionada pelas ações do usuário;
 - **Evaluations**: avaliações e conclusões do comportamento do usuário baseadas nos indicadores;
 
-/img2-product-box.jpg
+![](https://diegoeis.com/images/uploads/img2-product-box.jpg)
 
 O usuário usa seu produto porque ele tem objetivos a serem cumpridos: ele quer ouvir uma música, pedir comida, pedir um táxi, executar um pagamento etc. Para cumprir com esses objetivos, o usuário executa uma série de ações, que criam métricas. Para exemplificar, você pode separar ações que os usuários fazem nas fases de aquisição e ativação, tarefas de retenção e engajamento, monetização e receita.
 
-/img3-Metricas-Indicadores-comportamento-usuário.jpg
+![](https://diegoeis.com/images/uploads/img3-Metricas-Indicadores-comportamento-usuário.jpg)
 
 Nenhuma métrica pode ser gerada sem um comportamento do usuário, tanto de forma direta ou indireta (a não ser métricas técnicas como tempo de uptime do servidor, que não depende de nenhuma ação do usuário).
 
-/img4-jogadas-individuais-pontuam.jpg
+![](https://diegoeis.com/images/uploads/img4-jogadas-individuais-pontuam.jpg)
 
 Logo, se um indicador é a combinação de métricas, que por sua vez são geradas por comportamentos de usuário, temos que estimular os usuários a completarem mais tarefas dentro nos nossos produtos, que os façam cumprir com seus objetivos pessoais e que por sua vez, fazem o produto alcançar seus próprios objetivos.
 
-/img5-action-goal.jpg
+![](https://diegoeis.com/images/uploads/img5-action-goal.jpg)
 
 ## O fator engajamento + retenção
 
@@ -76,16 +76,16 @@ Se o que você procura é **engajamento**, métricas como *quantidade de logins*
 
 Então, seguindo esse raciocínio, o que importa são usuários que completam determinadas tarefas dentro do seu produto. 
 
-/img6-tavels-framework.jpg
+![](https://diegoeis.com/images/uploads/img6-tavels-framework.jpg)
 
 ## A importância das Core Actions
 Todos os produtos tem uma razão para existir. E todos os produtos tem funções importantes, que fundamentam essa razão de ser. Chamamos essas funções importantes de **core actions**.
 
-/img7-core-action-facebook-pinterest.png
+![](https://diegoeis.com/images/uploads/img7-core-action-facebook-pinterest.png)
 
 Essas **core actions** são a base fundamental do seu produto e que sem essas ações, não faria muito sentido usar o produto. A junção do engajamento dessas ações, somado com a retenção dos usuários, formam uma receita indispensável para qualquer serviço digital.
 
-/img71-core-action-facebook-pinterest.png
+![](https://diegoeis.com/images/uploads/img71-core-action-facebook-pinterest.png)
 
 Descobrir ou forjar as core actions do seu produto e entender como elas se comportam quando combinadas com a retenção do usuário, criam a **Hierarquia de Engajamento**, que o framework da Sarah Tavel ensina. 
 
@@ -97,7 +97,7 @@ Uma ação de usuário só é boa quando gera um efeito de rede no produto. Já 
 
 Esse efeito de rede, em vez de afetar o produto como um todo, ele afeta as funções de cada produto, gerando um ciclo virtuoso de uso do usuário.
 
-/img8-network-effect.png
+![](https://diegoeis.com/images/uploads/img8-network-effect.png)
 
 O objetivo aqui é **transformar o uso do produto em hábito**. 
 
@@ -105,7 +105,7 @@ O objetivo aqui é **transformar o uso do produto em hábito**.
 
 Existe um outro framework chamado Hook, idealizado pelo Nir Eyal em seu [livro Hooked: How to Build Habit-Forming Products](https://amzn.to/2SIQNNE). 
 
-/img9-hooked.png
+![](https://diegoeis.com/images/uploads/img9-hooked.png)
 
 Nesse framework, a ideia é que você desenvolva um produto que que construa o hábito de uso do seu produto nos usuários. Indo além de métricas e indicadores, a ideia é que você entenda profundamente o comportamento do usuário e suas emoções e motivações psicológicas. Mas esse é um outro papo, que talvez valha a pena conversar em outros artigos. É um assunto que toca muito em [valores éticos na área de produtos digitais](https://diegoeis.com/etica-em-produtos-digitais/).
 
