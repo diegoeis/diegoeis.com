@@ -1,19 +1,21 @@
 ---
 type: post
 title: 'Métricas, indicadores e comportamento do usuário'
-excerpt: Minha palestra sobre como frameworks e maneiras de entender métricas e indicadores criadas pelo comportamento dos usuários.
+excerpt: >-
+  Minha palestra sobre como frameworks e maneiras de entender métricas e
+  indicadores criadas pelo comportamento dos usuários.
 date: '2019-07-29'
-draft: true
 publishdate: '2019-07-29 06:00'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
 tags:
   - Product Management
   - palestras
 ---
-
 Todos os meses a área de Produtos Digitais da [Jüssi](https://jussi.com.br) faz o que chamamos de Big Friday. Nesse dia participamos assistindo e fazendo palestras sobre UX, Gestão de Produtos, Tecnologia e outros assuntos. Algumas pessoas de outras empresas são convidadas, mas também pessoas dos times compartilham conhecimento.
 
 Na sexta-feira do dia 23/07/2019, eu fui convidado para falar sobre Métricas e Indicadores. Mostrei um pouco sobre meu pensamento sobre esse assunto citando três frameworks e alguns fundamentos que sigo ao gerenciar Produtos Digitais. A apresentação completa segue no final do artigo.
+
+
 
 # Métricas, indicadores e comportamento do usuário
 
@@ -25,9 +27,9 @@ Dicamos que o indicador é formado pela junção de métricas.
 
 /img1-diferenca-metrica-indicador.jpg
 
-Um indicador como o Life Time Value (LFT) é formado pelo **Valor do Ticket Médio** e **Tempo de retenção do cliente**. O LFT *indica* quanto os usuários gastam no serviço durante o tempo que eles são clientes. Ou o **Stickness**, que mede a porcentagem de usuários mensais que retornam ao seu produto diariamente, é formado pelo DAU (Daily Active Users) e o MAU (Monthly Active Users).
+Um indicador como o Life Time Value (LFT) é formado pelo **Valor do Ticket Médio** e **Tempo de retenção do cliente**. O LFT _indica_ quanto os usuários gastam no serviço durante o tempo que eles são clientes. Ou o **Stickness**, que mede a porcentagem de usuários mensais que retornam ao seu produto diariamente, é formado pelo DAU (Daily Active Users) e o MAU (Monthly Active Users).
 
-Para usar uma analogia bem comum: imagine que seu corpo é um produto. Para entender se seu corpo está “bem”, você **medir** algumas características como *pressão sanguínea*, *nível de glicose*, *temperatura*. Tudo isso são métricas. Agora, se juntarmos algumas dessas métricas, você pode ter um indicador de que algo (ou nada) está acontecendo contigo. 
+Para usar uma analogia bem comum: imagine que seu corpo é um produto. Para entender se seu corpo está “bem”, você **medir** algumas características como _pressão sanguínea_, _nível de glicose_, _temperatura_. Tudo isso são métricas. Agora, se juntarmos algumas dessas métricas, você pode ter um indicador de que algo (ou nada) está acontecendo contigo. 
 
 Mas para se ter certeza do que algo está acontecendo, você precisa de uma análise para saber o que acionou esse comportamento.
 
@@ -47,10 +49,10 @@ Para uma métrica ser **acionável**, uma métrica que está relacionada a açõ
 
 Eu gosto de explicar esse ponto usando um framework muito interessante chamado GAME. Esse framework é baseado em quatro pontos importantes para análise de métricas e indicadores relacionados ao comportamento do usuário:
 
-- **Goals**: objetivos do usuário e do negócio a serem alcançados;
-- **Actions**: ações/tarefas que o usuário faz no produto.;
-- **Metrics**: métrica (ou indicador) acionada pelas ações do usuário;
-- **Evaluations**: avaliações e conclusões do comportamento do usuário baseadas nos indicadores;
+* **Goals**: objetivos do usuário e do negócio a serem alcançados;
+* **Actions**: ações/tarefas que o usuário faz no produto.;
+* **Metrics**: métrica (ou indicador) acionada pelas ações do usuário;
+* **Evaluations**: avaliações e conclusões do comportamento do usuário baseadas nos indicadores;
 
 /img2-product-box.jpg
 
@@ -72,13 +74,14 @@ Um dos objetivos mais intrínsecos de um serviço digital, é fazer com que as p
 
 > O que importa não é o crescimento da quantidade de usuários, mas o crescimento dos usuários que completam uma ação principal. ― Sarah Tavel
 
-Se o que você procura é **engajamento**, métricas como *quantidade de logins*, *quantidade de pageviews*, *quantidade de downloads do app* são totalmente dispensáveis. Essas métricas (não são indicadores), apenas refletem a fase de **growth** do seu produto. É isso que os investidores verão, pois é isso que mostra o potencial de futuro do seu produto. Contudo, não é isso que fará seu produto ser perene e nem é isso que dará insights para desenvolver um produto evolutivo.
+Se o que você procura é **engajamento**, métricas como _quantidade de logins_, _quantidade de pageviews_, _quantidade de downloads do app_ são totalmente dispensáveis. Essas métricas (não são indicadores), apenas refletem a fase de **growth** do seu produto. É isso que os investidores verão, pois é isso que mostra o potencial de futuro do seu produto. Contudo, não é isso que fará seu produto ser perene e nem é isso que dará insights para desenvolver um produto evolutivo.
 
 Então, seguindo esse raciocínio, o que importa são usuários que completam determinadas tarefas dentro do seu produto. 
 
 /img6-tavels-framework.jpg
 
 ## A importância das Core Actions
+
 Todos os produtos tem uma razão para existir. E todos os produtos tem funções importantes, que fundamentam essa razão de ser. Chamamos essas funções importantes de **core actions**.
 
 /img7-core-action-facebook-pinterest.png
@@ -91,7 +94,7 @@ Descobrir ou forjar as core actions do seu produto e entender como elas se compo
 
 É importante notar que não pode existir apenas as **core actions**, mas também as ações de suporte. As ações de suporte fazem com que os usuários executem mais ainda as core actions, que por sua vez geram métricas de verdade, que te geram indicadores valiosos... E você já entendeu a cadeira.
 
-## Ações são valiosas quando geram efeito de rede 
+## Ações são valiosas quando geram efeito de rede
 
 Uma ação de usuário só é boa quando gera um efeito de rede no produto. Já [falei aqui um pouco sobre como o efeito de rede influencia a forma de uso dos serviços digitais](https://diegoeis.com/service-dominant-logic-marketing#network-effect-e-produtos-como-plataformas). 
 
@@ -115,10 +118,9 @@ Métricas e Indicadores são diferentes e surgem a partir de comportamentos dos 
 
 Algumas leituras e referências:
 
-- [Metrics Game Framework](https://hackernoon.com/metrics-game-framework-5e3dce1be8ac)
-- [Tavel's Framework](https://medium.com/@sarahtavel/the-hierarchy-of-engagement-expanded-648329d60804)
-- [Livro: Hooked](https://amzn.to/2SIQNNE)
-- [Don't Let Your North Star Metric Deceive You](https://www.reforge.com/blog/north-star-metric-growth)
-
+* [Metrics Game Framework](https://hackernoon.com/metrics-game-framework-5e3dce1be8ac)
+* [Tavel's Framework](https://medium.com/@sarahtavel/the-hierarchy-of-engagement-expanded-648329d60804)
+* [Livro: Hooked](https://amzn.to/2SIQNNE)
+* [Don't Let Your North Star Metric Deceive You](https://www.reforge.com/blog/north-star-metric-growth)
 
 <script async class="speakerdeck-embed" data-id="f06809734d59473a89a6e9fb02e982a3" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
