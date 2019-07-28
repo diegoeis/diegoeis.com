@@ -1,9 +1,10 @@
 ---
 type: post
 title: 'Métricas, indicadores e comportamento do usuário'
-excerpt: Minha palestra sobre como frameworks e maneiras de entender métricas e indicadores criadas pelo comportamento dos usuários.
+excerpt: >-
+  Minha palestra sobre como frameworks e maneiras de entender métricas e
+  indicadores criadas pelo comportamento dos usuários.
 date: '2019-07-29'
-draft: true
 publishdate: '2019-07-29 06:00'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
 tags:
@@ -85,7 +86,7 @@ Todos os produtos tem uma razão para existir. E todos os produtos tem funções
 
 Essas **core actions** são a base fundamental do seu produto e que sem essas ações, não faria muito sentido usar o produto. A junção do engajamento dessas ações, somado com a retenção dos usuários, formam uma receita indispensável para qualquer serviço digital.
 
-![](https://diegoeis.com/images/uploads/imetrics-indicators-user-behaviour/mg71-core-action-facebook-pinterest.png)
+![](https://diegoeis.com/images/uploads/imetrics-indicators-user-behaviour/img71-core-action-facebook-pinterest.png)
 
 Descobrir ou forjar as core actions do seu produto e entender como elas se comportam quando combinadas com a retenção do usuário, criam a **Hierarquia de Engajamento**, que o framework da Sarah Tavel ensina. 
 
