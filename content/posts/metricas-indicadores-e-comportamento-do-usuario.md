@@ -3,6 +3,7 @@ type: post
 title: 'Métricas, indicadores e comportamento do usuário'
 excerpt: Minha palestra sobre como frameworks e maneiras de entender métricas e indicadores criadas pelo comportamento dos usuários.
 date: '2019-07-29'
+draft: true
 publishdate: '2019-07-29 06:00'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
 tags:
