@@ -5,6 +5,7 @@ date: 2019-06-13
 image: https://i.imgur.com/UQqFJd1.jpg
 tags:
   - cotidiano e comportamento
+  - estoicisimo
   - saude
 ---
 

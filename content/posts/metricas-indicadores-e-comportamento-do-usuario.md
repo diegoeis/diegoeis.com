@@ -22,7 +22,7 @@ Uma das graças de se trabalhar com tecnologia e principalmente web, é que tudo
 
 Mas você sabe qual a diferença entre uma métrica e um indicador? Essa pergunta parece ser bastante básica, mas não é.
 
-Dicamos que o indicador é formado pela junção de métricas.
+Digamos que o indicador é formado pela junção de métricas.
 
 ![](https://diegoeis.com/images/uploads/metrics-indicators-user-behaviour/img1-diferenca-metrica-indicador.jpg)
 
