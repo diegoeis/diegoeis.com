@@ -16,18 +16,18 @@ Você pode ver os outros artigos dessa série aqui:
 
 - - -
 
-A ideia de monitorar seus dados, seja eles de saúde ou atividades diárias, serve para criar insights sobre suas atividades diárias e assim conseguir melhorar sua vida, saúde, suas tarefas e principalmente seu tempo. Acontece que geralmente esses dados ficam em serviços separados, isso dificulta muito fazer uma correlação desses dados.
+A ideia de monitorar seus dados, seja eles de saúde ou atividades diárias, serve para criar insights, com o objetivo de melhorar sua vida, saúde, suas tarefas e principalmente seu tempo. Acontece que geralmente esses dados ficam em serviços separados, isso dificulta muito fazer uma correlação desses dados.
 
 O [Exist.io](https://exist.io/?referred_by=diegoeis) faz esse trabalho para você, integrando com uma série de serviços e depois correlacionando os dados colhidos desses produtos, te dando insights de comportamento.
 
 ## O que é o Exist.io
 
 o [Exist.io](https://exist.io/?referred_by=diegoeis) é um sistema feito pela [Belle B. Cooper](http://bellebethcooper.com/) e [Josh Sharp](http://joshsharp.com.au/). Eles são programador e designer independentes. O valor é de [USD$6 por mês](https://exist.io/?referred_by=diegoeis). 
-Durante muito tempo, achei que o custo benefício não compensava. Por isso, deixei de usá-lo durante um tempo para que eles fizessem mais integrações e hoje tenho usando bastante.
+Durante muito tempo, achei que o custo benefício não compensava. Por isso, esperei para que eles fizessem mais integrações e hoje tenho usando bastante.
 
 ## Correlações e dashboard
 
-A ideia do Exist é fazer correlação de dados de vários serviços e depois correlacionar esses dados na tentativa de tirar insights para que você possa entender quais tarefas no seu dia a dia influenciam mais ou menos nos resultados. 
+A ideia do Exist é fazer correlação de dados de vários serviços e depois correlacionar esses dados na tentativa de tirar automaticamente  insights para que você possa entender quais tarefas no seu dia a dia influenciam mais ou menos nos resultados. 
 
 ![](https://diegoeis.com/images/uploads/screen-shot-2019-07-15-at-16.17.37.png)
 
