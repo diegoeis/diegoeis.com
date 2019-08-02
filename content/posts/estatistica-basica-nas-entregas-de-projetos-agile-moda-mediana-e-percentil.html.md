@@ -1,16 +1,16 @@
 ---
-title: Estatística básica nas entregas de projetos  agile - Moda, mediana e percentil
 type: post
-date: 2017-03-10
+title: 'Estatística básica nas entregas de projetos agile - Moda, mediana e percentil'
+excerpt: >-
+  Usando estatística básica para calcular performance dos times de
+  desenvolvimento
+date: 2017-03-10T00:00:00.000Z
+publishdate: '2017-03-09 21:00'
+image: 'https://i.imgur.com/ce2u7U7.jpg'
 tags:
-- agile
-- gestao e lideranca
+  - agile
+  - gestao e lideranca
 ---
-
-![](https://cdn-images-1.medium.com/max/1000/1*fieJwIgvONqnVLyPcEcw_A.jpeg)
-
-### Estatística básica nas entregas de projetos  agile — Moda, mediana e percentil
-
 Cada uma das metodologias de gestão de projetos tem suas próprias
 características de funcionamento e essência. Mas todas elas tentam responder uma
 grande pergunta que virou clichê faz milhares de anos: **quando o projeto será
