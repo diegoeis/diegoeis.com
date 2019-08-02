@@ -5,7 +5,7 @@ excerpt: >-
   Usando estatística básica para calcular performance dos times de
   desenvolvimento
 date: 2017-03-10T00:00:00.000Z
-publishdate: '2017-03-09 21:00'
+publishdate: '2019-08-02 16:09'
 image: 'https://i.imgur.com/ce2u7U7.jpg'
 tags:
   - agile
