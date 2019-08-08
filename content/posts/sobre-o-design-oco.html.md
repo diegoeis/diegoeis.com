@@ -1,16 +1,13 @@
 ---
 type: post
 title: Sobre o Design oco
-excerpt: 'Sobre aquele design ordinário, mas bonito.'
+excerpt: Um pouco sobre design ordinário e como arranjar argumentos.
 date: 2014-12-03T00:00:00.000Z
 publishdate: '2014-12-02 22:00'
 image: 'https://i.imgur.com/pY6sSos.png'
 tags:
   - design
 ---
-
-> _Um pouco sobre design ordinário e como arranjar argumentos._
-
 Quando construímos um padrão de interface para qualquer tipo de produto digital, é necessário que esse padrão se perpetue, caso contrário seu trabalho não valerá de nada. Esse padrão precisa ser protegido durante todo a produção do projeto, offline ou online, não importa. Para que essa perpetuidade seja real, você e sua equipe precisarão defender esse padrão e para defendê-lo você precisa de argumentos. É aí que o problema aparece.
 
 Não sei se você já tentou convencer alguém que o design e o trabalho de user experience são importantes. Eu já tentei algumas vezes e nenhuma das vezes foi agradável. O trabalho de design e da experiência do usuário são coisas intangíveis. Eu não consigo mostrar o quanto a mudança de design de um site aumentarão as vendas, antes desse design for publicado.
