@@ -3,7 +3,7 @@ type: post
 title: Sobre o Design oco
 excerpt: Um pouco sobre design ordinário e como arranjar argumentos.
 date: 2014-12-03T00:00:00.000Z
-publishdate: '2014-12-02 22:00'
+publishdate: '2019-08-08 15:56'
 image: 'https://i.imgur.com/pY6sSos.png'
 tags:
   - design
