@@ -1,9 +1,12 @@
 ---
-title: Sobre o Design oco
 type: post
-date: 2014-12-03
+title: Sobre o Design oco
+excerpt: 'Sobre aquele design ordinário, mas bonito.'
+date: 2014-12-03T00:00:00.000Z
+publishdate: '2014-12-02 22:00'
+image: 'https://i.imgur.com/pY6sSos.png'
 tags:
-- design
+  - design
 ---
 
 > _Um pouco sobre design ordinário e como arranjar argumentos._
@@ -38,15 +41,13 @@ Eu quero dar um exemplo claro usando ainda o Material Design do Google. Se você
 
 No Material Design existem três tipos de botões: o floating button, raised button e o flat button. No início parece que não é necessário ter tantos tipos de botões, mas se você pensar direito, há diversos cenários diferentes no ambiente mobile e também no desktop. Cada cenário tem um contexto diferente e que exige uma atenção maior ou menor para as ações.
 
-![O Material Design tem uma coleção de três tipos de botões, usados em contextos diferentes.](https://d262ilb51hltx0.cloudfront.net/freeze/max/30/1*Sr-SF9fNnqN4NpiLLhS7dw.png?q=20)
-
-</figure>
+![O Material Design tem uma coleção de três tipos de botões, usados em contextos diferentes.](https://d262ilb51hltx0.cloudfront.net/freeze/max/1000/1*Sr-SF9fNnqN4NpiLLhS7dw.png)
 
 Eles também tomaram cuidado para indicar a frequência de uso de cada tipo de botão, além dos lugares específicos onde cada tipo de botão é usado. Entenda que há ciência nisso aí! Se há um padrão, há organização. Se há organização o cérebro do usuário entende melhor as regras de uso, as restrições etc etc.
 
 A quantidade de elementos de um mesmo tipo também não será problema, já que há restrições de uso. Claro que você não vai adotar uma coleção de 10 botões… Nesse caso inteligência e bom senso precisam ser uma qualidade na sua equipe.
 
-![Quanto usar cada tipo de botão.](https://d262ilb51hltx0.cloudfront.net/freeze/max/30/1*OTAiElQYzG8F-SE6mXvP9w.png?q=20)
+![Quanto usar cada tipo de botão.](https://d262ilb51hltx0.cloudfront.net/freeze/max/1000/1*OTAiElQYzG8F-SE6mXvP9w.png)
 
 Quando há um motivo para cada elemento na tela, você ganha argumentos. Se você simplesmente coloca um elemento na tela porque achou que era tendência do mercado, você perde. Se você coloca porque achou bonitinho, você perde. Esse é o design oco, vazio, ordinário.
 
