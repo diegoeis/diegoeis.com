@@ -235,7 +235,7 @@ img {
   padding: 30px 0;
   max-width: 240px;
 }
-.eis-last-reads h2 a {display: inline-block !important;}
+
 .eis-last-reads .gr_grid_container {
   display: flex;
   flex-wrap: wrap;
@@ -353,13 +353,20 @@ img {
 
 .eis-tags-list a small {font-weight: 600}
 
-.eis-tags-list:before,
-.eis-last-reads h2 a {
+.eis-tags-list:before {
   content: "Tags: ";
-  font: 500 1rem var(--serif);
+}
+.eis-tags-list:before,
+.eis-home-sidebar h2 a {
+  font: 500 1rem var(--serif) !important;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
+}
+
+.eis-lastfm {
+  height: 180px;
+  overflow: hidden; 
 }
 
 /*************
