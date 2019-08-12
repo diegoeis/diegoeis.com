@@ -2,8 +2,8 @@
 type: post
 title: De bem comigo mesmo
 excerpt: Aprendendo a ser você mesmo
-date: '2019-08-12'
-publishdate: '2019-08-12 08:07'
+date: '2019-08-15'
+publishdate: '2019-08-15 08:07'
 image: 'https://i.imgur.com/2lVXN6Q.jpg'
 tags:
   - anotacoes
@@ -20,5 +20,7 @@ Vivemos em um mundo onde **se adequar ao “normal” é a regra**. Se as pessoa
 A partir do momento que você tem consciência das suas características que são mais expostas que outras, é obrigação sua trabalhar para controlar melhor essas características, sobretudo para aprender a usá-las corretamente em momentos específicos do dia a dia. As características menos expostas - que dizem que é o seu lado "mais fraco" - você deve conhece-las melhor para entender em quais ocasiões você deve se calar, se envolver ou não. 
 
 No meu caso: o L.A.B.E.L (que só pode ter uma devolutiva feita por uma psicologa (no meu caso a [Juliana](https://www.linkedin.com/in/julianarissardi/)) me mostrou que sou muito questionador (entre outras coisas que eu julgo que são características de um vilão, mas que não vem ao caso agora). Existem momentos em que dá muito certo questionar e estressar a situação para que novas ideias surjam, para que todos tenham clareza da real situação, para que você provoque as pessoas a fazerem melhor e mostre um lado que talvez ninguém tenha visto. Mas existem outras situações que ser questionador vai simplesmente desgraçar o momento, a mim e as pessoas. Sabendo que eu tenho esse viés, cabe a mim saber trabalhar isso nos momentos mais adequados, e nos momentos que não convém, eu posso simplesmente me calar.
+
+O resultado foi uma descrição profunda do meu perfil, numa "consulta" que durou mais ou menos uma hora. Foi aqui que fiquei feliz. Se fosse uns anos atrás, com certeza eu ficaria abalado e triste por não ter as características que acho mais atraentes, ou que eu gostaria de ter. O Diego que sou hoje, ficou satisfeito com o resultado. Pra você ter uma ideia, uma das palavras que me descreve é "Austero". Procura aí na interwebs o que significa essa palavra. 
 
 Saber que eu tenho um determinado perfil, me ajuda a me posicionar com vantagem à frente de momentos críticos. No fim de tudo, não existe bom ou ruim, existe você e o que você é. Conhecer a si mesmo é o que te leva a contemplação da sua própria vida, e da conscientização dos seus atos, parando de viver sob a regra e o conceito de vida de outros ou da sociedade. Você sai do automático e se torna você mesmo.
