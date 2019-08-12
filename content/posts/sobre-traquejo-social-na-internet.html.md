@@ -2,6 +2,7 @@
 title: Sobre traquejo social na internet
 type: post
 date: 2014-05-23
+image: https://i.imgur.com/FPbcx39.png
 tags:
   - cotidiano e comportamento
 ---

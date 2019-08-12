@@ -1,6 +1,7 @@
 ---
 title: Anotações sobre gestão agile
 type: post
+image: https://i.imgur.com/AwWEi2Q.png
 date: 2016-05-05
 tags:
 - anotacoes
