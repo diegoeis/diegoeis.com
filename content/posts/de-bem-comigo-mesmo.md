@@ -9,13 +9,11 @@ tags:
   - anotacoes
   - cotidiano e comportamento
 ---
-# De bem comigo mesmo
-
 Você já deve ter feito algumas avaliações de perfil ao longo da sua carreira. A mais famosinha é o DISC. A primeira vez que fiz o DISC e recebi o resultado, minha cabeça explodiu. Não conseguia entender como um negócio daquele conseguia dar uma descrição quase que perfeita do meu perfil comportamental depois de responder algumas perguntas.
 
 Quase sempre a devolutiva precisa ser feita por alguém que consiga interpretar os resultados para passar os resultados para você de forma traduzida. Normalmente quem se submeteu a qualquer teste desse, se apega apenas às características que ela não tem, em vez de focar nas suas características naturais. Existe a ilusão de que agora que você tem consciência do que é "ruim" em você, é possível modificar só essa parte "quebrada" e se transformar numa super mulher ou um num super homem. Ilusão. E burrice também. Burrice porque na verdade você não deve (ou não devem fazer você) se focar nas suas fraquezas, mas nas suas forças. A ideia de um perfil desse deveria (e na verdade é), fazer você ter consciência no que você é bom, e não te dar um tapa na cara dizendo que você tem que morrer tentando modificar os pontos que (dizem que) você é ruim.
 
-Vivemos em um mundo onde se adequar ao “normal” é a regra. Se as pessoas não gostam de pessoas críticas, então você precisa ser mais passivo. Se não gostam de ser questionadas, então você tem que concordar mais. Assim como Byung-Chul Han diz no livro [Sociedade do Cansaço](https://diegoeis.com/sociedade-do-cansaco-livro-byung-chul-han/): “A sociedade do século XXI não é mais a sociedade disciplinar, mas uma sociedade de desempenho.“ E o conceito de desempenho não é linear, padronizado ou uniforme, mas diferente dependendo do fórum que você frequenta. E, claro, você não frequenta apenas um tipo de ambiente. E é aí que as pessoas entram em parafuso, tentando se adaptar cada cenário. 
+Vivemos em um mundo onde se adequar ao “normal” é a regra. Se as pessoas não gostam de pessoas críticas, então você precisa ser mais passivo. Se não gostam de ser questionadas, então você tem que concordar mais. Assim como Byung-Chul Han diz no livro [Sociedade do Cansaço](https://amzn.to/2YVvwSp): “A sociedade do século XXI não é mais a sociedade disciplinar, mas uma sociedade de desempenho.“ E o conceito de desempenho não é linear, padronizado ou uniforme, mas diferente dependendo do fórum que você frequenta. E, claro, você não frequenta apenas um tipo de ambiente. E é aí que as pessoas entram em parafuso, tentando se adaptar cada cenário. 
 
 É ignorância pensar que você precisa se adequar a ser alguém que você não é. Eu comecei a entender, que se sentir inadequado é só um reflexo da qualidade de opinião que você tem sobre você mesmo. Quando há uma adequação forçada, todo tipo de síndrome, depressões e stress aparecem. Alcançar a liberdade é ter consciência de quem e como você é.
 
