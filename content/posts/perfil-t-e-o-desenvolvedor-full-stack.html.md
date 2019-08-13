@@ -1,10 +1,13 @@
 ---
-title: Perfil T e o Desenvolvedor Full Stack
 type: post
-date: 2015-11-21
+title: Perfil T e o Desenvolvedor Full Stack
+excerpt: Sobre uma espécie rara
+date: 2015-11-21T00:00:00.000Z
+publishdate: '2015-11-20 22:00'
+image: 'https://imgur.com/AF81IR0.png'
 tags:
-- desenvolvimento web
-- agile
+  - desenvolvimento web
+  - agile
 ---
 
 A Valve é uma das maiores empresas de games do mercado. Na verdade, como eles mesmos dizem, eles não são apenas uma empresa de games:
