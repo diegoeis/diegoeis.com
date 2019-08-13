@@ -3,7 +3,7 @@ type: post
 title: Um pequeno estudo sobre a Microsoft - 2016
 excerpt: Um case que usei em uma entrevista de emprego
 date: 2016-12-31T00:00:00.000Z
-publishdate: '2016-12-30 22:00'
+publishdate: '2016-12-30 23:15'
 image: 'https://i.imgur.com/ZHb2c7G.png'
 tags:
   - tecnologia
