@@ -3,7 +3,7 @@ type: post
 title: Aprendendo a ser eu mesmo
 excerpt: Ficando de bem com a minha essência e minha personalidade nata.
 date: '2019-08-12'
-publishdate: '2019-08-12 08:07'
+publishdate: '2019-08-12 06:07'
 image: 'https://i.imgur.com/2lVXN6Q.jpg'
 tags:
   - anotacoes
