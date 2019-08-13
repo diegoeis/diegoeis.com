@@ -3,7 +3,7 @@ type: post
 title: Ian Ritchie - o cara que se recusou a fazer o primeiro browser do mundo
 excerpt: Ele simplesmente disse não ao Tim Berners-Lee
 date: 2016-07-31T00:00:00.000Z
-publishdate: '2016-07-30 21:00'
+publishdate: '2016-07-30 23:20'
 image: 'https://i.imgur.com/NLLbT19.png'
 tags:
   - desenvolvimento web
