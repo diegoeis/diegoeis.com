@@ -1,6 +1,6 @@
 ---
 type: post
-title: Meu de 2019 ano em dados
+title: Meu ano de 2019 em dados
 excerpt: Alguns números captados sobre minhas atividades
 date: '2019-08-29'
 publishdate: '2019-08-29 03:15'
