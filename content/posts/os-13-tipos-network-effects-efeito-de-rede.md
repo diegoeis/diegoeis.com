@@ -1,25 +1,26 @@
 ---
-title: Os 13 tipos de Network Effects
-excerpt: Entenda os tipos de efeito de rede e identifique em qual categoria seu produto se encaixa.
 type: post
-image: https://i.imgur.com/GAAARwj.jpg
-date: '2019-09-11'
-publishdate: '2019-09-11 06:53'
+title: Os 13 tipos de Network Effects
+excerpt: >-
+  Entenda os tipos de efeito de rede e identifique em qual categoria seu produto
+  se encaixa.
+date: '2019-09-17'
+publishdate: '2019-09-17 06:53'
+image: 'https://i.imgur.com/AwWEi2Q.png'
 tags:
-- product-management
+  - product-management
 ---
-
 Você já deve ter estudado sobre Efeito de Rede. É uma característica bastante comum em várias startups e empresas de grande porte em todo o mundo. Uma estratégia usada para defender mercado e também para amplificar o poder de growth das empresas.
 
-Ter Efeito de Rede significa que a empresa usou os princípios de rede para criar um produto como uma plataforma. Como a regra do Efeito de Rede manda, o valor (valor de uso para o usuário, valor de mercado, valor intrínseco) do seu produto é amplificado conforme aumentamos a quantidade de usuários e também outras pontas importantes na a rede de serviços como fornecedores ou outros serviços.
+Ter Efeito de Rede significa que a empresa usou os princípios de rede para criar um produto como uma plataforma, e não apenas como uma ponta solta no mercado. Com o Efeito de Rede, valor (valor de uso para o usuário, valor de mercado, valor intrínseco) do seu produto é amplificado conforme aumentamos usuários e outras pontas importantes na a rede de serviços como fornecedores e também outros serviços.
 
 ## Por que o Network Effect é importante
 
 Ter um produto que promove o efeito de rede é importante por causa da defesa que se cria de marca e também de escala, onde a rede faz com que o serviço ganhe muito rápido espaço no mercado.
 
-Outro ponto importante é a criação de valor, não apenas para o usuário, mas para o mercado e também outros serviços. Conforme usuários ou serviços se acoplam à sua rede, sua plataforma entrega mais valor ou potencializa a entrega de valor desses parceiros.
+Outro ponto importante é a criação de valor, não apenas para o usuário, mas para o mercado e também outros serviços. Conforme usuários ou serviços se acoplam à sua rede, sua plataforma entrega mais valor ou potencializa a entrega de valor desses parceiros para o mercado.
 
-Existe uma teoria chamada de Lei de Metcalfe, onde ele afirma que o valor de uma rede é proporcional ao quadrado de número de usuários. Se você quiser saber um pouco mais sobre isso, leia [Network Effects, Lei de Metcalfe e produtos digitais](https://diegoeis.com/network-effects-lei-de-metcalfe-e-produtos-digitais/).
+Existe uma teoria chamada de Lei de Metcalfe, onde ele afirma que o valor de uma rede é proporcional ao quadrado de número de usuários. Se você quiser saber um pouco mais sobre isso, leia [Network Effect, Lei de Metcalfe e produtos digitais](https://diegoeis.com/network-effects-lei-de-metcalfe-e-produtos-digitais/).
 
 [Este estudo](https://www.researchgate.net/publication/273895436_Tencent_and_Facebook_Data_Validate_Metcalfe's_Law) é bem interessante que tenta validar a Lei de Metcalfe no Facebook e na Tencent. Eles aplicam a fórmula do Metcalfe e tem um resultado interessante.
 
@@ -47,9 +48,9 @@ Os 13 formatos de rede são divididos em 5 categorias:
 Os 13 formatos são:
 
 1. **Física.** São Efeitos de Rede formados por pontos físicos ou conexões físicas (internet com fibra, exemplo). Exemplo: linhas telefônicas;
-2. **Protocolo.** Quando um padrão de protocolo de comunicação ou transferência surge e todas as pontas da rede usam esse protocolo. Exemplo: Bitcoin, Ethenert, Bittorrent;
+2. **Protocolo.** Quando um padrão de protocolo de comunicação ou transferência surge e todas as pontas da rede usam esse protocolo. Exemplo: Bitcoin, Ethernet, BitTorrent;
 3. **Utilidade Pessoal.** Quando uma rede é usada para se comunicar e interagir na vida pessoal, logo, se você não fizer parte dessa rede, você perderá oportunidades de conversar com família, amigos, próximos. Ex: WhatsApp, Telegram, ICQ;
-4. **Pessoal.** Quando a sua reputação e identidade está atrelada ao serviço/produto. Se pessoas que você conhece na vida real, estão usando um produto para guardar suas informações pessoas ou até reputação, você se sente impelido a usar também. Ex: Facebook, Linkedin
+4. **Pessoal.** Quando a sua reputação e identidade está atrelada ao serviço/produto. Se pessoas que você conhece na vida real, estão usando um produto para guardar suas informações pessoas ou até reputação, você se sente impelido a usar também. Ex: Facebook, LinkedIn;
 5. **Market Network.** Combina de identidade e aspectos de comunicação pessoal com foco em transações, trazendo profissionais ou serviços do offline para online. Ex: GetNinjas, HoneyBook, AngelList;
 6. **Marketplace.** Dois lados que se complementam: vendedores e compradores, escritores e leitores. É o efeito de rede básico de dois lados. Ex: Medium, Google, Mercado Livre, Magazine Luiza, Amazon;
 7. **Plataforma de Tecnologia.** Muito parecido com o Marketplace, por se tratar de uma rede de dois lados, mas aqui é mais pro lado de tecnologia. Quando há uma plataforma que liga os usuários com os desenvolvedores, gerando valor nessa rede. Ex: Nintendo, Android, Windows, iOS;
