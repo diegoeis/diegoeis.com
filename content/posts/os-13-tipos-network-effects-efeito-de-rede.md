@@ -4,8 +4,8 @@ title: Os 13 tipos de Network Effects
 excerpt: >-
   Entenda os tipos de efeito de rede e identifique em qual categoria seu produto
   se encaixa.
-date: '2019-09-17'
-publishdate: '2019-09-17 06:53'
+date: '2019-09-11'
+publishdate: '2019-09-11 06:53'
 image: 'https://i.imgur.com/AwWEi2Q.png'
 tags:
   - product-management
