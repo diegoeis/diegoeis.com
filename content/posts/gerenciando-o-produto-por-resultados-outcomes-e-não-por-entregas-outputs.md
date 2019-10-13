@@ -8,6 +8,7 @@ image: 'https://i.imgur.com/aLKQUnO.jpg'
 tags:
   - gestao e lideranca
   - product management
+  - pmletter
 ---
 É muito comum encontrar Product Managers que raciocinam da seguinte maneira: o usuário tem um problema, então, faço uma funcionalidade/melhoria/mudança e resolvo o problema.
 
@@ -65,7 +66,7 @@ Um dos principais problemas de liderarmos nossos produtos por meio de outcomes �
 
 ![Ciclo da confiança explicado no próximo parágrafo.](https://diegoeis.com/images/uploads/ciclo.png)
 
-Essa desconfiança faz com que crie-se um ambiente onde stakeholders e a liderança faça microgerenciamento dos outputs (entregas). Que por sua vez faz o time se afastar cada vez mais do principal objetivo que é entregar outcomes (resultados). Que faz os gestores e liderança terem ainda menos confiança. 
+Essa desconfiança cria um ambiente onde stakeholders e a liderança faça microgerenciamento dos outputs (entregas). Que por sua vez faz o time se afastar cada vez mais do principal objetivo que é entregar outcomes (resultados). Que faz os gestores e liderança terem ainda menos confiança. 
 
 Esse é um problema importante que só pode ser resolvido com uma mudança de cultura, comportamento da liderança e também dos times, todos agindo em conjunto e não de modo individual.
 
