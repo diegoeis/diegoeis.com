@@ -9,6 +9,7 @@ publishdate: '2019-09-11 06:53'
 image: 'https://i.imgur.com/AwWEi2Q.png'
 tags:
   - product-management
+  - pmletter
 ---
 Você já deve ter estudado sobre Efeito de Rede. É uma característica bastante comum em várias startups e empresas de grande porte em todo o mundo. Uma estratégia usada para defender mercado e também para amplificar o poder de growth das empresas.
 
