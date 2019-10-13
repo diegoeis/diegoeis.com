@@ -45,7 +45,7 @@ Isso é muito mais fácil dizer do que fazer. Se o seu time faz isso sozinho, te
 
 O trabalho do Product Manager nesse ponto é instigar a liderança a definir e criar alinhamento sobre os objetivos que precisam ser atingidos. O time então expõe quais as oportunidades que podem ser exploradas que tem mais chances  de dar um bom resultado.
 
-![correto pensar em indicadores de produto, depois problema, depois funcionalidade, que gera mudança de comportamento do usuário, que muda indicadores de produto, que muda o negócio](/images/uploads/correto.png)
+[![correto pensar em indicadores de produto, depois problema, depois funcionalidade, que gera mudança de comportamento do usuário, que muda indicadores de produto, que muda o negócio](https://diegoeis.com/images/uploads/correto.png)](https://diegoeis.com/images/uploads/correto.png)
 
 A ideia é que você trabalhe para modificar resultados, e não meça sua performance por entregas de funcionalidades. Quando uma empresa trabalha com qualquer framework que coloque objetivos e resultados em primeiro lugar - como por exemplo OKRs - definir, medir e monitorar o que será feito fica bem mais fácil e inteligente.
 
