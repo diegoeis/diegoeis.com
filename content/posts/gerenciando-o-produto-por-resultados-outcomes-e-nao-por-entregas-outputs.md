@@ -38,7 +38,7 @@ Gerenciar um produto por resultados é direcionar a empresa e o time para alcan�
 
 Os outcomes são definidos por indicadores mensuráveis pelo time, que é importante para o usuário ao mesmo tempo que para o negócio.
 
-> É melhor investir mais tempo no Upstream do processo, para conhecer mais o problema, entendendo seus meandros e motivos, para depois avançar para uma solução.
+> É melhor investir mais tempo no Upstream do processo, para conhecer mais o problema, entendendo seus meandros e motivos, para depois avançar para uma solução. -- [compartilhe no twitter](https://ctt.ac/Tc8ux)
 
 Isso é muito mais fácil dizer do que fazer. Se o seu time faz isso sozinho, tem grandes chances de fracassar ou ter entraves bem grandes. O correto é que a empresa tenha um alinhamento claro e transparente sobre os objetivos que precisam ser alcançados. Dessa forma o time pode decidir como impactar o usuário para alcançar os objetivos globais.
 
