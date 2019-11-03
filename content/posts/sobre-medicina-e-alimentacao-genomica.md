@@ -5,7 +5,8 @@ description: >-
   seus resultados no genoma humano.
 date: '2014-04-15T15:43:49.868Z'
 tags:
-- saúde
+- cotidiano e comportamento
+- anotacoes
 ---
 
 Assisti uma palestra há algum tempo atrás do médico Dr. Jea Myung Yoo. Essas são as minhas anotações dos quatro dias de palestras.

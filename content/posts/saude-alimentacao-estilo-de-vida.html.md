@@ -3,7 +3,7 @@ title: O pensamento de um leigo sobre alimentação, saúde e medicina
 type: post
 date: 2015-02-21
 tags:
-- saude
+- cotidiano e comportamento
 ---
 
 > Perseverar nos maus hábitos por falta de domínio próprio, é o caminho correto para uma vida sem saúde e infelicidade.
