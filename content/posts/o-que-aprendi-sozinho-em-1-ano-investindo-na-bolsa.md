@@ -8,13 +8,10 @@ date: '2019-11-05'
 publishdate: '2019-11-05 21:02'
 image: 'https://diegoeis.com/images/uploads/acoes-dividendos.jpg'
 tags:
-  - >-
-    desenvolvimento web, gestao e lideranca, product management, agile,
-    anotacoes, tecnologia, design, livros e leitura, produtividade e dados
-    pessoais, saude, carreira, cotidiano e comportamento, fintech, investimento
-    e dinheiro, palestras, estoicismo
+  - produtividade e dados pessoais
+  - investimento e dinheiro
 ---
-Já faz uns anos que eu invisto. Mas como boa parte da população, minha carteira era basicamente composta por Renda Fixa, com exceção de alguma posição em FIA como o Alaska e AZ Quest, que já dão uma boa exposição na Bolsa.
+Já faz uns anos que eu invisto. Mas como muita gente, minha carteira era basicamente composta por Renda Fixa, com exceção de alguma posição em FIA me expondo em fundos como o Alaska e AZ Quest.
 
 Contudo, de um ano para cá, resolvi me aventurar em investir por conta própria na Bolsa e aplicar aquilo que eu já estava lendo durante muito tempo. Abaixo, seguem algumas dicas depois desse período de aprendizado. Minha carteira começou a ficar estável e positiva de seis meses pra cá. Ao final, segue uns prints das minhas posições.
 
@@ -30,7 +27,7 @@ Contudo, de um ano para cá, resolvi me aventurar em investir por conta própria
 10. Esteja pronto pra ver tudo vermelho em dias ruins. Foque-se no longo prazo. Se você se foca no longo prazo e já está fazendo um acompanhamento organico das empresas que tem em carteira, você nem precisa ficar entrando todos os dias pra ver o status da carteira.
 11. Comece com pouco. Não importa o valor. Importa perder o receio, o medo, a falta de conhecimento... todos os dias você pode ler e aprender mais sobre as empresas que mais gosta e aí começar a investir devagar. Eu recomendo investir em ETFs. Depois, conforme você vai perdendo o medo inicial e começa a ler mais sobre as empresas de sua preferencia (sugiro que invista em empresas do ramo da sua profissão ou próximo disso), aí você pode começar a escolher empresas individuais para aportar;
 12. Não tenha uma centena de papéis. Não tem um número correto. Já vi gente com 2 papéis outros com 25. Eu prefir ter o suficiente que eu consiga acompanhar no dia a dia de forma orgânica. 
-13. Siga sua estratégia aconteça o que acontecer. Depois de um tempo, quanto mais conhecimento adquirido, você consegue formar uma linha de raciocínio e uma estratégia própria. Atenha-se a ela. Mudar de ideia muitas vezes é pedir pra negativar. Isso não quer dizer que você não possa adaptar sua estratégia ao cenário atual;
+13. Siga sua estratégia aconteça o que acontecer. Depois de um tempo, quanto mais conhecimento adquirido, você consegue formar uma linha de raciocínio e uma estratégia própria. Atenha-se a ela. Mudar de ideia muitas vezes é pedir pra negativar. Isso não quer dizer que você não possa adaptar sua estratégia ao cenário atual. Eu tenho duas carteiras: uma carteira baseada em ações de valor e dividendos e ações de aposta (ex. ELET3 por causa da capitalização/privatização) e outra baseada em FIIs, por causa de dividendos;
 14. Mas mesmo seguindo uma estratégia, tenha flexibilidade para mudar e se adaptar. Não se apegue aos papéis. Se apegue ao momento e ao objetivo final. 
 15. Use ferramentas pra entender se você está indo bem. Eu uso as planilhas do [Douglas Lombello](https://www.dlombelloplanilhas.com/) e [outros serviços que você pode ver aqui](https://investidor.netlify.com), fazendo uma [gestão básica de portfolio no Yahoo! Finance](https://finance.yahoo.com/) e usando o [Meus Dividendos](meusdividendos.com) para fazer um acompanhamento dos proventos a receber;
 16. Cuidado para não ter overload de informações. Seguir muitos investidores no twitter, ouvir podcasts, ler artigos, ouvir pessoas próximas pode influenciar negativamente suas decisões. Atenha-se à sua estratégia e absorva tudo o que pode ser benéfico para ela;
