@@ -8,11 +8,8 @@ date: '2019-11-05'
 publishdate: '2019-11-05 21:02'
 image: 'https://diegoeis.com/images/uploads/acoes-dividendos.jpg'
 tags:
-  - >-
-    desenvolvimento web, gestao e lideranca, product management, agile,
-    anotacoes, tecnologia, design, livros e leitura, produtividade e dados
-    pessoais, saude, carreira, cotidiano e comportamento, fintech, investimento
-    e dinheiro, palestras, estoicismo
+  - produtividade e dados pessoais
+  - investimento e dinheiro
 ---
 Já faz uns anos que eu invisto. Mas como boa parte da população, minha carteira era basicamente composta por Renda Fixa, com exceção de alguma posição em FIA como o Alaska e AZ Quest, que já dão uma boa exposição na Bolsa.
 
