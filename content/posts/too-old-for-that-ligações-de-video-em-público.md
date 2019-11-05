@@ -2,8 +2,8 @@
 type: post
 title: 'Too old for that: ligações de video em público'
 excerpt: Estou muito velho para fazer ligações de vídeo em público
-date: '2019-07-15'
-publishdate: '2019-07-15 16:08'
+date: '2019-11-05'
+publishdate: '2019-11-05 00:00'
 image: 'https://i.imgur.com/xD97thu.png'
 tags:
   - cotidiano e comportamento
