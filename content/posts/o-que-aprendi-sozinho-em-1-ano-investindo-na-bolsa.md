@@ -11,7 +11,7 @@ tags:
   - produtividade e dados pessoais
   - investimento e dinheiro
 ---
-Já faz uns anos que eu invisto. Mas como boa parte da população, minha carteira era basicamente composta por Renda Fixa, com exceção de alguma posição em FIA como o Alaska e AZ Quest, que já dão uma boa exposição na Bolsa.
+Já faz uns anos que eu invisto. Mas como muita gente, minha carteira era basicamente composta por Renda Fixa, com exceção de alguma posição em FIA me expondo em fundos como o Alaska e AZ Quest.
 
 Contudo, de um ano para cá, resolvi me aventurar em investir por conta própria na Bolsa e aplicar aquilo que eu já estava lendo durante muito tempo. Abaixo, seguem algumas dicas depois desse período de aprendizado. Minha carteira começou a ficar estável e positiva de seis meses pra cá. Ao final, segue uns prints das minhas posições.
 
