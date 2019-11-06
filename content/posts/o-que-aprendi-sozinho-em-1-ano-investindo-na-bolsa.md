@@ -6,7 +6,7 @@ excerpt: >-
   Bolsa.
 date: '2019-11-05'
 publishdate: '2019-11-05 21:02'
-image: 'https://diegoeis.com/images/uploads/acoes-dividendos.jpg'
+image: 'https://diegoeis.com/images/uploads/money.jpg'
 tags:
   - produtividade e dados pessoais
   - investimento e dinheiro
