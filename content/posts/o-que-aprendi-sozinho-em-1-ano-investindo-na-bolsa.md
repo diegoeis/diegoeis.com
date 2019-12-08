@@ -1,6 +1,6 @@
 ---
 type: post
-title: O que aprendi em 1 ano investindo sozinho na Bolsa
+title: O que aprendi investindo sozinho na Bolsa
 excerpt: >-
   Alguns aprendizados que tive quando comecei a investir sozinho em ações na
   Bolsa.

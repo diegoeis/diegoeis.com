@@ -12,6 +12,7 @@ tags:
   - fintech
   - Investimento e Dinheiro
 ---
+
 Ou o que - na minha opinião - os bancos digitais, bancos tradicionais e outras fintechs deveriam estar se focando agora.
 
 ---
