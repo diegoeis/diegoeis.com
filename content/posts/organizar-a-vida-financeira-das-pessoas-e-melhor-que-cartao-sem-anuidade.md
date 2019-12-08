@@ -12,6 +12,10 @@ tags:
   - fintech
   - Investimento e Dinheiro
 ---
+Ou o que - na minha opinião - os bancos digitais, bancos tradicionais e outras fintechs deveriam estar se focando agora.
+
+---
+
 No final de 2016, a OCDE (Organização para a Cooperação e o Desenvolvimento Econômico) fez uma pesquisa com o objetivo medir o nível de competência da população adulta sobre temas que envolvem educação financeira, **e o Brasil apareceu na 27ª posição de 30**.
 
 A medição do nível de letramento financeiro foi feita através de 21 perguntas, em três áreas: conhecimento, comportamento e atitude financeira.
