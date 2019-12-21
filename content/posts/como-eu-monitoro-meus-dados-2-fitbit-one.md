@@ -9,11 +9,13 @@ tags:
   - saude
   - Produtividade e Dados pessoais
 ---
+
 Você pode ver os outros dois artigos da série aqui:
 
-- [Como eu monitoro meus dados #1 — Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
-- [Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
-
+* [Como eu monitoro meus dados #1 — Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
+* [Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
+* [Como eu monitoro meus dados #4 — Exist.io](https://diegoeis.com/como-monitoro-meus-dados-4-exist-io/)
+* [Como eu monitoro meus dados #5 — BabyTime](https://diegoeis.com/como-monitoro-meus-dados-babytime/)
 ---
 
 _**UPDATE 2019**: Eu não uso mais o Fitbit One. Embora não goste de nada de nenhum gadget de pulso, acabei migrando para o Xiaomi Band (hoje, versão 4). Farei um post logo menos sobre como está sendo a experiência._

@@ -130,7 +130,7 @@ aos aspectos intangíveis.
 > Customers do not buy goods or services: [T]hey buy offerings which render services which create value…. The traditional division between goods and services is long outdated. It is not a matter of redefining services and seeing them from a customer perspective; activities render services, things render services. The shift in focus to services is a shift from the means and the
 producer perspective to the utilization and the customer perspective. — Gummesson, (1995, p. 250–51)
 
-O Service Logic Dominant propõe que a forma de trabalhar deve ser mais
+O Service Dominant Logic propõe que a forma de trabalhar deve ser mais
 abrangente, integrando produtos com serviços, fornecendo uma estrutura mais
 interessante para o desenvolvimento tanto das empresas e dos clientes, mas
 também do marketing em si.
@@ -176,7 +176,7 @@ experiência é o que imaginamos como Serviço no S-D Logic. A Apple não teve o
 um hardware ou um software, ela fornece um serviço, e seus produtos são um meio
 para que você usufrua desse serviço.
 
-Os **pontos que tocam o Service Logic Dominant** seriam:
+Os **pontos que tocam o Service Dominant Logic** seriam:
 
 1.  A empresa deve identificar ou desenvolver competências, conhecimento fundamento
 e skills de uma entidade econômica que representa como vantagem potencial

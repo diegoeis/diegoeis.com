@@ -11,8 +11,10 @@ tags:
 ---
 Você pode ver os outros dois artigos da série aqui:
 
-- [Como eu monitoro meus dados #2 — Fitbit One](https://diegoeis.com/como-eu-monitoro-meus-dados-2-fitbit-one/)
-- [Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
+* [Como eu monitoro meus dados #2 — Fitbit One](https://diegoeis.com/como-eu-monitoro-meus-dados-2-fitbit-one/)
+* [Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
+* [Como eu monitoro meus dados #4 — Exist.io](https://diegoeis.com/como-monitoro-meus-dados-4-exist-io/)
+* [Como eu monitoro meus dados #5 — BabyTime](https://diegoeis.com/como-monitoro-meus-dados-babytime/)
 
 ---
 

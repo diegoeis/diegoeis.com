@@ -8,6 +8,16 @@ image: 'https://diegoeis.com/images/uploads/1_gmydwec7eq1nqji8fqkytg.jpeg'
 tags:
   - Produtividade e Dados pessoais
 ---
+
+Você pode ver os outros artigos dessa série aqui:
+
+* [Como eu monitoro meus dados #1 — Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
+* [Como eu monitoro meus dados #2 — Fitbit One](https://diegoeis.com/como-eu-monitoro-meus-dados-2-fitbit-one/)
+* [Como eu monitoro meus dados #4 — Exist.io](https://diegoeis.com/como-monitoro-meus-dados-4-exist-io/)
+* [Como eu monitoro meus dados #5 — BabyTime](https://diegoeis.com/como-monitoro-meus-dados-babytime/)
+
+---
+
 Embora eu não seja um bom jogador de Hearthstone (diegoeis#1998), eu gosto de fazer track de todos os dados das minhas atividades. Entenda por atividade, qualquer coisa que eu venha a fazer no meu dia a dia. Eu já escrevi alguns artigos sobre isso. Com jogos não é diferente. O Hearthstone fornece meios para que os interessados possam se plugar e sugar os dados que são gerados no jogo.
 
 Essas são os servicinhos que eu uso para fazer track dos meus jogos:

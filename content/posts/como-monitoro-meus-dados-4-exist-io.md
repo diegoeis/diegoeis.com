@@ -13,6 +13,7 @@ Você pode ver os outros artigos dessa série aqui:
 * [Como eu monitoro meus dados #1 — Life Cycle](https://diegoeis.com/como-eu-monitoro-meus-dados-1-app-life-cycle/)
 * [Como eu monitoro meus dados #2 — Fitbit One](https://diegoeis.com/como-eu-monitoro-meus-dados-2-fitbit-one/)
 * [Como eu monitoro meus dados #3 — Hearthstone](https://diegoeis.com/como-eu-monitoro-meus-dados-3-hearthstone/)
+* [Como eu monitoro meus dados #5 — BabyTime](https://diegoeis.com/como-monitoro-meus-dados-babytime/)
 
 - - -
 
