@@ -8,13 +8,14 @@ tags:
 - livros e leitura
 ---
 
-Veja também o que eu li em
-[2016](http://diegoeis.com/meu-ano-em-livros-2016) e
-[2018](http://diegoeis.com/meu-ano-em-livros-2018/).
 
-----
+Veja também o que eu li nos outros anos:
 
-# Meu ano em livros — 2017
+- [2016](https://diegoeis.com/meu-ano-em-livros-2016/);
+- [2017](https://diegoeis.com/meu-ano-em-livros-2017/);
+- [2018](https://diegoeis.com/meu-ano-em-livros-2018/);
+
+---
 
 Esse ano eu quis ser um pouco conservador dado que eu já sabia que iria ser um
 ano corrido. Por isso, diminui um pouco a meta do [ano passado de

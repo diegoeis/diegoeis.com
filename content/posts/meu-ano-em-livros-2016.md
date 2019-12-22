@@ -7,6 +7,15 @@ tags:
   - livros e leitura
 ---
 
+
+Veja também o que eu li nos outros anos:
+
+- [2016](https://diegoeis.com/meu-ano-em-livros-2016/);
+- [2017](https://diegoeis.com/meu-ano-em-livros-2017/);
+- [2018](https://diegoeis.com/meu-ano-em-livros-2018/);
+
+---
+
 Eu nunca li tanto quanto esse último ano de 2016. Eu sempre li muito, mas nada tão sistemático… sempre muito casual e se resumia a livros técnicos ou livros sobre religião. [Esse ano eu decidi andar menos de carro e usar mais o transporte público para ir ao trabalho](https://diegoeis.com/um-pouco-sobre-a-experiencia-de-ir-trabalhar-sem-carro.html). Essa atitude me fez ganhar duas horas por dia e claro, preenchi com livros.
 
 Pensei em ler 12 livros. Logo, calculei minha preguiça, mais problemas e imprevistos… esse número diminuiu pra 9. Uma meta ultra conservadora.

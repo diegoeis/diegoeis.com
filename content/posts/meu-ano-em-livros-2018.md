@@ -8,11 +8,13 @@ tags:
 - livros e leitura
 ---
 
-Veja também o que eu li em
-[2016](https://medium.com/@diegoeis/meu-ano-em-livros-ecb8ce9c9e53) e
-[2017](https://medium.com/@diegoeis/meu-ano-em-livros-2017-2b3cedadfcd1).
+Veja também o que eu li nos outros anos:
 
-----
+- [2016](https://diegoeis.com/meu-ano-em-livros-2016/);
+- [2017](https://diegoeis.com/meu-ano-em-livros-2017/);
+- [2018](https://diegoeis.com/meu-ano-em-livros-2018/);
+
+---
 
 Esse ano tive uma meta mais conservadora de 25 livros e li ao todo 27. Não chega
 nem perto de algumas pessoas que conheço que leem mais de 100 livros. Contudo,
