@@ -1,26 +1,33 @@
 ---
-title: Meu ano em livros — 2019
 type: post
-date: 2019-12-22
+title: 'Meu ano em livros — 2019'
+excerpt: O que eu li durante o ano de 2019 e alguns dados
+date: '2019-12-22'
+publishdate: '2019-12-22'
 image: https://diegoeis.com/images/uploads/ano-em-livros-2019/meus-livros.jpg
 tags:
-- Produtividade e Dados pessoais
-- livros e leitura
+  - Produtividade e Dados Pessoais
+  - livros e leitura
 ---
 
-Veja também o que eu li nos outros anos:
+Veja também o que eu li nos anos anteriores:
 
-- [2016](https://diegoeis.com/meu-ano-em-livros-2016/);
-- [2017](https://diegoeis.com/meu-ano-em-livros-2017/);
-- [2018](https://diegoeis.com/meu-ano-em-livros-2018/);
+- [Meu ano em livros - 2016](https://diegoeis.com/meu-ano-em-livros-2016/);
+- [Meu ano em livros - 2017](https://diegoeis.com/meu-ano-em-livros-2017/);
+- [Meu ano em livros - 2018](https://diegoeis.com/meu-ano-em-livros-2018/);
 
 ---
 
 Esse foi meu primeiro ano como pai. Em Janeiro, já sabendo que meu filho iria nascer em Maio, decidi colocar uma meta muito, mas muito baixa de 10 livros. Achei que não teria tempo de ler tanto quanto antes e por isso resolvi jogar uma meta que talvez eu cumpriria com a loucura de cuidar de um recém nascido, rotina maluca e tudo mais. Mas acho que superestimei o trabalho que ia dar. No final das contas, fechei meu ano com **33 livros lidos**. 
 
-Logo nos primeiros meses eu adiantei bastante a leitura, com medo do improvável... Aí depois que ele nasceu, consegui me adaptar às rotinas de colocar ele pra dormir, ouvindo os livros em TTS como sempre fiz, o que adiantou bastante o fluxo.
+Logo nos primeiros meses eu adiantei bastante a leitura, com medo do improvável... Aí depois que ele nasceu, consegui me adaptar com a rotina de colocar ele pra dormir, ouvindo os livros em TTS como sempre fiz, o que adiantou bastante o fluxo.
 
-Foram 6,634 páginas (ano passado foram 5.862) de 33 livros. Ao contrário do ano passado, não houve um predileto. Eu gostei de vários livros de formas diferentes, os 3 que mais gostei foram:
+Foram **6,634 páginas** (contra 5.862 no ano passado) de **33 livros** (contra 28 ano passado). Segue o gráfico de quantidade de páginas lidas durante os últimos anos:
+
+![Quantidade de páginas lidas nos últimos anos](/images/uploads/ano-em-livros-2019/paginas-lidas-2019.png "Quantidade de páginas lidas nos últimos anos")
+![Quantidade de livros lidos nos últimos anos](/images/uploads/ano-em-livros-2019/livros-lidos-2019.png "Quantidade de livros lidos nos últimos anos")
+
+Ao contrário do ano passado, não houve um predileto. Eu gostei de vários livros de formas diferentes, os 3 que mais gostei foram:
 
 - [Flores para Algernon](https://www.goodreads.com/book/show/40621488-flores-para-algernon)
 - [10% mais feliz](https://www.goodreads.com/book/show/25948734-10-mais-feliz)
@@ -48,10 +55,11 @@ O pior livro foi com certeza [Morrer de tanto Viver](https://www.goodreads.com/b
 Achei que "O Morrer de Tanto Viver" é bastante difícil de ler, não pelo assunto, mas pela forma contada. Uma verborragia sem fim sobre histórias e narrativas do próprio autor. Depois que os primeiros capítulos acabam você consegue pegar o ritmo insano de ideias. É como se você estivesse na cabeça do autor, ouvindo todos os pensamentos dele, sem parar, de forma atropelada como um pensamento deve ser.
 
 Meu gênero favorito é Ficção Científica, de forma que eu tenho que lutar para ler outros gêneros para não ficar preso em histórias o tempo todo. Algumas Ficções que me prenderam:
-- [Flores para Algernon](https://www.goodreads.com/book/show/40621488-flores-para-algernon) - Surpresa do ano
-- [Valis](https://www.goodreads.com/book/show/28245248-valis) - Bom, mas muito aquém dos outros do PKD
-- [Nós](https://www.goodreads.com/book/show/40779599-n-s) - Fui com uma expectativa e com uma curiosidade muito alta pois foi o livro que inspirou autores como Aldoux Huxley e George Orwell... Mas me decepcionei. Chatíssimo.
-- [O homem do Castelo Alto](https://www.goodreads.com/book/show/35179239-o-homem-do-castelo-alto-3) - Muito bom! Quero ver a série no Prime Video.
+
+- **[Flores para Algernon](https://www.goodreads.com/book/show/40621488-flores-para-algernon)** - Surpresa do ano
+- **[Valis](https://www.goodreads.com/book/show/28245248-valis)** - Bom, mas muito aquém dos outros do PKD
+- **[Nós](https://www.goodreads.com/book/show/40779599-n-s)** - Fui com uma expectativa e com uma curiosidade muito alta pois foi o livro que inspirou autores como Aldoux Huxley e George Orwell... Mas me decepcionei. Chatíssimo.
+- **[O homem do Castelo Alto](https://www.goodreads.com/book/show/35179239-o-homem-do-castelo-alto-3)** - Muito bom! Quero ver a série no Prime Video.
 
 Atualizando meu ranking pessoal dos autores de Sci-Fi:
 
@@ -60,7 +68,7 @@ Atualizando meu ranking pessoal dos autores de Sci-Fi:
 1.  Arthur C. Clark
 1.  William Gibson
 
-Segundo ou terceiro lugar está ameaçado. Eu comecei a ler agora Os Despossuídos de Ursula K. Le Guin, autora do A Mão Esquerda da Escuridão... Pode ser que ano que vem ela entre nessa ranking. Está incrível até agora.
+Segundo ou terceiro lugar estão ameaçados. Eu comecei a ler agora **Os Despossuídos de Ursula K. Le Guin**, autora do **A Mão Esquerda da Escuridão**... Pode ser que ano que vem ela entre nessa ranking. Está incrível até agora.
 
 E embora eu não tenha lido nada ou pouca Fantasia esse ano, segue o ranking:
 
@@ -76,6 +84,4 @@ Continuando com minha jornada, esse ano intensifiquei um pouco leituras sobre Es
 
 Li alguma coisa sobre investimentos ([Faça Fortunas com Ações](https://www.goodreads.com/book/show/34803050-fa-a-fortuna-com-a-es) é altamente recomendado).
 
-Se quiser ver todas as estatísticas e todos os links dos 33 livros que li esse ano,
-[clica aqui](https://www.goodreads.com/user/year_in_books/2019?int=yyib_sa) pra ver meu perfil no GoodReads e
-aproveita pra [me seguir lá](https://www.goodreads.com/diegoeis).
+Se quiser ver o que estou lendo agora e o que já li, [clica aqui](https://www.goodreads.com/review/list/50891723-diego-eis?shelf=) pra ver meu perfil no GoodReads e aproveita pra [me seguir lá](https://www.goodreads.com/diegoeis).
