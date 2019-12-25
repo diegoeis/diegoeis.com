@@ -1,1 +1,1 @@
-sass --watch themes/diegoeis-v2/static/all.sass:themes/diegoeis-v2/static/all.css --style compressed
+sass --watch themes/diegoeis-v3/static/all.sass:themes/diegoeis-v3/static/all.css --style compressed
