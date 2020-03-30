@@ -20,7 +20,7 @@ Facundo Guerra descreve o empreendedorismo dessa forma que eu não compartilho. 
 
 Durante o livro ele fala muito dos erros que ninguém comenta no mundo real. Ele mostra suas decisões ruins e seus pensamentos errados. Ele da dicas e conselhos importantes sobre controle pessoal, disciplina e até a escolha dos sócios corretos. 
 
-“Os melhores [empreendedores]  com quem me deparei respeitam o dinheiro pelo o que ele pode fazer para transformar a realidade, não por ele poder comprar pedaços da realidade que está aí” — Fagundo Guerra
+> “Os melhores [empreendedores] com quem me deparei respeitam o dinheiro pelo o que ele pode fazer para transformar a realidade, não por ele poder comprar pedaços da realidade que está aí” — Fagundo Guerra
 
 Adorei sobre como ele descreve de forma racional o deslumbramento maldito das pessoas sobre as empresas ratoeiras, que de forma artificial tentam ser diferentonas para atrair os desavisados. E o pior, em como as pessoas caem nessas ladainhas achando que estão entregando valor para o negócio e para o público. De fato estão, mas estão perdendo valor próprio ao se renderem à essas armadilhas em troca do falso glamour de se trabalhar em uma empresa com uma “cultura cool”. Estou olhando pra vocês que trabalham em startups unicórnios. 
 
