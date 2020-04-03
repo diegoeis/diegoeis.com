@@ -38,7 +38,7 @@ body.Kind-is-home {padding: 0 20px;}
 ***/
 
 a {
-  color: #000;
+  color: var(--yellow);
   text-decoration: none;
 }
 
@@ -444,6 +444,7 @@ img {
 
 .eis-text a {
   color: #000;
+  font-weight: bold;
   text-decoration: underline;
 }
 
