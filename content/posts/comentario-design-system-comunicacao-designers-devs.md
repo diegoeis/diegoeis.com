@@ -4,7 +4,6 @@ type: post
 date: 2019-05-31
 image: https://i.imgur.com/slk72ip.jpg
 tags:
-  - anotacoes
   - desenvolvimento web
   - carreira
   - design

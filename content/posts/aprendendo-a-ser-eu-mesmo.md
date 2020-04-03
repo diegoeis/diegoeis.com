@@ -6,7 +6,6 @@ date: '2019-08-13'
 publishdate: '2019-08-13 06:07'
 image: 'https://i.imgur.com/2lVXN6Q.jpg'
 tags:
-  - anotacoes
   - cotidiano e comportamento
 ---
 Você já deve ter feito algumas avaliações de perfil ao longo da sua carreira. A mais famosinha é o DISC. A primeira vez que fiz o DISC e recebi o resultado, minha cabeça explodiu. Não conseguia entender como um negócio daquele conseguia dar uma descrição quase que perfeita do meu perfil comportamental depois de responder algumas perguntas. Mas conforme você cresce, a mágica desses testes perde o efeito e você começa a encará-los de uma maneira mais racional.
