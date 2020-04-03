@@ -623,6 +623,34 @@ img {
   color: var(--black);
 }
 
+body.meus-livros header h1 {display: none}
+
+ul.eis-books-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.eis-books-list li {
+  flex: 1 0 150px;
+  padding: 20px;
+  list-style-type: none;
+}
+.eis-books-list li p {
+  font-size: .9rem;
+  margin-top: 5px;
+}
+
+.eis-books-list a {
+  text-decoration: none;
+}
+
+.eis-books-list a:hover h3 {
+  color: var(--yellow);
+}
 
 /**********
 **** DARK MODE

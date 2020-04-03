@@ -5,11 +5,11 @@ date: 2018-02-18
 type: page
 ---
 
-<img src="/images/avatar-2018.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" style="border-radius: 50%; max-width: 300px; margin: 0 auto; display: block; ">
+<img src="/images/avatar-20.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" style="border-radius: 50%; max-width: 300px; margin: 0 auto; display: block; ">
 
 ## TL: DR;
 
-Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente estou trabalhando como Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Anteriormente eu era Product Manager na Neon Pagamentos e antes disso passei pela Easynvest, também como Product Manager e antes ainda na Locaweb, coordenando times de Produtos Digitais. 
+Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente estou trabalhando como Head de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Anteriormente eu era PM na Neon Pagamentos e antes disso passei pela Easynvest, também como Product Manager. 
 
 **Navegação rápida**:
 
