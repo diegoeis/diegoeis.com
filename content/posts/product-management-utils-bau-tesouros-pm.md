@@ -1,5 +1,5 @@
 ---
-title: Product Management Utils — Meu baú de tesouros para Product Manager
+title: Product Management Utils — Meu baú de tesouros para Product Managers
 type: post
 date: 2020-04-06
 image: https://i.imgur.com/fmNmJdz.jpg
