@@ -1,6 +1,5 @@
 ---
 title: Sobre mim
-type: post
 date: 2018-02-18
 type: page
 ---
