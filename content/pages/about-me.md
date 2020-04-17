@@ -12,7 +12,7 @@ Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente e
 
 **Navegação rápida**:
 
-- [Meus Projetos](#meus-projetos-pessoais)
+- [Meus Projetos Paralelos](#meus-projetos-pessoais)
 - [O Tableless](#o-tableless)
 - [O Trabalho](#o-trabalho)
 - [Fale comigo](#me-encontre-me-acompanhe)
