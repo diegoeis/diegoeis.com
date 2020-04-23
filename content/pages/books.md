@@ -1,6 +1,5 @@
 ---
 title: Meus livros
-type: post
 date: 2020-04-02
 type: page
 ---
