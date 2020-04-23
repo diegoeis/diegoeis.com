@@ -1,21 +1,23 @@
 ---
-title: Breve texto sobre o processo de escrever um livro
 type: post
-date: 2020-04-23
+title: Breve texto sobre o processo de escrever um livro
+excerpt: Um pouco sobre como escrever um livro
+date: 2020-04-23T00:00:00.000Z
+publishdate: 2020-04-23 16:55
 image: https://i.imgur.com/VkICGhb.jpg
 tags:
-- gestao e lideranca
-- livros e leitura
+  - gestao e lideranca
+  - livros e leitura
 ---
 
 Foram algo em torno de 150 horas só da escrita, mais algumas várias horas não contadas de arrumação (landing page, mailing, configuração de ferramentas, formatação do livro, revisão, etc). Escrever um livro não é algo muito complexo, mas com certeza não é simples de se fazer. Ainda mais quando você decide fazer publicação própria, sem a ajuda de uma editora.
 
 Talvez você ache que a parte mais difícil seja escrever o livro. Mas eu acho que não. Você só escreve um livro se você já tem algo pra falar. Se você já tem uma motivação intrínseca de compartilhar qualquer tipo de informação técnica ou uma história. Muitos outros pontos são mais perigosos e chatos do que esse.
 
-A disciplina é algo que eu entendi que tem muito mais a ver com frequência e constância do que com horários fixos e quantidade de caractéres. Isso porque dependendo da sua situação, você com certeza não conseguirá trabalhar de forma linear e ininterrupta. Mas é necessário ter disciplina para escrever sempre, ou seja, precisa ter frequencia e constancia. Os autores profissionais e grandes escritores de histórias, tem uma meta de escrita de mais ou menos padrão de 2000 palavras por dia (um livro razoável tem precisa ter algo em torno de 50000 palavras). NUNCA que eu conseguiria fazer isso de maneira fluída. Ainda mais por que em muitos dias eu pesquisava mais do que escrevia.
+A disciplina é algo que eu entendi que tem muito mais a ver com frequência e constância do que com horários fixos e quantidade de caractéres. Isso porque dependendo da sua situação, você com certeza não conseguirá trabalhar de forma linear e ininterrupta. Mas é necessário ter disciplina para escrever sempre, ou seja, precisa ter frequência e constância. Os autores profissionais e grandes escritores de histórias, tem uma meta de escrita de mais ou menos padrão de 2000 palavras por dia (um livro razoável tem precisa ter algo em torno de 50000 palavras). NUNCA que eu conseguiria fazer isso de maneira fluída. Ainda mais por que em muitos dias eu pesquisava mais do que escrevia.
 
 Alguns números:
-- O livro levou uns 5 meses pra ser escrito - 21/10/2019 até 12/03/2020. Obviamente escrevi váris vezes depois, mas foram pedaços ou reestruturações.
+- O livro levou uns 5 meses pra ser escrito - 21/10/2019 até 12/03/2020. Obviamente escrevi várias vezes depois, mas foram pedaços ou reestruturações.
 - Dediquei algo em torno de 1 a 2 horas por dia.
 - Geralmente eu escrevia a noite, a partir das 21h30.
 - O dia que eu mais escrevi, passei 5 horas escrevendo.
