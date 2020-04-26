@@ -9,7 +9,7 @@ Sou autor de três livros publicados pela Casa do Código:
 <ul class="eis-books-list">
     <li>
         <a href="https://gestaomodernaprodutosdigitais.com/">
-            <img src="/images/livro-gestao-moderna-produtos.jpg">
+            <img src="/images/book.jpg">
             <h3>Gestão moderna de <del>Produtos</del> Serviços Digitais</h3>
             <p>É meu último livro lançado. Nele trato sobre gestão de produtos digitais, levando em consideração que os produtos digitais são apenas um veículo que transporta o valor da empresa para as pessoas</p>
         </a>
