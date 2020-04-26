@@ -176,7 +176,7 @@ img {
   left: 0
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
   #eis-header {
     display: block;
     margin-bottom: 40px;
@@ -205,20 +205,21 @@ img {
   
   .eis-menu {
     background: white;
-    width: 200px;
+    width: 220px;
     position: absolute;
     right: 0;
     top: 40px;
     z-index: 0;
-    display: none;
     text-align: left;
     box-shadow: -2px 2px 10px rgba(0, 0, 0, .25);
-    height: 250px;
-    border-radius: 5px
+    padding: 15px 0 25px;
+    border-radius: 10px 0 0 10px;
+    transform: translate(230px, 0);
+    transition: all .15s linear;
   }
 
   #eis-header nav input:checked ~ .eis-menu {
-    display: block;
+    transform: translate(0, 0);
   }
 
   .eis-menu li:nth-child(5),
