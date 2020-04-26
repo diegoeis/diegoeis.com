@@ -164,12 +164,18 @@ img {
 
 .eis-menu .eis-twitter {position: relative; right: -6px;}
 
+
+
 .eis-logo {
   font: 700 1.25rem var(--sans-serif);
   color: #000;
   text-decoration: none;
 }
-
+  #eis-header nav input {
+    position: absolute;
+    top: -20px;
+    left: 0
+  }
 @media screen and (max-width: 700px) {
   #eis-header {
     display: block;
@@ -178,16 +184,55 @@ img {
   }
   .eis-menu {
     padding-top: 0;
-    float: right;
+    display: block;
     width: 150px;
     text-align: right;
   }
 
-  .eis-menu li:first-child {margin: 0 0 10px; display: block;}
+  .eis-menu-sandwich {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    background: url(/images/sandwich.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  
+  .eis-menu {
+    background: white;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 0;
+    display: none;
+    text-align: left;
+    box-shadow: -4px 10px 10px rgba(0, 0, 0, .25);
+    height: 250px;
+    border-radius: 5px
+  }
+  
+  #eis-header nav input:checked ~ .eis-menu {
+    display: block;
+  }
+
+  .eis-menu li:nth-child(5),
+  .eis-menu li:nth-child(6),
+  .eis-menu li:nth-child(7),
+  .eis-menu li:nth-child(8) {
+    padding: 20px 0;
+    display:inline-block;
+  }
 
   .eis-menu li {
-    text-align: right;
-    margin-bottom: 15px;
+    display: block;
+    text-align: left;
+    padding: 10px 0;
   }
 
 }
