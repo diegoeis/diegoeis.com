@@ -734,13 +734,15 @@ ul.eis-books-list {
   color: black;
 }*/
 
-[data-darkmode="true"] .eis-menu {
-  background: rgba(35, 35, 35, 1) !important;
-  border: 1px solid rgb(45,45,45)
-}
+@media screen and (max-width: 700px) {
+  [data-darkmode="true"] .eis-menu {
+    background: rgba(35, 35, 35, 1) !important;
+    border: 1px solid rgb(45,45,45)
+  }
 
-[data-darkmode="true"] .eis-menu-sandwich {
-  background-image: url(/images/sandwich-white.png)
+  [data-darkmode="true"] .eis-menu-sandwich {
+    background-image: url(/images/sandwich-white.png)
+  }
 }
 
 #eis-dark-btn {
