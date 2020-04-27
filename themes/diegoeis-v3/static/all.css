@@ -276,6 +276,36 @@ img {
   max-width: 300px;
 }
 
+.eis-book-home {
+  text-align: center;
+}
+
+.eis-book-home a {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: linear all .15s;
+}
+
+.eis-book-home a:hover {
+  box-shadow: none;
+  opacity: .6
+}
+
+.eis-book-home img {
+  display: block;
+  margin-bottom: 15px;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.eis-book-home img:nth-child(2n) {
+  max-width: 160px;
+  margin: 10px auto 0;
+}
+
+
+
 .eis-last-reads {
   padding: 30px 0;
   max-width: 240px;
