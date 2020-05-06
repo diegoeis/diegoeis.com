@@ -2,8 +2,7 @@
 title: "Live da UILab School sobre Gestão Moderna de Produtos Digitais"
 type: post
 draft: true
-date: 2020-05-06
-publishdate: 2020-05-06
+date: 2020-05-06 15:30:00
 image: https://i.imgur.com/LmlOibz.jpg
 tags:
 - gestao e lideranca
