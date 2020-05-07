@@ -13,17 +13,19 @@ Essa foi uma [série de tweets](https://twitter.com/diegoeis/status/113433978214
 
 ----
 
-Vocês já pararam para pensar que o design system é expressão de como havia (e ainda há) um buraco de comunicação entre devs e Designers?
+Vocês já pararam para pensar que o design system é uma espécie de expressão de como havia (e ainda há) um buraco de comunicação e relacionamento entre devs e Designers?
 
-Durante anos devs implementam e criam, do início ao fim, design systems a partir dos layouts. Frameworks como Bootstrap surgem com essa necessidade de ter uma padronização visual e técnica dos elementos da tela pra dar mais velocidade e consistência na construção de interfaces.
+Durante anos os devs implementam e criam, do início ao fim, design systems a partir dos layouts entregues pelos designers. Esses "design systems" entregues pelos Devs tem diversas profundidades: vão desde simples UI Kits, com elementos em HTML e CSS, passando por bibliotecas de componentes com comportamentos simples em JS até frameworks maiores.
 
-Estou dando o nome de design system, exatamente o que ele é: padronização, modularização e continuidade da interface.
+Os devs faziam isso para faciltiar o seu próprio trabalho, e no processo até corrigiam problemas que aconteciam como a falta de padronização de cores (qual dev nunca reclamou de ter 5 padrões de cinzas? ou de margens diferentes em um mesmo elemento?). Frameworks e bibliotecas como Bootstrap e outros, surgem com essa necessidade de facilitar a padronização visual e técnica dos elementos da tela pra dar mais velocidade e consistência na construção de interfaces.
 
-O designer fazia o layout, o dev implementava esse layout, modularizando tudo o que podia, mas sem levar em consideração critérios de design, saciando apenas as necessidades técnicas afim de facilitar a manutenção e longevidade de código.
+Estou dando o nome de design system, para aquela "organização" que designers fazem para alcançar a padronização, modularização e continuidade da interface.
+
+O designer fazia o layout, o dev implementava esse layout e nesse processo de implementação, o dev modularizando tudo o que podia e isso é muito bom. Contudo, devs não levavam em consideração critérios de design, e muitas vezes se focando apenas nas necessidades técnicas afim de facilitar a manutenção e longevidade de código.
 
 O problema da construção de interfaces sempre foi a componentização. A partir do momento que os devs perceberam isso, soluções como Web Components e ReactJS ajudaram muito nessa tarefa de montar uma interface usando módulos.
 
-E nesse processo, com o designer apenas se importando com o design da interface de forma “global”, digamos assim... os devs, por si só, quebravam a interface em pequenos pedaços de elementos funcionais, de fácil implementação e manutenção.
+E nesse processo, o designer apenas se importava com o design da interface de forma “global”, digamos assim... os devs, por si só, quebravam a interface em pequenos pedaços de elementos funcionais, de fácil implementação e manutenção.
 
 Não envolvendo os Designers, o resultando a médio e longo prazo era sempre a inconsistência de uso e principalmente do visual da interface durante todo o percurso do usuário no produto.
 
