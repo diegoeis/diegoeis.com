@@ -1,18 +1,19 @@
 {{partial "head.html" . }}
 
 
-    {{if .Params.image }}
+<!--     {{if .Params.image }}
   <span class="eis-featured-image" style="background-image: url({{ .Params.image }})"></span>
     {{end}}
+ -->
 <article class="eis-article {{if not .Params.image }}no-image{{end}}">
   <header>
-    <div class="eis-post-info">
-      <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
-      <!-- <a href="#eis-comments" class="eis-comments-lnk">Comente também</a> -->
-      {{- partial "post-tags.html" . }}
-    </div>
 
-    <h1>{{.Title}}</h1>
+    <div class="eis-first-post">
+      <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
+      {{partial "post-tags.html" . }}
+    </div>
+  
   </header>
 
   <div class="eis-text">

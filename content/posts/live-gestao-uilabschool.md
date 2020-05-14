@@ -14,4 +14,4 @@ Vamos falar sobre bolha de startups, Gestão de Produtos, sobre a escrita do liv
 
 Segue o link: [https://www.youtube.com/watch?v=TAhDLjDYDTA&feature=youtu.be](https://www.youtube.com/watch?v=TAhDLjDYDTA&feature=youtu.be)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TAhDLjDYDTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aKYyGXoI_aQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
