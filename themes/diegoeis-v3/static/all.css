@@ -36,6 +36,7 @@ body {
   display: none;
 }
 
+
 /***
   Default Styles
 ***/
@@ -310,17 +311,22 @@ img {
 }
 
 .eis-book-home img {
-  display: block;
   margin-bottom: 15px;
   max-width: 270px;
   margin: 0 auto;
 }
 
-.eis-book-home img:nth-child(2n) {
+/*.eis-book-home img:nth-child(2n) {
   max-width: 160px;
   margin: 10px auto 0;
 }
+*/
 
+img.eis-btn-book {
+  max-width: 130px;
+  display: inline-block;
+  margin: 10px auto;
+}
 
 
 .eis-last-reads {
