@@ -12,7 +12,7 @@ Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente e
 
 **Navegação rápida**:
 
-- [Meus Projetos Paralelos](#meus-projetos-pessoais)
+- [Meus Projetos Pessoais](#meus-projetos-pessoais)
 - [O Tableless](#o-tableless)
 - [O Trabalho](#o-trabalho)
 - [Fale comigo](#me-encontre-me-acompanhe)
@@ -23,11 +23,12 @@ Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente e
 
 Desde quando eu conheço a web eu tento de alguma forma devolver tudo o que aprendi. Por isso, eu mantenho alguns humildes projetos online, são eles:
 
-- **[Tableless](https://tableless.com.br/)**: é o mais antigo e o maior dos meus projetos pessoais: é um blog com conteúdo sobre front-end, aberto para vários autores. Explico um pouco sobre ele mais abaixo;
+- **Livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/)**: neste livro eu exponho ideias sobre como os Produtos Digitais são um meio, um veículo, que transporta valor para o negócio e para o usuário. Além disso, mostrei meu racional de construção de produtos, falando sobre negócios, indicadores, startups, ética e vários outros assuntos importantes para Product Managers;
 - **[PM Letter](https://pmletter.email)** é uma Letter semanal feita para Product Managers e pessoas que trabalham com a criação e desenvolvimento de produtos digitais;
 - **[PM ToolKit](http://pmtoolkit.work/)**: é um apanhado de links para conteúdo, ferramentas, livros, cursos sobre gestão de produtos digitais;
-- **[Investidor ToolKit](https://investidor.netlify.com/)**: Eu gosto de investir e ler bastante sobre esse assunto, e sei que tem uma série de pessoas que gostam também, por isso, nos mesmos moldes do PM ToolKit, criei um um apanhado de links para conteúdo, ferramentas, livros, cursos sobre investimento;
 - **[GP - Gestão de Produtos](https://medium.com/gestao-produtos)**: mantenho esse canal no Medium sobre gestão de produto. Ainda está bem parado, porque, né? Tempo a gente nunca arranja. Mas sempre tem um ou outro artigo por lá, meu e de outros autores;
+- **[Tableless](https://tableless.com.br/)**: é o mais antigo e o maior dos meus projetos pessoais: é um blog com conteúdo sobre front-end, aberto para vários autores. Explico um pouco sobre ele mais abaixo;
+- **[Investidor ToolKit](https://investidor.netlify.com/)**: Eu gosto de investir e ler bastante sobre esse assunto, e sei que tem uma série de pessoas que gostam também, por isso, nos mesmos moldes do PM ToolKit, criei um um apanhado de links para conteúdo, ferramentas, livros, cursos sobre investimento;
 - **Livro [Guia Front-end](https://www.casadocodigo.com.br/products/livro-guia-frontend)**: começar como front-end nunca foi tão difícil quanto atualmente. Antes bastava aprender HTML, CSS e JS. Hoje, você precisa entender todos os frameworks e bibliotecas. Isso gera ansiedade e muitos acabam desistindo. Nesse livro eu tento descomplicar as decisões sobre o que aprender e quando aprender. Bom para iniciantes;
 - **Livro [Introdução à Web Semântica](https://www.casadocodigo.com.br/products/livro-web-semantica)**: Sempre achei Web Semântica um assunto fascinante e ignorado pela comunidade de produtos e principalmente pela comunidade de desenvolvimento. Por isso, escrevi um livro para ajudar as pessoas a entenderem melhor como a Web Semântica está impactando e irá impactar nossas vida no futuro;
 - **[Palestras](https://speakerdeck.com/diegoeis)**: Eu sou muito ativo na comunidade de produtos e front-end, produzindo conteúdo e falando em muitos eventos como o QCon Brasil, Lean Kanban Brasil, BrasilJS, World Usability Day e muitos eventos, cursos e meetups. Você pode ver minhas apresentações [aqui](https://speakerdeck.com/diegoeis) e [aqui](https://www.slideshare.net/diegoeis).
@@ -43,7 +44,11 @@ Devo dizer que o Tableless mudou minha carreira de forma drástica. De lá para 
 
 ## O trabalho
 
-### Hoje *estou* como Diretor de Produtos na Jüssi Business Agency
+### Hoje *estou* como Head de Produtos Digitais na Sympla
+
+Em 2020 eu fui pra Sympla, uma empresa focada em levar experiências incríveis para as pessoas. Essas experiências podem ser presenciais ou online. Na Sympla eu sou Head de Produtos Digitais da unidade de negócios Bileto, que é focada em Casas Fixas (teatros, eventos de grande porte, museus, parques etc). Nós oferemos ferramentas e recursos para que organizadores de evento possam criar, gerenciar e monitorar seus eventos de forma fácil e produtiva.
+
+### 2018: Diretor de Produtos Digitais na Jüssi Business Agency
 
 No final de **2018** fui como Diretor de Produtos Digitais para a Jüssi, uma agência de negócios digitais. Lá eu lidero um time de mais ou menos 100 pessoas, divididas nas especialidades de Tecnologia, UXD, Gestão de Produtos, CRO/WA e SEO. Um desafio que se assemelha bastante com o começo da minha carreira, onde eu tenho que empreender bastante, olhar para o futuro, resolvendo os desafios do presente.
 
