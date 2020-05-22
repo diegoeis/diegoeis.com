@@ -576,15 +576,12 @@ img.eis-btn-book {
 
 .eis-text blockquote {
   position: relative;
-  padding-left: 50px;
-}
-@media screen and (max-width: 700px) {
-  .eis-text blockquote {
-    padding: 0;
-  }
-  .eis-text blockquote p {
-    font-size: 2rem;
-  }
+  border-left: 5px solid black;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, .05);
+  padding: 25px 25px 15px;
+  border-radius: 5px;
 }
 
 .eis-text blockquote:before,
@@ -605,9 +602,8 @@ img.eis-btn-book {
 }
 
 .eis-text blockquote p {
-  font: italic 700 2rem/1.2 var(--sans-serif);
-  margin: 50px 0;
-  padding-top: 20px;
+  font: italic 300 1rem/1.8 var(--serif);
+  margin: 0 0 10px;
 }
 
 .eis-text pre {
