@@ -1,5 +1,5 @@
 ---
-title: Dessincronização: você e o trabalho
+title: "Dessincronização: você e o trabalho"
 type: post
 date: 2020-05-22
 image: https://i.imgur.com/JzFeTxO.png
