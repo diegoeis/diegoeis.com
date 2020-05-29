@@ -1,5 +1,5 @@
 ---
-title: "Adaptação Hedônica - Entendendo os ciclos de felicidade"
+title: "Estoicismo: Adaptação Hedônica - Entendendo os ciclos de felicidade"
 type: post
 date: 2019-06-13
 image: https://i.imgur.com/UQqFJd1.jpg
