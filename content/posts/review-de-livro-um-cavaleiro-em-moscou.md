@@ -1,17 +1,16 @@
 ---
-title: "Review de Livro: Um Cavaleiro em Moscou"
 type: post
-date: 2020-05-28
+title: "Review de Livro: Um Cavalheiro em Moscou"
+excerpt: Review do livro Cavalheiro em Moscou
+date: 2020-05-28T00:00:00.000Z
+publishdate: 2020-05-30 01:22
 image: https://i.imgur.com/jhoehTR.jpg
 tags:
-- livro e leitura
+  - livro e leitura
 ---
+<a href="https://amzn.to/2TPcld2"><img src="https://i.imgur.com/jhoehTR.jpg" alt="Capa do livro Um cavalheiro em moscou" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>
 
-
-<a href="https://amzn.to/2TPcld2"><img src="https://i.imgur.com/jhoehTR.jpg" alt="Capa do livro Um cavaleiro em moscou" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>
-
-
-Cheguei nesse livro por uma indicação do [Bill Gates no GoodReads](https://www.goodreads.com/blog/show/1871?ref=gsu). Decidi pular a leitura de O Tempo em Marte do PKD, para dar uma chance ao [Um Cavaleiro em Moscou, de Amor Towles](https://amzn.to/2TPcld2). Que bom que eu fiz isso... Provavelmente a melhor leitura que fiz no ano. Adorei a forma leve da escrita, a história, os personagens e a forma com que foi contada. Não é uma história para ler rápido, mas pra se deixar envolver. É uma história para ser degustada, sem pressa. É um livro onde até as notas de rodapé complementam o enredo principal com detalhes indispensáveis.
+Cheguei nesse livro por uma indicação do [Bill Gates no GoodReads](https://www.goodreads.com/blog/show/1871?ref=gsu). Decidi pular a leitura de O Tempo em Marte do PKD, para dar uma chance ao [Um Cavalheiro em Moscou, de Amor Towles](https://amzn.to/2TPcld2). Que bom que eu fiz isso... Provavelmente a melhor leitura que fiz no ano. Adorei a forma leve da escrita, a história, os personagens e a forma com que foi contada. Não é uma história para ler rápido, mas pra se deixar envolver. É uma história para ser degustada, sem pressa. É um livro onde até as notas de rodapé complementam o enredo principal com detalhes indispensáveis.
 
 Mas um dos grandes pontos altos do livro são os personagens. O Conde é como um guia que apresenta cada um dos grandes personagens do hotel. Um personagem mais maravilhoso que o outro. Cada um deles é carregado de profundidade e muito carisma. Sem entrar nos meandros de cada um, o livro deixa claro nas entrelinhas que todos os personagens têm histórias próprias, provavelmente tão surpreendentes quanto a do Conde.
 
