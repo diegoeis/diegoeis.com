@@ -10,7 +10,8 @@ tags:
   - gestao e lideranca
 ---
 
-[![Capa do livro Empreendorismo para Subversivos - Facundo Guerra](https://i.imgur.com/VUpSl52.jpg)](https://amzn.to/2QXwYTc)
+<a href="https://amzn.to/2QXwYTc"><img src="https://i.imgur.com/VUpSl52.jpg" alt="Capa do livro Empreendorismo para Subversivos - Facundo Guerra" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>
+
 
 Eu já passei 6 anos da minha vida empreendendo. Ajudou muito na minha formação como pessoa e principalmente como profissional. Enfrentei problemas que eu nunca enfrentaria de outra forma e aprendi sobre assuntos que eu nunca teria sabido da existência se não tivesse aberto minha própria empresa. Contudo, eu sou um cara que sabe que o empreendedorismo não é o único caminho para alcançar a honra, dinheiro e a satisfação. Sou totalmente contra aquelas frases como _“se você não segue seu sonho, você faz parte do sonho dos outros”_ ou qualquer coisa imbecil desse sentido. Sou partidário do pensamento de que você pode empreender em qualquer lugar, mesmo sendo CLT em uma empresa qualquer. De qualquer forma, sei que existem níveis de risco. E quanto mais risco você está disposto a enfrentar, mais aprendizados e com certeza mais sucesso você pode ter.
 
