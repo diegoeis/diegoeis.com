@@ -4,7 +4,6 @@ title: "Review de Livro: Um Cavalheiro em Moscou"
 excerpt: Review do livro Cavalheiro em Moscou
 date: 2020-05-28T00:00:00.000Z
 publishdate: 2020-05-30 01:22
-image: https://i.imgur.com/jhoehTR.jpg
 tags:
 - livros e leitura
 ---
