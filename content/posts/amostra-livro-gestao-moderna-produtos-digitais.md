@@ -1,7 +1,8 @@
 ---
 title: "Amostra grátis do livro Gestão Moderna de Produtos Digitais"
 type: post
-date: 2020-05-31
+date: 2020-06-08
+publishdate: 2020-06-08
 image: /images/uploads/posts/pablo-page-not-found.png
 tags:
 - livros e leitura
