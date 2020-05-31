@@ -15,6 +15,7 @@ Talvez você ache que a parte mais difícil seja escrever o livro. Mas eu acho q
 Eu entendi que disciplina tem muito mais a ver com frequência e constância do que com horários fixos e quantidade de caractéres por dia, pois dependendo da sua situação, você com certeza não conseguirá trabalhar de forma linear e ininterrupta. Mas é necessário ter disciplina para escrever sempre, ou seja, precisa ter frequência e constância. Os autores profissionais e grandes escritores de histórias, tem uma meta de escrita com um padrão de mais ou menos 2000 palavras por dia (um livro razoável precisa ter algo em torno de 50.000 palavras). NUNCA que eu conseguiria fazer isso de maneira fluída. Ainda mais por que em muitos dias eu pesquisava mais do que escrevia.
 
 Alguns números:
+
 - O livro levou uns 5 meses pra ser escrito - 21/10/2019 até 12/03/2020. Obviamente escrevi váris vezes depois, mas foram pedaços ou reestruturações.
 - Dediquei algo em torno de 1 a 2 horas por dia.
 - Geralmente eu escrevia a noite, a partir das 21h30.
@@ -23,6 +24,7 @@ Alguns números:
 - Enviei para 5 especialistas no assunto para lerem e validarem ideias.
 
 Fluxo resumido do processo da escrita do livro:
+
 - Escrever ideia e escopo básico do livro;
 - Escrever títulos dos capítulos para entender fluxo de leitura;
 - Procurar notas, referências e fontes de conteúdo para servir de apoio;
@@ -39,6 +41,7 @@ Fluxo resumido do processo da escrita do livro:
 - E pronto, publicar para o mundo!
 
 Um pouco mais de detalhes:
+
 - Fazer um escopo básico do livro, escrevendo informação como: para quem é o livro, qual o assunto principal, diferencial;
 - Escrever um rascunho dos títulos dos capítulos. Isso serve para você entender mais ou menos o fluxo do assunto. Você consegue ter uma visão do "enredo" e do tom de voz;
 - Preencher esse rascunho com notas, fontes, referências. Isso serve muito para você entender o quão profundo você pode ir em cada um dos capítulos. Nesse momento é quando você consegue descobrir melhor se há seções dentro de um capítulo;
@@ -54,6 +57,7 @@ Um pouco mais de detalhes:
 Lembrando que eu só escrevi livros técnicos, nada de ficção, que aí eu já acho que entra no campo de ter ou não talento (mas nada que 10000 horas não resolvam). Acredito que para escrever um livro técnico, qualquer um consegue fazer com o mínimo de esforço.
 
 Eu estou longe de ser um autor profissional:
+
 1. Não quero viver de venda de livros. É meio impossível para quem não é conhecido ou não tem dom;
 2. Muitas falhas podem acontecer no processo e preciso dedicar tempo. Muito tempo mesmo para conseguir ter algo de qualidade;
 3. Depois preciso aprender a escrever com gramática correta;

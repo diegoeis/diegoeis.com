@@ -17,9 +17,13 @@
   </header>
 
   <div class="eis-text">
+    
+    <img src=" {{ .Params.image }}" alt="imagem decorativa">
+
     {{.Content}}
 
-      {{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
+  </div>
+      {{ $related := .Site.RegularPages.Related . | first 4}} {{ with $related }}
     <div class="eis-related-posts">
 
         <h2>Leia também aqui no blog:</h2>
@@ -31,7 +35,6 @@
 
       </div>
       {{ end }}
-  </div>
 
   <div class="eis-comments">
     <div id="graphcomment"></div>

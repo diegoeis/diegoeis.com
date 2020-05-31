@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +15,8 @@ body {
 
 
 :root {
-  --serif: "Cormorant Garamond", Georgia, Times, Serif;
-  --sans-serif: Nunito Sans, Open Sans, Arial, Helvetica, sans-serif;
+  --serif: 'EB Garamond', "Cormorant Garamond", Georgia, Times, Serif;
+  --sans-serif: Nunito Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Open Sans, Arial, Helvetica, sans-serif;
   --yellow: #f9da18;
   --yellowContrast: #0008FF;
   --black: #484848;
@@ -534,16 +536,15 @@ img.eis-btn-book {
   margin: 0 0 20px 20px;
 }
 
-.eis-text li {
-  font: 400 .9375rem/1.5 var(--sans-serif);
-  color: #272727;
-  padding-bottom: 13px;
+
+.eis-text p, .eis-text li {
+  font: 400 1.2rem/1.5 var(--serif);
+  margin-bottom: 17px;
+  color: #39434b;
 }
 
-.eis-text p {
-  font: 400 1rem/1.75 var(--sans-serif);
-  margin-bottom: 35px;
-  color: #272727;
+.eis-text li {
+  padding-bottom: 13px;
 }
 
 .eis-text a {
@@ -655,25 +656,27 @@ img.eis-btn-book {
 /***
 * Related Posts at Single
 ***/
-/*.eis-related-posts {
-  padding-top: 30px;
+.eis-related-posts {
+  padding: 30px 0;
   margin-top: 100px;
   border-top: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 .eis-related-posts h2 {
   text-align: center;
-  font: 2rem var(--sans-serif);
+  font: 700 1.5rem var(--sans-serif);
   padding-bottom: 30px;
 }
 .eis-related-posts ul {
   list-style: none;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .eis-related-posts li {
-  flex: 1;
+  flex: 1 0 200px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -685,19 +688,18 @@ img.eis-btn-book {
 .eis-related-posts li a {
   padding: 25px;
   flex: 1;
-  font: 400 1.5rem var(--sans-serif);
+  font: 400 1.2rem var(--serif);
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
-  background: rgba(0, 0, 0, .03);
-  align-items: flex-end;
+  /*background: rgba(0, 0, 0, .03);*/
   display: flex;
 }
 .eis-related-posts li a:hover {
   box-shadow: none;
   background: var(--yellow);
   color: rgba(0, 0, 0, .7);
-}*/
+}
 
 
 

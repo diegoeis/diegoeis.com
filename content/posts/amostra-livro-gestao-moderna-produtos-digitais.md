@@ -1,12 +1,15 @@
 ---
 title: "Amostra grátis do livro Gestão Moderna de Produtos Digitais"
 type: post
-date: 2020-06-01
+date: 2020-05-31
+image: /images/uploads/posts/pablo-page-not-found.png
 tags:
 - livros e leitura
 - gestao e lideranca
 - product management
 ---
+
+
 
 Liberei gratuitamente os dois primeiros capítulos do livro Gestão Moderna de Produtos Digitais.
 
