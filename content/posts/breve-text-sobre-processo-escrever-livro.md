@@ -40,6 +40,13 @@ Fluxo resumido do processo da escrita do livro:
 - Marcar um dia de lançamento;
 - E pronto, publicar para o mundo!
 
+Se for fazer divulgação, algumas opções e ideias:
+- Criar um blog sobre o livro;
+- Criar uma newsletter;
+- Criar um fórum;
+- Criar agenda de apresentações e palestras sobre o livro;
+- Pensar em estratégia de compra de ads/companha;
+
 Um pouco mais de detalhes:
 
 - Fazer um escopo básico do livro, escrevendo informação como: para quem é o livro, qual o assunto principal, diferencial;
@@ -54,17 +61,29 @@ Um pouco mais de detalhes:
 - Se você optou por fazer auto-publicação, marca um dia de lançamento e coloca o livro pra pré-venda. Esse tópico merece mais atenção depois. Dá para fazer de várias formas;
 - Lançar pro mundo! ;-)
 
-Lembrando que eu só escrevi livros técnicos, nada de ficção, que aí eu já acho que entra no campo de ter ou não talento (mas nada que 10000 horas não resolvam). Acredito que para escrever um livro técnico, qualquer um consegue fazer com o mínimo de esforço.
+Lembrando que eu só escrevi livros técnicos, nada de ficção, que aí eu já acho que entra no campo de ter ou não talento (mas nada que 10000 horas não resolvam). Acredito que para escrever um livro técnico, qualquer um consegue fazer com algum esforço e foco.
 
 Eu estou longe de ser um autor profissional:
 
-1. Não quero viver de venda de livros. É meio impossível para quem não é conhecido ou não tem dom;
-2. Muitas falhas podem acontecer no processo e preciso dedicar tempo. Muito tempo mesmo para conseguir ter algo de qualidade;
-3. Depois preciso aprender a escrever com gramática correta;
-4. Depois eu preciso aprender a escrever de verdade: tom de voz, roteiro, ambiente, etc;
+1. Não quero viver de venda de livros. É meio impossível para quem não é conhecido, não tem dom e/ou não tem uma editora forte por trás;
+2. Muitas falhas podem acontecer no processo e preciso dedicar tempo. Muito tempo mesmo para conseguir ter algo de qualidade. Até alcançar aquele patamar de qualidade + velocidade + assunto de interesse do mercado;
+3. Depois preciso aprender a escrever com gramática correta e acredite, isso é difícil;
+4. Depois eu preciso aprender a escrever de verdade: tom de voz, roteiro, fluxo e cadência de leitura, ambiente, etc;
 
-Um dos pontos mais interessantes de escrever um livro (ou gerar qualquer tipo de conteúdo), é que isso te obriga a pesquisar MUITO sobre vários assuntos. para validar ideias, opinicões e fundamentar seu assunto. É incrível o quanto você começa formar um racional mais coerente sobre o assunto que você está escrevendo. O processo inteiro te faz ser uma pessoa e um profissional melhor. 
+Um dos pontos mais interessantes de escrever um livro (ou gerar qualquer tipo de conteúdo), é que isso te obriga a pesquisar MUITO sobre vários assuntos. Você precisa validar ideias e opiniões para fundamentar seu assunto. É incrível o quanto você começa formar um racional mais coerente sobre o assunto que você está escrevendo. O processo inteiro te faz ser uma pessoa e um profissional melhor. Para mim é um dos processos mais incríveis para adquirir conhecimento.
 
-Eu recomendo muito que todos comecem a escrever sobre qualquer coisa. Seja sobre sua vida diária, sua profissão, sobre um assunto que você se interessa, não importa, só escreva. Um monte de autor profissional diz que você só aprende a escrever, escrevendo. Então, comece hoje.
+Defendo muito o ponto de vista de que todos deveriam experimentar a escrever sobre qualquer coisa: seja sobre sua vida diária, sua profissão, sobre um assunto que você se interessa... não importa, só escreva... sem se preocupar com o público. Um monte de autor profissional diz que você só aprende a escrever, escrevendo. Então, comece hoje.
 
+## Onde eu publiquei?
 
+A versão digital eu publiquei na Amazon, usando o [KDP - Kindle Direct Publishing](https://kdp.amazon.com/). Eles têm um sistema de auto publicação muito redondo e muito simples. Além disso, existe uma opção de exclusividade que aumenta a porcentagem de royalty para 70%.
+
+A versão impressa, eu usei o sistema do [Clube de Autores](https://clubedeautores.com.br/). É um sistem bem simples também e o único que encontrei que funciona relativamente bem. Aqui no Brasil isso faz falta... pode ser uma oportunidade para empreender.
+
+Dá para vender a versão impressa pela Amazon também, mas eles não têm esse serviço no Brasil, ou seja, a impressão é feita na gringa, então a entrega fica muito cara. Mas você pode vender por você mesmo na amazon também, mas aí você tem que cuidar da impressão e entrega.
+
+## Concluindo
+
+O processo inteiro é muito simples, mas dá muito trabalho fazer. São muitos passos, desde a parte de ideação até a finalização da escrita e publicação. A parte mais difícil e que com certeza leva mais tempo, é a fase de divulgação, interação e criação de conteúdo em volta do livro, que é o que vai realmente gerar o interesse das pessoas no livro. Fazer lives, escrever artigos, divulgar extensivamente e exaustivamente nas redes sociais pode ajudar bastante.
+
+Minha sugestão? Escreva. Você vai gostar.

@@ -21,8 +21,10 @@
     <img src=" {{ .Params.image }}" alt="imagem decorativa">
 
     {{.Content}}
+<iframe class="eis-newsletter-box" src="https://diegoeis.substack.com/embed" style="width: 700px; height: 300px; margin-bottom: 20px; border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
   </div>
+
       {{ $related := .Site.RegularPages.Related . | first 4}} {{ with $related }}
     <div class="eis-related-posts">
 

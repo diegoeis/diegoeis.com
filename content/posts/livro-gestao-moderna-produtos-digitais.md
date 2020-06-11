@@ -28,7 +28,9 @@ Eu espero que gostem e que cometem o ponto de vista de vocês sobre o assunto. �
 
 —
 
-O [livro está sendo vendido pela Amazon](https://www.amazon.com.br/gp/product/B087F4FJSY?pf_rd_r=F1TZ5AYEB9WNAKMJGKFC&pf_rd_p=96b1767d-f792-4902-8834-039a970f4513), ainda apenas em versão digital. Não estou dependendo de nenhuma editora e por isso seu compartilhamento é bastante importante! :-D
+A [versão digital está na Amazon](https://www.amazon.com.br/gp/product/B087F4FJSY?pf_rd_r=F1TZ5AYEB9WNAKMJGKFC&pf_rd_p=96b1767d-f792-4902-8834-039a970f4513). Se você comprar a versão digital, por favor, coloque sua avaliação lá na Amazon depois da leitura? Vai ser ótimo saber o que achou!
+
+A [versão impressa pode ser encontrada no Clube de Autores](https://clubedeautores.com.br/livro/gestao-moderna-produtos-digitais).
 
 —
 

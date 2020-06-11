@@ -38,6 +38,11 @@ body {
   display: none;
 }
 
+.eis-newsletter-box {
+  position: sticky;
+  top: 0;
+  right: 50px;
+}
 
 /***
   Default Styles
