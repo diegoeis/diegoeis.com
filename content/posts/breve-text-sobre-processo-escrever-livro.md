@@ -76,7 +76,7 @@ Defendo muito o ponto de vista de que todos deveriam experimentar a escrever sob
 
 ## Onde eu publiquei?
 
-A versão digital eu publiquei na Amazon, usando o [KDP - Kindle Direct Publishing](https://kdp.amazon.com/). Eles têm um sistema de auto publicação muito redondo e muito simples. Além disso, existe uma opção de exclusividade que aumenta a porcentagem de royalty para 70%.
+A versão digital eu publiquei na Amazon, usando o [KDP - Kindle Direct Publishing](https://kdp.amazon.com/). Eles têm um sistema de auto publicação muito redondo e muito simples. Além disso, existe uma [opção de exclusividade chamada KDP Select](https://kdp.amazon.com/en_US/select?ref_=kdp_TAC_TN_se), que aumenta a porcentagem de royalty para 70%.
 
 A versão impressa, eu usei o sistema do [Clube de Autores](https://clubedeautores.com.br/). É um sistem bem simples também e o único que encontrei que funciona relativamente bem. Aqui no Brasil isso faz falta... pode ser uma oportunidade para empreender.
 

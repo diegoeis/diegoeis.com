@@ -2,8 +2,8 @@
 type: post
 title: "Um breve pensamento sobre percepção, privacidade e nossos dados"
 excerpt: Será que damos importância o suficiente para nossa privacidade online?
-date: 2020-06-17
-publishdate: 2020-06-17
+date: 2020-06-15
+publishdate: 2020-06-15
 image: https://i.imgur.com/dCwETLP.png
 tags:
 - cotidiano e comportamento
