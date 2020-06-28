@@ -17,5 +17,5 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Publish Date", name: "publishdate", widget: "datetime", format: "YYYY-MM-DD HH:mm"}
       - {label: "Image", name: "image", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list", default: ["desenvolvimento web, gestao e lideranca, product management, agile, anotacoes, tecnologia, design, livros e leitura, produtividade e dados pessoais, saude, carreira, cotidiano e comportamento, fintech, investimento e dinheiro, palestras, estoicismo"]}
+      - {label: "Tags", name: "tags", widget: "list", default: ["desenvolvimento web, gestao e lideranca, product management, agile, anotacoes, tecnologia, design, ler assistir e ouvir, produtividade e dados pessoais, saude, carreira, cotidiano e comportamento, fintech, investimento e dinheiro, palestras, estoicismo"]}
       - {label: "Body", name: "body", widget: "markdown"}

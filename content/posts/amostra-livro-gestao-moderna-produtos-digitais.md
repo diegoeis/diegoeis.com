@@ -5,7 +5,7 @@ date: 2020-06-08
 publishdate: 2020-06-08
 image: /images/uploads/posts/pablo-page-not-found.png
 tags:
-- livros e leitura
+- ler assistir e ouvir
 - gestao e lideranca
 - product management
 ---

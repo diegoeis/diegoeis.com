@@ -4,7 +4,7 @@ type: post
 date: 2016-12-29
 tags:
   - Produtividade e Dados pessoais
-  - livros e leitura
+  - ler assistir e ouvir
 ---
 
 

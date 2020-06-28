@@ -6,7 +6,7 @@ image: https://diegoeis.com/images/hero-livro.png
 tags:
 - gestao e lideranca
 - product management
-- livros e leitura
+- ler assistir e ouvir
 ---
 
 

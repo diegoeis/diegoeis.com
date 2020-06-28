@@ -5,7 +5,7 @@ date: 2018-12-17
 image: https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg
 tags:
 - Produtividade e Dados pessoais
-- livros e leitura
+- ler assistir e ouvir
 ---
 
 Veja também o que eu li nos outros anos:

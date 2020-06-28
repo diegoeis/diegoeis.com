@@ -7,7 +7,7 @@ publishdate: 2020-05-24
 tags:
 - gestao e lideranca
 - product management
-- livros e leitura
+- ler assistir e ouvir
 ---
 
 Eu trabalho com internet e tecnologia desde 2001. Comecei como desenvolvedor front-end e atualmente[^1], depois de ter passado pela Diretoria de Produtos Digitais na Jüssi, lidero a área de Produtos Digitais na Sympla.

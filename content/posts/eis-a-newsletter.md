@@ -7,7 +7,7 @@ publishdate: 2020-06-01
 image: https://i.imgur.com/OfZ4iZo.png
 tags:
 - cotidiano e comportamento
-- livros e leitura
+- ler assistir e ouvir
 ---
 
 Para quem gosta de publicar conteúdo, existem várias formas e canais para alcançar seus leitores. O comportamento de consumo de conteúdo mudou tanto no decorrer dos anos, que é comum seus usuários não estarem centralizados em apenas um lugar. Antigamente (no meu tempo...), eu consumia conteúdo visitando diretamente blogs e websites que gostava. Mas depois que o RSS surgiu, conseguimos consumir mais conteúdo, em menos tempo e de forma mais organizada.

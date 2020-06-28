@@ -5,7 +5,7 @@ date: 2020-04-23
 image: https://i.imgur.com/VkICGhb.jpg
 tags:
 - gestao e lideranca
-- livros e leitura
+- ler assistir e ouvir
 ---
 
 Foram algo em torno de 180 horas só da escrita, mais algumas várias horas não contadas de arrumação (landing page, mailing, configuração de ferramentas, formatação do livro, revisão, etc). Escrever um livro não é algo muito complexo, mas com certeza não é simples de se fazer. Ainda mais quando você decide fazer publicação própria, sem a ajuda de uma editora.
