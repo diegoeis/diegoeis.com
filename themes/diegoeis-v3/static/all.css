@@ -28,7 +28,7 @@ body {
   margin: 0 auto;
   padding: 0 150px 100px;
   background: #fff;
-  box-shadow: 0 3px 10px -3px rgba(0,0,0,0.40);
+  box-shadow: 0 7px 7px -2px rgba(0,0,0,.5);
 }
 
 @media screen and (max-width: 950px) {
@@ -68,15 +68,19 @@ body {
   margin-bottom: 100px;
 }
 
+#eis-header nav {
+  display: flex;
+  flex-direction: column;
+}
 
-.eis-menu li {
+.eis-menu li, .eis-social li {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
 .eis-menu li:first-child {
-  margin-right: 20px
+  /*margin-right: 20px*/
 }
 
 .eis-menu a {
@@ -85,27 +89,53 @@ body {
   color: #000;
 }
 
-.eis-menu li img,
-.eis-menu li svg {
+.eis-social {
+  text-align: right;
+  margin: -45px 0 25px;
+}
+.eis-social a:hover {box-shadow: none;}
+
+.eis-social li img,
+.eis-social li svg {
   height: 17px;
   width: 17px;
   vertical-align: middle;
 }
 
-.eis-menu li .eis-twitter svg {fill: #24A0EF;}
-.eis-menu li .eis-linkedin svg {fill: #0077B5;}
-.eis-menu li .eis-feed svg {fill: #DC7936;}
+.eis-social li .eis-twitter svg {fill: #24A0EF;}
+.eis-social li .eis-linkedin svg {fill: #0077B5;}
+.eis-social li .eis-feed svg {fill: #DC7936;}
 
-.darkmode .eis-menu li .eis-twitter svg,
-.darkmode .eis-menu li .eis-linkedin svg, 
-.darkmode .eis-menu li .eis-feed svg {fill: rgba(255, 255, 255, 1);}
+.darkmode .eis-social li .eis-twitter svg,
+.darkmode .eis-social li .eis-linkedin svg, 
+.darkmode .eis-social li .eis-feed svg {fill: rgba(255, 255, 255, 1);}
 
-.eis-menu .eis-twitter {position: relative; right: -6px;}
+.eis-social .eis-twitter {position: relative; right: -6px;}
 
 .eis-logo {
   font: 700 1rem var(--sans-serif);
   color: #000;
   text-decoration: none;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background: url(images/avatar-20.png) center no-repeat;
+  background-size: cover;
+  text-indent: -8888px;
+  border-radius: 50%; 
+  overflow: hidden;
+}
+
+
+.eis-logo:hover {
+  box-shadow: none;
+  background-image: url(images/avatar-202.png);
+}
+
+.eis-logo img {
+  max-width: 50px; 
+  margin: 0 auto; 
+  display: block;
 }
 
 #eis-header nav input {
@@ -119,13 +149,6 @@ body {
     margin-bottom: 40px;
     padding: 25px 0;
     width: auto;
-  }
-
-  .eis-menu {
-    padding-top: 0;
-    display: block;
-    width: 150px;
-    text-align: right;
   }
 
   .eis-menu-sandwich {
@@ -150,10 +173,14 @@ body {
     top: 40px;
     z-index: 0;
     text-align: left;
-    box-shadow: -2px 2px 10px rgba(0, 0, 0, .25);
-    padding: 15px 0 25px;
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, .25);
+    padding: 20px 30px;
     display: none;
     border-radius: 10px 0 0 10px;
+  }
+
+  .eis-social {
+    margin: 15px 0 0;
   }
 
   #eis-header nav input:checked ~ .eis-menu {
@@ -186,6 +213,12 @@ a {
 }
 
 a:hover { 
+  box-shadow: 
+  inset 0 -1px 0 white, inset 0 -8px 0 var(--yellow)
+}
+
+
+p a:hover { 
   box-shadow: 
   inset 0 -1px 0 white, inset 0 -11px 0 var(--yellow)
 }
@@ -492,7 +525,7 @@ img.eis-btn-book {
 .eis-article header {
   text-align: center;
   margin: 0 auto 150px;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .eis-article header h1 {
@@ -506,6 +539,7 @@ img.eis-btn-book {
 
 
 .Section-is-pages .eis-post-info {display: none;}
+
 
 
 table {
@@ -647,12 +681,24 @@ table td {
   background-position: center center;
 }
 
+@media screen and (max-width: 700px) {
+  .eis-article header {
+    margin-bottom: 50px;
+  }
+  .eis-article header h1 {
+    font-size: 2rem;
+    margin: 20px auto;
+  }
+  .eis-article header h1:after {margin-top: 40px;}
+  .eis-text p, .eis-text li {font-size: 1.3rem;}
+
+}
 /***
 * Related Posts at Single
 ***/
 .eis-related-posts {
-  padding: 30px 0;
-  margin: 100px 0;
+  padding: 80px 0 50px;
+  margin: 50px 0 100px;
   border-top: 1px solid rgba(0, 0, 0, .1);
   border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
@@ -660,7 +706,7 @@ table td {
 .eis-related-posts h2 {
   text-align: center;
   font: 700 1.5rem var(--sans-serif);
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .eis-related-posts ul {
   list-style: none;
@@ -682,12 +728,12 @@ table td {
 .eis-related-posts li a {
   padding: 25px;
   flex: 1;
-  font: 400 1.2rem var(--serif);
+  font: 400 1.7rem var(--serif);
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
-  /*background: rgba(0, 0, 0, .03);*/
   display: flex;
+  text-align: center;
 }
 .eis-related-posts li a:hover {
   box-shadow: none;
@@ -696,18 +742,6 @@ table td {
 }
 
 
-
-@media screen and (max-width: 700px) {
-  .eis-article header {
-    margin-bottom: 50px;
-  }
-  .eis-article header h1 {
-    font-size: 2rem;
-    margin: 20px auto;
-  }
-  .eis-article header h1:after {margin-top: 40px;}
-
-}
 
 .eis-footer {
   text-align: center;
