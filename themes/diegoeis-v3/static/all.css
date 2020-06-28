@@ -453,18 +453,17 @@ img.eis-btn-book {
   flex: 1 300px;
   max-width: 300px;
   list-style: none;
-}
-
-.eis-tags-list a {
   text-transform: uppercase;
   color: var(--black);
   font:  400 .625rem var(--sans-serif);
   letter-spacing: 3px;
-  margin-bottom: 10px;
-  display: inline-block;
 }
 
-.eis-tags-list a small {font-weight: 600}
+.eis-tags-list li {margin-bottom: 10px;}
+.eis-tags-list a {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .eis-tags-list:before {
   content: "Tags: ";
