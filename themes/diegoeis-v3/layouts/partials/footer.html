@@ -22,11 +22,13 @@
       dmbtn.addEventListener('click', () => {
         if (document.documentElement.getAttribute('data-darkmode') === 'true') {
           document.documentElement.setAttribute('data-darkmode', 'false')
+          dmbtn.dataset.clicked = 'btn-darkmode-turnoff'
           dmbtn.textContent = "dark on"
           localStorage.removeItem('darkmode')
         } else {
           document.documentElement.setAttribute('data-darkmode', 'true')
           dmbtn.textContent = "dark off"
+          dmbtn.dataset.clicked = 'btn-darkmode-turnon'
           localStorage.setItem('darkmode','true')
         }
       });
@@ -35,6 +37,7 @@
     function checkDarkMode() {
       if(localStorage.getItem("darkmode") != null) {
         document.documentElement.setAttribute('data-darkmode', 'true')
+        dmbtn.dataset.clicked = 'btn-darkmode-turnon'
         dmbtn.textContent = "dark off"
       }
     }
