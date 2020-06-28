@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
 
 * {
   margin: 0;
@@ -11,11 +11,12 @@ body {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
+  background: #F9F9F9;
+  padding: 50px 100px;
 }
 
-
 :root {
-  --serif: 'EB Garamond', "Cormorant Garamond", Georgia, Times, Serif;
+  --serif: "Cormorant Garamond", Georgia, Times, Serif;
   --sans-serif: Nunito Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Open Sans, Arial, Helvetica, sans-serif;
   --yellow: #f9da18;
   --yellowContrast: #0008FF;
@@ -23,15 +24,23 @@ body {
 }
 
 .eis-container {
-  width: 100%;
   max-width: 1000px;
-  margin: 0 60px;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 0 150px;
+  background: #fff;
+  box-shadow: 0 3px 10px -3px rgba(0,0,0,0.40);
 }
+
 @media screen and (max-width: 950px) {
+  body {
+    padding: 20px;
+    background: #FFF;
+  }
   .eis-container {
     margin: 0;
+    padding: 20px;
     width: auto;
+    box-shadow: none;
   }
 }
 .sobre-mim header {
@@ -45,6 +54,129 @@ body {
 }
 
 /***
+  HEADER 
+***/
+
+#eis-header {
+  display: flex;
+  padding: 100px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+
+.eis-menu li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.eis-menu li:first-child {
+  margin-right: 20px
+}
+
+.eis-menu a {
+  font: 700 .90rem var(--sans-serif);
+  text-decoration: none;
+  color: #000;
+}
+
+.eis-menu li img,
+.eis-menu li svg {
+  height: 17px;
+  width: 17px;
+  vertical-align: middle;
+}
+
+.eis-menu li .eis-twitter svg {fill: #24A0EF;}
+.eis-menu li .eis-linkedin svg {fill: #0077B5;}
+.eis-menu li .eis-feed svg {fill: #DC7936;}
+
+.darkmode .eis-menu li .eis-twitter svg,
+.darkmode .eis-menu li .eis-linkedin svg, 
+.darkmode .eis-menu li .eis-feed svg {fill: rgba(255, 255, 255, 1);}
+
+.eis-menu .eis-twitter {position: relative; right: -6px;}
+
+.eis-logo {
+  font: 700 1rem var(--sans-serif);
+  color: #000;
+  text-decoration: none;
+}
+
+#eis-header nav input {
+  position: absolute;
+  top: -20px;
+  left: 0
+}
+
+@media screen and (max-width: 950px) {
+  #eis-header {
+    margin-bottom: 40px;
+    padding: 25px 0;
+    width: auto;
+  }
+
+  .eis-menu {
+    padding-top: 0;
+    display: block;
+    width: 150px;
+    text-align: right;
+  }
+
+  .eis-menu-sandwich {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    display: block;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    background: url(/images/sandwich.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  
+  .eis-menu {
+    background: white;
+    width: 220px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 0;
+    text-align: left;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, .25);
+    padding: 15px 0 25px;
+    display: none;
+    border-radius: 10px 0 0 10px;
+  }
+
+  #eis-header nav input:checked ~ .eis-menu {
+    display: block;
+  }
+
+  .eis-menu li:nth-child(5),
+  .eis-menu li:nth-child(6),
+  .eis-menu li:nth-child(7),
+  .eis-menu li:nth-child(8) {
+    padding: 20px 0;
+    display:inline-block;
+  }
+
+  .eis-menu li {
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+}
+
+/***
   Default Styles
 ***/
 
@@ -53,17 +185,20 @@ a {
   text-decoration: none;
 }
 
-a:hover { box-shadow: inset 0 -6px 0 var(--yellow);}
+a:hover { 
+  box-shadow: 
+  inset 0 -1px 0 white, inset 0 -11px 0 var(--yellow)
+}
 
 h1 {
-  font: 400 3.125rem var(--sans-serif);
+  font: 400 3.125rem var(--serif);
   color: #000;
 }
 
 h1 a:hover {
   box-shadow: 
-    inset 0 -13px 0 white,
-    inset 0 -25px 0 var(--yellow);
+    inset 0 -7px 0 white,
+    inset 0 -23px 0 var(--yellow);
 }
 
 img {
@@ -123,156 +258,21 @@ img {
 .eis-post-tags li:last-child:after {content: "";}
 
 /***
-  HEADER 
-***/
-
-#eis-header {
-  padding: 30px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin: 0 80px;
-  margin-bottom: 80px;
-}
-
-.Section-is-posts #eis-header {
-  margin-bottom: 60px;
-}
-@media screen and (max-width: 700px) {
-  #eis-header {
-    margin: 0;
-  }
-  .Section-is-posts #eis-header {
-    margin-bottom: 20px;
-  }
-
-}
-
-
-.eis-menu li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 15px;
-}
-
-.eis-menu li:first-child {
-  margin-right: 20px
-}
-
-.eis-menu a {
-  font: 700 .93rem var(--sans-serif);
-  text-decoration: none;
-  color: #000;
-}
-
-.eis-menu li img,
-.eis-menu li svg {
-  height: 17px;
-  width: 17px;
-  vertical-align: middle;
-}
-
-.eis-menu li .eis-twitter svg {fill: #24A0EF;}
-.eis-menu li .eis-linkedin svg {fill: #0077B5;}
-.eis-menu li .eis-feed svg {fill: #DC7936;}
-
-.darkmode .eis-menu li .eis-twitter svg,
-.darkmode .eis-menu li .eis-linkedin svg, 
-.darkmode .eis-menu li .eis-feed svg {fill: rgba(255, 255, 255, 1);}
-
-.eis-menu .eis-twitter {position: relative; right: -6px;}
-
-.eis-logo {
-  font: 700 1.25rem var(--sans-serif);
-  color: #000;
-  text-decoration: none;
-}
-
-#eis-header nav input {
-  position: absolute;
-  top: -20px;
-  left: 0
-}
-
-@media screen and (max-width: 950px) {
-  #eis-header {
-    display: block;
-    margin-bottom: 40px;
-    padding: 20px;
-  }
-  .eis-menu {
-    padding-top: 0;
-    display: block;
-    width: 150px;
-    text-align: right;
-  }
-
-  .eis-menu-sandwich {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    display: block;
-    width: 20px;
-    height: 15px;
-    cursor: pointer;
-    background: url(/images/sandwich.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 1;
-  }
-  
-  .eis-menu {
-    background: white;
-    width: 220px;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    z-index: 0;
-    text-align: left;
-    box-shadow: -2px 2px 10px rgba(0, 0, 0, .25);
-    padding: 15px 0 25px;
-    display: none;
-    border-radius: 10px 0 0 10px;
-  }
-
-  #eis-header nav input:checked ~ .eis-menu {
-    display: block;
-  }
-
-  .eis-menu li:nth-child(5),
-  .eis-menu li:nth-child(6),
-  .eis-menu li:nth-child(7),
-  .eis-menu li:nth-child(8) {
-    padding: 20px 0;
-    display:inline-block;
-  }
-
-  .eis-menu li {
-    display: block;
-    text-align: left;
-    padding: 10px 0;
-  }
-
-}
-
-/***
  First Featured Post
 ***/
 .eis-first-post {
-  margin-bottom: 80px;
+  margin: 50px 0 150px;
 }
 
 .eis-first-post h1 {
-  font: 800 2.5rem/1.15 var(--sans-serif);
-  max-width: 800px;
-  margin-bottom: 30px;
+  font: 700 3.12rem/1.15 var(--serif);
+  max-width: 600px;
+  margin: 50px 0;
 }
 
 .eis-first-post .eis-date {
-  margin-bottom: 30px;
   display: inline-block;
+  margin: 0 50px 0 0;
 }
 
 .eis-first-post .eis-date,
@@ -400,7 +400,8 @@ img.eis-btn-book {
   padding: 25px;
   min-height: 170px;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, .25);
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 2px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -420,7 +421,7 @@ img.eis-btn-book {
 }
 
 .eis-list-post li h1 {
-  font: 400 1rem var(--sans-serif);
+  font: 400 1.4rem var(--serif);
 }
 
 .eis-list-post .eis-date {
@@ -485,54 +486,40 @@ img.eis-btn-book {
 *** SINGLE
 *************/
 .eis-article {
-  margin: 0 60px;
-  padding: 25px 20px;
-  width: 100%;
-  max-width: 1000px;
-  background: #fff;
+  padding: 0 0 100px;
+  max-width: 800px;
+  margin: 0 auto;
 }
+
+.eis-article header {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.eis-article header h1 {
+  padding: 50px 0;
+  margin: 0 auto;
+  font-size: 3.5rem;
+ }
+
 
 .eis-article.no-image {margin-top: 100px;}
 
-@media screen and (max-width: 700px) {
-  .eis-article {
-    width: auto;
-    margin:  0;
-  }
-}
-
-.eis-post-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  border-bottom: 1px solid #DFDFDF;
-  padding: 15px 20px;
-}
 
 .Section-is-pages .eis-post-info {display: none;}
 
-/*.eis-article header h1 {
-  width: 100%;
-  max-width: 770px;
-  text-align: center;
-  margin: 80px auto 100px;
-  font-weight: 700;
-  font-size: 3.125rem;
+
+table {
+  margin-bottom: 25px !important;
+  margin: 0 auto;
+  min-width: 450px;
+}
+table td {
+  border-top: 1px solid rgba(0, 0, 0, .3);
 }
 
-.eis-article header h1:after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 5px;
-  background: #000;
-  margin: 100px auto 0;
-}*/
 
 .eis-text {
-  width: 100%;
-  max-width: 700px;
   font: 400 .9375rem/1.75 var(--sans-serif);
 }
 
@@ -541,15 +528,15 @@ img.eis-btn-book {
   margin: 0 0 20px 20px;
 }
 
-
 .eis-text p, .eis-text li {
-  font: 400 1.2rem/1.5 var(--serif);
-  margin-bottom: 17px;
-  color: #39434b;
+  font: 400 1.6rem/1.4 var(--serif);
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .eis-text li {
-  padding-bottom: 13px;
+  margin-bottom: 13px;
+  word-wrap: break-word;
 }
 
 .eis-text a {
@@ -561,9 +548,9 @@ img.eis-btn-book {
 .eis-text a:hover {text-decoration: none;}
 
 .eis-text h1 {
-  margin: 40px 0 10px;
+  margin: 40px auto;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   font-size: 2.2rem;
 }
 
@@ -578,6 +565,7 @@ img.eis-btn-book {
 
 .eis-text iframe {
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .eis-text blockquote {
@@ -709,6 +697,9 @@ img.eis-btn-book {
 
 
 @media screen and (max-width: 700px) {
+  .eis-article header {
+    margin-bottom: 50px;
+  }
   .eis-article header h1 {
     font-size: 2rem;
     margin: 20px auto;
@@ -830,7 +821,14 @@ ul.eis-books-list {
   background: #121212;
 }
 
-[data-darkmode="true"] .eis-article {background: #121212;}
+[data-darkmode="true"] #eis-header {
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+
+[data-darkmode="true"] .eis-article, 
+[data-darkmode="true"] .eis-container, 
+[data-darkmode="true"] body {background: #121212;}
 
 [data-darkmode="true"] a, 
 [data-darkmode="true"] h1, 

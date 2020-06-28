@@ -1,31 +1,34 @@
 {{partial "head.html" . }}
 
 
+<div class="eis-container">
+{{partial "header.html" . }}
+
+
 <!--     {{if .Params.image }}
   <span class="eis-featured-image" style="background-image: url({{ .Params.image }})"></span>
     {{end}}
  -->
+
 <article class="eis-article {{if not .Params.image }}no-image{{end}}">
   <header>
 
-    <div class="eis-first-post">
       <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
-      <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
+      <h1>{{.Title}}</h1>
       {{partial "post-tags.html" . }}
-    </div>
   
   </header>
 
   <div class="eis-text">
     
-    <img src=" {{ .Params.image }}" alt="imagem decorativa">
+    <!-- <img src=" {{ .Params.image }}" alt="imagem decorativa"> -->
 
     {{.Content}}
 <iframe class="eis-newsletter-box" src="https://diegoeis.substack.com/embed" style="width: 700px; height: 300px; margin-bottom: 20px; border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
   </div>
 
-      {{ $related := .Site.RegularPages.Related . | first 4}} {{ with $related }}
+      {{ $related := .Site.RegularPages.Related . | first 3}} {{ with $related }}
     <div class="eis-related-posts">
 
         <h2>Leia também aqui no blog:</h2>
@@ -75,6 +78,7 @@
 
   </div> -->
 </article>
+</div>
 
 {{partial "footer.html" . }}
 
