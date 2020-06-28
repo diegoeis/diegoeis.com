@@ -26,7 +26,7 @@ body {
 .eis-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 150px;
+  padding: 0 150px 100px;
   background: #fff;
   box-shadow: 0 3px 10px -3px rgba(0,0,0,0.40);
 }
@@ -60,7 +60,7 @@ body {
 #eis-header {
   display: flex;
   padding: 100px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -265,8 +265,8 @@ img {
 }
 
 .eis-first-post h1 {
-  font: 700 3.12rem/1.15 var(--serif);
-  max-width: 600px;
+  font: 4rem/1.15 var(--serif);
+  max-width: 800px;
   margin: 50px 0;
 }
 
@@ -487,19 +487,19 @@ img.eis-btn-book {
 *************/
 .eis-article {
   padding: 0 0 100px;
-  max-width: 800px;
   margin: 0 auto;
 }
 
 .eis-article header {
   text-align: center;
-  margin-bottom: 150px;
+  margin: 0 auto 150px;
+  max-width: 800px;
 }
 
 .eis-article header h1 {
   padding: 50px 0;
   margin: 0 auto;
-  font-size: 3.5rem;
+  font-size: 4rem;
  }
 
 
@@ -521,6 +521,8 @@ table td {
 
 .eis-text {
   font: 400 .9375rem/1.75 var(--sans-serif);
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .eis-text ul,
@@ -712,7 +714,6 @@ table td {
   text-align: center;
   padding: 10px;
   margin: 100px 0 25px;
-  border-top: 1px solid rgba(0, 0, 0, .2);
   font: .7rem var(--sans-serif);
   color: var(--black);
 }
