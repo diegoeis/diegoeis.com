@@ -334,8 +334,8 @@ img {
 
 .eis-home-sidebar {
   order: 2;
-  flex: 1 300px;
-  max-width: 300px;
+  flex: 1 270px;
+  max-width: 270px;
 }
 
 .eis-book-home {
@@ -356,7 +356,6 @@ img {
 
 .eis-book-home img {
   margin-bottom: 15px;
-  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -367,7 +366,7 @@ img {
 */
 
 img.eis-btn-book {
-  max-width: 130px;
+  max-width: 120px;
   display: inline-block;
   margin: 10px auto;
 }
