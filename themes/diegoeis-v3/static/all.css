@@ -336,6 +336,7 @@ img {
   order: 2;
   flex: 1 270px;
   max-width: 270px;
+  margin-left: 15px;
 }
 
 .eis-book-home {
@@ -491,22 +492,18 @@ img.eis-btn-book {
   list-style: none;
   text-transform: uppercase;
   color: var(--black);
-  font:  400 .625rem var(--sans-serif);
-  letter-spacing: 3px;
+  font:  400 .7rem var(--sans-serif);
+  letter-spacing: 1px;
 }
 
 .eis-tags-list li {margin-bottom: 10px;}
-.eis-tags-list a {
-  display: inline-block;
-  vertical-align: middle;
-}
+.eis-tags-list a {vertical-align: middle;}
 
-.eis-tags-list:before {
-  content: "Tags: ";
-}
+.eis-tags-list:before {content: "Tags ";}
+
 .eis-tags-list:before,
 .eis-home-sidebar h2 a {
-  font: 500 1rem var(--sans-serif) !important;
+  font: 700 1.1rem var(--sans-serif) !important;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 10px;
