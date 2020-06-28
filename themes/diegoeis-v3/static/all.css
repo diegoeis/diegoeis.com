@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   background: #F9F9F9;
-  padding: 50px 100px;
+  padding: 50px;
 }
 
 :root {
@@ -416,7 +416,7 @@ img.eis-btn-book {
 
 .eis-list-post {
   order: 1;
-  flex: 1 600px;
+  flex: 1 300px;
   display: flex;
   flex-flow:  row;
   flex-wrap: wrap;
