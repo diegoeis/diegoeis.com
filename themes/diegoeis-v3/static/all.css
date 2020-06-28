@@ -132,6 +132,10 @@ body {
   background-image: url(images/avatar-202.png);
 }
 
+.eis-logo:active {
+  transform: scale(.9);
+}
+
 .eis-logo img {
   max-width: 50px; 
   margin: 0 auto; 
@@ -847,6 +851,7 @@ ul.eis-books-list {
   padding: 5px 10px;
   border-radius: 15px;
 }
+
 [data-darkmode="true"] #eis-dark-btn {
   background: rgba(255, 255, 255, .5);
 }
