@@ -11,6 +11,10 @@
   <link rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/diegoeiscom" title="{{ .Site.Title }}">
 
   <link rel="prefetch" href="images/avatar-202.png">
+  
+  
+    <link rel="prerender" href='{{ range first 1 (where .Site.Pages "Type" "post" )}}{{.Permalink}}{{end}}'>
+  
 
   <link rel="preconnect" href="https://app-directory.s3.amazonaws.com">
   <link rel="preconnect" href="https://i.imgur.com">
