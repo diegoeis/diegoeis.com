@@ -3,7 +3,7 @@ title: Meu ano em livros - 2016
 type: post
 date: 2016-12-29
 tags:
-  - Produtividade e Dados pessoais
+  - produtividade-e-dados-pessoais
   - ler assistir e ouvir
 ---
 

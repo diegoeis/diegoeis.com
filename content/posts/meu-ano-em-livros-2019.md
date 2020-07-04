@@ -6,7 +6,7 @@ date: '2019-12-22'
 publishdate: '2019-12-22'
 image: https://diegoeis.com/images/uploads/ano-em-livros-2019/meus-livros.jpg
 tags:
-  - Produtividade e Dados Pessoais
+  - produtividade-e-dados-pessoais
   - ler assistir e ouvir
 ---
 

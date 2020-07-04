@@ -6,7 +6,7 @@ date: '2018-06-03'
 publishdate: '2018-06-03 00:00'
 image: 'https://diegoeis.com/images/uploads/1_gmydwec7eq1nqji8fqkytg.jpeg'
 tags:
-  - Produtividade e Dados pessoais
+  - produtividade-e-dados-pessoais
 ---
 
 Você pode ver os outros artigos dessa série aqui:

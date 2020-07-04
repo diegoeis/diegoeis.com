@@ -6,7 +6,7 @@ date: '2019-12-21'
 publishdate: '2019-12-22 06:00'
 image: 'https://diegoeis.com/images/uploads/babytime-img-post/featured-image.jpg'
 tags:
-  - Produtividade e Dados Pessoais
+  - produtividade-e-dados-pessoais
 ---
 
 Você pode ver os outros artigos dessa série aqui:

@@ -7,7 +7,7 @@ publishdate: '2017-07-27 00:00'
 image: 'https://cdn-images-1.medium.com/max/5200/1*U3Bkz43cwlpF4oF103PQKA.jpeg'
 tags:
   - saude
-  - Produtividade e Dados Pessoais
+  - produtividade-e-dados-pessoais
 ---
 Você pode ver os outros dois artigos da série aqui:
 
