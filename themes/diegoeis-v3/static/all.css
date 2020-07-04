@@ -564,7 +564,7 @@ table td {
 }
 
 .eis-text p, .eis-text li {
-  font: 400 1.6rem/1.4 var(--serif);
+  font: 400 1.1rem/1.8 var(--sans-serif);
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.85);
 }
