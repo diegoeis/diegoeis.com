@@ -119,7 +119,7 @@ body {
   display: inline-block;
   width: 65px;
   height: 65px;
-  background: url(images/avatar-20.jpg) center no-repeat;
+  background: url(images/avatar.jpg) left no-repeat;
   background-size: cover;
   text-indent: -8888px;
   border-radius: 50%; 
@@ -129,7 +129,7 @@ body {
 
 .eis-logo:hover {
   box-shadow: none;
-  background-image: url(images/avatar-202.jpg);
+  background-position: right;
 }
 
 .eis-logo:active {
