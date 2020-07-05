@@ -119,13 +119,12 @@ body {
   display: inline-block;
   width: 65px;
   height: 65px;
-  background: url(images/avatar.jpg) left no-repeat;
+  background: url(/images/uploads/avatar.jpg) left no-repeat;
   background-size: cover;
   text-indent: -8888px;
   border-radius: 50%; 
   overflow: hidden;
 }
-
 
 .eis-logo:hover {
   box-shadow: none;
@@ -434,7 +433,7 @@ img.eis-btn-book {
 }
 
 .eis-list-post li a {
-  padding: 25px;
+  padding: 45px 25px 25px;
   min-height: 170px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, .1);
