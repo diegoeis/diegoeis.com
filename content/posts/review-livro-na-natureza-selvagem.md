@@ -3,7 +3,7 @@ type: post
 title: "Review - Na Natureza Selvagem: A dramática história de um jovem aventureiro"
 excerpt: Um livro que conta a história do Chris McCandless
 date: 2020-07-09
-publishdate: 2020-07-09
+publishdate: 2020-07-09 07:00
 image: https://diegoeis.com/images/uploads/mccandless/McCandless.jpg
 tags:
   - ler-assistir-e-ouvir
@@ -13,9 +13,11 @@ tags:
 
 - - -
 
-Eu conheci essa história por acaso. Algo em torno do dia [19 de Junho](https://edition.cnn.com/travel/article/alaska-into-the-wild-bus-removed-trnd/index.html), o [Fairbanks Bus 142](https://en.wikipedia.org/wiki/Stampede_Trail#Bus_142), um ônibus de 1970 foi retirado da Stampede Trail, no Alaska. Quando vi a reportagem, onde citava brevemente a história do ônibus e da região, corri para pesquisar mais sobre, encontrando [o livro Natureza Selvagem](https://amzn.to/3isf8ng) do Jon Krakauer.
+Eu conheci essa história por acaso. Algo em torno do dia [19 de Junho](https://edition.cnn.com/travel/article/alaska-into-the-wild-bus-removed-trnd/index.html), o [Fairbanks Bus 142](https://en.wikipedia.org/wiki/Stampede_Trail#Bus_142), um ônibus de 1970 foi retirado da Stampede Trail, no Alaska. Quando vi a reportagem, onde citava brevemente a história do ônibus e da região, corri para pesquisar mais sobre o assunto e acabei encontrando [o livro Natureza Selvagem](https://amzn.to/3isf8ng) do Jon Krakauer.
 
-Existe muita polêmica em volta da história sobre o que realmente aconteceu com Alex Supertramp, ou melhor, Chris McCandless, que é seu nome original. Há muita teoria envolvendo a reputação do McCandless, os motivos que o levaram a fazer essa aventura, sua (falta de) preparação e motivos da morte. Contudo, parece que a história cativou uma legião de fãs. Muito por causa desse livro e pelo testemunho das pessoas que o McCandless brevemente se relacionou enquanto fazia a sua viagem, sempre de carona.
+Existe muita polêmica em volta da história sobre o que realmente aconteceu com Alex Supertramp, ou melhor, Chris McCandless, que é seu nome original. Ele morreu em 1992 no Alaska, de inanição, dentro do ônibus abandonado.
+
+Há muita teoria envolvendo a reputação do McCandless, os motivos que o levaram a fazer essa aventura, sua (falta de) preparação e motivos da morte. Contudo, parece que a história cativou uma legião de fãs. Muito por causa desse livro e pelo testemunho das pessoas que o McCandless brevemente se relacionou enquanto fazia a sua viagem, sempre de carona.
 
 O livro carrega muito sentimento. Jon Krakauer é obcecado pela história e pelo próprio McCandless. Jon explica que pouco tempo depois do corpo de McCandless ser encontrado, o editor da revista [Outside Online](https://www.outsideonline.com) (dedicado à artigos, histórias e conteúdo sobre práticas esportivas em ambiente aberto), pediu para que Jon escrevesse um artigo sobre a morte do rapaz. Foi um artigo de mais ou menos 9000 palavras e foi publicado na edição de Janeiro de 1993. O próprio Jon Krakauer é um montanhista, o que explica bastante parte da fascinação dele pelo acontecido. 
 
