@@ -10,7 +10,7 @@ tags:
 - eis a newsletter
 ---
 
-_Imagem: [https://icones8.fr/illustrations/illustration/pablo-working-remotely](https://icones8.fr/illustrations/illustration/pablo-working-remotely)_ 
+_Esse texto foi publicado muito antes na [minha newsletter](https://diegoeis.substack.com/about). [Assine e entre](https://diegoeis.substack.com/) para um grupo de mais de 315 pessoas._
 
 ---
 
@@ -28,6 +28,3 @@ Um Product Manager deveria se chamar Service Manager. Veja como a visão fica ma
 
 A sua peça de hardware ou de software faz parte de um conceito maior que se chama serviço. Do mesmo jeito que o Marketing saiu da ideia antiga de Bens de Consumo para Serviços, o mercado de software deve passar pelo mesmo processo de adaptação e amadurecimento, se familiarizando com um modelo de negócio baseado em serviço e não mais de produto.
 
----
-
-_Esse texto foi publicado muito antes na [minha newsletter](https://diegoeis.substack.com/about). [Assine e entre](https://diegoeis.substack.com/) para um grupo de mais de 315 pessoas._
