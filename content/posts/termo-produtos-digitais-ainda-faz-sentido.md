@@ -1,10 +1,10 @@
 ---
 type: post
-title: "ANOTAÇÃO: O termo produto digitais ainda faz sentido?"
+title: "Anotação: O termo produto digitais ainda faz sentido?"
 excerpt: Uma anotação que fiz esses dias sobre como o termo produtos digitais não reflete o que estamos vivendo
 date: 2020-07-06
 publishdate: 2020-07-06
-image: /images/pablo-working-remotely.png
+image: https://diegoeis.com/images/pablo-working-remotely.png
 tags:
 - product management
 - eis a newsletter
