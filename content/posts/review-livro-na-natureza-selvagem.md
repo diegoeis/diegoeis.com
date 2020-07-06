@@ -2,8 +2,8 @@
 type: post
 title: "Review - Na Natureza Selvagem: A dramática história de um jovem aventureiro"
 excerpt: Um livro que conta a história do Chris McCandless
-date: 2020-07-09
-publishdate: 2020-07-09 07:00
+date: 2020-07-13
+publishdate: 2020-07-13 07:00
 image: https://diegoeis.com/images/uploads/mccandless/McCandless.jpg
 tags:
   - ler-assistir-e-ouvir
