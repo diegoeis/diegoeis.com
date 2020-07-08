@@ -7,6 +7,7 @@ image: https://diegoeis.com/images/uploads/apresentacao-gestao-moderna-produto.j
 tags:
   - ler-assistir-e-ouvir
   - product-management
+  - palestras
 ---
 
 A convite do [Lucas](https://www.linkedin.com/in/lucasprimo-llpp) e da galera de produtos de Campinas, fiz uma palestra falando sobre o assunto que é espinha dorsal do meu livro.
