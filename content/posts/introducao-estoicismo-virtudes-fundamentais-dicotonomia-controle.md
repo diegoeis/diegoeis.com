@@ -4,6 +4,7 @@ title: "Estoicismo: virtudes fundamentais e dicotomia do controle"
 excerpt: "Uma introdução ao estudo do estoicismo."
 date: '2019-07-15'
 publishdate: '2019-07-15 06:00'
+featured: true
 image: https://i.imgur.com/nfR7LzO.jpg?1
 tags:
   - estoicismo
@@ -18,18 +19,17 @@ Mas e se eu te dissesse que um manual pra vida pode existir? Um manual prático 
 
 O Estoicismo foi uma escola filosófica fundada Zenão, em Atenas. 
 
-A teoria do Estoicismo diz que nós vivemos em uma rede de causa e efeito, que é a forma racional que o universo é estruturado. Eles chamam essa rede de "Logos". Nós não temos o controle de como e quais os eventos que nos afetam, mas nós **temos o total controle sobre como nós lidamos com cada evento**. Epiteto diz que **o sofrimento não vem desses eventos, mas do nosso julgamento sobre eles**.
+A teoria do Estoicismo diz que nós vivemos em uma rede de causa e efeito, que é a forma racional que o universo foi estruturado. Eles chamam essa rede de "Logos". Nós não temos o controle de como e quais os eventos que nos afetam, mas nós **temos o total controle sobre como nós lidamos com cada evento**. Epiteto diz que **o sofrimento não vem desses eventos, mas do nosso julgamento sobre eles**.
 
 A filosofia estoica é baseada em dois pilares (totalmente práticos) fundamentais:
 
 1. Virtudes fundamentais;
 2. Dicotomia do controle;
 
-Conforme vou "lendo o manual", vou compartilhando com vocês o que aprendi e meu ponto de vista. Hoje, só apresentar brevemente esses dois pilares, e se você ficar com curiosidade, procure mais depois.
 
 # Virtudes Fundamentais
 
-Então, nós temos lidar com o mundo como ele é, e para controlar nosso julgamento sobre esses eventos, temos que buscar o aperfeiçoamento pessoal. E para buscar nosso aperfeiçoamento pessoal, o Estoicismo tem 4 pontos principais chamados de Virtudes:
+Nós temos lidar com o mundo como ele é, e para controlar nosso julgamento sobre esses eventos, temos que buscar o aperfeiçoamento pessoal. E para buscar nosso aperfeiçoamento pessoal, o Estoicismo tem 4 pontos principais chamados de Virtudes:
 
 - **Sabedoria prática** (phronesis): que é a habilidade de passar e entender situações complexas de maneira calma, lógica, informada;
 - **Coragem** (andreia): Não é apenas do ponto de vista físico, mas sobretudo do ponto de vista moral, de fazer a coisa certa, enfrentando todas as situações com clareza, de forma íntegra, não movido pelo medo ou pela insegurança;
@@ -42,15 +42,15 @@ Virtude é uma forma de conhecimento que direciona um caminho para viver bem em 
 
 ![Stoic Compass](https://i.imgur.com/KFTcxYN.jpg)
 
-Todas essas virtudes são interdependentes, por que a execução correta de qualquer uma dessas virtudes, depende de possuir ou executar todas as outras virtudes.
+Todas essas virtudes são interdependentes e a execução correta de qualquer uma dessas virtudes, depende de possuir ou executar todas as outras virtudes.
 
-Outro ponto interessante é que qualquer pessoa pode desenvolver essas virtudes. Para possuir todas as virtudes não precisa ter nenhum tipo de talento, apenas uma pré disposição de ser melhor a cada dia.
+Outro ponto interessante é que qualquer pessoa pode desenvolver tais virtudes. Para possuir todas as virtudes não precisa ter nenhum tipo de talento, apenas uma pré disposição de ser melhor a cada dia.
 
-Os estoicos e outros filósofos acreditavam que se você almeja e trabalha para alcançar essas virtudes, é tudo o que você precisa para ser essencialmente feliz, sem precisar de motivações externas, como posses, prazeres, dinheiro etc.
+Os estoicos e outros filósofos acreditavam que almejar e trabalhar para alcançar essas virtudes, é tudo o que você precisa para ser essencialmente feliz, sem precisar de motivações externas, como posses, prazeres, dinheiro etc.
 
-Contudo, existe um ponto interessante aqui que não vou abordar no artigo, que os Estoicos não abdicam das coisas externas, como dinheiro. Embora eles achem que dinheiro não é ponto crucial para ter felicidade, eles entendem que se tivermos também dinheiro, mais posses, prazer etc, isso ajuda a termos uma vida ainda mais feliz. 
+Contudo, existe um ponto interessante aqui que não vou abordar nesse texto: ao contrário do que a maioria das pessoas acham, os Estoicos não abdicam totalmente das coisas externas, como o dinheiro. Embora eles achem que dinheiro não seja crucial para ter felicidade, eles entendem que se tivermos dinheiro, posses, prazer etc, ajuda a termos uma vida ainda mais feliz. Mas eles entendem que você não deve perseguir obter essas coisas, porque essa perseguição leva a infelicidade.
 
-Eles dividem isso em Coisas Preferenciais e Coisas Preferenciais Indiferentes. Ou seja, é bom ter dinheiro, posses e prazer, mas você não deve se apegar a isso, dado que amanha você pode não ter nada disso. Já as virtudes estarão sempre contigo e te farão ser uma pessoa auto suficiente.
+Eles dividem essas coisas que devem ser perseguidas em **Coisas Preferenciais** e **Coisas Preferenciais Indiferentes**. Ou seja, é bom ter dinheiro, posses e prazer, mas você não deve se apegar a isso, dado que amanhã, talvez, você pode vir a não ter nada disso. Diferente das virtudes, que estarão sempre com você, te ajudando a ser uma pessoa auto suficiente.
 
 # Dicotomia do controle
 
