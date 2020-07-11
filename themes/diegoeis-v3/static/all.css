@@ -741,6 +741,26 @@ table td {
 }
 
 
+.eis-end-post {
+  display: flex;
+  padding :100px 0;
+  flex-wrap: wrap
+}
+
+.eis-end-post div {
+  flex: 1 0 300px;
+  padding: 0 50px;
+  border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.eis-end-post .gm-substack {
+  padding-left: 0;
+ }
+.eis-end-post .eis-banner-book a:hover {box-shadow: none; opacity: .7}
+.eis-end-post .eis-banner-book {
+  padding: 50px 0 0 50px;
+  border-right: 0;
+}
 
 .eis-footer {
   text-align: center;
@@ -758,6 +778,14 @@ table td {
 @media screen and (max-width: 700px) {
   .eis-footer {
     display: none;
+  }
+  .eis-end-post {
+    padding: 50px 0; 
+  }
+  .eis-end-post div {
+    padding: 0 !important;
+    margin-bottom: 30px;
+    border: none;
   }
 }
 
