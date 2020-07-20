@@ -12,6 +12,9 @@ Você já deve ter feito algumas avaliações de perfil ao longo da sua carreira
 
 Outro dia a firma aplicou um outro teste chamado L.A.B.E.L. Esse teste me pareceu ser mais “tenebroso” que o DISC, sobretudo por que a devolutiva (resultado da avaliação) precisa ser feita por uma especialista formada em psicologia (no meu caso a gloriosa [Juliana](https://www.linkedin.com/in/julianarissardi/)). O resultado do teste me mostrou que sou uma espécie de anti-herói (ou vilão).
 
+![imagem do meu perfil individual e perfil de referencia não padronizado por características](/images/uploads/label1.png)
+![alguns adjetivos que eu me considero e não me considero](/images/uploads/label2.png)
+
 Além de austero, o teste me deu uma série de outros detalhes sobre o meu perfil. Um exemplo foi que ele apontou que sou uma pessoa altamente crítica, autoritária e questionadora (além de outras características que a primeira vista, são ruins para os olhos desatentos). E aí é que vem o motivo pelo qual precisamos de alguém especializado para interpretar o resultado. 
 
 Esse teste tentou me mostrar (com bastante sucesso) as características que formam a essência da minha personalidade. As características que são mais expostas, que no gráfico mostram acima da média (ou na média), formam o lado mais forte da minha personalidade. As características que são menos expostas (abaixo da média), são as características mais estranhas para mim. Isso não quer dizer que sou um cara mal por ser questionador ou autoritário, contanto que eu saiba usar isso nos momentos corretos. 
