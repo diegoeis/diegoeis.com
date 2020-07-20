@@ -2,8 +2,7 @@
 type: post
 title: "Product Managers não decidem negócio"
 excerpt: A responsabilidade de uma PM é o direcionamento do produto, não do negócio
-date: 2020-07-27
-publishdate: 2020-07-27
+date: 2020-07-19
 image: https://diegoeis.com/images/uploads/post-pm-nao-decide-negocio/sean-pollock-PhYq704ffdA-unsplash.jpg
 tags:
 - product management
@@ -31,10 +30,14 @@ Não há maneira de construir um produto e influenciar o serviço oferecido se n
 ## Visão deturpada do mercado
 
 Acho que há uma visão muito deturpada sobre responsabilidades e papéis de gestores de Produto. Isso é perigoso porque pessoas podem deixar suas carreiras pra tentar migrar de área, tendo uma expectativa de algo que não existe.
+
 Esse desenho de um cenário utópico serve apenas para perseguirmos melhoria e evolução contínua. Mas você não deve definir suas prioridades e expectativas se baseando nas utopias que outros insistem em glamorizar.
 
+Outro motivo pelo qual os PMs não podem decidir negócio ou ainda mais: decidir exatamente como será feito e executado no produto, é por que isso tira o poder de autonomia do time, diminui a criatividade e não cria um ambiente de colaboração. O PM deve auxiliar o time, por meio das suas priorizações e decisões de direção de produto. E isso, por si só, leva tempo.
+
+
 ## Ilustrando as responsabilidades
-Existe uma piramide interessantíssima criada pelo [Curtis Stanier](https://twitter.com/crstanier), que mostra a relação das iniciativas, riscos e envolvimento da liderança sênior. Segue abaixo:
+Existe uma pirâmide interessantíssima criada pelo [Curtis Stanier](https://twitter.com/crstanier), que mostra a relação das iniciativas, riscos e envolvimento da liderança sênior. Segue abaixo:
 
 ![](/images/uploads/post-pm-nao-decide-negocio/iniciativas-vs-riscos-vs-quantidade.png)
 
