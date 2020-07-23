@@ -15,7 +15,7 @@ _Esse texto foi publicado muito antes na [PM Letter](https://pmletter.substack.c
 
 ---
 
-Um homem, de negócios, sério e muito inteligente entra em uma das salas do seu escritório em Nova York. A salEu não sei de onde tiraram essa história de que Product Managers decidem direções de negócio. E sim, essa é uma afirmação polêmica e apenas retrata minha opinião (que pode mudar a qualquer momento, mesmo achando isso difícil).
+Eu não sei de onde tiraram essa história de que Product Managers decidem direções de negócio. E sim, essa é uma afirmação polêmica e apenas retrata minha opinião (que pode mudar a qualquer momento, mesmo achando isso difícil).
 
 Gestoras de Produto decidem a direção do produto, mas não do negócio. Product Managers são responsáveis por garantir a viabilidade do produto e a entrega de valor. Sobre o negócio, PMs no máximo ajudam com dados e argumentos que ajudarão os verdadeiros responsáveis pela decisão analisarem as opções e gerações de cenários para então bater o martelo.  
 
