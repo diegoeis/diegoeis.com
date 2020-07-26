@@ -28,7 +28,8 @@ body {
   margin: 0 auto;
   padding: 0 150px 100px;
   background: #fff;
-  box-shadow: 0 7px 7px -2px rgba(0,0,0,.5);
+  box-shadow: 0 4px 9px -1px rgba(0,0,0,0.7);
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 950px) {
@@ -790,7 +791,7 @@ table td {
 }
 
 
-body.meus-livros header h1 {display: none}
+body.Kind-is-page header .eis-date {display: none}
 
 ul.eis-books-list {
   margin: 0;
