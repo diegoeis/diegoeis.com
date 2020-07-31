@@ -13,6 +13,7 @@ Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente e
 **Navegação rápida**:
 
 - [Meus Projetos Pessoais](#meus-projetos-pessoais)
+- [Livro: Gestão Moderna de Produtos Digitais](#gestão-moderna-de-produtos-digitais)
 - [O Tableless](#o-tableless)
 - [O Trabalho](#o-trabalho)
 - [Fale comigo](#me-encontre-me-acompanhe)
@@ -34,6 +35,13 @@ Desde quando eu conheço a web eu tento de alguma forma devolver tudo o que apre
 - **[Palestras](https://speakerdeck.com/diegoeis)**: Eu sou muito ativo na comunidade de produtos e front-end, produzindo conteúdo e falando em muitos eventos como o QCon Brasil, Lean Kanban Brasil, BrasilJS, World Usability Day e muitos eventos, cursos e meetups. Você pode ver minhas apresentações [aqui](https://speakerdeck.com/diegoeis) e [aqui](https://www.slideshare.net/diegoeis).
 - **[Fórum do Tableless](http://forum.tableless.com.br/)**: Esse está um pouco escostado, mas não requer muito trabalho. Mesmo assim, a comunidade tenta se ajudar no Fórum do Tableless, falando sobre front-end e assuntos relacionados;
 
+## Gestão Moderna de Produtos Digitais
+
+Eu escrevi um livro sobre Gestão de Produtos Digitais, mostando meu racional de pensar sobre construção e organização de Produtos Digitais. Nesse livro falo bastante sobre produtos como plataforma, facilitação de criação de valor entre usuário e negócio, responsabilidades de PM, bolha das startups e vários outros assuntos.
+
+Você pode saber mais sobre o [livro no site oficial](https://gestaomodernaprodutosdigitais.com/).
+
+
 ## O Tableless
 
 Eu iniciei minha carreira como desenvolvedor front-end. Era uma época onde a web já tinha chegado aqui de forma comercial e a imigração de profissionais de outras área estava apenas começando. Eu dei a sorte de começar a trabalhar com web em torno de 2000, e de lá para cá eu não parei. 
@@ -46,7 +54,7 @@ Devo dizer que o Tableless mudou minha carreira de forma drástica. De lá para 
 
 ### Hoje *estou* como Head de Produtos Digitais na Sympla
 
-Em 2020 eu fui pra Sympla, uma empresa focada em levar experiências incríveis para as pessoas. Essas experiências podem ser presenciais ou online. Na Sympla eu sou Head de Produtos Digitais da unidade de negócios Bileto, que é focada em Casas Fixas (teatros, eventos de grande porte, museus, parques etc). Nós oferemos ferramentas e recursos para que organizadores de evento possam criar, gerenciar e monitorar seus eventos de forma fácil e produtiva.
+Em 2020 eu fui pra Sympla, uma empresa focada em levar experiências incríveis para as pessoas. Essas experiências podem ser presenciais ou online. Na Sympla eu sou Head de Produtos Digitais da unidade de negócios Bileto, que é focada em Casas Fixas (teatros, eventos de grande porte, museus, parques etc). Nós oferemos ferramentas e recursos para que organizadores, produtores, artistas e patrocinadores possam criar, gerenciar e monitorar seus eventos.
 
 ### 2018: Diretor de Produtos Digitais na Jüssi Business Agency
 
@@ -79,6 +87,6 @@ Eu tento me manter conectado de forma saudável, por isso, existem apenas alguns
 
 - **[Twitter](https://twitter.com/diegoeis)**: Haters gonna Hate, mas o Twitter é a melhor rede e a melhor forma de acompanhar meu trabalho. Falo bastante sobre Gestão de Produtos Digitais, Liderança, Front-end, Investimento e cotidiano. 
 - **[GoodReads](https://www.goodreads.com/author/show/14103843.Diego_Eis)**: O GoodReads é um lugar onde eu me refugio. Se quiser acompanhar o que eu ando lendo.
-- **[LinkedIn](https://www.linkedin.com/in/diegoeis/)**: Se você é alguém mais sério e quer falar estritamente sobre vida profissional, é só me [encontrar no LinkedIn](https://www.linkedin.com/in/diegoeis/). Sempre quero tomar um cafézin e bater um papo. Mas já aviso, sou tímido.
+- **[LinkedIn](https://www.linkedin.com/in/diegoeis/)**: Se você quer falar estritamente sobre vida profissional, é só me [encontrar no LinkedIn](https://www.linkedin.com/in/diegoeis/). Sempre quero tomar um cafézin e bater um papo. Mas já aviso, sou tímido e não luxo nenhum.
 - **[Telegram](https://t.me/diegoeis)**: Se quiser bater um papo, manda mensagem lá no Telegram;
 - **E-mail**: você pode falar comigo via e-mail: diegoeis[at]gmail
