@@ -1,6 +1,6 @@
 ---
 title: Palestras
-date: 2018-02-2018
+date: 2018-02-07
 type: page
 ---
 
