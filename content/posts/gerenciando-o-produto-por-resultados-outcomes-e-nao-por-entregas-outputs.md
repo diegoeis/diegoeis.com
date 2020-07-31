@@ -8,7 +8,7 @@ image: 'https://i.imgur.com/aLKQUnO.jpg'
 tags:
   - gestao e lideranca
   - product management
-  - pmletter
+  - pm-letter
 ---
 É muito comum encontrar Product Managers que raciocinam da seguinte maneira: o usuário tem um problema, então, faço uma funcionalidade/melhoria/mudança e resolvo o problema.
 

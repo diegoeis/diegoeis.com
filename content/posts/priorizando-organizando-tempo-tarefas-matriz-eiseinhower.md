@@ -7,7 +7,7 @@ image: https://i.imgur.com/0NF7saV.png
 tags:
 - produtividade e dados pessoais
 - product management
-- pmletter
+- pm-letter
 ---
 
 Uma pessoa organizada, vale por duas. Já dizia o velho sentado da montanha. Não é fácil decidir quais reuniões ir, quais pessoas falar, quais assuntos devem ser resolvidos primeiro que outros… É importante conseguir se organizar para dar conta de todos os compromissos e principalmente para manter a sua sanidade em dia. Para me ajudar nesse processo, eu uso (tento) um sistema de priorização chamado Matriz de Eisenhower.

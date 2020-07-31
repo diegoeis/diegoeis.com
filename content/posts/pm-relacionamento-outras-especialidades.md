@@ -8,7 +8,7 @@ image: https://i.imgur.com/fnX33ME.png
 tags:
 - gestao e lideranca
 - product management
-- pmletter
+- pm-letter
 ---
 
 _Esse texto foi publicado muito antes na [PM Letter](https://pmletter.substack.com/about), a primeira newsletter para Product Managers do Brasil._

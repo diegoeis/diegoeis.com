@@ -7,7 +7,7 @@ publishdate: '2019-09-28 21:09'
 image: 'https://i.imgur.com/07qZOVY.png'
 tags:
   - product management
-  - pmletter
+  - pm-letter
 ---
 Dizem que ninguém nasce Product Manager. Isso era verdade até um tempo atrás. Hoje, já existem algumas pessoas que começaram suas carreiras como Product Managers e isso é muito bom, pois mostra a evolução do mercado. Mas a grande maioria migrou de outras áreas já existentes do mercado. Isso é comum como qualquer outra profissão, principalmente com quem trabalha com tecnologia. Os primeiros programadores web vieram do mercado de desktops. Mesma coisa com os designers, que vieram do mercado offline. Com Product Managers isso não é diferente. Muitos deles eram antigos PMOs ou GPs, outros migraram das áreas de UX ou Dev.
 
