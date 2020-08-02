@@ -791,7 +791,7 @@ table td {
 }
 
 
-body.Kind-is-page header .eis-date {display: none}
+body.Section-is-pages header .eis-date {display: none}
 
 ul.eis-books-list {
   margin: 0;
