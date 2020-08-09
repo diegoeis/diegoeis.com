@@ -8,14 +8,14 @@ type: page
 
 ## TL: DR;
 
-Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente estou trabalhando como Head de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Anteriormente eu era PM na Neon Pagamentos e antes disso passei pela Easynvest, também como Product Manager. 
+Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente estou trabalhando como Head de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Anteriormente fui PM na [Neon Pagamentos](https://neon.com.br/) e [Easynvest](https://easynvest.com.br/). 
 
 **Navegação rápida**:
 
 - [Meus Projetos Pessoais](#meus-projetos-pessoais)
 - [Livro: Gestão Moderna de Produtos Digitais](#gestão-moderna-de-produtos-digitais)
-- [O Tableless](#o-tableless)
 - [O Trabalho](#o-trabalho)
+- [O Tableless](#o-tableless)
 - [Fale comigo](#me-encontre-me-acompanhe)
 
 ---
@@ -28,11 +28,11 @@ Desde quando eu conheço a web eu tento de alguma forma devolver tudo o que apre
 - **[PM Letter](https://pmletter.email)** é uma Letter semanal feita para Product Managers e pessoas que trabalham com a criação e desenvolvimento de produtos digitais;
 - **[PM ToolKit](http://pmtoolkit.work/)**: é um apanhado de links para conteúdo, ferramentas, livros, cursos sobre gestão de produtos digitais;
 - **[GP - Gestão de Produtos](https://medium.com/gestao-produtos)**: mantenho esse canal no Medium sobre gestão de produto. Ainda está bem parado, porque, né? Tempo a gente nunca arranja. Mas sempre tem um ou outro artigo por lá, meu e de outros autores;
+- **[Palestras](https://speakerdeck.com/diegoeis)**: Eu sou muito ativo na comunidade de produtos e front-end, produzindo conteúdo e falando em muitos eventos como o QCon Brasil, Lean Kanban Brasil, BrasilJS, World Usability Day e muitos eventos, cursos e meetups. Você pode ver minhas apresentações [aqui](https://speakerdeck.com/diegoeis) e [aqui](https://www.slideshare.net/diegoeis).
 - **[Tableless](https://tableless.com.br/)**: é o mais antigo e o maior dos meus projetos pessoais: é um blog com conteúdo sobre front-end, aberto para vários autores. Explico um pouco sobre ele mais abaixo;
 - **[Investidor ToolKit](https://investidor.netlify.com/)**: Eu gosto de investir e ler bastante sobre esse assunto, e sei que tem uma série de pessoas que gostam também, por isso, nos mesmos moldes do PM ToolKit, criei um um apanhado de links para conteúdo, ferramentas, livros, cursos sobre investimento;
 - **Livro [Guia Front-end](https://www.casadocodigo.com.br/products/livro-guia-frontend)**: começar como front-end nunca foi tão difícil quanto atualmente. Antes bastava aprender HTML, CSS e JS. Hoje, você precisa entender todos os frameworks e bibliotecas. Isso gera ansiedade e muitos acabam desistindo. Nesse livro eu tento descomplicar as decisões sobre o que aprender e quando aprender. Bom para iniciantes;
 - **Livro [Introdução à Web Semântica](https://www.casadocodigo.com.br/products/livro-web-semantica)**: Sempre achei Web Semântica um assunto fascinante e ignorado pela comunidade de produtos e principalmente pela comunidade de desenvolvimento. Por isso, escrevi um livro para ajudar as pessoas a entenderem melhor como a Web Semântica está impactando e irá impactar nossas vida no futuro;
-- **[Palestras](https://speakerdeck.com/diegoeis)**: Eu sou muito ativo na comunidade de produtos e front-end, produzindo conteúdo e falando em muitos eventos como o QCon Brasil, Lean Kanban Brasil, BrasilJS, World Usability Day e muitos eventos, cursos e meetups. Você pode ver minhas apresentações [aqui](https://speakerdeck.com/diegoeis) e [aqui](https://www.slideshare.net/diegoeis).
 - **[Fórum do Tableless](http://forum.tableless.com.br/)**: Esse está um pouco escostado, mas não requer muito trabalho. Mesmo assim, a comunidade tenta se ajudar no Fórum do Tableless, falando sobre front-end e assuntos relacionados;
 
 ## Gestão Moderna de Produtos Digitais
