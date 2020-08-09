@@ -6,7 +6,7 @@ image: https://images.pexels.com/photos/6224/hands-people-woman-working.jpg
 tags:
 - design
 - desenvolvimento web
-- product management
+- lideranca e product management
 ---
 
 Eu estava pra escrever um artigo comentando como a pulverização do trabalho do

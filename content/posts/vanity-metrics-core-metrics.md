@@ -6,7 +6,7 @@ excerpt: >-
 date: '2018-05-11T14:23:30.398Z'
 image: https://cdn-images-1.medium.com/max/1200/1*1j-f6nGTB19CMOzU-DazlA.jpeg
 tags: 
-- product-management
+  - lideranca e product management
 ---
 
 **Vanity Metrics** são aquelas métricas que tem como único objetivo mostrar o crescimento (ou não crescimento) de um determinada característica do produto. Geralmente nós esses números seguem a regra do “quanto mais, melhor”. Vanity Metrics são métricas como pageviews, número de seguidores, número de downloads, número de uploads, número de clicks, etc… Quem gosta de dizer para os outros que tem zero seguidores? Que o produto foi baixado zero vezes? Que o não houve pageviews na sua página? São métricas que se os números forem bem grandes, enchem os olhos de todos ao redor, e agradam bastante os stakeholders.

@@ -6,7 +6,7 @@ date: '2020-02-25'
 publishdate: '2020-02-25 22:00'
 tags:
   - ler assistir e ouvir
-  - product-management
+  - lideranca e product management
 ---
 
 [![Capa do livro Comece Pelo Porquê de Simon Sinek](https://i.imgur.com/52k5j9k.jpg)](https://amzn.to/2HUbfq9)

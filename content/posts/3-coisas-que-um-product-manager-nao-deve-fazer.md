@@ -3,8 +3,7 @@ title: 3 coisas que um Product Manager não deve fazer
 type: post
 date: 2017-09-05
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 Ser um Product Manager é chato. Muita gente acha que existe um glamour em ser a pessoa por trás do produto e é isso que seduz muita gente desavisada. O ponto é: não existe só uma pessoa por trás de um produto, mas um time inteiro. Logo, alguns PMs insistem em cair nas armadilhas da vida. Separei 3 coisas que na minha opinião, ajudam a esfolar  a relação do PM com o resto da empresa:

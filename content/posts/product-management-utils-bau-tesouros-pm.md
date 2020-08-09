@@ -4,8 +4,7 @@ type: post
 date: 2020-04-06 10:00:00
 image: https://i.imgur.com/fmNmJdz.jpg
 tags:
-- product management
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Sabe aquele template de Canvas que você nunca mais achou? E aquele livro free sobre gestão de produto que só você tem? Pois é… nos nossos estudos e pesquisas, sempre arranjamos materiais importantes e interessantes que merecem ser guardados para não perdermos.

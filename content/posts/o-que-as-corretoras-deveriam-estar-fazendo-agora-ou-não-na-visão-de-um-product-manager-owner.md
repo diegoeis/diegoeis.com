@@ -6,7 +6,7 @@ date: '2018-05-24'
 publishdate: '2018-05-24 00:00'
 image: 'https://diegoeis.com/images/uploads/blur-chart-data-159888.jpg'
 tags:
-  - Product Management
+  - lideranca e product management
   - fintech
   - investimento e dinheiro
 ---

@@ -3,8 +3,7 @@ title: Quem cuida das pessoas no seu time?
 type: post
 date: 2018-04-25
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 A estrutura que eu tenho visto nascerem em times de desenvolvimentos é mais ou menos assim:

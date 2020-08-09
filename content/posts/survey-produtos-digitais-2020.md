@@ -5,8 +5,7 @@ date: 2020-03-30
 publishdate: 2020-03-30
 image: https://i.imgur.com/zicxi8n.jpg
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 O mercado de Produtos Digitais está crescendo todos os anos. Entre 2017 e 2020 a demanda por Product Managers aumentou muito. Outras áreas como Dados, Agile e Product Designers também viram a quantidade de vagas de trabalho aumentarem de forma incrível. O salário dos desenvolvedores foi lá para as alturas. Startups valendo bilhões, a base de usuários crescendo, ideias dando certo, outras nem tanto. Dizer que trabalha como Product Manager é puro glamour. 

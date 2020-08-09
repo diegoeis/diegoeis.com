@@ -6,8 +6,7 @@ date: 2020-07-23
 publishdate: 2020-07-23
 image: https://diegoeis.com/images/uploads/post-pm-nao-decide-negocio/sean-pollock-PhYq704ffdA-unsplash.jpg
 tags:
-- product management
-- gestao e lideranca
+- lideranca e product management
 - pm-letter
 ---
 

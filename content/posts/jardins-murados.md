@@ -6,7 +6,7 @@ date: 2020-06-24
 publishdate: 2020-06-24
 image: https://i.imgur.com/hsiCWYD.png
 tags:
-- gestao e lideranca
+- lideranca e product management
 - cotidiano e comportamento
 - eis a newsletter
 ---

@@ -5,7 +5,7 @@ date: 2020-04-08 06:00:00
 image: https://i.imgur.com/wibRhDP.jpg
 tags:
 - Cotidiano e Comportamento
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Em meio à crise, empresas seguem uma cartilha óbvia e segura que é ensinada a todos os empreendedores, empresários, líderes e gestores: corte custos, diminua despesas, dispense todos os cargos que não geram valor, corte pessoas com salários estratosféricos etc.

@@ -4,7 +4,7 @@ type: post
 date: 2015-10-19
 tags:
 - agile
-- gestao e lideranca
+- lideranca e product management
 ---
 
 ### Sobre organizar equipes

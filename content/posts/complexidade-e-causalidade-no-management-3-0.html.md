@@ -4,7 +4,7 @@ type: post
 date: 2015-11-20
 tags:
 - agile
-- gestao e lideranca
+- lideranca e product management
 ---
 
 #### As versões de gerenciamento

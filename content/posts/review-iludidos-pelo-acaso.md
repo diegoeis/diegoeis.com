@@ -7,7 +7,7 @@ publishdate: '2020-07-21'
 image: https://i.imgur.com/7dFbaXY.jpg
 tags:
   - ler assistir e ouvir
-  - gestao e lideranca
+  - lideranca e product management
 ---
 
 <a href="https://amzn.to/3eMBOvl"><img src="https://i.imgur.com/7dFbaXY.jpg" alt="Capa do livro Iludidos pelo Acaso - Nassim Taleb" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>

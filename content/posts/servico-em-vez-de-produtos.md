@@ -4,8 +4,7 @@ type: post
 date: 2019-03-25
 image: https://cdn-images-1.medium.com/max/800/0*nNczv2OJQ2q6j0lz
 tags:
-- product management
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Quando falamos sobre Produtos, diretamente pensamos em algo físico, palpável, que você consegue usar e manipular com as suas mãos. Num mundo digital, isso complica um pouco, porque um Produto não necessariamente existe no mundo físico, ele é digital. Você pode até usar algo físico (celular) para usar algo digital (software). A partir daí temos o termo Produtos Digitais para tentar tangibilizar algo que tecnicamente não existe no mundo físico. Então, o termo Produtos Digitais serve mais como uma analogia para algo do mundo real… como acontece com quase tudo no mundo da tecnologia. Copiar, colar, recortar, pastas, janelas, etc… tudo não passa de uma analogia do mundo real para conseguirmos tangibilizar algo do mundo digital.

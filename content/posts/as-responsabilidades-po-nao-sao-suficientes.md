@@ -4,8 +4,7 @@ type: post
 date: 2018-06-07
 image: https://cdn-images-1.medium.com/max/1200/1*3g0iXZJryOCK_zDB4RVnPg.jpeg
 tags:
-- product management
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Esse é um assunto MUITO batido. Mesmo. Há mais discussões sobre as diferenças entre Product Owner e Product Manager que gente na rua 25 de Março em São Paulo. Muito dessa confusão, é que ninguém fala das responsabilidades que cada personagem exerce. Outro ponto, é que ninguém diz que esses dois caras são, na verdade, a mesma pessoa. **Ou pelo menos deveriam ser** (na minha opinião, claro).

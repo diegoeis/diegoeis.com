@@ -4,8 +4,7 @@ type: post
 date: 2018-01-20
 image: https://i.imgur.com/rNAFyJx.jpg
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 - agile
 ---
 

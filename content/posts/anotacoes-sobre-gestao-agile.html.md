@@ -6,7 +6,7 @@ date: 2016-05-05
 tags:
 - anotacoes
 - agile
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Algumas anotações que tenho sobre gestão 3.0, learning 3.0

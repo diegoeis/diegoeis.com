@@ -5,7 +5,7 @@ date: 2020-04-17 06:00:00
 image: https://i.imgur.com/A9uLnIb.jpg
 tags:
 - Cotidiano e Comportamento
-- gestao e lideranca
+- lideranca e product management
 - tecnologia
 ---
 

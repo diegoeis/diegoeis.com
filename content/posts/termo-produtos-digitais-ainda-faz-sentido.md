@@ -6,7 +6,7 @@ date: 2020-07-06
 publishdate: 2020-07-06
 image: https://diegoeis.com/images/pablo-working-remotely.png
 tags:
-- product management
+- lideranca e product management
 - eis a newsletter
 ---
 

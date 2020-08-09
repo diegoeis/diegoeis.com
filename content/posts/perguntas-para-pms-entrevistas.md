@@ -4,8 +4,7 @@ type: post
 date: 2020-03-02
 publishdate: 2020-03-02
 tags:
-- product management
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Já participei de várias entrevistas e processos seletivos para a responsabilidade de Product Manager. Uma certeza que eu posso dar para você é: todos os processos serão diferentes. Tem empresas que fazem um processo mais demorado, envolvendo sessões com RH, depois com a pessoa que será o seu gestor, depois com seus pares, depois com o time que trabalhará com você e provavelmente outras áreas que você terá um contato mais próximo. Outras empresas fazem só uma entrevista com o RH e o seu futuro gestor. Já outras  pedem para que você faça um case de desafio específico para analisar sua comunicação, visão de negócio e de produto. Embora todas sejam abordagens válidas, nenhuma consegue mapear 100% o perfil do candidato. Por isso, vai depender muito do perfil e cultura da empresa. 

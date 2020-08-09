@@ -4,8 +4,7 @@ type: post
 date: 2018-04-06
 image: https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 - design
 ---
 

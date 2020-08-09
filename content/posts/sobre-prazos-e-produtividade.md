@@ -5,7 +5,7 @@ date: 2016-04-17
 image: https://images.pexels.com/photos/1537268/pexels-photo-1537268.jpeg
 tags:
 - agile
-- gestao e lideranca
+- lideranca e product management
 - desenvolvimento web
 ---
 

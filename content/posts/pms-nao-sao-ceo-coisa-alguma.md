@@ -6,7 +6,7 @@ excerpt: >-
 date: '2017-09-10T14:08:19.119Z'
 image: https://cdn-images-1.medium.com/max/1200/1*FCL2EE-143u0fRz1I6oQgw@2x.jpeg
 tags:
-- product-management
+  - lideranca e product management
 ---
 
 Você já deve ter ouvido a frase “O PM é o CEO do produto”. Essa frase se tornou bastante comum entre os PMs na tentativa de explicar qual a responsabilidade do seu papel. A primeira vez que ouvi essa frase foi no ótimo antigo artigo do Ben Horowitz chamado [Good Product Manager/Bad Product Manager](http://a16z.com/2012/06/15/good-product-managerbad-product-manager/). O próprio autor colocou um disclaimer no início do texto avisando que tal artigo pode não se adequar mais à realidade dos PMs hoje. E de veras, não se adequa, pelo menos quando dizemos que o PM é o CEO do produto.

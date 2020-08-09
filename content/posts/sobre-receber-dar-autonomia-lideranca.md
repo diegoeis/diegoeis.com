@@ -4,8 +4,7 @@ type: post
 date: 2019-02-17
 image: https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 Quando você se torna líder - entenda que não estou falando de cargos - a vida fornece algumas ferramentas que provavelmente não estavam disponíveis até então. Normalmente essas ferramentas são "desbloqueadas" conforme você atinge alguns pontos de experiência na sua jornada profissional. Uma dessas ferramentas se chama autonomia.

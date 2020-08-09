@@ -6,7 +6,7 @@ publishdate: 2019-10-02
 image: https://i.imgur.com/0NF7saV.png
 tags:
 - produtividade e dados pessoais
-- product management
+- lideranca e product management
 - pm-letter
 ---
 

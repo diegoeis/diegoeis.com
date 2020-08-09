@@ -4,7 +4,7 @@ type: post
 date: 2020-04-23
 image: https://i.imgur.com/VkICGhb.jpg
 tags:
-- gestao e lideranca
+- lideranca e product management
 - ler assistir e ouvir
 ---
 

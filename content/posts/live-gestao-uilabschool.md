@@ -4,8 +4,7 @@ type: post
 date: 2020-05-06
 image: https://i.imgur.com/LmlOibz.jpg
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 Participarei de uma live no dia 11/05, com o pessoal da [@UILabSchool](https://twitter.com/uilabschool), o [Welliton Matiola](https://twitter.com/wellitonmatiola) e o [Willian Matiola](https://twitter.com/willianmatiola)!

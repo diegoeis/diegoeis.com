@@ -4,7 +4,7 @@ type: post
 date: 2018-12-09
 image: https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg
 tags:
-- product management
+- lideranca e product management
 ---
 
 

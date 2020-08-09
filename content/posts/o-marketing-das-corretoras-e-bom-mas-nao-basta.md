@@ -4,7 +4,7 @@ type: post
 date: 2018-09-27
 image: https://images.pexels.com/photos/251287/pexels-photo-251287.png
 tags:
-- product management
+- lideranca e product management
 - fintech
 ---
 

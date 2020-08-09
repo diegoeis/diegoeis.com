@@ -6,8 +6,7 @@ publishdate: 2020-06-08
 image: /images/uploads/posts/pablo-page-not-found.png
 tags:
 - ler assistir e ouvir
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 

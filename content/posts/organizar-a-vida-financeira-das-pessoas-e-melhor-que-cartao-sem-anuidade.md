@@ -8,7 +8,7 @@ date: 2018-08-13T00:00:00.000Z
 publishdate: '2018-08-12 21:00'
 image: 'https://cdn-images-1.medium.com/max/1000/1*8AsMVWnYibSKmlOUxuoNBA.jpeg'
 tags:
-  - product management
+  - lideranca e product management
   - fintech
   - Investimento e Dinheiro
 ---

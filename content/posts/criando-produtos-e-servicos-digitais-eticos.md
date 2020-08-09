@@ -5,7 +5,7 @@ excerpt: Por que quem constrói produtos e serviços digitais, são responsávei
 date: 2020-08-03
 publishdate: 2020-08-03
 tags:
-  - product-management
+  - lideranca e product management
   - gestao-e-lideranca
 ---
 

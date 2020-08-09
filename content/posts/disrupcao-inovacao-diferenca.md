@@ -6,8 +6,7 @@ date: 2020-07-27
 publishdate: 2020-07-27
 image: https://i.imgur.com/7Flc5Dl.jpg
 tags:
-- product management
-- gestao e lideranca
+- lideranca e product management
 - pm-letter
 ---
 

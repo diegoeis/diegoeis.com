@@ -6,7 +6,7 @@ date: 2020-07-07
 image: https://diegoeis.com/images/uploads/apresentacao-gestao-moderna-produto.jpg
 tags:
   - ler-assistir-e-ouvir
-  - product-management
+  - lideranca e product management
   - palestras
 ---
 

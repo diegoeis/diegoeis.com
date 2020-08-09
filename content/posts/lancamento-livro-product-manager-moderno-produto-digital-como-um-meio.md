@@ -5,8 +5,7 @@ draft: true
 date: 2020-05-24
 publishdate: 2020-05-24
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 - ler assistir e ouvir
 ---
 

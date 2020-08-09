@@ -6,7 +6,7 @@ date: '2019-07-31'
 publishdate: '2019-07-31 06:00'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
 tags:
-  - Product Management
+  - lideranca e product management
   - palestras
 ---
 

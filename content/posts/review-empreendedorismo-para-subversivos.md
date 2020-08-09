@@ -7,7 +7,7 @@ publishdate: '2020-04-07 06:00'
 image: https://i.imgur.com/dkBfM4S.jpg
 tags:
   - ler assistir e ouvir
-  - gestao e lideranca
+  - lideranca e product management
 ---
 
 <a href="https://amzn.to/2QXwYTc"><img src="https://i.imgur.com/VUpSl52.jpg" alt="Capa do livro Empreendorismo para Subversivos - Facundo Guerra" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>

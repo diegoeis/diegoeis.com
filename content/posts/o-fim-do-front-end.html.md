@@ -4,7 +4,7 @@ type: post
 date: 2017-03-19
 tags:
 - desenvolvimento web
-- gestao e lideranca
+- lideranca e product management
 ---
 
 O processo de desenvolvimento web podem se dividir em três categorias: design

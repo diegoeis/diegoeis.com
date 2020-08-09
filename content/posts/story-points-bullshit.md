@@ -4,8 +4,7 @@ type: post
 date: 2017-08-15
 tags:
 - agile
-- product management
-- gestao e lideranca
+- lideranca e product management
 published: false
 ---
 

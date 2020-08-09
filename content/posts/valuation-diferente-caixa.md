@@ -5,7 +5,7 @@ date: 2020-04-06 06:00:00
 image: https://i.imgur.com/l54xEg3.jpg
 tags:
 - Cotidiano e Comportamento
-- gestao e lideranca
+- lideranca e product management
 ---
 
 Esse artigo foi sendo escrito no interior de São Paulo, em Boituva. E nesse momento o mundo está em quarentena por causa do COVID-19, o novo coronavirus.

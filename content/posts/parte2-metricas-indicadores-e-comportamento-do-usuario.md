@@ -5,7 +5,7 @@ excerpt: Entendendo como as tarefas executadas do usuário podem se transformar 
 date: '2019-08-14'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
 tags:
-  - Product Management
+  - lideranca e product management
   - palestras
 ---
 

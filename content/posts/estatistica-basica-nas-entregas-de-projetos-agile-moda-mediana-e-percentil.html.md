@@ -9,7 +9,7 @@ publishdate: '2019-08-02 16:09'
 image: 'https://i.imgur.com/ce2u7U7.jpg'
 tags:
   - agile
-  - gestao e lideranca
+  - lideranca e product management
 ---
 Cada uma das metodologias de gestão de projetos tem suas próprias
 características de funcionamento e essência. Mas todas elas tentam responder uma

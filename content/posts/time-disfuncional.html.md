@@ -4,8 +4,7 @@ type: post
 date: 2016-02-02
 tags:
 - agile
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 O Scrum e qualquer outro método/framework agile é feito para que a equipe consiga se organizar e ter autonomia para tomar todas as decisões importantes, definindo como irão agir para entregar suas tarefas e conseguir completar os objetivos do projeto. Um dos pontos chave para isso tudo dar certo é a comunicação entre os integrantes do time.

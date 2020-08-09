@@ -6,7 +6,7 @@ date: '2019-07-01'
 publishdate: '2019-07-01 06:00'
 image: https://i.imgur.com/QLUQcAP.jpg
 tags:
-  - Product Management
+  - lideranca e product management
   - agile
 ---
 

@@ -8,5 +8,5 @@ categories:
   - notes
   - agile
   - front-end
-  - gestao e lideranca
+  - lideranca e product management
 ---

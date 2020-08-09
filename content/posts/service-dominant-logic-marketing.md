@@ -4,8 +4,7 @@ type: post
 image: https://i.imgur.com/qL6r67S.jpg
 date: 2018-03-05
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 ## Focar no serviço em vez do produto

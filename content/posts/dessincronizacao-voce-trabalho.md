@@ -4,8 +4,7 @@ type: post
 date: 2020-05-22
 image: https://i.imgur.com/JzFeTxO.png
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 Na mesma semana e quase no mesmo dia, dois amigos conversaram comigo sobre suas insatisfações no trabalho e que eles estavam pedindo demissão. Ambos tem bons cargos. Ambos são muito mais inteligentes do que eu. Ambos são especialistas nas suas áreas e ganham, em relação ao resto do Brasil, muito bem. Eles tem outra coisa em comum: são movidos por propósitos. Eles se entregam realmente para empresa a fim de fazerem a diferença no negócio, impactando a vida das pessoas dentro e fora da empresa. Mas as empresas tem seu próprio timing. Esse timing é modificado e regido pelo momento de mercado, pelos clientes e principalmente pelas pessoas que realmente decidem o caminho da empresa. Quando esse timing se dessincroniza com o timing pessoal dos funcionários, a empresa perde talentos... Ou o talento perde uma ótima empresa.

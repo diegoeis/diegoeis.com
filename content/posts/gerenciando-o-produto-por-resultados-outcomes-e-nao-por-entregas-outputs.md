@@ -6,8 +6,8 @@ date: '2019-10-16'
 publishdate: '2019-10-16 06:00'
 image: 'https://i.imgur.com/aLKQUnO.jpg'
 tags:
-  - gestao e lideranca
-  - product management
+  - lideranca e product management
+  - lideranca e product management
   - pm-letter
 ---
 É muito comum encontrar Product Managers que raciocinam da seguinte maneira: o usuário tem um problema, então, faço uma funcionalidade/melhoria/mudança e resolvo o problema.

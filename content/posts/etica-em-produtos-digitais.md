@@ -7,7 +7,7 @@ image: 'https://i.imgur.com/GboQBsC.jpg'
 excerpt: Entendendo o impacto dos princípios éticos nos Produtos Digitais.
 tags:
   - gestao-e-lideranca
-  - Product Management
+  - lideranca e product management
 ---
 
 ## O que é ética?

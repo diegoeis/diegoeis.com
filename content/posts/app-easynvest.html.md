@@ -3,8 +3,7 @@ title: Lançamento App Easynvest
 type: post
 date: 2017-05-14
 tags:
-- gestao e lideranca
-- product management
+- lideranca e product management
 ---
 
 Saiu o novo App da Easynvest! :-D
