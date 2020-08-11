@@ -20,6 +20,7 @@ body {
   --sans-serif: Nunito Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Open Sans, Arial, Helvetica, sans-serif;
   --yellow: #f9da18;
   --yellowContrast: #0008FF;
+  --yellowLight: #FFF090;
   --black: #484848;
 }
 
@@ -218,13 +219,14 @@ a {
 
 a:hover { 
   box-shadow: 
-  inset 0 -1px 0 white, inset 0 -8px 0 var(--yellow)
+  inset 0 -1px 0 white, inset 0 -8px 0 var(--yellowLight)
 }
 
 
 p a:hover { 
   box-shadow: 
-  inset 0 -1px 0 white, inset 0 -11px 0 var(--yellow)
+  inset 0 -1px 0 white, 
+  inset 0 -11px 0 var(--yellowLight)
 }
 
 h1 {
@@ -234,8 +236,8 @@ h1 {
 
 h1 a:hover {
   box-shadow: 
-    inset 0 -7px 0 white,
-    inset 0 -23px 0 var(--yellow);
+    inset 0 -9px 0 white,
+    inset 0 -27px 0 var(--yellowLight);
 }
 
 img {
@@ -302,7 +304,7 @@ img {
 }
 
 .eis-first-post h1 {
-  font: 3.5rem/1.3 var(--serif);
+  font: 700 3.5rem/1.3 var(--serif);
   max-width: 800px;
   margin: 50px 0;
 }
@@ -564,7 +566,7 @@ table td {
 }
 
 .eis-text p, .eis-text li {
-  font: 400 1.1rem/1.8 var(--sans-serif);
+  font: 400 1.05rem/1.6 var(--sans-serif);
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.85);
 }
