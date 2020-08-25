@@ -86,14 +86,13 @@ Eles fazem Discovery para descobrir qual a melhor hipótese eles precisam atacar
 
 ![Imagem mostrando desenho sobre Dual Track de Delivery e Discovery de produto](/images/uploads/post-palestra-mary-cagan-digital-product-week-2020/img4-discovery.jpg)
 
-
 Na fase de delivery eles trabalham para entregar uma solução que confiável, escalável, performática e de fácil manutenção.
 
 Algumas pessoas chamam isso de Dual Track Agile, outras de Continuous Discovery e Delivery. Airbnb chama isso de “Build things don’t scale, then build things that do scale”. O Google chama de “Fake it, then make it”. 
 
 ![Imagem mostrando pontos para testar se seu time é um time empoderado: time é cross-functional, é empdoerado e responsável?](/images/uploads/post-palestra-mary-cagan-digital-product-week-2020/img5-test-empowered-teams.jpg)
 
-Esse é um teste que você pode fazer para entender se seu time é um Empowered Teams. O Canga disse que ficaria feliz se você me dissesse que trabalhasse em um time assim:
+Esse é um teste que você pode fazer para entender se seu time é um Empowered Teams. O Cagan disse que ficaria feliz se você me dissesse que trabalhasse em um time assim:
 
 - Meu time é **Cross Functional**: O time é formado com competente pessoas que cobrem várias especialidades: Devs, design, produtos, qa, etc
 - Meu time é **empoderado**: O time é alinhado para resolver problemas, e eles são capacitados para decidir as soluções desses problemas e tem o poder para decidir;
