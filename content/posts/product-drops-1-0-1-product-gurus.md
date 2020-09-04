@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Product Drops: Quebrei a cara quando virei PM"
+title: "Minha participação no primeiro vídeo do Product Drops"
 excerpt: Minha participação no quadro Product Drops do pessoal da Product Guru's
 date: 2020-08-25
 publishdate: 2020-08-25
