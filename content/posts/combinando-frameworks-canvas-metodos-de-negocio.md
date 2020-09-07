@@ -102,7 +102,7 @@ As minhas sugestões seguem abaixo. Existem ferramentas que aparecem mais de uma
 
 ## Concluindo
 
-Lembre-se que o processo precisa trabalhar pra você, não contrário. Todas essas ferramentas servem pra treinar, exercitar, clarear, equalizar os pontos de vistas das pessoas dos times. Nenhuma dessas ferramentas vai ser útil se elas não forem revistas e atualizadas de tempos em tempos. 
+Lembre-se que o processo precisa trabalhar pra você, não contrário. Todas essas ferramentas servem pra treinar, exercitar, clarear e equalizar os vários pontos de vista do time. Nenhuma dessas ferramentas vai ser útil se elas não forem revistas e atualizadas de tempos em tempos. 
 
 Um Business Model Canvas - que talvez seja o Canvas mais popular dessa lista - muito bem feito e atualizado, pode ajudar um PM a definir funcionalidades, métricas e indicadores, pesquisas de usuário, roadmap de médio e longo prazo. Geralmente PMs desprezam esse tipo de ferramenta por não fazer parte da cartilha atual de gestão de produtos e isso é um erro enorme.
 

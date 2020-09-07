@@ -7,6 +7,7 @@ publishdate: 2020-08-25
 image: /images/uploads/posts/product-drops.png
 tags:
 - lideranca e product management
+- palestras
 ---
 
 A galera do Product Guru's me fez um convite bem legal para participar do Product Drops, um quadro que eles tem, em vídeo, pra falarmos sobre produtos e gestão. 
