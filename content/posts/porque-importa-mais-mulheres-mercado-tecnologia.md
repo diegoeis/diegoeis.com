@@ -6,7 +6,6 @@ date: 2020-09-08
 image: /images/uploads/post-canvas-frameworks-negocios/pawel-czerwinski-yn97LNy0bao-unsplash.jpg
 tags:
 - lideranca e product management
-- cotidiano-e-comportamento
 - anotacoes
 - palestras
 ---

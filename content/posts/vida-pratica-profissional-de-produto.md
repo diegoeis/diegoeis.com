@@ -5,7 +5,6 @@ excerpt: Palestra sobre a vida de um profissional de produto
 date: 2020-09-08
 tags:
 - lideranca e product management
-- cotidiano-e-comportamento
 - anotacoes
 - palestras
 ---
