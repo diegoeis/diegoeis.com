@@ -9,7 +9,7 @@ tags:
 - palestras
 ---
 
-Essa é a anotação da palestra do Alex Ivonika - Product Manager na @AgroSmart, “As fases de vida de todo time de produto - E como founders e CPOs podem se preparar”
+Essa é a anotação da palestra do [Alex Ivonika](https://www.linkedin.com/in/alexivonika/) - Product Manager na @AgroSmart, “As fases de vida de todo time de produto - E como founders e CPOs podem se preparar”
 
 Essas são algumas fases de vida de startups.
 
