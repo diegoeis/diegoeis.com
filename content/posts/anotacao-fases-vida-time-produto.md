@@ -5,7 +5,6 @@ excerpt: Palestra sobre As fases de vida de todo time de produto
 date: 2020-09-08
 tags:
 - lideranca e product management
-- cotidiano-e-comportamento
 - anotacoes
 - palestras
 ---
