@@ -3,7 +3,7 @@ type: post
 title: "Anotação: Por que importa ter mais mulheres na tecnologia"
 excerpt: Palestra sobre como ter mais mulheres no mercado de tecnologia
 date: 2020-09-08
-image: /images/uploads/post-canvas-frameworks-negocios/pawel-czerwinski-yn97LNy0bao-unsplash.jpg
+image: https://images.unsplash.com/photo-1498661367879-c2085689eed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
 tags:
 - lideranca e product management
 - anotacoes

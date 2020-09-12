@@ -1,5 +1,5 @@
 ---
-title: Peguntas para PMs em entrevistas
+title: Perguntas para PMs em entrevistas
 type: post
 date: 2020-03-02
 publishdate: 2020-03-02

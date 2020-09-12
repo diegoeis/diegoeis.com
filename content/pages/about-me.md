@@ -52,7 +52,7 @@ Devo dizer que o Tableless mudou minha carreira de forma drástica. De lá para 
 
 ## O trabalho
 
-### Hoje *estou* como Head de Produtos Digitais na Sympla
+### Hoje estou como Head de Produtos Digitais na Sympla
 
 Em 2020 eu fui pra Sympla, uma empresa focada em levar experiências incríveis para as pessoas. Essas experiências podem ser presenciais ou online. Na Sympla eu sou Head de Produtos Digitais da unidade de negócios Bileto, que é focada em Casas Fixas (teatros, eventos de grande porte, museus, parques etc). Nós oferemos ferramentas e recursos para que organizadores, produtores, artistas e patrocinadores possam criar, gerenciar e monitorar seus eventos.
 
@@ -85,8 +85,8 @@ Em **2006**, comecei uma jornada abrindo minha própria empresa chamada Visie, o
 
 Eu tento me manter conectado de forma saudável, por isso, existem apenas alguns meios de você me encontrar e falar comigo.
 
-- **[Twitter](https://twitter.com/diegoeis)**: Haters gonna Hate, mas o Twitter é a melhor rede e a melhor forma de acompanhar meu trabalho. Falo bastante sobre Gestão de Produtos Digitais, Liderança, Front-end, Investimento e cotidiano. 
+- **[Twitter](https://twitter.com/diegoeis)**: Haters gonna Hate, mas o Twitter é a melhor rede e a melhor forma de acompanhar meu trabalho. Falo bastante sobre Gestão de Produtos Digitais, Liderança e vida cotidiano. 
 - **[GoodReads](https://www.goodreads.com/author/show/14103843.Diego_Eis)**: O GoodReads é um lugar onde eu me refugio. Se quiser acompanhar o que eu ando lendo.
-- **[LinkedIn](https://www.linkedin.com/in/diegoeis/)**: Se você quer falar estritamente sobre vida profissional, é só me [encontrar no LinkedIn](https://www.linkedin.com/in/diegoeis/). Sempre quero tomar um cafézin e bater um papo. Mas já aviso, sou tímido e não luxo nenhum.
+- **[LinkedIn](https://www.linkedin.com/in/diegoeis/)**: Se você quer falar estritamente sobre vida profissional, é só me [encontrar no LinkedIn](https://www.linkedin.com/in/diegoeis/). Sempre quero tomar um cafézin e bater um papo. Mas já aviso, sou tímido e não tenho luxo nenhum.
 - **[Telegram](https://t.me/diegoeis)**: Se quiser bater um papo, manda mensagem lá no Telegram;
 - **E-mail**: você pode falar comigo via e-mail: diegoeis[at]gmail
