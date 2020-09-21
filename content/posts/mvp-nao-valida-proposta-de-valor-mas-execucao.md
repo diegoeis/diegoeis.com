@@ -21,7 +21,11 @@ Nesse momento de vida do produto, é importante entender qual o preço ideal, qu
 O [artigo](https://nestholma.com/minimum-viable-product-mvp-useless-jargon-startup-world/) mostra diversos exemplos de estratégias de empresas como [Dropbox](https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product/) e [Buffer](https://buffer.com/resources/idea-to-paying-customers-in-7-weeks-how-we-did-it/), que usaram para testar como eles começaram a cobrar pelos  seus produtos. Veja bem, eles estão testando aqui como vão cobrar por seus produtos e isso não é a mesma coisa que testar se uma funcionalidade é a correta ou não para ser implementada. Além disso, eles não testando se a ideia ou a proposta de valor dessas empresas é a correta. E aqui, começa minha crítica sobre a imagem do começo do artigo.
 
 ## Validar a proposta de valor vem antes do MVP. O MVP valida a execução.
-A proposta de valor é algo difícil de ser validado com software. Para chegar na fase de escrever software, qualquer que seja o tamanho ou o tipo, você já precisa ter validado - com o mercado e as pessoas que provavelmente seriam as impactadas pelo seu produto/serviço - se a sua ideia realmente é necessária e realmente vai trazer benefícios claros e valor percebido para as pessoas. 
+A proposta de valor é algo difícil de ser validado com software. Value Proposition, minha opinião, está no nível macro de negócio, de posicionamento da empresa, não no nível de software, que é um nível mais tático, de execução. 
+
+Para chegar na fase de escrever software, qualquer que seja o tamanho ou o tipo, você já precisa ter validado - com o mercado e as pessoas que provavelmente seriam as impactadas pelo seu produto/serviço - se a sua ideia realmente é necessária e realmente vai trazer benefícios claros e valor percebido para as pessoas. 
+
+![](/images/uploads/mvp-validacao-ideias/mvp-nivel-software.jpg)
 
 Geralmente você traz muitas hipóteses e suposições, carregadas de viéses pessoais ou de pessoas que acharam a sua ideia extraordinária, e que provavelmente são pessoa que não seriam o público do seu produto/serviço. Algumas suposições comuns que você precisa validar:
 
