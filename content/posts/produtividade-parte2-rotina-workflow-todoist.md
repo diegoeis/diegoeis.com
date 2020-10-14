@@ -8,6 +8,10 @@ tags:
   - produtividade-e-dados-pessoais
 ---
 
+_Esse texto foi publicado antes na [minha newsletter](https://diegoeis.substack.com/). [Assine e entre](https://diegoeis.substack.com/) para um grupo de mais de 450 pessoas._
+
+---
+
 Existem uma série de métodos e workflows de produtividade disponíveis por aí. Mas eu não uso nenhuma de forma completa e íntegra. O que eu fiz foi tentar adaptar hábitos e um ou outro workflow para o minha rotina e tem funcionado muito. 
 
 Eu não tenho uma disciplina correta de olhar minha lista de tarefas todos os dias de manha, por exemplo. Eu uso muito o Todoist para organizar as tarefas importantes que precisam ser feitas, mas geralmente, essas tarefas importantes já estão no meu radar (memória) e raramente perco elas de vista. Tanto, que no final do dia, geralmente, só marco todas elas como feitas. Contudo, tem algumas tarefas que deverão ser feitas dali uns dias, então, o Todoist serve para me lembrar delas e melhorar meu planejamento de médio/longo prazo.

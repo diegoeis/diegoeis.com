@@ -8,6 +8,11 @@ tags:
   - produtividade-e-dados-pessoais
 ---
 
+_Esse texto foi publicado antes na [minha newsletter](https://diegoeis.substack.com/). [Assine e entre](https://diegoeis.substack.com/) para um grupo de mais de 450 pessoas._
+
+---
+
+
 Eu prefiro pensar que produtividade tem mais a ver em fazer as coisas certas, do que fazer uma grande quantidade de coisas em um período de tempo. Por isso, acho que é melhor entender onde colocar o foco e esforço para conseguir alcançar o impacto desejado.
 
 A maior parte do meu dia eu estou envolvido em reuniões e conversando com pessoas por meio de diversos canais. É um fluxo insano de informações e mudanças constantes de contexto. Já cansei de colocar a culpa dessa rotina maluca na empresa, no mercado, nas pessoas, em mim e tudo mais. Até que eu entendi que é muito mais fácil eu mudar minha forma de lidar com isso, do que tentar mudar outras variáveis. É natural conviver nesse tipo de ambiente no mundo de hoje, principalmente se você trabalha com qualquer tipo de gestão. 
