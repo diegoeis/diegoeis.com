@@ -7,7 +7,9 @@ publishdate: 2020-05-30 01:22
 tags:
 - ler assistir e ouvir
 ---
-<a href="https://amzn.to/2TPcld2"><img src="https://i.imgur.com/jhoehTR.jpg" alt="Capa do livro Um cavalheiro em moscou" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>
+
+[![Capa do livro Um cavalheiro em moscou](https://i.imgur.com/jhoehTR.jpg)](https://amzn.to/2TPcld2)
+
 
 Cheguei nesse livro por uma indicação do [Bill Gates no GoodReads](https://www.goodreads.com/blog/show/1871?ref=gsu). Decidi pular a leitura de O Tempo em Marte do PKD, para dar uma chance ao [Um Cavalheiro em Moscou, de Amor Towles](https://amzn.to/2TPcld2). Que bom que eu fiz isso... Provavelmente a melhor leitura que fiz no ano. Adorei a forma leve da escrita, a história, os personagens e a forma com que foi contada. Não é uma história para ler rápido, mas pra se deixar envolver. É uma história para ser degustada, sem pressa. É um livro onde até as notas de rodapé complementam o enredo principal com detalhes indispensáveis.
 

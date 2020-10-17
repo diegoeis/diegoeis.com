@@ -15,7 +15,9 @@ tags:
 - - -
 
 
-<a href="https://amzn.to/3eMBOvl"><img src="/images/uploads/capa-livro-reinventando-organizacoes-frederic-laloux.jpg" alt="Capa do livro Reinventando Organizações de Frederic Laloux" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>
+
+[![Capa do livro Reinventando Organizações de Frederic Laloux](/images/uploads/capa-livro-reinventando-organizacoes-frederic-laloux.jpg)](https://amzn.to/3eMBOvl)
+
 
 
 TODOS os líderes, diretores, CEOs deveriam [ler esse livro](https://amzn.to/318LY4O), e nem precisa ser o livro inteiro, mas pelo menos o segundo capítulo. [Reinventando as Organizações de Frederic Laloux](https://amzn.to/318LY4O) é sem dúvida um livro para guardar na cabeceira como  referência sobre estruturação de times, cultura corporativa e gestão de pessoas.
