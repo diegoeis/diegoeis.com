@@ -27,7 +27,7 @@ Durante muito tempo eu me cobrei por não estar inserido em uma especialidade.  
 
 Na minha cabeça eu só poderia ser alguém especialista. E se é pra ser especialista, você tem que ser alguém que realmente cause impacto no mercado. Que se destaque. E quando eu não conseguia me destacar, isso me impactava negativamente.
 
-## Generalistas não pode ser o alvo?
+## ser generalista é ruim?
 Em combinação a isso, eu sempre ouvia muito que ser generalista era muito ruim e que isso deveria ser evitado. Você conhece o ditado do generalista e o pato, né? Então, essa coisa tão besta, me bloqueava e maltratava muito a visão que eu tinha sobre mim mesmo. Em todos os grupos que eu participava, o generalismo era visto como algo pejorativo. Demorou para eu entender que os grupos que eu estava inserido eram formados por especialistas, com conhecimentos profundos em apenas uma vertical, e que por isso essas opiniões estava recheadas de vieses e costumes focados.
 
 ![](/images/uploads/generalista-feliz/Generalist_vs_Specialist_Advantages_and_Disadvantages.jpg)
