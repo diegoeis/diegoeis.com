@@ -53,7 +53,8 @@ Não apenas os atos, mas também as palavras podem nos fazer se distanciar  da i
 Nós encontramos diversas maneiras para racionalizar nossos atos, justificando-os com palavras que só fazem sentido quando estamos posicionados nessa área cinza. Essa racionalização nos direciona para esse declínio ético que mina a empresa inteira e fundamenta uma cultura ruim, que é disseminada a partir da liderança.
 
 Abaixo seguem alguns trechos que destaquei:
-- “Todo líder que quiser adotar uma mentalidade infinita precisa seguir cinco práticas essenciais: 1) Promova uma Causa Justa; 2) Tenha Equipes de Confiança; 3) Estude Rivais Dignos 4) Prepare-se para a Flexibilidade Existencial 5) Demonstre Coragem para Liderar” - Sinek, Simon. O jogo infinito (p. 31). Sextante. Kindle Edition. 
+
+- “Todo líder que quiser adotar uma mentalidade infinita precisa seguir cinco práticas essenciais: 1) Promova uma Causa Justa; 2) Tenha Equipes de Confiança; 3) Estude Rivais Dignos 4) Prepare-se para a Flexibilidade Existencial 5) Demonstre Coragem para Liderar” - Sinek, Simon. O jogo infinito (p. 31). Sextante. Kindle Edition.
 - “Quando jogamos um jogo finito, jogamos para ganhar. Mesmo quando o que se espera é apenas jogar bem e se divertir, ninguém joga para perder. “ — Sinek, Simon. O jogo infinito (p. 37). Sextante. Kindle Edition. 
 - “Nenhum de nós é capaz de sustentar o incrível sentimento de realização por ter alcançado aquele objetivo, ou pela promoção que obtivemos, ou na competição que vencemos no ano passado. Esses sentimentos já passaram.“ — Sinek, Simon. O jogo infinito (p. 38). Sextante. Kindle Edition. 
 - “Uma declaração de causa bem formulada nos inspira a apresentar nossas ideias, oferecer nosso tempo, nossa experiência, nossas mãos, qualquer coisa que possa ajudar a levar adiante sua nova visão de futuro. É assim que os movimentos nascem.“ — Sinek, Simon. O jogo infinito (p. 43). Sextante. Kindle Edition. 
