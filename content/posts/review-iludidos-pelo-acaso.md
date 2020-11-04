@@ -10,7 +10,9 @@ tags:
   - lideranca e product management
 ---
 
-<a href="https://amzn.to/3eMBOvl"><img src="https://i.imgur.com/7dFbaXY.jpg" alt="Capa do livro Iludidos pelo Acaso - Nassim Taleb" style="max-width: 300px; float: left; margin-right: 20px; margin-bottom: 20px;"></a>
+
+[![Capa do livro Iludidos pelo Acaso - Nassim Taleb](https://i.imgur.com/7dFbaXY.jpg)](https://amzn.to/3eMBOvl)
+
 
 
 O Taleb é sempre direto ao ponto. Ele expõe a opinião dele sem esperar que você aceite. Ele diz o que pensa, de forma crua, deixando você com o direito de aceitar, ou não. Ele é amado ou odiado, muito por que ele critica o comportamento ou a opinião de outras pessoas consideradas intelectuais. 

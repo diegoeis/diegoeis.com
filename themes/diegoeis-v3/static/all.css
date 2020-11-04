@@ -843,31 +843,31 @@ ul.eis-books-list {
   outline: 1px solid red;
 }
 
-[data-darkmode="true"] .eis-blend {
+.dark-mode-on .eis-blend {
   transform: scale(50);
 }
 
-[data-darkmode="true"] .eis-list-post li a:hover {
+.dark-mode-on .eis-list-post li a:hover {
   background: var(--yellowContrast) !important;
 }
 
-[data-darkmode="true"] .eis-list-post li a:hover h1, 
-[data-darkmode="true"] .eis-list-post li a:hover .eis-date {
+.dark-mode-on .eis-list-post li a:hover h1, 
+.dark-mode-on .eis-list-post li a:hover .eis-date {
   color: white;
 }
 
-[data-darkmode="true"] a:hover {
+.dark-mode-on a:hover {
   box-shadow: inset 0 -2px 0 var(--yellowContrast);
   color: black;
 }*/
 
 @media screen and (max-width: 700px) {
-  [data-darkmode="true"] .eis-menu {
+  .dark-mode-on .eis-menu {
     background: rgba(35, 35, 35, 1) !important;
     border: 1px solid rgb(45,45,45)
   }
 
-  [data-darkmode="true"] .eis-menu-sandwich {
+  .dark-mode-on .eis-menu-sandwich {
     background-image: url(/images/sandwich-white.png)
   }
 }
@@ -881,48 +881,51 @@ ul.eis-books-list {
   border-radius: 15px;
 }
 
-[data-darkmode="true"] #eis-dark-btn {
+#eis-dark-btn:before {content: "dark off"}
+.dark-mode-on #eis-dark-btn:before {content: "dark on"}
+
+.dark-mode-on #eis-dark-btn {
   background: rgba(255, 255, 255, .5);
 }
 
-[data-darkmode="true"] {
+.dark-mode-on {
   background: #121212;
 }
 
-[data-darkmode="true"] #eis-header {
+.dark-mode-on #eis-header {
   border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 
-[data-darkmode="true"] .eis-article, 
-[data-darkmode="true"] .eis-container, 
-[data-darkmode="true"] body {background: #121212;}
+.dark-mode-on .eis-article, 
+.dark-mode-on .eis-container, 
+.dark-mode-on body {background: #121212;}
 
-[data-darkmode="true"] a, 
-[data-darkmode="true"] h1, 
-[data-darkmode="true"] p,
-[data-darkmode="true"] .eis-date,
-[data-darkmode="true"] .eis-post-tags li,
-[data-darkmode="true"] .eis-menu a,
-[data-darkmode="true"] .eis-logo,
-[data-darkmode="true"] .eis-post-tags li a,
-[data-darkmode="true"] .eis-tags-list:before,
-[data-darkmode="true"] .eis-list-post li a,
-[data-darkmode="true"] h2, 
-[data-darkmode="true"] h3, 
-[data-darkmode="true"] h4, 
-[data-darkmode="true"] h5, 
-[data-darkmode="true"] h6,
+.dark-mode-on a, 
+.dark-mode-on h1, 
+.dark-mode-on p,
+.dark-mode-on .eis-date,
+.dark-mode-on .eis-post-tags li,
+.dark-mode-on .eis-menu a,
+.dark-mode-on .eis-logo,
+.dark-mode-on .eis-post-tags li a,
+.dark-mode-on .eis-tags-list:before,
+.dark-mode-on .eis-list-post li a,
+.dark-mode-on h2, 
+.dark-mode-on h3, 
+.dark-mode-on h4, 
+.dark-mode-on h5, 
+.dark-mode-on h6,
 .eis-menu li {
   color: #fff;
 }
 
-[data-darkmode="true"] .eis-list-post .eis-date,
-[data-darkmode="true"] .eis-post-tags li a,
-[data-darkmode="true"] .eis-tags-list a,
-[data-darkmode="true"] .eis-text p,
-[data-darkmode="true"] .eis-text li,
-[data-darkmode="true"] .eis-text blockquote {
+.dark-mode-on .eis-list-post .eis-date,
+.dark-mode-on .eis-post-tags li a,
+.dark-mode-on .eis-tags-list a,
+.dark-mode-on .eis-text p,
+.dark-mode-on .eis-text li,
+.dark-mode-on .eis-text blockquote {
   color: #DFDFDF;
 }
 
@@ -931,37 +934,37 @@ ul.eis-books-list {
 }
 
 
-[data-darkmode="true"] .eis-list-post li a {
+.dark-mode-on .eis-list-post li a {
   background: #434343;
 }
 
-[data-darkmode="true"] .eis-list-post li a:hover {
+.dark-mode-on .eis-list-post li a:hover {
   text-decoration: none
 }
 
-[data-darkmode="true"] p a,
-[data-darkmode="true"] .eis-post-tags li a:hover {
+.dark-mode-on p a,
+.dark-mode-on .eis-post-tags li a:hover {
   color: var(--yellow);
 }
 
-[data-darkmode="true"] p a:hover {
+.dark-mode-on p a:hover {
   background: var(--yellow); 
   color: black;
   text-decoration: none;
 }
 
-[data-darkmode="true"] a:hover {
+.dark-mode-on a:hover {
   box-shadow: none;
   color: var(--yellow);
   text-decoration: underline;
 }
 
-[data-darkmode="true"] h1 a:hover {
+.dark-mode-on h1 a:hover {
   box-shadow: none;
   color: var(--yellow);
 }
 
-[data-darkmode="true"] .eis-article header h1:after {
+.dark-mode-on .eis-article header h1:after {
   background: #fff;
 }
 
