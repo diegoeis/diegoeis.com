@@ -1,9 +1,9 @@
 ---
 type: post
-title: Review do livro - Platform Scale do Sangeet Paul Choudary
+title: Review de livro - Iludidos pelo Acaso
 excerpt: Um review sobre o livro do Nassim Taleb sobre o acaso
-date: '2020-11-25'
-publishdate: '2020-11-25'
+date: '2020-07-21'
+publishdate: '2020-07-21'
 image: https://i.imgur.com/7dFbaXY.jpg
 tags:
   - ler assistir e ouvir
@@ -11,42 +11,40 @@ tags:
 ---
 
 
-[![Capa do livro Platform Scale do Sangeet Paul Choudary](https://d188rgcu4zozwl.cloudfront.net/content/B015FAOKJ6/images/cover.jpg)](https://amzn.to/39fMHXn)
+[![Capa do livro Iludidos pelo Acaso - Nassim Taleb](https://i.imgur.com/7dFbaXY.jpg)](https://amzn.to/3eMBOvl)
 
 
 
-O termo Produtos Digitais é um termo que está perdendo muito do seu sentido pra mim, pois remete a uma visão muito estreita sobre algo que é muito maior. Esse termo remete apenas ao pedaço de software que construímos no dia a dia. Tentamos expandir nossa visão dizendo que estamos perto dos usuários, mas essa “desculpa” também não me agrada mais, pois geralmente não temos tempo de falar com os usuários com a frequência, nem com o tempo, nem com a qualidade necessária para conseguirmos extrair informações valiosas. Além disso, o usuário conhece menos do seu produto do que você mesmo. O usuário tem apenas a visão dele, você tem a visão de negócio, do mercado e de todos os outros usuários, incluindo a visão de dados. Contudo, ainda que você expanda sua visão para tentar ter uma aproximação maior com os usuários, você ainda terá uma visão estreita do seu produto.
+O Taleb é sempre direto ao ponto. Ele expõe a opinião dele sem esperar que você aceite. Ele diz o que pensa, de forma crua, deixando você com o direito de aceitar, ou não. Ele é amado ou odiado, muito por que ele critica o comportamento ou a opinião de outras pessoas consideradas intelectuais. 
 
-### Entendendo o dinamisco e o novo modelo de negócio
+Nesse livro ele joga na nossa cara que não faz sentido olhar todos os dias como suas ações estão indo e nem faz sentido sentir inveja das pessoas bem sucedidas... tudo é obra do acaso, ou pelo menos tem uma participação do acaso. 
 
-Para gerir um produto, você precisa entender pra onde a empresa caminha. Precisa conhecer muito do mercado e do negócio que você está inserido. E precisa entender como a cultura, o mercado e a necessidade mudam o comportamento e as ações dos usuários. E para que isso aconteça, você precisa entender como funciona os mecanismos dos sistemas dinâmicos que movimentam o mercado e influenciam a sua empresa, e você só consegue fazer isso tendo uma visão de que seu produto faz parte de uma rede de troca de valor é essa rede é formada porque seu produto constrói uma plataforma, possibilitando interação entre os atores, e essa deveria ser sua única responsabilidade de verdade: criar uma plataforma que facilite a interação entre as pontas da plataforma, orquestrando a geração e o consumo de valor que isso proporciona.
+A ideia geral do livro é que boa parte do sucesso de algumas pessoas, inclusive aquelas que não fazem trabalhos repetitivos e práticos, são joguetes do acaso. Um exemplo: é facilmente possível saber se um cozinheiro ou um artista plástico é bom nas suas profissões. Muito dificilmente eles vão conseguir enganar alguém e dependerá de muita sorte um mal cozinheiro criar um bom prato ou um artista criar um quadro fantástico. Então, essa detecção se torna possível. 
 
-No livro [Platform Scale](https://amzn.to/375EZN8), o Sangeet Paul Choudary explica, de forma muito detalhada, como o modelo de negócio baseado em plataforma funciona, além de como esse modelo impulsiona de maneira exponencial das empresas de tecnologia das últimas décadas. O Sangeet é o porta-voz do termo _economia de plataforma_, que remete a forma com que as empresas de tecnologia se estruturam e se organizam de forma a potencializar a entrega e facilitação de valor e a troca simbiótica de serviços entre empresas e usuários. 
+> Carlos se justificava mostrando que estava “indo bem em relação à indústria”. Isso é um sintoma de problemas sistêmicos: mostra que há toda uma comunidade de traders fazendo exatamente a mesma coisa. Essas declarações, de que outros traders também estão em dificuldades, são autoincriminadoras. A estrutura mental de um trader deve orientá-lo a fazer exatamente o que as outras pessoas não estão fazendo.
 
-O livro poderia ter 100 páginas a menos. Em muitos momentos o autor é redundante nas suas citações e em diversos momentos me deu a impressão de já ter lido alguns trechos. Contudo, o livro é recheado de quotes importantes e estimulantes para quem gosta desse assunto.
+Contudo, isso não é facilmente identificável em profissões como a de trader, onde definir o sucesso de um trader não depende apenas do seu histórico de sucesso, mas também da possibilidade de se manter esse sucesso, inclusive quando acontece eventos imprevisíveis. 
 
-Eu sou apaixonado por esse tema. Me ajudou muito a entender como conectar como mirar a entrega de valor parando usuário ao mesmo tempo que impacta o negócio. Product Managers, geralmente, tem uma visão muito micro, pensando apenas no usuário ou pensando apenas no negócio. Em nenhum desses casos se faz uma conexão de indicadores estratégicos com crescimento de negócio e entrega de valor, além de fortalecimento das conexões entre os atores que fazem possível a plataforma existir.
+> “Lembro-me do comentário de Einstein, de que o senso comum não é nada mais do que um conjunto de equívocos adquiridos aos dezoito anos. Mais que isso: o que soa inteligente em uma conversa, numa reunião e particularmente na mídia é suspeito.”
 
-### Empresas não entregam valor sozinhas
+Ninguém está a salvo das manipulações do acaso. Até o começo deste ano, a Bolsa tinha as melhores previsões possíveis de crescimento, inclusive o nosso país. Saindo de uma crise e começando uma retomada que todos aguardavam ansioso a despeito das atitudes do atual presidente. Mas veio o Covid e simplesmente jogaram todas essas previsões no lixo. 
 
-Empresas não entregam mais sozinhas valor para o mercado e para as pessoas. Pouquíssimas empresas conseguem realmente controlar o fluxo todo de entrega e geração de valor. Posso citar a Apple, o Google e talvez a Microsoft, mas todas elas dependem de atores externos para ajudar, em algum momento, a entregar valor: Apple com devs na App Store. Google com os sites e dados dos usuários. Microsoft com as fabricantes e distribuidores de hardware. Embora todas elas conseguem ter um controle grande do pipe, nenhuma consegue (ou quer) controlar tudo.
+> “Já que não consigo deixar de ser um joguete nas mãos do acaso, o que posso fazer é confinar a aleatoriedade a um lugar que me traga alguma satisfação estética.”
 
-As empresas menos robustas como Spotify, Airbnb, Facebook, Twitter e etc vivem basicamente dessa troca de valor entre os atores da plataforma. Elas perdem a essência se o caso fosse outro. O Airbnb seria uma rede de hotéis se ela mudasse seu modelo de plataforma para o modelo tradicional.  Não faz sentido. Plataforma não é mais uma opção para empresas de produtos e serviços digitais
+Outro ponto é o alerta do autor sobre nosso viés de prestar mais atenção aos ruídos diários que aparecem em noticiários e outros meios de comunicação, em vez de se focar no essencial. Ele trata a probabilidade não como o ato de jogar dados ou uma moeda pra decidir algo, mas a trata mais como a nossa aceitação a falta de certeza.
 
-### Concluindo
+Na minha profissão, temos uma fase que chamamos de discovery. Nessa fase tentamos descobrir o máximo sobre o problema que estamos tentando resolver. Aqui, tentamos (ou deveríamos) diminuir as incertezas. Diminuir incertezas não é a mesma coisa que aumentar certezas. É como você começasse no negativo, e tentasse deixar esse número mais próximo do positivo.
 
-Recomendo fortemente esse livro para pessoas de estratégia, negócios e para quem faz gestão de produtos digitais. Ele é meio repetitivo, mas pontua os principais pontos desse assunto importantíssimo no dia de hoje. A minha pergunta é: qual será o próximo modelo? Será uma evolução ou um totalmente novo?
+> “Num pequeno incremento de tempo, observa-se a variabilidade da carteira, não os retornos. Em outras palavras, vê-se a variância e pouco mais. Sempre me obrigo a lembrar que o que se observa é, na melhor das hipóteses, uma combinação de variância e retornos, não apenas retornos”
 
-Algumas citações que separei:
+Se você investe com ações, tem o impulso quase que diário de olhar seus investimento a fim de acompanhar o mercado. No livro, o Taleb alerta pra esse tipo de atitude, que traz muito mais “pontadas” negativas do que positivas. Seria melhor, diz ele, que nos limitasse a ter um report anual. O acompanhamento micro ou no curto espaço de tempo, faz que se sujeitemos a muito ruído. Como somos emotivos, somos influenciados negativamente com qualquer notícia que achemos que vai impactar nossos investimentos. Traders, gestores de fundos e pessoas que trabalham nesse ramo, são tão emotivos quanto qualquer um e por estarem sempre conectados, acabam influenciando suas decisões nesses ruídos. Por isso notícias tem a tendência de impactar a bolsa pra cima ou pra baixo. Esses ruídos fazem parte da tal da aleatoriedade. 
 
-- The democratization of connectivity and the rise of data-driven decision-making systems are leading to the emergence of a new range of business models.
-- We are no longer in the business of building software. We are increasingly moving into the business of enabling efficient social and business interactions, mediated by software.
-- The platform business model is powered by a new set of factors that determine value creation and competitive advantage.
-- Platforms allow participants to co-create and exchange value with each other.
-- Ecosystems are the key enablers of value creation on platforms and a new source of competitive advantage.
-- Platforms enable value creation and exchange by matching the most relevant resources from producers in the ecosystem with the consumers on the platform that need those resources.
-- Business scale powered by the ability to coordinate internal labor and resources toward efficient value creation and toward delivery of the created value to an aggregated consumer base.
-- Network effects are observed across platforms. The presence of more buyers attracts more sellers on Etsy and eBay. The posting of more videos on YouTube leads to more views and viewer feedback, which in turn leads to the creation of more videos.
-- Platforms that fail to match value to users with high relevance will fail to engage users.
+O autor toca em vários outros pontos bem interessantes, como por exemplo como fazemos julgamentos errados sobre nosso próprio sucesso. Ele da o exemplo de um casal que ganha mais do que 99,5% da população, mas sentem inferiorizados e perdedores porque são os mais pobres da sua vizinhança. São esnobados pelos vizinhos e se sentem mal o tempo inteiro tentando procurar o que fizeram de errado. O ponto de vista do autor é que eles estão se comparando com pessoas que estão no extremo do espectro. Ele justifica com o viés do sobrevivente: na vizinhança e no círculo de pessoas que se relacionam, não há fracassados, apenas uma elite bem sucedida, que eles até fazem parte embora sejam os últimos desse ranking específico. Se eles morassem em uma vizinhança mais modesta e se relacionassem com pessoas menos ricas (e talvez menos esnobes), eles teriam um fator comparativo diferente, se sentindo melhor com seu status e suas conquistas.
 
-[Compre esse livro na Amazon](https://amzn.to/39fMHXn).
+> “É simples assim: os eventos do passado sempre parecerão menos aleatórios do que eram (o que é chamado de viés retrospectivo).”
+
+A gente tenta prever o futuro levando em consideração os comportamentos, acontecimentos e experiências do passado. Esse empirismo pode ser verdadeiro até certo ponto, para aquelas experiências mais constantes e frequentes, olhando muito um pedaço curto de tempo. Não tivemos crises suficientes pra aprender a se prevenir delas. Não tivemos pandemias suficientes para aprender como elas podem se espalhar e como podemos conter de maneira eficaz uma epidemia para que não se torne pandemia. Coisas assim precisam acontecer mais vezes durante a história pra considerarmos que aprendemos com o empirismo. Até aí, estamos sendo apenas brinquedos do acaso. Estamos apenas sendo surpreendidos. Não podemos nem testar nossas ideias de prevenção até aparecer um caso real. Quanto mais tempo ficamos sem não deparar com um evento raro, mais vulneráveis ficamos a ele. 
+
+Os livros do Taleb não são rasos e precisam de muito esforço de interpretação de texto pra conseguir um pouquinho das ideias expostas. Não deve ser lido com pressa. Mas se você gosta de estatista, estudos probabilísticas, mercado financeiro e um bom livro não ficção, recomendo bastante.
+
+[Compre esse livro na Amazon](https://amzn.to/3eMBOvl).
