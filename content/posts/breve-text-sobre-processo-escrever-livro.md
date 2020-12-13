@@ -8,7 +8,7 @@ tags:
 - ler assistir e ouvir
 ---
 
-Foram algo em torno de 180 horas só da escrita, mais algumas várias horas não contadas de arrumação (landing page, mailing, configuração de ferramentas, formatação do livro, revisão, etc). Escrever um livro não é algo muito complexo, mas com certeza não é simples de se fazer. Ainda mais quando você decide fazer publicação própria, sem a ajuda de uma editora.
+Foram algo em torno de 220 horas só da escrita, mais algumas várias horas não contadas de arrumação (landing page, mailing, configuração de ferramentas, formatação do livro, revisão, etc). Escrever um livro não é algo muito complexo, mas com certeza não é simples de se fazer. Ainda mais quando você decide fazer publicação própria, sem a ajuda de uma editora.
 
 Talvez você ache que a parte mais difícil seja escrever o livro. Mas eu acho que não. Você só escreve um livro se você já tem algo pra falar. Se você já tem uma motivação intrínseca de compartilhar qualquer tipo de informação técnica ou fictícia.
 
