@@ -1,0 +1,5 @@
+<ul class="eis-post-tags">
+{{ range .Params.categories }}
+  <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+{{ end }}
+</ul>

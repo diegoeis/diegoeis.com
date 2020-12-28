@@ -504,7 +504,7 @@ img.eis-btn-book {
 .eis-tags-list li {margin-bottom: 10px;}
 .eis-tags-list a {vertical-align: middle;}
 
-.eis-tags-list:before {content: "Tags ";}
+.eis-tags-list:before {content: "Categorias: ";}
 
 .eis-tags-list:before,
 .eis-home-sidebar h2 a {
