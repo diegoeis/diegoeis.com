@@ -5,7 +5,7 @@ excerpt: >-
   código pré gerado chama-se JAMStack. Essa forma de fazer…
 date: '2018-04-12T01:18:19.776Z'
 image: https://cdn-images-1.medium.com/max/800/1*zBOuHYLHQ0_MPB7IqN7f9Q.jpeg
-tags: 
+categories: 
 - tecnologia
 - desenvolvimento-web
 ---

@@ -5,7 +5,7 @@ excerpt: Entendendo como podemos conectar diversos m√©todos e frameworks de neg√
 date: 2020-09-07
 publishdate: 2020-09-07
 image: /images/uploads/post-canvas-frameworks-negocios/pawel-czerwinski-yn97LNy0bao-unsplash.jpg
-tags:
+categories:
 - lideranca e product management
 ---
 

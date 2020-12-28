@@ -3,7 +3,7 @@ title: O que a concentração de riqueza tem a ver com democracia
 type: post
 date: 2017-12-03
 image: https://images.pexels.com/photos/259209/pexels-photo-259209.jpeg
-tags:
+categories:
 - Investimento e Dinheiro
 ---
 

@@ -4,7 +4,7 @@ type: post
 date: 2019-10-02
 publishdate: 2019-10-02
 image: https://i.imgur.com/0NF7saV.png
-tags:
+categories:
 - produtividade e dados pessoais
 - lideranca e product management
 - pm-letter

@@ -2,7 +2,7 @@
 title: 6 dicas para se dar em trabalhos remotos
 type: post
 date: 2014-10-04
-tags:
+categories:
 - desenvolvimento web
 ---
 

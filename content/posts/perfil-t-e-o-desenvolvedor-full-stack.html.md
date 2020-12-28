@@ -5,7 +5,7 @@ excerpt: Sobre uma espécie rara
 date: 2015-11-21T00:00:00.000Z
 publishdate: '2015-11-20 22:00'
 image: 'https://imgur.com/AF81IR0.png'
-tags:
+categories:
   - desenvolvimento web
   - agile
 ---

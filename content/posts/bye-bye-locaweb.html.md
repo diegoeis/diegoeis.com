@@ -2,7 +2,7 @@
 title: Locaweb
 type: post
 date: 2016-12-27
-tags:
+categories:
   - carreira
 ---
 

@@ -5,7 +5,7 @@ excerpt: Uma anotação que fiz esses dias sobre como o termo produtos digitais 
 date: 2020-07-06
 publishdate: 2020-07-06
 image: https://diegoeis.com/images/pablo-working-remotely.png
-tags:
+categories:
 - lideranca e product management
 - eis a newsletter
 ---

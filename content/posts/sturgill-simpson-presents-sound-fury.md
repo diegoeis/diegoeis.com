@@ -4,7 +4,7 @@ title: "Sturgill Simpson Presents Sound & Fury"
 excerpt: Uma versão visual de um álbum musical
 date: 2020-06-27
 image: /images/sturgill-sound-fury.png
-tags:
+categories:
 - ler assistir e ouvir
 ---
 

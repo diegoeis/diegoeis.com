@@ -4,7 +4,7 @@ title: "Defesas competitivas"
 excerpt: As vantagens competitivas nos levam até onde queremos ir, mas são as nossas defesas nos ajudarão a permanecer nesse lugar.
 date: 2020-09-28
 publishdate: 2020-09-28
-tags:
+categories:
 - lideranca e product management
 - pm-letter
 ---

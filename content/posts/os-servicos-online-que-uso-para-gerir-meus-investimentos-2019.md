@@ -2,7 +2,7 @@
 title: Os serviços online que eu uso para gerir meus investimentos
 type: post
 date: 2019-03-30
-tags:
+categories:
 - fintech
 - Investimento e Dinheiro
 ---

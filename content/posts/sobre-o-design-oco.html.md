@@ -5,7 +5,7 @@ excerpt: Um pouco sobre design ordinário e como arranjar argumentos.
 date: 2014-12-03T00:00:00.000Z
 publishdate: '2019-08-08 15:56'
 image: 'https://i.imgur.com/pY6sSos.png'
-tags:
+categories:
   - design
 ---
 Quando construímos um padrão de interface para qualquer tipo de produto digital, é necessário que esse padrão se perpetue, caso contrário seu trabalho não valerá de nada. Esse padrão precisa ser protegido durante todo a produção do projeto, offline ou online, não importa. Para que essa perpetuidade seja real, você e sua equipe precisarão defender esse padrão e para defendê-lo você precisa de argumentos. É aí que o problema aparece.

@@ -4,7 +4,7 @@ excerpt: >-
   Eu não gostava muito de audiobooks. Não há um motivo específico, mas eu
   simplesmente não me acostumei tão facilmente com essa forma de…
 date: '2018-02-04T19:25:13.286Z'
-tags: 
+categories: 
 - ler assistir e ouvir
 ---
 

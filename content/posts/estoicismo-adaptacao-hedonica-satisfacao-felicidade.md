@@ -3,7 +3,7 @@ title: "Estoicismo: Adaptação Hedônica - Entendendo os ciclos de felicidade"
 type: post
 date: 2019-06-13
 image: https://i.imgur.com/UQqFJd1.jpg
-tags:
+categories:
   - cotidiano e comportamento
   - estoicismo
   - saude

@@ -2,7 +2,7 @@
 title: O fim da profissão front-end
 type: post
 date: 2017-03-19
-tags:
+categories:
 - desenvolvimento web
 - lideranca e product management
 ---

@@ -5,7 +5,7 @@ excerpt: Métricas e indicadores são criados por conta da execução de tarefas
 date: '2019-07-31'
 publishdate: '2019-07-31 06:00'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
-tags:
+categories:
   - lideranca e product management
   - palestras
 ---

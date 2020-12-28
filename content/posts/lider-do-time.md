@@ -2,7 +2,7 @@
 title: Quem cuida das pessoas no seu time?
 type: post
 date: 2018-04-25
-tags:
+categories:
 - lideranca e product management
 ---
 

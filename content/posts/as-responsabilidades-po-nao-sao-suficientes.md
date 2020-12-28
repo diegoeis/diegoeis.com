@@ -3,7 +3,7 @@ title: "As responsabilidades de um Product Owner não são suficientes"
 type: post
 date: 2018-06-07
 image: https://cdn-images-1.medium.com/max/1200/1*3g0iXZJryOCK_zDB4RVnPg.jpeg
-tags:
+categories:
 - lideranca e product management
 ---
 

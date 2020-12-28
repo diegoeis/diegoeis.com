@@ -2,7 +2,7 @@
 title: Anotações sobre gestão 3.0
 type: post
 date: 2014-02-11
-tags:
+categories:
 - anotacoes
 - agile
 - lideranca e product management

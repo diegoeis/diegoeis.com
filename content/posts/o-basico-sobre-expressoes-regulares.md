@@ -2,7 +2,7 @@
 title: O básico sobre Expressões Regulares
 type: post
 date: 2016-06-16
-tags:
+categories:
 - desenvolvimento web
 ---
 

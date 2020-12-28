@@ -4,7 +4,7 @@ title: Gestão de Pessoas em Crise
 type: post
 date: 2019-05-26
 image: https://i.imgur.com/Ovt7apc.jpg
-tags:
+categories:
 - lideranca e product management
 - carreira
 ---

@@ -2,7 +2,7 @@
 title: Email Marketing a tortura - Parte 2
 type: post
 date: 2015-04-07
-tags:
+categories:
 - desenvolvimento web
 ---
 

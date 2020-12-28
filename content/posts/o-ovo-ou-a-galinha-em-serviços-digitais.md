@@ -5,7 +5,7 @@ excerpt: Entendendo como paradoxo é aplicado em Serviços Digitais
 date: '2019-08-29'
 publishdate: '2019-08-29 09:53'
 image: 'https://i.imgur.com/DGUnQGu.jpg'
-tags:
+categories:
   - lideranca e product management
 ---
 _Este artigo foi publicado primeiramente na [PM Letter](https://pmletter.email/), uma Letter semanal sobre produtos digitais para Product Managers e pessoas que trabalham com produtos digitais. [Inscreva-se](https://pmletter.email/)._

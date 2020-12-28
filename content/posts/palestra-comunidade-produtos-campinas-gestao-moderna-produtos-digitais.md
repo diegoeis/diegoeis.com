@@ -4,7 +4,7 @@ title: "Slides da Apresentação sobre Gestão Moderna de Serviços Digitais"
 excerpt: O Produto como um meio e não fim
 date: 2020-07-07
 image: https://diegoeis.com/images/uploads/apresentacao-gestao-moderna-produto.jpg
-tags:
+categories:
   - ler-assistir-e-ouvir
   - lideranca e product management
   - palestras

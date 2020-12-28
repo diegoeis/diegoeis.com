@@ -2,7 +2,7 @@
 title: Iniciando com Middleman - Gerador de arquivos estáticos
 type: post
 date: 2014-07-04
-tags:
+categories:
 - desenvolvimento web
 ---
 

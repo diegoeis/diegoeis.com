@@ -3,7 +3,7 @@ title: "Status das Demissões das Startups no Brasil e no mundo"
 type: post
 date: 2020-04-17 06:00:00
 image: https://i.imgur.com/A9uLnIb.jpg
-tags:
+categories:
 - Cotidiano e Comportamento
 - lideranca e product management
 - tecnologia

@@ -3,7 +3,7 @@ title: Projeto, Produtos Digitais e Continuidade
 type: post
 date: 2019-01-07 00:00:00 +0000
 image: https://images.pexels.com/photos/1181343/pexels-photo-1181343.jpeg
-tags:
+categories:
 - lideranca e product management
 - agile
 ---

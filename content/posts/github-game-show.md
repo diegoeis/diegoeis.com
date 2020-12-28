@@ -2,7 +2,7 @@
 title: GitHub Game Off
 type: post
 date: 2017-10-30
-tags:
+categories:
 - desenvolvimento web
 - tecnologia
 ---

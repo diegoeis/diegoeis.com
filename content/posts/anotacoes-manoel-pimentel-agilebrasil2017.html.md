@@ -2,7 +2,7 @@
 title: Anotações - Como não ficar careca em Agile Transformations
 type: post
 date: 2017-09-15
-tags:
+categories:
 - anotacoes
 - agile
 ---

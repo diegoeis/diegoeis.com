@@ -2,7 +2,7 @@
 title: Dia 1 - CSM - ScrumAlliance - AdaptWorks
 type: post
 date: 2016-08-15
-tags:
+categories:
 - agile
 - anotacoes
 ---

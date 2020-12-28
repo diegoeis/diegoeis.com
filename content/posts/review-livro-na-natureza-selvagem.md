@@ -5,7 +5,7 @@ excerpt: Um livro que conta a história do Chris McCandless
 date: 2020-07-13
 publishdate: 2020-07-13 07:00
 image: https://diegoeis.com/images/uploads/mccandless/McCandless.jpg
-tags:
+categories:
   - ler-assistir-e-ouvir
   - eis a newsletter
 ---

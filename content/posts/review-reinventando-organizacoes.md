@@ -5,7 +5,7 @@ excerpt: Review do livro Reinventando Organizações de Frederic Laloux
 date: 2020-08-10
 publishdate: 2020-08-10
 image: https://i.imgur.com/j93wPjO.jpg
-tags:
+categories:
   - ler-assistir-e-ouvir
   - eis a newsletter
 ---

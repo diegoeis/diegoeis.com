@@ -3,7 +3,7 @@ title: "Live da UILab School sobre Gestão Moderna de Produtos Digitais"
 type: post
 date: 2020-05-06
 image: https://i.imgur.com/LmlOibz.jpg
-tags:
+categories:
 - lideranca e product management
 ---
 

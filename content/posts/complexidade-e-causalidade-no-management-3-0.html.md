@@ -2,7 +2,7 @@
 title: Complexidade e Causalidade no gestão 3.0
 type: post
 date: 2015-11-20
-tags:
+categories:
 - agile
 - lideranca e product management
 ---

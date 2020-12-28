@@ -4,7 +4,7 @@ type: post
 draft: true
 date: 2020-05-24
 publishdate: 2020-05-24
-tags:
+categories:
 - lideranca e product management
 - ler assistir e ouvir
 ---

@@ -5,7 +5,7 @@ excerpt: >-
   sucesso.
 date: '2018-05-11T14:23:30.398Z'
 image: https://cdn-images-1.medium.com/max/1200/1*1j-f6nGTB19CMOzU-DazlA.jpeg
-tags: 
+categories: 
   - lideranca e product management
 ---
 

@@ -4,7 +4,7 @@ title: "Produtividade #2 - Rotina e Workflow usando Todoist"
 excerpt: Um pouco sobre como eu organizo minhas tarefas no Todoist
 date: 2020-09-21
 publishdate: 2020-09-21
-tags:
+categories:
   - produtividade-e-dados-pessoais
 ---
 

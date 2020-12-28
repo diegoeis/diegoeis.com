@@ -3,7 +3,7 @@ title: O Internet Archive está melhorando o Wikipedia
 type: post
 date: 2019-11-03
 image: https://i.imgur.com/Yjki2kO.jpg?1
-tags:
+categories:
 - tecnologia
 - ler assistir e ouvir
 ---

@@ -5,7 +5,7 @@ excerpt: Qual o seu tipo de Product Manager?
 date: '2019-09-28'
 publishdate: '2019-09-28 21:09'
 image: 'https://i.imgur.com/07qZOVY.png'
-tags:
+categories:
   - lideranca e product management
   - pm-letter
 ---

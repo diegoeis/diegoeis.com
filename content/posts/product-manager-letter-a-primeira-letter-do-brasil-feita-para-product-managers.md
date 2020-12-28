@@ -5,7 +5,7 @@ excerpt: "Uma Letter para pessoas que produzem, gerem e criam produtos e serviç
 date: '2019-07-01'
 publishdate: '2019-07-01 06:00'
 image: https://i.imgur.com/QLUQcAP.jpg
-tags:
+categories:
   - lideranca e product management
   - agile
 ---

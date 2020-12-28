@@ -5,7 +5,7 @@ excerpt: A responsabilidade de uma PM é o direcionamento do produto, não do ne
 date: 2020-07-23
 publishdate: 2020-07-23
 image: https://diegoeis.com/images/uploads/post-pm-nao-decide-negocio/sean-pollock-PhYq704ffdA-unsplash.jpg
-tags:
+categories:
 - lideranca e product management
 - pm-letter
 ---

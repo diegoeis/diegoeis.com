@@ -4,7 +4,7 @@ excerpt: >-
   Era eu. Pela primeira vez eu fui a pessoa mais velha sentada numa mesa. Eu me
   vi ali, no terceiro dia de trabalho numa startup em São…
 date: '2018-05-20T20:24:52.820Z'
-tags:
+categories:
 - cotidiano-e-comportamento
 ---
 

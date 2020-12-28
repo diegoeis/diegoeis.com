@@ -3,7 +3,7 @@ title: "Os dois front-ends: designer e engineer — Parte 2: Os dois perfis"
 type: post
 date: 2018-06-11
 image: https://cdn-images-1.medium.com/max/1000/0*arM5YJLQAlOFVtBU
-tags:
+categories:
 - desenvolvimento web
 ---
 

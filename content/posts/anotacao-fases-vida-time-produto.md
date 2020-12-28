@@ -3,7 +3,7 @@ type: post
 title: "Anotação: As fases de vida de todo time de produto - E como founders e CPOs podem se preparar"
 excerpt: Palestra sobre As fases de vida de todo time de produto
 date: 2020-09-08
-tags:
+categories:
 - lideranca e product management
 - anotacoes
 - palestras

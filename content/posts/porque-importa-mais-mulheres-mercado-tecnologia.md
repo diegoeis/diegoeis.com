@@ -4,7 +4,7 @@ title: "Anotação: Por que importa ter mais mulheres na tecnologia"
 excerpt: Palestra sobre como ter mais mulheres no mercado de tecnologia
 date: 2020-09-08
 image: https://images.unsplash.com/photo-1498661367879-c2085689eed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-tags:
+categories:
 - lideranca e product management
 - anotacoes
 - palestras

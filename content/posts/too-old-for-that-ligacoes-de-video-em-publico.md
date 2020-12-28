@@ -5,7 +5,7 @@ excerpt: Estou muito velho para fazer ligações de vídeo em público
 date: '2019-11-05'
 publishdate: '2019-11-05 00:00'
 image: 'https://i.imgur.com/xD97thu.png'
-tags:
+categories:
   - cotidiano e comportamento
 ---
 Outro dia eu vi, juro, um jovem de uns 17 anos, andando pela rua, sem fone de ouvido, conversando com um pessoa por vídeo no celular! Pasmem: ele estava falando, sem vergonha nenhuma, com alguém no celular via vídeo. E sem fone de ouvido. Em que momento isso ficou normal?

@@ -5,7 +5,7 @@ excerpt: Quando a quantidade importa e faz a diferença.
 date: '2018-07-02'
 publishdate: '2018-07-02 00:00'
 image: 'https://i.imgur.com/Ro6IiwX.jpg'
-tags:
+categories:
   - lideranca e product management
 ---
 Mágica. Só podia ser mágica. Você escreve algo numa folha de papel e depois coloca essa folha numa máquina. Digita um número e aperta um botão. A máquina suga o papel e em outro lugar, distante, uma pessoa pega o papel que sai de uma máquina similar a sua, com a mensagem que você escreveu. Tipo uma máquina de Xerox que teletransporta uma cópia da sua mensagem para outro canto do planeta!

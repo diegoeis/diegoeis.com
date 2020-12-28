@@ -7,7 +7,7 @@ excerpt: >-
 date: '2019-09-11'
 publishdate: '2019-09-11 06:53'
 image: 'https://i.imgur.com/AwWEi2Q.png'
-tags:
+categories:
   - lideranca e product management
   - pm-letter
 ---

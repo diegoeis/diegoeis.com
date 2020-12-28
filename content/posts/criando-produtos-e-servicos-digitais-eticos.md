@@ -4,7 +4,7 @@ title: "Como criar produtos e serviços éticos"
 excerpt: Por que quem constrói produtos e serviços digitais, são responsáveis pelos seus impactos
 date: 2020-08-03
 publishdate: 2020-08-03
-tags:
+categories:
   - lideranca e product management
   - gestao-e-lideranca
 ---

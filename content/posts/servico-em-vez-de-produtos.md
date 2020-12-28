@@ -3,7 +3,7 @@ title: Construa um Serviço e não um Produto Digital
 type: post
 date: 2019-03-25
 image: https://cdn-images-1.medium.com/max/800/0*nNczv2OJQ2q6j0lz
-tags:
+categories:
 - lideranca e product management
 ---
 

@@ -5,7 +5,7 @@ excerpt: Disrupção determina um novo começo
 date: 2020-07-27
 publishdate: 2020-07-27
 image: https://i.imgur.com/7Flc5Dl.jpg
-tags:
+categories:
 - lideranca e product management
 - pm-letter
 ---

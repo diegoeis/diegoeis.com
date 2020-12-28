@@ -670,6 +670,12 @@ table td {
   margin-bottom: 20px;
 }
 
+.eis-text > p:first-child em {
+  background: #FEFFE0;
+  display:block;
+  padding: 20px;
+}
+
 .eis-featured-image {
   position: absolute;
   top: 130px;

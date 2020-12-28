@@ -5,7 +5,7 @@ excerpt: Review do livro  O Jogo Infinito de Simon Sinek
 date: 2020-10-21
 publishdate: 2020-10-21
 image: https://i.imgur.com/UOjCuD6.jpg
-tags:
+categories:
   - ler-assistir-e-ouvir
   - eis a newsletter
 ---

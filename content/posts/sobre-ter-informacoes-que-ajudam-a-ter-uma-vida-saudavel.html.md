@@ -2,7 +2,7 @@
 title: Sobre ter informações que ajudam a ter uma vida saudável
 type: post
 date: 2014-02-08
-tags:
+categories:
 - saude
 - Produtividade e Dados Pessoais
 ---

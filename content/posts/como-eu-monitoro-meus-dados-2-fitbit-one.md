@@ -5,7 +5,7 @@ excerpt: Como eu guardo dados de atividade diária
 date: '2017-07-31'
 publishdate: '2017-07-31 00:00'
 image: 'https://cdn-images-1.medium.com/max/4400/1*9Ot-CeEJRQmiNlg2YacSnA.jpeg'
-tags:
+categories:
   - saude
   - produtividade-e-dados-pessoais
 ---

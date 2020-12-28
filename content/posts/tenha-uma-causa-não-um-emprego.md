@@ -7,7 +7,7 @@ excerpt: >-
 date: '2020-02-12'
 publishdate: '2020-02-12 12:27'
 image: 'https://i.imgur.com/5pciKIN.jpg'
-tags:
+categories:
   - carreira
   - cotidiano e comportamento
   - palestras

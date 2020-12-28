@@ -4,7 +4,7 @@ type: post
 date: 2020-03-30
 publishdate: 2020-03-30
 image: https://i.imgur.com/zicxi8n.jpg
-tags:
+categories:
 - lideranca e product management
 ---
 

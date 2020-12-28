@@ -5,7 +5,7 @@ excerpt: Empresas erram ao pensar que existe uma forma de implementar a tão fal
 date: 2020-08-17
 publishdate: 2020-08-17
 image: https://i.imgur.com/min6ZoC.jpg
-tags:
+categories:
 - lideranca e product management
 - pm-letter
 ---

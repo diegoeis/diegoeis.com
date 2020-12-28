@@ -5,7 +5,7 @@ excerpt: Por que todo mundo quer ser o Harvey Specter.
 date: 2020-06-10
 publishdate: 2020-06-10
 image: https://i.imgur.com/3aEfVat.png
-tags:
+categories:
 - cotidiano e comportamento
 - eis a newsletter
 ---

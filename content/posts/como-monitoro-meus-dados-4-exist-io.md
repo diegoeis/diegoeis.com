@@ -5,7 +5,7 @@ excerpt: Correlacionando os dados gerados pelos serviços que você usa
 date: '2019-07-29'
 publishdate: '2019-07-29 06:00'
 image: 'https://diegoeis.com/images/uploads/blur-codes-coding-577585.jpg'
-tags:
+categories:
   - produtividade-e-dados-pessoais
 ---
 Você pode ver os outros artigos dessa série aqui:

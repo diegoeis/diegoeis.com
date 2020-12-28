@@ -5,7 +5,7 @@ date: '2019-06-26'
 publishdate: '2019-06-26T06:00:00+00:00'
 image: 'https://i.imgur.com/GboQBsC.jpg'
 excerpt: Entendendo o impacto dos princípios éticos nos Produtos Digitais.
-tags:
+categories:
   - gestao-e-lideranca
   - lideranca e product management
 ---

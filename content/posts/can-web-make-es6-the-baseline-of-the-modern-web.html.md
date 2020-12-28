@@ -2,7 +2,7 @@
 title: Can web make ES6 the baseline of the Modern Web?
 type: post
 date: 2015-07-21
-tags:
+categories:
 - anotacoes
 - desenvolvimento web
 - tecnologia

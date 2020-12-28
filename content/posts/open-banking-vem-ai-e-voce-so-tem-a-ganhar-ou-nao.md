@@ -5,7 +5,7 @@ excerpt: Descentralização do dinheiro, pessoas no controle dos seus dados fina
 image: https://i.imgur.com/WuRPkbl.jpg
 type: post
 date: 2019-04-30
-tags:
+categories:
 - fintech
 - lideranca e product management
 

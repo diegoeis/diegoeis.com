@@ -5,7 +5,7 @@ excerpt: >-
   tornou bastante comum entre os PMs na tentativa de explicar qual a…
 date: '2017-09-10T14:08:19.119Z'
 image: https://cdn-images-1.medium.com/max/1200/1*FCL2EE-143u0fRz1I6oQgw@2x.jpeg
-tags:
+categories:
   - lideranca e product management
 ---
 

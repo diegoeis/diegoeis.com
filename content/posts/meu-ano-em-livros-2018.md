@@ -3,7 +3,7 @@ title: Meu ano em livros — 2018
 type: post
 date: 2018-12-17
 image: https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg
-tags:
+categories:
 - Produtividade e Dados pessoais
 - ler assistir e ouvir
 ---

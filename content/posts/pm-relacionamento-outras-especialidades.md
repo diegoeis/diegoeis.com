@@ -5,7 +5,7 @@ excerpt: Como o Product Manager pode se relacionar com outras áreas
 date: 2020-06-18
 publishdate: 2020-06-18
 image: https://i.imgur.com/fnX33ME.png
-tags:
+categories:
 - lideranca e product management
 - pm-letter
 ---

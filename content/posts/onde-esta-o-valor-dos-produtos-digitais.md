@@ -3,7 +3,7 @@ title: Onde está o valor nos produtos digitais?
 type: post
 date: 2018-12-09
 image: https://images.pexels.com/photos/1266005/pexels-photo-1266005.jpeg
-tags:
+categories:
 - lideranca e product management
 ---
 

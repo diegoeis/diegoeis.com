@@ -5,7 +5,7 @@ excerpt: "Anotações da palestra que o Marty Cagan fez no evento Digital Produc
 date: 2020-08-11
 publishdate: 2020-08-11
 image: https://i.imgur.com/DTt52dI.jpg
-tags:
+categories:
   - lideranca e product management
   - pm-letter
   - palestras

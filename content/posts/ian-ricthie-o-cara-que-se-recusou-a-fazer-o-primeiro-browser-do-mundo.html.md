@@ -5,7 +5,7 @@ excerpt: Ele simplesmente disse não ao Tim Berners-Lee
 date: 2016-07-31T00:00:00.000Z
 publishdate: '2016-07-30 23:20'
 image: 'https://i.imgur.com/NLLbT19.png'
-tags:
+categories:
   - desenvolvimento web
   - tecnologia
 ---

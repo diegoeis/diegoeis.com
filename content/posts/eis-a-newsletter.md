@@ -5,7 +5,7 @@ excerpt: Minha newsletter pessoal
 date: 2020-06-01
 publishdate: 2020-06-01
 image: https://i.imgur.com/OfZ4iZo.png
-tags:
+categories:
 - cotidiano e comportamento
 - ler assistir e ouvir
 ---

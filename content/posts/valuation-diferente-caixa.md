@@ -3,7 +3,7 @@ title: "Pensamento: Valuation não é caixa"
 type: post
 date: 2020-04-06 06:00:00
 image: https://i.imgur.com/l54xEg3.jpg
-tags:
+categories:
 - Cotidiano e Comportamento
 - lideranca e product management
 ---

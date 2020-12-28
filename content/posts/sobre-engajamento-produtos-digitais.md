@@ -4,7 +4,7 @@ title: "Sobre engajamento em Produtos Digitais"
 excerpt: Meus pensamentos sobre o que é engajamento em serviços e produtos digitais.
 image: /images/uploads/sobre-engajamento/hero.jpg
 date: 2020-10-13
-tags:
+categories:
 - lideranca e product management
 - pm-letter
 ---

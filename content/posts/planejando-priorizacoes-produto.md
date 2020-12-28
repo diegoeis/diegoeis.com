@@ -2,7 +2,7 @@
 title: Planejando as priorizações de um produto
 type: post
 date: 2017-12-03
-tags:
+categories:
 - lideranca e product management
 - agile
 ---

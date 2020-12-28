@@ -3,7 +3,7 @@ title: "Opinião: o COVID-19 mostrou o lado ruim das startups"
 type: post
 date: 2020-04-08 06:00:00
 image: https://i.imgur.com/wibRhDP.jpg
-tags:
+categories:
 - Cotidiano e Comportamento
 - lideranca e product management
 ---

@@ -2,7 +2,7 @@
 title: Muito conteúdo para você que começou agora como Product Manager
 type: post
 date: 2018-03-20
-tags:
+categories:
 - lideranca e product management
 image: https://cdn-images-1.medium.com/max/800/1*-UBJIFiaPkOA78_jd71PDQ.jpeg
 ---

@@ -2,7 +2,7 @@
 title: Time disfuncional
 type: post
 date: 2016-02-02
-tags:
+categories:
 - agile
 - lideranca e product management
 ---

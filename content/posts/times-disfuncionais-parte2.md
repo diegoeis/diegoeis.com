@@ -2,7 +2,7 @@
 title: Times disfuncionais - parte 2
 type: post
 date: 2017-07-15
-tags:
+categories:
 - lideranca e product management
 published: false
 ---

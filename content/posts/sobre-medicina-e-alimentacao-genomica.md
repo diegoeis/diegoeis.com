@@ -4,7 +4,7 @@ description: >-
   Essas são minhas anotações de uma palestra que assisti sobre alimentação e
   seus resultados no genoma humano.
 date: '2014-04-15T15:43:49.868Z'
-tags:
+categories:
 - cotidiano e comportamento
 - anotacoes
 ---

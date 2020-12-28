@@ -5,7 +5,7 @@ excerpt: Monitorando meu comportamento e atividades diárias sem dor com App Lif
 date: '2017-07-27'
 publishdate: '2017-07-27 00:00'
 image: 'https://cdn-images-1.medium.com/max/5200/1*U3Bkz43cwlpF4oF103PQKA.jpeg'
-tags:
+categories:
   - saude
   - produtividade-e-dados-pessoais
 ---

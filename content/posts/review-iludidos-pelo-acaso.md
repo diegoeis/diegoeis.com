@@ -5,7 +5,7 @@ excerpt: Um review sobre o livro do Nassim Taleb sobre o acaso
 date: '2020-07-21'
 publishdate: '2020-07-21'
 image: https://i.imgur.com/7dFbaXY.jpg
-tags:
+categories:
   - ler assistir e ouvir
   - lideranca e product management
 ---

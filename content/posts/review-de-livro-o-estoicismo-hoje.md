@@ -5,7 +5,7 @@ excerpt: Um review muito breve sobre o livro O Estoicismo Hoje
 date: '2019-07-01'
 publishdate: '2019-07-01 00:00'
 image: 'https://diegoeis.com/images/uploads/marcus-1024x735-panorama.jpg'
-tags:
+categories:
   - ler assistir e ouvir
   - estoicismo
 ---

@@ -5,7 +5,7 @@ excerpt: Centralização de conteúdo traz centralização de poder
 date: 2020-06-24
 publishdate: 2020-06-24
 image: https://i.imgur.com/hsiCWYD.png
-tags:
+categories:
 - lideranca e product management
 - cotidiano e comportamento
 - eis a newsletter

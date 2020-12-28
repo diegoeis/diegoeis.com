@@ -5,7 +5,7 @@ excerpt: Um review sobre o livro do Facundo Guerra sobre Empreendedorismo
 date: '2020-04-07'
 publishdate: '2020-04-07 06:00'
 image: https://i.imgur.com/dkBfM4S.jpg
-tags:
+categories:
   - ler assistir e ouvir
   - lideranca e product management
 ---

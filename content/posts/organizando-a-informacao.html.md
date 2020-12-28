@@ -2,7 +2,7 @@
 title: Organizando a Informação
 type: post
 date: 2013-06-30
-tags:
+categories:
 - desenvolvimento web
 - tecnologia
 ---

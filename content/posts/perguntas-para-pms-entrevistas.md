@@ -3,7 +3,7 @@ title: Perguntas para PMs em entrevistas
 type: post
 date: 2020-03-02
 publishdate: 2020-03-02
-tags:
+categories:
 - lideranca e product management
 ---
 

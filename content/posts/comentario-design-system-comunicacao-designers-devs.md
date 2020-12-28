@@ -3,7 +3,7 @@ title: "Comentário: Design System e o gap de comunicação entre Designers e De
 type: post
 date: 2019-05-31
 image: https://i.imgur.com/slk72ip.jpg
-tags:
+categories:
   - desenvolvimento web
   - carreira
   - design

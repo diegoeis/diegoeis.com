@@ -5,7 +5,7 @@ excerpt: >-
   nesse pouco tempo deu pra perceber alguns dos costumes da…
 date: '2018-04-06T17:59:59.776Z'
 image: https://cdn-images-1.medium.com/max/1200/1*xE2S1sV5O626-GpVxiiUqg.png
-tags:
+categories:
 - cotidiano-e-comportamento
 ---
 

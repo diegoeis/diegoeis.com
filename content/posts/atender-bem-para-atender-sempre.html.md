@@ -2,7 +2,7 @@
 title: Atender bem para atender sempre
 type: post
 date: 2015-04-29
-tags:
+categories:
 - lideranca e product management
 - carreira
 ---

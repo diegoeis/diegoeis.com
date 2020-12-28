@@ -3,7 +3,7 @@ type: post
 title: "Anotação: A vida prática de um profissional de produto"
 excerpt: Palestra sobre a vida de um profissional de produto
 date: 2020-09-08
-tags:
+categories:
 - lideranca e product management
 - anotacoes
 - palestras

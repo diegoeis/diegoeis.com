@@ -5,7 +5,7 @@ excerpt: Não existe caminho certo ou errado, existe o caminho que te deixa mais
 image: /images/uploads/generalista-feliz/hero.jpg
 date: 2020-10-19
 publishdate: 2020-10-19
-tags:
+categories:
 - eis-a-letter
 - cotidiano-e-comportamento
 ---

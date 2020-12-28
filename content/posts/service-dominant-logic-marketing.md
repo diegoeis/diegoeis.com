@@ -3,7 +3,7 @@ title: Você conhece Service Dominant Logic ou S-D Logic?
 type: post
 image: https://i.imgur.com/qL6r67S.jpg
 date: 2018-03-05
-tags:
+categories:
 - lideranca e product management
 ---
 

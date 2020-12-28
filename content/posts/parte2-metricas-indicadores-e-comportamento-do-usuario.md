@@ -4,7 +4,7 @@ title: 'Parte 2 - Métricas, indicadores e comportamento do usuário'
 excerpt: Entendendo como as tarefas executadas do usuário podem se transformar em um ciclo virtuoso usando o efeito de rede.
 date: '2019-08-14'
 image: 'https://diegoeis.com/images/uploads/luke-chesser-jkutrj4vk00-unsplash.jpg'
-tags:
+categories:
   - lideranca e product management
   - palestras
 ---

@@ -5,7 +5,7 @@ excerpt: Você quer entregar mais ou gerar mais resultados.
 date: '2019-10-16'
 publishdate: '2019-10-16 06:00'
 image: 'https://i.imgur.com/aLKQUnO.jpg'
-tags:
+categories:
   - lideranca e product management
   - lideranca e product management
   - pm-letter

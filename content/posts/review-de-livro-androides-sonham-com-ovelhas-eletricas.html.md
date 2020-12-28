@@ -2,7 +2,7 @@
 title: Review de Livro - Andróides Sonham com Ovelhas Elétricas
 type: post
 date: 2016-04-27
-tags:
+categories:
 - ler assistir e ouvir
 ---
 

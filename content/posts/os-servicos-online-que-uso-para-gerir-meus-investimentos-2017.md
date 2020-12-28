@@ -3,7 +3,7 @@ title: Os serviços online que eu uso para gerir meu dinheiro - 2017
 type: post
 date: 2017-12-03
 image: https://cdn-images-1.medium.com/max/1200/1*3KODRUmTpJBxFwf5uNwKwQ.jpeg
-tags:
+categories:
 - fintech
 - Investimento e Dinheiro
 ---

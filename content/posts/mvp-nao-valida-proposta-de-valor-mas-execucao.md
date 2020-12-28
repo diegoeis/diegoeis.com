@@ -4,7 +4,7 @@ title: "MVP serve para testar a execução da ideia, não a ideia em si"
 excerpt: MVP valida e experimenta a execução de uma ideia, não a ideia em si
 date: 2020-09-21
 publishdate: 2020-09-21
-tags:
+categories:
 - lideranca e product management
 ---
 

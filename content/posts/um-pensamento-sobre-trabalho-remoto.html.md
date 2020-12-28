@@ -2,7 +2,7 @@
 title: Um pensamento sobre trabalho remoto
 type: post
 date: 2016-02-17
-tags:
+categories:
 - desenvolvimento web
 - carreira
 - lideranca e product management

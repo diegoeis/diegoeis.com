@@ -2,7 +2,7 @@
 title: UX - reação é melhor que previsão
 type: post
 date: 2016-12-22
-tags:
+categories:
 - design
 ---
 

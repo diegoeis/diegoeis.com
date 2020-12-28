@@ -5,7 +5,7 @@ excerpt: Minha participação no quadro Product Drops do pessoal da Product Guru
 date: 2020-08-25
 publishdate: 2020-08-25
 image: /images/uploads/posts/product-drops.png
-tags:
+categories:
 - lideranca e product management
 - palestras
 ---

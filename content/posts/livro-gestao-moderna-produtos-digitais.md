@@ -3,7 +3,7 @@ title: "Lancei um livro: Gestão Moderna de Produtos Digitais"
 type: post
 date: 2020-04-26
 image: https://diegoeis.com/images/hero-livro.png
-tags:
+categories:
 - lideranca e product management
 - ler assistir e ouvir
 ---

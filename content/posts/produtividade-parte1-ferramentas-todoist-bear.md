@@ -4,7 +4,7 @@ title: "Produtividade #1 - Todoist e Bear: minhas ferramentas de produtividade"
 excerpt: Um pouco sobre como eu organizo minhas tarefas
 date: 2020-07-20
 publishdate: 2020-07-20
-tags:
+categories:
   - produtividade-e-dados-pessoais
 ---
 

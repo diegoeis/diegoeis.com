@@ -2,7 +2,7 @@
 title: Atlassian libera documentação da sua biblioteca visual
 type: post
 date: 2017-10-29
-tags:
+categories:
 - design
 - desenvolvimento web
 ---

@@ -3,7 +3,7 @@ title: Breve texto sobre o processo de escrever um livro
 type: post
 date: 2020-04-23
 image: https://i.imgur.com/VkICGhb.jpg
-tags:
+categories:
 - lideranca e product management
 - ler assistir e ouvir
 ---

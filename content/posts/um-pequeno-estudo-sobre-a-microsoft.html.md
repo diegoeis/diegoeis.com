@@ -5,7 +5,7 @@ excerpt: Um case que usei em uma entrevista de emprego
 date: 2016-12-31T00:00:00.000Z
 publishdate: '2016-12-30 23:15'
 image: 'https://i.imgur.com/ZHb2c7G.png'
-tags:
+categories:
   - tecnologia
   - lideranca e product management
 ---

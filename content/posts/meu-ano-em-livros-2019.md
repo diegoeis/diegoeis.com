@@ -5,7 +5,7 @@ excerpt: O que eu li durante o ano de 2019 e alguns dados
 date: '2019-12-22'
 publishdate: '2019-12-22'
 image: https://diegoeis.com/images/uploads/ano-em-livros-2019/meus-livros.jpg
-tags:
+categories:
   - produtividade-e-dados-pessoais
   - ler assistir e ouvir
 ---

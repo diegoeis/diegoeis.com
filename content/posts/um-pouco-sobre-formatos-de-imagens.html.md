@@ -3,7 +3,7 @@ title: Um pouco sobre formatos de imagens
 type: post
 date: 2016-07-03
 image: https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?cs=srgb&dl=action-plan-brainstorming-complex-212286.jpg&fm=jpg
-tags:
+categories:
 - desenvolvimento web
 ---
 

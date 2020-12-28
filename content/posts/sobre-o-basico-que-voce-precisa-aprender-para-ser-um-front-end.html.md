@@ -2,7 +2,7 @@
 title: Sobre o básico que você precisa aprender para ser um front-end
 type: post
 date: 2014-05-15
-tags:
+categories:
 - desenvolvimento web
 ---
 

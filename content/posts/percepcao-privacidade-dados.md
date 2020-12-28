@@ -5,7 +5,7 @@ excerpt: Será que damos importância o suficiente para nossa privacidade online
 date: 2020-06-15
 publishdate: 2020-06-15
 image: https://i.imgur.com/dCwETLP.png
-tags:
+categories:
 - cotidiano e comportamento
 - eis a newsletter
 ---

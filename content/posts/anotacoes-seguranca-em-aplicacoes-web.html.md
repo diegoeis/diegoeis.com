@@ -2,7 +2,7 @@
 title: Anotações Segurança em Aplicações Web
 type: post
 date: 2014-05-20
-tags:
+categories:
 - anotacoes
 - desenvolvimento web
 ---
