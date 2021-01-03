@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Cormorant+Garamond:wght@400;600;700&family=Nunito+Sans:wght@400;700;800&display=swap');
+
+
 
 * {
   margin: 0;
@@ -19,7 +20,7 @@ body {
 }
 
 :root {
-  --serif: "Cormorant Garamond", Georgia, Times, Serif;
+  --serif: "Crimson Text", "Cormorant Garamond", Georgia, Times, Serif;
   --sans-serif: Nunito Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Open Sans, Arial, Helvetica, sans-serif;
   --yellow: #f9da18;
   --yellowContrast: #0008FF;
@@ -537,6 +538,7 @@ img.eis-btn-book {
   padding: 50px 0;
   margin: 0 auto;
   font-size: 3.5rem;
+  font-weight: ;
  }
 
 
@@ -558,7 +560,7 @@ table td {
 
 
 .eis-text {
-  font: 400 .9375rem/1.75 var(--sans-serif);
+  /* font: 400 .9375rem/1.75 var(--sans-serif); */
   max-width: 750px;
   margin: 0 auto;
 }
@@ -569,14 +571,15 @@ table td {
 }
 
 .eis-text p, .eis-text li {
-  font: 400 1.05rem/1.6 var(--sans-serif);
+  font: 400 1.31rem/1.35 var(--serif);
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.85);
 }
 
 .eis-text li {
-  margin-bottom: 13px;
+  margin-bottom: 10px;
   word-wrap: break-word;
+  line-height: 1.3;
 }
 
 .eis-text a {
@@ -592,15 +595,18 @@ table td {
   font-weight: 700;
   text-align: center;
   font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .eis-text h1:after {display: none;}
 
-.eis-text h2,  
+.eis-text h2 {font-size: 2rem;}
+
+.eis-text h2,
 .eis-text h3,  
 .eis-text h4 {
   font-family: var(--sans-serif);
-  margin: 40px 0 5px;
+  margin: 40px 0 20px;
 }
 
 .eis-text iframe {
