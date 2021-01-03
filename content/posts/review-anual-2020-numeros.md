@@ -2,8 +2,8 @@
 type: post
 title: Meu review anual de 2020
 excerpt: Como foi meu ano de 2020 em números e gráficos
-date: '2021-01-04'
-publishdate: '2021-01-04'
+date: '2021-01-11'
+publishdate: '2021-01-11'
 image: https://i.imgur.com/wdrj9E7.jpg
 categories:
   - produtividade-e-dados-pessoais
