@@ -2,7 +2,8 @@
 title: Sobre Causa Justa
 excerpt: Como a empresa consegue dar sentido aos seus objetivos perseguindo sua
   Causa Justa
-date: 2021-01-28
+date: 2021-01-26
+publishdate: 2021-01-26 23:04
 image: https://i.imgur.com/ghrhAUC.jpg
 categories:
   - lideranca e product management
