@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.LanguageCode | default " pt-br " }}' prefix='og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#'>
+
+<head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <link rel="icon" href="{{ .Site.BaseURL}}/images/favicon.ico">
+
+  <link rel="stylesheet" href="{{ .Site.BaseURL}}css/all.css?{{ now.Unix }}">
+  
+  <link rel="alternate" type="application/rss+xml" href="https://feeds.feedburner.com/diegoeiscom" title="{{ .Site.Title }}">
+
+  <link rel="prefetch" href="images/avatar-202.jpg">
+  
+  <link rel="prerender" href='{{ range first 1 (where .Site.Pages "Type" "post" )}}{{.Permalink}}{{end}}'>
+  
+  <link rel="preconnect" href="https://app-directory.s3.amazonaws.com">
+  <link rel="preconnect" href="https://i.imgur.com">
+  <link rel="preconnect" href="https://imgur.com">
+  <link rel="preconnect" href="https://app-directory.s3.amazonaws.com">
+  <link rel="preconnect" href="https://stats.g.doubleclick.net">
+  <link rel="preconnect" href="https://fonts.google.com">
+  <link rel="preconnect" href="https://www.google.com.br">
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+
+  {{ if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:type" content="website">
+  
+  <meta property="og:image" content="https://i.imgur.com/FBRd0FH.jpg">
+  <meta name="twitter:image" content="https://i.imgur.com/FBRd0FH.jpg">
+  <meta property="og:description" content="{{ .Site.Params.description }}" name="description">
+  <meta name="twitter:description" content="{{ .Site.Params.description }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
+
+  {{- else -}}
+
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+
+  <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cefc9317feea60012093e3c&product=sticky-share-buttons' async='async'></script>
+  <meta name="twitter:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://diegoeis.com/images/avatar-20.jpg{{ end }}">
+  <meta property="og:image" content="{{ with .Params.image }}{{ . }}{{ else }}https://diegoeis.com/images/avatar-20.jpg{{ end }}">
+  
+  <meta property="og:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" name="description">
+  <meta name="twitter:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Title }}{{ end }}">
+
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property="og:type" content="article">
+  {{- end }}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+  {{ end -}}
+
+  <meta name="author" content="{{ .Site.Params.author }}">
+
+  {{ if $.Scratch.Get "single"}}
+  <meta property="og:type" content="article"> 
+  {{end}}
+  
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@diegoeis">
+  <meta name="twitter:title" content="{{.Title}}">
+
+</head>
+
+<body class='Type-is-{{ .Type }} Kind-is-{{ .Kind }} Section-is-{{ .Section }} {{.Params.title | urlize }}'>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQBQLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+

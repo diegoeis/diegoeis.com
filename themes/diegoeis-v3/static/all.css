@@ -53,6 +53,42 @@ body {
   display: none;
 }
 
+/*** NEWSLETTER HOME **/
+#eis-news-box {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#eis-news-box h3 {
+  font: 700 1.3rem var(--sans-serif);
+}
+
+#eis-news-box p {
+  font: .90rem var(--sans-serif);
+  margin: 10px 0;
+}
+
+#eis-news-box form label { display: none;}
+
+#eis-news-box form {display: flex; justify-content:stretch }
+#eis-news-box form [type="email"] {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, .3);
+}
+#eis-news-box form [type="submit"] {
+  background: var(--yellowLight);
+  border: none;
+  font: .90rem var(--sans-serif);
+  padding: 8px 10px;
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer
+}
+
+  
 .eis-newsletter-box {
   position: sticky;
   top: 0;

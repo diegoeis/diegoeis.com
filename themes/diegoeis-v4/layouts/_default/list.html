@@ -1,0 +1,38 @@
+{{partial "head.html" . }}
+
+
+<div class="eis-container">
+{{partial "header.html" . }}
+
+{{ if eq .Kind "taxonomy" }}
+
+  {{if eq .Data.Singular "category" }}
+    <h1 class="eis-section-title">Categoria: <i>{{ .Title }}</i></h1>
+
+  {{else if eq .Data.Singular "tag"}}
+    <h1 class="eis-section-title">Tag: <i>{{ .Title }}</i></h1>
+    
+  {{else}}
+    <h1 class="eis-section-title">{{ .Title }}</h1>
+  {{ end }}
+
+{{ end }}
+
+  <section class="eis-home-container">
+    <ul class="eis-list-post">
+    {{ range .Pages}}
+      <li>
+        <a href="{{.Permalink}}" class="eis-post-lnk">
+          <h1>{{.Title}}</h1>
+          <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+        </a>
+      </li>
+    {{end}}
+    </ul>
+
+    {{partial "tags-list.html" . }}
+
+  </section>
+</div>
+
+{{partial "footer.html" . }}

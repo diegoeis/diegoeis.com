@@ -1,0 +1,10 @@
+name = "diegoeis-v3"
+license = "MIT"
+description = "Diego Eis 2019/2020 - v3"
+homepage = "http://diegoeis.com/"
+tags = []
+features = []
+
+[author]
+  name = "Diego Eis"
+  homepage = "http://diegoeis.com"
