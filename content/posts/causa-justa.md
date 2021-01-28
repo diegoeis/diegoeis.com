@@ -1,8 +1,10 @@
 ---
+type: post
 title: Sobre Causa Justa
 excerpt: Como a empresa consegue dar sentido aos seus objetivos perseguindo sua
   Causa Justa
 date: 2021-01-26
+publishdate: 2021-01-26
 image: https://i.imgur.com/ghrhAUC.jpg
 categories:
   - lideranca e product management
@@ -11,7 +13,6 @@ tags:
   - productoversee
   - pmletter
 ---
-
 
 _Esse artigo foi publicado no projeto [Product Oversee](https://productoversee.com/?utm_source=diegoeis_com&utm_medium=link_artigo&utm_campaign=publicacao_diegoeiscom). Um portal de conteúdo para líderes e gestores de produtos e serviços digitais. Nós estamos comprometidos a influenciar a evolução do mercado, nos dedicando à evolução individual._
 
