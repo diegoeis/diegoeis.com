@@ -27,10 +27,10 @@ Isso acontece também com decisões estratégicas da empresa. Você, como PM, n�
 
 Embora ele não decida, é inteligente da parte da empresa envolver o PM nas discussões. Ele é quem está nas trincheiras e provavelmente é a pessoa que mais entende os usuários daquele determinado mercado, quando comparado com os membros do C-Level. Como o PM conhece o comportamento do usuário no produto, ele consegue ter uma visão importante dos cenários dessa mudança estratégica.
 
-### Visão, cultura e expectativas
+## Visão, cultura e expectativas
 
-Contudo, dentre as responsabilidades de um PM, talvez uma das mais importantes seja unir a visão estratégica da empresa com a visão de produto a nível de time. Acho que talvez possamos ir até mais longe e envolver não apenas a visão estratégica da empresa, mas também a cultura organizacional que a empresa pretende seguir.
+Contudo, dentre as responsabilidades de um PM, talvez uma das mais importantes seja trazer para o tático a visão estratégica da empresa com, desdobrando essa definição por meio da visão de produto a nível de time. 
 
-É de responsabilidade do PM levar para o time as expectativas do C-Level, além das expectativas dos clientes. Aqui temos uma polêmica que pode ficar para outro artigo: a expectativa do cliente é mais importante que as do C-Level? A resposta rápida é: depende do momento do produto e da empresa. Há tempo de saciar as expectativas do board e há tempo de saciar as expectativas dos clientes. É papel do PM indicar em qual momento estamos passando afim de direcionar as forças para o lado correto.
+É de responsabilidade do PM levar para o time as expectativas do C-Level, além das expectativas dos clientes. Aqui temos uma polêmica que pode ficar para outro artigo: a expectativa do cliente é mais importante que as do C-Level? A resposta rápida é: depende do momento do produto, da empresa e do mercado. Há tempo de saciar as expectativas do board e há tempo de saciar as expectativas dos clientes. 
 
-Um bom PM entende que ele precisa ser um ótimo diplomata. Ele vai unir ideias, equipes, pessoas… um dia ele vai representar o time perante o Board, no dia seguinte ele vai representar a opinião do Board para o time. Mas sempre vai representar as necessidades do cliente para toda a empresa. Quanto mais cedo um PM entender isso, mas tranquilo será seu trabalho.
+Bons PMs entendem que a diplomacia é uma das suas principais ferramentas. O PM une ideias, equipes e pessoas. Em um dia é representante do time perante o Board. No dia seguinte é representante da opinião do Board para o time. Mas todos os diasx vai representar as necessidades do cliente para toda a empresa. Quanto mais cedo um PM entender isso, mas tranquilo será seu trabalho. E quanto mais cedo os PMs entenderem que eles estão mais localizados na ponta tática executiva do negócio, mais consciência dos limites do seu trabalho eles terão.
