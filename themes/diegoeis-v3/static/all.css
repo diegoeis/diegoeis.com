@@ -54,31 +54,43 @@ body {
 }
 
 /*** NEWSLETTER HOME **/
-#eis-news-box {
+#eis-news-box, .eis-newsletter-footer {
   text-align: center;
   margin-bottom: 35px;
 }
 
-#eis-news-box h3 {
+#eis-news-box h3,
+.eis-newsletter-footer h3 {
   font: 700 1.3rem var(--sans-serif);
 }
 
-#eis-news-box p {
+.eis-newsletter-footer h3 {
+  font-size: 2rem;
+  padding-top: 40px;
+}
+
+#eis-news-box p, .eis-newsletter-footer p  {
   font: .90rem var(--sans-serif);
   margin: 10px 0;
 }
 
-#eis-news-box form label { display: none;}
+#eis-news-box form label,
+.eis-newsletter-footer form label { display: none;}
 
-#eis-news-box form {display: flex; justify-content:stretch }
-#eis-news-box form [type="email"] {
+#eis-news-box form, 
+.eis-newsletter-footer form {display: flex; justify-content:stretch }
+
+#eis-news-box form [type="email"], 
+.eis-newsletter-footer form [type="email"] {
   flex: 1;
   width: 100%;
   padding: 10px;
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, .3);
 }
-#eis-news-box form [type="submit"] {
+
+#eis-news-box form [type="submit"],
+.eis-newsletter-footer form [type="submit"] {
   background: var(--yellowLight);
   border: none;
   font: .90rem var(--sans-serif);

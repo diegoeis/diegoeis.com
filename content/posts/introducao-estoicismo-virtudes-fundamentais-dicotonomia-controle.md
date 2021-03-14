@@ -1,7 +1,7 @@
 ---
 type: post
 title: "Estoicismo: virtudes fundamentais e dicotomia do controle"
-excerpt: "Uma introdução ao estudo do estoicismo."
+excerpt: "Uma introdução ao core do estoicismo, entendendo como os fundamentos das virtudes fundamentais funcionam."
 date: '2019-07-15'
 publishdate: '2019-07-15 06:00'
 featured: true

@@ -1,7 +1,7 @@
 ---
 type: post
 title: O que as corretoras deveriam estar fazendo agora (ou não) na visão de um Product Manager/Owner
-excerpt: Um comentários sobre o mercado digital de corretoras o que elas poderiam estar atacando agora.
+excerpt: Um comentário sobre o mercado digital de corretoras o que elas poderiam estar atacando agora.
 date: '2018-05-24'
 publishdate: '2018-05-24 00:00'
 image: 'https://diegoeis.com/images/uploads/blur-chart-data-159888.jpg'
