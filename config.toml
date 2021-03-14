@@ -3,6 +3,9 @@ title = "Blog do Diego Eis"
 baseURL = "https://diegoeis.com/"
 theme = "diegoeis-v3"
 languageCode = "pt-br"
+removePathAccents = true
+
+summaryLength = 20
 
 enableRobotsTXT = true
 disableLiveReload = false
