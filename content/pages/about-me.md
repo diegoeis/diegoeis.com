@@ -4,7 +4,9 @@ date: 2018-02-18
 type: page
 ---
 
-<img src="/images/avatar-about.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" style="border-radius: 50%; max-width: 300px; margin: 0 auto; display: block; ">
+<!-- <img src="/images/uploads/avatar-202.jpg" alt="Uma foto do Diego Eis" class="eis-avatar-about" style="border-radius: 50%; max-width: 300px; margin: 0 auto; display: block; "> -->
+
+![](/images/uploads/avatar-202.jpg)
 
 ## TL: DR;
 

@@ -5,68 +5,6 @@
 <div class="eis-blend"></div>
 
 
-<script type="text/javascript">
-  
-  (function (){
-    'use strict';
-  
-  
-    function init(){
-      checkDarkMode();
-      switchDarkMode();
-    }
-
-    
-    const dmbtn = document.querySelector('#eis-dark-btn');
-
-    function switchDarkMode() {
-      dmbtn.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark-mode-on')
-
-        localStorage.setItem("darkmode", document.documentElement.classList.contains("dark-mode-on") ? "true" : "false");
-        
-      });
-    }
-    
-    function checkDarkMode() {
-      if(localStorage.getItem("darkmode") == true) {
-        
-        // document.documentElement.classList.add('dark-mode-on')
-        // localStorage.getItem("darkmode", true);
-
-        // document.documentElement.setAttribute('darkmode', 'true')
-        // dmbtn.dataset.clicked = 'btn-darkmode-turnon'
-        // dmbtn.textContent = "dark off"
-      }
-    }
-    // function checkDarkMode() {
-    //   if(localStorage.getItem("darkmode") != null) {
-    //     document.documentElement.setAttribute('data-darkmode', 'true')
-    //     dmbtn.dataset.clicked = 'btn-darkmode-turnon'
-    //     dmbtn.textContent = "dark off"
-    //   }
-    // }
-    // function switchDarkMode() {
-    //   dmbtn.addEventListener('click', () => {
-    //     if (document.documentElement.getAttribute('data-darkmode') === 'true') {
-    //       document.documentElement.setAttribute('data-darkmode', 'false')
-    //       dmbtn.dataset.clicked = 'btn-darkmode-turnoff'
-    //       dmbtn.textContent = "dark on"
-    //       localStorage.removeItem('darkmode')
-    //     } else {
-    //       document.documentElement.setAttribute('data-darkmode', 'true')
-    //       dmbtn.textContent = "dark off"
-    //       dmbtn.dataset.clicked = 'btn-darkmode-turnon'
-    //       localStorage.setItem('darkmode','true')
-    //     }
-    //   });
-    // }
-
-
-    init()
-  }());
-
-</script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {

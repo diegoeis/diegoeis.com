@@ -282,14 +282,14 @@ p a:hover {
 }
 
 h1 {
-  font: 400 3.125rem var(--serif);
+  font: 400 3.125rem/1.2 var(--serif);
   color: #000;
 }
 
 h1 a:hover {
   box-shadow: 
-    inset 0 -9px 0 white,
-    inset 0 -27px 0 var(--yellowLight);
+    inset 0 -25px 0 white,
+    inset 0 -47px 0 var(--yellow);
 }
 
 img {
@@ -356,7 +356,7 @@ img {
 }
 
 .eis-first-post h1 {
-  font: 700 3.5rem/1.3 var(--serif);
+  font: 700 3.5rem/1.1 var(--serif);
   max-width: 800px;
   margin: 50px 0;
 }
@@ -920,6 +920,11 @@ ul.eis-books-list {
   box-shadow: inset 0 -2px 0 var(--yellowContrast);
   color: black;
 }*/
+
+.dark-mode-on .eis-text > p:first-child em {
+  background: transparent;
+}
+
 
 @media screen and (max-width: 700px) {
   .dark-mode-on .eis-menu {
