@@ -19,6 +19,8 @@ Contudo, para facilitar quem não consegue fazer a mentoria e para outros curios
 
 Se você tem alguma pergunta sobre carreira, gestão, negócios e construção de Produtos ou Serviços Digitais, [me pergunte nesse link](https://app.wooclap.com/ASKDIEGOEIS).
 
+A maioria das [respostas serão divulgadas na minha newsletter](https://diegoeis.substack.com/) e algumas serão postadas aqui mesmo no blog. 
+
 Eu não prometo luxo, nem trazer seu amor em 3 dias, mas prometo que vou responder da melhor forma possível. Se eu não souber, descobrimos a resposta juntos. Vem comigo!
 
 Faça sua pergunta: [https://app.wooclap.com/ASKDIEGOEIS](https://app.wooclap.com/ASKDIEGOEIS)
