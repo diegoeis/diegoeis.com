@@ -10,7 +10,8 @@ type: page
 
 ## TL: DR;
 
-Meu nome é Diego Eis, sou pai, marido, Adventista do Sétimo Dia e atualmente estou trabalhando como Head de Eventos Online na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Anteriormente fui PM na [Neon Pagamentos](https://neon.com.br/) e [Easynvest](https://easynvest.com.br/). 
+
+Meu nome é Diego Eis e atualmente sou Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com). Estou iniciando na arte de colecionar Hot Wheels e tentando ranquear no Wild Rift. ;-)
 
 **Navegação rápida**:
 
