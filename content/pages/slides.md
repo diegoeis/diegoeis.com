@@ -5,9 +5,9 @@ type: page
 ---
 
 <p style="text-align: center;">Abaixo, seguem palestras que fiz em alguns eventos. Se quiser ver mais, <a href="https://speakerdeck.com/diegoeis">siga esse link</a>.</p>
+<!-- <br>
 <br>
-<br>
-<iframe width="750" height="380" src="https://www.youtube.com/embed/ytyX1w13faw?start=757" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="380" src="https://www.youtube.com/embed/ytyX1w13faw?start=757" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <br>
 <script async class="speakerdeck-embed" data-id="db45566fcdf24e53850fdccf92ec5058" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
