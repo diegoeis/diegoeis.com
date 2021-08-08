@@ -1,8 +1,9 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');*/
+
 @import url(header.css?3);
 @import url(home.css?3);
 @import url(single.css?3);
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,900&display=swap');
 
 * {
   margin: 0;
@@ -182,7 +183,6 @@ ul.eis-books-list {
 .eis-footer a {font-weight: normal;}
 
 
-
 .eis-section {
   padding:  0 var(--spaceDefault) 100px;
 }
@@ -192,3 +192,14 @@ ul.eis-books-list {
   font-size: 3rem;
 }
 
+
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 0;
+  }
+
+  .eis-section {
+    padding: 70px var(--spaceDefault) 20px;
+  }
+}

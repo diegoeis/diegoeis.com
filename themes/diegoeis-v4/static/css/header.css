@@ -10,6 +10,7 @@
 .eis-menu-on body {
   overflow: hidden;
 }
+
 .eis-menu-on .eis-header {
   pointer-events: none;
 }
@@ -30,9 +31,10 @@ h1.eis-logo a {
 }
 
 .eis-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   background: white;
   width: 100%;
   height: 100%;
@@ -79,10 +81,30 @@ h1.eis-logo a {
 }
 
 @media screen and (max-width: 700px) {
+
+
   .eis-header {
     padding-top: 25px;
+    padding-bottom: 0;
   }
   .eis-menu {
-    padding-top: 150px;
+    padding-top: 0;
+    /*top: 90px;*/
+    justify-content: center;
   }
+
+  .eis-menu-on .eis-header {
+    pointer-events: initial;
+  }
+
+  .eis-menu-items a {
+    font-size: 1.8rem;
+    padding: 10px 0;
+  }
+
+  .eis-menu-support li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
 }

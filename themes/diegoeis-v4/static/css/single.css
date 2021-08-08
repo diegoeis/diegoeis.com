@@ -95,3 +95,25 @@
   transition: background linear .10s;
 }
 .eis-post-tags li a:hover {background: var(--yellow); color: #000;}
+
+
+@media screen and (max-width: 700px) {
+
+
+  .eis-post-header {
+    padding-bottom: 30px;
+  }
+  .eis-post-header > div {
+    padding:  0;
+    margin:  50px 0;
+  }
+
+  .eis-post-tags li a {
+    padding: 2px 5px 2px 0;
+  }
+
+  .eis-post-tags {
+    float: none;
+  }
+
+}

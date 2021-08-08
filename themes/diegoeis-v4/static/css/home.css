@@ -16,14 +16,12 @@
 .eis-intro h1 {
   font: 400 30px/35px Roboto;
   color: #838383;
-
 }
 
 .eis-intro h2 {
-  font: 900 45px/59px Roboto;
+  font: 900 45px/50px Roboto;
   text-transform: uppercase;
-
-  padding:  40px 0;
+  padding: 54px 0 53px;
 
 }
 
@@ -80,4 +78,38 @@
 
 .eis-book-home img {
   max-width: 300px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  .eis-book-home img {
+    max-width: 100%;
+  }
+
+  .eis-intro h1 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .eis-intro h2 {
+    font-size: 30px;
+    line-height: 1.3;
+   padding: 25px 0;
+  }
+  
+  .eis-intro div p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .eis-book-child {
+    text-align: center;
+  }
+
+  .eis-book-child h2 {
+    font-size: 25px;
+  }
+
 }
