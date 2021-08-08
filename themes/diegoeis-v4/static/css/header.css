@@ -1,0 +1,88 @@
+.eis-header {
+  padding: 100px var(--spaceDefault);
+  position: relative;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eis-menu-on body {
+  overflow: hidden;
+}
+.eis-menu-on .eis-header {
+  pointer-events: none;
+}
+
+h1.eis-logo a {
+  font-size: 1rem;
+  text-decoration: none;
+  color:  #000;
+}
+
+.eis-sandwich {
+  background: url(../images/v4/sandwich.png) no-repeat center;
+  background-size: contain;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.eis-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 5% 0 0;
+  opacity: 0;
+  transition: all linear .15s;
+  pointer-events: none;
+}
+
+.eis-menu-on .eis-menu {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.eis-menu-items {
+  max-width: 500px;
+  list-style: none;
+  text-align: center;
+}
+
+.eis-menu-items a {
+  color:  #000;
+  text-decoration: none;
+  font-size: 3rem;
+  display: block;
+  font-weight: 900;
+  padding: 20px 0;
+}
+
+.eis-menu-support {
+  list-style: none;
+  margin:  50px 0 0;
+}
+
+.eis-menu-support li {display: inline;}
+.eis-menu-support li a {
+  display: inline-block;
+  padding:  0 5px;
+  color:  #000;
+}
+
+@media screen and (max-width: 700px) {
+  .eis-header {
+    padding-top: 25px;
+  }
+  .eis-menu {
+    padding-top: 150px;
+  }
+}

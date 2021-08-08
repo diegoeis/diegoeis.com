@@ -1,52 +1,55 @@
 {{partial "head.html" . }}
 
 <div class="eis-container">
+  
 {{partial "header.html" . }}
 
-
-  {{ range first 1 (where .Site.Pages "Type" "post" )}}
-  <div class="eis-first-post">
-    <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
-
-    <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
-    
-    {{partial "post-categs.html" . }}
-
-  </div>
-  {{end}}
-
-  <section class="eis-home-container">
-    <ul class="eis-list-post">
-    {{ range after 1 (where .Site.Pages "Type" "post")}}
-      <li>
-        <a href="{{.Permalink}}" class="eis-post-lnk" data-clicked="lnk-post-list">
-          <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
-          <h1>{{.Title}}</h1>
-        </a>
-      </li>
-    {{end}}
-    </ul>
-
-    <div class="eis-home-sidebar">
-
-      <iframe src="https://diegoeis.substack.com/embed" height="250" style="width: 100%; margin-bottom: 20px; border:none; background:white;" frameborder="0" scrolling="no"></iframe>
-
-      <div class="eis-book-home">
-        <a href="https://gestaomodernaprodutosdigitais.com/?utm_source=blog-diegoeis&utm_medium=banner&utm_campaign=book_gestao">
-          <img src="/images/foto-book2.jpg" alt="Capa do meu novo livro Gestão Moderna de Produtos Digitais" data-clicked="eis-banner-book">
-          <img src="/images/amazon-badge.png" class="eis-btn-book" alt="Botão da Amazon" data-clicked="eis-banner-book">
-          <img src="/images/clubeautores-badge.png" class="eis-btn-book" data-clicked="eis-banner-book" alt="Botão da Clube de Autores">
-        </a>
-      </div>
-
-     {{partial "tags-list.html" . }}
-      
-      {{partial "latest-readings.html" . }}
-      {{partial "latest-listenings.html" . }}
+  <section class="eis-intro">
+    <div>
+      <h1>Diego Eis</h1>
+      <h2>Autor, palestrante e gestor de produtos digitais.</h2>
+      <p>Opa! Me chamo Diego Eis, trabalho gerindo times e áreas que  constróem e planejam produtos digitais. Atualmente sou Diretor de Produtos Digitais na Sympla. Autor do livro chamado Gestão Moderna de Produtos Digitais. Além disso, faço palestras sobre esse assunto em eventos e empresas, e mentoria para pessoas que gerem produtos digitais.</p>
     </div>
-
+    <div>
+      <img src="/images/v4/diego.jpg">
+      <p>Comecei minha carreira como front-end por volta dos anos 2001, mas logo comecei a empreender fundando uma empresa de construção e consultoria de produtos. Depois de 6 anos, sai para explorar oportunidades coordenando e gerindo produtos digitais e times de empresas como Locaweb, Easynvest, Neon, Jüssi e agora Sympla.</p>
+    </div>    
   </section>
+
+  <section class="eis-book-home">
+    <div class="eis-book-child">
+      <div>
+        <img src="/images/v4/book.jpg">
+      </div>
+      <div>
+        <h2>Livro Gestão Moderna de <del>Produtos</del> Serviços Digitais.</h2>
+        <p>O Produto Digital como um meio de entregar valor para o usuário e para o negócio.</p>
+        <a href="http://gestaomodernaprodutosdigitais.com/" data-clicked="lnk-book-home" class="eis-btn">Ver mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="eis-newsbox">
+    <div>
+
+      <iframe src="https://diegoeis.substack.com/embed" height="250" style="width: 100%; border:none; background:white;" frameborder="0" scrolling="no"></iframe>
+
+    </div>
+  </section>
+
+  <section class="eis-last-post">
+      {{ range first 1 (where .Site.Pages "Type" "post" )}}
+        <span><a href="/blog">No Blog</a></span>
+        <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
+        <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+        
+        {{partial "post-categs.html" . }}
+
+      {{end}}
+  </section>
+  
+{{partial "footer.html" . }}
+
 </div>
 
 
-{{partial "footer.html" . }}

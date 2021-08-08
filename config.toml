@@ -1,7 +1,7 @@
 DefaultContentLanguage = "pt-br"
 title = "Blog do Diego Eis"
 baseURL = "https://diegoeis.com/"
-theme = "diegoeis-v3"
+theme = "diegoeis-v4"
 languageCode = "pt-br"
 removePathAccents = true
 

@@ -3,8 +3,10 @@
 
 <div class="eis-container">
 {{partial "header.html" . }}
+    
+  <h1 class="eis-section-title"> <i>{{ .Title }}</i></h1>
 
-{{ if eq .Kind "taxonomy" }}
+<!-- {{ if eq .Kind "taxonomy" }}
 
   {{if eq .Data.Singular "category" }}
     <h1 class="eis-section-title">Categoria: <i>{{ .Title }}</i></h1>
@@ -16,7 +18,7 @@
     <h1 class="eis-section-title">{{ .Title }}</h1>
   {{ end }}
 
-{{ end }}
+{{ end }} -->
 
   <section class="eis-home-container">
     <ul class="eis-list-post">

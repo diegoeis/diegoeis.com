@@ -1,0 +1,83 @@
+.eis-intro {
+	display: flex;
+  flex-wrap: wrap;
+	padding: 50px var(--spaceDefault);
+  margin-bottom:  50px;
+}
+.eis-intro div {flex:  1 400px}
+
+.eis-intro img {
+  margin:  0 auto 52px;
+  width:  100%;
+  max-width: 240px;
+  display: block;
+}
+
+.eis-intro h1 {
+  font: 400 30px/35px Roboto;
+  color: #838383;
+
+}
+
+.eis-intro h2 {
+  font: 900 45px/59px Roboto;
+  text-transform: uppercase;
+
+  padding:  40px 0;
+
+}
+
+.eis-intro h2 + p {padding-right:  25px;}
+.eis-intro div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+
+  color: #3F3F3F;
+
+}
+
+.eis-book-home {
+  border-top: 1px solid rgba(0,0,0,.15);
+  border-bottom:  1px solid rgba(0,0,0,.15);
+  padding: 100px 0;
+}
+
+.eis-book-child {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 var(--spaceDefault);
+  align-items: center;
+}
+
+.eis-book-child div {
+  flex: 1 300px;
+}
+
+.eis-book-child div:first-child {
+  text-align: center;
+}
+
+.eis-book-child h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1;
+
+  color: #000;
+}
+
+.eis-book-child p {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  padding:  30px 0;
+  color: #3F3F3F;
+  width: 90%;
+}
+
+
+.eis-book-home img {
+  max-width: 300px;
+}

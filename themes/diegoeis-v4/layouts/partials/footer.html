@@ -2,8 +2,6 @@
   {{ now.Format "2006"}} - Diego Eis <br> <a href="https://twitter.com/diegoeis" data-clicked="lnk-footer-twitter" title="Meu perfil no Twitter" alt="Link do perfil no Twitter">Twitter</a>, <a href="https://www.linkedin.com/in/diegoeis/" title="Meu perfil no Linkedin" data-clicked="lnk-footer-linkedin" alt="link do perfil no Linkedin">Linkedin</a>, <a href="http://feeds.feedburner.com/diegoeiscom" title="cadastre meu Feed RSS" data-clicked="lnk-footer-rss" alt="RSS Feed">Feed</a>, <a rel="me" data-clicked="lnk-footer-mastodon" href="https://mastodon.social/@diegoeis">Mastodon</a>
 </footer>
 
-<div class="eis-blend"></div>
-
 
 <script type="text/javascript">
   
@@ -12,56 +10,15 @@
   
   
     function init(){
-      checkDarkMode();
-      switchDarkMode();
+      menu();
     }
 
     
-    const dmbtn = document.querySelector('#eis-dark-btn');
-
-    function switchDarkMode() {
-      dmbtn.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark-mode-on')
-
-        localStorage.setItem("darkmode", document.documentElement.classList.contains("dark-mode-on") ? "true" : "false");
-        
+    function menu() {
+      document.querySelector('.eis-sandwich').addEventListener('click', () => {
+        document.documentElement.classList.toggle('eis-menu-on')
       });
     }
-    
-    function checkDarkMode() {
-      if(localStorage.getItem("darkmode") == true) {
-        
-        // document.documentElement.classList.add('dark-mode-on')
-        // localStorage.getItem("darkmode", true);
-
-        // document.documentElement.setAttribute('darkmode', 'true')
-        // dmbtn.dataset.clicked = 'btn-darkmode-turnon'
-        // dmbtn.textContent = "dark off"
-      }
-    }
-    // function checkDarkMode() {
-    //   if(localStorage.getItem("darkmode") != null) {
-    //     document.documentElement.setAttribute('data-darkmode', 'true')
-    //     dmbtn.dataset.clicked = 'btn-darkmode-turnon'
-    //     dmbtn.textContent = "dark off"
-    //   }
-    // }
-    // function switchDarkMode() {
-    //   dmbtn.addEventListener('click', () => {
-    //     if (document.documentElement.getAttribute('data-darkmode') === 'true') {
-    //       document.documentElement.setAttribute('data-darkmode', 'false')
-    //       dmbtn.dataset.clicked = 'btn-darkmode-turnoff'
-    //       dmbtn.textContent = "dark on"
-    //       localStorage.removeItem('darkmode')
-    //     } else {
-    //       document.documentElement.setAttribute('data-darkmode', 'true')
-    //       dmbtn.textContent = "dark off"
-    //       dmbtn.dataset.clicked = 'btn-darkmode-turnon'
-    //       localStorage.setItem('darkmode','true')
-    //     }
-    //   });
-    // }
-
 
     init()
   }());
