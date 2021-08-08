@@ -162,6 +162,7 @@ ul.eis-books-list {
 
 .eis-books-list a {
   text-decoration: none;
+  color: #000;
 }
 
 .eis-books-list a:hover h3 {
