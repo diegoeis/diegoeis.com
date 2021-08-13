@@ -16,9 +16,9 @@ Como esse é um papel relativamente novo e importante no processo (embora ingrat
 
 ## Uma maneira simples para se aprofundar em assuntos pertinentes
 
-Pensando nisso, resolvemos criar uma letter, que fala especificamente sobre [Gestão de Produtos Digitais](http://bit.ly/pmletteremail) e assuntos relacionados nessa área. Escolhemos esse formato por ser algo muito simples de manter e dizem por aí que há mais interação entre quem escreve e quem lê. Vamos ver. ;-)
+Pensando nisso, resolvemos criar uma letter, que fala especificamente sobre [Gestão de Produtos Digitais](https://productoversee.com/newsletter/) e assuntos relacionados nessa área. Escolhemos esse formato por ser algo muito simples de manter e dizem por aí que há mais interação entre quem escreve e quem lê. Vamos ver. ;-)
 
-A [Product Manager Letter](http://bit.ly/pmletteremail) trará um pequeno texto, com introdução/opinião/gancho para um assunto específico sobre Produtos Digitais, com links para que os assinantes possam pesquisar e se aprofundar no assunto.
+A [Product Manager Letter](https://productoversee.com/newsletter/) trará um pequeno texto, com introdução/opinião/gancho para um assunto específico sobre Produtos Digitais, com links para que os assinantes possam pesquisar e se aprofundar no assunto.
 
 ## Curadoria
 
@@ -28,4 +28,4 @@ Com certeza, como bons PMs, vamos evoluindo o formato de acordo com o feedback e
 
 ## CADASTRE-SE AGORA! (isso é um call to action ;-)
 
-Gostou da ideia? [Cadastre-se](http://bit.ly/pmletteremail) e não esqueça de nos ajudar compartilhando para outras pessoas que podem se interessar também.
+Gostou da ideia? [Cadastre-se](https://productoversee.com/newsletter/) e não esqueça de nos ajudar compartilhando para outras pessoas que podem se interessar também.
