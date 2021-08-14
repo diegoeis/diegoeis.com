@@ -94,14 +94,19 @@
   }
 
   .eis-intro h2 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.3;
-   padding: 25px 0;
+    padding: 25px 0;
   }
   
+  .eis-intro img {
+    margin: 25px auto;
+  }
+
   .eis-intro div p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.5;
+    margin-bottom: 20px;
   }
 
   .eis-book-child {

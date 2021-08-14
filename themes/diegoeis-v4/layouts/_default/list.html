@@ -4,21 +4,11 @@
 <div class="eis-container">
 {{partial "header.html" . }}
     
+
+  <div class="eis-section">
+  <a href="#eis-outras-categs" data-clicked="lnk-see-categslist" class="eis-lnk-categslist">ver outras categorias</a>
+
   <h1 class="eis-section-title"> <i>{{ .Title }}</i></h1>
-
-<!-- {{ if eq .Kind "taxonomy" }}
-
-  {{if eq .Data.Singular "category" }}
-    <h1 class="eis-section-title">Categoria: <i>{{ .Title }}</i></h1>
-
-  {{else if eq .Data.Singular "tag"}}
-    <h1 class="eis-section-title">Tag: <i>{{ .Title }}</i></h1>
-    
-  {{else}}
-    <h1 class="eis-section-title">{{ .Title }}</h1>
-  {{ end }}
-
-{{ end }} -->
 
   <section class="eis-home-container">
     <ul class="eis-list-post">
@@ -34,7 +24,23 @@
 
     {{partial "tags-list.html" . }}
 
+<!-- {{ if eq .Kind "taxonomy" }}
+
+  {{if eq .Data.Singular "category" }}
+    <h1 class="eis-section-title">Categoria: <i>{{ .Title }}</i></h1>
+
+  {{else if eq .Data.Singular "tag"}}
+    <h1 class="eis-section-title">Tag: <i>{{ .Title }}</i></h1>
+    
+  {{else}}
+    <h1 class="eis-section-title">{{ .Title }}</h1>
+  {{ end }}
+
+{{ end }} -->
+
   </section>
 </div>
-
 {{partial "footer.html" . }}
+</div>
+
+

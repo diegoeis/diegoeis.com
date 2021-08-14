@@ -85,8 +85,9 @@ h1.eis-logo a {
 
   .eis-header {
     padding-top: 25px;
-    padding-bottom: 0;
+    padding-bottom: 25px;
   }
+
   .eis-menu {
     padding-top: 0;
     /*top: 90px;*/

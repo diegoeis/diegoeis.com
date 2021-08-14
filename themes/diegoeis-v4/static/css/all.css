@@ -106,15 +106,15 @@ a:hover {color: var(--linkHover); text-decoration: none;}
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
-  padding: 0 var(--spaceDefault);
+  margin:  50px 0;
 }  
 
 .eis-list-post li {
   flex:  1 260px;
+  width:  100%;
   margin: 10px 30px 20px 0;
   border:  1px solid rgba(0, 0, 0, .5);
   border-radius: 3px;
-  width:  100%;
   max-width:  380px;
   min-height: 230px;
 }
@@ -141,7 +141,8 @@ a:hover {color: var(--linkHover); text-decoration: none;}
 
 .eis-list-post li a h1 {font-size: 1.5rem;}
 
-.eis-section-title {padding: 0 var(--spaceDefault) 50px;}
+.eis-container-inner-list {padding: 0 var(--spaceDefault);}
+.eis-section-title {padding: 0 0 50px;}
 
 
 .sobre-mim .eis-post-header > div {display: none;}
@@ -175,6 +176,40 @@ ul.eis-books-list {
   color: var(--yellow);
 }
 
+.eis-lnk-categslist {
+  float: right;
+  color: #000;
+  margin-right: 30px;
+}
+
+.eis-tags-list {
+  text-align: center;
+  padding: 100px 0;
+  max-width: 1000px;
+  margin:  0 auto;
+}
+.eis-tags-list h3 {
+  font-size: 2rem;
+  padding:  0 0 20px;
+}
+.eis-tags-list li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.eis-tags-list a {
+  color: #000;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+}
+
+.eis-tags-list a:hover {
+  background: var(--yellow);
+}
+
+
 
 /*******
  * FOOTER
@@ -200,11 +235,34 @@ ul.eis-books-list {
 
 
 @media screen and (max-width: 700px) {
+
+  :root {
+    --spaceDefault: 7%;
+  }
+
   body {
     padding: 0;
   }
 
-  .eis-section {
-    padding: 70px var(--spaceDefault) 20px;
+  .eis-section h1 {
+    font-size: 2rem;
   }
+
+  .eis-section-title {
+    padding-bottom: 0;
+    padding-top: 15px;
+  }
+
+  .eis-list-post li {
+    min-height: 180px;
+    margin-right: 0;
+  }
+
+
+  .eis-lnk-categslist {
+    float: none;
+    padding-bottom: 30px;
+    display: inline-block;
+  }
+
 }

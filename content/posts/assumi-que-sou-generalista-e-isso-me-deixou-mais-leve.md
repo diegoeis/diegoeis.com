@@ -6,7 +6,7 @@ image: /images/uploads/generalista-feliz/hero.jpg
 date: 2020-10-19
 publishdate: 2020-10-19
 categories:
-- eis-a-letter
+- eis a newsletter
 - cotidiano-e-comportamento
 ---
 
