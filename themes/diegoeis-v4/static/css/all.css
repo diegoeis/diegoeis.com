@@ -337,11 +337,14 @@ ul.eis-books-list {
     margin-right: 0;
   }
 
-
   .eis-lnk-categslist {
     float: none;
     padding-bottom: 30px;
     display: inline-block;
   }
 
+
+  .eis-tags-list li {
+      display: block;
+  }
 }
