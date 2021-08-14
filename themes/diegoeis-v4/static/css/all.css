@@ -125,13 +125,18 @@ a:hover {color: var(--linkHover); text-decoration: none;}
   color:  rgba(0, 0, 0, .8);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   text-decoration: none;
+  justify-content: space-between;
   transition: background linear .10s;
 }
 
 .eis-list-post li a:hover {background: #000; border-color: #000;}
 .eis-list-post li a:hover * {color: #FFF;}
+
+.eis-list-post li a:visited {
+  color: gray; 
+  text-decoration: underline !important;
+}
 
 
 .eis-list-post li a h1 {font-size: 1.5rem;}
