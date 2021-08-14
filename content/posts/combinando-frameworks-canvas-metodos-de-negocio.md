@@ -6,7 +6,10 @@ date: 2020-09-07
 publishdate: 2020-09-07
 image: /images/uploads/post-canvas-frameworks-negocios/pawel-czerwinski-yn97LNy0bao-unsplash.jpg
 categories:
-- lideranca e product management
+  - lideranca e product management
+tags:
+  - lideranca
+  - product-management
 ---
 
 As vezes algumas coisas precisam estar escritas para terem mais valor ou simplesmente para gerar alinhamento entre as pessoas. O achismo é um argumento comum no mercado de Produtos e isso está presente em todos os níveis da empresa, desde os C- Levels até a última ponta. Todos acham que sabem o que é melhor para o produto e principalmente para o negócio. Algumas pessoas estão certas, outras erradas, o problema é descobrir isso muito tarde.

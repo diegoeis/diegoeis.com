@@ -97,6 +97,11 @@
 .eis-post-tags li a:hover {background: var(--yellow); color: #000;}
 
 
+.eis-related-posts {
+  padding: 50px 0;
+}
+
+
 @media screen and (max-width: 700px) {
 
 

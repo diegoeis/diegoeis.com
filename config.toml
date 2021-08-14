@@ -48,7 +48,10 @@ assetDir = "/static/"
 
   [[related.indices]]
   name  = "tags"
+  weight = 30
+  [[related.indices]]
+  name  = "categories"
   weight = 40
   [[related.indices]]
   name  = "title"
-  weight = 40
+  weight = 30

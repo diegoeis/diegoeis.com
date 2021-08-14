@@ -29,6 +29,22 @@
 
     {{.Content}}
 
+
+
+    {{ $related := .Site.RegularPages.Related . | first 7}} {{ with $related }}
+    <div class="eis-related-posts">
+
+      <h2>Relacionados aqui no blog:</h2>
+      <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}?utm_source=eisRelatedLink" data-clicked="eis-related-link">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+
+    </div>
+    {{ end }}
+
+
   </div>
 
 <!--     <div class="eis-end-post">
@@ -39,19 +55,6 @@
         <a href="https://gestaomodernaprodutosdigitais.com/?utm_source=blog-diegoeis&utm_medium=banner&utm_campaign=book_gestao"><img src="/images/banner.png" data-clicked="eis-single-book"></a>
       </div>
     </div> -->
-
-      {{ $related := .Site.RegularPages.Related . | first 3}} {{ with $related }}
-    <div class="eis-related-posts">
-
-        <h2>Leia também aqui no blog:</h2>
-        <ul>
-          {{ range . }}
-          <li><a href="{{ .RelPermalink }}?utm_source=eisRelatedLink" data-clicked="eis-related-link">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-
-      </div>
-      {{ end }}
 
 <!--       <div class="eis-comments">
         <div id="graphcomment"></div>
