@@ -1,8 +1,8 @@
 <div class="eis-tags-list">
-	<h3>Outras categorias</h3>
-<ul id="eis-outras-categs">
-{{ range .Site.Taxonomies.categories.ByCount }}
-	<li><a href="/categories/{{ .Name | urlize }}">{{ .Name }} </a> <small>({{ .Count }})</small></li>
-{{ end }}
-</ul>
+	<h3>Categorias</h3>
+	<ul id="eis-outras-categs">
+		{{ range .Site.Taxonomies.categories.ByCount }}
+		<li><a href="/categories/{{ .Name | urlize }}">{{ .Name }} </a> <small>({{ .Count }})</small></li>
+		{{ end }}
+	</ul>
 </div>

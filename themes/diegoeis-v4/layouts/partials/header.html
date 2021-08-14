@@ -1,6 +1,9 @@
 
 <header class="eis-header">
+
   {{ if eq .Type "post" }}
+  <h1 class="eis-logo"><a href="javascript: window.history.back();">diegoeis.com</a></h1>
+  {{else if eq .Type "categories" }}
   <h1 class="eis-logo"><a href="javascript: window.history.back();">diegoeis.com</a></h1>
   {{else}}
   <h1 class="eis-logo"><a href="/">diegoeis.com</a></h1>

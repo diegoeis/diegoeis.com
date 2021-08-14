@@ -195,13 +195,13 @@ ul.eis-books-list {
 .eis-tags-list li {
   display: inline-block;
   list-style: none;
-  padding: 0 10px;
+  padding: 0 20px 0 0;
 }
 
 .eis-tags-list a {
   color: #000;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 0;
   font-size: 1.5rem;
 }
 
@@ -209,7 +209,18 @@ ul.eis-books-list {
   background: var(--yellow);
 }
 
-
+.blog .eis-tags-list {
+  max-width: 100%;
+  padding: 100px 0 0;
+  text-align: left;
+}
+.blog .eis-tags-list h3 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.blog .eis-tags-list a {
+  font-size: 1rem;
+}
 
 /*******
  * Book Section
