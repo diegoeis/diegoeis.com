@@ -212,6 +212,62 @@ ul.eis-books-list {
 
 
 /*******
+ * Book Section
+*******/
+.eis-book-section {
+  border-top: 1px solid rgba(0,0,0,.15);
+  border-bottom:  1px solid rgba(0,0,0,.15);
+  padding: 100px 0;
+}
+
+.eis-book-child {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 var(--spaceDefault);
+  align-items: center;
+}
+
+.eis-book-child div {
+  flex: 1 300px;
+}
+
+.eis-book-child div:first-child {
+  text-align: center;
+}
+
+.eis-book-child h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1;
+
+  color: #000;
+}
+
+.eis-book-child h2 a {color: #000; text-decoration: none;}
+.eis-book-child h2 a:hover {color: var(--yellow); text-decoration: none;}
+
+.eis-book-child img:hover {
+  transform: rotate(-3deg);
+}
+
+.eis-book-child p {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  padding:  30px 0;
+  color: #3F3F3F;
+  width: 90%;
+}
+
+
+.book-section img {
+  max-width: 300px;
+}
+
+
+
+
+/*******
  * FOOTER
 *******/
 
@@ -242,6 +298,18 @@ ul.eis-books-list {
 
   body {
     padding: 0;
+  }
+
+  .book-section img {
+    max-width: 100%;
+  }
+
+  .eis-book-child {
+    text-align: center;
+  }
+
+  .eis-book-child h2 {
+    font-size: 25px;
   }
 
   .eis-section h1 {
