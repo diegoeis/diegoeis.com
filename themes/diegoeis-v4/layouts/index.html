@@ -29,17 +29,9 @@
     </div>
   </section>
 
-  <section class="eis-last-post">
-      {{ range first 1 (where .Site.Pages "Type" "post" )}}
-        <span><a href="/blog">No Blog</a></span>
-        <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
-        <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
-        
-        {{partial "post-categs.html" . }}
+  {{partial "blog-section.html" . }}
 
-      {{end}}
-  </section>
-  
+
 {{partial "footer.html" . }}
 
 </div>

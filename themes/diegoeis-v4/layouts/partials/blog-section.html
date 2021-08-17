@@ -1,0 +1,23 @@
+
+  <section class="eis-last-post">
+  {{$pages := where site.Pages "Type" "post"}}
+
+      {{ range first 1 $pages}}
+        <span><a href="{{.Permalink}}">Último post</a></span>
+        
+        <h1><a href="{{.Permalink}}" data-clicked="featured-post">{{.Title}}</a></h1>
+        <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+        
+
+      {{end}}
+      
+      <div class="eis-other-posts">
+      {{ range first 4 (after 1 $pages) }}
+        <a href="{{.Permalink}}" data-clicked="featured-post">
+          <h2>{{.Title}}</h2>
+          <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
+        </a>
+      {{end}}
+      </div>
+  </section>
+  
