@@ -4,7 +4,8 @@ date: 2020-04-02
 type: page
 ---
 
-Sou autor de três livros publicados. Contudo, minha pretensão não é ser um mega blaster autor de livros. Meu objetivo é apenas compartilhar conteúdo em língua portuguesa sobre assuntos técnicos da minha área profissional.
+
+Autor de três livros publicados. Contudo, minha pretensão não é ser um mega blaster autor de livros. Meu objetivo é apenas compartilhar conteúdo em língua portuguesa sobre assuntos técnicos da minha área profissional.
 
 <ul class="eis-books-list">
   <li>

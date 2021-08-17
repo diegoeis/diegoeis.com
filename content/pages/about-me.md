@@ -8,68 +8,56 @@ type: page
 
 ![](/images/uploads/avatar-202.jpg)
 
+
 ## TL: DR;
 
 
-Meu nome é Diego Eis e atualmente sou Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com). Estou iniciando na arte de colecionar Hot Wheels e tentando ranquear no Wild Rift. ;-)
+Meu chamo Diego Eis e atualmente sou Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com) e fundador da [PM Letter](https://productoversee.com/newsletter/).
 
 **Navegação rápida**:
 
 - [Meus Projetos Pessoais](#meus-projetos-pessoais)
 - [Livro: Gestão Moderna de Produtos Digitais](#gestão-moderna-de-produtos-digitais)
 - [O Trabalho](#o-trabalho)
-- [O Tableless](#o-tableless)
 - [Fale comigo](#me-encontre-me-acompanhe)
 
 ---
 
 ## Meus projetos pessoais
 
-Desde quando eu conheço a web eu tento de alguma forma devolver tudo o que aprendi. Por isso, eu mantenho alguns humildes projetos online, são eles:
+Esses são os projetos que estou envolvido e onde você pode entrar em contato com o meu trabalho:
 
-- **[Product Oversee](https://productoversee.com/)**: um portal de conteúdo exclusivo para quem constrói, lider e faz gestão de produtos e serviços digitais aqui no Brasil. Um projeto pra tentar quebrar o consenso de como faz produtos digitais e para fomentar opinião, criar novos pontos de vista e ajudar a amadurecer o mercado de produtos digitais no Brasil;
-- **Mentorias**: Em 2020 comecei a fazer mentorias grátis (por enquanto) para pessoas ou grupos para empresas. Converso sobre liderança e gestão de serviços e produtos digitais e times, estratégia e tático de produto, carreira e mercado. [Você pode agendar um horário](https://diegoeis.as.me/schedule.php). Se for para um grupo de empresa, [entre em contato](mailto:diegoeis+mentoria@gmail.com) direto comigo;
 - **Livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/)**: neste livro eu exponho ideias sobre como os Produtos Digitais são um meio, um veículo, que transporta valor para o negócio e para o usuário. Além disso, mostrei meu racional de construção de produtos, falando sobre negócios, indicadores, startups, ética e vários outros assuntos importantes para Product Managers;
-- **[PM Letter](https://pmletter.email)** é uma Letter semanal feita para Product Managers e pessoas que trabalham com a criação e desenvolvimento de produtos digitais;
+- **[PM Letter](https://productoversee.com/newsletter/)** é uma Letter semanal feita para Product Managers e pessoas que trabalham com a criação e desenvolvimento de produtos digitais;
+- **[Product Oversee](https://productoversee.com/)**: um portal de conteúdo exclusivo para quem constrói, lidera e faz gestão de produtos e serviços digitais aqui no Brasil. Um projeto pra tentar quebrar o consenso de como faz produtos digitais e para fomentar opinião, criar novos pontos de vista e ajudar a amadurecer o mercado de produtos digitais no Brasil;
 - **[PM ToolKit](http://pmtoolkit.work/)**: é um apanhado de links para conteúdo, ferramentas, livros, cursos sobre gestão de produtos digitais;
-- **[GP - Gestão de Produtos](https://medium.com/gestao-produtos)**: mantenho esse canal no Medium sobre gestão de produto. Ainda está bem parado, porque, né? Tempo a gente nunca arranja. Mas sempre tem um ou outro artigo por lá, meu e de outros autores;
 - **[Palestras](https://speakerdeck.com/diegoeis)**: Eu sou muito ativo na comunidade de produtos e front-end, produzindo conteúdo e falando em muitos eventos como o QCon Brasil, Lean Kanban Brasil, BrasilJS, World Usability Day e muitos eventos, cursos e meetups. Você pode ver minhas apresentações [aqui](https://speakerdeck.com/diegoeis) e [aqui](https://www.slideshare.net/diegoeis).
 - **[Tableless](https://tableless.com.br/)**: é o mais antigo e o maior dos meus projetos pessoais: é um blog com conteúdo sobre front-end, aberto para vários autores. Explico um pouco sobre ele mais abaixo;
 - **[Investidor ToolKit](https://investidor.netlify.com/)**: Eu gosto de investir e ler bastante sobre esse assunto, e sei que tem uma série de pessoas que gostam também, por isso, nos mesmos moldes do PM ToolKit, criei um um apanhado de links para conteúdo, ferramentas, livros, cursos sobre investimento;
 - **Livro [Guia Front-end](https://www.casadocodigo.com.br/products/livro-guia-frontend)**: começar como front-end nunca foi tão difícil quanto atualmente. Antes bastava aprender HTML, CSS e JS. Hoje, você precisa entender todos os frameworks e bibliotecas. Isso gera ansiedade e muitos acabam desistindo. Nesse livro eu tento descomplicar as decisões sobre o que aprender e quando aprender. Bom para iniciantes;
 - **Livro [Introdução à Web Semântica](https://www.casadocodigo.com.br/products/livro-web-semantica)**: Sempre achei Web Semântica um assunto fascinante e ignorado pela comunidade de produtos e principalmente pela comunidade de desenvolvimento. Por isso, escrevi um livro para ajudar as pessoas a entenderem melhor como a Web Semântica está impactando e irá impactar nossas vida no futuro;
 <!-- - **[Fórum do Tableless](http://forum.tableless.com.br/)**: Esse está um pouco escostado, mas não requer muito trabalho. Mesmo assim, a comunidade tenta se ajudar no Fórum do Tableless, falando sobre front-end e assuntos relacionados; -->
+<!-- - **Mentorias**: Em 2020 comecei a fazer mentorias grátis (por enquanto) para pessoas ou grupos para empresas. Converso sobre liderança e gestão de serviços e produtos digitais e times, estratégia e tático de produto, carreira e mercado. [Você pode agendar um horário](https://diegoeis.as.me/schedule.php). Se for para um grupo de empresa, [entre em contato](mailto:diegoeis+mentoria@gmail.com) direto comigo; -->
+<!-- - **[GP - Gestão de Produtos](https://medium.com/gestao-produtos)**: mantenho esse canal no Medium sobre gestão de produto. Ainda está bem parado, porque, né? Tempo a gente nunca arranja. Mas sempre tem um ou outro artigo por lá, meu e de outros autores; -->
 
 ## Gestão Moderna de Produtos Digitais
 
-Eu escrevi um livro sobre Gestão de Produtos Digitais, mostando meu racional de pensar sobre construção e organização de Produtos Digitais. Nesse livro falo bastante sobre produtos como plataforma, facilitação de criação de valor entre usuário e negócio, responsabilidades de PM, bolha das startups e vários outros assuntos.
+Eu escrevi um livro sobre Gestão de Produtos Digitais, mostrando minha lógica sobre construção e organização de Produtos Digitais. Nesse livro falo bastante sobre produtos como plataforma, facilitação de criação de valor entre usuário e negócio, responsabilidades de PM, bolha das startups e vários outros assuntos.
 
 Você pode saber mais sobre o [livro no site oficial](https://gestaomodernaprodutosdigitais.com/).
 
 
-## O Tableless
-
-Eu iniciei minha carreira como desenvolvedor front-end. Era uma época onde a web já tinha chegado aqui de forma comercial e a imigração de profissionais de outras área estava apenas começando. Eu dei a sorte de começar a trabalhar com web em torno de 2000, e de lá para cá eu não parei. 
-
-E como naquela época o conteúdo sobre desenvolvimento, principalmente desenvolvimento front-end, era bastante escasso, decidi criar um blog, sem pretensão nenhuma, para compartilhar o que eu estava aprendendo. Esse blog começou como **.kit.net**, depois para **.cjb.net**, depois ganhei (sim, ganhei) o domínio **.com.br**, e hoje é um dos sites mais populares (que não quer dizer mais visitado) na comunidade front-end e de desenvolvimento. Hoje somos muitos autores escrevendo sobre front-end, back-end e design.
-
-Devo dizer que o Tableless mudou minha carreira de forma drástica. De lá para cá nada foi a mesma coisa. Completei tantos objetivo que fica difícil de mensurar o valor que ele teve pra mim e espero que para a evolução do desenvolvimento web no Brasil.
-
 ## O trabalho
 
-### Hoje estou como Head da Unidade de Negócios de Eventos Online
+### 2020: Sympla
 
-Em Março de 2020 eu iniciei meu ciclo na Sympla, uma empresa focada em levar experiências incríveis para as pessoas. Essas experiências podem ser presenciais ou online. Aqui eu comecei como Head de Produtos Digitais da unidade de negócios Bileto, que é focada em Casas Fixas (teatros, eventos de grande porte, museus, parques etc). 
-
-No último trimestre de 2020 eu passei a liderar toda a área de negócios de Eventos Online, sendo responsável por direção estratégia e desdobramento tático junto dos times que envolvem a unidade. 
-
-Nós oferemos ferramentas e recursos para que organizadores, produtores, artistas e patrocinadores possam criar, gerenciar e monitorar seus eventos online ao vivo.
+Em Março de 2020 eu iniciei meu ciclo na [Sympla](https://sympla.com.br/), uma empresa focada em levar experiências incríveis para as pessoas. Essas experiências podem ser presenciais ou online. Aqui eu comecei como Head de Produtos Digitais da unidade de negócios Bileto, que é focada em Casas Fixas (teatros, eventos de grande porte, museus, parques etc), mas já passei pela direção da unidade de negócios de eventos online e hoje eu sou Diretor de Produtos Digitais e Head da área de negócios Digitais.
 
 ### 2018: Diretor de Produtos Digitais na Jüssi Business Agency
 
 No final de **2018** fui como Diretor de Produtos Digitais para a Jüssi, uma agência de negócios digitais. Lá eu lidero um time de mais ou menos 100 pessoas, divididas nas especialidades de Tecnologia, UXD, Gestão de Produtos, CRO/WA e SEO. Um desafio que se assemelha bastante com o começo da minha carreira, onde eu tenho que empreender bastante, olhar para o futuro, resolvendo os desafios do presente.
 
-Aqui nós não tratamos os clientes como mais um Job, mas tratamos seu negócio e suas plataformas como Produtos e Serviços Digitais, tendo uma mentalidade mais perene, evolutiva, que gera valor não apenas para o negócio, mas também para as pessoas que usam os serviços dos nossos clientes. Para tanto, temos uma cultura de Produtos Digitais como em qualquer empresa de tecnologia ou startup.
+<!-- Aqui nós não tratamos os clientes como mais um Job, mas tratamos seu negócio e suas plataformas como Produtos e Serviços Digitais, tendo uma mentalidade mais perene, evolutiva, que gera valor não apenas para o negócio, mas também para as pessoas que usam os serviços dos nossos clientes. Para tanto, temos uma cultura de Produtos Digitais como em qualquer empresa de tecnologia ou startup. -->
 
 ### 2018: Product Manager na Neon Pagamentos
 
@@ -89,6 +77,16 @@ Em **2006**, comecei uma jornada abrindo minha própria empresa chamada Visie, o
 <br>
 <br>
 <hr>
+
+
+## O Tableless: onde tudo começou.
+
+Eu iniciei minha carreira como desenvolvedor front-end. Era uma época onde a web já tinha chegado aqui de forma comercial e a imigração de profissionais de outras área estava apenas começando. Eu dei a sorte de começar a trabalhar com web em torno de 2000, e de lá para cá eu não parei. 
+
+E como naquela época o conteúdo sobre desenvolvimento, principalmente desenvolvimento front-end, era bastante escasso, decidi criar um blog, sem pretensão nenhuma, para compartilhar o que eu estava aprendendo. Esse blog começou como **.kit.net**, depois para **.cjb.net**, depois ganhei (sim, ganhei) o domínio **.com.br**, e hoje é um dos sites mais populares (que não quer dizer mais visitado) na comunidade front-end e de desenvolvimento. Hoje somos muitos autores escrevendo sobre front-end, back-end e design.
+
+Devo dizer que o Tableless mudou minha carreira de forma drástica. De lá para cá nada foi a mesma coisa. Completei tantos objetivo que fica difícil de mensurar o valor que ele teve pra mim e espero que para a evolução do desenvolvimento web no Brasil.
+
 
 ## Me encontre, me acompanhe
 
