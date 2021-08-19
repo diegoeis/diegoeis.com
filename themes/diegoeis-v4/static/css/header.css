@@ -50,19 +50,6 @@ h1.eis-logo a {
   opacity: 1;
 }
 
-.eis-overlay {
-  position: absolute;
-  top:  0;
-  left:  0;
-  background: white;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity linear .10s;
-}
-
-.eis-menu-on .eis-overlay {opacity:  1;}
-
 
 .eis-menu-items {
   max-width: 500px;

@@ -53,6 +53,21 @@ a {
 }
 a:hover {color: var(--linkHover); text-decoration: none;}
 
+.eis-overlay {
+  position: absolute;
+  top:  0;
+  left:  0;
+  background: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity linear .10s;
+  pointer-events: none;
+}
+
+.eis-menu-on .eis-overlay {opacity:  1; pointer-events: initial;}
+
+
 .eis-btn {
   background: #000;
   text-align: center;
