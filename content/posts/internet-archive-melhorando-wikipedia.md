@@ -5,7 +5,7 @@ date: 2019-11-03
 image: https://i.imgur.com/Yjki2kO.jpg?1
 categories:
 - tecnologia
-- ler assistir e ouvir
+- ler ver e ouvir
 ---
 
 Centralização de conteúdo na web é algo sutil que você tem presenciado todos os dias. O Medium é exemplo desses grandes meios de centralização de conteúdo. As pessoas adoram, muito por causa da sua forma "disruptiva" de ele se tratar como uma plataforma de contar histórias que valham a pena de ler. Mas acontece que o Medium está ficando cada vez mais evil, forçando a barra para o paywall não apenas para o leitores, mas principalmente para os autores, até mesmo aqueles que querem escrever sem qualquer compromisso. 

@@ -4,7 +4,7 @@ type: post
 date: 2016-12-29
 categories:
   - produtividade-e-dados-pessoais
-  - ler assistir e ouvir
+  - ler ver e ouvir
 ---
 
 

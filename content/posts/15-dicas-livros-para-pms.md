@@ -5,7 +5,7 @@ date: 2021-01-11
 image: https://i.imgur.com/fG3wHPr.jpg
 categories:
   - lideranca e product management
-  - ler assistir e ouvir
+  - ler ver e ouvir
 tags:
   - carreira
   - productoversee

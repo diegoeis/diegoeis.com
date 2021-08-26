@@ -5,7 +5,7 @@ excerpt: Um review sobre o livro do Simon Sinek chamado Comece Pelo Porque
 date: '2020-02-25'
 publishdate: '2020-02-25 22:00'
 categories:
-  - ler assistir e ouvir
+  - ler ver e ouvir
   - lideranca e product management
 ---
 

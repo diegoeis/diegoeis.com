@@ -5,7 +5,7 @@ date: 2020-06-08
 publishdate: 2020-06-08
 image: /images/uploads/posts/pablo-page-not-found.png
 categories:
-- ler assistir e ouvir
+- ler ver e ouvir
 - lideranca e product management
 ---
 

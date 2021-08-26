@@ -5,7 +5,7 @@ excerpt: Review do livro Cavalheiro em Moscou
 date: 2020-05-28T00:00:00.000Z
 publishdate: 2020-05-30 01:22
 categories:
-- ler assistir e ouvir
+- ler ver e ouvir
 ---
 
 [![Capa do livro Um cavalheiro em moscou](https://i.imgur.com/jhoehTR.jpg)](https://amzn.to/2TPcld2)

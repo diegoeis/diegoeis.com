@@ -6,7 +6,7 @@ date: '2020-07-21'
 publishdate: '2020-07-21'
 image: https://i.imgur.com/7dFbaXY.jpg
 categories:
-  - ler assistir e ouvir
+  - ler ver e ouvir
   - lideranca e product management
 ---
 

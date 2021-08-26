@@ -5,7 +5,7 @@ date: 2020-04-26
 image: https://diegoeis.com/images/hero-livro.png
 categories:
 - lideranca e product management
-- ler assistir e ouvir
+- ler ver e ouvir
 ---
 
 

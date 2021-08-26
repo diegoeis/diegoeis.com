@@ -5,7 +5,7 @@ excerpt: Uma versão visual de um álbum musical
 date: 2020-06-27
 image: /images/sturgill-sound-fury.png
 categories:
-- ler assistir e ouvir
+- ler ver e ouvir
 ---
 
 [Sturgill Simpson Presents Sound & Fury](https://www.netflix.com/br-en/title/81171121) na Netflix é basicamente a versão visual do álbum Sound & Fury do Sturgill Simpson. São 45 minutos de pura arte, em uma especie de “anime musical” ou como chamam "Álbum Musical Animado". Se você assistiu o [Interstellar 5555](https://m.youtube.com/watch?v=3Qxe-QOp_-s), você vai manjar do que estou falando. 

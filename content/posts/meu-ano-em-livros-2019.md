@@ -7,7 +7,7 @@ publishdate: '2019-12-22'
 image: https://diegoeis.com/images/uploads/ano-em-livros-2019/meus-livros.jpg
 categories:
   - produtividade-e-dados-pessoais
-  - ler assistir e ouvir
+  - ler ver e ouvir
 ---
 
 Veja também o que eu li nos anos anteriores:

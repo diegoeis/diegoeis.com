@@ -34,19 +34,20 @@ h1.eis-logo a {
   width: 100%;
   max-width: 700px;
   height: 100%;
-  display: flex;
+  transition: opacity linear .15s;
+  transform: translate(-50%, 0);
+  display: none;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   padding: 5% 0 0;
   opacity: 0;
-  transition: opacity linear .15s;
-  transform: translate(-50%, 0);
   pointer-events: none;
 }
 
 .eis-menu-on .eis-menu {
   pointer-events: initial;
+  display: flex;
   opacity: 1;
 }
 

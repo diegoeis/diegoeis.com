@@ -5,7 +5,7 @@ excerpt: >-
   simplesmente não me acostumei tão facilmente com essa forma de…
 date: '2018-02-04T19:25:13.286Z'
 categories: 
-- ler assistir e ouvir
+- ler ver e ouvir
 ---
 
 Eu não gostava muito de audiobooks. Não há um motivo específico, mas eu simplesmente não me acostumei tão facilmente com essa forma de consumir livros. Contudo, existem momentos na minha rotina diária que simplesmente não posso sacar meu Kindle e começar a ler. Por exemplo, em viagens de carro ou em trajetos que faço a pé. A minha preferência é usar transporte público ao invés de carro, e nesse processo, tenho que fazer uma pequena caminhada de 15 minutos até o terminal de ônibus e depois mais 10 minutos até a empresa. Contando a volta, são mais ou menos 50 minutos que eu posso usar pra adiantar minhas leituras.
