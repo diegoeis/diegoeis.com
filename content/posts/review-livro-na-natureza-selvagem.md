@@ -17,17 +17,19 @@ Eu conheci essa história por acaso. Algo em torno do dia [19 de Junho](https://
 
 Existe muita polêmica em volta da história sobre o que realmente aconteceu com Alex Supertramp, ou melhor, Chris McCandless, que é seu nome original. Ele morreu em 1992 no Alaska, de inanição, dentro do ônibus abandonado.
 
-Há muita teoria envolvendo a reputação do McCandless, os motivos que o levaram a fazer essa aventura, sua (falta de) preparação e motivos da morte. Contudo, parece que a história cativou uma legião de fãs. Muito por causa desse livro e pelo testemunho das pessoas que o McCandless brevemente se relacionou enquanto fazia a sua viagem, sempre de carona.
+Há muita teoria envolvendo a reputação do McCandless e os motivos que o levaram a fazer essa aventura, sua (falta de) preparação e motivos da morte. Contudo, parece que a história cativou uma legião de fãs e foi bem potencializada por este livro e pelo testemunho das pessoas que o McCandless se relacionou enquanto fazia a sua jornada.
 
 O livro carrega muito sentimento. Jon Krakauer é obcecado pela história e pelo próprio McCandless. Jon explica que pouco tempo depois do corpo de McCandless ser encontrado, o editor da revista [Outside Online](https://www.outsideonline.com) (dedicado à artigos, histórias e conteúdo sobre práticas esportivas em ambiente aberto), pediu para que Jon escrevesse um artigo sobre a morte do rapaz. Foi um artigo de mais ou menos 9000 palavras e foi publicado na edição de Janeiro de 1993. O próprio Jon Krakauer é um montanhista, o que explica bastante parte da fascinação dele pelo acontecido. 
 
 > “Não tenho pretensão de ser um biógrafo imparcial. A estranha história de McCandless tocou-me pessoalmente de tal forma que tornou impossível um relato desapaixonado da tragédia. Na maior parte do livro tentei — creio que, em larga medida, com sucesso — minimizar minha presença de autor. Mas que o leitor esteja atento: intercalei a história de McCandless com fragmentos de uma narrativa baseada em minha própria juventude.” — Krakauer, Jon. Na natureza selvagem - Nova edição com posfácio inédito do autor (p. 6). Companhia das Letras. Kindle Edition. 
 
-Chris queria fugir. Queria fugir da cidade, das “garras” do governo, das regras e restrições sem sentido impostas por e para a sociedade. Queria fugir da forma plástica, formal, alineada que todos vivem. Acho que é normal o ser humano tentar encontrar a si mesmo longe dos outros, do coletivo, do barulho. Pensam que se talvez ingressarem em uma jornada arriscada ou fazer algo muito fora da curva do que chamamos de “normal”,  encontrarão algo novo e valioso dentro de si mesmas. Talvez seja por isso que algumas pessoas viajam para locais remotos ou vão para uma jornada espiritual em lugares como Índia ou sei lá, Tailândia. Acredito que todas as pessoas tem uma inquietação interna e cada uma canaliza essa inquietação da forma que mais lhe convém. Acho que esse tipo de comportamento pode ser uma forma de expressão.
+Chris queria fugir. Queria fugir da cidade, das “garras” do governo, das regras e restrições sem sentido impostas por e para a sociedade. Queria fugir da forma plástica, formal, alineada que todos vivem. Acho que é normal o ser humano tentar encontrar a si mesmo longe dos outros, do coletivo, do barulho. Pensam que se talvez ingressarem em uma jornada arriscada ou fazer algo muito fora da curva do que chamamos de “normal”,  encontrarão algo novo e valioso dentro de si mesmas. 
+
+Talvez seja por isso que algumas pessoas viajam para locais remotos ou vão para uma jornada espiritual em lugares como Índia ou sei lá, Tailândia. Acredito que todas as pessoas têm uma inquietação interna e cada uma canaliza essa inquietação da forma que mais lhe convém. Acho que esse tipo de comportamento pode ser uma forma de expressão.
 
 > I HAVE HAD A HAPPY LIFE AND THANK THE LORD. GOODBYE AND MAY GOD BLESS ALL. — Uma das últimas notas do “diário”, feita no dia 12 de Agosto de 1992.
 
-Essa história também rendeu um filme, dirigido [pelo Sean Penn](https://www.imdb.com/title/tt0758758/), em 2007. Acabei de assistir e ilustra bastante bem a história que foi contada por Jon. Obviamente, assim como o livro, o filme glamoriza muito a história.
+Existe também um ótimo filme, dirigido [pelo Sean Penn](https://www.imdb.com/title/tt0758758/), em 2007. Acabei de assistir e é bem fidedigno ao livro do Krakauer. Obviamente, assim como o livro, o filme glamoriza muito a história.
 
 O corpo de McCandless foi encontrado por caçadores de alce em setembro de 1992. Ele morreu em agosto.
 
