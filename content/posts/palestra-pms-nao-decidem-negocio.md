@@ -2,8 +2,8 @@
 type: post
 title: "Palestra: PMs decidem negócio? Vou explicar nessa palestra por que não"
 excerpt: uma palestra única onde explico esse desvairo maluco do mercado de achar que PMs decidem negócio
-date: 30-08-2021
-publishdate: 30-08-2021 
+date: 2021-08-30
+publishdate: 2021-08-30
 image: https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
 categories:
   - product-management
