@@ -14,7 +14,7 @@ tags:
   - pmletter
 ---
 
-_Esse artigo foi publicado no projeto [Product Oversee](https://productoversee.com/?utm_source=diegoeis_com&utm_medium=link_artigo&utm_campaign=publicacao_diegoeiscom). Um portal de conteúdo para líderes e gestores de produtos e serviços digitais. Nós estamos comprometidos a influenciar a evolução do mercado, nos dedicando à evolução individual._
+*Esse artigo foi publicado no projeto [Product Oversee](https://productoversee.com/?utm_source=diegoeis_com&utm_medium=link_artigo&utm_campaign=publicacao_diegoeiscom). Um portal de conteúdo para líderes e gestores de produtos e serviços digitais. Nós estamos comprometidos a influenciar a evolução do mercado, nos dedicando à evolução individual.*
 
 ---
 
@@ -58,7 +58,9 @@ Existem 5 critérios para formar uma Causa Justa:
 
 A Causa Justa nunca será alcançada. Ela é algo para que você e a empresa consigam usufruir dos resultados atingidos pelo caminho percorrido ao tentar almejar alcançar a Causa Justa.
 
-Um exemplo de Causa Justa está na [ Declaração de Independência dos EUA](https://www.archives.gov/founding-docs/declaration) .  *We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.* — **Preamble to the Declaration of Independence**. 
+Um exemplo de Causa Justa está na [ Declaração de Independência dos EUA](https://www.archives.gov/founding-docs/declaration).  
+
+> *We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.* — **Preamble to the Declaration of Independence**. 
 
 Quando eles colocam que a vida, liberdade e a busca pela felicidade são direitos inalienáveis de todas as pessoas, eles definem uma visão ideal inspiradora, de forma que eles comprometem sua honra, suas fortunas, suas vidas para construir e defender esse ideal desde então. E até hoje os EUA tem buscado esse ideal. E não só os EUA, mas todas as nações, onde há uma luta constante em prol da manutenção e criação de direitos fundamentais para todas as pessoas.
 

@@ -4,6 +4,13 @@
   margin: 0 auto 100px;
 }
 
+.eis-text > p:first-child i:first-child,
+.eis-text > p:first-child em:first-child {
+  background: #F9F5E3;
+  display: block;
+  padding: 10px;
+}
+
 .eis-post-header {
   margin:  0 auto;
   padding: 0 var(--spaceDefault) 70px;
