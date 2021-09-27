@@ -9,16 +9,16 @@ type: page
 <br>
 <iframe width="750" height="380" src="https://www.youtube.com/embed/ytyX1w13faw?start=757" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <br>
-<script async class="speakerdeck-embed" data-id="db45566fcdf24e53850fdccf92ec5058" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="db45566fcdf24e53850fdccf92ec5058" data-ratio="1" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 <br>
 <br>
-<script async class="speakerdeck-embed" data-id="f06809734d59473a89a6e9fb02e982a3" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="f06809734d59473a89a6e9fb02e982a3" data-ratio="1" src="//speakerdeck.com/assets/embed.js"></script>
 <br>
 <br>
 
-<script async class="speakerdeck-embed" data-id="0b990d0d0f07428c81d8e9392cffe54e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="0b990d0d0f07428c81d8e9392cffe54e" data-ratio="1" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 <br>
