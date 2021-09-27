@@ -9,8 +9,7 @@ type: page
 <br>
 <iframe width="750" height="380" src="https://www.youtube.com/embed/ytyX1w13faw?start=757" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <br>
-<script async class="speakerdeck-embed" data-id="db45566fcdf24e53850fdccf92ec5058" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/db45566fcdf24e53850fdccf92ec5058" title="Gestão Moderna de Produtos/Serviços Digitais" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;"></iframe>
 
 <br>
 <br>
