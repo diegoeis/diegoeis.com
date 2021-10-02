@@ -17,7 +17,7 @@
     {{partial "tags-list.html" . }}
 
     <ul class="eis-list-post">
-    {{ range after 1 (where .Site.Pages "Type" "post")}}
+    {{ range (where .Site.Pages "Type" "post")}}
       <li>
         <a href="{{.Permalink}}" class="eis-post-lnk" data-clicked="lnk-post-list">
           <span class="eis-date">{{ .Date.Format "January 2, 2006" }}</span>
