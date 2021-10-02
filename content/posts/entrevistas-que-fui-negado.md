@@ -11,7 +11,7 @@ tags:
   - carreira
   - cotidiano e comportamento
 ---
-Hoje (04/08/2021) entrevistei 6 pessoas. Foi um dia intenso. Nem imagino como a Ana, responsável pela seleção e recrutamento da firma, consegue fazer isso todos os dias. No final do expediente eu já estava trocando os nomes das pessoas e nem lembrava mais pra qual das áreas estávamos contratando.
+No dia 04/08/2021 entrevistei 6 pessoas. Foi um dia intenso. Nem imagino como a Ana, responsável pela seleção e recrutamento da firma, consegue fazer isso todos os dias. No final do expediente eu já estava trocando os nomes das pessoas e nem lembrava mais pra qual das áreas estávamos contratando.
 
 Eu já estive nos dois lados da mesa e nenhum dos lados é fácil. Já participei de muitos processos seletivos de grandes empresas e não passei. Mas já entrevistei muito também e tive (tenho) que lidar com a urgência de não encontrar a pessoa certa.
 
