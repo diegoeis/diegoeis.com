@@ -1,6 +1,6 @@
 ---
 type: post
-title: Diagrama teste e livro sobre desdobramento estratégico em produto
+title: Diagrama teste para o livro sobre desdobramento estratégico em produto
 excerpt: Atrelando conceitos de camadas de maturidade de hipóteses e
   oportunidades de produto.
 date: 2021-10-11
