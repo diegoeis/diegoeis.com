@@ -3,8 +3,8 @@ type: post
 title: Diagrama teste para o livro sobre desdobramento estratégico em produto
 excerpt: Atrelando conceitos de camadas de maturidade de hipóteses e
   oportunidades de produto.
-date: 2021-10-11
-publishdate: 2021-10-11 08:37
+date: 2021-10-18
+publishdate: 2021-10-18 08:37
 image: https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F872406b1-7e16-4462-9669-fe79e53680ea_1274x1233.png
 tags:
   - gestao e lideranca
