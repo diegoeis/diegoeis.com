@@ -13,8 +13,6 @@ tags:
   - cotidiano e comportamento
 ---
 
-#writing
-
 É muito interessante observar o comportamento das pessoas quando elas percebem a transição que estamos vivendo, sobre como a tecnologia está realmente mudando nosso comportamento humano. Ficamos confusos sobre diversos assuntos: privacidade, frequência de uso e consumo,  saúde mental, ética… só pra citar alguns.
 
 Por isso que ficamos horrorizados quando percebemos a quantidade de atenção que damos para as telas e serviços que consomem nosso tempo de forma tão escancarada, mas ao mesmo tempo sutil. E alguns até se questionam como será o futuro ou no que a humanidade se transformará por causa do excesso de informação (inútil ou útil, falsa ou verdadeira que explode nas nossas caras).
