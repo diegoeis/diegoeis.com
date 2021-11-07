@@ -17,6 +17,15 @@ h1.eis-logo a {
   color:  #000;
 }
 
+.eis-newsletter-menu {
+  color:  #000;
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: none;
+  position: relative;
+  top: -4px;
+}
+
 .eis-sandwich {
   background: url(../images/v4/sandwich.png) no-repeat center;
   background-size: contain;
