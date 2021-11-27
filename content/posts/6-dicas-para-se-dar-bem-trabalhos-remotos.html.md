@@ -1,5 +1,5 @@
 ---
-title: 6 dicas para se dar em trabalhos remotos
+title: 6 dicas para se dar bem trabalhos remotos
 type: post
 date: 2014-10-04
 categories:
