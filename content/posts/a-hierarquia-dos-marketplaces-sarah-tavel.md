@@ -2,8 +2,8 @@
 type: post
 title: A hierarquia dos marketplaces por Sarah Tavel
 excerpt: Como marketplaces funcionam e quais os passos para criar negócios de sucesso baseados em marketplaces por uma investidora.
-date: 2021-12-04
-publishdate: 2021-12-04
+date: 2022-01-04
+publishdate: 2022-01-04
 image: https://i.imgur.com/JqOgPNL.png
 categories:
   - product-management
