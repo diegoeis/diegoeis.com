@@ -9,6 +9,9 @@ categories:
   - product-management
 ---
 
+*Esse texto foi publicado primeiramente na [PM Letter](https://productoversee.com/newsletter/). A Newsletter sobre Gestão de Produto e negócios do Product Oversee.*
+
+
 Uma das coisas que mudaram minha forma de pensar e que fizeram ter aquele "click" sobre gestão de produto conectado com negócio, foi buscar conteúdos não tradicionais sobre "Product Management". Foi aí que eu comecei a procurar pessoas que falavam sobre gestão de negócios de tecnologia e não sobre gestão de produtos em si. O Produto faz parte de um negócio e como trabalhamos em empresas de tecnologia, a estratégia do negócio é geralmente executada por meio do produto. 
 
 Quando falamos sobre product management, essencialmente estamos falando sobre a execução do negócio. Já falei isso algumas vezes e várias pessoas podem ter ficado chateados, por que elas entraram na área de Product Management achando que  estariam posicionadas níveis acima da operação. Coitadas. Aprenderam em qualquer cursinho gravado uma imagem romantizada do que é ser Product Manager... infelizmente, essa visão brilhante não é o caso real do nosso dia a dia.
