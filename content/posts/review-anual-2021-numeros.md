@@ -1,6 +1,7 @@
 ---
 type: post
 title: Meu review anual de 2021
+draft: true
 excerpt: Como foi meu ano de 2021 em números e gráficos
 date: 2021-12-15
 publishdate: 2021-12-15
