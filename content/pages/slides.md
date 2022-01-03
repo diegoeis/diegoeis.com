@@ -4,11 +4,12 @@ date: 2018-02-07
 type: page
 ---
 
-<p style="text-align: center;">Abaixo, seguem palestras que fiz em alguns eventos. Se quiser ver mais, <a href="https://speakerdeck.com/diegoeis">siga esse link</a>.</p>
+Abaixo, seguem palestras que fiz em alguns eventos. Se quiser ver mais, [siga esse link](https://speakerdeck.com/diegoeis).
 <!-- <br>
 <br>
 <iframe width="750" height="380" src="https://www.youtube.com/embed/ytyX1w13faw?start=757" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <br>
+
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/db45566fcdf24e53850fdccf92ec5058" title="Gestão Moderna de Produtos/Serviços Digitais" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;"></iframe>
 
 <br>

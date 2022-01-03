@@ -11,10 +11,14 @@ type: page
 
 ## TL: DR;
 
+Me chamo Diego Eis e trabalho com internet e tecnologia há 21 anos. Atualmente sou Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/) e já passei pela Locaweb, NuInvest e Neon. Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com) e fundador da [PM Letter](https://productoversee.com/newsletter/).
 
-Meu chamo Diego Eis e atualmente sou Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/). Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com) e fundador da [PM Letter](https://productoversee.com/newsletter/).
+Eu escre o textos sobre construção de produtos digitais e assuntos relacionados que eu tenho estudado. Uma vez por semana eu [envio uma newsletter](https://diegoeis.com/newsletter/) para mais de 1100 assinantes, além de fazer palestras sobre essas ideias para empresas e eventos.
 
-**Navegação rápida**:
+Você pode ver mais no meu [Twitter](https://twitter.com/diegoeis) ou [Linkedin](https://www.linkedin.com/in/diegoeis). Se preferir, me [envie um email](mailto:diegoeis@gmail.com).
+
+
+**Mais sobre mim. Navegação rápida**:
 
 - [Meus Projetos Pessoais](#meus-projetos-pessoais)
 - [Livro: Gestão Moderna de Produtos Digitais](#gestão-moderna-de-produtos-digitais)
@@ -67,7 +71,7 @@ Em **2018**, procurando novos desafios, fui parar na Neon. Eu confirmei a ida pa
 
 Chegando em **2017**, deixei a Locaweb para participar da Easynvest. Onde eu fui Product Manager, cuidando da experiência de investimentos nas plataformas web e mobile. No final da minha estadia na Easy, eu cuidei de uma série de outras iniciativas. Foi uma ótima experiência que me fundamentou mais ainda nesse mundo de investimentos e fintechs.
 
-### 2012: Indo coordenar times na Locaweb
+### 2012: Líder de times de Produto na Locaweb
 
 Em **2012**, deixei a minha própria empresa para experimentar outra jornada. Foi aí que entrei na Locaweb, onde fiquei por 5 anos. Lá, eu era coordenador de equipes de produtos digitais, liderando duas equipes multidisciplinares de dois produtos digitais.
 
@@ -78,7 +82,7 @@ Em **2006**, comecei uma jornada abrindo minha própria empresa chamada Visie, o
 <br>
 <hr>
 
-
+<!-- 
 ## O Tableless: onde tudo começou.
 
 Eu iniciei minha carreira como desenvolvedor front-end. Era uma época onde a web já tinha chegado aqui de forma comercial e a imigração de profissionais de outras área estava apenas começando. Eu dei a sorte de começar a trabalhar com web em torno de 2000, e de lá para cá eu não parei. 
@@ -86,7 +90,7 @@ Eu iniciei minha carreira como desenvolvedor front-end. Era uma época onde a we
 E como naquela época o conteúdo sobre desenvolvimento, principalmente desenvolvimento front-end, era bastante escasso, decidi criar um blog, sem pretensão nenhuma, para compartilhar o que eu estava aprendendo. Esse blog começou como **.kit.net**, depois para **.cjb.net**, depois ganhei (sim, ganhei) o domínio **.com.br**, e hoje é um dos sites mais populares (que não quer dizer mais visitado) na comunidade front-end e de desenvolvimento. Hoje somos muitos autores escrevendo sobre front-end, back-end e design.
 
 Devo dizer que o Tableless mudou minha carreira de forma drástica. De lá para cá nada foi a mesma coisa. Completei tantos objetivo que fica difícil de mensurar o valor que ele teve pra mim e espero que para a evolução do desenvolvimento web no Brasil.
-
+ -->
 
 ## Me encontre, me acompanhe
 

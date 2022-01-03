@@ -11,19 +11,32 @@
   overflow: hidden;
 }
 
+  
+.eis-menu-on .eis-showmenu nav {opacity: 0; transition: opacity linear .1s;}
+
 h1.eis-logo a {
   font-size: 1rem;
   text-decoration: none;
   color:  #000;
 }
 
-.eis-newsletter-menu {
+.eis-showmenu nav {
+  display: inline-block;
+}
+.eis-showmenu nav li {list-style: none; display: inline-block;}
+.eis-showmenu nav a {
   color:  #000;
   display: inline-block;
   margin-right: 30px;
   text-decoration: none;
   position: relative;
   top: -4px;
+  padding: 5px 10px;
+}
+
+.eis-showmenu nav a:hover {
+  color: #000;
+  background: #FFF090;
 }
 
 .eis-sandwich {
@@ -35,11 +48,13 @@ h1.eis-logo a {
   cursor: pointer;
 }
 
+
+
 .eis-menu {
   position: fixed;
   top: 0;
   left: 50%;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   max-width: 700px;
   height: 100%;
