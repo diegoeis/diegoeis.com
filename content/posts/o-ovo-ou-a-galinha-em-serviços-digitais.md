@@ -8,7 +8,7 @@ image: 'https://i.imgur.com/DGUnQGu.jpg'
 categories:
   - lideranca e product management
 ---
-_Este artigo foi publicado primeiramente na [PM Letter](https://pmletter.email/), uma Letter semanal sobre produtos digitais para Product Managers e pessoas que trabalham com produtos digitais. [Inscreva-se](https://pmletter.email/)._
+_Este artigo foi publicado primeiramente na [PM Letter](https://productoversee.com/newsletter), uma Letter semanal sobre produtos digitais para Product Managers e pessoas que trabalham com produtos digitais. [Inscreva-se](https://productoversee.com/newsletter/)._
 
 ---
 
