@@ -1,109 +1,58 @@
 ---
-type: post
-title: Designer e front-end, uma dependência ruim
-excerpt: Designer precisa estar mais próximo do comportamento do usuário para
-  potencializar a percepção de valor e entrega de resultado pro negócio. E isso
-  só é possível se não houver intermediários.
+title: Contratação de profissionais júnior
+excerpt: A contratação de pessoas juniors não é fácil a pessoa que está entrando
+  no mercado, nem fácil para quem contrata. É necessário preparo dos dois lados
+  e principalmente plano de evolução e continuidade.
 date: 2022-03-11
-publishdate: 2022-03-16 08:36
-image: https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F826910f0-8e64-4b28-b95d-3e765e01c694_800x400.jpeg
+publishdate: 2022-03-22 08:38
+image: https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff278b23c-4eae-4d34-9633-83c1a3bcaf76_800x400.jpeg
 tags:
-  - desenvolvimento web, gestao e lideranca, product management, agile,
-    anotacoes, tecnologia, design, ler assistir e ouvir, produtividade e dados
-    pessoais, saude, carreira, cotidiano e comportamento, fintech, investimento
-    e dinheiro, palestras, estoicismo
+  - gestao e lideranca
+  - product management
 ---
-Esse artigo foi escrito primeiro na[ minha newsletter](http://diegoeis.com/newsletter). [Se inscreve lá](http://diegoeis.com/newsletter)!
+Esse texto foi escrito primeiro lá na [minha newsletter](https://diegoeis.substack.com/). [Se inscreve](https://diegoeis.substack.com/)!
 
-Quando eu escrevi o artigo [O Fim da Profissão Front-end](https://tableless.com.br/carreira-de-front-end-vai-morrer/) alguns anos atrás. Fui fortemente criticado pela "comunidade" de devs front-end. Conheci diversos impropérios que eu nunca imaginei existir. Esse artigo é de 2017, mas de lá pra cá, absolutamente NADA mudou sobre como o relacionamento de back-end, front-end e designers se dá. Mas o principal problema, na minha opinião, é a relação entre front-end e designer.
+\---
 
-Eu nunca entendi, inclusive quando eu era front-end, por que os designers deveriam e tinham tanta dependência de desenvolvedores front-end. Os designers tinham um comportamento bastante recluso, com certeza. Não era tão colaborativos quanto a imagem pregava. Havia de verdade um muro entre times de design e desenvolvimento. Isso mudou bastante nos últimos anos, as tem exposto uma verdade inconveniente: designers entregam e geram mais resultados se estiverem mais próximos de onde as pessoas que usam o produto percebem o valor que esse produto/serviço oferece.
+Trabalhei durante toda a minha vida no mercado de tecnologia e produtos digitais. Eu sempre participei de comunidades, cuidava de várias iniciativas e principalmente participava ativamente de fóruns, meetups, eventos e palestras dentro de empresas ou mobilizando grupos que estavam com vontade de mudar o mercado. E um assunto que sempre surgiu foi a contratação de pessoas que estavam iniciando na área.
 
-A principal responsabilidade dos designers de produto, na minha humilde opinião, é melhorar e evoluir ao máximo a jornada de experiência de uso das pessoas no produto/serviço. Eles fazem isso não apenas com pesquisas, entrevistas, frameworks e métodos de descoberta, mas principalmente por meio da manipulação e monitoramento do ambiente que o usuário está inserido. Hoje, o que acontece é que, qualquer alteração simples, seja de interface, fluxo ou marcação de eventos de comportamento, deve ser feito pelo front-end.
+Meu início não foi muito difícil, mas eu tive que começar duro para conseguir um lugar ao sol. Me submeti a ganhar R$185, como estagiário, para entrar em uma agência em São Paulo e a partir dali eu tracei minha carreira. Eu encorajo a ideia de que você pode e deve trabalhar de graça ou quase de graça para adquirir experiência. Eu sempre lidei com a situação de ganhar pouca a grana em um momento de desenvolvimento, como investimento. O melhor curso é trabalhar em uma empresa, fazendo um projeto que existe, resolvendo problemas para pessoas que realmente usam seu trabalho.
 
-O design system não resolve essa relação, ela pode facilitar ter uma coerência visual além de técnica, implementando padrões que fazem sentido para as duas especialidades, mas ainda assim, o design system é estático. Minha proposta aqui é que os designers tenham mais controle\
-da mudança de comportamento do usuário ao utilizar a interface do produto, e que isso não fique na mão do front-end.
+Quando estamos começando a carreira, é necessário prestar atenção em muitos pontos que não apenas a capacitação técnica. Quando entramos numa empresa, a grande oportunidade que temos é de aprender como os mecanismos da empresa funcionam. Como as comunicações se dão, quais as alavancas de crescimento, quais áreas tem mais intersecção com o seu time, qual o perfil dos seus líderes e principalmente das pessoas que eles têm um relacionamento. É importante saber como a empresa ganha e perde dinheiro e quais as dinâmicas do mercado que ela está inserida. Você não vai aprender a como impactar os indicadores de negócio lendo GitHub de projetos open source. Embora isso seja importante para sua parte técnica. A preocupação com o seu conhecimento técnico deve começar muito antes de entrar nas empresas que selecionou, mas na minha opinião, assim que você entra em uma empresa, seu foco não pode ser apenas crescimento técnico.
 
-* Mudança de interface UI
-* Mudança de monitoramento de comportamento do usuário
-* Definição e deploy de novos padrões do design system
-* Testes A/B de interface e fluxos
-* Recrutamento e Pesquisas de usuários diretamente pelo produto
-* Monitoramento e análise de dados de comportamento de uso do usuário
+E isso não serve apenas para pessoas que entraram agora no mercado. O seu conhecimento técnico é commodity. O que vai te diferenciar do resto é o que você conhece além. É como você conecta o seu conhecimento técnico com outros assuntos da empresa. É aí que você se transforma em alguém estratégico para a empresa. Saber programar ou saber gerir backlog de produto são conhecimentos técnicos que qualquer um pode ter. Mas entregar resultados para empresa a partir do seu código, solucionando problemas reais e priorizar de maneira que potencialize as entregas dos times, são coisas valorizadas.
 
-A relação entre designer e front-end ainda é aquele waterfall que todo mundo conhece, que gera burocracia, ineficiência, descontentamento, encadeamento e overlap de responsabilidades. O mesmo que aconteceu com a relação entre back-ends e front-ends, deve acontecer com designers e front-ends. Uma evolução de alçadas deve acontecer.
+Mas isso tudo você só aprende se houver suporte. Suporte não apenas das empresas, mas também dos pares e times. E aqui é o ponto que eu queria entrar. Contratar juniors não é fácil do ponto de vista das empresas. Exatamente por que as empresas e quem contrata, geralmente, são confusos e não estão conectados com o resultado dos times. Eles têm um número de vagas que precisam preencher e pronto. E quando isso acontece, juniors são colocados em times e empresas que tem uma desconexão com o seu propósito ou objetivo profissional. Para mim, são dois fatores importantes que precisam existir nas empresas para que o junior não apenas seja contratado, mas que haja evolução contínua:
 
-Antes, muitos anos atrás (quase duas décadas) o front-end preparava um código "estático", onde os back-ends conectavam esse código com as informações e regras de negócio vindas do servidor. Essa relação gerava uma série de problemas técnicos e de relacionamento entre as partes. Com o passar do tempo, os back-ends não lidavam mais com a interface, servindo para os front-ends serviços que deveriam ser conectados por eles diretamente na interface, separando claramente as responsabilidades entre as duas especialidades. Back-end NUNCA devem ter contato com interface. Não faz sentido. Veja bem, essa divisão de alçadas foi um marco incrível, pois os back-ends poderiam agora se focar no que realmente era o seu trabalho, consequentemente a responsabilidade do front-end evoluiu (ou pelo menos deveria ter evoluído).
+* Suporte e acompanhamento de progressão técnica e de carreira;
+* Entendimento do Timing da empresa;
 
-O que os fronts e designers deveriam estar fazendo então?\
-Eu acho que toda a parte de user interface é de responsabilidade dos designers, incluindo responsabilidades adjacentes, por exemplo, implementar data points para controlar e monitorar comportamentos do usuário na interface. Isso quer dizer que front-ends devem se preocupar com outra coisa. Três exemplos:
+Existem vários outros pontos importantes que não quero abordar agora. Quero dar pitaco apenas nesses dois.
 
-* Performance. Ainda, o que mais pesa, é a parte de front-end. E é também o momento onde há a percepção de qualidade de estabilidade do sistema.
-* Regras de negócio que devem acontecer no front-end. Algumas regras de negócio acontecem sim no back, mas muitas outras, que dependem do comportamento do usuário, devem acontecer no front.
-* Criação, manutenção e monitoramento de APIs (sim, o back-end disponibiliza as bases de dados e toda a arquitetura, o front-end que deve criar os serviços que serão usados. Quem nunca ficou no meio de uma briga de backs e fronts para discutir como o formato do JSON deveria ser?)
+## **Suporte e Acompanhamento**
 
-Não acho que isso seja fácil de conseguir hoje. Talvez falte conversa, disposição, vontade de mudar. Talvez seja só medo mesmo.
+É necessário que o plano contemple como os integrantes mais experientes irão dar o suporte e o acompanhamento necessário para que a pessoa entenda como a empresa funciona. Geralmente é uma boa ideia ter uma pessoa que vai ser o acompanhante dessa pessoa durante sua jornada de crescimento e outra pessoa que será seu mentor técnico. São duas figuras que podem ajudar a novata a entender os dois aspectos que eu citei no início do texto. O acompanhante vai ajudar o a novata a entender a estrutura da empresa, seus processos, áreas, objetivos de longo prazo e cultura. Já o mentor irá ser seu responsável pelo crescimento técnico, ajudando a tapar os gaps que existem no seu repertório técnico, preparando o campo para que a pessoa consiga absorver conhecimentos mais complexos e consolidando conceitos importantes para estabelecer uma base sólida para aprendizados futuros.
 
-### **Relacionados**
+Sem suporte da empresa, não é confortável para a pessoa junior trabalhar ali. Já uma série de pessoas que haviam acabado de chegar da faculdade perdidas e estagnadas na empresa, sendo tratadas como um profissional já experiente. Um junior, não é só aquele que tem conhecimento técnico no início, mas também, muito provavelmente, não trabalhou em outra empresa anteriormente. Então, processos e estruturas da empresa são totalmente desconhecidos.
 
-**Dados reais no design**
+O suporte da empresa deve existir desde a seleção das pessoas até o fim do período de promoção e experiência.
 
-* [3 Easy Steps for Working with Realistic Data in Sketch Using JSON](https://www.shopify.com/partners/blog/91010886-3-easy-steps-for-working-with-realistic-data-in-sketch-using-json)
-* [Designing with Data](https://medium.com/@markjenkins/designing-with-data-7f6bcd907f0a#.95haya5yq)
-* [Prototype with real data in Framer, from JSON to multi-device and internet of things](https://blog.framer.com/prototype-with-real-data-in-framer-from-json-to-multi-device-and-internet-of-things-6eb1ae8b8325#.fo9b8i4gz)
-* [Adobe XD: Designing with Real Data](https://medium.com/@anirudhs/project-comet-designing-with-real-data-959beccb5c1a#.v6khfndrh)
+## **Sobre o timing da empresa**
 
-**Sobre o cenário das ferramentas de front-end**
+Eu não acho que todas as empresas devem sempre ter oportunidades para juniors. Se você está procurando um emprego agora e é junior no mercado, procure conhecer o timing da empresa.
 
-* [front-end.directory](https://frontend.directory/)
-* [Using front-end build tools](https://radify.io/blog/using-build-tools/)
-* [A Collection Of Best Front End Frameworks](https://usablica.github.io/front-end-frameworks/compare.html)
-* [GitHub: Front-end JavaScript frameworks](https://github.com/showcases/front-end-javascript-frameworks?s=stars)
-* [Front-End Tooling Trends for 2017](https://www.sitepoint.com/front-end-tooling-trends-2017/)
-* [Updated List: The 67 Very Best Front End Web Developer Tools](https://blog.debugme.eu/front-end-web-developer-tools/)
-* [The most popular JavaScript front-end tools](https://techbeacon.com/most-popular-javascript-front-end-tools)
-* [Top 10 Templating Engines for JavaScript To Improve and Simplify Your Workflow 2017](https://colorlib.com/wp/top-templating-engines-for-javascript/)
-* [Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
-* [Javascript State of the Union 2015, parte 3](https://medium.com/@caiovaccaro/javascript-state-of-the-union-2015-parte-3-281aa04bece1#.bulta9j6j)
-* [Slides – Javascript State of the Union 2015](https://www.slideshare.net/Hugeinc/javascript-state-of-the-union-2015)
-* [The State of Front-End Tooling 2016 – Results](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results)
-* [Front-end Roles and Responsibilities](https://hackernoon.com/front-end-roles-and-responsibilities-6ee8654f1649#.gsg5zdjtr)
+Exemplo: vai ser difícil para uma startup que precisa desesperadamente de hyper growth e vai fazer isso queimando caixa para crescer, contratar juniors para potencializar esse crescimento. Vai ser necessário ter pessoas mais experientes para fazer as coisas rápido para termos resultados imediatamente, mesmo que essas coisas sejam refeitas posteriormente. Mas as pessoas experientes vão saber quais trade-offs fazer agora e o quanto do futuro está sendo comprometido com débitos técnicos.
 
-**Outros**:
+Entendo que pode existir um momento e empresa certas para trabalhar como junior. Aquelas empresas que já estão em uma velocidade de cruzeiro, geralmente têm ambientes mais controlados e bem estáveis para que juniors consigam ter tempo para pensar, conectar e se adaptar ao ambiente. Geralmente essas empresas tem um equilíbrio de crescimento e sustentabilidade do que já existe, por isso conseguem estabelecer suporte e acompanhamento necessário para o crescimento do junior.
 
-* [The future of front-end development is design](https://techcrunch.com/2016/11/29/the-future-of-front-end-development-is-design/)
-* [The Future of Web Development: Coding as a Service](https://goo.gl/n2qbKL)
-* [I welcome every designer trying # FramerX to the @reactjs community.](https://twitter.com/dan_abramov/status/1025540365435199488)
-* [Framer](https://framer.com/x/)
-* [\# ThinkToCode ecosystem, part 2. Just pick your target code.](https://twitter.com/teleporthqio/status/1043245039261044736?s=21)
-* [The Design Tool Dilemma](https://www.freecodecamp.org/news/the-design-tool-dilemma-225541c4ad1d/)
-* [3 Easy Steps for Working with Realistic Data in Sketch Using JSON](https://www.shopify.com/partners/blog/91010886-3-easy-steps-for-working-with-realistic-data-in-sketch-using-json)
-* [Designing with Data](https://medium.com/@markjenkins/designing-with-data-7f6bcd907f0a#.95haya5yq)
-* [Prototype with real data in Framer, from JSON to multi-device and internet of things](https://blog.framer.com/prototype-with-real-data-in-framer-from-json-to-multi-device-and-internet-of-things-6eb1ae8b8325#.fo9b8i4gz)
-* [Adobe XD: Designing with Real Data](https://medium.com/@anirudhs/project-comet-designing-with-real-data-959beccb5c1a#.v6khfndrh)
-* [The end of Code](https://www.wired.com/2016/05/the-end-of-code/)
-* [Darpa Pliny - The $11M Tool That Could Help Computers Write Their Own Code](https://www.wired.com/2014/11/darpa-pliny/)
-* [Can computers write their own algorithms?](https://www.quora.com/Can-computers-write-their-own-algorithms)
-* [Why can’t there be a program that writes code for us?](https://www.quora.com/Why-cant-there-be-a-program-that-writes-code-for-us)
-* [The (probable) end of the front-end profession as you know it](https://medium.com/@diegoeis/the-probable-end-of-the-front-end-profession-as-you-know-it-2e205ecb4ab8)
-* [A.I. is Progressing Faster Than You Think!](https://youtu.be/mQO2PcEW9BY)
-* [React Sketch.app: render React components to Sketch](http://airbnb.design/painting-with-code/)
-* [React Sketch.app: github](https://github.com/airbnb/react-sketchapp)
-* [You design, we put it on the web.](https://launchpad.animaapp.com/DreamShareSample/home)
-* [Uizard](https://uizard.io/)
-* [Pix2Code - This app uses artificial intelligence to turn design mockups into source code](https://thenextweb.com/apps/2017/05/26/ai-raw-design-turn-source-code/#.tnw_E5IF7iEY)
-* [Pix2Code - This Startup Uses Machine Learning To Turn UI Designs Into Raw Code](https://www.fastcodesign.com/90127911/this-startup-uses-machine-learning-to-turn-ui-designs-into-raw-code)
-* [Pix2Code - Startup uses AI to create programs from simple screenshots](https://siliconangle.com/blog/2017/05/28/startup-uses-ai-create-gui-source-code-simple-screenshots/)
-* [Soon We Won’t Program Computers. We’ll Train Them Like Dogs](https://www.wired.com/2016/05/the-end-of-code/)
-* [Wix Code - Create advanced web applications without coding](https://www.producthunt.com/posts/wix-code)
-* [Supernova.io](https://www.supernova.io/)
-* [Code beautiful UI with Flutter and Material Design - Google I/O '18](https://www.youtube.com/watch?v=hA0hrpR-o8U)
-* [With Sketch 43, Design IS Code & Code IS Design](https://blog.blended.io/with-sketch-43-design-is-code-code-is-design/)
-* [Can computers write their own algorithms?](https://www.quora.com/Can-computers-write-their-own-algorithms)
-* [Sketch 43 will change the way we work and think](https://medium.com/sketch-app-sources/sketch-43-will-change-the-way-we-work-and-think-e4c919957423)
-* [Será o fim da profissão frontend ou mais uma grande evolução? · Issue #490 · frontendbr/forum](https://github.com/frontendbr/forum/issues/490)
-* [Why can't there be a program that writes code for us?](https://www.quora.com/Why-cant-there-be-a-program-that-writes-code-for-us)
-* [The $11M Tool That Could Help Computers Write Their Own Code | WIRED](https://www.wired.com/2014/11/darpa-pliny/)
-* [The Future of Web Development: Coding as a Service](https://hackernoon.com/the-future-of-web-development-coding-as-a-service-e413c978f77e)
-* [Dan Abramov on Twitter](https://twitter.com/dan_abramov/status/1025540365435199488)
-* [Soon We Won't Program Computers. We'll Train Them Like Dogs | WIRED](https://www.wired.com/2016/05/the-end-of-code/)
+Outro ponto é que empresas devem fazer uma seleção muito criteriosa sobre quais juniors ela quer contratar. Não apenas por causa do nível técnico, mas principalmente pelo fit cultural e propósito de carreira e pessoal. E de novo: a pessoa junior muitas vezes não tem experiência profissional por que não trabalhou em muitas empresas desse mercado anteriormente. Ela não conhece ainda e nem sabe avaliar qual é a cultura. Essa parte de conexão de cultura, propósito do negócio com o propósito pessoal é importante, por que o junior precisa passar muito tempo em um lugar para adquirir e cristalizar os conhecimentos que serão aprendidos ali. Não faz sentido um junior ficar saltando de empresa em empresa. Não é inteligente.
+
+Existem pessoas que se darão melhor em mercados mais nervosos e agressivos, outras pessoas que se darão melhor em mercados menos dinâmicos e mais "humanos". Outros querem um lugar muito meritocrático e hierárquico, outros vão preferir lugares mais orgânicos e descentralizados. Essa avaliação é importante para preservar o junior e proteger a cultura da empresa no médio prazo. E se você é junior, faça uma avaliação para entender qual o seu perfil. Isso tira muito da carga de insegurança que é natural no início.
+
+## **Concluindo**
+
+Não. Não é fácil ser júnior e nem é fácil contratar sendo empresa. Aqui eu abordei muito brevemente só alguns poucos pontos que envolvem esse assunto que é super importante e necessário. Para que o Brasil cresça, é necessário investir em formação em tecnologia. E não apenas em programação, mas também em todas as outras áreas.
+
+Esses dias um grupo de pessoas escreveram [um manifesto para o mercado de tecnologia](https://manifestotech.org/). Eu acho que toda iniciativa é boa por que gera discussão e conversa. Mas eu tenho um ranço natural contra esse tipo de iniciativa. Principalmente quando a iniciativa não vem do grupo que será beneficiado. Outro ponto é que o manifesto precisa ser discutido e escrito colaborativamente ou pelo menos ter uma participação, mesmo que mínima, dos grupos defendidos como um todo, além de outras empresas do setor. Mas eu sei que isso é difícil de acontecer também... por isso prefiro ficar na neutralidade.
+
+Ser você é uma pessoa junior, entenda que você é dona(o) da sua carreira. Escolha bem o mercado que vai trabalhar, depois faça uma seleção das empresas desse mercado com os parâmetros que mais lhe agrada. Seja bastante especifica(o) quanto a cultura e formato de trabalho que você quer participar. E aí sim, só depois, procure oportunidades dentro dessa lista selecionada. Não saia atirando para todos os lados nem entre em uma empresa para ficar só um tempo pequeno e depois ir para outra. Se você escolher uma boa empresa, de acordo com os seus parâmetros pessoais, você com certeza vai ficar tempo suficiente dentro da empresa para construir algo importante e a empresa também vai te valorizar por isso. Mas só você vai saber o tempo de investimento que você quer dar para o seu crescimento.
