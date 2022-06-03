@@ -6,21 +6,18 @@ fields:
   label: TITLE
   name: title
   description: titulo do post
-- type: datetime
-  name: date
-  label: Date
-  description: data do post
-  config:
-    date_format: DD/MM/YYYY
-    display_utc: true
-- type: tag_list
-  name: tags
-  label: Tags
 - name: excerpt
   type: text
   config:
     required: false
   label: excerpt
+- type: datetime
+  name: date
+  label: Date
+  description: data do post
+  config:
+    date_format: YYYY-MM-DD
+    display_utc: true
 - name: publishdate
   type: datetime
   label: publishdate
@@ -30,6 +27,9 @@ fields:
     date_format: YYYY-MM-DD
     time_format: 
     display_utc: false
+- type: tag_list
+  name: tags
+  label: Tags
 pages:
 - content/posts/os-apps-da-apple-sao-esmagados-pela-concorrencia.md
 - content/posts/priorizacao-o-grande-problema-de-quem-gere-produtos.md
