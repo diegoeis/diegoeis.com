@@ -10,6 +10,10 @@ tags:
   - produtividade e dados pessoais
   - cotidiano e comportamento
 ---
+
+Esse texto foi publicado ano passado na [minha newsletter](https://diegoeis.com/newsetter/). Se quiser acompanhar mais de perto meus conteúdos, se inscreve lá!
+
+- - -
 Eu tento metrificar **quase tudo** o que eu faço (obviamente só o que não dá trabalho, ou seja, o que dá para ser automatizado). Esta é uma forma de me manter motivado com alguns assuntos além de conhecer um pouco mais dos meus hábitos. Eu escrevo de vez em quando sobre isso aqui na categoria [Produtividade e Dados Pessoais](https://diegoeis.com/tags/produtividade-e-dados-pessoais), onde eu conto um pouco sobre como eu monitoro meus dados e quais os serviços e ferramentas que uso (ou usava) pra fazer isso.
 
 Esse hábito é importante para mim por uma série de motivos:

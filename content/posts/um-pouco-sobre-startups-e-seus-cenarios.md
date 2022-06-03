@@ -10,6 +10,11 @@ tags:
   - gestao e lideranca
   - product management
 ---
+
+Esse texto foi publicado ano passado na [minha newsletter](https://diegoeis.com/newsetter/). Se quiser acompanhar mais de perto meus conteúdos, se inscreve lá!
+
+- - -
+
 Não digo que os PMs são pessoas de negócios, pois se fossem, viveriam em um conflito de interesses eterno. Contudo, os PMs têm uma obrigação de conhecer profundamente o negócio da empresa, entendendo quais as suas fontes de receita, cadeias de valor, concorrentes e posicionamento no mercado. É importante que o PM saiba quais os pontos fracos do negócio, quais os pontos fortes, entenda como ciclos econômicos influenciam a receita e a operação da empresa. Com isso à mesa, gostaria de fazer uma divagação sobre o estado geral das empresas de produtos digitais no mercado, não me apegando a um negócio ou a uma empresa específica, mas sobre como as empresas de produto e tecnologia, sobretudo startups, estão operando atualmente.
 
 ## A Bolha dos anos 2000

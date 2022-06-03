@@ -12,6 +12,11 @@ tags:
   - anotacoes
   - palestras
 ---
+
+Esse texto foi publicado ano passado na [minha newsletter](https://diegoeis.com/newsetter/). Se quiser acompanhar mais de perto meus conteúdos, se inscreve lá!
+
+- - -
+
 No dia 11 de Novembro fiz uma palestra rápida sobre progressão de carreira de gestão de produtos na Trends and Future, um evento feito na Faap, São Paulo. Você pode ver os slides aqui: [Carreira de Product Manager em 18 minutos](https://speakerdeck.com/diegoeis/carreira-de-product-manager-em-18-minutos). E você pode assistir essa minha palestra (e dos outros convidados) [direto aqui, a partir do minuto 1h26m](https://youtu.be/xxrr7CpI570?t=5200):
 
 O tempo era limitado e por isso o deck da apresentação não é tão detalhado. Matei muitas explicações no discurso e por isso alguns slides devem pecar bastante nas informações. Contudo, seguem alguns contextos sobre os slides abaixo:
