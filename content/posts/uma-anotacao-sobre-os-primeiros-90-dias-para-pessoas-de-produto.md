@@ -1,7 +1,10 @@
 +++
 date = 2022-06-03T00:00:00Z
+excerpt = "É uma anotação sobre um assunto bastante amplo, que não tem respostas corretas, mas que pode te ajudar a dar um primeiro passo para construir o seu próprio guia."
+publishdate = 2022-06-03T03:00:00Z
 tags = ["lideranca-e-product-management"]
 title = "Uma anotação sobre os primeiros 90 dias para pessoas de produto"
+type = "post"
 
 +++
 Dizem que os primeiro 90 dias são decisivos para você criar espaço e já começar a entregar os primeiros resultados. A ideia toda em volta desse assunto é que a coisa mais perigosa para uma nova transição é que as pessoas e a empresa podem não reconhecer que há uma diferenciação nessa mudança. Essa transição precisa ser percebida por você e principalmente pelos outros.
