@@ -21,6 +21,15 @@ fields:
   config:
     required: false
   label: excerpt
+- name: publishdate
+  type: datetime
+  label: publishdate
+  description: ''
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
 pages:
 - content/posts/os-apps-da-apple-sao-esmagados-pela-concorrencia.md
 - content/posts/uma-anotacao-sobre-os-primeiros-90-dias-para-pessoas-de-produto.md
