@@ -6,24 +6,6 @@ tags = ["lideranca-e-product-management"]
 title = "Priorização: o grande problema de quem gere produtos"
 
 +++
-#   
-PRIORIZAÇÃO: O GRANDE PROBLEMA DE QUEM GERE PRODUTOS
-
-Para priorizar é necessário bom senso, dados, sensibilidade sobre o negócio e sobre os usuários e principalmente sobre o timing do produto. Priorizar é gerir expectativas e potencializar resultados.
-
-Por [**Diego Eis**](https://productoversee.com/author/diegoeis/)
-
-## Relacionados
-
-* [Do que você tem medo?](https://productoversee.com/do-que-voce-tem-medo/)
-* [Cabo de Guerra na Estratégia de Produtos](https://productoversee.com/cabo-de-guerra-na-estrategia-de-produtos/)
-* [Você não precisa de um curso para ser Product Manager](https://productoversee.com/voce-nao-precisa-de-um-curso-para-ser-product-manager/)
-* [Fazendo as pazes entre analistas de dados e pesquisadores de experiência do usuário](https://productoversee.com/fazendo-as-pazes-entre-analistas-de-dados-e-pesquisadores-de-experiencia-do-usuario/)
-* [O perigo da priorização através da metodologia QBM](https://productoversee.com/o-perigo-da-priorizacao-atraves-da-metodologia-qbm/)
-
-
-* [![Cursos Tera](https://productoversee.com/assets/images/sponsor/tera-banner.png?v=9e949951de)](https://bit.ly/3wuhgTg)
-
 Priorização é difícil. Pra mim o problema atual das pessoas que gerem produtos é priorização. Isso se intensificou muito com a migração enorme de pessoas de outras áreas para Produto, mas tenho identificado esse problema desde quando eu era um Coordenador Técnico e lidava diretamente com PMs.
 
 Priorização é a arma mais importante e essencial da gestão de produtos. Só para citar alguns exemplos, a maioria das pessoas têm dificuldades de lidar com priorizações de:
