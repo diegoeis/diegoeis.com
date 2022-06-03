@@ -4,6 +4,7 @@ excerpt = "Quanto mais você avança na sua carreira profissional, menos feedbac
 publishdate = 2022-06-06T03:00:00Z
 tags = ["lideranca-e-product-management"]
 title = "Feedbacks ficam mais raros conforme você fica mais experiente"
+type = "post"
 
 +++
 _Mais uma das minhas anotações soltas. Dessa vez, fiz essa anotação depois de uma reunião, onde abordamos a capacidade da diretoria receber feedbacks frequentes e como a parceria dos pares nesse sentido era importante. Peer-pressure, face the brutal facts e empatia são essenciais em um nível alto de liderança. Mas isso também se aplica a qualquer outro nível de responsabilidade. Tentei explicar mais ou menos no texto abaixo. Espero feedbacks. ;-)_
