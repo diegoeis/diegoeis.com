@@ -1,11 +1,12 @@
-+++
-date = 2022-06-02T00:00:00Z
-excerpt = "Anotações de uma palestra da Vania Ferrari em Maio de 2022."
-publishdate = 2022-06-02T03:00:00Z
-tags = ["anotacoes", "lideranca-e-product-management"]
-title = "Anotações Vânia Ferrari e Liderança"
+---
+date: 2022-06-02
+type: post
+excerpt: "Anotações de uma palestra da Vania Ferrari em Maio de 2022."
+publishdate: 2022-06-02
+tags: anotacoes, lideranca-e-product-management, palestras
+title: "Anotações Vânia Ferrari e Liderança"
+---
 
-+++
 Mais uma anotação bem solta, sem editar nem, corrigir qualquer coisa. Mandando aqui para vocês conseguirem degustar a maravilha palestra sobre liderança que ouvi da Vânia Ferrari.
 
 ***
