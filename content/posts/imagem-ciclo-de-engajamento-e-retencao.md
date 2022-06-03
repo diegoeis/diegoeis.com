@@ -1,13 +1,14 @@
 ---
 type: post
-title: "Imagem: ciclo de engajamento e retenção"
+title: Ciclo de engajamento e retenção
 excerpt: Só um pensamento rápido e rasteiro sobre ciclo de engajamento e retenção
 date: 2022-01-25
 publishdate: 2022-01-25 00:00
 image: https://i.imgur.com/A5KK0pj.png
 tags:
-  - product management
-  - anotacoes
+- product management
+- anotacoes
+
 ---
 Esse texto foi publicado ano passado na [minha newsletter](https://diegoeis.com/newsetter/). Se quiser acompanhar mais de perto meus conteúdos, se inscreve lá!
 
