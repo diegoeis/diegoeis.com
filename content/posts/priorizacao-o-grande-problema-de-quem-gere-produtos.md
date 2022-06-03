@@ -4,6 +4,7 @@ excerpt = "Para priorizar é necessário bom senso, dados, sensibilidade sobre o
 publishdate = 2022-06-17T03:00:00Z
 tags = ["lideranca-e-product-management"]
 title = "Priorização: o grande problema de quem gere produtos"
+type = "post"
 
 +++
 Priorização é difícil. Pra mim o problema atual das pessoas que gerem produtos é priorização. Isso se intensificou muito com a migração enorme de pessoas de outras áreas para Produto, mas tenho identificado esse problema desde quando eu era um Coordenador Técnico e lidava diretamente com PMs.

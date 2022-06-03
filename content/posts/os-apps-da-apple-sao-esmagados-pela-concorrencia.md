@@ -4,6 +4,7 @@ excerpt = "Os apps da Apple são pouco utilizados no mundo inteiro. Não por que
 publishdate = 2022-06-10T03:00:00Z
 tags = ["tecnologia"]
 title = "Os apps da Apple são esmagados pela concorrência"
+type = "post"
 
 +++
 Pelo menos é isso que um estudo apoiado pela própria Apple mostrou aqui: [The Success of Third-Party Apps on the App Store (apple.com)](https://www.apple.com/newsroom/pdfs/the-success-of-third-party-apps-on-the-app-store.pdf)
