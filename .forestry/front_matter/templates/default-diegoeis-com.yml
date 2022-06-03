@@ -16,3 +16,5 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+pages:
+- content/posts/uma-anotacao-sobre-os-primeiros-90-dias-para-pessoas-de-produto.md
