@@ -16,6 +16,11 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- name: excerpt
+  type: text
+  config:
+    required: false
+  label: excerpt
 pages:
 - content/posts/os-apps-da-apple-sao-esmagados-pela-concorrencia.md
 - content/posts/uma-anotacao-sobre-os-primeiros-90-dias-para-pessoas-de-produto.md
