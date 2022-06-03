@@ -1,5 +1,5 @@
 +++
-date = 2022-06-03T00:00:00Z
+date = 2022-06-02T00:00:00Z
 excerpt = "Anotações de uma palestra da Vania Ferrari em Maio de 2022."
 publishdate = 2022-06-02T03:00:00Z
 tags = ["anotacoes", "lideranca-e-product-management"]
