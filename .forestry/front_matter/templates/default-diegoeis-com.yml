@@ -30,6 +30,13 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  hidden: false
+  default: post
 pages:
 - content/posts/anotacoes-vania-ferrari-e-lideranca.md
 - content/posts/feedbacks-ficam-mais-raros-conforme-voce-fica-mais-experiente.md
