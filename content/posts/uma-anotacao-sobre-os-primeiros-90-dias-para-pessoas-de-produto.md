@@ -1,6 +1,5 @@
 +++
 date = 2022-06-03T00:00:00Z
-draft = true
 tags = ["lideranca-e-product-management"]
 title = "Uma anotação sobre os primeiros 90 dias para pessoas de produto"
 
