@@ -11,7 +11,7 @@ type: page
 
 ## TL: DR;
 
-Me chamo Diego Eis e trabalho com internet e tecnologia há 21 anos. Atualmente sou Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/) e já passei pela Locaweb, NuInvest e Neon. Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com) e fundador da [PM Letter](https://productoversee.com/newsletter/).
+Me chamo Diego Eis e trabalho com internet e tecnologia há 21 anos. Fui Diretor de Produtos Digitais na [Sympla](https://sympla.com.br). Antes fui Diretor de Produtos Digitais na [Jüssi](https://jussi.com.br/) e já passei pela Locaweb, NuInvest e Neon. Sou autor do livro [Gestão Moderna de Produtos Digitais](https://gestaomodernaprodutosdigitais.com/) e co-criador do [Product Oversee](https://productoversee.com) e fundador da [PM Letter](https://productoversee.com/newsletter/).
 
 Eu escre o textos sobre construção de produtos digitais e assuntos relacionados que eu tenho estudado. Uma vez por semana eu [envio uma newsletter](https://diegoeis.com/newsletter/) para mais de 1100 assinantes, além de fazer palestras sobre essas ideias para empresas e eventos.
 

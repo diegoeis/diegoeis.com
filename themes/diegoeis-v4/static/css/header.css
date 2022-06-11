@@ -10,7 +10,6 @@
 .eis-menu-on body {
   overflow: hidden;
 }
-
   
 .eis-menu-on .eis-showmenu nav {opacity: 0; transition: opacity linear .1s;}
 
@@ -85,10 +84,10 @@ h1.eis-logo a {
 .eis-menu-items a {
   color:  #000;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 1.5rem;
   display: block;
   font-weight: 900;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .eis-menu-support {
