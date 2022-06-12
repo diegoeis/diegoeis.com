@@ -15,7 +15,7 @@ Eles mediram o engajamento baseado no tempo gasto nos aplicativos ou pelo númer
 
 Esse report analisa os aplicativos da Apple os apps de terceiros feitos mais populares e de vários tipos, quebrando por região e também os que melhor performaram de forma global, além das análises de diversos canais e tipos de consumo, não apenas mobile, mas TV, filmes, música e comunicação.
 
-![Pasted image 20220419214547.png](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/Pasted-image-20220419214547.png =2510x1782)
+![](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/Pasted-image-20220419214547.png)
 
 Faz muito sentido você ler o relatório, pelo simples fato absorver dados incríveis sobre diversos mercados e comportamento de usuário e seus dispositivos + consumo de conteúdo.
 
@@ -27,9 +27,9 @@ Alguns highlights:
 * Há apenas um país, e apenas uma categoria, que um app da Apple é bastante utilizado: é o Apple Music, no Japão, com 55% de uso;
 * Os usuários, geralmente, utilizam vários apps dentro de uma mesma categoria, principalmente apps de comunicação. Eu mesmo uso o Telegram e Whatsapp, além de Slack. Para apps de vídeo, nem se fala, tenho vários instalados.
 
-![Pasted image 20220419214845.png](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/Pasted-image-20220419214845.png =3072x1778)
+![](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/Pasted-image-20220419214845.png)
 
-![Pasted image 20220419214855.png](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/Pasted-image-20220419214855.png =3004x1742)
+![](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/Pasted-image-20220419214855.png)
 
 Eles detalharam bastante a metodologia utilizada. Como disse no início, eles não levaram em consideração para os estudos a quantidade de downloads... Mas eles comentaram que a quantidade de downloads é útil para medir o quanto é fácil e o quanto os usuários testam apps diferentes dentro de uma mesma categoria.
 
@@ -48,7 +48,5 @@ Tempo de uso para mim é uma das métricas mais importantes quando falamos de pr
 * O outro tipo é o que você percebe que o usuário está realmente utilizando aquela funcionalidade mais core do seu produto. A funcionalidade que resume o valor que o seu produto entrega: a pessoa está ouvindo, lendo, postando, assistindo... Ela pode até não "usar" extensivamente seu produto, mas ela está realmente "usando" o que é de principal e mais relevante do seu produto. É aqui que você quer chegar.
 
 Já falei um pouco sobre [**engajamento e retenção aqui**](https://diegoeis.com/sobre-engajamento-produtos-digitais/). Entendendo isso, você entende como seu produto gera valor pro negócio e sabe exatamente quais indicadores medir e sabendo quais indicadores medir, você sabe quais as alavancas você precisa potencializar. E vai descobrir que poucas coisas são relevantes. Aí fica simples de priorizar, argumentar, ser data-driven.
-
-[![refs-assets-product-managers - Frame 5.jpg](https://digitalpress.fra1.cdn.digitaloceanspaces.com/626zwnl/2022/04/refs-assets-product-managers---Frame-5.jpg =2534x1578)](https://miro.com/app/board/o9J_lf2HMtA=/?moveToWidget=3458764515599116336&cot=14)Link original no meu miro aberto [https://miro.com/app/board/o9J_lf2HMtA=/?moveToWidget=3458764515599116336&cot=14](https://miro.com/app/board/o9J_lf2HMtA=/?moveToWidget=3458764515599116336&cot=14 "https://miro.com/app/board/o9J_lf2HMtA=/?moveToWidget=3458764515599116336&cot=14")
 
 Você pode ver o estudo completo nesse PDF que a própria Apple disponibilizou: [The Success of Third-Party Apps on the App Store (apple.com)](https://www.apple.com/newsroom/pdfs/the-success-of-third-party-apps-on-the-app-store.pdf)
