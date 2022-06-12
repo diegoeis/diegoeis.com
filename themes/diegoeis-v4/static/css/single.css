@@ -1,6 +1,6 @@
 .eis-text {
 	padding: 0 var(--spaceDefault);
-  max-width: 1250px;
+  max-width: 900px;
   margin: 0 auto 100px;
 }
 
@@ -16,7 +16,6 @@
   padding: 0 var(--spaceDefault) 70px;
   max-width: 1250px;
 }
-
 
 .eis-post-header > div {
   /*border-top:  1px solid rgba(0, 0, 0, 1);*/
