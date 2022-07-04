@@ -39,6 +39,7 @@ fields:
   default: post
 pages:
 - content/posts/anotacoes-vania-ferrari-e-lideranca.md
+- content/posts/as-responsabilidades-dos-pms-na-estimativa-e-previsibilidade-das-entregas.md
 - content/posts/feedbacks-ficam-mais-raros-conforme-voce-fica-mais-experiente.md
 - content/posts/nunca-e-so-sobre-tecnologia.md
 - content/posts/os-apps-da-apple-sao-esmagados-pela-concorrencia.md
